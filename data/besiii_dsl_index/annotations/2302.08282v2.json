@@ -1,0 +1,259 @@
+{
+ "paper_id": "2302.08282v2",
+ "source_path": "arxiv_papers/2302.08282v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 367,
+ "n_lines_sent": 181,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 74,
+   "to": 74,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 314,
+   "to": 367,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 82,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 84,
+   "line_end": 84,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 86,
+   "line_end": 120,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 122,
+   "line_end": 126,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 128,
+   "line_end": 186,
+   "type": "event_selection",
+   "title": "III. ANALYSIS OF THE DECAY η → π+π−π0",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 130,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 136,
+     "line_end": 150,
+     "label": "fit_method"
+    },
+    {
+     "line_start": 152,
+     "line_end": 158,
+     "label": "fit_results"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "charge_conjugation_test"
+    },
+    {
+     "line_start": 162,
+     "line_end": 174,
+     "label": "cubic_term_fit"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "higher_order_terms"
+    },
+    {
+     "line_start": 178,
+     "line_end": 186,
+     "label": "asymmetries"
+    }
+   ]
+  },
+  {
+   "line_start": 188,
+   "line_end": 229,
+   "type": "event_selection",
+   "title": "IV. ANALYSIS OF THE DECAY η → π0π0π0",
+   "units": [
+    {
+     "line_start": 188,
+     "line_end": 190,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 196,
+     "line_end": 202,
+     "label": "slope_parameter_fit"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "higher_order_terms"
+    },
+    {
+     "line_start": 206,
+     "line_end": 229,
+     "label": "cusp_effect_search"
+    }
+   ]
+  },
+  {
+   "line_start": 231,
+   "line_end": 249,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 231,
+     "line_end": 233,
+     "label": "overview"
+    },
+    {
+     "line_start": 235,
+     "line_end": 235,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "efficiency_binning"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "photon_miscombination"
+    },
+    {
+     "line_start": 245,
+     "line_end": 245,
+     "label": "resolution"
+    },
+    {
+     "line_start": 247,
+     "line_end": 247,
+     "label": "summary"
+    },
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "asymmetries"
+    }
+   ]
+  },
+  {
+   "line_start": 251,
+   "line_end": 267,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 269,
+   "line_end": 273,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 275,
+   "line_end": 312,
+   "type": "other",
+   "title": "Appendix: Acceptance corrected data"
+  }
+ ],
+ "tables": [
+  {
+   "line": 156,
+   "title": "Correlation matrix for fit parameters a, b, d, f",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 172,
+   "title": "Correlation matrix for fit parameters a, b, d, f, g",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 265,
+   "title": "Relative systematic uncertainties of matrix elements and asymmetries",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 286,
+   "title": "Experimental asymmetries in the Dalitz plot of η → π+π−π0 decays",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 298,
+   "title": "Correlation matrix for acceptance-corrected fit parameters a, b, d, f",
+   "section_type": "other"
+  },
+  {
+   "line": 304,
+   "title": "Correlation matrix for acceptance-corrected fit parameters a, b, d, f, g",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

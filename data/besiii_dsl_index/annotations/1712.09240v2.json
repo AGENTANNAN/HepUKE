@@ -1,0 +1,211 @@
+{
+ "paper_id": "1712.09240v2",
+ "source_path": "arxiv_papers/1712.09240v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 389,
+ "n_lines_sent": 216,
+ "skipped_ranges": [
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 84,
+   "to": 84,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 97,
+   "to": 97,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 121,
+   "to": 121,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 328,
+   "to": 389,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 129,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, abstract, PACS"
+  },
+  {
+   "line_start": 131,
+   "line_end": 143,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 145,
+   "line_end": 153,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SAMPLES"
+  },
+  {
+   "line_start": 155,
+   "line_end": 169,
+   "type": "event_selection",
+   "title": "III. e+e- -> phi chi_c1 AND phi chi_c2, A. Event Selection",
+   "units": [
+    {
+     "line_start": 155,
+     "line_end": 161,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 171,
+   "line_end": 215,
+   "type": "fit",
+   "title": "III. B. Cross Sections"
+  },
+  {
+   "line_start": 217,
+   "line_end": 247,
+   "type": "event_selection",
+   "title": "IV. e+e- -> phi chi_c0, A. Event Selection",
+   "units": [
+    {
+     "line_start": 217,
+     "line_end": 233,
+     "label": "chi_c0_to_pi+pi-/K+K-"
+    },
+    {
+     "line_start": 235,
+     "line_end": 239,
+     "label": "chi_c0_to_pi+pi-pi+pi-"
+    },
+    {
+     "line_start": 241,
+     "line_end": 247,
+     "label": "chi_c0_to_K+K-pi+pi-"
+    }
+   ]
+  },
+  {
+   "line_start": 249,
+   "line_end": 257,
+   "type": "fit",
+   "title": "IV. B. Cross Section"
+  },
+  {
+   "line_start": 259,
+   "line_end": 274,
+   "type": "fit",
+   "title": "V. e+e- -> gamma X(4140)"
+  },
+  {
+   "line_start": 276,
+   "line_end": 312,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 276,
+     "line_end": 278,
+     "label": "overview"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "tracking_pid_photon"
+    },
+    {
+     "line_start": 282,
+     "line_end": 282,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 284,
+     "line_end": 302,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 304,
+     "line_end": 306,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 308,
+     "line_end": 308,
+     "label": "luminosity_branching_fraction"
+    },
+    {
+     "line_start": 310,
+     "line_end": 310,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 312,
+     "line_end": 312,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 314,
+   "line_end": 322,
+   "type": "conclusion",
+   "title": "VII. RESULTS AND DISCUSSION"
+  },
+  {
+   "line_start": 324,
+   "line_end": 326,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 229,
+   "title": "Efficiencies, radiative correction, signal yields and Born cross sections",
+   "section_type": "fit"
+  },
+  {
+   "line": 389,
+   "title": "Relative systematic uncertainties of Born cross sections",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

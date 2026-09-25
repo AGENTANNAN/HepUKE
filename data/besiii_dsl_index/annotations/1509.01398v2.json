@@ -1,0 +1,289 @@
+{
+ "paper_id": "1509.01398v2",
+ "source_path": "arxiv_papers/1509.01398v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 279,
+ "n_lines_sent": 102,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 203,
+   "to": 279,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 13,
+   "line_end": 13,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 17,
+   "line_end": 18,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 24,
+   "line_end": 24,
+   "type": "front_matter",
+   "title": "Collaboration"
+  },
+  {
+   "line_start": 33,
+   "line_end": 33,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 35,
+   "line_end": 35,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 37,
+   "line_end": 43,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 45,
+   "line_end": 49,
+   "type": "detector",
+   "title": "II. EXPERIMENT AND DATA SAMPLE"
+  },
+  {
+   "line_start": 51,
+   "line_end": 81,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 51,
+     "line_end": 53,
+     "label": "tracking"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 59,
+     "line_end": 61,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "d_meson_reconstruction"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 67,
+     "line_end": 68,
+     "label": "figure1"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "ddstar_selection"
+    },
+    {
+     "line_start": 72,
+     "line_end": 81,
+     "label": "background_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 83,
+   "line_end": 156,
+   "type": "fit",
+   "title": "IV. SIGNAL EXTRACTION"
+  },
+  {
+   "line_start": 158,
+   "line_end": 185,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "overview"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "beam_energy"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "mass_calibration"
+    },
+    {
+     "line_start": 166,
+     "line_end": 167,
+     "label": "figure6"
+    },
+    {
+     "line_start": 169,
+     "line_end": 171,
+     "label": "table1"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "luminosity_radiative_vacuum"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "zc4020_signal"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "signal_region_dt"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "efficiency_related"
+    }
+   ]
+  },
+  {
+   "line_start": 187,
+   "line_end": 193,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 195,
+   "line_end": 197,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 199,
+   "line_end": 201,
+   "type": "systematic_uncertainty",
+   "title": "TABLE II. Summary of systematic uncertainties"
+  }
+ ],
+ "tables": [
+  {
+   "line": 171,
+   "title": "Born cross sections times branching fraction",
+   "section_type": "fit"
+  },
+  {
+   "line": 201,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 259,
+   "title": "Signal efficiencies epsilon_ij",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 263,
+   "title": "Signal efficiencies epsilon_ij alpha",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 267,
+   "title": "Signal efficiencies epsilon_ij beta",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 271,
+   "title": "Systematic uncertainties for signal efficiency",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 275,
+   "title": "Systematic uncertainties for signal efficiency",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 279,
+   "title": "Systematic uncertainties for signal efficiency",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 199-201 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

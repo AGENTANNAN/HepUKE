@@ -1,0 +1,207 @@
+{
+ "paper_id": "2208.10098v1",
+ "source_path": "arxiv_papers/2208.10098v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 339,
+ "n_lines_sent": 175,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 305,
+   "to": 339,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 44,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 49,
+   "line_end": 49,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 51,
+   "line_end": 57,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 59,
+   "line_end": 113,
+   "type": "other",
+   "title": "II. MEASUREMENT METHOD"
+  },
+  {
+   "line_start": 115,
+   "line_end": 123,
+   "type": "detector",
+   "title": "III. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 125,
+   "line_end": 178,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION AND YIELD DETERMINATION",
+   "units": [
+    {
+     "line_start": 125,
+     "line_end": 135,
+     "label": "tag_categories"
+    },
+    {
+     "line_start": 137,
+     "line_end": 145,
+     "label": "basic_event_selection"
+    },
+    {
+     "line_start": 147,
+     "line_end": 164,
+     "label": "st_event_selection"
+    },
+    {
+     "line_start": 166,
+     "line_end": 178,
+     "label": "dt_event_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 180,
+   "line_end": 254,
+   "type": "fit",
+   "title": "V. CP-EVEN FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 256,
+   "line_end": 275,
+   "type": "systematic_uncertainty",
+   "title": "D. Assignment of systematic uncertainties",
+   "units": [
+    {
+     "line_start": 256,
+     "line_end": 260,
+     "label": "st_dt_yields"
+    },
+    {
+     "line_start": 261,
+     "line_end": 269,
+     "label": "efficiency_factorization"
+    },
+    {
+     "line_start": 270,
+     "line_end": 271,
+     "label": "f_pi_pi_pi0"
+    },
+    {
+     "line_start": 272,
+     "line_end": 273,
+     "label": "k_c_parameters"
+    },
+    {
+     "line_start": 274,
+     "line_end": 275,
+     "label": "ks_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 277,
+   "line_end": 283,
+   "type": "results",
+   "title": "E. Combination of results",
+   "units": [
+    {
+     "line_start": 277,
+     "line_end": 283,
+     "label": "combination"
+    }
+   ]
+  },
+  {
+   "line_start": 285,
+   "line_end": 295,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 297,
+   "line_end": 299,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 301,
+   "line_end": 303,
+   "type": "other",
+   "title": "APPENDIX: EFFICIENCY MATRICES"
+  }
+ ],
+ "tables": [
+  {
+   "line": 133,
+   "title": "Summary of tag channels",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 178,
+   "title": "Summary of Delta E requirements, ST and DT yields",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 267,
+   "title": "Summary of systematic contributions for F+4pi",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 283,
+   "title": "Summary of F+4pi results and combination",
+   "section_type": "results"
+  },
+  {
+   "line": 339,
+   "title": "Efficiency matrix for pi+pi-pi+pi- vs KS,L pi+pi-",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

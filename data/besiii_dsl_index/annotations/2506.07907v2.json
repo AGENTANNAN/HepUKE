@@ -1,0 +1,431 @@
+{
+ "paper_id": "2506.07907v2",
+ "source_path": "arxiv_papers/2506.07907v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 499,
+ "n_lines_sent": 257,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 464,
+   "to": 499,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 48,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 50,
+   "line_end": 50,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 52,
+   "line_end": 96,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 98,
+   "line_end": 104,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR, SIMULATION AND DATA SAMPLES"
+  },
+  {
+   "line_start": 106,
+   "line_end": 175,
+   "type": "event_selection",
+   "title": "III. SELECTION REQUIREMENTS",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 108,
+     "label": "overview"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "tracking"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "flight_distance"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "best_candidate"
+    },
+    {
+     "line_start": 120,
+     "line_end": 126,
+     "label": "missing_energy"
+    },
+    {
+     "line_start": 128,
+     "line_end": 143,
+     "label": "recoil_mass"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "cross_feed"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "backgrounds"
+    },
+    {
+     "line_start": 149,
+     "line_end": 155,
+     "label": "missing_mass"
+    },
+    {
+     "line_start": 157,
+     "line_end": 167,
+     "label": "dstar_selection"
+    },
+    {
+     "line_start": 169,
+     "line_end": 175,
+     "label": "efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 177,
+   "line_end": 275,
+   "type": "results",
+   "title": "IV. DEMONSTRATION OF QUANTUM COHERENCE",
+   "units": [
+    {
+     "line_start": 177,
+     "line_end": 179,
+     "label": "coherence_parameter"
+    },
+    {
+     "line_start": 181,
+     "line_end": 187,
+     "label": "cp_eigenstates"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "final_states"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "kpi_vs_kpi"
+    },
+    {
+     "line_start": 193,
+     "line_end": 194,
+     "label": "figure2"
+    },
+    {
+     "line_start": 196,
+     "line_end": 197,
+     "label": "figure3"
+    },
+    {
+     "line_start": 199,
+     "line_end": 200,
+     "label": "figure4"
+    },
+    {
+     "line_start": 202,
+     "line_end": 204,
+     "label": "table3"
+    },
+    {
+     "line_start": 206,
+     "line_end": 208,
+     "label": "table4"
+    },
+    {
+     "line_start": 210,
+     "line_end": 214,
+     "label": "mixing_enhancement"
+    },
+    {
+     "line_start": 216,
+     "line_end": 220,
+     "label": "yield_fits"
+    },
+    {
+     "line_start": 222,
+     "line_end": 238,
+     "label": "cross_feed_correction"
+    },
+    {
+     "line_start": 240,
+     "line_end": 260,
+     "label": "coherence_fit"
+    },
+    {
+     "line_start": 262,
+     "line_end": 267,
+     "label": "systematics_in_fit"
+    },
+    {
+     "line_start": 269,
+     "line_end": 271,
+     "label": "table6"
+    },
+    {
+     "line_start": 273,
+     "line_end": 275,
+     "label": "results"
+    }
+   ]
+  },
+  {
+   "line_start": 277,
+   "line_end": 385,
+   "type": "fit",
+   "title": "V. MEASUREMENT OF δ_Kπ^D"
+  },
+  {
+   "line_start": 387,
+   "line_end": 409,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 387,
+     "line_end": 389,
+     "label": "ci_si_inputs"
+    },
+    {
+     "line_start": 391,
+     "line_end": 391,
+     "label": "ki_inputs"
+    },
+    {
+     "line_start": 393,
+     "line_end": 393,
+     "label": "isr_cross_sections"
+    },
+    {
+     "line_start": 395,
+     "line_end": 395,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 397,
+     "line_end": 397,
+     "label": "anti_correlated_background"
+    },
+    {
+     "line_start": 399,
+     "line_end": 399,
+     "label": "resolution"
+    },
+    {
+     "line_start": 401,
+     "line_end": 401,
+     "label": "ks0pi0_background"
+    },
+    {
+     "line_start": 403,
+     "line_end": 403,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 405,
+     "line_end": 405,
+     "label": "other_negligible"
+    },
+    {
+     "line_start": 407,
+     "line_end": 409,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 411,
+   "line_end": 423,
+   "type": "results",
+   "title": "VII. EXTRACTING δ_Kπ^D",
+   "units": [
+    {
+     "line_start": 411,
+     "line_end": 415,
+     "label": "combination"
+    },
+    {
+     "line_start": 417,
+     "line_end": 419,
+     "label": "table9"
+    },
+    {
+     "line_start": 421,
+     "line_end": 423,
+     "label": "table10"
+    }
+   ]
+  },
+  {
+   "line_start": 425,
+   "line_end": 440,
+   "type": "results",
+   "title": "VIII. BESIII COMBINATION",
+   "units": [
+    {
+     "line_start": 425,
+     "line_end": 440,
+     "label": "combination"
+    }
+   ]
+  },
+  {
+   "line_start": 442,
+   "line_end": 450,
+   "type": "conclusion",
+   "title": "IX. OUTLOOK AND SUMMARY"
+  },
+  {
+   "line_start": 452,
+   "line_end": 454,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 456,
+   "line_end": 462,
+   "type": "other",
+   "title": "APPENDIX: BESIII CORRELATION MATRIX"
+  }
+ ],
+ "tables": [
+  {
+   "line": 68,
+   "title": "Production mechanisms and C eigenvalues",
+   "section_type": "introduction"
+  },
+  {
+   "line": 173,
+   "title": "Selection criteria for production mechanisms",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 204,
+   "title": "Efficiency matrix",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 208,
+   "title": "Double CP-eigenstate decays",
+   "section_type": "results"
+  },
+  {
+   "line": 236,
+   "title": "Observed yields for double CP-eigenstate decays",
+   "section_type": "results"
+  },
+  {
+   "line": 271,
+   "title": "Measured coherence parameters",
+   "section_type": "results"
+  },
+  {
+   "line": 359,
+   "title": "Observed signal yields for CP eigenstates",
+   "section_type": "fit"
+  },
+  {
+   "line": 409,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 419,
+   "title": "Measured observables",
+   "section_type": "results"
+  },
+  {
+   "line": 423,
+   "title": "Correlations between systematic uncertainties",
+   "section_type": "results"
+  },
+  {
+   "line": 462,
+   "title": "Correlation matrix with Ref. [5]",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

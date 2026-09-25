@@ -1,0 +1,194 @@
+{
+ "paper_id": "2310.03361v1",
+ "source_path": "arxiv_papers/2310.03361v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 326,
+ "n_lines_sent": 176,
+ "skipped_ranges": [
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 85,
+   "to": 91,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 264,
+   "to": 326,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 93,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 95,
+   "line_end": 95,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 97,
+   "line_end": 105,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 107,
+   "line_end": 115,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 117,
+   "line_end": 128,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 117,
+     "line_end": 119,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 125,
+     "line_end": 128,
+     "label": "mass_windows_and_sidebands"
+    }
+   ]
+  },
+  {
+   "line_start": 130,
+   "line_end": 140,
+   "type": "fit",
+   "title": "IV. CROSS SECTION MEASUREMENT"
+  },
+  {
+   "line_start": 142,
+   "line_end": 176,
+   "type": "fit",
+   "title": "V. FIT TO THE CROSS SECTION"
+  },
+  {
+   "line_start": 178,
+   "line_end": 196,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 178,
+     "line_end": 182,
+     "label": "cross_section_systematics"
+    },
+    {
+     "line_start": 184,
+     "line_end": 185,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 187,
+     "line_end": 189,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 191,
+     "line_end": 192,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 194,
+     "line_end": 196,
+     "label": "resonance_parameter_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 198,
+   "line_end": 208,
+   "type": "conclusion",
+   "title": "VII. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 210,
+   "line_end": 217,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 219,
+   "line_end": 263,
+   "type": "other",
+   "title": "Appendices"
+  },
+  {
+   "line_start": 264,
+   "line_end": 326,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 189,
+   "title": "Results of the fits to the e+e- -> eta J/psi cross sections",
+   "section_type": "fit"
+  },
+  {
+   "line": 206,
+   "title": "Systematic uncertainties of resonance parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 255,
+   "title": "Summary of Born cross sections and related quantities",
+   "section_type": "other"
+  },
+  {
+   "line": 261,
+   "title": "Relative systematic uncertainties in the Born cross section measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

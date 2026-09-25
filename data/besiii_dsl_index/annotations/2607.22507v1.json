@@ -1,0 +1,211 @@
+{
+ "paper_id": "2607.22507v1",
+ "source_path": "arxiv_papers/2607.22507v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 408,
+ "n_lines_sent": 49,
+ "skipped_ranges": [
+  {
+   "from": 86,
+   "to": 408,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Measurement of Born cross section for e+e- -> K0S Xi-+ Sigma- + c.c. at sqrt(s) = 3.51-4.95 GeV"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 7,
+   "line_end": 9,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 11,
+   "line_end": 11,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 13,
+   "line_end": 26,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 13,
+     "line_end": 13,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 15,
+     "line_end": 15,
+     "label": "ks0_and_lambda_reconstruction"
+    },
+    {
+     "line_start": 17,
+     "line_end": 18,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 20,
+     "line_end": 26,
+     "label": "xi_reconstruction_and_recoil_mass"
+    }
+   ]
+  },
+  {
+   "line_start": 28,
+   "line_end": 28,
+   "type": "fit",
+   "title": "Signal yield extraction"
+  },
+  {
+   "line_start": 30,
+   "line_end": 41,
+   "type": "results",
+   "title": "Born cross section measurement",
+   "units": [
+    {
+     "line_start": 30,
+     "line_end": 38,
+     "label": "born_cross_section_formula"
+    },
+    {
+     "line_start": 40,
+     "line_end": 41,
+     "label": "figure_2"
+    }
+   ]
+  },
+  {
+   "line_start": 43,
+   "line_end": 45,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "ks0_xi_reconstruction"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "model_dependence"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "input_lineshape"
+    }
+   ]
+  },
+  {
+   "line_start": 47,
+   "line_end": 69,
+   "type": "fit",
+   "title": "Fit to dressed cross sections"
+  },
+  {
+   "line_start": 71,
+   "line_end": 73,
+   "type": "results",
+   "title": "Fitted resonance parameters",
+   "units": [
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "table_i"
+    }
+   ]
+  },
+  {
+   "line_start": 75,
+   "line_end": 80,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 82,
+   "line_end": 82,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 84,
+   "line_end": 84,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 73,
+   "title": "Fitted resonance parameters for two solutions",
+   "section_type": "results"
+  },
+  {
+   "line": 234,
+   "title": "Born cross sections for 56 energy points",
+   "section_type": "results"
+  },
+  {
+   "line": 238,
+   "title": "Fitted resonance parameters with two solutions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 43-45 share boundary line 43",
+  "units of 43-45 share boundary line 43",
+  "units of 43-45 share boundary line 45",
+  "units of 43-45 share boundary line 45",
+  "units of 43-45 share boundary line 45"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

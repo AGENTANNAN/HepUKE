@@ -1,0 +1,201 @@
+{
+ "paper_id": "1910.13097v1",
+ "source_path": "arxiv_papers/1910.13097v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 327,
+ "n_lines_sent": 188,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 142,
+   "to": 142,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 303,
+   "to": 327,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 146,
+   "type": "front_matter",
+   "title": "Search for the decay D_s^+ -> p pbar e^+ nu_e"
+  },
+  {
+   "line_start": 147,
+   "line_end": 148,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 150,
+   "line_end": 172,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 174,
+   "line_end": 180,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 182,
+   "line_end": 236,
+   "type": "event_selection",
+   "title": "III. ANALYSIS METHOD",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 190,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 192,
+     "line_end": 207,
+     "label": "st_analysis"
+    },
+    {
+     "line_start": 209,
+     "line_end": 211,
+     "label": "st_yields_table"
+    },
+    {
+     "line_start": 213,
+     "line_end": 236,
+     "label": "dt_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 238,
+   "line_end": 269,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 238,
+     "line_end": 245,
+     "label": "overview"
+    },
+    {
+     "line_start": 247,
+     "line_end": 247,
+     "label": "st_fit_yields"
+    },
+    {
+     "line_start": 249,
+     "line_end": 253,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 255,
+     "line_end": 257,
+     "label": "mm2_requirement"
+    },
+    {
+     "line_start": 259,
+     "line_end": 261,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 263,
+     "line_end": 269,
+     "label": "background_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 271,
+   "line_end": 296,
+   "type": "conclusion",
+   "title": "V. RESULT AND SUMMARY"
+  },
+  {
+   "line_start": 298,
+   "line_end": 300,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 302,
+   "line_end": 302,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 211,
+   "title": "Summary of N_ST, epsilon_ST and epsilon_DT for the tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 269,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

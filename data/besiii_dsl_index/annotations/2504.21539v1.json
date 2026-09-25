@@ -1,0 +1,252 @@
+{
+ "paper_id": "2504.21539v1",
+ "source_path": "arxiv_papers/2504.21539v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 300,
+ "n_lines_sent": 139,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 67,
+   "to": 67,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 253,
+   "to": 300,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 113,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 115,
+   "line_end": 115,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 117,
+   "line_end": 134,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 136,
+   "line_end": 140,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 142,
+   "line_end": 156,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 150,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "pid"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "photon_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 158,
+   "line_end": 186,
+   "type": "fit",
+   "title": "A. Analysis of ω → π+π−π0"
+  },
+  {
+   "line_start": 188,
+   "line_end": 209,
+   "type": "event_selection",
+   "title": "B. Analysis of ω → π+π+e−e−",
+   "units": [
+    {
+     "line_start": 188,
+     "line_end": 190,
+     "label": "signal_channel_selection"
+    },
+    {
+     "line_start": 192,
+     "line_end": 193,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "signal_region"
+    },
+    {
+     "line_start": 199,
+     "line_end": 206,
+     "label": "data_mc_comparison"
+    },
+    {
+     "line_start": 208,
+     "line_end": 209,
+     "label": "figure_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 211,
+   "line_end": 225,
+   "type": "systematic_uncertainty",
+   "title": "C. Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 211,
+     "line_end": 213,
+     "label": "overview"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "pi0_reconstruction_kinematic_fit_signal_window"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "fit_shapes"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "normalization_input_bf"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 227,
+   "line_end": 239,
+   "type": "results",
+   "title": "IV. RESULT",
+   "units": [
+    {
+     "line_start": 227,
+     "line_end": 229,
+     "label": "upper_limit_signal_yield"
+    },
+    {
+     "line_start": 231,
+     "line_end": 233,
+     "label": "systematic_table"
+    },
+    {
+     "line_start": 235,
+     "line_end": 239,
+     "label": "branching_fraction_upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 241,
+   "line_end": 243,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 245,
+   "line_end": 251,
+   "type": "acknowledgements",
+   "title": "VI. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 233,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

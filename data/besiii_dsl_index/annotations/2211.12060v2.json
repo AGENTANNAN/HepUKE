@@ -1,0 +1,282 @@
+{
+ "paper_id": "2211.12060v2",
+ "source_path": "arxiv_papers/2211.12060v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 290,
+ "n_lines_sent": 169,
+ "skipped_ranges": [
+  {
+   "from": 76,
+   "to": 76,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 91,
+   "to": 94,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 96,
+   "to": 98,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 253,
+   "to": 290,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 100,
+   "type": "front_matter",
+   "title": "Search for hidden-charm tetraquark with strangeness"
+  },
+  {
+   "line_start": 102,
+   "line_end": 106,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 108,
+   "line_end": 114,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 116,
+   "line_end": 118,
+   "type": "detector",
+   "title": "2 BESIII detector"
+  },
+  {
+   "line_start": 120,
+   "line_end": 122,
+   "type": "dataset",
+   "title": "3 Monte Carlo simulation"
+  },
+  {
+   "line_start": 124,
+   "line_end": 154,
+   "type": "event_selection",
+   "title": "4 Event selection",
+   "units": [
+    {
+     "line_start": 124,
+     "line_end": 126,
+     "label": "partial_reconstruction_tag_modes"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "ks0_selection"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "ds_and_d0_mass_windows"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "recoil_mass_requirements"
+    },
+    {
+     "line_start": 138,
+     "line_end": 144,
+     "label": "figure_captions"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "combinatorial_background_estimation"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "dsstar_ds1_contribution"
+    },
+    {
+     "line_start": 150,
+     "line_end": 152,
+     "label": "table1_background_yields"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "observed_enhancement"
+    }
+   ]
+  },
+  {
+   "line_start": 156,
+   "line_end": 198,
+   "type": "fit",
+   "title": "5 Measurement of resonance parameters"
+  },
+  {
+   "line_start": 200,
+   "line_end": 243,
+   "type": "systematic_uncertainty",
+   "title": "7 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 200,
+     "line_end": 202,
+     "label": "overview"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "mass_measurement_heading"
+    },
+    {
+     "line_start": 206,
+     "line_end": 208,
+     "label": "table4_mass_systematics"
+    },
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "combinatorial_background"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "born_cross_section_line_shape"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "mass_scaling"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "resolution"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "efficiency_curve"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "width_assumptions"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "upper_limit_cross_section_heading"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "categories_intro"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "category_i_multiplicative"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "category_ii_background"
+    },
+    {
+     "line_start": 232,
+     "line_end": 234,
+     "label": "table5_cross_section_systematics"
+    },
+    {
+     "line_start": 236,
+     "line_end": 237,
+     "label": "figure7_isr_correction"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "category_iii_other"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "signal_significance_heading"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "signal_significance_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 245,
+   "line_end": 249,
+   "type": "conclusion",
+   "title": "8 Summary"
+  },
+  {
+   "line_start": 251,
+   "line_end": 251,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 152,
+   "title": "Estimated contributions from combinatorial background and Ds*-Ds1(2536)+ events",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 173,
+   "title": "Fitted Zcs'- yields, detection efficiencies, luminosities, and cross section results",
+   "section_type": "fit"
+  },
+  {
+   "line": 177,
+   "title": "Upper limits for Born cross section times branching fraction at 90% CL",
+   "section_type": "fit"
+  },
+  {
+   "line": 208,
+   "title": "Absolute systematic uncertainties in the Zcs'- mass measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 234,
+   "title": "Relative systematic uncertainties in the measurement of Born cross section times branching fraction",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 6.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

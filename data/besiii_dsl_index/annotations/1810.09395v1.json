@@ -1,0 +1,275 @@
+{
+ "paper_id": "1810.09395v1",
+ "source_path": "arxiv_papers/1810.09395v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 320,
+ "n_lines_sent": 153,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 95,
+   "to": 95,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 249,
+   "to": 320,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 16,
+   "line_end": 16,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 22,
+   "line_end": 22,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 28,
+   "line_end": 93,
+   "type": "front_matter",
+   "title": "BESIII Collaboration and affiliations"
+  },
+  {
+   "line_start": 97,
+   "line_end": 99,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 101,
+   "line_end": 113,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 115,
+   "line_end": 119,
+   "type": "detector",
+   "title": "II. DETECTORS AND DATA SAMPLES"
+  },
+  {
+   "line_start": 121,
+   "line_end": 121,
+   "type": "dataset",
+   "title": "Data samples and Monte Carlo simulation"
+  },
+  {
+   "line_start": 123,
+   "line_end": 123,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS"
+  },
+  {
+   "line_start": 125,
+   "line_end": 146,
+   "type": "event_selection",
+   "title": "A. Measurement of cross sections",
+   "units": [
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "section_heading"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "ks0_selection"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "kinematic_fit_and_signal_regions"
+    },
+    {
+     "line_start": 135,
+     "line_end": 141,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "efficiency_and_intermediate_states"
+    },
+    {
+     "line_start": 145,
+     "line_end": 146,
+     "label": "figure_1"
+    }
+   ]
+  },
+  {
+   "line_start": 148,
+   "line_end": 201,
+   "type": "fit",
+   "title": "B. Upper limits of Y(4260) decays"
+  },
+  {
+   "line_start": 203,
+   "line_end": 235,
+   "type": "systematic_uncertainty",
+   "title": "D. Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 203,
+     "line_end": 205,
+     "label": "overview"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "data_driven_mc"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "vacuum_polarization_and_bf"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "sideband_regions"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "total_uncertainty"
+    },
+    {
+     "line_start": 229,
+     "line_end": 235,
+     "label": "upper_limit_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 237,
+   "line_end": 239,
+   "type": "conclusion",
+   "title": "IV. SUMMARY"
+  },
+  {
+   "line_start": 241,
+   "line_end": 241,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty table"
+  },
+  {
+   "line_start": 243,
+   "line_end": 247,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 154,
+   "title": "Data sets and Born cross section results for e+e- -> K_S^0 K^± π^∓ π^0",
+   "section_type": "results"
+  },
+  {
+   "line": 158,
+   "title": "Data sets and Born cross section results for e+e- -> K_S^0 K^± π^∓ η",
+   "section_type": "results"
+  },
+  {
+   "line": 201,
+   "title": "Upper limits on σ_B(e+e- -> π Z_c(3900), Z_c(3900) -> K_S^0 K π/η) and ratios R",
+   "section_type": "fit"
+  },
+  {
+   "line": 241,
+   "title": "Systematic uncertainties for the cross section measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 12.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 123-123 typed event_selection has no units",
+  "short section 241-241 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

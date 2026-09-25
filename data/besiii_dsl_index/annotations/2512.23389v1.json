@@ -1,0 +1,160 @@
+{
+ "paper_id": "2512.23389v1",
+ "source_path": "arxiv_papers/2512.23389v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 367,
+ "n_lines_sent": 137,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 265,
+   "to": 367,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 151,
+   "type": "front_matter",
+   "title": "Study of $\\bar{K}^{*}(892)^{0}\\eta$ and $K_{S}^{0}a_{0}(980)^{0}$ in the $D^{0} \\to K_{S}^{0}\\pi^{0}\\eta$ decay"
+  },
+  {
+   "line_start": 153,
+   "line_end": 153,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 155,
+   "line_end": 171,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 173,
+   "line_end": 175,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 177,
+   "line_end": 188,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "tag_technique"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "d_meson_selection"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "dt_sample_selection"
+    },
+    {
+     "line_start": 183,
+     "line_end": 188,
+     "label": "kinematic_fit_dalitz"
+    }
+   ]
+  },
+  {
+   "line_start": 190,
+   "line_end": 218,
+   "type": "fit",
+   "title": "Amplitude Analysis"
+  },
+  {
+   "line_start": 220,
+   "line_end": 235,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "lineshape"
+    },
+    {
+     "line_start": 222,
+     "line_end": 235,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 237,
+   "line_end": 253,
+   "type": "results",
+   "title": "Branching Fraction Measurement",
+   "units": [
+    {
+     "line_start": 237,
+     "line_end": 247,
+     "label": "bf_measurement"
+    },
+    {
+     "line_start": 249,
+     "line_end": 253,
+     "label": "systematic_uncertainties_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 255,
+   "line_end": 259,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 261,
+   "line_end": 261,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 263,
+   "line_end": 263,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 233,
+   "title": "Phases, FFs, statistical significances, and BFs for the significant intermediate processes",
+   "section_type": "results"
+  },
+  {
+   "line": 253,
+   "title": "ST yields, ST efficiencies and DT efficiencies for tag modes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

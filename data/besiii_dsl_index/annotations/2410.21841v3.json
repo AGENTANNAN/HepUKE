@@ -1,0 +1,179 @@
+{
+ "paper_id": "2410.21841v3",
+ "source_path": "arxiv_papers/2410.21841v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 395,
+ "n_lines_sent": 238,
+ "skipped_ranges": [
+  {
+   "from": 361,
+   "to": 395,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 203,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 205,
+   "line_end": 205,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 207,
+   "line_end": 247,
+   "type": "introduction",
+   "title": "INTRODUCTION"
+  },
+  {
+   "line_start": 249,
+   "line_end": 255,
+   "type": "detector",
+   "title": "BESIII DETECTOR AND DATASET"
+  },
+  {
+   "line_start": 257,
+   "line_end": 269,
+   "type": "event_selection",
+   "title": "EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 257,
+     "line_end": 259,
+     "label": "event_categories"
+    },
+    {
+     "line_start": 261,
+     "line_end": 261,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 263,
+     "line_end": 263,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 265,
+     "line_end": 265,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 267,
+     "line_end": 269,
+     "label": "ws_selection_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 271,
+   "line_end": 296,
+   "type": "fit",
+   "title": "SIGNAL EXTRACTION"
+  },
+  {
+   "line_start": 298,
+   "line_end": 322,
+   "type": "results",
+   "title": "UPPER LIMIT CALCULATION",
+   "units": [
+    {
+     "line_start": 298,
+     "line_end": 312,
+     "label": "likelihood_construction"
+    },
+    {
+     "line_start": 314,
+     "line_end": 322,
+     "label": "upper_limit_results"
+    }
+   ]
+  },
+  {
+   "line_start": 324,
+   "line_end": 349,
+   "type": "systematic_uncertainty",
+   "title": "SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 324,
+     "line_end": 326,
+     "label": "overview"
+    },
+    {
+     "line_start": 328,
+     "line_end": 328,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 330,
+     "line_end": 330,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 332,
+     "line_end": 334,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 336,
+     "line_end": 336,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 338,
+     "line_end": 339,
+     "label": "sideband_figure"
+    },
+    {
+     "line_start": 341,
+     "line_end": 341,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 343,
+     "line_end": 343,
+     "label": "misidentification"
+    },
+    {
+     "line_start": 345,
+     "line_end": 349,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 351,
+   "line_end": 353,
+   "type": "conclusion",
+   "title": "SUMMARY"
+  },
+  {
+   "line_start": 355,
+   "line_end": 359,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 349,
+   "title": "Systematic uncertainties (in %) in the measurement of each channel after cancellation of common sources",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

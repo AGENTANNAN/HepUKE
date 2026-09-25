@@ -1,0 +1,388 @@
+{
+ "paper_id": "2512.12397v2",
+ "source_path": "arxiv_papers/2512.12397v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 809,
+ "n_lines_sent": 306,
+ "skipped_ranges": [
+  {
+   "from": 517,
+   "to": 809,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 35,
+   "type": "front_matter",
+   "title": "Title, collaboration, abstract, keywords, contents"
+  },
+  {
+   "line_start": 37,
+   "line_end": 62,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 64,
+   "line_end": 68,
+   "type": "detector",
+   "title": "2 Detector and data"
+  },
+  {
+   "line_start": 70,
+   "line_end": 94,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 70,
+     "line_end": 72,
+     "label": "tag_technique_and_samples"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 82,
+     "line_end": 90,
+     "label": "mbc_and_delta_e"
+    },
+    {
+     "line_start": 92,
+     "line_end": 94,
+     "label": "delta_e_windows"
+    }
+   ]
+  },
+  {
+   "line_start": 96,
+   "line_end": 102,
+   "type": "event_selection",
+   "title": "4.1 Further selection criteria in amplitude analysis"
+  },
+  {
+   "line_start": 104,
+   "line_end": 121,
+   "type": "fit",
+   "title": "4.1 Signal extraction and background PDFs"
+  },
+  {
+   "line_start": 123,
+   "line_end": 194,
+   "type": "fit",
+   "title": "4.2 Fit method"
+  },
+  {
+   "line_start": 196,
+   "line_end": 204,
+   "type": "fit",
+   "title": "4.2.1 Blatt-Weisskopf barriers"
+  },
+  {
+   "line_start": 206,
+   "line_end": 272,
+   "type": "fit",
+   "title": "4.2.2 Propagator"
+  },
+  {
+   "line_start": 274,
+   "line_end": 294,
+   "type": "fit",
+   "title": "4.2.3 Spin factors"
+  },
+  {
+   "line_start": 296,
+   "line_end": 338,
+   "type": "results",
+   "title": "4.3 Fit results",
+   "units": [
+    {
+     "line_start": 296,
+     "line_end": 303,
+     "label": "dalitz_plots_and_amplitude_model"
+    },
+    {
+     "line_start": 305,
+     "line_end": 313,
+     "label": "fit_fractions_definition"
+    },
+    {
+     "line_start": 315,
+     "line_end": 321,
+     "label": "magnitudes_phases_and_interference"
+    },
+    {
+     "line_start": 323,
+     "line_end": 338,
+     "label": "fit_result_tables_and_projections"
+    }
+   ]
+  },
+  {
+   "line_start": 340,
+   "line_end": 370,
+   "type": "systematic_uncertainty",
+   "title": "4.4 Systematic uncertainties in the amplitude analysis",
+   "units": [
+    {
+     "line_start": 340,
+     "line_end": 342,
+     "label": "overview"
+    },
+    {
+     "line_start": 344,
+     "line_end": 350,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 352,
+     "line_end": 354,
+     "label": "effective_radius"
+    },
+    {
+     "line_start": 356,
+     "line_end": 358,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 360,
+     "line_end": 362,
+     "label": "background"
+    },
+    {
+     "line_start": 364,
+     "line_end": 366,
+     "label": "experimental_effects"
+    },
+    {
+     "line_start": 368,
+     "line_end": 370,
+     "label": "extra_resonances"
+    }
+   ]
+  },
+  {
+   "line_start": 372,
+   "line_end": 402,
+   "type": "results",
+   "title": "4.5 CP asymmetry measurement",
+   "units": [
+    {
+     "line_start": 372,
+     "line_end": 380,
+     "label": "simultaneous_fit_setup"
+    },
+    {
+     "line_start": 382,
+     "line_end": 396,
+     "label": "cp_asymmetry_definitions"
+    },
+    {
+     "line_start": 398,
+     "line_end": 402,
+     "label": "cp_asymmetry_results"
+    }
+   ]
+  },
+  {
+   "line_start": 404,
+   "line_end": 406,
+   "type": "results",
+   "title": "5 Branching fraction"
+  },
+  {
+   "line_start": 408,
+   "line_end": 469,
+   "type": "results",
+   "title": "5.1 Branching fraction measurement for D+ to pi+ pi0 pi0",
+   "units": [
+    {
+     "line_start": 408,
+     "line_end": 428,
+     "label": "bf_formalism_and_tag_modes"
+    },
+    {
+     "line_start": 430,
+     "line_end": 435,
+     "label": "dt_yield_and_efficiencies"
+    },
+    {
+     "line_start": 437,
+     "line_end": 437,
+     "label": "st_d_yield"
+    },
+    {
+     "line_start": 439,
+     "line_end": 441,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 443,
+     "line_end": 443,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 445,
+     "line_end": 445,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 447,
+     "line_end": 447,
+     "label": "amplitude_analysis_model"
+    },
+    {
+     "line_start": 449,
+     "line_end": 455,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 457,
+     "line_end": 463,
+     "label": "two_dimensional_fit"
+    },
+    {
+     "line_start": 465,
+     "line_end": 469,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 471,
+   "line_end": 495,
+   "type": "results",
+   "title": "5.2 Branching fraction asymmetry of D+ and D-",
+   "units": [
+    {
+     "line_start": 471,
+     "line_end": 483,
+     "label": "acp_measurement"
+    },
+    {
+     "line_start": 485,
+     "line_end": 495,
+     "label": "acp_systematics_and_tables"
+    }
+   ]
+  },
+  {
+   "line_start": 497,
+   "line_end": 499,
+   "type": "results",
+   "title": "5.3 Intermediate branching fractions"
+  },
+  {
+   "line_start": 501,
+   "line_end": 511,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 513,
+   "line_end": 515,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 58,
+   "title": "Theoretical predictions for the BF of D+ to rho(770)+ pi0",
+   "section_type": "introduction"
+  },
+  {
+   "line": 94,
+   "title": "Requirements of Delta E for signal and tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 325,
+   "title": "Magnitudes, phases and FFs for the amplitudes",
+   "section_type": "results"
+  },
+  {
+   "line": 329,
+   "title": "Fit fractions and interference fit fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 350,
+   "title": "Systematic uncertainties on magnitude, phases and FFs",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 378,
+   "title": "Systematic uncertainties on phases, FFs or magnitude",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 402,
+   "title": "Simultaneous fit results of FFs and CP asymmetries",
+   "section_type": "results"
+  },
+  {
+   "line": 433,
+   "title": "ST yields, ST and DT efficiencies for six tag modes",
+   "section_type": "results"
+  },
+  {
+   "line": 469,
+   "title": "Systematic uncertainties for the BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 487,
+   "title": "DT efficiencies for D+ and D-",
+   "section_type": "results"
+  },
+  {
+   "line": 491,
+   "title": "DT yield and efficiency corrections for D+ and D-",
+   "section_type": "results"
+  },
+  {
+   "line": 495,
+   "title": "Systematic uncertainties for BFs of D+ and D-",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 507,
+   "title": "Intermediate branching fractions for each amplitude",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 19.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 96-102 typed event_selection has no units",
+  "short section 404-406 typed results has no units",
+  "short section 497-499 typed results has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

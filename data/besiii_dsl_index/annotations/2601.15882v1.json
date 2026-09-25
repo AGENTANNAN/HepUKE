@@ -1,0 +1,206 @@
+{
+ "paper_id": "2601.15882v1",
+ "source_path": "arxiv_papers/2601.15882v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 611,
+ "n_lines_sent": 242,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 455,
+   "to": 611,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 143,
+   "type": "front_matter",
+   "title": "Search for the reaction channel e+e- -> eta eta J/psi and the isospin partner of the Zc(3900)"
+  },
+  {
+   "line_start": 144,
+   "line_end": 144,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 145,
+   "line_end": 161,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 163,
+   "line_end": 169,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 171,
+   "line_end": 179,
+   "type": "event_selection",
+   "title": "III. INTRODUCTION TO DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 171,
+     "line_end": 175,
+     "label": "analysis_strategy"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "photon_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 181,
+   "line_end": 346,
+   "type": "event_selection",
+   "title": "IV. EXCLUSIVE METHOD",
+   "units": [
+    {
+     "line_start": 181,
+     "line_end": 191,
+     "label": "exclusive_event_selection"
+    },
+    {
+     "line_start": 193,
+     "line_end": 211,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 213,
+     "line_end": 251,
+     "label": "observed_cross_section"
+    },
+    {
+     "line_start": 253,
+     "line_end": 282,
+     "label": "systematic_uncertainty"
+    },
+    {
+     "line_start": 284,
+     "line_end": 314,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 316,
+     "line_end": 339,
+     "label": "upper_limit_determination"
+    },
+    {
+     "line_start": 341,
+     "line_end": 346,
+     "label": "summary_exclusive"
+    }
+   ]
+  },
+  {
+   "line_start": 348,
+   "line_end": 430,
+   "type": "event_selection",
+   "title": "V. SEMI-INCLUSIVE METHOD",
+   "units": [
+    {
+     "line_start": 348,
+     "line_end": 365,
+     "label": "semi_inclusive_event_selection"
+    },
+    {
+     "line_start": 367,
+     "line_end": 383,
+     "label": "intermediate_states"
+    },
+    {
+     "line_start": 385,
+     "line_end": 408,
+     "label": "born_cross_section"
+    },
+    {
+     "line_start": 410,
+     "line_end": 426,
+     "label": "systematic_uncertainty"
+    },
+    {
+     "line_start": 428,
+     "line_end": 430,
+     "label": "summary_semi_inclusive"
+    }
+   ]
+  },
+  {
+   "line_start": 432,
+   "line_end": 441,
+   "type": "results",
+   "title": "VI. COMBINATION OF THE RESULTS",
+   "units": [
+    {
+     "line_start": 432,
+     "line_end": 441,
+     "label": "combined_upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 443,
+   "line_end": 451,
+   "type": "conclusion",
+   "title": "VII. CONCLUSION"
+  },
+  {
+   "line_start": 453,
+   "line_end": 453,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 274,
+   "title": "Observed cross sections and upper limits of the exclusive method",
+   "section_type": "results"
+  },
+  {
+   "line": 278,
+   "title": "Systematic uncertainty on the reduced luminosity for the upper limit determination",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 397,
+   "title": "Born cross sections and upper limits of the semi-inclusive method",
+   "section_type": "results"
+  },
+  {
+   "line": 424,
+   "title": "Relative systematic uncertainties in the cross section measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 441,
+   "title": "Upper limits on the Born cross sections for all CM energies",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

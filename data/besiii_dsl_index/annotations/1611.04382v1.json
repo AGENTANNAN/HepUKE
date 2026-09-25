@@ -1,0 +1,155 @@
+{
+ "paper_id": "1611.04382v1",
+ "source_path": "arxiv_papers/1611.04382v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 333,
+ "n_lines_sent": 151,
+ "skipped_ranges": [
+  {
+   "from": 133,
+   "to": 133,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 169,
+   "to": 169,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 183,
+   "to": 183,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 209,
+   "to": 209,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 304,
+   "to": 333,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 209,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 211,
+   "line_end": 215,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 217,
+   "line_end": 223,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 225,
+   "line_end": 231,
+   "type": "detector",
+   "title": "2. BESIII Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 233,
+   "line_end": 287,
+   "type": "event_selection",
+   "title": "3. Analysis",
+   "units": [
+    {
+     "line_start": 233,
+     "line_end": 237,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 239,
+     "line_end": 241,
+     "label": "lambda_reconstruction_pid"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "background_rejection"
+    },
+    {
+     "line_start": 245,
+     "line_end": 245,
+     "label": "u_miss_variable"
+    },
+    {
+     "line_start": 247,
+     "line_end": 259,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 261,
+     "line_end": 267,
+     "label": "u_miss_fit"
+    },
+    {
+     "line_start": 269,
+     "line_end": 277,
+     "label": "branching_fraction_calculation"
+    },
+    {
+     "line_start": 279,
+     "line_end": 287,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 288,
+   "line_end": 288,
+   "type": "results",
+   "title": "Ratio of branching fractions",
+   "units": [
+    {
+     "line_start": 288,
+     "line_end": 288,
+     "label": "ratio_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 290,
+   "line_end": 292,
+   "type": "conclusion",
+   "title": "4. Summary"
+  },
+  {
+   "line_start": 294,
+   "line_end": 302,
+   "type": "acknowledgements",
+   "title": "5. Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 257,
+   "title": "Delta E requirements and ST yields",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 300,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

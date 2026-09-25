@@ -1,0 +1,241 @@
+{
+ "paper_id": "2601.02136v1",
+ "source_path": "arxiv_papers/2601.02136v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 440,
+ "n_lines_sent": 156,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 127,
+   "to": 127,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 139,
+   "to": 139,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 153,
+   "to": 153,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 155,
+   "to": 155,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 157,
+   "to": 157,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 159,
+   "to": 159,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 161,
+   "to": 161,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 318,
+   "to": 440,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 161,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 163,
+   "line_end": 163,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 165,
+   "line_end": 171,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 173,
+   "line_end": 177,
+   "type": "detector",
+   "title": "II. DESCRIPTION OF BEPCII AND THE BESIII DETECTOR"
+  },
+  {
+   "line_start": 179,
+   "line_end": 185,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 179,
+     "line_end": 181,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "kinematic_fit_and_pi0_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 187,
+   "line_end": 203,
+   "type": "fit",
+   "title": "IV. EXTRACTION OF THE BORN CROSS SECTIONS"
+  },
+  {
+   "line_start": 205,
+   "line_end": 269,
+   "type": "fit",
+   "title": "V. FIT TO THE DRESSED CROSS SECTIONS"
+  },
+  {
+   "line_start": 271,
+   "line_end": 287,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 271,
+     "line_end": 275,
+     "label": "overview"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "cross_section_systematics"
+    },
+    {
+     "line_start": 279,
+     "line_end": 287,
+     "label": "resonant_parameter_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 289,
+   "line_end": 300,
+   "type": "results",
+   "title": "Figures and fit results",
+   "units": [
+    {
+     "line_start": 289,
+     "line_end": 296,
+     "label": "fit_figures"
+    },
+    {
+     "line_start": 298,
+     "line_end": 300,
+     "label": "fit_results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 302,
+   "line_end": 306,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 308,
+   "line_end": 310,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty table",
+   "units": [
+    {
+     "line_start": 308,
+     "line_end": 310,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 312,
+   "line_end": 314,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  },
+  {
+   "line_start": 316,
+   "line_end": 316,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 285,
+   "title": "TABLE I. Quantities at each c.m. energy",
+   "section_type": "fit"
+  },
+  {
+   "line": 300,
+   "title": "TABLE II. Fit results for dressed cross sections",
+   "section_type": "fit"
+  },
+  {
+   "line": 310,
+   "title": "TABLE III. Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 364,
+   "title": "TABLE IV. Absolute systematic uncertainties of resonant parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

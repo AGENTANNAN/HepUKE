@@ -1,0 +1,322 @@
+{
+ "paper_id": "2503.05382v1",
+ "source_path": "arxiv_papers/2503.05382v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 327,
+ "n_lines_sent": 173,
+ "skipped_ranges": [
+  {
+   "from": 6,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 64,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 82,
+   "to": 82,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 104,
+   "to": 104,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 303,
+   "to": 327,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 162,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 164,
+   "line_end": 164,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 166,
+   "line_end": 174,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 176,
+   "line_end": 188,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 190,
+   "line_end": 206,
+   "type": "fit",
+   "title": "III. METHOD"
+  },
+  {
+   "line_start": 208,
+   "line_end": 218,
+   "type": "event_selection",
+   "title": "IV. SINGLE-TAG SELECTION",
+   "units": [
+    {
+     "line_start": 208,
+     "line_end": 210,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "delta_e_mbc"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "st_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 220,
+   "line_end": 251,
+   "type": "event_selection",
+   "title": "V. DOUBLE-TAG SELECTION",
+   "units": [
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "track_and_photon_requirements"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "background_rejection"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "delta_e_sig_mbc_sig"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "delta_e_sig_requirements"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "table2_caption"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "table2_content"
+    },
+    {
+     "line_start": 234,
+     "line_end": 235,
+     "label": "figure1"
+    },
+    {
+     "line_start": 237,
+     "line_end": 239,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "2d_fit"
+    },
+    {
+     "line_start": 243,
+     "line_end": 245,
+     "label": "table3"
+    },
+    {
+     "line_start": 247,
+     "line_end": 247,
+     "label": "ks0_sideband"
+    },
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "significance"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "bf_results"
+    }
+   ]
+  },
+  {
+   "line_start": 253,
+   "line_end": 275,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 253,
+     "line_end": 255,
+     "label": "introduction"
+    },
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 259,
+     "line_end": 259,
+     "label": "tracking"
+    },
+    {
+     "line_start": 261,
+     "line_end": 261,
+     "label": "pid"
+    },
+    {
+     "line_start": 263,
+     "line_end": 263,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 265,
+     "line_end": 265,
+     "label": "sub_decay_bf"
+    },
+    {
+     "line_start": 267,
+     "line_end": 267,
+     "label": "delta_e_cut"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "mass_fit"
+    },
+    {
+     "line_start": 271,
+     "line_end": 271,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "mc_sample_size_and_model"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 277,
+   "line_end": 289,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 277,
+     "line_end": 278,
+     "label": "figure2"
+    },
+    {
+     "line_start": 280,
+     "line_end": 282,
+     "label": "table4"
+    },
+    {
+     "line_start": 284,
+     "line_end": 286,
+     "label": "table5"
+    },
+    {
+     "line_start": 288,
+     "line_end": 289,
+     "label": "figure3"
+    }
+   ]
+  },
+  {
+   "line_start": 291,
+   "line_end": 295,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 297,
+   "line_end": 301,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 188,
+   "title": "Fractions of resonance states for signal decays",
+   "section_type": "detector"
+  },
+  {
+   "line": 232,
+   "title": "Delta E requirements, ST yields, ST and DT efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 245,
+   "title": "Delta E_sig requirements for different signal decays",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 282,
+   "title": "Numbers used to calculate the branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 286,
+   "title": "Relative systematic uncertainties in the BF measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

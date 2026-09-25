@@ -1,0 +1,274 @@
+{
+ "paper_id": "2203.10439v1",
+ "source_path": "arxiv_papers/2203.10439v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 281,
+ "n_lines_sent": 174,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 249,
+   "to": 281,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 105,
+   "type": "front_matter",
+   "title": "Search for new hadronic decays of h_c and observation of h_c -> p pbar eta"
+  },
+  {
+   "line_start": 107,
+   "line_end": 109,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 111,
+   "line_end": 123,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 125,
+   "line_end": 131,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 133,
+   "line_end": 137,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 139,
+   "line_end": 153,
+   "type": "event_selection",
+   "title": "3 Event selection and data analysis",
+   "units": [
+    {
+     "line_start": 139,
+     "line_end": 141,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "photon_multiplicity_veto"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "mass_spectra_and_continuum"
+    }
+   ]
+  },
+  {
+   "line_start": 155,
+   "line_end": 157,
+   "type": "event_selection",
+   "title": "Table I: Mass windows used as vetoes in each exclusive mode"
+  },
+  {
+   "line_start": 159,
+   "line_end": 192,
+   "type": "results",
+   "title": "4 Result",
+   "units": [
+    {
+     "line_start": 159,
+     "line_end": 167,
+     "label": "fit_method_and_branching_fraction"
+    },
+    {
+     "line_start": 169,
+     "line_end": 175,
+     "label": "mode_ii_simultaneous_fit"
+    },
+    {
+     "line_start": 177,
+     "line_end": 188,
+     "label": "mode_iii_upper_limit"
+    },
+    {
+     "line_start": 190,
+     "line_end": 192,
+     "label": "significance"
+    }
+   ]
+  },
+  {
+   "line_start": 194,
+   "line_end": 194,
+   "type": "results",
+   "title": "Table II: Results for the three decay modes"
+  },
+  {
+   "line_start": 196,
+   "line_end": 229,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 196,
+     "line_end": 198,
+     "label": "overview"
+    },
+    {
+     "line_start": 200,
+     "line_end": 202,
+     "label": "table_iii"
+    },
+    {
+     "line_start": 204,
+     "line_end": 205,
+     "label": "figure_i"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "tracking_and_photon_detection"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "pid"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "intermediate_decays"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "n_psi3686"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "physics_model"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 231,
+   "line_end": 243,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 245,
+   "line_end": 247,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 157,
+   "title": "Mass windows used as vetoes in each exclusive mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 194,
+   "title": "Results for the three decay modes",
+   "section_type": "results"
+  },
+  {
+   "line": 202,
+   "title": "Results for mode II",
+   "section_type": "results"
+  },
+  {
+   "line": 237,
+   "title": "Relative systematic uncertainties for modes I and III",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 241,
+   "title": "Relative systematic uncertainties for mode II",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 155-157 typed event_selection has no units",
+  "short section 194-194 typed results has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

@@ -1,0 +1,205 @@
+{
+ "paper_id": "2307.10948v2",
+ "source_path": "arxiv_papers/2307.10948v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 151,
+ "n_lines_sent": 70,
+ "skipped_ranges": [
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 117,
+   "to": 151,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 37,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 39,
+   "line_end": 39,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 41,
+   "line_end": 45,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 47,
+   "line_end": 47,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 49,
+   "line_end": 65,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 51,
+     "line_end": 52,
+     "label": "zavrg_fit"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "beam_background_rejection"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "efficiency_determination"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "cross_section_measurement"
+    },
+    {
+     "line_start": 64,
+     "line_end": 65,
+     "label": "efficiency_and_isr_factors"
+    }
+   ]
+  },
+  {
+   "line_start": 67,
+   "line_end": 73,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "mc_generator_and_luminosity"
+    },
+    {
+     "line_start": 71,
+     "line_end": 73,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 75,
+   "line_end": 92,
+   "type": "fit",
+   "title": "Fit to the cross sections"
+  },
+  {
+   "line_start": 94,
+   "line_end": 107,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "branching_fraction_calculation"
+    },
+    {
+     "line_start": 96,
+     "line_end": 97,
+     "label": "dressed_cross_section_figure"
+    },
+    {
+     "line_start": 99,
+     "line_end": 101,
+     "label": "fit_results_table"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "nOCH_branching_fractions"
+    },
+    {
+     "line_start": 105,
+     "line_end": 107,
+     "label": "resonance_significances"
+    }
+   ]
+  },
+  {
+   "line_start": 109,
+   "line_end": 109,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 111,
+   "line_end": 111,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 113,
+   "line_end": 115,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 73,
+   "title": "Systematic uncertainties on the observed nOCH cross sections",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 101,
+   "title": "Results of the fit to the nOCH cross sections",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 9.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

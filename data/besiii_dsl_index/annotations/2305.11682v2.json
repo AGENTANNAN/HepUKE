@@ -1,0 +1,214 @@
+{
+ "paper_id": "2305.11682v2",
+ "source_path": "arxiv_papers/2305.11682v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 320,
+ "n_lines_sent": 176,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 116,
+   "to": 116,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 291,
+   "to": 320,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 118,
+   "type": "front_matter",
+   "title": "Search for a scalar partner of the X(3872) via ψ(3770) decays into γηη′ and γπ+π−J/ψ"
+  },
+  {
+   "line_start": 120,
+   "line_end": 120,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 122,
+   "line_end": 132,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 134,
+   "line_end": 140,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 142,
+   "line_end": 156,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 144,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 146,
+     "line_end": 148,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 150,
+     "line_end": 152,
+     "label": "eta_etaprime_selection"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "jpsi_selection"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "pion_identification_and_background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 158,
+   "line_end": 184,
+   "type": "fit",
+   "title": "IV. SIGNAL EXTRACTION"
+  },
+  {
+   "line_start": 186,
+   "line_end": 238,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 186,
+     "line_end": 190,
+     "label": "overview"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "luminosity_cross_section_tracking_photon_branching_fractions"
+    },
+    {
+     "line_start": 194,
+     "line_end": 196,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 198,
+     "line_end": 224,
+     "label": "mass_windows_and_cos_theta_gamma"
+    },
+    {
+     "line_start": 226,
+     "line_end": 228,
+     "label": "table_i"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "other_selection_criteria"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "total_multiplicative"
+    },
+    {
+     "line_start": 234,
+     "line_end": 234,
+     "label": "additive_systematic_uncertainties"
+    },
+    {
+     "line_start": 236,
+     "line_end": 238,
+     "label": "table_ii"
+    }
+   ]
+  },
+  {
+   "line_start": 240,
+   "line_end": 271,
+   "type": "results",
+   "title": "VI. UPPER LIMIT OF BRANCHING FRACTION",
+   "units": [
+    {
+     "line_start": 240,
+     "line_end": 256,
+     "label": "upper_limit_eta_etaprime"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "upper_limit_pi_pi_jpsi"
+    },
+    {
+     "line_start": 260,
+     "line_end": 261,
+     "label": "figure_3"
+    },
+    {
+     "line_start": 263,
+     "line_end": 271,
+     "label": "upper_limit_gamma_eta_etaprime"
+    }
+   ]
+  },
+  {
+   "line_start": 273,
+   "line_end": 279,
+   "type": "conclusion",
+   "title": "VII. SUMMARY AND DISCUSSIONS"
+  },
+  {
+   "line_start": 281,
+   "line_end": 289,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 228,
+   "title": "Table I. The f^v ± σ_f^v, f_cor^v and σ_f for the η′, ηη′, J/ψ mass windows, and the cos θ_γ requirement.",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 238,
+   "title": "Table II. The multiplicative systematic uncertainties (in units of %) in the branching fraction measurements.",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 287,
+   "title": "Table III. The upper limit of the product branching fraction B(ψ(3770) → γX(3700))·B(X(3700) → ηη′) and B(ψ(3770) → γX(3700))·B(X(3700) → π+π−J/ψ) at the 90% C.L.",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

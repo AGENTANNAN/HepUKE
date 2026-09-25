@@ -1,0 +1,207 @@
+{
+ "paper_id": "1111.0398v2",
+ "source_path": "arxiv_papers/1111.0398v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 144,
+ "n_lines_sent": 70,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 124,
+   "to": 144,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 44,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and PACS"
+  },
+  {
+   "line_start": 42,
+   "line_end": 42,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 46,
+   "line_end": 50,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 52,
+   "line_end": 56,
+   "type": "detector",
+   "title": "BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 58,
+   "line_end": 68,
+   "type": "event_selection",
+   "title": "Event selection and background estimation",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "ks_pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "pi0_xi_background"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "other_backgrounds"
+    }
+   ]
+  },
+  {
+   "line_start": 70,
+   "line_end": 88,
+   "type": "fit",
+   "title": "Fit to the eta_c invariant mass spectra"
+  },
+  {
+   "line_start": 90,
+   "line_end": 108,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "overview"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "pi0_xi_background"
+    },
+    {
+     "line_start": 94,
+     "line_end": 95,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "nonresonant_shape"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "other_psi3686_backgrounds"
+    },
+    {
+     "line_start": 101,
+     "line_end": 104,
+     "label": "mass_scale_and_resolution"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "fit_range_efficiency_stability"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 110,
+   "line_end": 114,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 110,
+     "line_end": 114,
+     "label": "mass_width_results"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 116,
+   "type": "discussion",
+   "title": "Discussion of relative phases"
+  },
+  {
+   "line_start": 118,
+   "line_end": 118,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 120,
+   "line_end": 122,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 86,
+   "title": "Solutions of relative phase of each decay mode",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 5-44 / 42-42"
+ ],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

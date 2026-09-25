@@ -1,0 +1,167 @@
+{
+ "paper_id": "1510.02610v1",
+ "source_path": "arxiv_papers/1510.02610v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 126,
+ "n_lines_sent": 39,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 95,
+   "to": 126,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 18,
+   "line_end": 18,
+   "type": "front_matter",
+   "title": "BESIII Collaboration"
+  },
+  {
+   "line_start": 27,
+   "line_end": 27,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 29,
+   "line_end": 33,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 35,
+   "line_end": 35,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 37,
+   "line_end": 37,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 39,
+   "line_end": 60,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 39,
+     "line_end": 39,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 41,
+     "line_end": 41,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 43,
+     "line_end": 45,
+     "label": "delta_e_requirements"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "photon_and_pi0"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "ks_and_lambda_reconstruction"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "mbc_and_delta_e"
+    },
+    {
+     "line_start": 55,
+     "line_end": 56,
+     "label": "figure1"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "st_yields"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "semileptonic_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 62,
+   "line_end": 87,
+   "type": "fit",
+   "title": "Fit and Branching Fraction"
+  },
+  {
+   "line_start": 89,
+   "line_end": 89,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainty",
+   "units": [
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 91,
+   "line_end": 91,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 93,
+   "line_end": 93,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 45,
+   "title": "Delta E requirements and ST yields",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

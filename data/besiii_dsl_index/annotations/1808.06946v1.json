@@ -1,0 +1,242 @@
+{
+ "paper_id": "1808.06946v1",
+ "source_path": "arxiv_papers/1808.06946v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 329,
+ "n_lines_sent": 163,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 312,
+   "to": 329,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 14,
+   "line_end": 34,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 36,
+   "line_end": 44,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 46,
+   "line_end": 48,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR"
+  },
+  {
+   "line_start": 50,
+   "line_end": 56,
+   "type": "dataset",
+   "title": "III. DATA SETS"
+  },
+  {
+   "line_start": 58,
+   "line_end": 68,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION CRITERIA",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 60,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "ks_vertex_and_flight_distance"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "mass_spectra"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "background_studies"
+    }
+   ]
+  },
+  {
+   "line_start": 70,
+   "line_end": 78,
+   "type": "other",
+   "title": "Figures 1 and 2"
+  },
+  {
+   "line_start": 80,
+   "line_end": 140,
+   "type": "fit",
+   "title": "V. AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 142,
+   "line_end": 240,
+   "type": "fit",
+   "title": "B. MI amplitude analysis"
+  },
+  {
+   "line_start": 242,
+   "line_end": 250,
+   "type": "discussion",
+   "title": "C. Discussion"
+  },
+  {
+   "line_start": 252,
+   "line_end": 297,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 252,
+     "line_end": 254,
+     "label": "overview"
+    },
+    {
+     "line_start": 256,
+     "line_end": 258,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 264,
+     "line_end": 264,
+     "label": "backgrounds"
+    },
+    {
+     "line_start": 266,
+     "line_end": 266,
+     "label": "analysis_method"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "total_normalization"
+    },
+    {
+     "line_start": 270,
+     "line_end": 272,
+     "label": "md_additional_amplitudes"
+    },
+    {
+     "line_start": 274,
+     "line_end": 274,
+     "label": "figure7"
+    },
+    {
+     "line_start": 277,
+     "line_end": 281,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 283,
+     "line_end": 285,
+     "label": "mi_overview"
+    },
+    {
+     "line_start": 287,
+     "line_end": 287,
+     "label": "md_fixed_parameters"
+    },
+    {
+     "line_start": 289,
+     "line_end": 289,
+     "label": "ks_reconstruction_momentum_dependence"
+    },
+    {
+     "line_start": 291,
+     "line_end": 293,
+     "label": "kstar_k0_amplitude"
+    },
+    {
+     "line_start": 295,
+     "line_end": 297,
+     "label": "additional_4pp_amplitude"
+    }
+   ]
+  },
+  {
+   "line_start": 299,
+   "line_end": 305,
+   "type": "conclusion",
+   "title": "VII. CONCLUSIONS"
+  },
+  {
+   "line_start": 307,
+   "line_end": 309,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 311,
+   "line_end": 311,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 165,
+   "title": "Resonance parameters in the optimal solution",
+   "section_type": "fit"
+  },
+  {
+   "line": 279,
+   "title": "Systematic uncertainties for the branching fraction",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 252-297 before line 277"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

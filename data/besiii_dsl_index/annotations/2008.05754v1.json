@@ -1,0 +1,247 @@
+{
+ "paper_id": "2008.05754v1",
+ "source_path": "arxiv_papers/2008.05754v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 250,
+ "n_lines_sent": 146,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 214,
+   "to": 250,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 115,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 117,
+   "line_end": 117,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 119,
+   "line_end": 123,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 125,
+   "line_end": 131,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 133,
+   "line_end": 172,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 133,
+     "line_end": 141,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "st_background_rejection"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "st_yield_extraction"
+    },
+    {
+     "line_start": 153,
+     "line_end": 154,
+     "label": "figure1"
+    },
+    {
+     "line_start": 156,
+     "line_end": 162,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "positron_identification"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "u_miss_definition"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "u_miss_fit"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 174,
+   "line_end": 181,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 174,
+     "line_end": 176,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "omega_branching_fraction"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "tracking_pid_e"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "tracking_pid_pi"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "pi0_decay_angle"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "omega_mass_window"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "extra_photon_pi0"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "mc_generator"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 178,
+     "line_end": 179,
+     "label": "figure2"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "background_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 183,
+   "line_end": 199,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 183,
+     "line_end": 187,
+     "label": "systematic_smearing"
+    },
+    {
+     "line_start": 189,
+     "line_end": 199,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 201,
+   "line_end": 206,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 208,
+   "line_end": 212,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 174-181 share boundary line 176",
+  "units of 174-181 share boundary line 176",
+  "units of 174-181 share boundary line 176",
+  "units of 174-181 share boundary line 176",
+  "units of 174-181 share boundary line 176",
+  "units of 174-181 share boundary line 176",
+  "units of 174-181 share boundary line 176",
+  "units of 174-181 share boundary line 176",
+  "units of 174-181 share boundary line 176"
+ ],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

@@ -1,0 +1,288 @@
+{
+ "paper_id": "2106.13442v1",
+ "source_path": "arxiv_papers/2106.13442v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 654,
+ "n_lines_sent": 189,
+ "skipped_ranges": [
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 64,
+   "to": 66,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 69,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 76,
+   "to": 76,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 78,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 82,
+   "to": 82,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 106,
+   "to": 107,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 136,
+   "to": 136,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 150,
+   "to": 150,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 161,
+   "to": 162,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 164,
+   "to": 164,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 166,
+   "to": 166,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 317,
+   "to": 654,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 168,
+   "type": "front_matter",
+   "title": "Observation of the decays $\\chi_{cJ} \\rightarrow nK_S^0\\bar{\\Lambda} + c.c.$"
+  },
+  {
+   "line_start": 170,
+   "line_end": 170,
+   "type": "abstract",
+   "title": "ABSTRACT"
+  },
+  {
+   "line_start": 172,
+   "line_end": 179,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 181,
+   "line_end": 189,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 191,
+   "line_end": 197,
+   "type": "detector",
+   "title": "2 Detector and data sets"
+  },
+  {
+   "line_start": 199,
+   "line_end": 222,
+   "type": "event_selection",
+   "title": "3 Event selection and background analysis",
+   "units": [
+    {
+     "line_start": 199,
+     "line_end": 203,
+     "label": "track_selection_and_pid"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "ks0_lambda_reconstruction"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 209,
+     "line_end": 214,
+     "label": "mass_distributions_figure"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "missing_mass"
+    },
+    {
+     "line_start": 220,
+     "line_end": 222,
+     "label": "background_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 224,
+   "line_end": 283,
+   "type": "fit",
+   "title": "4 Branching fraction measurement"
+  },
+  {
+   "line_start": 285,
+   "line_end": 303,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 285,
+     "line_end": 287,
+     "label": "number_of_psi3686_events_and_photon_detection"
+    },
+    {
+     "line_start": 289,
+     "line_end": 291,
+     "label": "table1"
+    },
+    {
+     "line_start": 293,
+     "line_end": 293,
+     "label": "ks0_lambda_reconstruction_kinematic_fit_mass_windows"
+    },
+    {
+     "line_start": 295,
+     "line_end": 295,
+     "label": "fitting_procedure"
+    },
+    {
+     "line_start": 297,
+     "line_end": 297,
+     "label": "mc_modeling_and_input_branching_fractions"
+    },
+    {
+     "line_start": 299,
+     "line_end": 303,
+     "label": "summary_and_table2"
+    }
+   ]
+  },
+  {
+   "line_start": 305,
+   "line_end": 309,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 311,
+   "line_end": 315,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 291,
+   "title": "Signal yields, efficiencies and branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 303,
+   "title": "Systematic uncertainty sources and contributions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 568,
+   "title": "Helicity angles and amplitudes of sequential decays",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

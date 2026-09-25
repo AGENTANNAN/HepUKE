@@ -1,0 +1,190 @@
+{
+ "paper_id": "2406.15030v2",
+ "source_path": "arxiv_papers/2406.15030v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 319,
+ "n_lines_sent": 156,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 253,
+   "to": 319,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 156,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 158,
+   "line_end": 158,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 160,
+   "line_end": 166,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 168,
+   "line_end": 168,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 170,
+   "line_end": 170,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 172,
+   "line_end": 197,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 174,
+     "line_end": 180,
+     "label": "six_track_kinematic_fit"
+    },
+    {
+     "line_start": 182,
+     "line_end": 185,
+     "label": "mass_windows_and_sidebands"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "five_track_reconstruction"
+    },
+    {
+     "line_start": 189,
+     "line_end": 192,
+     "label": "muon_identification"
+    },
+    {
+     "line_start": 194,
+     "line_end": 197,
+     "label": "final_distributions"
+    }
+   ]
+  },
+  {
+   "line_start": 199,
+   "line_end": 211,
+   "type": "fit",
+   "title": "Cross section and upper limit"
+  },
+  {
+   "line_start": 213,
+   "line_end": 239,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "overview"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "luminosity_and_branching_fractions"
+    },
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "muc_hit_depth_and_kinematic_fit"
+    },
+    {
+     "line_start": 219,
+     "line_end": 233,
+     "label": "combination_of_subdata_samples"
+    },
+    {
+     "line_start": 235,
+     "line_end": 239,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 241,
+   "line_end": 241,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 243,
+   "line_end": 245,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties at 4.946 GeV",
+   "units": [
+    {
+     "line_start": 243,
+     "line_end": 245,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 247,
+   "line_end": 251,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 211,
+   "title": "Upper limits on Born cross section times branching fraction",
+   "section_type": "fit"
+  },
+  {
+   "line": 239,
+   "title": "Systematic uncertainties at 4.914 GeV",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 245,
+   "title": "Systematic uncertainties at 4.946 GeV",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

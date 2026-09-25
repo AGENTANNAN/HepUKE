@@ -1,0 +1,138 @@
+{
+ "paper_id": "2206.10900v2",
+ "source_path": "arxiv_papers/2206.10900v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 148,
+ "n_lines_sent": 71,
+ "skipped_ranges": [
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 114,
+   "to": 148,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 32,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, date"
+  },
+  {
+   "line_start": 34,
+   "line_end": 34,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 36,
+   "line_end": 59,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 61,
+   "line_end": 67,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "mc_samples"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "lambda_xi_reconstruction"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "kinematic_fit_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 69,
+   "line_end": 100,
+   "type": "fit",
+   "title": "Maximum-likelihood fit"
+  },
+  {
+   "line_start": 102,
+   "line_end": 102,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "all_sources"
+    }
+   ]
+  },
+  {
+   "line_start": 104,
+   "line_end": 104,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 106,
+   "line_end": 108,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty table",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 108,
+     "label": "table_ii"
+    }
+   ]
+  },
+  {
+   "line_start": 110,
+   "line_end": 112,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 92,
+   "title": "Numerical results for the measurements of the Xi- polarization and decay parameters",
+   "section_type": "results"
+  },
+  {
+   "line": 108,
+   "title": "Absolute systematic uncertainties on the fit parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

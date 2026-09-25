@@ -1,0 +1,263 @@
+{
+ "paper_id": "2503.19542v1",
+ "source_path": "arxiv_papers/2503.19542v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 366,
+ "n_lines_sent": 207,
+ "skipped_ranges": [
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 89,
+   "to": 89,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 94,
+   "to": 94,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 317,
+   "to": 366,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 127,
+   "type": "front_matter",
+   "title": "Measurement of the branching fractions of doubly Cabibbo-suppressed D decays"
+  },
+  {
+   "line_start": 129,
+   "line_end": 129,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 131,
+   "line_end": 153,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 155,
+   "line_end": 159,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 161,
+   "line_end": 167,
+   "type": "detector",
+   "title": "2 Data and Monte Carlo Generation"
+  },
+  {
+   "line_start": 169,
+   "line_end": 175,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 169,
+     "line_end": 171,
+     "label": "tracking"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "photon_detection"
+    }
+   ]
+  },
+  {
+   "line_start": 177,
+   "line_end": 221,
+   "type": "fit",
+   "title": "4 Analysis of the DCS D0 decays"
+  },
+  {
+   "line_start": 223,
+   "line_end": 262,
+   "type": "fit",
+   "title": "5 Analysis of the DCS D+ decays"
+  },
+  {
+   "line_start": 264,
+   "line_end": 303,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 264,
+     "line_end": 270,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 271,
+     "line_end": 273,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "delta_e_mbc_requirements"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "ks0_veto"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 285,
+     "line_end": 287,
+     "label": "umiss_fit"
+    },
+    {
+     "line_start": 289,
+     "line_end": 289,
+     "label": "mk_l_requirement"
+    },
+    {
+     "line_start": 291,
+     "line_end": 291,
+     "label": "extra_requirements"
+    },
+    {
+     "line_start": 293,
+     "line_end": 293,
+     "label": "fsr_recovery"
+    },
+    {
+     "line_start": 295,
+     "line_end": 297,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 299,
+     "line_end": 299,
+     "label": "mbc_fit"
+    },
+    {
+     "line_start": 301,
+     "line_end": 303,
+     "label": "table5"
+    }
+   ]
+  },
+  {
+   "line_start": 305,
+   "line_end": 311,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 313,
+   "line_end": 315,
+   "type": "acknowledgements",
+   "title": "8 Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 209,
+   "title": "Table 1. The common ΔE_sig requirements, separate detection efficiencies, separate and combined signal yields, BFs, and statistical significances for each signal decay.",
+   "section_type": "fit"
+  },
+  {
+   "line": 213,
+   "title": "Table 2. The BKGI components for each signal decay from the CF decay due to particle misidentification.",
+   "section_type": "fit"
+  },
+  {
+   "line": 253,
+   "title": "Table 3. The ΔE_tag requirements, the yields of the ST D- mesons in data, and the ST efficiencies.",
+   "section_type": "fit"
+  },
+  {
+   "line": 262,
+   "title": "Table 4. The ΔE_sig requirements, the DT yield, the signal efficiencies, the obtained BFs, and the statistical significance for each D+ signal decay.",
+   "section_type": "fit"
+  },
+  {
+   "line": 303,
+   "title": "Table 5. Relative systematic uncertainties for the BF measurements, in %.",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 311,
+   "title": "Table 6. The DCS BFs measured in this work, the PDG values of the corresponding DCS and CF decays, and the new DCS/CF BF ratios.",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

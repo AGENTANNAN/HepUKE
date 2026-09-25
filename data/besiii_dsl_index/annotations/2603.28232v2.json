@@ -1,0 +1,279 @@
+{
+ "paper_id": "2603.28232v2",
+ "source_path": "arxiv_papers/2603.28232v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 610,
+ "n_lines_sent": 145,
+ "skipped_ranges": [
+  {
+   "from": 246,
+   "to": 610,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 17,
+   "type": "front_matter",
+   "title": "Title and preprint information"
+  },
+  {
+   "line_start": 19,
+   "line_end": 32,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 34,
+   "line_end": 70,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 72,
+   "line_end": 76,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 78,
+   "line_end": 92,
+   "type": "event_selection",
+   "title": "3.1 Analysis method",
+   "units": [
+    {
+     "line_start": 78,
+     "line_end": 88,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 90,
+     "line_end": 92,
+     "label": "signal_selection_strategy"
+    }
+   ]
+  },
+  {
+   "line_start": 94,
+   "line_end": 115,
+   "type": "event_selection",
+   "title": "3.2 Primary event selection",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 96,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "pid"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "eta_reconstruction"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "missing_mass"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 110,
+     "line_end": 115,
+     "label": "figure3"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 133,
+   "type": "event_selection",
+   "title": "3.3 Deep-learning-based signal identification",
+   "units": [
+    {
+     "line_start": 117,
+     "line_end": 119,
+     "label": "dnn_motivation"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "training_dataset"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "input_features"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "dnn_architecture"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "dnn_output_cuts"
+    },
+    {
+     "line_start": 129,
+     "line_end": 133,
+     "label": "efficiency_table"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 146,
+   "type": "fit",
+   "title": "3.4 Signal extraction"
+  },
+  {
+   "line_start": 148,
+   "line_end": 164,
+   "type": "systematic_uncertainty",
+   "title": "3.5 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 148,
+     "line_end": 154,
+     "label": "overview_and_table"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "peaking_background_vetoes"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "deep_learning_selections"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "simultaneous_fit"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 166,
+   "line_end": 210,
+   "type": "fit",
+   "title": "4.1 Fit model and results"
+  },
+  {
+   "line_start": 212,
+   "line_end": 225,
+   "type": "systematic_uncertainty",
+   "title": "4.2 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 212,
+     "line_end": 214,
+     "label": "overview"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 218,
+     "line_end": 219,
+     "label": "figure5"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "total_yield_constraint"
+    },
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "background_magnitude"
+    }
+   ]
+  },
+  {
+   "line_start": 227,
+   "line_end": 229,
+   "type": "results",
+   "title": "4.3 Upper limit determination",
+   "units": [
+    {
+     "line_start": 227,
+     "line_end": 229,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 231,
+   "line_end": 240,
+   "type": "conclusion",
+   "title": "5 Summary"
+  },
+  {
+   "line_start": 242,
+   "line_end": 244,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 133,
+   "title": "Summary of effective detection efficiencies after DNN implementation",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 154,
+   "title": "Systematic uncertainties for the measurement of the BF ratio",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

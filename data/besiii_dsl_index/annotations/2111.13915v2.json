@@ -1,0 +1,145 @@
+{
+ "paper_id": "2111.13915v2",
+ "source_path": "arxiv_papers/2111.13915v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 221,
+ "n_lines_sent": 53,
+ "skipped_ranges": [
+  {
+   "from": 103,
+   "to": 221,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 27,
+   "type": "front_matter",
+   "title": "Search for the decay h_c -> pi0 J/psi"
+  },
+  {
+   "line_start": 29,
+   "line_end": 37,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 39,
+   "line_end": 43,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 45,
+   "line_end": 49,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "particle_identification_and_kinematic_fit"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "background_suppression_and_signal_regions"
+    }
+   ]
+  },
+  {
+   "line_start": 51,
+   "line_end": 69,
+   "type": "fit",
+   "title": "4 Branching fraction measurement"
+  },
+  {
+   "line_start": 71,
+   "line_end": 93,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 71,
+     "line_end": 73,
+     "label": "overview"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "photon_and_pid_efficiency"
+    },
+    {
+     "line_start": 77,
+     "line_end": 79,
+     "label": "table1"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "mc_decay_model"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "normalization_channel_yield_and_branching_fractions"
+    },
+    {
+     "line_start": 87,
+     "line_end": 91,
+     "label": "table2"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "fit_procedure"
+    }
+   ]
+  },
+  {
+   "line_start": 95,
+   "line_end": 97,
+   "type": "conclusion",
+   "title": "6 Summary and discussion"
+  },
+  {
+   "line_start": 99,
+   "line_end": 101,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 77,
+   "title": "Luminosity, cross section, radiative correction factor and efficiency at each center-of-mass energy",
+   "section_type": "fit"
+  },
+  {
+   "line": 91,
+   "title": "Relative systematic uncertainties on the branching ratio and branching fraction",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 7.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

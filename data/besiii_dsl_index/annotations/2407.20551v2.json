@@ -1,0 +1,281 @@
+{
+ "paper_id": "2407.20551v2",
+ "source_path": "arxiv_papers/2407.20551v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 324,
+ "n_lines_sent": 175,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 272,
+   "to": 324,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 170,
+   "type": "front_matter",
+   "title": "Observation of the singly Cabibbo suppressed decay D0 -> b1(1235)- e+ nu_e and evidence for D+ -> b1(1235)0 e+ nu_e"
+  },
+  {
+   "line_start": 172,
+   "line_end": 172,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 174,
+   "line_end": 182,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 184,
+   "line_end": 184,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 186,
+   "line_end": 196,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 188,
+     "line_end": 196,
+     "label": "branching_fraction_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 198,
+   "line_end": 212,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 202,
+     "line_end": 208,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 210,
+     "line_end": 212,
+     "label": "st_yield_extraction"
+    }
+   ]
+  },
+  {
+   "line_start": 214,
+   "line_end": 225,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 214,
+     "line_end": 219,
+     "label": "semileptonic_candidate_selection"
+    },
+    {
+     "line_start": 221,
+     "line_end": 223,
+     "label": "electron_identification"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 227,
+   "line_end": 245,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 227,
+     "line_end": 245,
+     "label": "missing_mass_variable"
+    }
+   ]
+  },
+  {
+   "line_start": 247,
+   "line_end": 249,
+   "type": "fit",
+   "title": "Fit"
+  },
+  {
+   "line_start": 256,
+   "line_end": 262,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "st_yield_and_branching_fraction"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "omega_mass_window"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "extra_photon_and_pi0_veto"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "b1_resonant_parameters"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "mc_generator"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "cos_theta_gamma_miss"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "omega_sideband"
+    },
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "signal_and_background_shapes"
+    }
+   ]
+  },
+  {
+   "line_start": 264,
+   "line_end": 264,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 264,
+     "line_end": 264,
+     "label": "product_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 266,
+   "line_end": 268,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 270,
+   "line_end": 270,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 206,
+   "title": "Delta E requirements, ST yields, and ST efficiencies for different tag modes",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 256-262 share boundary line 256",
+  "units of 256-262 share boundary line 256",
+  "units of 256-262 share boundary line 258",
+  "units of 256-262 share boundary line 260",
+  "units of 256-262 share boundary line 260",
+  "units of 256-262 share boundary line 260",
+  "units of 256-262 share boundary line 260"
+ ],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

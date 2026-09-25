@@ -1,0 +1,278 @@
+{
+ "paper_id": "2602.13002v1",
+ "source_path": "arxiv_papers/2602.13002v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 808,
+ "n_lines_sent": 357,
+ "skipped_ranges": [
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 219,
+   "to": 219,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 221,
+   "to": 221,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 225,
+   "to": 225,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 235,
+   "to": 235,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 650,
+   "to": 808,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 237,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 239,
+   "line_end": 239,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 241,
+   "line_end": 260,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 262,
+   "line_end": 276,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 278,
+   "line_end": 417,
+   "type": "other",
+   "title": "2 Formalism and measurement strategy"
+  },
+  {
+   "line_start": 419,
+   "line_end": 425,
+   "type": "detector",
+   "title": "3 Detector and simulation samples"
+  },
+  {
+   "line_start": 427,
+   "line_end": 501,
+   "type": "event_selection",
+   "title": "4 Event selection and yield determination",
+   "units": [
+    {
+     "line_start": 427,
+     "line_end": 435,
+     "label": "selection_of_double_tagged_events"
+    },
+    {
+     "line_start": 437,
+     "line_end": 439,
+     "label": "tag_modes_table"
+    },
+    {
+     "line_start": 441,
+     "line_end": 455,
+     "label": "mbc_and_missing_mass_selection"
+    },
+    {
+     "line_start": 457,
+     "line_end": 479,
+     "label": "signal_yield_determination"
+    },
+    {
+     "line_start": 480,
+     "line_end": 480,
+     "label": "kinematic_fit_and_binning"
+    },
+    {
+     "line_start": 482,
+     "line_end": 489,
+     "label": "misidentification_figures"
+    },
+    {
+     "line_start": 491,
+     "line_end": 497,
+     "label": "signal_yield_tables"
+    },
+    {
+     "line_start": 499,
+     "line_end": 501,
+     "label": "efficiency_corrected_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 503,
+   "line_end": 610,
+   "type": "fit",
+   "title": "5 Measurement of the observables and fit to the hadronic parameters"
+  },
+  {
+   "line_start": 612,
+   "line_end": 629,
+   "type": "discussion",
+   "title": "6 Impact of the results on the measurement of gamma"
+  },
+  {
+   "line_start": 631,
+   "line_end": 644,
+   "type": "conclusion",
+   "title": "7 Conclusion"
+  },
+  {
+   "line_start": 646,
+   "line_end": 648,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 439,
+   "title": "Tag modes used with signal decays",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 493,
+   "title": "Signal yields for flavour-tagged events",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 497,
+   "title": "Signal yields for CP-tagged events",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 509,
+   "title": "Efficiency-corrected yields in K_S^0 pi+ pi- bins",
+   "section_type": "fit"
+  },
+  {
+   "line": 513,
+   "title": "Efficiency-corrected yields in K_L^0 pi+ pi- bins",
+   "section_type": "fit"
+  },
+  {
+   "line": 523,
+   "title": "Input parameters for observables",
+   "section_type": "fit"
+  },
+  {
+   "line": 539,
+   "title": "Results for rho_CP+- K3pi",
+   "section_type": "fit"
+  },
+  {
+   "line": 543,
+   "title": "Results for rho_CP+- Kpipi0",
+   "section_type": "fit"
+  },
+  {
+   "line": 547,
+   "title": "Measured like-sign global observables",
+   "section_type": "fit"
+  },
+  {
+   "line": 589,
+   "title": "Fitted hadronic parameters global and binned",
+   "section_type": "fit"
+  },
+  {
+   "line": 598,
+   "title": "Systematic uncertainties on global hadronic parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 610,
+   "title": "Measured binned observables",
+   "section_type": "fit"
+  },
+  {
+   "line": 766,
+   "title": "K_i parameters for K_S^0 and K_L^0 pi+ pi-",
+   "section_type": "other"
+  },
+  {
+   "line": 772,
+   "title": "Correlation coefficients matrix for K_i",
+   "section_type": "other"
+  },
+  {
+   "line": 782,
+   "title": "Efficiency-corrected signal yields in K3pi bins",
+   "section_type": "other"
+  },
+  {
+   "line": 788,
+   "title": "Systematic uncertainties for binned hadronic parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 792,
+   "title": "Migration effects in flavour and CP tag modes",
+   "section_type": "other"
+  },
+  {
+   "line": 796,
+   "title": "Migration effects for K3pi tagged events",
+   "section_type": "other"
+  },
+  {
+   "line": 800,
+   "title": "Migration effects table",
+   "section_type": "other"
+  },
+  {
+   "line": 802,
+   "title": "Migration effects table",
+   "section_type": "other"
+  },
+  {
+   "line": 806,
+   "title": "Migration effects table",
+   "section_type": "other"
+  },
+  {
+   "line": 808,
+   "title": "Migration effects table",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

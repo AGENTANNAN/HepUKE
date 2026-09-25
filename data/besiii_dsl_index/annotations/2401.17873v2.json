@@ -1,0 +1,179 @@
+{
+ "paper_id": "2401.17873v2",
+ "source_path": "arxiv_papers/2401.17873v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 218,
+ "n_lines_sent": 90,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 157,
+   "to": 218,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 81,
+   "type": "front_matter",
+   "title": "Measurements of Normalized Differential Cross Sections of Inclusive eta Production in e+e- Annihilation at Energy from 2.0000 to 3.6710 GeV"
+  },
+  {
+   "line_start": 83,
+   "line_end": 83,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 85,
+   "line_end": 97,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 99,
+   "line_end": 109,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 111,
+   "line_end": 113,
+   "type": "dataset",
+   "title": "Data Sets and Luminosities"
+  },
+  {
+   "line_start": 115,
+   "line_end": 130,
+   "type": "event_selection",
+   "title": "Event Selection and Reconstruction",
+   "units": [
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "eta_yield_fit"
+    },
+    {
+     "line_start": 119,
+     "line_end": 130,
+     "label": "correction_factor"
+    }
+   ]
+  },
+  {
+   "line_start": 132,
+   "line_end": 142,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 132,
+     "line_end": 134,
+     "label": "signal_simulation"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "eta_reconstruction"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "fit_scheme"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "total_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 144,
+   "line_end": 149,
+   "type": "results",
+   "title": "Results and QCD Analysis",
+   "units": [
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "aesss_comparison"
+    },
+    {
+     "line_start": 146,
+     "line_end": 149,
+     "label": "new_ff_extraction"
+    }
+   ]
+  },
+  {
+   "line_start": 151,
+   "line_end": 151,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 153,
+   "line_end": 155,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 113,
+   "title": "Integrated luminosities, numbers of total selected hadronic and residual background events at eight c.m. energy points",
+   "section_type": "dataset"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

@@ -1,0 +1,159 @@
+{
+ "paper_id": "2412.20305v2",
+ "source_path": "arxiv_papers/2412.20305v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 165,
+ "n_lines_sent": 45,
+ "skipped_ranges": [
+  {
+   "from": 80,
+   "to": 165,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "Measurement of Born cross section of e+e- -> Sigma0 Sigma0 at sqrt(s)=3.50-4.95 GeV"
+  },
+  {
+   "line_start": 7,
+   "line_end": 11,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 13,
+   "line_end": 13,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 15,
+   "line_end": 30,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 15,
+     "line_end": 15,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 17,
+     "line_end": 17,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 19,
+     "line_end": 19,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 21,
+     "line_end": 21,
+     "label": "kinematic_fit_and_sigma0_selection"
+    },
+    {
+     "line_start": 23,
+     "line_end": 24,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 26,
+     "line_end": 26,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 28,
+     "line_end": 30,
+     "label": "table_1"
+    }
+   ]
+  },
+  {
+   "line_start": 32,
+   "line_end": 49,
+   "type": "results",
+   "title": "Born cross section and effective form factor",
+   "units": [
+    {
+     "line_start": 32,
+     "line_end": 38,
+     "label": "born_cross_section"
+    },
+    {
+     "line_start": 40,
+     "line_end": 46,
+     "label": "effective_form_factor"
+    },
+    {
+     "line_start": 48,
+     "line_end": 49,
+     "label": "figure_2"
+    }
+   ]
+  },
+  {
+   "line_start": 51,
+   "line_end": 51,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 53,
+   "line_end": 67,
+   "type": "fit",
+   "title": "Fit to the dressed cross section"
+  },
+  {
+   "line_start": 69,
+   "line_end": 69,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 71,
+   "line_end": 76,
+   "type": "other",
+   "title": "Figures and tables"
+  },
+  {
+   "line_start": 78,
+   "line_end": 78,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 30,
+   "title": "Definitions of the sideband regions",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 76,
+   "title": "Fitted resonance parameters for Gamma_ee B and phi",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

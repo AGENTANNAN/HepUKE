@@ -1,0 +1,188 @@
+{
+ "paper_id": "2304.07783v1",
+ "source_path": "arxiv_papers/2304.07783v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 351,
+ "n_lines_sent": 197,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 73,
+   "to": 73,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 86,
+   "to": 86,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 98,
+   "to": 100,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 102,
+   "to": 102,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 296,
+   "to": 351,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 105,
+   "type": "front_matter",
+   "title": "Cross section measurements of e+e- -> phi K+ K- and e+e- -> phi KS0 KS0 at center-of-mass energies between 3.7730 GeV and 4.7008 GeV"
+  },
+  {
+   "line_start": 106,
+   "line_end": 106,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 108,
+   "line_end": 120,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 122,
+   "line_end": 132,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 134,
+   "line_end": 161,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 137,
+     "label": "final_state_and_track_selection"
+    },
+    {
+     "line_start": 138,
+     "line_end": 139,
+     "label": "kinematic_fit_and_background"
+    },
+    {
+     "line_start": 140,
+     "line_end": 143,
+     "label": "selection_optimization"
+    },
+    {
+     "line_start": 144,
+     "line_end": 149,
+     "label": "mass_spectrum_fit"
+    },
+    {
+     "line_start": 151,
+     "line_end": 161,
+     "label": "signal_yield_and_likelihood_scan"
+    }
+   ]
+  },
+  {
+   "line_start": 163,
+   "line_end": 177,
+   "type": "fit",
+   "title": "IV. EFFICIENCY DETERMINATION"
+  },
+  {
+   "line_start": 179,
+   "line_end": 187,
+   "type": "fit",
+   "title": "V. DETERMINATION OF BORN CROSS SECTIONS"
+  },
+  {
+   "line_start": 189,
+   "line_end": 220,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 189,
+     "line_end": 191,
+     "label": "luminosity_and_tracking"
+    },
+    {
+     "line_start": 193,
+     "line_end": 205,
+     "label": "branching_fraction_and_isr_vp"
+    },
+    {
+     "line_start": 207,
+     "line_end": 218,
+     "label": "selection_conditions_and_background"
+    },
+    {
+     "line_start": 219,
+     "line_end": 220,
+     "label": "pwa_model"
+    }
+   ]
+  },
+  {
+   "line_start": 222,
+   "line_end": 275,
+   "type": "fit",
+   "title": "VII. SEARCH FOR RESONANT CONTRIBUTIONS"
+  },
+  {
+   "line_start": 277,
+   "line_end": 290,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 292,
+   "line_end": 294,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 228,
+   "title": "Summary of Born cross sections, luminosity, observed events, efficiency, radiative and vacuum polarization corrections",
+   "section_type": "fit"
+  },
+  {
+   "line": 246,
+   "title": "Summary of relative systematic uncertainties of the Born cross section measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

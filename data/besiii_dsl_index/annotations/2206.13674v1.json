@@ -1,0 +1,201 @@
+{
+ "paper_id": "2206.13674v1",
+ "source_path": "arxiv_papers/2206.13674v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 494,
+ "n_lines_sent": 267,
+ "skipped_ranges": [
+  {
+   "from": 65,
+   "to": 65,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 67,
+   "to": 67,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 94,
+   "to": 94,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 110,
+   "to": 110,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 132,
+   "to": 132,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 138,
+   "to": 138,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 152,
+   "to": 152,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 154,
+   "to": 154,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 156,
+   "to": 156,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 160,
+   "to": 160,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 453,
+   "to": 494,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 166,
+   "type": "front_matter",
+   "title": "Measurement of the total and leptonic decay widths of the J/psi resonance with an energy scan method at BESIII"
+  },
+  {
+   "line_start": 168,
+   "line_end": 172,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 174,
+   "line_end": 208,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 210,
+   "line_end": 228,
+   "type": "detector",
+   "title": "2. Experimental facilities and data sets"
+  },
+  {
+   "line_start": 230,
+   "line_end": 242,
+   "type": "event_selection",
+   "title": "3. Event selection",
+   "units": [
+    {
+     "line_start": 230,
+     "line_end": 232,
+     "label": "common_track_requirements"
+    },
+    {
+     "line_start": 234,
+     "line_end": 236,
+     "label": "electron_selection"
+    },
+    {
+     "line_start": 238,
+     "line_end": 238,
+     "label": "muon_selection"
+    },
+    {
+     "line_start": 240,
+     "line_end": 242,
+     "label": "data_mc_comparison_efficiency_background"
+    }
+   ]
+  },
+  {
+   "line_start": 244,
+   "line_end": 326,
+   "type": "results",
+   "title": "4. Cross section measurement",
+   "units": [
+    {
+     "line_start": 244,
+     "line_end": 254,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 256,
+     "line_end": 281,
+     "label": "efficiency_correction_factor"
+    },
+    {
+     "line_start": 283,
+     "line_end": 315,
+     "label": "systematic_uncertainties_cross_section"
+    },
+    {
+     "line_start": 317,
+     "line_end": 326,
+     "label": "correlation_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 328,
+   "line_end": 439,
+   "type": "fit",
+   "title": "5. Decay width determination"
+  },
+  {
+   "line_start": 441,
+   "line_end": 447,
+   "type": "conclusion",
+   "title": "6. Summary"
+  },
+  {
+   "line_start": 449,
+   "line_end": 451,
+   "type": "acknowledgements",
+   "title": "7. Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 222,
+   "title": "Basic information of the data samples at all individual CM energy points",
+   "section_type": "detector"
+  },
+  {
+   "line": 291,
+   "title": "Measured cross sections and related input quantities of e+e- -> e+e-",
+   "section_type": "results"
+  },
+  {
+   "line": 295,
+   "title": "Measured cross sections and related input quantities of e+e- -> mu+mu-",
+   "section_type": "results"
+  },
+  {
+   "line": 305,
+   "title": "Relative systematic uncertainties of the measured cross sections",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 399,
+   "title": "Comparison of the J/psi decay widths with other experiments, PDG and BESIII ISR work",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

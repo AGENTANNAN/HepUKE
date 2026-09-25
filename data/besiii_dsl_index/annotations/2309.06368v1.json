@@ -1,0 +1,230 @@
+{
+ "paper_id": "2309.06368v1",
+ "source_path": "arxiv_papers/2309.06368v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 165,
+ "n_lines_sent": 50,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 129,
+   "to": 165,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Measurements of the absolute branching fractions of Ω− decays and test of the ΔI = 1/2 rule"
+  },
+  {
+   "line_start": 36,
+   "line_end": 36,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 38,
+   "line_end": 42,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 44,
+   "line_end": 52,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 54,
+   "line_end": 93,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "lambda_and_omega_tag_selection"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 60,
+     "line_end": 62,
+     "label": "st_dt_yields_table"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "pion_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 66,
+     "line_end": 67,
+     "label": "st_fit_figure"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "peaking_background_study"
+    },
+    {
+     "line_start": 73,
+     "line_end": 75,
+     "label": "dt_yield_fit"
+    },
+    {
+     "line_start": 77,
+     "line_end": 78,
+     "label": "dt_fit_figure"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "bf_results_xi_channels"
+    },
+    {
+     "line_start": 82,
+     "line_end": 84,
+     "label": "lambda_k_channel_st_selection"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "lambda_k_channel_signal_selection"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "lambda_k_channel_dt_fit"
+    },
+    {
+     "line_start": 90,
+     "line_end": 91,
+     "label": "lambda_k_channel_fit_figure"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "lambda_k_channel_bf_results"
+    }
+   ]
+  },
+  {
+   "line_start": 95,
+   "line_end": 115,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 95,
+     "line_end": 99,
+     "label": "systematics_overview_and_table"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "photon_pi0_tracking_pid"
+    },
+    {
+     "line_start": 103,
+     "line_end": 105,
+     "label": "signal_and_background_shapes"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "weighting_procedure"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "xi0_pi_veto"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "truth_match"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 121,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 123,
+   "line_end": 127,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 62,
+   "title": "ST and DT yields, efficiencies and absolute BFs",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 99,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 121,
+   "title": "Obtained BFs and comparison with PDG",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

@@ -1,0 +1,267 @@
+{
+ "paper_id": "2002.10578v2",
+ "source_path": "arxiv_papers/2002.10578v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 237,
+ "n_lines_sent": 138,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 191,
+   "to": 237,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "Collaboration"
+  },
+  {
+   "line_start": 8,
+   "line_end": 91,
+   "type": "front_matter",
+   "title": "Affiliations"
+  },
+  {
+   "line_start": 93,
+   "line_end": 95,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 97,
+   "line_end": 97,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 99,
+   "line_end": 103,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 105,
+   "line_end": 107,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 109,
+   "line_end": 109,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 111,
+   "line_end": 119,
+   "type": "event_selection",
+   "title": "Event selection and BF determination",
+   "units": [
+    {
+     "line_start": 111,
+     "line_end": 119,
+     "label": "st_dt_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 129,
+   "type": "event_selection",
+   "title": "Selection criteria",
+   "units": [
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "pid"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "ks0_selection"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "pi0_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 131,
+   "line_end": 147,
+   "type": "event_selection",
+   "title": "ST selection and yield",
+   "units": [
+    {
+     "line_start": 131,
+     "line_end": 147,
+     "label": "st_yield"
+    }
+   ]
+  },
+  {
+   "line_start": 149,
+   "line_end": 158,
+   "type": "event_selection",
+   "title": "ST fit results and table",
+   "units": [
+    {
+     "line_start": 149,
+     "line_end": 158,
+     "label": "st_fit_results"
+    }
+   ]
+  },
+  {
+   "line_start": 160,
+   "line_end": 164,
+   "type": "event_selection",
+   "title": "DT selection",
+   "units": [
+    {
+     "line_start": 160,
+     "line_end": 164,
+     "label": "dt_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 166,
+   "line_end": 179,
+   "type": "fit",
+   "title": "U_miss fit and BF"
+  },
+  {
+   "line_start": 181,
+   "line_end": 183,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "tracking"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "pid"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 181,
+     "line_end": 183,
+     "label": "extra_gamma"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "u_miss_fit"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "mc_stat"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "mc_model"
+    }
+   ]
+  },
+  {
+   "line_start": 185,
+   "line_end": 187,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 189,
+   "line_end": 189,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 158,
+   "title": "ST and DT yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 222,
+   "title": "Comparison of BFs with theoretical predictions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 16.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 181-183 share boundary line 181",
+  "units of 181-183 share boundary line 181",
+  "units of 181-183 share boundary line 181",
+  "units of 181-183 share boundary line 181",
+  "units of 181-183 share boundary line 183",
+  "units of 181-183 share boundary line 183",
+  "units of 181-183 share boundary line 183",
+  "units of 181-183 share boundary line 183"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

@@ -1,0 +1,340 @@
+{
+ "paper_id": "1603.09653v2",
+ "source_path": "arxiv_papers/1603.09653v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 130,
+ "n_lines_sent": 51,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 111,
+   "to": 130,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 35,
+   "type": "front_matter",
+   "title": "Title, authors, and PACS"
+  },
+  {
+   "line_start": 33,
+   "line_end": 33,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 37,
+   "line_end": 39,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 41,
+   "line_end": 41,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 43,
+   "line_end": 43,
+   "type": "event_selection",
+   "title": "Charged track and photon selection",
+   "units": [
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "charged_tracks"
+    }
+   ]
+  },
+  {
+   "line_start": 45,
+   "line_end": 49,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "pid"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "photons"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "eta_prime_reconstruction"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "eta_reconstruction"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "eta_prime_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 51,
+   "line_end": 54,
+   "type": "results",
+   "title": "Invariant mass spectra",
+   "units": [
+    {
+     "line_start": 51,
+     "line_end": 52,
+     "label": "invariant_mass_spectra"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "observed_structures"
+    }
+   ]
+  },
+  {
+   "line_start": 56,
+   "line_end": 56,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 58,
+   "line_end": 92,
+   "type": "fit",
+   "title": "Fit to the mass spectrum"
+  },
+  {
+   "line_start": 94,
+   "line_end": 94,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "tracking"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "pid"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "gamma_gamma_mass_requirement"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "rho0_selection"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "eta_selection"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "eta_prime_selection"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "total_jpsi_events"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "intermediate_branching_fractions"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "background_description"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "mass_resolution"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "intermediate_pi_pi_structure"
+    }
+   ]
+  },
+  {
+   "line_start": 96,
+   "line_end": 107,
+   "type": "results",
+   "title": "Fit results and tables",
+   "units": [
+    {
+     "line_start": 96,
+     "line_end": 97,
+     "label": "fit_results_figure"
+    },
+    {
+     "line_start": 99,
+     "line_end": 101,
+     "label": "table_i_flatte_fit"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "summary_and_interpretation"
+    },
+    {
+     "line_start": 105,
+     "line_end": 107,
+     "label": "table_ii_two_bw_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 103,
+   "line_end": 103,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 109,
+   "line_end": 109,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 101,
+   "title": "Fit results of using Flatté formula",
+   "section_type": "results"
+  },
+  {
+   "line": 107,
+   "title": "Fit results using a coherent sum of two Breit-Wigner amplitudes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 45-49 share boundary line 45",
+  "units of 45-49 share boundary line 45",
+  "units of 45-49 share boundary line 47",
+  "units of 45-49 share boundary line 47",
+  "units of 45-49 share boundary line 49",
+  "units of 45-49 share boundary line 49",
+  "units of 45-49 share boundary line 49",
+  "units of 94-94 share boundary line 94",
+  "units of 94-94 share boundary line 94",
+  "units of 94-94 share boundary line 94",
+  "units of 94-94 share boundary line 94",
+  "units of 94-94 share boundary line 94",
+  "units of 94-94 share boundary line 94",
+  "units of 94-94 share boundary line 94",
+  "units of 94-94 share boundary line 94",
+  "units of 94-94 share boundary line 94",
+  "units of 94-94 share boundary line 94",
+  "units of 94-94 share boundary line 94",
+  "units of 94-94 share boundary line 94",
+  "units of 94-94 share boundary line 94",
+  "nested spans 1-35 / 33-33",
+  "nested spans 96-107 / 103-103"
+ ],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": [],
+ "units_repaired": true
+}

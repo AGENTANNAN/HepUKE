@@ -1,0 +1,204 @@
+{
+ "paper_id": "2204.09413v2",
+ "source_path": "arxiv_papers/2204.09413v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 158,
+ "n_lines_sent": 66,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 133,
+   "to": 158,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 18,
+   "type": "front_matter",
+   "title": "Study of the h_c(1^1P_1) meson via psi(2S) -> pi^0 h_c decays at BESIII"
+  },
+  {
+   "line_start": 20,
+   "line_end": 44,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 46,
+   "line_end": 50,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND DATASETS"
+  },
+  {
+   "line_start": 52,
+   "line_end": 79,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND ANALYSIS PROCEDURE",
+   "units": [
+    {
+     "line_start": 52,
+     "line_end": 54,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "signal_efficiency_and_shape"
+    },
+    {
+     "line_start": 60,
+     "line_end": 66,
+     "label": "branching_fraction_formulas"
+    },
+    {
+     "line_start": 68,
+     "line_end": 69,
+     "label": "resolution_function_figure"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "fit_results_summary"
+    },
+    {
+     "line_start": 77,
+     "line_end": 79,
+     "label": "results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 81,
+   "line_end": 107,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 81,
+     "line_end": 83,
+     "label": "overview"
+    },
+    {
+     "line_start": 85,
+     "line_end": 86,
+     "label": "fit_figure"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "background_line_shape"
+    },
+    {
+     "line_start": 90,
+     "line_end": 95,
+     "label": "jpsi_veto_mass_ranges"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "photon_reconstruction_efficiency"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "photon_energy_calibration"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "pi0_reconstruction_efficiency"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "number_of_psi2s_events"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "negligible_sources"
+    }
+   ]
+  },
+  {
+   "line_start": 109,
+   "line_end": 123,
+   "type": "conclusion",
+   "title": "V. RESULTS AND SUMMARY"
+  },
+  {
+   "line_start": 125,
+   "line_end": 131,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 79,
+   "title": "Results of the fits to the pi0 recoiling mass spectra",
+   "section_type": "results"
+  },
+  {
+   "line": 115,
+   "title": "Summary of the relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

@@ -1,0 +1,224 @@
+{
+ "paper_id": "1011.0885v1",
+ "source_path": "arxiv_papers/1011.0885v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 138,
+ "n_lines_sent": 61,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 120,
+   "to": 138,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 53,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 57,
+   "line_end": 57,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 59,
+   "line_end": 59,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 61,
+   "line_end": 67,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 69,
+   "line_end": 71,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 73,
+   "line_end": 83,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "tracking"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 79,
+     "line_end": 81,
+     "label": "signal_yields"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 85,
+   "line_end": 85,
+   "type": "fit",
+   "title": "Mass spectra and fit"
+  },
+  {
+   "line_start": 87,
+   "line_end": 91,
+   "type": "results",
+   "title": "Figures",
+   "units": [
+    {
+     "line_start": 87,
+     "line_end": 88,
+     "label": "mdc_hits"
+    },
+    {
+     "line_start": 90,
+     "line_end": 91,
+     "label": "mass_distributions"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 96,
+   "type": "background",
+   "title": "Backgrounds"
+  },
+  {
+   "line_start": 98,
+   "line_end": 108,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "tracking_pid_photon_pi0_kinematic_fit"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "mdc_hits"
+    },
+    {
+     "line_start": 102,
+     "line_end": 108,
+     "label": "background_shape_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 110,
+   "line_end": 114,
+   "type": "results",
+   "title": "Branching fractions",
+   "units": [
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "branching_fractions_significance"
+    },
+    {
+     "line_start": 112,
+     "line_end": 114,
+     "label": "branching_fractions_table"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 116,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 118,
+   "line_end": 118,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 81,
+   "title": "Signal yields, continuum background, and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 106,
+   "title": "Summary of systematic errors",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 114,
+   "title": "Branching fractions and comparison with PDG",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

@@ -1,0 +1,199 @@
+{
+ "paper_id": "2608.16214v1",
+ "source_path": "arxiv_papers/2608.16214v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 304,
+ "n_lines_sent": 124,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 244,
+   "to": 304,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "First measurements of the branching fractions of J/ψ and ψ(3686) Σ0Σ¯0η"
+  },
+  {
+   "line_start": 13,
+   "line_end": 121,
+   "type": "front_matter",
+   "title": "Affiliations"
+  },
+  {
+   "line_start": 125,
+   "line_end": 125,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 127,
+   "line_end": 139,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 141,
+   "line_end": 145,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 147,
+   "line_end": 161,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 147,
+     "line_end": 149,
+     "label": "reconstruction_channels"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 159,
+     "line_end": 159,
+     "label": "sideband_background"
+    },
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "continuum_background"
+    }
+   ]
+  },
+  {
+   "line_start": 163,
+   "line_end": 181,
+   "type": "fit",
+   "title": "IV. BRANCHING-FRACTION DETERMINATION"
+  },
+  {
+   "line_start": 183,
+   "line_end": 228,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 183,
+     "line_end": 185,
+     "label": "normalization_and_photon_detection"
+    },
+    {
+     "line_start": 187,
+     "line_end": 203,
+     "label": "figures"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "mass_resolution"
+    },
+    {
+     "line_start": 213,
+     "line_end": 224,
+     "label": "figures"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 230,
+   "line_end": 232,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 234,
+   "line_end": 236,
+   "type": "other",
+   "title": "Table I"
+  },
+  {
+   "line_start": 238,
+   "line_end": 240,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 242,
+   "line_end": 242,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 236,
+   "title": "Relative systematic uncertainties in the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 5.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:23",
+ "failed_aspects": []
+}

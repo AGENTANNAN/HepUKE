@@ -1,0 +1,165 @@
+{
+ "paper_id": "2009.01404v3",
+ "source_path": "arxiv_papers/2009.01404v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 297,
+ "n_lines_sent": 196,
+ "skipped_ranges": [
+  {
+   "from": 147,
+   "to": 147,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 247,
+   "to": 297,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 145,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 149,
+   "line_end": 153,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 155,
+   "line_end": 165,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 167,
+   "line_end": 171,
+   "type": "detector",
+   "title": "2. Detector and data sample"
+  },
+  {
+   "line_start": 173,
+   "line_end": 213,
+   "type": "event_selection",
+   "title": "3. Data Analysis",
+   "units": [
+    {
+     "line_start": 173,
+     "line_end": 175,
+     "label": "final_state_topologies"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "category_a_selection"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "category_b_selection"
+    },
+    {
+     "line_start": 181,
+     "line_end": 183,
+     "label": "sigma_minus_sigma_plus_reconstruction"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "mass_spectra_and_backgrounds"
+    },
+    {
+     "line_start": 187,
+     "line_end": 191,
+     "label": "figures_1_2"
+    },
+    {
+     "line_start": 193,
+     "line_end": 199,
+     "label": "born_cross_section_formula"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "signal_yield_fits"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "cross_section_summary"
+    },
+    {
+     "line_start": 205,
+     "line_end": 207,
+     "label": "table_1"
+    },
+    {
+     "line_start": 209,
+     "line_end": 211,
+     "label": "table_2"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 215,
+   "line_end": 228,
+   "type": "fit",
+   "title": "4. Line shape analysis"
+  },
+  {
+   "line_start": 230,
+   "line_end": 235,
+   "type": "fit",
+   "title": "5. Extraction of |G_E/G_M| ratio"
+  },
+  {
+   "line_start": 237,
+   "line_end": 241,
+   "type": "conclusion",
+   "title": "6. Summary"
+  },
+  {
+   "line_start": 243,
+   "line_end": 245,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 207,
+   "title": "Summary of cross section for e+e- -> Sigma+ Sigma- and effective FFs",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 211,
+   "title": "Summary of cross section for e+e- -> Sigma- Sigma+ and effective FFs",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

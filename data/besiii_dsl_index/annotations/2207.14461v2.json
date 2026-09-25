@@ -1,0 +1,293 @@
+{
+ "paper_id": "2207.14461v2",
+ "source_path": "arxiv_papers/2207.14461v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 176,
+ "n_lines_sent": 69,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 149,
+   "to": 176,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Measurement of the absolute branching fraction of the singly Cabibbo suppressed decay Λc+ → pη′"
+  },
+  {
+   "line_start": 19,
+   "line_end": 19,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 21,
+   "line_end": 32,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 34,
+   "line_end": 36,
+   "type": "dataset",
+   "title": "Table 1: CM energy and integrated luminosity"
+  },
+  {
+   "line_start": 38,
+   "line_end": 42,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 44,
+   "line_end": 52,
+   "type": "fit",
+   "title": "III. METHODOLOGY"
+  },
+  {
+   "line_start": 54,
+   "line_end": 73,
+   "type": "event_selection",
+   "title": "IV. SINGLE TAG EVENT SELECTIONS",
+   "units": [
+    {
+     "line_start": 54,
+     "line_end": 56,
+     "label": "track_selection_pid"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "photon_pi0_reconstruction"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "ks_lambda_sigma_reconstruction"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "mbc_deltae_selection"
+    },
+    {
+     "line_start": 64,
+     "line_end": 66,
+     "label": "st_yields_table"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "veto_double_counting"
+    },
+    {
+     "line_start": 70,
+     "line_end": 73,
+     "label": "mbc_fit_st_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 75,
+   "line_end": 83,
+   "type": "event_selection",
+   "title": "V. SIGNAL RECONSTRUCTION",
+   "units": [
+    {
+     "line_start": 75,
+     "line_end": 77,
+     "label": "eta_prime_decay_modes"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "signal_side_track_selection"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "eta_prime_to_pi+pi-eta_reconstruction"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "eta_prime_to_pi+pi-gamma_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 85,
+   "line_end": 90,
+   "type": "background",
+   "title": "VI. BACKGROUND ANALYSIS"
+  },
+  {
+   "line_start": 92,
+   "line_end": 98,
+   "type": "fit",
+   "title": "VII. BRANCHING FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 100,
+   "line_end": 130,
+   "type": "systematic_uncertainty",
+   "title": "VIII. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 102,
+     "label": "overview"
+    },
+    {
+     "line_start": 104,
+     "line_end": 106,
+     "label": "dt_efficiency_table"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "mrec_requirement"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "deltae_requirement"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "mrec_alpha_gamma_requirements"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "fit_strategy"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "signal_modeling"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "intermediate_branching_fractions"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 132,
+   "line_end": 142,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 144,
+   "line_end": 146,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENT"
+  },
+  {
+   "line_start": 148,
+   "line_end": 148,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 36,
+   "title": "CM energy and integrated luminosity for each energy point",
+   "section_type": "dataset"
+  },
+  {
+   "line": 66,
+   "title": "Branching fractions, ΔE requirement, ST yield, and ST detection efficiency for each tag mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 98,
+   "title": "DT detection efficiencies in the η′ → π+π−η mode",
+   "section_type": "fit"
+  },
+  {
+   "line": 106,
+   "title": "DT detection efficiencies in the η′ → π+π−γ mode",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 138,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 142,
+   "title": "Comparison of measured branching fraction to predictions and Belle result",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

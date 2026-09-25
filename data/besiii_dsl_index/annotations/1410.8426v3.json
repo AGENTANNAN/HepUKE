@@ -1,0 +1,223 @@
+{
+ "paper_id": "1410.8426v3",
+ "source_path": "arxiv_papers/1410.8426v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 190,
+ "n_lines_sent": 80,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 167,
+   "to": 190,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 31,
+   "type": "front_matter",
+   "title": "Title, authors, and PACS"
+  },
+  {
+   "line_start": 29,
+   "line_end": 29,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 33,
+   "line_end": 39,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 41,
+   "line_end": 48,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT"
+  },
+  {
+   "line_start": 50,
+   "line_end": 93,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 50,
+     "line_end": 54,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 62,
+     "line_end": 64,
+     "label": "ds_reconstruction"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 68,
+     "line_end": 70,
+     "label": "umiss_and_background"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 74,
+     "line_end": 93,
+     "label": "likelihood_fit_and_upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 95,
+   "line_end": 157,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 95,
+     "line_end": 104,
+     "label": "reconstruction_efficiency"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "physics_model"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "resolutions"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "electron_tracking_pid_ep"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "total_jpsi_events"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "trigger_efficiency"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "ds_star_extra_uncertainties"
+    },
+    {
+     "line_start": 137,
+     "line_end": 157,
+     "label": "upper_limit_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 159,
+   "line_end": 161,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 163,
+   "line_end": 165,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 117,
+   "title": "Systematic uncertainties for J/psi -> Ds- e+ nu_e",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 121,
+   "title": "Systematic uncertainties for J/psi -> Ds*- e+ nu_e",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 143,
+   "title": "Common systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 147,
+   "title": "Upper limits of branching fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 95-157 before line 123",
+  "nested spans 1-31 / 29-29"
+ ],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

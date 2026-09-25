@@ -1,0 +1,213 @@
+{
+ "paper_id": "1701.01197v2",
+ "source_path": "arxiv_papers/1701.01197v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 330,
+ "n_lines_sent": 181,
+ "skipped_ranges": [
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 292,
+   "to": 330,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "Title and author list"
+  },
+  {
+   "line_start": 9,
+   "line_end": 56,
+   "type": "front_matter",
+   "title": "Affiliations and acknowledgements of institutes"
+  },
+  {
+   "line_start": 57,
+   "line_end": 57,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 59,
+   "line_end": 85,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 87,
+   "line_end": 93,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 95,
+   "line_end": 106,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 95,
+     "line_end": 97,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "jpsi_mass_window"
+    },
+    {
+     "line_start": 103,
+     "line_end": 104,
+     "label": "figure1"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "background_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 164,
+   "type": "fit",
+   "title": "IV. MEASUREMENT OF HIGHER-ORDER MULTIPOLE AMPLITUDES"
+  },
+  {
+   "line_start": 166,
+   "line_end": 215,
+   "type": "fit",
+   "title": "V. MEASUREMENT OF B(ψ(3686) → γχcJ → γγJ/ψ) AND SEARCH FOR THE PROCESS ηc(2S) → γJ/ψ"
+  },
+  {
+   "line_start": 217,
+   "line_end": 254,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 217,
+     "line_end": 219,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 221,
+     "line_end": 223,
+     "label": "efficiency"
+    },
+    {
+     "line_start": 225,
+     "line_end": 231,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "background"
+    },
+    {
+     "line_start": 235,
+     "line_end": 236,
+     "label": "figure3"
+    },
+    {
+     "line_start": 238,
+     "line_end": 240,
+     "label": "table3"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "branching_fraction_systematics_overview"
+    },
+    {
+     "line_start": 244,
+     "line_end": 246,
+     "label": "kinematic_fit_and_selection"
+    },
+    {
+     "line_start": 248,
+     "line_end": 250,
+     "label": "interference_and_signal_shape"
+    },
+    {
+     "line_start": 252,
+     "line_end": 254,
+     "label": "table4"
+    }
+   ]
+  },
+  {
+   "line_start": 256,
+   "line_end": 276,
+   "type": "conclusion",
+   "title": "VII. RESULT AND SUMMARY"
+  },
+  {
+   "line_start": 278,
+   "line_end": 290,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 158,
+   "title": "Fit results for a_{2,3}^J and b_{2,3}^J",
+   "section_type": "fit"
+  },
+  {
+   "line": 193,
+   "title": "Detection efficiencies and estimated background",
+   "section_type": "fit"
+  },
+  {
+   "line": 240,
+   "title": "Systematic uncertainties for multipole amplitudes",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 254,
+   "title": "Summary of systematic uncertainties for branching fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

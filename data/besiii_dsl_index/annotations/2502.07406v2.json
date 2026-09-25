@@ -1,0 +1,187 @@
+{
+ "paper_id": "2502.07406v2",
+ "source_path": "arxiv_papers/2502.07406v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 428,
+ "n_lines_sent": 77,
+ "skipped_ranges": [
+  {
+   "from": 142,
+   "to": 428,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 23,
+   "type": "front_matter",
+   "title": "Title, authors, abstract, keywords, contents"
+  },
+  {
+   "line_start": 25,
+   "line_end": 31,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 33,
+   "line_end": 41,
+   "type": "detector",
+   "title": "2 BESIII detector and data samples"
+  },
+  {
+   "line_start": 43,
+   "line_end": 62,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 43,
+     "line_end": 45,
+     "label": "overview"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "eta_c_mass_window"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "combinatorial_background"
+    },
+    {
+     "line_start": 55,
+     "line_end": 62,
+     "label": "inclusive_mc_background"
+    }
+   ]
+  },
+  {
+   "line_start": 64,
+   "line_end": 96,
+   "type": "fit",
+   "title": "4 Cross section"
+  },
+  {
+   "line_start": 98,
+   "line_end": 126,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 98,
+     "line_end": 108,
+     "label": "overview"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 112,
+     "line_end": 118,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "eta_c_mass_window"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "simulation_model"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "resolution"
+    },
+    {
+     "line_start": 122,
+     "line_end": 124,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "cross_section_line_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 128,
+   "line_end": 130,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 132,
+   "line_end": 136,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  },
+  {
+   "line_start": 138,
+   "line_end": 140,
+   "type": "other",
+   "title": "7 Appendix"
+  }
+ ],
+ "tables": [
+  {
+   "line": 96,
+   "title": "Born cross section results for each data sample",
+   "section_type": "fit"
+  },
+  {
+   "line": 116,
+   "title": "Summary of multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 98-126 share boundary line 110",
+  "units of 98-126 share boundary line 118",
+  "units of 98-126 share boundary line 118",
+  "units of 98-126 share boundary line 122",
+  "units of 98-126 share boundary line 124"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

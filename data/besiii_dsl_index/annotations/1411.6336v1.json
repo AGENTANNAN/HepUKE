@@ -1,0 +1,206 @@
+{
+ "paper_id": "1411.6336v1",
+ "source_path": "arxiv_papers/1411.6336v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 148,
+ "n_lines_sent": 72,
+ "skipped_ranges": [
+  {
+   "from": 123,
+   "to": 148,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 24,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 26,
+   "line_end": 34,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 36,
+   "line_end": 38,
+   "type": "other",
+   "title": "Table I"
+  },
+  {
+   "line_start": 40,
+   "line_end": 44,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO"
+  },
+  {
+   "line_start": 46,
+   "line_end": 52,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 46,
+     "line_end": 48,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 54,
+   "line_end": 56,
+   "type": "background",
+   "title": "IV. BACKGROUND STUDY"
+  },
+  {
+   "line_start": 58,
+   "line_end": 60,
+   "type": "fit",
+   "title": "V. FIT TO THE MASS SPECTRUM"
+  },
+  {
+   "line_start": 62,
+   "line_end": 74,
+   "type": "results",
+   "title": "VI. RESULTS",
+   "units": [
+    {
+     "line_start": 62,
+     "line_end": 70,
+     "label": "born_cross_section"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "upper_limits"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "simultaneous_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 76,
+   "line_end": 80,
+   "type": "other",
+   "title": "Figures 1 and 2"
+  },
+  {
+   "line_start": 82,
+   "line_end": 113,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 82,
+     "line_end": 84,
+     "label": "common_systematics"
+    },
+    {
+     "line_start": 86,
+     "line_end": 88,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 90,
+     "line_end": 92,
+     "label": "table_iii"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "other_systematics_intro"
+    },
+    {
+     "line_start": 96,
+     "line_end": 101,
+     "label": "mass_resolution"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "mass_shift"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 115,
+   "line_end": 117,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 119,
+   "line_end": 121,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 38,
+   "title": "Center-of-mass energy and luminosity of each data sample",
+   "section_type": "dataset"
+  },
+  {
+   "line": 88,
+   "title": "Results on e+e- -> gamma chi_cJ Born cross section measurement",
+   "section_type": "results"
+  },
+  {
+   "line": 92,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

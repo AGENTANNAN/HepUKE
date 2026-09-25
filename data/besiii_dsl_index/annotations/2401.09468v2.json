@@ -1,0 +1,172 @@
+{
+ "paper_id": "2401.09468v2",
+ "source_path": "arxiv_papers/2401.09468v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 382,
+ "n_lines_sent": 106,
+ "skipped_ranges": [
+  {
+   "from": 191,
+   "to": 382,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Measurement of Born cross section of e+e- to Sigma+ Sigma- at center-of-mass energies between 3.510 and 4.951 GeV"
+  },
+  {
+   "line_start": 13,
+   "line_end": 38,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 40,
+   "line_end": 46,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 48,
+   "line_end": 52,
+   "type": "detector",
+   "title": "2 BESIII Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 54,
+   "line_end": 62,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 54,
+     "line_end": 56,
+     "label": "decay_mode_requirements"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 64,
+   "line_end": 101,
+   "type": "fit",
+   "title": "4 Born cross section measurement"
+  },
+  {
+   "line_start": 104,
+   "line_end": 136,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 104,
+     "line_end": 106,
+     "label": "overview"
+    },
+    {
+     "line_start": 108,
+     "line_end": 110,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 112,
+     "line_end": 116,
+     "label": "sigma_reconstruction"
+    },
+    {
+     "line_start": 118,
+     "line_end": 120,
+     "label": "background"
+    },
+    {
+     "line_start": 122,
+     "line_end": 124,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 126,
+     "line_end": 128,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 130,
+     "line_end": 132,
+     "label": "input_line_shape"
+    },
+    {
+     "line_start": 134,
+     "line_end": 136,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 138,
+   "line_end": 178,
+   "type": "fit",
+   "title": "6 Fit to the dressed cross section"
+  },
+  {
+   "line_start": 180,
+   "line_end": 185,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 187,
+   "line_end": 189,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 95,
+   "title": "Number of events: N_S, N_bkg, N_obs, S(sigma), N_UL",
+   "section_type": "fit"
+  },
+  {
+   "line": 99,
+   "title": "CM energy, luminosity, VP correction, ISR correction and detection efficiency, signal yield, upper limit, Born cross section, effective form factor, statistical significance",
+   "section_type": "fit"
+  },
+  {
+   "line": 144,
+   "title": "Systematic uncertainties and their sources for each energy point on the Born cross section measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 178,
+   "title": "Fitted resonance parameters to the dressed cross section with two solutions",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

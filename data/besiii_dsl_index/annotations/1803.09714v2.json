@@ -1,0 +1,223 @@
+{
+ "paper_id": "1803.09714v2",
+ "source_path": "arxiv_papers/1803.09714v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 169,
+ "n_lines_sent": 81,
+ "skipped_ranges": [
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 138,
+   "to": 169,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 21,
+   "type": "front_matter",
+   "title": "Title, authors and affiliations"
+  },
+  {
+   "line_start": 25,
+   "line_end": 29,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 31,
+   "line_end": 37,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 39,
+   "line_end": 45,
+   "type": "detector",
+   "title": "2. The BESIII experiment and Monte Carlo simulation"
+  },
+  {
+   "line_start": 47,
+   "line_end": 90,
+   "type": "event_selection",
+   "title": "3. Data analysis",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 49,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "gamma_conversion_veto"
+    },
+    {
+     "line_start": 59,
+     "line_end": 65,
+     "label": "two_photon_background"
+    },
+    {
+     "line_start": 67,
+     "line_end": 71,
+     "label": "figures"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "signal_fit"
+    },
+    {
+     "line_start": 75,
+     "line_end": 90,
+     "label": "branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 92,
+   "line_end": 120,
+   "type": "systematic_uncertainty",
+   "title": "4. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 92,
+     "line_end": 94,
+     "label": "overview"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "tracking"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "pid"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "gamma_conversion_veto"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "eta_reconstruction"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "rm_requirement"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "form_factor"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "fit_range_and_background_shape"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "fixed_peaking_background"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "normalization"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 122,
+   "line_end": 124,
+   "type": "results",
+   "title": "5. Results",
+   "units": [
+    {
+     "line_start": 122,
+     "line_end": 124,
+     "label": "branching_fraction_results"
+    }
+   ]
+  },
+  {
+   "line_start": 130,
+   "line_end": 132,
+   "type": "conclusion",
+   "title": "6. Summary"
+  },
+  {
+   "line_start": 134,
+   "line_end": 136,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 85,
+   "title": "Signal and background yields, detection efficiency, significance and branching fraction",
+   "section_type": "results"
+  },
+  {
+   "line": 128,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

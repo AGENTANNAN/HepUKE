@@ -1,0 +1,200 @@
+{
+ "paper_id": "1104.5068v3",
+ "source_path": "arxiv_papers/1104.5068v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 115,
+ "n_lines_sent": 50,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 100,
+   "to": 115,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 18,
+   "line_end": 42,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 44,
+   "line_end": 48,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 50,
+   "line_end": 50,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 52,
+   "line_end": 82,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "final_state_and_track_requirements"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "tracking"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 62,
+     "line_end": 64,
+     "label": "phi_phi_selection"
+    },
+    {
+     "line_start": 66,
+     "line_end": 67,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "omega_omega_selection"
+    },
+    {
+     "line_start": 71,
+     "line_end": 72,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "phi_phi_fit"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "omega_omega_backgrounds"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "omega_phi_selection"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "omega_omega_fit"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "omega_phi_simultaneous_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 84,
+   "line_end": 86,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 84,
+     "line_end": 86,
+     "label": "branching_fractions_table"
+    }
+   ]
+  },
+  {
+   "line_start": 88,
+   "line_end": 92,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "modified_mc_shapes"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "systematic_sources"
+    }
+   ]
+  },
+  {
+   "line_start": 94,
+   "line_end": 94,
+   "type": "results",
+   "title": "Branching fraction determination",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "branching_fraction_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 96,
+   "line_end": 96,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 98,
+   "line_end": 98,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 86,
+   "title": "Summary of branching fractions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

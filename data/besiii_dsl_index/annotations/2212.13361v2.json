@@ -1,0 +1,277 @@
+{
+ "paper_id": "2212.13361v2",
+ "source_path": "arxiv_papers/2212.13361v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 344,
+ "n_lines_sent": 180,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 66,
+   "to": 66,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 82,
+   "to": 82,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 84,
+   "to": 84,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 117,
+   "to": 117,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 141,
+   "to": 141,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 163,
+   "to": 163,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 165,
+   "to": 165,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 167,
+   "to": 167,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 171,
+   "to": 171,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 315,
+   "to": 344,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 179,
+   "type": "front_matter",
+   "title": "Measurement of branching fraction of D_s^{*+} to D_s^+ pi^0 relative to D_s^{*+} to D_s^+ gamma"
+  },
+  {
+   "line_start": 181,
+   "line_end": 189,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 191,
+   "line_end": 199,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO"
+  },
+  {
+   "line_start": 201,
+   "line_end": 237,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 201,
+     "line_end": 203,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 209,
+     "line_end": 227,
+     "label": "mbc_and_recoil_mass_selection"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 231,
+     "line_end": 237,
+     "label": "missing_mass_squared"
+    }
+   ]
+  },
+  {
+   "line_start": 239,
+   "line_end": 269,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 271,
+   "line_end": 283,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 271,
+     "line_end": 273,
+     "label": "missing_mass_resolution"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 277,
+     "line_end": 279,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "other_sources"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 285,
+   "line_end": 289,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 291,
+   "line_end": 300,
+   "type": "other",
+   "title": "Tables and figures"
+  },
+  {
+   "line_start": 302,
+   "line_end": 306,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  },
+  {
+   "line_start": 308,
+   "line_end": 314,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 219,
+   "title": "Integrated luminosity and M_BC requirement for each energy point",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 293,
+   "title": "Quantities used for f_gamma measurements and obtained results",
+   "section_type": "fit"
+  },
+  {
+   "line": 297,
+   "title": "Relative systematic uncertainties in the determination of f_gamma",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 310,
+   "title": "Comparisons of partial widths and branching fractions with theory",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

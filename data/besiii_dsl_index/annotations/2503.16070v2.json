@@ -1,0 +1,199 @@
+{
+ "paper_id": "2503.16070v2",
+ "source_path": "arxiv_papers/2503.16070v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 417,
+ "n_lines_sent": 266,
+ "skipped_ranges": [
+  {
+   "from": 93,
+   "to": 93,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 350,
+   "to": 417,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 168,
+   "type": "front_matter",
+   "title": "Search for radiative leptonic decay D+ -> gamma e+ nu_e using deep learning"
+  },
+  {
+   "line_start": 170,
+   "line_end": 172,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 174,
+   "line_end": 196,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 198,
+   "line_end": 202,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 204,
+   "line_end": 262,
+   "type": "event_selection",
+   "title": "3 Initial data analysis",
+   "units": [
+    {
+     "line_start": 204,
+     "line_end": 212,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 214,
+     "line_end": 218,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 220,
+     "line_end": 230,
+     "label": "st_reconstruction"
+    },
+    {
+     "line_start": 232,
+     "line_end": 239,
+     "label": "st_yields_and_efficiencies"
+    },
+    {
+     "line_start": 241,
+     "line_end": 249,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 251,
+     "line_end": 262,
+     "label": "validation_channel"
+    }
+   ]
+  },
+  {
+   "line_start": 264,
+   "line_end": 298,
+   "type": "other",
+   "title": "4 Deep-learning-based signal identification"
+  },
+  {
+   "line_start": 300,
+   "line_end": 311,
+   "type": "fit",
+   "title": "5 Signal extraction"
+  },
+  {
+   "line_start": 313,
+   "line_end": 315,
+   "type": "systematic_uncertainty",
+   "title": "7 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 313,
+     "line_end": 315,
+     "label": "overview"
+    }
+   ]
+  },
+  {
+   "line_start": 317,
+   "line_end": 317,
+   "type": "other",
+   "title": "6 Validation"
+  },
+  {
+   "line_start": 319,
+   "line_end": 327,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties (continued)",
+   "units": [
+    {
+     "line_start": 319,
+     "line_end": 319,
+     "label": "multiplicative_uncertainties"
+    },
+    {
+     "line_start": 321,
+     "line_end": 321,
+     "label": "dnn_veto_uncertainties"
+    },
+    {
+     "line_start": 323,
+     "line_end": 325,
+     "label": "multiplicative_budget_table"
+    },
+    {
+     "line_start": 327,
+     "line_end": 327,
+     "label": "additive_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 329,
+   "line_end": 340,
+   "type": "results",
+   "title": "8 Results",
+   "units": [
+    {
+     "line_start": 329,
+     "line_end": 340,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 342,
+   "line_end": 344,
+   "type": "conclusion",
+   "title": "9 Summary"
+  },
+  {
+   "line_start": 346,
+   "line_end": 348,
+   "type": "acknowledgements",
+   "title": "10 Acknowledgment"
+  }
+ ],
+ "tables": [
+  {
+   "line": 188,
+   "title": "Theoretical predictions and experimental result for B(D+ -> gamma e+ nu_e)",
+   "section_type": "introduction"
+  },
+  {
+   "line": 234,
+   "title": "Delta E requirements, ST yields, ST and DT efficiencies for each tag mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 282,
+   "title": "Input particle feature variables and their availability in tracks and showers",
+   "section_type": "other"
+  },
+  {
+   "line": 325,
+   "title": "The multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

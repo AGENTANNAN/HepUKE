@@ -1,0 +1,188 @@
+{
+ "paper_id": "1802.00583v3",
+ "source_path": "arxiv_papers/1802.00583v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 143,
+ "n_lines_sent": 44,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 108,
+   "to": 143,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 11,
+   "line_end": 36,
+   "type": "front_matter",
+   "title": "Title, authors, abstract, PACS"
+  },
+  {
+   "line_start": 38,
+   "line_end": 50,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 52,
+   "line_end": 52,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 54,
+   "line_end": 56,
+   "type": "event_selection",
+   "title": "Event selection for J/psi -> phi eta pi0",
+   "units": [
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "jpsi_phi_eta_pi0_selection"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 58,
+   "line_end": 72,
+   "type": "fit",
+   "title": "Fit to M_{eta pi0} spectrum"
+  },
+  {
+   "line_start": 74,
+   "line_end": 81,
+   "type": "event_selection",
+   "title": "Event selection for psi(3686) -> gamma chi_c1, chi_c1 -> pi0 pi+ pi-",
+   "units": [
+    {
+     "line_start": 74,
+     "line_end": 76,
+     "label": "psi3686_chi_c1_selection"
+    },
+    {
+     "line_start": 78,
+     "line_end": 81,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 83,
+   "line_end": 83,
+   "type": "fit",
+   "title": "Fit to M_{pi+ pi-} spectrum"
+  },
+  {
+   "line_start": 85,
+   "line_end": 85,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "tracking_pid_photon_kinematic_fit_mass_windows_background_normalization"
+    }
+   ]
+  },
+  {
+   "line_start": 87,
+   "line_end": 89,
+   "type": "results",
+   "title": "Signal yields and fit results",
+   "units": [
+    {
+     "line_start": 87,
+     "line_end": 89,
+     "label": "signal_yields_and_significance"
+    }
+   ]
+  },
+  {
+   "line_start": 91,
+   "line_end": 91,
+   "type": "systematic_uncertainty",
+   "title": "Uncertainties from input parameters",
+   "units": [
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "input_parameters"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 96,
+   "type": "results",
+   "title": "Constraints on coupling constants",
+   "units": [
+    {
+     "line_start": 93,
+     "line_end": 96,
+     "label": "coupling_constants_scan"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 98,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 100,
+   "line_end": 106,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 89,
+   "title": "Summary of signal yields, relative phase angles, and statistical significance",
+   "section_type": "results"
+  },
+  {
+   "line": 104,
+   "title": "Branching fractions and mixing intensities",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

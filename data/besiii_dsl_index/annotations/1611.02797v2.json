@@ -1,0 +1,178 @@
+{
+ "paper_id": "1611.02797v2",
+ "source_path": "arxiv_papers/1611.02797v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 109,
+ "n_lines_sent": 39,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 98,
+   "to": 109,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 10,
+   "line_end": 32,
+   "type": "front_matter",
+   "title": "Front matter and abstract"
+  },
+  {
+   "line_start": 34,
+   "line_end": 38,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 40,
+   "line_end": 42,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 44,
+   "line_end": 58,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 44,
+     "line_end": 44,
+     "label": "st_reconstruction"
+    },
+    {
+     "line_start": 46,
+     "line_end": 46,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "photon_pi0"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "ks_lambda"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "background_rejection"
+    },
+    {
+     "line_start": 54,
+     "line_end": 58,
+     "label": "st_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 60,
+   "line_end": 73,
+   "type": "event_selection",
+   "title": "DT selection and backgrounds",
+   "units": [
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "dt_selection"
+    },
+    {
+     "line_start": 62,
+     "line_end": 68,
+     "label": "missing_mass"
+    },
+    {
+     "line_start": 70,
+     "line_end": 73,
+     "label": "backgrounds"
+    }
+   ]
+  },
+  {
+   "line_start": 75,
+   "line_end": 86,
+   "type": "fit",
+   "title": "Fit to data"
+  },
+  {
+   "line_start": 88,
+   "line_end": 92,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "pid_tracking_ks_fit"
+    },
+    {
+     "line_start": 90,
+     "line_end": 92,
+     "label": "other_sources"
+    }
+   ]
+  },
+  {
+   "line_start": 94,
+   "line_end": 94,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 96,
+   "line_end": 96,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 58,
+   "title": "ST modes, ΔE requirements and ST yields",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 92,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

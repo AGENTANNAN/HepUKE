@@ -1,0 +1,240 @@
+{
+ "paper_id": "1907.11370v3",
+ "source_path": "arxiv_papers/1907.11370v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 241,
+ "n_lines_sent": 131,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 196,
+   "to": 241,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 114,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 116,
+   "line_end": 116,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 118,
+   "line_end": 124,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 126,
+   "line_end": 128,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 130,
+   "line_end": 136,
+   "type": "event_selection",
+   "title": "Event selection and branching fraction formula",
+   "units": [
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "single_tag_reconstruction"
+    },
+    {
+     "line_start": 132,
+     "line_end": 136,
+     "label": "branching_fraction_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 138,
+   "line_end": 144,
+   "type": "event_selection",
+   "title": "Selection criteria",
+   "units": [
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "pid"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "photon_pi0_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 146,
+   "line_end": 151,
+   "type": "event_selection",
+   "title": "Single-tag yield determination",
+   "units": [
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "st_variables"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 150,
+     "line_end": 151,
+     "label": "figure1"
+    }
+   ]
+  },
+  {
+   "line_start": 153,
+   "line_end": 157,
+   "type": "event_selection",
+   "title": "Signal selection",
+   "units": [
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "signal_reconstruction"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "u_miss"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "background_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 159,
+   "line_end": 161,
+   "type": "fit",
+   "title": "Two-dimensional fit and efficiency"
+  },
+  {
+   "line_start": 163,
+   "line_end": 169,
+   "type": "results",
+   "title": "Branching fraction result",
+   "units": [
+    {
+     "line_start": 163,
+     "line_end": 169,
+     "label": "bf_product"
+    }
+   ]
+  },
+  {
+   "line_start": 171,
+   "line_end": 177,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "tracking_pid_pi0"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "selection_requirements"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "fsr_recovery"
+    }
+   ]
+  },
+  {
+   "line_start": 179,
+   "line_end": 185,
+   "type": "results",
+   "title": "Final branching fraction",
+   "units": [
+    {
+     "line_start": 179,
+     "line_end": 185,
+     "label": "final_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 187,
+   "line_end": 190,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 192,
+   "line_end": 194,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

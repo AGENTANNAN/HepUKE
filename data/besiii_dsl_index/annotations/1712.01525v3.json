@@ -1,0 +1,191 @@
+{
+ "paper_id": "1712.01525v3",
+ "source_path": "arxiv_papers/1712.01525v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 154,
+ "n_lines_sent": 56,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 131,
+   "to": 154,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 12,
+   "line_end": 56,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 58,
+   "line_end": 58,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 60,
+   "line_end": 64,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 66,
+   "line_end": 78,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "kinematic_fit_and_pi0_veto"
+    },
+    {
+     "line_start": 70,
+     "line_end": 71,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "angular_distribution_and_mass_shift"
+    },
+    {
+     "line_start": 77,
+     "line_end": 78,
+     "label": "figure_2"
+    }
+   ]
+  },
+  {
+   "line_start": 80,
+   "line_end": 106,
+   "type": "fit",
+   "title": "Fit"
+  },
+  {
+   "line_start": 108,
+   "line_end": 120,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "overview"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "tracking_and_photon_detection"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "eta_prime_mass_window"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "branching_fraction_inputs"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "pion_vector_form_factor"
+    }
+   ]
+  },
+  {
+   "line_start": 122,
+   "line_end": 124,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 126,
+   "line_end": 128,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 130,
+   "line_end": 130,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 96,
+   "title": "Results of the model-dependent fits to the M(pi+pi-) distribution",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

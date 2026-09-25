@@ -1,0 +1,203 @@
+{
+ "paper_id": "1911.13116v2",
+ "source_path": "arxiv_papers/1911.13116v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 261,
+ "n_lines_sent": 150,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 235,
+   "to": 261,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 140,
+   "type": "front_matter",
+   "title": "Search for baryon and lepton number violating decays D+ -> Lambda(Sigma0) e+ and D+ -> Lambda(Sigma0) e+"
+  },
+  {
+   "line_start": 142,
+   "line_end": 144,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 146,
+   "line_end": 157,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 159,
+   "line_end": 163,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND DATA SAMPLE"
+  },
+  {
+   "line_start": 165,
+   "line_end": 196,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 165,
+     "line_end": 169,
+     "label": "track_selection_and_pid"
+    },
+    {
+     "line_start": 171,
+     "line_end": 174,
+     "label": "photon_selection_and_sigma0_reconstruction"
+    },
+    {
+     "line_start": 176,
+     "line_end": 182,
+     "label": "positron_identification"
+    },
+    {
+     "line_start": 184,
+     "line_end": 187,
+     "label": "delta_e_and_mbc_selection"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 191,
+     "line_end": 196,
+     "label": "mbc_fit_and_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 198,
+   "line_end": 204,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 198,
+     "line_end": 200,
+     "label": "tracking_pid_lambda_reconstruction"
+    },
+    {
+     "line_start": 202,
+     "line_end": 204,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 206,
+   "line_end": 222,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 206,
+     "line_end": 212,
+     "label": "upper_limit_extraction"
+    },
+    {
+     "line_start": 214,
+     "line_end": 218,
+     "label": "branching_fraction_upper_limit"
+    },
+    {
+     "line_start": 220,
+     "line_end": 222,
+     "label": "results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 224,
+   "line_end": 229,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 231,
+   "line_end": 233,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 204,
+   "title": "Systematic uncertainties excluding those involved in the M_BC fit (in %) for the four signal channels",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 222,
+   "title": "Upper limits on the number of signal events at 90% confidence level, detection efficiencies, and corresponding upper limits on the branching fractions for the four signal decay modes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

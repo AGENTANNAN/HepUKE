@@ -1,0 +1,209 @@
+{
+ "paper_id": "1602.07405v1",
+ "source_path": "arxiv_papers/1602.07405v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 255,
+ "n_lines_sent": 137,
+ "skipped_ranges": [
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 106,
+   "to": 106,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 108,
+   "to": 108,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 237,
+   "to": 255,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 104,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 110,
+   "line_end": 112,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 114,
+   "line_end": 126,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 128,
+   "line_end": 132,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 134,
+   "line_end": 176,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 160,
+     "label": "jpsi_to_phi_eta_prime_eta_prime_to_gamma_pi_pi"
+    },
+    {
+     "line_start": 162,
+     "line_end": 176,
+     "label": "jpsi_to_phi_eta_prime_eta_prime_to_k_pi"
+    }
+   ]
+  },
+  {
+   "line_start": 178,
+   "line_end": 199,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 178,
+     "line_end": 180,
+     "label": "overview"
+    },
+    {
+     "line_start": 182,
+     "line_end": 187,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "fit_range_and_background_shape"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "phi_mass_window"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 201,
+   "line_end": 225,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 201,
+     "line_end": 209,
+     "label": "upper_limit_ratio"
+    },
+    {
+     "line_start": 211,
+     "line_end": 217,
+     "label": "branching_fraction_jpsi_to_phi_eta_prime"
+    },
+    {
+     "line_start": 219,
+     "line_end": 225,
+     "label": "tables"
+    }
+   ]
+  },
+  {
+   "line_start": 227,
+   "line_end": 231,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 233,
+   "line_end": 235,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 221,
+   "title": "Summary of systematic uncertainty sources and their contributions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 225,
+   "title": "Values used in the calculations of the branching ratios",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

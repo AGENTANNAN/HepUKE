@@ -1,0 +1,169 @@
+{
+ "paper_id": "1103.2661v1",
+ "source_path": "arxiv_papers/1103.2661v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 238,
+ "n_lines_sent": 135,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 227,
+   "to": 238,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 12,
+   "line_end": 52,
+   "type": "front_matter",
+   "title": "Author affiliations"
+  },
+  {
+   "line_start": 56,
+   "line_end": 56,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 58,
+   "line_end": 62,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 64,
+   "line_end": 66,
+   "type": "detector",
+   "title": "II. DETECTOR"
+  },
+  {
+   "line_start": 68,
+   "line_end": 70,
+   "type": "dataset",
+   "title": "III. MONTE-CARLO SIMULATION"
+  },
+  {
+   "line_start": 72,
+   "line_end": 78,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 72,
+     "line_end": 74,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 80,
+   "line_end": 207,
+   "type": "fit",
+   "title": "V. DATA ANALYSIS"
+  },
+  {
+   "line_start": 209,
+   "line_end": 211,
+   "type": "results",
+   "title": "VII. RESULTS AND DISCUSSION",
+   "units": [
+    {
+     "line_start": 209,
+     "line_end": 211,
+     "label": "branching_fraction_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 213,
+   "line_end": 219,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty tables",
+   "units": [
+    {
+     "line_start": 213,
+     "line_end": 215,
+     "label": "systematic_uncertainty_table_VI"
+    },
+    {
+     "line_start": 217,
+     "line_end": 219,
+     "label": "systematic_uncertainty_table_VII"
+    }
+   ]
+  },
+  {
+   "line_start": 221,
+   "line_end": 225,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 116,
+   "title": "Branching fractions for χcJ → p pbar K+ K-",
+   "section_type": "fit"
+  },
+  {
+   "line": 139,
+   "title": "Branching fractions for χcJ → pbar K+ Λ(1520) + c.c.",
+   "section_type": "fit"
+  },
+  {
+   "line": 164,
+   "title": "Branching fractions for χcJ → Λ(1520) Λ(1520)",
+   "section_type": "fit"
+  },
+  {
+   "line": 185,
+   "title": "Branching fractions for χcJ → p pbar φ",
+   "section_type": "fit"
+  },
+  {
+   "line": 207,
+   "title": "Systematic uncertainties for χcJ → p pbar K+ K- and χcJ → Λ(1520) Λ(1520)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 215,
+   "title": "Systematic uncertainties for χcJ → pbar K+ Λ(1520) + c.c. and χcJ → p pbar φ",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 219,
+   "title": "Summary of branching fractions for twelve χcJ decay modes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

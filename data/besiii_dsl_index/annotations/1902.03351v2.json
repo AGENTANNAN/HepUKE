@@ -1,0 +1,198 @@
+{
+ "paper_id": "1902.03351v2",
+ "source_path": "arxiv_papers/1902.03351v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 321,
+ "n_lines_sent": 182,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 105,
+   "to": 105,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 133,
+   "to": 133,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 296,
+   "to": 321,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 139,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and PACS"
+  },
+  {
+   "line_start": 141,
+   "line_end": 143,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 145,
+   "line_end": 161,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 163,
+   "line_end": 169,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND DATA SET"
+  },
+  {
+   "line_start": 171,
+   "line_end": 251,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 171,
+     "line_end": 179,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "st_tag_modes"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 187,
+     "line_end": 189,
+     "label": "pi0_eta_etaprime_reconstruction"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 193,
+     "line_end": 205,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 207,
+     "line_end": 211,
+     "label": "positron_identification"
+    },
+    {
+     "line_start": 213,
+     "line_end": 215,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 217,
+     "line_end": 251,
+     "label": "umiss_variable"
+    }
+   ]
+  },
+  {
+   "line_start": 253,
+   "line_end": 284,
+   "type": "fit",
+   "title": "IV. RESULT"
+  },
+  {
+   "line_start": 286,
+   "line_end": 288,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 290,
+   "line_end": 294,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 240,
+   "title": "Summary of Mtag mass windows, ST yields and ST/DT efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 276,
+   "title": "Systematic uncertainties in the determination of B(Ds+ -> gamma e+ nu_e)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

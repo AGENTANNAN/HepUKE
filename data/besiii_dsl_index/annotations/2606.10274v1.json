@@ -1,0 +1,251 @@
+{
+ "paper_id": "2606.10274v1",
+ "source_path": "arxiv_papers/2606.10274v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 865,
+ "n_lines_sent": 214,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 149,
+   "to": 149,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 151,
+   "to": 151,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 153,
+   "to": 153,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 155,
+   "to": 155,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 159,
+   "to": 159,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 161,
+   "to": 161,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 407,
+   "to": 865,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 161,
+   "type": "front_matter",
+   "title": "Measurement of the branching fraction of $D_s^{*+} \\to e^+ e^- D_s^+$"
+  },
+  {
+   "line_start": 163,
+   "line_end": 163,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 165,
+   "line_end": 201,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 203,
+   "line_end": 213,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 215,
+   "line_end": 375,
+   "type": "event_selection",
+   "title": "III. DETERMINATION OF THE TAG AND SIGNAL YIELDS",
+   "units": [
+    {
+     "line_start": 215,
+     "line_end": 227,
+     "label": "tag_mode_selection"
+    },
+    {
+     "line_start": 229,
+     "line_end": 235,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 237,
+     "line_end": 249,
+     "label": "single_tag_yields"
+    },
+    {
+     "line_start": 251,
+     "line_end": 301,
+     "label": "signal_selection"
+    },
+    {
+     "line_start": 303,
+     "line_end": 375,
+     "label": "simultaneous_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 377,
+   "line_end": 385,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES STUDIES",
+   "units": [
+    {
+     "line_start": 377,
+     "line_end": 383,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 385,
+     "line_end": 385,
+     "label": "signal_yield"
+    },
+    {
+     "line_start": 385,
+     "line_end": 385,
+     "label": "tracking"
+    },
+    {
+     "line_start": 385,
+     "line_end": 385,
+     "label": "pid"
+    },
+    {
+     "line_start": 385,
+     "line_end": 385,
+     "label": "photon_conversion_rejection"
+    }
+   ]
+  },
+  {
+   "line_start": 387,
+   "line_end": 389,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 391,
+   "line_end": 403,
+   "type": "acknowledgements",
+   "title": "VI. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 405,
+   "line_end": 405,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 211,
+   "title": "Integrated luminosities and M_rec requirements",
+   "section_type": "detector"
+  },
+  {
+   "line": 227,
+   "title": "D_s tagging modes and branching fractions",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 342,
+   "title": "ST mass windows, tag yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 346,
+   "title": "Tag mode groups and signal-to-background ratios",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 397,
+   "title": "Signal efficiencies for individual ST modes",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 401,
+   "title": "Systematic uncertainties for branching fraction",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 645,
+   "title": "Mass windows, ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 649,
+   "title": "Mass windows, ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 653,
+   "title": "Mass windows, ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 657,
+   "title": "Mass windows, ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 661,
+   "title": "Mass windows, ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 665,
+   "title": "Mass windows, ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 669,
+   "title": "Mass windows, ST yields and efficiencies",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 377-385 share boundary line 385",
+  "units of 377-385 share boundary line 385",
+  "units of 377-385 share boundary line 385"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

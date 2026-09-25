@@ -1,0 +1,261 @@
+{
+ "paper_id": "1505.06283v2",
+ "source_path": "arxiv_papers/1505.06283v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 242,
+ "n_lines_sent": 146,
+ "skipped_ranges": [
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 66,
+   "to": 66,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 221,
+   "to": 242,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 76,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, abstract and PACS"
+  },
+  {
+   "line_start": 78,
+   "line_end": 84,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 86,
+   "line_end": 92,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 94,
+   "line_end": 111,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 96,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "k_k_pi_pi_pi0_selection"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "k_k_3pi0_selection"
+    },
+    {
+     "line_start": 102,
+     "line_end": 111,
+     "label": "mass_spectra_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 113,
+   "line_end": 119,
+   "type": "fit",
+   "title": "IV. SIGNAL EXTRACTION OF J/psi -> phi pi0 f0(980)"
+  },
+  {
+   "line_start": 121,
+   "line_end": 134,
+   "type": "fit",
+   "title": "V. SIGNAL EXTRACTION OF J/psi -> phi f1(1285) WITH f1(1285) -> pi0 f0(980)"
+  },
+  {
+   "line_start": 136,
+   "line_end": 148,
+   "type": "fit",
+   "title": "VI. SIGNAL EXTRACTION OF J/psi -> phi eta'"
+  },
+  {
+   "line_start": 150,
+   "line_end": 171,
+   "type": "results",
+   "title": "VII. BRANCHING FRACTIONS MEASUREMENT",
+   "units": [
+    {
+     "line_start": 150,
+     "line_end": 152,
+     "label": "branching_fraction_formulae"
+    },
+    {
+     "line_start": 154,
+     "line_end": 156,
+     "label": "bf_jpsi_to_phi_x"
+    },
+    {
+     "line_start": 158,
+     "line_end": 163,
+     "label": "bf_eta_prime_to_x"
+    },
+    {
+     "line_start": 165,
+     "line_end": 167,
+     "label": "upper_limit_formula"
+    },
+    {
+     "line_start": 169,
+     "line_end": 171,
+     "label": "ratio_r3pi_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 173,
+   "line_end": 203,
+   "type": "systematic_uncertainty",
+   "title": "VIII. ESTIMATION OF THE SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 173,
+     "line_end": 175,
+     "label": "mdc_tracking"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "pid_efficiency"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "veto_neutral_kstar"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "phi_signal_region"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "veto_peaking_background"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "mass_resolution"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "mc_simulation"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "f0_signal_region"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "upper_limit_systematics"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "bf_jpsi_to_phi_etaprime"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "systematics_for_r3pi"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "summary_of_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 205,
+   "line_end": 207,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 209,
+   "line_end": 211,
+   "type": "acknowledgements",
+   "title": "X. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 213,
+   "line_end": 219,
+   "type": "other",
+   "title": "Tables II and III"
+  }
+ ],
+ "tables": [
+  {
+   "line": 144,
+   "title": "Summary of observed number of events",
+   "section_type": "results"
+  },
+  {
+   "line": 215,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 219,
+   "title": "Summary of efficiencies and branching fractions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 12.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

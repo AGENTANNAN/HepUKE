@@ -1,0 +1,350 @@
+{
+ "paper_id": "2510.25111v1",
+ "source_path": "arxiv_papers/2510.25111v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 682,
+ "n_lines_sent": 280,
+ "skipped_ranges": [
+  {
+   "from": 480,
+   "to": 682,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Title, collaboration, abstract and keywords"
+  },
+  {
+   "line_start": 11,
+   "line_end": 34,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 36,
+   "line_end": 51,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 53,
+   "line_end": 59,
+   "type": "detector",
+   "title": "2 Detector and data"
+  },
+  {
+   "line_start": 61,
+   "line_end": 87,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 63,
+     "label": "overview"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "pid"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 75,
+     "line_end": 87,
+     "label": "mbc_deltae_requirements"
+    }
+   ]
+  },
+  {
+   "line_start": 89,
+   "line_end": 100,
+   "type": "event_selection",
+   "title": "4.1 Additional selection criteria in the amplitude analysis",
+   "units": [
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "mbc_signal_side"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "mbc_tag_modes"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "signal_purity"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 182,
+   "type": "fit",
+   "title": "4.2 Fit method"
+  },
+  {
+   "line_start": 184,
+   "line_end": 198,
+   "type": "fit",
+   "title": "4.2.1 Blatt-Weisskopf barrier factors"
+  },
+  {
+   "line_start": 200,
+   "line_end": 274,
+   "type": "fit",
+   "title": "4.2.2 Propagator"
+  },
+  {
+   "line_start": 276,
+   "line_end": 298,
+   "type": "fit",
+   "title": "4.2.3 Spin factors"
+  },
+  {
+   "line_start": 300,
+   "line_end": 337,
+   "type": "results",
+   "title": "4.3 Fit results",
+   "units": [
+    {
+     "line_start": 300,
+     "line_end": 306,
+     "label": "dalitz_plot_and_components"
+    },
+    {
+     "line_start": 308,
+     "line_end": 334,
+     "label": "fit_fractions_and_interference"
+    },
+    {
+     "line_start": 336,
+     "line_end": 337,
+     "label": "figure3"
+    }
+   ]
+  },
+  {
+   "line_start": 339,
+   "line_end": 378,
+   "type": "systematic_uncertainty",
+   "title": "4.4 Systematic uncertainties in the amplitude analysis",
+   "units": [
+    {
+     "line_start": 339,
+     "line_end": 354,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 356,
+     "line_end": 358,
+     "label": "effective_radius"
+    },
+    {
+     "line_start": 360,
+     "line_end": 362,
+     "label": "background"
+    },
+    {
+     "line_start": 364,
+     "line_end": 366,
+     "label": "experimental_effects"
+    },
+    {
+     "line_start": 368,
+     "line_end": 370,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 372,
+     "line_end": 378,
+     "label": "insignificant_amplitudes"
+    }
+   ]
+  },
+  {
+   "line_start": 380,
+   "line_end": 460,
+   "type": "results",
+   "title": "5 Branching fraction measurement",
+   "units": [
+    {
+     "line_start": 380,
+     "line_end": 412,
+     "label": "branching_fraction_measurement"
+    },
+    {
+     "line_start": 414,
+     "line_end": 416,
+     "label": "st_d0_candidates"
+    },
+    {
+     "line_start": 418,
+     "line_end": 420,
+     "label": "tracking"
+    },
+    {
+     "line_start": 422,
+     "line_end": 426,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 428,
+     "line_end": 430,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 432,
+     "line_end": 434,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 436,
+     "line_end": 438,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 440,
+     "line_end": 442,
+     "label": "bfs_of_subsequent_decays"
+    },
+    {
+     "line_start": 444,
+     "line_end": 446,
+     "label": "2d_fit"
+    },
+    {
+     "line_start": 448,
+     "line_end": 450,
+     "label": "deltae_sig_requirement"
+    },
+    {
+     "line_start": 452,
+     "line_end": 460,
+     "label": "quantum_correlation_correction"
+    }
+   ]
+  },
+  {
+   "line_start": 462,
+   "line_end": 472,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 474,
+   "line_end": 478,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 49,
+   "title": "Predicted and measured B(D0 to K*(892)0 pi0)",
+   "section_type": "introduction"
+  },
+  {
+   "line": 87,
+   "title": "Delta E requirements for signal and tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 248,
+   "title": "K-matrix constant parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 347,
+   "title": "Magnitudes, phases and FFs of amplitudes",
+   "section_type": "results"
+  },
+  {
+   "line": 376,
+   "title": "Systematic uncertainties on magnitudes, phases and FFs",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 398,
+   "title": "Input values of r, R, delta for tag modes",
+   "section_type": "results"
+  },
+  {
+   "line": 405,
+   "title": "ST yields and efficiencies",
+   "section_type": "results"
+  },
+  {
+   "line": 460,
+   "title": "Relative systematic uncertainties in BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 468,
+   "title": "Comparison of BFs with CLEO",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 545,
+   "title": "Roman numerals for amplitudes",
+   "section_type": "other"
+  },
+  {
+   "line": 549,
+   "title": "Interference of each amplitude",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 12.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 89-100 before line 93",
+  "units of 89-100 share boundary line 93",
+  "units of 89-100 share boundary line 93",
+  "units of 89-100 stop at 97, not 100"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

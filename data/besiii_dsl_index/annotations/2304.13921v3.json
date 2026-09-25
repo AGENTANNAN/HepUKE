@@ -1,0 +1,305 @@
+{
+ "paper_id": "2304.13921v3",
+ "source_path": "arxiv_papers/2304.13921v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 293,
+ "n_lines_sent": 68,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 64,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 132,
+   "to": 132,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 134,
+   "to": 293,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 64,
+   "type": "front_matter",
+   "title": "First study of reaction Xi0 n -> Xi- p using Xi0-nucleus scattering at an electron-positron collider"
+  },
+  {
+   "line_start": 66,
+   "line_end": 66,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 68,
+   "line_end": 79,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 81,
+   "line_end": 83,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 85,
+   "line_end": 95,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 85,
+     "line_end": 87,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "lambda_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "beam_pipe_region"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "signal_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 97,
+   "line_end": 101,
+   "type": "other",
+   "title": "Figures 2 and 3"
+  },
+  {
+   "line_start": 103,
+   "line_end": 115,
+   "type": "fit",
+   "title": "Cross section calculation"
+  },
+  {
+   "line_start": 117,
+   "line_end": 117,
+   "type": "results",
+   "title": "H-dibaryon search",
+   "units": [
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "h_dibaryon_search"
+    }
+   ]
+  },
+  {
+   "line_start": 119,
+   "line_end": 124,
+   "type": "other",
+   "title": "Table I and Figure 4"
+  },
+  {
+   "line_start": 126,
+   "line_end": 126,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "photon_efficiency"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "pid_efficiency"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "track_number_requirement"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "rxy_requirement"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "mrecoil_requirement"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "momentum"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "m_xi_p_distribution"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "angular_distribution_xi_n"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "efficiency_curve_parameterization"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "number_of_jpsi"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "angular_distribution_jpsi"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "xi0_mean_lifetime"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "interaction_point"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "cross_section_ratios"
+    }
+   ]
+  },
+  {
+   "line_start": 128,
+   "line_end": 130,
+   "type": "conclusion",
+   "title": "Summary"
+  }
+ ],
+ "tables": [
+  {
+   "line": 121,
+   "title": "Input parameters for the cross section calculation",
+   "section_type": "fit"
+  },
+  {
+   "line": 282,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126",
+  "units of 126-126 share boundary line 126"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

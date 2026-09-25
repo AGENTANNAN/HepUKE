@@ -1,0 +1,238 @@
+{
+ "paper_id": "1208.4805v1",
+ "source_path": "arxiv_papers/1208.4805v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 323,
+ "n_lines_sent": 171,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 302,
+   "to": 323,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 96,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 98,
+   "line_end": 102,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 104,
+   "line_end": 108,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 110,
+   "line_end": 116,
+   "type": "detector",
+   "title": "II. THE EXPERIMENT AND DATA SETS"
+  },
+  {
+   "line_start": 118,
+   "line_end": 128,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 118,
+     "line_end": 120,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "ks_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "event_topology_and_kinematic_fit"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "background_rejection"
+    }
+   ]
+  },
+  {
+   "line_start": 130,
+   "line_end": 199,
+   "type": "fit",
+   "title": "IV. DATA ANALYSIS"
+  },
+  {
+   "line_start": 201,
+   "line_end": 280,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 201,
+     "line_end": 203,
+     "label": "overview"
+    },
+    {
+     "line_start": 205,
+     "line_end": 207,
+     "label": "tracking"
+    },
+    {
+     "line_start": 209,
+     "line_end": 222,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 224,
+     "line_end": 253,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 255,
+     "line_end": 272,
+     "label": "damping_factor"
+    },
+    {
+     "line_start": 274,
+     "line_end": 276,
+     "label": "intermediate_states"
+    },
+    {
+     "line_start": 278,
+     "line_end": 280,
+     "label": "fitting"
+    }
+   ]
+  },
+  {
+   "line_start": 282,
+   "line_end": 294,
+   "type": "results",
+   "title": "VI. RESULTS AND DISCUSSION",
+   "units": [
+    {
+     "line_start": 282,
+     "line_end": 284,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 286,
+     "line_end": 286,
+     "label": "upper_limits"
+    },
+    {
+     "line_start": 288,
+     "line_end": 294,
+     "label": "tables"
+    }
+   ]
+  },
+  {
+   "line_start": 296,
+   "line_end": 300,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 145,
+   "title": "Peaking background events in chi_cJ -> K_S^0 K^± pi^∓ pi^+ pi^-",
+   "section_type": "fit"
+  },
+  {
+   "line": 149,
+   "title": "Peaking background events in chi_cJ -> K^+ K^- pi^+ pi^- pi^0",
+   "section_type": "fit"
+  },
+  {
+   "line": 180,
+   "title": "Background events from narrow intermediate states in chi_cJ -> K^+ K^- pi^+ pi^- pi^0",
+   "section_type": "fit"
+  },
+  {
+   "line": 207,
+   "title": "Systematic errors in B(chi_cJ -> K_S^0 K^± pi^∓ pi^+ pi^-) and B(chi_cJ -> K^+ K^- pi^+ pi^- pi^0)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 215,
+   "title": "Systematic errors in B(chi_cJ -> eta_c pi^+ pi^-)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 236,
+   "title": "Correction factors from pull distributions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 290,
+   "title": "Branching fraction results",
+   "section_type": "results"
+  },
+  {
+   "line": 294,
+   "title": "Upper limits on B(chi_cJ -> eta_c pi^+ pi^-)",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

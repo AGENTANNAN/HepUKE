@@ -1,0 +1,197 @@
+{
+ "paper_id": "1608.00407v3",
+ "source_path": "arxiv_papers/1608.00407v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 211,
+ "n_lines_sent": 129,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 186,
+   "to": 211,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 92,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 94,
+   "line_end": 96,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 98,
+   "line_end": 104,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 106,
+   "line_end": 106,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 108,
+   "line_end": 114,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "tracking"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "mbc_deltae"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "vetoes"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 124,
+   "type": "fit",
+   "title": "Fit to M_BC distributions"
+  },
+  {
+   "line_start": 126,
+   "line_end": 156,
+   "type": "fit",
+   "title": "Simultaneous fit for pK+K-"
+  },
+  {
+   "line_start": 158,
+   "line_end": 160,
+   "type": "results",
+   "title": "Efficiency and branching fractions",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "efficiency"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 162,
+   "line_end": 174,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "systematics_table"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "vr_vetoes_deltae"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "fit"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 176,
+   "line_end": 180,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 182,
+   "line_end": 184,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 156,
+   "title": "Summary of signal yields, detection efficiencies, and significances",
+   "section_type": "results"
+  },
+  {
+   "line": 164,
+   "title": "Systematic uncertainties in the relative BF measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 180,
+   "title": "Summary of relative and absolute BFs compared with PDG",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 162-174 before line 166"
+ ],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

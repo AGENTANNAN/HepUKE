@@ -1,0 +1,296 @@
+{
+ "paper_id": "2204.13703v3",
+ "source_path": "arxiv_papers/2204.13703v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 326,
+ "n_lines_sent": 129,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 205,
+   "to": 326,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 100,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 102,
+   "line_end": 102,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 104,
+   "line_end": 108,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 110,
+   "line_end": 110,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 112,
+   "line_end": 133,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "partial_reconstruction"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 120,
+     "line_end": 121,
+     "label": "figure1"
+    },
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "table1"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "recoil_mass"
+    },
+    {
+     "line_start": 131,
+     "line_end": 133,
+     "label": "table2"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 137,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 139,
+   "line_end": 166,
+   "type": "fit",
+   "title": "Fit to the recoil mass spectrum"
+  },
+  {
+   "line_start": 168,
+   "line_end": 195,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 168,
+     "line_end": 170,
+     "label": "table3"
+    },
+    {
+     "line_start": 172,
+     "line_end": 176,
+     "label": "table4"
+    },
+    {
+     "line_start": 178,
+     "line_end": 182,
+     "label": "table5"
+    },
+    {
+     "line_start": 184,
+     "line_end": 195,
+     "label": "cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 197,
+   "line_end": 197,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 199,
+   "line_end": 199,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 201,
+   "line_end": 203,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 125,
+   "title": "Summary of cuts for combinatorial background suppression",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 133,
+   "title": "Number of combinatorial background candidates in signal regions",
+   "section_type": "background"
+  },
+  {
+   "line": 170,
+   "title": "Measured masses and widths of Zcs(3985) states",
+   "section_type": "results"
+  },
+  {
+   "line": 176,
+   "title": "Luminosity, signal events, efficiency and radiative-correction factors",
+   "section_type": "results"
+  },
+  {
+   "line": 256,
+   "title": "Yields of K0S Zcs0 with Ds+ and D- tag methods",
+   "section_type": "results"
+  },
+  {
+   "line": 271,
+   "title": "Combinatorial background events in signal regions",
+   "section_type": "background"
+  },
+  {
+   "line": 281,
+   "title": "Yields of Zcs(3985)0 from two data subsets at 4.682 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 302,
+   "title": "Summary of systematic uncertainties on Zcs0 parameters and cross section",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

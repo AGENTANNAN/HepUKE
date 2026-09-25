@@ -1,0 +1,256 @@
+{
+ "paper_id": "2406.08225v1",
+ "source_path": "arxiv_papers/2406.08225v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 311,
+ "n_lines_sent": 193,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 284,
+   "to": 311,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 162,
+   "type": "front_matter",
+   "title": "Observation of eta_c(1S,2S) and chi_cJ decays to 2(pi+pi-)eta via psi(3686) radiative transitions"
+  },
+  {
+   "line_start": 164,
+   "line_end": 166,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 168,
+   "line_end": 178,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 180,
+   "line_end": 180,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 182,
+   "line_end": 196,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 184,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "kinematic_fit_and_background_veto"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "psi_3686_background_suppression"
+    },
+    {
+     "line_start": 190,
+     "line_end": 192,
+     "label": "fsr_background"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "pi0_background"
+    },
+    {
+     "line_start": 196,
+     "line_end": 196,
+     "label": "peaking_backgrounds"
+    }
+   ]
+  },
+  {
+   "line_start": 198,
+   "line_end": 200,
+   "type": "background",
+   "title": "Peaking Backgrounds"
+  },
+  {
+   "line_start": 202,
+   "line_end": 227,
+   "type": "fit",
+   "title": "Signal Yield Extraction"
+  },
+  {
+   "line_start": 229,
+   "line_end": 231,
+   "type": "results",
+   "title": "Branching Fractions for chi_cJ/eta_c(2S)",
+   "units": [
+    {
+     "line_start": 229,
+     "line_end": 231,
+     "label": "branching_fractions_chi_cJ_eta_c2S"
+    }
+   ]
+  },
+  {
+   "line_start": 233,
+   "line_end": 254,
+   "type": "fit",
+   "title": "eta_c Signal Fit"
+  },
+  {
+   "line_start": 256,
+   "line_end": 268,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "tracking_pid_photon_kinematic_fit_background_veto"
+    },
+    {
+     "line_start": 258,
+     "line_end": 260,
+     "label": "continuum_background_mc_imperfections"
+    },
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "bf_uncertainties_signal_yields"
+    },
+    {
+     "line_start": 264,
+     "line_end": 266,
+     "label": "eta_c_bf_interference"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "eta_c_mass_width"
+    }
+   ]
+  },
+  {
+   "line_start": 270,
+   "line_end": 278,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 280,
+   "line_end": 282,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 200,
+   "title": "Estimates of potential peaking backgrounds",
+   "section_type": "background"
+  },
+  {
+   "line": 231,
+   "title": "Signal yields, detection efficiencies, and BFs for chi_cJ/eta_c(2S) decays",
+   "section_type": "results"
+  },
+  {
+   "line": 254,
+   "title": "Mass, width, and BF of eta_c for two interference solutions",
+   "section_type": "fit"
+  },
+  {
+   "line": 260,
+   "title": "Product BFs of B(psi(3686) -> gamma X) x B(X -> 2(pi+pi-)eta)",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

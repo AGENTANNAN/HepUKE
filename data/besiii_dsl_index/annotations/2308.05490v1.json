@@ -1,0 +1,260 @@
+{
+ "paper_id": "2308.05490v1",
+ "source_path": "arxiv_papers/2308.05490v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 402,
+ "n_lines_sent": 212,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 67,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 69,
+   "to": 69,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 75,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 112,
+   "to": 112,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 173,
+   "to": 173,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 175,
+   "to": 175,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 177,
+   "to": 177,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 181,
+   "to": 181,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 362,
+   "to": 402,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 189,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 189,
+   "line_end": 189,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 191,
+   "line_end": 214,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 216,
+   "line_end": 222,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 224,
+   "line_end": 306,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 224,
+     "line_end": 248,
+     "label": "method"
+    },
+    {
+     "line_start": 250,
+     "line_end": 273,
+     "label": "reference_channel_phi_kk"
+    },
+    {
+     "line_start": 275,
+     "line_end": 306,
+     "label": "signal_channel_phi_pipi_ee"
+    }
+   ]
+  },
+  {
+   "line_start": 308,
+   "line_end": 334,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 308,
+     "line_end": 312,
+     "label": "overview"
+    },
+    {
+     "line_start": 314,
+     "line_end": 314,
+     "label": "tracking"
+    },
+    {
+     "line_start": 316,
+     "line_end": 320,
+     "label": "pid"
+    },
+    {
+     "line_start": 322,
+     "line_end": 322,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 324,
+     "line_end": 324,
+     "label": "theta_pi_e_requirement"
+    },
+    {
+     "line_start": 326,
+     "line_end": 326,
+     "label": "signal_window"
+    },
+    {
+     "line_start": 328,
+     "line_end": 330,
+     "label": "fitting_procedure"
+    },
+    {
+     "line_start": 332,
+     "line_end": 332,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 334,
+     "line_end": 334,
+     "label": "branching_fraction_input"
+    }
+   ]
+  },
+  {
+   "line_start": 336,
+   "line_end": 350,
+   "type": "results",
+   "title": "V. RESULT",
+   "units": [
+    {
+     "line_start": 336,
+     "line_end": 350,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 352,
+   "line_end": 356,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 358,
+   "line_end": 360,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 318,
+   "title": "Relative systematic uncertainties in the branching measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-189 / 189-189"
+ ],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

@@ -1,0 +1,312 @@
+{
+ "paper_id": "2303.12600v4",
+ "source_path": "arxiv_papers/2303.12600v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 343,
+ "n_lines_sent": 175,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 64,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 318,
+   "to": 343,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 66,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 68,
+   "line_end": 68,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 70,
+   "line_end": 88,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 90,
+   "line_end": 94,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT AND DATA SETS"
+  },
+  {
+   "line_start": 96,
+   "line_end": 122,
+   "type": "event_selection",
+   "title": "III. BRANCHING FRACTION MEASUREMENT",
+   "units": [
+    {
+     "line_start": 96,
+     "line_end": 122,
+     "label": "double_tag_method"
+    }
+   ]
+  },
+  {
+   "line_start": 124,
+   "line_end": 149,
+   "type": "event_selection",
+   "title": "A. Selection of Ds- candidates in ST events",
+   "units": [
+    {
+     "line_start": 124,
+     "line_end": 149,
+     "label": "st_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 151,
+   "line_end": 172,
+   "type": "event_selection",
+   "title": "B. Selection of transition gamma(pi0) from Ds*",
+   "units": [
+    {
+     "line_start": 151,
+     "line_end": 172,
+     "label": "transition_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 174,
+   "line_end": 180,
+   "type": "event_selection",
+   "title": "C. Selection of Ds+ -> tau+ nu_tau",
+   "units": [
+    {
+     "line_start": 174,
+     "line_end": 180,
+     "label": "signal_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 182,
+   "line_end": 190,
+   "type": "event_selection",
+   "title": "D. Multivariate analysis",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 190,
+     "label": "bdt_training"
+    }
+   ]
+  },
+  {
+   "line_start": 192,
+   "line_end": 201,
+   "type": "background",
+   "title": "E. Background composition and modeling"
+  },
+  {
+   "line_start": 203,
+   "line_end": 222,
+   "type": "fit",
+   "title": "F. Fit to data"
+  },
+  {
+   "line_start": 224,
+   "line_end": 228,
+   "type": "results",
+   "title": "G. Branching fraction result",
+   "units": [
+    {
+     "line_start": 224,
+     "line_end": 228,
+     "label": "branching_fraction_result"
+    }
+   ]
+  },
+  {
+   "line_start": 230,
+   "line_end": 232,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 230,
+     "line_end": 232,
+     "label": "overview"
+    }
+   ]
+  },
+  {
+   "line_start": 234,
+   "line_end": 242,
+   "type": "systematic_uncertainty",
+   "title": "A. Uncertainties from ST analysis procedure",
+   "units": [
+    {
+     "line_start": 234,
+     "line_end": 242,
+     "label": "st_yield"
+    }
+   ]
+  },
+  {
+   "line_start": 244,
+   "line_end": 252,
+   "type": "systematic_uncertainty",
+   "title": "B. Uncertainties from DT analysis procedure",
+   "units": [
+    {
+     "line_start": 244,
+     "line_end": 252,
+     "label": "dt_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 254,
+   "line_end": 268,
+   "type": "systematic_uncertainty",
+   "title": "C. Uncertainty associated with BDT output score",
+   "units": [
+    {
+     "line_start": 254,
+     "line_end": 268,
+     "label": "bdt_output"
+    }
+   ]
+  },
+  {
+   "line_start": 270,
+   "line_end": 284,
+   "type": "results",
+   "title": "Results and averages",
+   "units": [
+    {
+     "line_start": 270,
+     "line_end": 284,
+     "label": "results_and_averages"
+    }
+   ]
+  },
+  {
+   "line_start": 286,
+   "line_end": 300,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 286,
+     "line_end": 300,
+     "label": "fds_vcs_results"
+    }
+   ]
+  },
+  {
+   "line_start": 302,
+   "line_end": 310,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 312,
+   "line_end": 316,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 149,
+   "title": "Mrec requirements for ST candidates at each Ecm",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 168,
+   "title": "ST yields for each tag mode and data sample",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 172,
+   "title": "ST efficiencies for each tag mode and data sample",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 211,
+   "title": "Definitions of control regions",
+   "section_type": "background"
+  },
+  {
+   "line": 240,
+   "title": "DT efficiencies for each tag mode and data sample",
+   "section_type": "results"
+  },
+  {
+   "line": 264,
+   "title": "Control samples and correction factors for MC mismodelling sources",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 272,
+   "title": "Relative systematic uncertainties in the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 308,
+   "title": "Comparison of branching fractions and fDs+|Vcs| from various experiments",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 13.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

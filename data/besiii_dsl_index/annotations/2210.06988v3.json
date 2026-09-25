@@ -1,0 +1,209 @@
+{
+ "paper_id": "2210.06988v3",
+ "source_path": "arxiv_papers/2210.06988v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 281,
+ "n_lines_sent": 155,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 77,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 231,
+   "to": 281,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 79,
+   "type": "front_matter",
+   "title": "Measurement of e+e- -> phi eta' cross sections at center-of-mass energies between 3.508 and 4.600 GeV"
+  },
+  {
+   "line_start": 81,
+   "line_end": 81,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 83,
+   "line_end": 89,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 91,
+   "line_end": 95,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 97,
+   "line_end": 162,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 97,
+     "line_end": 103,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "mass_windows_and_sidebands"
+    },
+    {
+     "line_start": 109,
+     "line_end": 142,
+     "label": "signal_yield_determination"
+    },
+    {
+     "line_start": 144,
+     "line_end": 162,
+     "label": "statistical_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 164,
+   "line_end": 182,
+   "type": "fit",
+   "title": "B. Determination of sigma^dre(e+e- -> phi eta')"
+  },
+  {
+   "line_start": 184,
+   "line_end": 200,
+   "type": "systematic_uncertainty",
+   "title": "C. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 184,
+     "line_end": 186,
+     "label": "systematic_uncertainty_overview"
+    },
+    {
+     "line_start": 188,
+     "line_end": 190,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "mass_window_and_sideband_uncertainties"
+    },
+    {
+     "line_start": 194,
+     "line_end": 200,
+     "label": "combination_of_systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 202,
+   "line_end": 219,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 202,
+     "line_end": 203,
+     "label": "cross_section_fit_figure"
+    },
+    {
+     "line_start": 205,
+     "line_end": 219,
+     "label": "upper_limit_determination"
+    }
+   ]
+  },
+  {
+   "line_start": 221,
+   "line_end": 223,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  },
+  {
+   "line_start": 225,
+   "line_end": 229,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 176,
+   "title": "Summary of integrated luminosities, detection efficiencies, signal yields, ISR correction factors, and dressed cross sections",
+   "section_type": "results"
+  },
+  {
+   "line": 190,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 229,
+   "title": "Summary of fit results to dressed cross sections with two solutions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

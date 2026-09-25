@@ -1,0 +1,183 @@
+{
+ "paper_id": "1708.03103v1",
+ "source_path": "arxiv_papers/1708.03103v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 185,
+ "n_lines_sent": 115,
+ "skipped_ranges": [
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 62,
+   "to": 62,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 173,
+   "to": 185,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 66,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 68,
+   "line_end": 70,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 72,
+   "line_end": 80,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 82,
+   "line_end": 88,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 90,
+   "line_end": 134,
+   "type": "event_selection",
+   "title": "III. ANALYSIS OF ψ(3686) → γη′/η/π0",
+   "units": [
+    {
+     "line_start": 90,
+     "line_end": 96,
+     "label": "common_selection"
+    },
+    {
+     "line_start": 98,
+     "line_end": 106,
+     "label": "eta_prime_selection"
+    },
+    {
+     "line_start": 108,
+     "line_end": 116,
+     "label": "eta_selection"
+    },
+    {
+     "line_start": 118,
+     "line_end": 134,
+     "label": "pi0_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 136,
+   "line_end": 159,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 136,
+     "line_end": 138,
+     "label": "overview"
+    },
+    {
+     "line_start": 140,
+     "line_end": 145,
+     "label": "table_and_figure"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "tracking_photon_pi0_eta"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "mdc_hits_photon_multiplicity"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "fit_range_background_shape"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "decay_models"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "normalization_branching_fractions"
+    },
+    {
+     "line_start": 159,
+     "line_end": 159,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 161,
+   "line_end": 165,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 167,
+   "line_end": 167,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 169,
+   "line_end": 171,
+   "type": "systematic_uncertainty",
+   "title": "TABLE II. A summary of all sources of systematic uncertainties",
+   "units": [
+    {
+     "line_start": 169,
+     "line_end": 171,
+     "label": "systematic_budget_table"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "line": 142,
+   "title": "Comparison of results with previous BESIII measurements",
+   "section_type": "results"
+  },
+  {
+   "line": 171,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

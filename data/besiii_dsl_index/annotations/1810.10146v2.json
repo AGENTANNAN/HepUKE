@@ -1,0 +1,237 @@
+{
+ "paper_id": "1810.10146v2",
+ "source_path": "arxiv_papers/1810.10146v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 309,
+ "n_lines_sent": 186,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 77,
+   "to": 77,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 99,
+   "to": 99,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 110,
+   "to": 110,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 126,
+   "to": 126,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 130,
+   "to": 130,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 281,
+   "to": 309,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 136,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 138,
+   "line_end": 148,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 150,
+   "line_end": 154,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 156,
+   "line_end": 183,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 156,
+     "line_end": 158,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 160,
+     "line_end": 162,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "jpsi_veto"
+    },
+    {
+     "line_start": 170,
+     "line_end": 183,
+     "label": "pi0_selection_and_sidebands"
+    }
+   ]
+  },
+  {
+   "line_start": 185,
+   "line_end": 226,
+   "type": "fit",
+   "title": "IV. SIGNAL EXTRACTION"
+  },
+  {
+   "line_start": 228,
+   "line_end": 267,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 228,
+     "line_end": 232,
+     "label": "tracking"
+    },
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "pid"
+    },
+    {
+     "line_start": 234,
+     "line_end": 234,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 235,
+     "line_end": 245,
+     "label": "mc_generator"
+    },
+    {
+     "line_start": 247,
+     "line_end": 247,
+     "label": "pi0_mass_window"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "recoil_mass_window"
+    },
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 250,
+     "line_end": 259,
+     "label": "fitting"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 261,
+     "line_end": 267,
+     "label": "normalization"
+    }
+   ]
+  },
+  {
+   "line_start": 269,
+   "line_end": 271,
+   "type": "results",
+   "title": "VI. RESULTS AND DISCUSSION",
+   "units": [
+    {
+     "line_start": 269,
+     "line_end": 271,
+     "label": "results_and_discussion"
+    }
+   ]
+  },
+  {
+   "line_start": 273,
+   "line_end": 279,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 241,
+   "title": "Number of signal events, detection efficiency, product branching fraction, and absolute branching fraction",
+   "section_type": "results"
+  },
+  {
+   "line": 267,
+   "title": "Relative contributions to systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

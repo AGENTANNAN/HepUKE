@@ -1,0 +1,242 @@
+{
+ "paper_id": "2303.07629v1",
+ "source_path": "arxiv_papers/2303.07629v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 434,
+ "n_lines_sent": 302,
+ "skipped_ranges": [
+  {
+   "from": 108,
+   "to": 108,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 167,
+   "to": 167,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 411,
+   "to": 434,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 169,
+   "type": "front_matter",
+   "title": "Measurement of the e+e- -> Lambda Lambdabar cross section from threshold to 3.00 GeV using events with initial-state radiation"
+  },
+  {
+   "line_start": 171,
+   "line_end": 171,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 173,
+   "line_end": 210,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 212,
+   "line_end": 223,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 225,
+   "line_end": 260,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 225,
+     "line_end": 229,
+     "label": "overview_and_modes"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "tracking"
+    },
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "pid"
+    },
+    {
+     "line_start": 235,
+     "line_end": 235,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "missing_pion_window"
+    },
+    {
+     "line_start": 243,
+     "line_end": 260,
+     "label": "efficiency_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 262,
+   "line_end": 282,
+   "type": "background",
+   "title": "IV. BACKGROUND ANALYSIS"
+  },
+  {
+   "line_start": 284,
+   "line_end": 333,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 284,
+     "line_end": 288,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 290,
+     "line_end": 305,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 307,
+     "line_end": 307,
+     "label": "tracking_pid_and_mass_window"
+    },
+    {
+     "line_start": 309,
+     "line_end": 309,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 311,
+     "line_end": 311,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 313,
+     "line_end": 313,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 315,
+     "line_end": 315,
+     "label": "pi0_background"
+    },
+    {
+     "line_start": 317,
+     "line_end": 317,
+     "label": "lambda_sigma_background"
+    },
+    {
+     "line_start": 319,
+     "line_end": 319,
+     "label": "non_lambda_lambda_background"
+    },
+    {
+     "line_start": 321,
+     "line_end": 333,
+     "label": "combination"
+    }
+   ]
+  },
+  {
+   "line_start": 335,
+   "line_end": 376,
+   "type": "results",
+   "title": "VI. RESULTS OF THE CROSS SECTION",
+   "units": [
+    {
+     "line_start": 335,
+     "line_end": 345,
+     "label": "cross_section_measurement"
+    },
+    {
+     "line_start": 347,
+     "line_end": 376,
+     "label": "threshold_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 378,
+   "line_end": 396,
+   "type": "results",
+   "title": "VII. STUDY OF THE J/psi -> Lambda Lambdabar DECAY",
+   "units": [
+    {
+     "line_start": 378,
+     "line_end": 396,
+     "label": "branching_fraction_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 398,
+   "line_end": 400,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 402,
+   "line_end": 409,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 220,
+   "title": "The c.m. energy sqrt(s) and the integrated luminosity L_int of the data sets used in the present analysis.",
+   "section_type": "detector"
+  },
+  {
+   "line": 295,
+   "title": "The number of signal candidates, pi0 Lambda Lambdabar events, gamma(Lambda Sigma0 + c.c.) events, and non-Lambda Lambdabar events in each M_Lambda Lambdabar interval.",
+   "section_type": "background"
+  },
+  {
+   "line": 299,
+   "title": "The correlated systematic uncertainties (in %) on the cross section measurement.",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 303,
+   "title": "The uncorrelated systematic uncertainties (in %) in each M_Lambda Lambdabar interval on the cross section measurement.",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 359,
+   "title": "The cross section of the whole data set.",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 6.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

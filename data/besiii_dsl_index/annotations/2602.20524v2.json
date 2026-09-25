@@ -1,0 +1,159 @@
+{
+ "paper_id": "2602.20524v2",
+ "source_path": "arxiv_papers/2602.20524v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 358,
+ "n_lines_sent": 48,
+ "skipped_ranges": [
+  {
+   "from": 86,
+   "to": 358,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Precise Measurement of Matter-Antimatter Asymmetry with Entangled Hyperon Antihyperon Pairs"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 7,
+   "line_end": 34,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 36,
+   "line_end": 36,
+   "type": "dataset",
+   "title": "Monte Carlo samples"
+  },
+  {
+   "line_start": 38,
+   "line_end": 46,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 38,
+     "line_end": 38,
+     "label": "track_and_vertex_reconstruction"
+    },
+    {
+     "line_start": 40,
+     "line_end": 44,
+     "label": "delta_selection"
+    },
+    {
+     "line_start": 46,
+     "line_end": 46,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 48,
+   "line_end": 57,
+   "type": "fit",
+   "title": "Maximum likelihood fit"
+  },
+  {
+   "line_start": 59,
+   "line_end": 59,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "reconstruction"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "background"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "fit_method"
+    }
+   ]
+  },
+  {
+   "line_start": 61,
+   "line_end": 67,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 63,
+     "label": "fit_parameters"
+    },
+    {
+     "line_start": 65,
+     "line_end": 67,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 69,
+   "line_end": 78,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 80,
+   "line_end": 82,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 84,
+   "line_end": 84,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 63,
+   "title": "Fitted parameters and CP observables",
+   "section_type": "results"
+  },
+  {
+   "line": 67,
+   "title": "Systematic uncertainties on fitted parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 200,
+   "title": "Correlation coefficients of fit results",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 59-59 share boundary line 59",
+  "units of 59-59 share boundary line 59"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

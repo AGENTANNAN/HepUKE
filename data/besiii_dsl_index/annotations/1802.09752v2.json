@@ -1,0 +1,145 @@
+{
+ "paper_id": "1802.09752v2",
+ "source_path": "arxiv_papers/1802.09752v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 265,
+ "n_lines_sent": 175,
+ "skipped_ranges": [
+  {
+   "from": 243,
+   "to": 265,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 114,
+   "type": "front_matter",
+   "title": "Search for the rare decays D -> h(h')e+e-"
+  },
+  {
+   "line_start": 116,
+   "line_end": 126,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 128,
+   "line_end": 132,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND MC SIMULATION"
+  },
+  {
+   "line_start": 134,
+   "line_end": 194,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 142,
+     "label": "double_tagging_formalism"
+    },
+    {
+     "line_start": 144,
+     "line_end": 166,
+     "label": "st_event_selection"
+    },
+    {
+     "line_start": 168,
+     "line_end": 170,
+     "label": "st_yields_table"
+    },
+    {
+     "line_start": 172,
+     "line_end": 194,
+     "label": "signal_event_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 196,
+   "line_end": 208,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 196,
+     "line_end": 200,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 202,
+     "line_end": 204,
+     "label": "efficiency_table"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "gamma_conversion_veto"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "mc_modeling"
+    }
+   ]
+  },
+  {
+   "line_start": 210,
+   "line_end": 231,
+   "type": "fit",
+   "title": "V. THE UPPER LIMITS ON BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 233,
+   "line_end": 235,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 237,
+   "line_end": 241,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 170,
+   "title": "Requirements on Delta E_tag, MC-determined detection efficiencies and signal yields for the different ST modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 189,
+   "title": "Delta E_sig requirements, background yields, observed events, and signal regions for D+ and D0 modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 204,
+   "title": "MC-determined DT detection efficiencies and average signal efficiencies for D+ and D0 decay modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 216,
+   "title": "Relative systematic uncertainties on the branching fractions in percent",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 227,
+   "title": "Results of the upper limits on branching fractions at 90% CL and comparison with PDG",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

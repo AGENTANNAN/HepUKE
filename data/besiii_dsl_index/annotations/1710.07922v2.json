@@ -1,0 +1,167 @@
+{
+ "paper_id": "1710.07922v2",
+ "source_path": "arxiv_papers/1710.07922v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 144,
+ "n_lines_sent": 60,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 136,
+   "to": 144,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 19,
+   "line_end": 35,
+   "type": "front_matter",
+   "title": "Title, authors, abstract, PACS"
+  },
+  {
+   "line_start": 37,
+   "line_end": 41,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 43,
+   "line_end": 45,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 47,
+   "line_end": 70,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 61,
+     "label": "charged_mode_selection"
+    },
+    {
+     "line_start": 63,
+     "line_end": 70,
+     "label": "neutral_mode_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 72,
+   "line_end": 81,
+   "type": "background",
+   "title": "IV. BACKGROUND STUDY"
+  },
+  {
+   "line_start": 83,
+   "line_end": 113,
+   "type": "fit",
+   "title": "V. DETERMINATION OF THE χcJ SIGNALS"
+  },
+  {
+   "line_start": 115,
+   "line_end": 125,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 115,
+     "line_end": 117,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 127,
+   "line_end": 129,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 131,
+   "line_end": 133,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENT"
+  },
+  {
+   "line_start": 135,
+   "line_end": 135,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 97,
+   "title": "Detection efficiency and observed events for χcJ signals",
+   "section_type": "fit"
+  },
+  {
+   "line": 109,
+   "title": "Branching fraction results for χcJ → Σ+Σ− and Σ0Σ0",
+   "section_type": "fit"
+  },
+  {
+   "line": 113,
+   "title": "Ratio of branching fractions between charged and neutral modes",
+   "section_type": "fit"
+  },
+  {
+   "line": 123,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

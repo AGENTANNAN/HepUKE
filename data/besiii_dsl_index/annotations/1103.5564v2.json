@@ -1,0 +1,208 @@
+{
+ "paper_id": "1103.5564v2",
+ "source_path": "arxiv_papers/1103.5564v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 208,
+ "n_lines_sent": 100,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 71,
+   "to": 71,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 196,
+   "to": 208,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": "3",
+   "line_end": "75",
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, abstract, PACS"
+  },
+  {
+   "line_start": "77",
+   "line_end": "87",
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": "89",
+   "line_end": "93",
+   "type": "detector",
+   "title": "II. BEPCII COLLIDER AND BESIII DETECTOR"
+  },
+  {
+   "line_start": "95",
+   "line_end": "127",
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": "95",
+     "line_end": "97",
+     "label": "data_sample"
+    },
+    {
+     "line_start": "99",
+     "line_end": "99",
+     "label": "track_selection"
+    },
+    {
+     "line_start": "101",
+     "line_end": "103",
+     "label": "photon_selection"
+    },
+    {
+     "line_start": "105",
+     "line_end": "105",
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": "107",
+     "line_end": "113",
+     "label": "pi0_selection"
+    },
+    {
+     "line_start": "115",
+     "line_end": "115",
+     "label": "background_veto"
+    },
+    {
+     "line_start": "117",
+     "line_end": "117",
+     "label": "qed_background"
+    },
+    {
+     "line_start": "119",
+     "line_end": "127",
+     "label": "mass_spectra_fit"
+    }
+   ]
+  },
+  {
+   "line_start": "129",
+   "line_end": "165",
+   "type": "systematic_uncertainty",
+   "title": "IV. ESTIMATION OF SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": "129",
+     "line_end": "131",
+     "label": "overview"
+    },
+    {
+     "line_start": "133",
+     "line_end": "145",
+     "label": "photon_detection"
+    },
+    {
+     "line_start": "147",
+     "line_end": "149",
+     "label": "tracking"
+    },
+    {
+     "line_start": "151",
+     "line_end": "153",
+     "label": "pid"
+    },
+    {
+     "line_start": "155",
+     "line_end": "157",
+     "label": "table_ii"
+    },
+    {
+     "line_start": "159",
+     "line_end": "161",
+     "label": "selection_efficiency"
+    },
+    {
+     "line_start": "163",
+     "line_end": "165",
+     "label": "fit_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": "167",
+   "line_end": "182",
+   "type": "fit",
+   "title": "V. POLARIZATION"
+  },
+  {
+   "line_start": "184",
+   "line_end": "186",
+   "type": "conclusion",
+   "title": "VI. FINAL RESULTS AND DISCUSSION"
+  },
+  {
+   "line_start": "188",
+   "line_end": "190",
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": "192",
+   "line_end": "194",
+   "type": "results",
+   "title": "TABLE III",
+   "units": [
+    {
+     "line_start": "192",
+     "line_end": "194",
+     "label": "results_table"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "line": "87",
+   "title": "Comparison of theoretical predictions and CLEO measurements",
+   "section_type": "introduction"
+  },
+  {
+   "line": "157",
+   "title": "Sources of systematic errors",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": "194",
+   "title": "Results on chi_cJ -> gamma V",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

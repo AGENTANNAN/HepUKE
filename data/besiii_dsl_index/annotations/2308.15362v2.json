@@ -1,0 +1,316 @@
+{
+ "paper_id": "2308.15362v2",
+ "source_path": "arxiv_papers/2308.15362v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 363,
+ "n_lines_sent": 155,
+ "skipped_ranges": [
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 199,
+   "to": 363,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 110,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 112,
+   "line_end": 112,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 114,
+   "line_end": 122,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 124,
+   "line_end": 124,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 126,
+   "line_end": 135,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "lepton_identification"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "pid"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "bhabha_veto"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "muc_penetration"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "bhabha_veto"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "radiative_bhabha_veto"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "muc_penetration"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "signal_region"
+    }
+   ]
+  },
+  {
+   "line_start": 137,
+   "line_end": 143,
+   "type": "fit",
+   "title": "Born cross section"
+  },
+  {
+   "line_start": 145,
+   "line_end": 156,
+   "type": "fit",
+   "title": "Fit to the dressed cross section"
+  },
+  {
+   "line_start": 158,
+   "line_end": 162,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "tracking"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "kaon_detection"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "muc_response"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "cms_energy"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "energy_spread"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "fit_parameterization"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "cross_section_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 164,
+   "line_end": 189,
+   "type": "results",
+   "title": "Search for Z_cs states",
+   "units": [
+    {
+     "line_start": 164,
+     "line_end": 170,
+     "label": "zcs_fit"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "zcs_mass_width"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "zcs_significance"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "zcs_upper_limits"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "upper_limits_summary"
+    },
+    {
+     "line_start": 177,
+     "line_end": 189,
+     "label": "rb_upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 191,
+   "line_end": 193,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 195,
+   "line_end": 197,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 295,
+   "title": "Tab. 1. c.m. energies, luminosities, event numbers",
+   "section_type": "dataset"
+  },
+  {
+   "line": 299,
+   "title": "Tab. 2. Four solutions of Gamma_ee B and phi for Y(4710)",
+   "section_type": "fit"
+  },
+  {
+   "line": 326,
+   "title": "Tab. 3. Systematic uncertainties in resonance parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 337,
+   "title": "Tab. 4. Systematic uncertainties on Z_cs Born cross sections",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 349,
+   "title": "Tab. 5. Detection efficiencies and upper limits",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 126-135 share boundary line 126",
+  "units of 126-135 share boundary line 126",
+  "units of 126-135 share boundary line 128",
+  "units of 126-135 share boundary line 128",
+  "units of 126-135 share boundary line 130",
+  "units of 126-135 share boundary line 130",
+  "units of 126-135 share boundary line 130",
+  "gap in 126-135 before line 135",
+  "units of 158-162 share boundary line 158",
+  "units of 158-162 share boundary line 158",
+  "units of 158-162 share boundary line 158",
+  "units of 158-162 share boundary line 158",
+  "units of 158-162 share boundary line 158",
+  "units of 158-162 share boundary line 158",
+  "units of 158-162 share boundary line 160",
+  "units of 158-162 share boundary line 162",
+  "units of 158-162 share boundary line 162",
+  "units of 158-162 share boundary line 162",
+  "units of 164-189 share boundary line 170",
+  "units of 164-189 share boundary line 170",
+  "units of 164-189 share boundary line 170",
+  "gap in 164-189 before line 177"
+ ],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

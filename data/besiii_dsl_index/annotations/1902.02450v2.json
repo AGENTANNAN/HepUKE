@@ -1,0 +1,263 @@
+{
+ "paper_id": "1902.02450v2",
+ "source_path": "arxiv_papers/1902.02450v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 191,
+ "n_lines_sent": 70,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 160,
+   "to": 191,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 11,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 25,
+   "line_end": 25,
+   "type": "front_matter",
+   "title": "Collaboration"
+  },
+  {
+   "line_start": 35,
+   "line_end": 35,
+   "type": "front_matter",
+   "title": "Date"
+  },
+  {
+   "line_start": 37,
+   "line_end": 37,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 39,
+   "line_end": 39,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 41,
+   "line_end": 47,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 49,
+   "line_end": 62,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 64,
+   "line_end": 86,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 64,
+     "line_end": 66,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "photon_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "fsr_recovery"
+    },
+    {
+     "line_start": 74,
+     "line_end": 80,
+     "label": "mbc_and_de_selection"
+    },
+    {
+     "line_start": 82,
+     "line_end": 84,
+     "label": "de_requirements_table"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 88,
+   "line_end": 98,
+   "type": "fit",
+   "title": "IV. SIGNAL DETERMINATION"
+  },
+  {
+   "line_start": 100,
+   "line_end": 119,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 102,
+     "label": "overview"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "tracking_pid_ks0_pi0"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "ndd_and_cited_bf"
+    },
+    {
+     "line_start": 108,
+     "line_end": 109,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "de_requirement"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "fsr_recovery"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "efficiency_modeling"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "fitting_mbc"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 147,
+   "type": "results",
+   "title": "VI. RESULTS AND DISCUSSION",
+   "units": [
+    {
+     "line_start": 121,
+     "line_end": 123,
+     "label": "upper_limits_heading"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "upper_limits_bf"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "majorana_search_heading"
+    },
+    {
+     "line_start": 129,
+     "line_end": 131,
+     "label": "majorana_search"
+    },
+    {
+     "line_start": 133,
+     "line_end": 135,
+     "label": "systematics_table"
+    },
+    {
+     "line_start": 137,
+     "line_end": 139,
+     "label": "results_table"
+    },
+    {
+     "line_start": 141,
+     "line_end": 147,
+     "label": "mixing_matrix"
+    }
+   ]
+  },
+  {
+   "line_start": 149,
+   "line_end": 154,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 156,
+   "line_end": 158,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 84,
+   "title": "Delta E requirements for D -> K pi e+ e+ processes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 135,
+   "title": "Relative systematic uncertainties for the D -> K pi e+ e+ processes",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 139,
+   "title": "Detection efficiencies, upper limits on signal yields, and branching fractions for D -> K pi e+ e+ processes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

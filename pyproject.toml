@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hepuke"
+version = "0.3.0"
+description = "Uncertainty-aware retrieval agent with a self-evolving DSL knowledge base (artifact release)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "pymilvus>=2.4.0",
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.29.0",
+    "pydantic>=2.6",
+    "pydantic-settings>=2.2",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+    "openai>=1.30",
+    "httpx>=0.27",
+    "requests>=2.31",
+    "numpy>=1.26",
+    "tenacity>=8.2",
+    "networkx>=3.0",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+]
+
+[project.optional-dependencies]
+# Remote embedding/rerank gateway client used by BgeM3ApiBackend.
+gateway = [
+    "hepai>=1.1.20",
+]
+gpu = [
+    "torch>=2.0",
+    "FlagEmbedding>=1.2",
+]
+eval = [
+    "datasets>=2.16",
+]
+figures = [
+    "matplotlib>=3.7",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-timeout>=2.3",
+]
+
+[project.scripts]
+hepuke = "hepuke.cli:main"
+
+[tool.setuptools.package-data]
+"hepuke.data" = ["*.json"]
+
+[tool.setuptools.packages.find]
+include = ["hepuke*"]

@@ -1,0 +1,307 @@
+{
+ "paper_id": "2401.00918v2",
+ "source_path": "arxiv_papers/2401.00918v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 569,
+ "n_lines_sent": 349,
+ "skipped_ranges": [
+  {
+   "from": 163,
+   "to": 165,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 498,
+   "to": 569,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 161,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 167,
+   "line_end": 167,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 169,
+   "line_end": 183,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 185,
+   "line_end": 189,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MC SAMPLE"
+  },
+  {
+   "line_start": 191,
+   "line_end": 211,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "pid"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "photons"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "phi_mass_window"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "gamma_gamma_veto"
+    },
+    {
+     "line_start": 201,
+     "line_end": 206,
+     "label": "dalitz_plot_cut"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "final_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 213,
+   "line_end": 279,
+   "type": "background",
+   "title": "IV. BACKGROUND TREATMENT"
+  },
+  {
+   "line_start": 281,
+   "line_end": 392,
+   "type": "fit",
+   "title": "V. PARTIAL-WAVE ANALYSIS"
+  },
+  {
+   "line_start": 394,
+   "line_end": 419,
+   "type": "results",
+   "title": "VI. ANALYSIS RESULTS",
+   "units": [
+    {
+     "line_start": 396,
+     "line_end": 396,
+     "label": "resonance_pool"
+    },
+    {
+     "line_start": 402,
+     "line_end": 402,
+     "label": "baseline_fit"
+    },
+    {
+     "line_start": 404,
+     "line_end": 404,
+     "label": "measured_parameters"
+    },
+    {
+     "line_start": 412,
+     "line_end": 412,
+     "label": "additional_resonances"
+    },
+    {
+     "line_start": 414,
+     "line_end": 414,
+     "label": "pseudoscalar_check"
+    },
+    {
+     "line_start": 416,
+     "line_end": 416,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 421,
+   "line_end": 421,
+   "type": "other",
+   "title": "TABLE III"
+  },
+  {
+   "line_start": 423,
+   "line_end": 423,
+   "type": "other",
+   "title": "TABLE III table"
+  },
+  {
+   "line_start": 425,
+   "line_end": 425,
+   "type": "other",
+   "title": "TABLE IV"
+  },
+  {
+   "line_start": 427,
+   "line_end": 427,
+   "type": "other",
+   "title": "TABLE IV table"
+  },
+  {
+   "line_start": 429,
+   "line_end": 472,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 435,
+     "line_end": 435,
+     "label": "total_jpsi_events"
+    },
+    {
+     "line_start": 437,
+     "line_end": 437,
+     "label": "kaon_tracking_pid"
+    },
+    {
+     "line_start": 439,
+     "line_end": 439,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 441,
+     "line_end": 441,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 443,
+     "line_end": 443,
+     "label": "total_event_selection"
+    },
+    {
+     "line_start": 451,
+     "line_end": 457,
+     "label": "q_factor_method"
+    },
+    {
+     "line_start": 459,
+     "line_end": 459,
+     "label": "phi_backgrounds"
+    },
+    {
+     "line_start": 465,
+     "line_end": 465,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 467,
+     "line_end": 467,
+     "label": "additional_resonances"
+    },
+    {
+     "line_start": 469,
+     "line_end": 469,
+     "label": "mass_window_cuts"
+    },
+    {
+     "line_start": 470,
+     "line_end": 470,
+     "label": "non_phi_backgrounds"
+    },
+    {
+     "line_start": 472,
+     "line_end": 472,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 474,
+   "line_end": 492,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 494,
+   "line_end": 496,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 287,
+   "title": "Kinematic observables for background subtraction",
+   "section_type": "background"
+  },
+  {
+   "line": 400,
+   "title": "Pool of candidate resonances for the PWA",
+   "section_type": "results"
+  },
+  {
+   "line": 423,
+   "title": "Masses, widths, significance and product BFs of each component",
+   "section_type": "results"
+  },
+  {
+   "line": 427,
+   "title": "Fit fractions and interference fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 447,
+   "title": "Changes in NLL and significance for additional resonances",
+   "section_type": "results"
+  },
+  {
+   "line": 478,
+   "title": "Systematic uncertainties on masses and widths",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 482,
+   "title": "Relative systematic uncertainties on BFs",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 13.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 191-211 before line 193",
+  "units of 191-211 share boundary line 193",
+  "units of 191-211 share boundary line 199",
+  "gap in 191-211 before line 211",
+  "gap in 394-419 before line 396",
+  "gap in 394-419 before line 402",
+  "gap in 394-419 before line 412",
+  "units of 394-419 stop at 416, not 419",
+  "gap in 429-472 before line 435",
+  "gap in 429-472 before line 451",
+  "gap in 429-472 before line 465"
+ ],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": [],
+ "units_repaired": true
+}

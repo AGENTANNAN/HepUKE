@@ -1,0 +1,172 @@
+{
+ "paper_id": "2012.14750v5",
+ "source_path": "arxiv_papers/2012.14750v5.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 260,
+ "n_lines_sent": 190,
+ "skipped_ranges": [
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 106,
+   "to": 106,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 249,
+   "to": 260,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 130,
+   "type": "front_matter",
+   "title": "Measurements of the center-of-mass energies of e+e- collisions at BESIII"
+  },
+  {
+   "line_start": 132,
+   "line_end": 134,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 136,
+   "line_end": 150,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 152,
+   "line_end": 164,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 166,
+   "line_end": 182,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND MEASUREMENT OF M_p(mu+mu-)",
+   "units": [
+    {
+     "line_start": 166,
+     "line_end": 168,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "sample_composition"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "mass_fit"
+    },
+    {
+     "line_start": 176,
+     "line_end": 177,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "run_by_run_stability"
+    },
+    {
+     "line_start": 181,
+     "line_end": 182,
+     "label": "figure_2"
+    }
+   ]
+  },
+  {
+   "line_start": 184,
+   "line_end": 210,
+   "type": "fit",
+   "title": "IV. MOMENTUM CALIBRATION WITH ISR J/psi SIGNAL"
+  },
+  {
+   "line_start": 212,
+   "line_end": 225,
+   "type": "fit",
+   "title": "V. THE MASS SHIFT Delta M_ISR/FSR"
+  },
+  {
+   "line_start": 227,
+   "line_end": 237,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 227,
+     "line_end": 229,
+     "label": "overview"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "open_angle_cut"
+    },
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 235,
+     "line_end": 235,
+     "label": "generator"
+    },
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 239,
+   "line_end": 243,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 245,
+   "line_end": 247,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 162,
+   "title": "Summary of the data samples",
+   "section_type": "dataset"
+  },
+  {
+   "line": 194,
+   "title": "Average M_ave(mu+mu-) for each stable data-taking period",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

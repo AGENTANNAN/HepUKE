@@ -1,0 +1,156 @@
+{
+ "paper_id": "2209.12007v1",
+ "source_path": "arxiv_papers/2209.12007v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 135,
+ "n_lines_sent": 56,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 115,
+   "to": 135,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 13,
+   "line_end": 15,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 17,
+   "line_end": 23,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 25,
+   "line_end": 40,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 42,
+   "line_end": 48,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 42,
+     "line_end": 44,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 46,
+     "line_end": 46,
+     "label": "kinematic_fit_and_vetoes"
+    },
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "mass_window_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 50,
+   "line_end": 78,
+   "type": "fit",
+   "title": "IV. RESULTS"
+  },
+  {
+   "line_start": 80,
+   "line_end": 101,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 80,
+     "line_end": 82,
+     "label": "overview"
+    },
+    {
+     "line_start": 84,
+     "line_end": 97,
+     "label": "tables"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "individual_sources"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "line_shape_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 103,
+   "line_end": 105,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 107,
+   "line_end": 109,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 111,
+   "line_end": 113,
+   "type": "other",
+   "title": "TABLE III"
+  }
+ ],
+ "tables": [
+  {
+   "line": 86,
+   "title": "Result of the fit to the dilepton mass distribution",
+   "section_type": "fit"
+  },
+  {
+   "line": 97,
+   "title": "Upper limits on Gamma_ee and Gamma_ee x B for different total widths",
+   "section_type": "fit"
+  },
+  {
+   "line": 113,
+   "title": "Relative systematic uncertainties on the measured cross section",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

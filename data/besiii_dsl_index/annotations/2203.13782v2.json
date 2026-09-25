@@ -1,0 +1,162 @@
+{
+ "paper_id": "2203.13782v2",
+ "source_path": "arxiv_papers/2203.13782v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 341,
+ "n_lines_sent": 128,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 195,
+   "to": 341,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 8,
+   "line_end": 123,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 124,
+   "line_end": 124,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 126,
+   "line_end": 139,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 141,
+   "line_end": 143,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 145,
+   "line_end": 145,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "event_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 147,
+   "line_end": 157,
+   "type": "fit",
+   "title": "Background verification and two-dimensional correction"
+  },
+  {
+   "line_start": 159,
+   "line_end": 175,
+   "type": "fit",
+   "title": "Signal extraction and common fit"
+  },
+  {
+   "line_start": 177,
+   "line_end": 189,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 177,
+     "line_end": 179,
+     "label": "luminosity_and_detection_efficiency"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "photon_angular_requirement"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "fit_procedure_and_correction_factor"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "center_of_mass_energy"
+    },
+    {
+     "line_start": 187,
+     "line_end": 189,
+     "label": "individual_fit_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 191,
+   "line_end": 191,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 193,
+   "line_end": 193,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 151,
+   "title": "Fit results for control and scan samples",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 3.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

@@ -1,0 +1,194 @@
+{
+ "paper_id": "2207.10877v2",
+ "source_path": "arxiv_papers/2207.10877v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 287,
+ "n_lines_sent": 171,
+ "skipped_ranges": [
+  {
+   "from": 62,
+   "to": 62,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 126,
+   "to": 126,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 148,
+   "to": 150,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 152,
+   "to": 152,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 256,
+   "to": 287,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 155,
+   "type": "front_matter",
+   "title": "Search for the weak decay psi(3686) -> Lambda_c+ Sigma- + c.c."
+  },
+  {
+   "line_start": 140,
+   "line_end": 142,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 157,
+   "line_end": 166,
+   "type": "introduction",
+   "title": "I INTRODUCTION"
+  },
+  {
+   "line_start": 168,
+   "line_end": 172,
+   "type": "detector",
+   "title": "II BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 174,
+   "line_end": 202,
+   "type": "event_selection",
+   "title": "III EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 174,
+     "line_end": 176,
+     "label": "overview"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 184,
+     "line_end": 190,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 192,
+     "line_end": 202,
+     "label": "upper_limit_method"
+    }
+   ]
+  },
+  {
+   "line_start": 204,
+   "line_end": 230,
+   "type": "systematic_uncertainty",
+   "title": "IV SYSTEMATIC UNCETTAINTY",
+   "units": [
+    {
+     "line_start": 204,
+     "line_end": 210,
+     "label": "overview"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "normalization"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 214,
+     "line_end": 216,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "sigma_mass_window"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 223,
+     "line_end": 230,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 232,
+   "line_end": 248,
+   "type": "results",
+   "title": "V RESULT",
+   "units": [
+    {
+     "line_start": 232,
+     "line_end": 240,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 242,
+     "line_end": 248,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 250,
+   "line_end": 254,
+   "type": "conclusion",
+   "title": "VI SUMMARY"
+  }
+ ],
+ "tables": [
+  {
+   "line": 227,
+   "title": "Multiplicative systematic uncertainties in the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-155 / 140-142"
+ ],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

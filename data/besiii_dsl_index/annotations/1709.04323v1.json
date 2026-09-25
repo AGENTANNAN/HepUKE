@@ -1,0 +1,220 @@
+{
+ "paper_id": "1709.04323v1",
+ "source_path": "arxiv_papers/1709.04323v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 232,
+ "n_lines_sent": 121,
+ "skipped_ranges": [
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 213,
+   "to": 232,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 29,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": 31,
+   "line_end": 31,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 33,
+   "line_end": 51,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 53,
+   "line_end": 59,
+   "type": "detector",
+   "title": "BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 61,
+   "line_end": 81,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTIONS",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 63,
+     "label": "final_state"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "tracking"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "pid"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 71,
+     "line_end": 81,
+     "label": "mass_windows_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 83,
+   "line_end": 109,
+   "type": "fit",
+   "title": "IV. Signal yield and cross section measurement"
+  },
+  {
+   "line_start": 111,
+   "line_end": 123,
+   "type": "results",
+   "title": "V. SEARCH FOR Z_s STATES",
+   "units": [
+    {
+     "line_start": 111,
+     "line_end": 123,
+     "label": "zs_search"
+    }
+   ]
+  },
+  {
+   "line_start": 125,
+   "line_end": 140,
+   "type": "results",
+   "title": "VI. SEARCH FOR psi(3686) -> eta Y(2175)",
+   "units": [
+    {
+     "line_start": 125,
+     "line_end": 140,
+     "label": "psi3686_search"
+    }
+   ]
+  },
+  {
+   "line_start": 142,
+   "line_end": 157,
+   "type": "results",
+   "title": "VII. Search for e+e- -> eta' Y(2175)",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 157,
+     "label": "etaprime_search"
+    }
+   ]
+  },
+  {
+   "line_start": 159,
+   "line_end": 197,
+   "type": "systematic_uncertainty",
+   "title": "VIII. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 159,
+     "line_end": 165,
+     "label": "luminosity_tracking_pid_photon"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "f0_980_parameterization"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "total_uncertainty"
+    },
+    {
+     "line_start": 179,
+     "line_end": 191,
+     "label": "mass_width_systematics"
+    },
+    {
+     "line_start": 193,
+     "line_end": 197,
+     "label": "branching_fraction_and_ratio"
+    }
+   ]
+  },
+  {
+   "line_start": 199,
+   "line_end": 207,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 209,
+   "line_end": 211,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 45,
+   "title": "Summary of data samples and cross section measurements",
+   "section_type": "results"
+  },
+  {
+   "line": 163,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 12.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

@@ -1,0 +1,279 @@
+{
+ "paper_id": "1901.05936v1",
+ "source_path": "arxiv_papers/1901.05936v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 601,
+ "n_lines_sent": 359,
+ "skipped_ranges": [
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 85,
+   "to": 85,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 107,
+   "to": 107,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 118,
+   "to": 118,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 134,
+   "to": 134,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 138,
+   "to": 138,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 573,
+   "to": 601,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 142,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 144,
+   "line_end": 146,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 148,
+   "line_end": 154,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 150,
+   "line_end": 162,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 164,
+   "line_end": 199,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 164,
+     "line_end": 166,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 170,
+     "line_end": 184,
+     "label": "d_meson_reconstruction"
+    },
+    {
+     "line_start": 186,
+     "line_end": 188,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 190,
+     "line_end": 199,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 201,
+   "line_end": 423,
+   "type": "fit",
+   "title": "IV. AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 425,
+   "line_end": 461,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 425,
+     "line_end": 429,
+     "label": "amplitude_selection"
+    },
+    {
+     "line_start": 431,
+     "line_end": 459,
+     "label": "parameter_determination"
+    },
+    {
+     "line_start": 461,
+     "line_end": 461,
+     "label": "nominal_fit_results"
+    }
+   ]
+  },
+  {
+   "line_start": 463,
+   "line_end": 471,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 463,
+     "line_end": 465,
+     "label": "overview"
+    },
+    {
+     "line_start": 467,
+     "line_end": 467,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 469,
+     "line_end": 469,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 471,
+     "line_end": 471,
+     "label": "tracking_pid_resolution"
+    }
+   ]
+  },
+  {
+   "line_start": 490,
+   "line_end": 517,
+   "type": "conclusion",
+   "title": "VII. CONCLUSION"
+  },
+  {
+   "line_start": 519,
+   "line_end": 523,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 525,
+   "line_end": 563,
+   "type": "other",
+   "title": "VIII. APPENDIX A: AMPLITUDES TESTED"
+  }
+ ],
+ "tables": [
+  {
+   "line": 279,
+   "title": "Spin factors for different decay modes",
+   "section_type": "fit"
+  },
+  {
+   "line": 405,
+   "title": "S-wave parameters from BABAR",
+   "section_type": "fit"
+  },
+  {
+   "line": 488,
+   "title": "Significances, phases, and fit fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 533,
+   "title": "Systematic uncertainties of phases",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 537,
+   "title": "Systematic uncertainties of fit fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 567,
+   "title": "Pull distributions for phases and FFs",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 571,
+   "title": "Branching fractions for components",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 13.1,
+ "status": "invalid",
+ "errors": [
+  "[sections] crossing spans 148-154 / 150-162"
+ ],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": [
+  "sections"
+ ]
+}

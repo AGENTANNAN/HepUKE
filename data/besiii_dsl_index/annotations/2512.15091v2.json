@@ -1,0 +1,245 @@
+{
+ "paper_id": "2512.15091v2",
+ "source_path": "arxiv_papers/2512.15091v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 358,
+ "n_lines_sent": 128,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 85,
+   "to": 85,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 111,
+   "to": 111,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 256,
+   "to": 358,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 119,
+   "type": "front_matter",
+   "title": "Search for the decays X(3872) -> K_S^0 K^± π^∓ and K*(892) K̄ at BESIII"
+  },
+  {
+   "line_start": 121,
+   "line_end": 121,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 123,
+   "line_end": 129,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 131,
+   "line_end": 139,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 141,
+   "line_end": 155,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 143,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "background_veto_photon"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "pi0_veto"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "kstar_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 157,
+   "line_end": 178,
+   "type": "fit",
+   "title": "IV. SIGNAL EXTRACTION AND CROSS SECTION MEASUREMENT"
+  },
+  {
+   "line_start": 180,
+   "line_end": 200,
+   "type": "results",
+   "title": "V. RELATIVE BRANCHING RATIO MEASUREMENT",
+   "units": [
+    {
+     "line_start": 180,
+     "line_end": 198,
+     "label": "relative_branching_ratio_formalism"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "upper_limits_relative_branching_ratios"
+    }
+   ]
+  },
+  {
+   "line_start": 202,
+   "line_end": 236,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 202,
+     "line_end": 204,
+     "label": "overview"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 210,
+     "line_end": 212,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "tracking"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "pid"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 220,
+     "line_end": 222,
+     "label": "mc_decay_model"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "pi0_veto"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "total_multiplicative"
+    },
+    {
+     "line_start": 232,
+     "line_end": 234,
+     "label": "signal_extraction"
+    },
+    {
+     "line_start": 236,
+     "line_end": 236,
+     "label": "relative_branching_ratio_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 238,
+   "line_end": 248,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 250,
+   "line_end": 252,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 254,
+   "line_end": 254,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 186,
+   "title": "Upper limits at 90% CL for the product of cross section and branching ratio at different c.m. energies",
+   "section_type": "results"
+  },
+  {
+   "line": 244,
+   "title": "Systematic uncertainties (in percentage) for the measurement of cross section times branching fraction",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

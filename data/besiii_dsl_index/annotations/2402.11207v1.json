@@ -1,0 +1,272 @@
+{
+ "paper_id": "2402.11207v1",
+ "source_path": "arxiv_papers/2402.11207v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 417,
+ "n_lines_sent": 203,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 83,
+   "to": 83,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 103,
+   "to": 103,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 131,
+   "to": 131,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 360,
+   "to": 417,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 147,
+   "type": "front_matter",
+   "title": "Search for the production of deuterons and antideuterons in e+e- annihilation at center-of-mass energies between 4.13 and 4.70 GeV"
+  },
+  {
+   "line_start": 149,
+   "line_end": 159,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 161,
+   "line_end": 179,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 181,
+   "line_end": 187,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 189,
+   "line_end": 191,
+   "type": "dataset",
+   "title": "Data samples"
+  },
+  {
+   "line_start": 193,
+   "line_end": 218,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 193,
+     "line_end": 195,
+     "label": "partial_reconstruction"
+    },
+    {
+     "line_start": 197,
+     "line_end": 199,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 201,
+     "line_end": 210,
+     "label": "vertex_and_background_suppression"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "event_cases"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "case_1_3_selection"
+    },
+    {
+     "line_start": 216,
+     "line_end": 218,
+     "label": "case_2_4_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 220,
+   "line_end": 247,
+   "type": "background",
+   "title": "IV. BACKGROUND ANALYSIS AND SIGNAL EXTRACTION"
+  },
+  {
+   "line_start": 249,
+   "line_end": 255,
+   "type": "detector",
+   "title": "V. DETECTION EFFICIENCY"
+  },
+  {
+   "line_start": 257,
+   "line_end": 315,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 257,
+     "line_end": 261,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 263,
+     "line_end": 263,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 265,
+     "line_end": 287,
+     "label": "efficiency_correction"
+    },
+    {
+     "line_start": 289,
+     "line_end": 289,
+     "label": "vertex_fit"
+    },
+    {
+     "line_start": 291,
+     "line_end": 299,
+     "label": "vertex_position"
+    },
+    {
+     "line_start": 301,
+     "line_end": 301,
+     "label": "pt_and_cos_theta_r"
+    },
+    {
+     "line_start": 303,
+     "line_end": 303,
+     "label": "md2"
+    },
+    {
+     "line_start": 305,
+     "line_end": 305,
+     "label": "p_veto"
+    },
+    {
+     "line_start": 307,
+     "line_end": 307,
+     "label": "cos_theta_prime"
+    },
+    {
+     "line_start": 309,
+     "line_end": 309,
+     "label": "efficiency_estimation"
+    },
+    {
+     "line_start": 311,
+     "line_end": 313,
+     "label": "signal_yield_extraction"
+    },
+    {
+     "line_start": 315,
+     "line_end": 315,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 317,
+   "line_end": 342,
+   "type": "fit",
+   "title": "VII. UPPER LIMIT OF THE CROSS SECTION"
+  },
+  {
+   "line_start": 344,
+   "line_end": 348,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 350,
+   "line_end": 354,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 356,
+   "line_end": 358,
+   "type": "results",
+   "title": "TABLE IV",
+   "units": [
+    {
+     "line_start": 356,
+     "line_end": 358,
+     "label": "upper_limit_cross_section"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "line": 191,
+   "title": "Center-of-mass energies, integrated luminosities, and signal yields for different cases",
+   "section_type": "dataset"
+  },
+  {
+   "line": 293,
+   "title": "Total correction factor and corrected efficiency",
+   "section_type": "detector"
+  },
+  {
+   "line": 297,
+   "title": "Relative systematic uncertainties in the cross section measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 358,
+   "title": "Upper limit of the Born cross section at the 90% C.L. and numbers used in the measurement",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

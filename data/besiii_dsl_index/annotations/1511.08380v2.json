@@ -1,0 +1,246 @@
+{
+ "paper_id": "1511.08380v2",
+ "source_path": "arxiv_papers/1511.08380v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 153,
+ "n_lines_sent": 87,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 14,
+   "line_end": 61,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 63,
+   "line_end": 65,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 67,
+   "line_end": 69,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 71,
+   "line_end": 95,
+   "type": "event_selection",
+   "title": "Double-tag technique and branching fraction formalism",
+   "units": [
+    {
+     "line_start": 71,
+     "line_end": 77,
+     "label": "single_tag_yield"
+    },
+    {
+     "line_start": 79,
+     "line_end": 89,
+     "label": "double_tag_yield_and_bf_ratio"
+    },
+    {
+     "line_start": 91,
+     "line_end": 95,
+     "label": "total_dt_yield_and_average_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 97,
+   "line_end": 99,
+   "type": "detector",
+   "title": "BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 101,
+   "line_end": 120,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "ks_and_lambda_selection"
+    },
+    {
+     "line_start": 107,
+     "line_end": 108,
+     "label": "st_mbc_fit_figure"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "delta_e_and_mbc_variables"
+    },
+    {
+     "line_start": 114,
+     "line_end": 116,
+     "label": "table_i_st_yields"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "dt_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 122,
+   "line_end": 129,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "tracking_pid_intermediate_states"
+    },
+    {
+     "line_start": 124,
+     "line_end": 125,
+     "label": "dt_mbc_fit_figure"
+    },
+    {
+     "line_start": 127,
+     "line_end": 129,
+     "label": "table_ii_systematics_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 131,
+   "line_end": 137,
+   "type": "fit",
+   "title": "Global least-squares fit and results"
+  },
+  {
+   "line_start": 139,
+   "line_end": 139,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 141,
+   "line_end": 141,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 143,
+   "line_end": 145,
+   "type": "references",
+   "title": "References"
+  },
+  {
+   "line_start": 147,
+   "line_end": 153,
+   "type": "other",
+   "title": "Supplemental material"
+  }
+ ],
+ "tables": [
+  {
+   "line": 116,
+   "title": "Requirement on Delta E, ST yields, DT yields and detection efficiencies for each decay mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 129,
+   "title": "Summary of systematic uncertainties, in percent",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 135,
+   "title": "Comparison of measured BFs in this work with previous PDG results",
+   "section_type": "results"
+  },
+  {
+   "line": 153,
+   "title": "Correlation coefficients among thirteen fit parameters",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

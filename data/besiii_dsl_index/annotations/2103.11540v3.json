@@ -1,0 +1,220 @@
+{
+ "paper_id": "2103.11540v3",
+ "source_path": "arxiv_papers/2103.11540v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 217,
+ "n_lines_sent": 107,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 69,
+   "to": 69,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 78,
+   "to": 78,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 80,
+   "to": 83,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 185,
+   "to": 217,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 85,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 87,
+   "line_end": 87,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 89,
+   "line_end": 95,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 97,
+   "line_end": 99,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR"
+  },
+  {
+   "line_start": 101,
+   "line_end": 105,
+   "type": "dataset",
+   "title": "III. DATA SAMPLES AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 107,
+   "line_end": 118,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 107,
+     "line_end": 109,
+     "label": "charged_track_and_pid"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "electron_momentum_and_recoil_mass"
+    },
+    {
+     "line_start": 115,
+     "line_end": 118,
+     "label": "missing_energy_and_umiss"
+    }
+   ]
+  },
+  {
+   "line_start": 120,
+   "line_end": 134,
+   "type": "background",
+   "title": "V. BACKGROUND STUDY"
+  },
+  {
+   "line_start": 136,
+   "line_end": 148,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 136,
+     "line_end": 138,
+     "label": "overview"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "njpsi_and_quoted_bf_and_mc_model"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "pid_and_tracking"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "photon_detection_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "kinematic_requirements"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 150,
+   "line_end": 173,
+   "type": "results",
+   "title": "VII. RESULTS",
+   "units": [
+    {
+     "line_start": 150,
+     "line_end": 152,
+     "label": "parameter_summary"
+    },
+    {
+     "line_start": 154,
+     "line_end": 160,
+     "label": "tables"
+    },
+    {
+     "line_start": 162,
+     "line_end": 168,
+     "label": "likelihood_definition"
+    },
+    {
+     "line_start": 170,
+     "line_end": 173,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 175,
+   "line_end": 177,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 179,
+   "line_end": 183,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 156,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 160,
+   "title": "Summary of analysis results",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

@@ -1,0 +1,267 @@
+{
+ "paper_id": "2103.15098v1",
+ "source_path": "arxiv_papers/2103.15098v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 498,
+ "n_lines_sent": 303,
+ "skipped_ranges": [
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 72,
+   "to": 72,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 76,
+   "to": 76,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 81,
+   "to": 82,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 85,
+   "to": 85,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 92,
+   "to": 92,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 98,
+   "to": 98,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 102,
+   "to": 105,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 474,
+   "to": 498,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 107,
+   "type": "front_matter",
+   "title": "Amplitude analysis and branching-fraction measurement of D+s → K0Sπ+π0"
+  },
+  {
+   "line_start": 109,
+   "line_end": 111,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 113,
+   "line_end": 133,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 135,
+   "line_end": 145,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 147,
+   "line_end": 157,
+   "type": "detector",
+   "title": "2 Detector and data sets"
+  },
+  {
+   "line_start": 159,
+   "line_end": 181,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 159,
+     "line_end": 163,
+     "label": "tag_method"
+    },
+    {
+     "line_start": 165,
+     "line_end": 167,
+     "label": "tag_mass_windows"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "photon_pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 173,
+     "line_end": 181,
+     "label": "mrec_and_vetoes"
+    }
+   ]
+  },
+  {
+   "line_start": 183,
+   "line_end": 386,
+   "type": "fit",
+   "title": "4 Amplitude analysis of D+s → K0Sπ+π0"
+  },
+  {
+   "line_start": 388,
+   "line_end": 454,
+   "type": "results",
+   "title": "5 Branching fraction measurement of D+s → K0Sπ+π0",
+   "units": [
+    {
+     "line_start": 388,
+     "line_end": 394,
+     "label": "st_yields"
+    },
+    {
+     "line_start": 396,
+     "line_end": 422,
+     "label": "bf_formalism"
+    },
+    {
+     "line_start": 424,
+     "line_end": 429,
+     "label": "dt_yield_and_bf"
+    },
+    {
+     "line_start": 431,
+     "line_end": 431,
+     "label": "cp_asymmetry"
+    },
+    {
+     "line_start": 433,
+     "line_end": 434,
+     "label": "dt_fit_figure"
+    },
+    {
+     "line_start": 436,
+     "line_end": 450,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 452,
+     "line_end": 454,
+     "label": "systematic_table"
+    }
+   ]
+  },
+  {
+   "line_start": 456,
+   "line_end": 466,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 468,
+   "line_end": 472,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 145,
+   "title": "Summary of D+s decays to a vector and pseudoscalar meson",
+   "section_type": "introduction"
+  },
+  {
+   "line": 157,
+   "title": "Integrated luminosities and Mrec requirements",
+   "section_type": "detector"
+  },
+  {
+   "line": 167,
+   "title": "Requirements on Mtag for various tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 362,
+   "title": "Magnitudes, phases, FFs, and significances for the amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 366,
+   "title": "Interference between amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 382,
+   "title": "Systematic uncertainties on the φ and FFs for each amplitude",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 394,
+   "title": "ST yields for the samples",
+   "section_type": "results"
+  },
+  {
+   "line": 454,
+   "title": "Systematic uncertainties in the BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 466,
+   "title": "BFs for various intermediate processes",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

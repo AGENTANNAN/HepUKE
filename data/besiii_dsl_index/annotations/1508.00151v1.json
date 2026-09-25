@@ -1,0 +1,191 @@
+{
+ "paper_id": "1508.00151v1",
+ "source_path": "arxiv_papers/1508.00151v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 294,
+ "n_lines_sent": 137,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 267,
+   "to": 294,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 131,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, date, PACS"
+  },
+  {
+   "line_start": 133,
+   "line_end": 147,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 149,
+   "line_end": 149,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 151,
+   "line_end": 181,
+   "type": "event_selection",
+   "title": "Event selection and tag reconstruction",
+   "units": [
+    {
+     "line_start": 151,
+     "line_end": 159,
+     "label": "tagging_technique"
+    },
+    {
+     "line_start": 161,
+     "line_end": 163,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 165,
+     "line_end": 171,
+     "label": "tag_selection"
+    },
+    {
+     "line_start": 173,
+     "line_end": 175,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 177,
+     "line_end": 181,
+     "label": "mc_simulation_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 183,
+   "line_end": 193,
+   "type": "fit",
+   "title": "Signal yield extraction and upper limit"
+  },
+  {
+   "line_start": 195,
+   "line_end": 203,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on branching fractions",
+   "units": [
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "tracking_pid_pi0"
+    },
+    {
+     "line_start": 197,
+     "line_end": 201,
+     "label": "form_factor_and_branching_fractions"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "fit_and_background_modeling"
+    }
+   ]
+  },
+  {
+   "line_start": 205,
+   "line_end": 246,
+   "type": "fit",
+   "title": "Form factor measurement"
+  },
+  {
+   "line_start": 248,
+   "line_end": 248,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 250,
+   "line_end": 265,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 169,
+   "title": "Tag yields of the D- six hadronic modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 179,
+   "title": "Tag efficiencies and signal efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 199,
+   "title": "Measured branching fractions and comparison",
+   "section_type": "results"
+  },
+  {
+   "line": 233,
+   "title": "Summary of systematic uncertainties on branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 244,
+   "title": "Summary of systematic uncertainties in form factor measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

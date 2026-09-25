@@ -1,0 +1,213 @@
+{
+ "paper_id": "2510.15247v1",
+ "source_path": "arxiv_papers/2510.15247v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 378,
+ "n_lines_sent": 213,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 317,
+   "to": 378,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 7,
+   "line_end": 174,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 176,
+   "line_end": 176,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 178,
+   "line_end": 186,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 188,
+   "line_end": 190,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 192,
+   "line_end": 198,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 196,
+     "line_end": 198,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 200,
+   "line_end": 206,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 208,
+   "line_end": 273,
+   "type": "fit",
+   "title": "Amplitude analysis"
+  },
+  {
+   "line_start": 275,
+   "line_end": 283,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 275,
+     "line_end": 281,
+     "label": "njpsi_tracking_pid_photon_kinematic_fit"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "nr_line_shape_insignificant_waves_background_mass_calibration_fit_bias"
+    }
+   ]
+  },
+  {
+   "line_start": 285,
+   "line_end": 311,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 313,
+   "line_end": 315,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 277,
+   "title": "Relative systematic uncertainties of the product BF and absolute systematic uncertainties of mass and width of eta_c",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

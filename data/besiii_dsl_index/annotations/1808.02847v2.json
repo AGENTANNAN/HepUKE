@@ -1,0 +1,194 @@
+{
+ "paper_id": "1808.02847v2",
+ "source_path": "arxiv_papers/1808.02847v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 137,
+ "n_lines_sent": 40,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 98,
+   "to": 137,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 37,
+   "type": "front_matter",
+   "title": "Title, authors, and PACS"
+  },
+  {
+   "line_start": 35,
+   "line_end": 35,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 39,
+   "line_end": 43,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 45,
+   "line_end": 45,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 47,
+   "line_end": 47,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "event_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 49,
+   "line_end": 49,
+   "type": "fit",
+   "title": "Fit to recoil mass distribution"
+  },
+  {
+   "line_start": 51,
+   "line_end": 62,
+   "type": "results",
+   "title": "Cross section measurement",
+   "units": [
+    {
+     "line_start": 51,
+     "line_end": 62,
+     "label": "cross_section_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 64,
+   "line_end": 64,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 66,
+   "line_end": 74,
+   "type": "fit",
+   "title": "Fit to dressed cross section"
+  },
+  {
+   "line_start": 76,
+   "line_end": 76,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties of resonance parameters",
+   "units": [
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "resonance_parameter_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 78,
+   "line_end": 87,
+   "type": "results",
+   "title": "Tables of results",
+   "units": [
+    {
+     "line_start": 78,
+     "line_end": 87,
+     "label": "tables"
+    }
+   ]
+  },
+  {
+   "line_start": 89,
+   "line_end": 94,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 96,
+   "line_end": 96,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 80,
+   "title": "Systematic uncertainties breakdown",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 87,
+   "title": "Fitted parameters of cross sections",
+   "section_type": "fit"
+  },
+  {
+   "line": 127,
+   "title": "Born cross sections for XYZ data",
+   "section_type": "results"
+  },
+  {
+   "line": 131,
+   "title": "Born cross sections for R-scan data",
+   "section_type": "results"
+  },
+  {
+   "line": 137,
+   "title": "Table IV continued",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-37 / 35-35"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

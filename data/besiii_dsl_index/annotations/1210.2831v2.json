@@ -1,0 +1,245 @@
+{
+ "paper_id": "1210.2831v2",
+ "source_path": "arxiv_papers/1210.2831v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 220,
+ "n_lines_sent": 109,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 196,
+   "to": 220,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 17,
+   "line_end": 48,
+   "type": "front_matter",
+   "title": "Author affiliations and footnotes"
+  },
+  {
+   "line_start": 50,
+   "line_end": 52,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 54,
+   "line_end": 60,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 62,
+   "line_end": 64,
+   "type": "detector",
+   "title": "BEPCII and BESIII detector"
+  },
+  {
+   "line_start": 66,
+   "line_end": 88,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 66,
+     "line_end": 68,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 72,
+     "line_end": 73,
+     "label": "photon_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 75,
+     "line_end": 80,
+     "label": "figures_pi0_and_sigma"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "sigma_selection"
+    },
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "xi_selection"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "lambda_and_xi_vertex_fits"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "mass_spectra"
+    }
+   ]
+  },
+  {
+   "line_start": 90,
+   "line_end": 102,
+   "type": "background",
+   "title": "IV. BACKGROUND STUDIES"
+  },
+  {
+   "line_start": 104,
+   "line_end": 130,
+   "type": "fit",
+   "title": "Signal yield extraction and branching fraction calculation"
+  },
+  {
+   "line_start": 132,
+   "line_end": 134,
+   "type": "results",
+   "title": "TABLE I: Branching fractions",
+   "units": [
+    {
+     "line_start": 132,
+     "line_end": 134,
+     "label": "branching_fraction_results"
+    }
+   ]
+  },
+  {
+   "line_start": 136,
+   "line_end": 168,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 136,
+     "line_end": 138,
+     "label": "overview"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "tracking_and_pid_sigma"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "tracking_and_pid_xi"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "pi0_selection"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "sigma_mass_window"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "vertex_fit_and_mass_windows"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "event_generators"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "signal_fitting"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "njpsi"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "intermediate_branching_fractions"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "summary"
+    },
+    {
+     "line_start": 166,
+     "line_end": 168,
+     "label": "table_ii"
+    }
+   ]
+  },
+  {
+   "line_start": 170,
+   "line_end": 188,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 190,
+   "line_end": 194,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 134,
+   "title": "Branching fractions of eta_c -> Sigma+ Sigma- and eta_c -> Xi- Xi+",
+   "section_type": "results"
+  },
+  {
+   "line": 168,
+   "title": "Systematic uncertainties in the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

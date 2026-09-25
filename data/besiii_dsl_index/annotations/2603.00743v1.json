@@ -1,0 +1,170 @@
+{
+ "paper_id": "2603.00743v1",
+ "source_path": "arxiv_papers/2603.00743v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 362,
+ "n_lines_sent": 48,
+ "skipped_ranges": [
+  {
+   "from": 92,
+   "to": 362,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "First Amplitude Analysis of D0 -> K- pi0 e+ nu_e and Observation of D0 -> K2*(1430)- e+ nu_e"
+  },
+  {
+   "line_start": 9,
+   "line_end": 9,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 11,
+   "line_end": 21,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 23,
+   "line_end": 23,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 25,
+   "line_end": 31,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 25,
+     "line_end": 25,
+     "label": "single_tag_reconstruction"
+    },
+    {
+     "line_start": 27,
+     "line_end": 27,
+     "label": "mbc_deltae_fit"
+    },
+    {
+     "line_start": 29,
+     "line_end": 29,
+     "label": "background_suppression_umiss"
+    },
+    {
+     "line_start": 31,
+     "line_end": 31,
+     "label": "efficiency_and_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 33,
+   "line_end": 33,
+   "type": "event_selection",
+   "title": "Final Selection for Amplitude Analysis"
+  },
+  {
+   "line_start": 35,
+   "line_end": 35,
+   "type": "fit",
+   "title": "Amplitude Formalism"
+  },
+  {
+   "line_start": 37,
+   "line_end": 45,
+   "type": "fit",
+   "title": "Likelihood Fit"
+  },
+  {
+   "line_start": 47,
+   "line_end": 57,
+   "type": "results",
+   "title": "Fit Results",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 49,
+     "label": "wave_fractions_and_branching_fractions"
+    },
+    {
+     "line_start": 51,
+     "line_end": 53,
+     "label": "table1_parameters"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "vcs_a1_product"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "model_independent_swave"
+    }
+   ]
+  },
+  {
+   "line_start": 59,
+   "line_end": 59,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "fixed_parameters_background_pid_tracking"
+    }
+   ]
+  },
+  {
+   "line_start": 61,
+   "line_end": 77,
+   "type": "other",
+   "title": "Figures"
+  },
+  {
+   "line_start": 79,
+   "line_end": 79,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 81,
+   "line_end": 88,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 90,
+   "line_end": 90,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 53,
+   "title": "Parameters of the nominal solution",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 33-33 typed event_selection has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

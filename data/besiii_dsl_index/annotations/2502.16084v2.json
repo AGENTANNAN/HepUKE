@@ -1,0 +1,164 @@
+{
+ "paper_id": "2502.16084v2",
+ "source_path": "arxiv_papers/2502.16084v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 264,
+ "n_lines_sent": 152,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 231,
+   "to": 264,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 153,
+   "type": "front_matter",
+   "title": "Single Inclusive π± and K± Production in e+e− Annihilation at center-of-mass Energies from 2.000 to 3.671 GeV"
+  },
+  {
+   "line_start": 155,
+   "line_end": 155,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 157,
+   "line_end": 165,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 167,
+   "line_end": 179,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 181,
+   "line_end": 199,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "pid_selection"
+    },
+    {
+     "line_start": 183,
+     "line_end": 185,
+     "label": "luminosity_and_event_counts"
+    },
+    {
+     "line_start": 187,
+     "line_end": 191,
+     "label": "pid_efficiency_matrix"
+    },
+    {
+     "line_start": 193,
+     "line_end": 199,
+     "label": "pid_efficiency_extraction"
+    }
+   ]
+  },
+  {
+   "line_start": 201,
+   "line_end": 210,
+   "type": "fit",
+   "title": "Correction Factor and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 212,
+   "line_end": 221,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainty",
+   "units": [
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "overview"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 216,
+     "line_end": 221,
+     "label": "pid_efficiency_matrix"
+    }
+   ]
+  },
+  {
+   "line_start": 223,
+   "line_end": 225,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "cross_section_measurement_and_qcd_fit"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "isospin_symmetry_test"
+    }
+   ]
+  },
+  {
+   "line_start": 227,
+   "line_end": 227,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 229,
+   "line_end": 229,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 185,
+   "title": "Integrated luminosities and numbers of total selected hadronic and residual background events at different c.m. energies",
+   "section_type": "detector"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

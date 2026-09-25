@@ -1,0 +1,229 @@
+{
+ "paper_id": "2305.07231v1",
+ "source_path": "arxiv_papers/2305.07231v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 340,
+ "n_lines_sent": 175,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 63,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 82,
+   "to": 82,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 84,
+   "to": 84,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 153,
+   "to": 153,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 175,
+   "to": 175,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 183,
+   "to": 183,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 304,
+   "to": 340,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 199,
+   "type": "front_matter",
+   "title": "Search for baryon and lepton number violating decays of Xi0 hyperons"
+  },
+  {
+   "line_start": 200,
+   "line_end": 200,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 201,
+   "line_end": 222,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 224,
+   "line_end": 230,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 232,
+   "line_end": 274,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 232,
+     "line_end": 242,
+     "label": "analysis_method"
+    },
+    {
+     "line_start": 244,
+     "line_end": 261,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 263,
+     "line_end": 274,
+     "label": "dt_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 276,
+   "line_end": 286,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 276,
+     "line_end": 278,
+     "label": "overview"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "tracking"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "pid"
+    },
+    {
+     "line_start": 280,
+     "line_end": 282,
+     "label": "st_fit"
+    },
+    {
+     "line_start": 282,
+     "line_end": 282,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 282,
+     "line_end": 282,
+     "label": "theta_requirement"
+    },
+    {
+     "line_start": 282,
+     "line_end": 282,
+     "label": "total"
+    },
+    {
+     "line_start": 284,
+     "line_end": 286,
+     "label": "table"
+    }
+   ]
+  },
+  {
+   "line_start": 288,
+   "line_end": 294,
+   "type": "results",
+   "title": "V. RESULT",
+   "units": [
+    {
+     "line_start": 288,
+     "line_end": 294,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 296,
+   "line_end": 298,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 300,
+   "line_end": 302,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 286,
+   "title": "Relative systematic uncertainties for the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 276-286 share boundary line 280",
+  "units of 276-286 share boundary line 280",
+  "units of 276-286 share boundary line 282",
+  "units of 276-286 share boundary line 282",
+  "units of 276-286 share boundary line 282"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

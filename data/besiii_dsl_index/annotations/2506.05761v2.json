@@ -1,0 +1,276 @@
+{
+ "paper_id": "2506.05761v2",
+ "source_path": "arxiv_papers/2506.05761v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 388,
+ "n_lines_sent": 61,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 136,
+   "to": 388,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 35,
+   "type": "front_matter",
+   "title": "Title and author list"
+  },
+  {
+   "line_start": 45,
+   "line_end": 45,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 47,
+   "line_end": 53,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 55,
+   "line_end": 85,
+   "type": "other",
+   "title": "Kinematics and observables"
+  },
+  {
+   "line_start": 87,
+   "line_end": 87,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 89,
+   "line_end": 99,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 91,
+     "line_end": 93,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "lepton_pid"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "missing_momentum"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 101,
+   "line_end": 104,
+   "type": "fit",
+   "title": "Signal yield and branching fraction"
+  },
+  {
+   "line_start": 106,
+   "line_end": 106,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties in the BF measurement",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "tracking_pid_ks_pi0"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "extra_photon_track_pi0"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "umiss_fit"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "signal_mc_model"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "mc_statistics_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 112,
+   "type": "fit",
+   "title": "Amplitude analysis"
+  },
+  {
+   "line_start": 114,
+   "line_end": 114,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties in the amplitude analysis",
+   "units": [
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "fit_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 120,
+   "type": "results",
+   "title": "Angular observables and LFU test",
+   "units": [
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "angular_observables"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "systematic_uncertainties_angular"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "lfu_ratio"
+    }
+   ]
+  },
+  {
+   "line_start": 122,
+   "line_end": 122,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 124,
+   "line_end": 134,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 112,
+   "title": "Fitted parameters for amplitude analysis",
+   "section_type": "fit"
+  },
+  {
+   "line": 246,
+   "title": "Angular observables A_i and <S_i>",
+   "section_type": "results"
+  },
+  {
+   "line": 250,
+   "title": "Angular coefficients A_CP",
+   "section_type": "results"
+  },
+  {
+   "line": 350,
+   "title": "Delta E requirements and ST yields",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 364,
+   "title": "Control samples and correction factors",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 370,
+   "title": "Relative systematic uncertainties in BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 382,
+   "title": "Relative systematic uncertainties in amplitude analysis",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 388,
+   "title": "Absolute systematic uncertainties for angular observables",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 106-106 share boundary line 106",
+  "units of 106-106 share boundary line 106",
+  "units of 106-106 share boundary line 106",
+  "units of 106-106 share boundary line 106",
+  "units of 106-106 share boundary line 106"
+ ],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

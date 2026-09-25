@@ -1,0 +1,208 @@
+{
+ "paper_id": "2112.14236v4",
+ "source_path": "arxiv_papers/2112.14236v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 146,
+ "n_lines_sent": 70,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 120,
+   "to": 146,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 12,
+   "line_end": 49,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 51,
+   "line_end": 51,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 53,
+   "line_end": 57,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 59,
+   "line_end": 59,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 61,
+   "line_end": 67,
+   "type": "dataset",
+   "title": "Dataset and double-tag method"
+  },
+  {
+   "line_start": 69,
+   "line_end": 96,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "single_tag_reconstruction"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "signal_selection"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "residual_background"
+    },
+    {
+     "line_start": 75,
+     "line_end": 80,
+     "label": "kl_energy_deposit"
+    },
+    {
+     "line_start": 82,
+     "line_end": 94,
+     "label": "x_energy_deposit"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "remaining_backgrounds"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 101,
+   "type": "fit",
+   "title": "Fit to the E_EMC distribution"
+  },
+  {
+   "line_start": 103,
+   "line_end": 107,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "number_of_charged_tracks"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "number_of_pi0"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "mmiss_requirement"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "klx_background_shape"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "wrong_tag_background"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "pi0_to_gammagamma_branching_fraction"
+    },
+    {
+     "line_start": 105,
+     "line_end": 107,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 109,
+   "line_end": 109,
+   "type": "results",
+   "title": "Upper limit on the branching fraction",
+   "units": [
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 111,
+   "line_end": 114,
+   "type": "conclusion",
+   "title": "Conclusion"
+  },
+  {
+   "line_start": 116,
+   "line_end": 118,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 107,
+   "title": "Summary of systematic uncertainties on the signal yield and detection efficiencies",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 103-107 share boundary line 103",
+  "units of 103-107 share boundary line 103",
+  "units of 103-107 share boundary line 103",
+  "units of 103-107 share boundary line 103",
+  "units of 103-107 share boundary line 103",
+  "units of 103-107 share boundary line 103",
+  "units of 103-107 share boundary line 103"
+ ],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

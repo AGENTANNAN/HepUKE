@@ -1,0 +1,398 @@
+{
+ "paper_id": "2503.22126v2",
+ "source_path": "arxiv_papers/2503.22126v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 759,
+ "n_lines_sent": 429,
+ "skipped_ranges": [
+  {
+   "from": 162,
+   "to": 163,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 197,
+   "to": 197,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 213,
+   "to": 213,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 225,
+   "to": 227,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 229,
+   "to": 229,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 602,
+   "to": 759,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 235,
+   "type": "front_matter",
+   "title": "Updated model-independent measurement of the strong-phase differences between D0 and D0bar to KS/L0 pi+ pi- decays"
+  },
+  {
+   "line_start": 237,
+   "line_end": 239,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 241,
+   "line_end": 266,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 268,
+   "line_end": 296,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 298,
+   "line_end": 371,
+   "type": "other",
+   "title": "2 Formalism"
+  },
+  {
+   "line_start": 373,
+   "line_end": 385,
+   "type": "detector",
+   "title": "3 BESIII detector"
+  },
+  {
+   "line_start": 387,
+   "line_end": 403,
+   "type": "event_selection",
+   "title": "4.1 Event selection",
+   "units": [
+    {
+     "line_start": 387,
+     "line_end": 391,
+     "label": "final_state_particle_reconstruction"
+    },
+    {
+     "line_start": 393,
+     "line_end": 395,
+     "label": "fully_reconstructed_tags"
+    },
+    {
+     "line_start": 397,
+     "line_end": 397,
+     "label": "partially_reconstructed_tags"
+    },
+    {
+     "line_start": 399,
+     "line_end": 399,
+     "label": "dt_selection_fully_reconstructed"
+    },
+    {
+     "line_start": 401,
+     "line_end": 401,
+     "label": "dt_selection_partially_reconstructed"
+    },
+    {
+     "line_start": 403,
+     "line_end": 403,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 405,
+   "line_end": 413,
+   "type": "background",
+   "title": "4.2 Background study"
+  },
+  {
+   "line_start": 415,
+   "line_end": 454,
+   "type": "results",
+   "title": "4.3 Signal yields and efficiencies",
+   "units": [
+    {
+     "line_start": 415,
+     "line_end": 417,
+     "label": "st_yields"
+    },
+    {
+     "line_start": 419,
+     "line_end": 419,
+     "label": "dt_yields_fully_reconstructed"
+    },
+    {
+     "line_start": 421,
+     "line_end": 421,
+     "label": "dt_yields_partially_reconstructed"
+    },
+    {
+     "line_start": 423,
+     "line_end": 423,
+     "label": "dt_yields_kl"
+    },
+    {
+     "line_start": 425,
+     "line_end": 452,
+     "label": "figures_and_background_details"
+    },
+    {
+     "line_start": 454,
+     "line_end": 454,
+     "label": "efficiencies"
+    }
+   ]
+  },
+  {
+   "line_start": 456,
+   "line_end": 476,
+   "type": "fit",
+   "title": "5.1 Determination of the K_i parameters"
+  },
+  {
+   "line_start": 478,
+   "line_end": 504,
+   "type": "fit",
+   "title": "5.2 Expected number of binned signal events"
+  },
+  {
+   "line_start": 506,
+   "line_end": 524,
+   "type": "fit",
+   "title": "5.3 Fit to the c_i and s_i parameters"
+  },
+  {
+   "line_start": 526,
+   "line_end": 561,
+   "type": "systematic_uncertainty",
+   "title": "5.4 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 526,
+     "line_end": 528,
+     "label": "overview"
+    },
+    {
+     "line_start": 530,
+     "line_end": 530,
+     "label": "pseudo_experiments"
+    },
+    {
+     "line_start": 532,
+     "line_end": 543,
+     "label": "figures"
+    },
+    {
+     "line_start": 545,
+     "line_end": 549,
+     "label": "table4_and_generation"
+    },
+    {
+     "line_start": 551,
+     "line_end": 551,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 553,
+     "line_end": 553,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 555,
+     "line_end": 561,
+     "label": "constrained_unconstrained"
+    }
+   ]
+  },
+  {
+   "line_start": 563,
+   "line_end": 590,
+   "type": "results",
+   "title": "6 Impact of the results on the gamma measurement",
+   "units": [
+    {
+     "line_start": 563,
+     "line_end": 565,
+     "label": "introduction"
+    },
+    {
+     "line_start": 567,
+     "line_end": 581,
+     "label": "formalism"
+    },
+    {
+     "line_start": 583,
+     "line_end": 586,
+     "label": "figure8"
+    },
+    {
+     "line_start": 588,
+     "line_end": 588,
+     "label": "toy_generation"
+    },
+    {
+     "line_start": 590,
+     "line_end": 590,
+     "label": "results"
+    }
+   ]
+  },
+  {
+   "line_start": 592,
+   "line_end": 596,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 598,
+   "line_end": 600,
+   "type": "acknowledgements",
+   "title": "8 Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 325,
+   "title": "Tag modes reconstructed against the signal decays",
+   "section_type": "other"
+  },
+  {
+   "line": 472,
+   "title": "ST yields, ST efficiency, DT yields and DT efficiency",
+   "section_type": "results"
+  },
+  {
+   "line": 494,
+   "title": "Averaged F_i values for three binning schemes",
+   "section_type": "fit"
+  },
+  {
+   "line": 547,
+   "title": "c_i and s_i parameters under three binning schemes",
+   "section_type": "fit"
+  },
+  {
+   "line": 559,
+   "title": "c_i and s_i parameters constrained by Delta c_i and Delta s_i",
+   "section_type": "fit"
+  },
+  {
+   "line": 682,
+   "title": "Delta c_i and Delta s_i parameters under three binning schemes",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 686,
+   "title": "Delta c_i and Delta s_i with unconstrained strong-phase parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 692,
+   "title": "Systematic uncertainties for equal binning without constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 696,
+   "title": "Systematic uncertainties for optimal binning without constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 701,
+   "title": "Systematic uncertainties for modified optimal binning without constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 707,
+   "title": "Systematic uncertainties for equal binning with constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 711,
+   "title": "Systematic uncertainties for optimal binning with constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 715,
+   "title": "Correlation matrix of statistical uncertainties for equal binning without constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 719,
+   "title": "Correlation matrix of statistical uncertainties for optimal binning without constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 723,
+   "title": "Correlation matrix of statistical uncertainties for modified optimal binning without constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 727,
+   "title": "Correlation matrix of systematic uncertainties for equal binning without constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 731,
+   "title": "Correlation matrix of systematic uncertainties for optimal binning without constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 735,
+   "title": "Correlation matrix of statistical uncertainties for equal binning with constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 739,
+   "title": "Correlation matrix of statistical uncertainties for optimal binning with constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 743,
+   "title": "Correlation matrix of statistical uncertainties for modified optimal binning with constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 747,
+   "title": "Correlation matrix of systematic uncertainties for equal binning with constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 751,
+   "title": "Correlation matrix of systematic uncertainties for optimal binning with constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 755,
+   "title": "Correlation matrix of systematic uncertainties for modified optimal binning with constraints",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 759,
+   "title": "Correlation matrix of systematic uncertainties for modified optimal binning with constraints",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 15.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

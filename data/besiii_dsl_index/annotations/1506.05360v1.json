@@ -1,0 +1,204 @@
+{
+ "paper_id": "1506.05360v1",
+ "source_path": "arxiv_papers/1506.05360v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 497,
+ "n_lines_sent": 269,
+ "skipped_ranges": [
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 69,
+   "to": 69,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 71,
+   "to": 71,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 73,
+   "to": 73,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 99,
+   "to": 99,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 101,
+   "to": 101,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 127,
+   "to": 127,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 147,
+   "to": 147,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 155,
+   "to": 155,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 459,
+   "to": 497,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 175,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, abstract, PACS"
+  },
+  {
+   "line_start": 177,
+   "line_end": 223,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 225,
+   "line_end": 231,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 233,
+   "line_end": 344,
+   "type": "fit",
+   "title": "III. MEASUREMENT OF THE MATRIX ELEMENTS FOR THE DECAY η → π+π−π0"
+  },
+  {
+   "line_start": 346,
+   "line_end": 382,
+   "type": "fit",
+   "title": "IV. MEASUREMENT OF THE MATRIX ELEMENT FOR THE DECAYS η → π0π0π0 AND η′ → π0π0π0"
+  },
+  {
+   "line_start": 384,
+   "line_end": 406,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 384,
+     "line_end": 392,
+     "label": "overview"
+    },
+    {
+     "line_start": 394,
+     "line_end": 394,
+     "label": "efficiency_parameterization"
+    },
+    {
+     "line_start": 396,
+     "line_end": 396,
+     "label": "tracking_and_pi0_efficiency"
+    },
+    {
+     "line_start": 398,
+     "line_end": 400,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 402,
+     "line_end": 402,
+     "label": "pi0_miscombination"
+    },
+    {
+     "line_start": 404,
+     "line_end": 404,
+     "label": "background_subtraction"
+    },
+    {
+     "line_start": 406,
+     "line_end": 406,
+     "label": "resolution"
+    }
+   ]
+  },
+  {
+   "line_start": 408,
+   "line_end": 444,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 446,
+   "line_end": 448,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 450,
+   "line_end": 458,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 302,
+   "title": "Correlation matrix of the fit parameters for η → π+π−π0",
+   "section_type": "fit"
+  },
+  {
+   "line": 434,
+   "title": "Summary of systematic uncertainties for the measurements of the matrix elements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

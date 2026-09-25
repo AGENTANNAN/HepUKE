@@ -1,0 +1,173 @@
+{
+ "paper_id": "2506.10316v3",
+ "source_path": "arxiv_papers/2506.10316v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 302,
+ "n_lines_sent": 162,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 255,
+   "to": 302,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 15,
+   "line_end": 166,
+   "type": "front_matter",
+   "title": "Author list, affiliations, and date"
+  },
+  {
+   "line_start": 168,
+   "line_end": 168,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 170,
+   "line_end": 174,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 176,
+   "line_end": 179,
+   "type": "detector",
+   "title": "BESIII detector and FIG. 1"
+  },
+  {
+   "line_start": 181,
+   "line_end": 181,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 183,
+   "line_end": 188,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "phi_reconstruction_and_vetoes"
+    },
+    {
+     "line_start": 187,
+     "line_end": 188,
+     "label": "recoil_mass_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 190,
+   "line_end": 204,
+   "type": "background",
+   "title": "Background estimation"
+  },
+  {
+   "line_start": 206,
+   "line_end": 226,
+   "type": "fit",
+   "title": "Upper limit calculation"
+  },
+  {
+   "line_start": 228,
+   "line_end": 243,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 228,
+     "line_end": 233,
+     "label": "jpsi_to_phi_invisible"
+    },
+    {
+     "line_start": 235,
+     "line_end": 243,
+     "label": "eta_to_invisible"
+    }
+   ]
+  },
+  {
+   "line_start": 245,
+   "line_end": 245,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 247,
+   "line_end": 253,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 202,
+   "title": "Expected yields of different background sources",
+   "section_type": "background"
+  },
+  {
+   "line": 230,
+   "title": "Summary of observed events, background, efficiency, and upper limits",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

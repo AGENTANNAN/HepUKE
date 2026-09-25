@@ -1,0 +1,196 @@
+{
+ "paper_id": "2311.05955v3",
+ "source_path": "arxiv_papers/2311.05955v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 161,
+ "n_lines_sent": 82,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 15,
+   "reason": "author_affiliation"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 17,
+   "line_end": 21,
+   "type": "front_matter",
+   "title": "Title and PACS"
+  },
+  {
+   "line_start": 19,
+   "line_end": 19,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 23,
+   "line_end": 33,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 35,
+   "line_end": 37,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT"
+  },
+  {
+   "line_start": 39,
+   "line_end": 45,
+   "type": "dataset",
+   "title": "III. DATA SETS AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 47,
+   "line_end": 57,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 49,
+     "label": "final_state_and_track_requirements"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 59,
+   "line_end": 73,
+   "type": "background",
+   "title": "V. BACKGROUND STUDIES"
+  },
+  {
+   "line_start": 75,
+   "line_end": 119,
+   "type": "fit",
+   "title": "VI. DETERMINATION OF THE BRANCHING FRACTION"
+  },
+  {
+   "line_start": 121,
+   "line_end": 141,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTY ESTIMATION",
+   "units": [
+    {
+     "line_start": 121,
+     "line_end": 123,
+     "label": "overview"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "photon_and_ks0_reconstruction"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "background_veto_and_kinematic_fit"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "mass_fit_procedure"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "efficiency_and_mc_model"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "external_parameters"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 143,
+   "line_end": 157,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 159,
+   "line_end": 161,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 110,
+   "title": "Parameters used for the branching fraction determination",
+   "section_type": "fit"
+  },
+  {
+   "line": 129,
+   "title": "Systematic uncertainties of the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 121-141 before line 131",
+  "nested spans 17-21 / 19-19"
+ ],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

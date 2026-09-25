@@ -1,0 +1,244 @@
+{
+ "paper_id": "2007.10563v1",
+ "source_path": "arxiv_papers/2007.10563v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 342,
+ "n_lines_sent": 193,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 306,
+   "to": 342,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 146,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 148,
+   "line_end": 150,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 152,
+   "line_end": 156,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 158,
+   "line_end": 162,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 164,
+   "line_end": 180,
+   "type": "fit",
+   "title": "III. MEASUREMENT METHOD"
+  },
+  {
+   "line_start": 182,
+   "line_end": 188,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 184,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "pi0_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 190,
+   "line_end": 208,
+   "type": "fit",
+   "title": "V. YIELDS OF ST D MESONS"
+  },
+  {
+   "line_start": 210,
+   "line_end": 249,
+   "type": "fit",
+   "title": "VI. YIELDS OF DT EVENTS"
+  },
+  {
+   "line_start": 251,
+   "line_end": 255,
+   "type": "results",
+   "title": "VII. RESULTS",
+   "units": [
+    {
+     "line_start": 251,
+     "line_end": 253,
+     "label": "signal_mc_modeling"
+    },
+    {
+     "line_start": 255,
+     "line_end": 255,
+     "label": "branching_fraction_measurements"
+    }
+   ]
+  },
+  {
+   "line_start": 257,
+   "line_end": 283,
+   "type": "systematic_uncertainty",
+   "title": "VIII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 257,
+     "line_end": 259,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 261,
+     "line_end": 261,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "ks0_pi0_reconstruction"
+    },
+    {
+     "line_start": 271,
+     "line_end": 271,
+     "label": "two_dimensional_fit"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "delta_e_and_ks0_rejection"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "quantum_correlation"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "mc_statistics_and_quoted_bfs"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "dd_opening_angle"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 285,
+   "line_end": 292,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 294,
+   "line_end": 296,
+   "type": "acknowledgements",
+   "title": "X. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 298,
+   "line_end": 304,
+   "type": "other",
+   "title": "Tables"
+  }
+ ],
+ "tables": [
+  {
+   "line": 300,
+   "title": "Requirements of Delta E_sig, net yields of DT candidates, signal efficiencies, and obtained BFs for various signal decays",
+   "section_type": "results"
+  },
+  {
+   "line": 304,
+   "title": "Systematic uncertainties in the measurements of the BFs of the signal decays",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 257-283 before line 269"
+ ],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

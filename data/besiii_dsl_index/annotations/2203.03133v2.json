@@ -1,0 +1,189 @@
+{
+ "paper_id": "2203.03133v2",
+ "source_path": "arxiv_papers/2203.03133v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 296,
+ "n_lines_sent": 230,
+ "skipped_ranges": [
+  {
+   "from": 145,
+   "to": 145,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 292,
+   "to": 296,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 174,
+   "type": "front_matter",
+   "title": "Measurement of integrated luminosities at BESIII for data samples at center-of-mass energies between 4.0 and 4.6 GeV"
+  },
+  {
+   "line_start": 176,
+   "line_end": 180,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 182,
+   "line_end": 190,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 192,
+   "line_end": 206,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 208,
+   "line_end": 212,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 208,
+     "line_end": 210,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 211,
+     "line_end": 212,
+     "label": "data_mc_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 214,
+   "line_end": 234,
+   "type": "fit",
+   "title": "IV. EMC READOUT CORRECTION AND LUMINOSITY RESULTS"
+  },
+  {
+   "line_start": 236,
+   "line_end": 259,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 236,
+     "line_end": 238,
+     "label": "overview"
+    },
+    {
+     "line_start": 239,
+     "line_end": 240,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 241,
+     "line_end": 245,
+     "label": "kinematic_requirements"
+    },
+    {
+     "line_start": 246,
+     "line_end": 247,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 248,
+     "line_end": 249,
+     "label": "cm_energy"
+    },
+    {
+     "line_start": 250,
+     "line_end": 251,
+     "label": "emc_readout_correction"
+    },
+    {
+     "line_start": 252,
+     "line_end": 253,
+     "label": "event_generator"
+    },
+    {
+     "line_start": 254,
+     "line_end": 259,
+     "label": "total_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 261,
+   "line_end": 280,
+   "type": "results",
+   "title": "VI. UPDATE ON THE LUMINOSITY OF THE 2010–2014 DATA SETS",
+   "units": [
+    {
+     "line_start": 261,
+     "line_end": 267,
+     "label": "updated_luminosities"
+    },
+    {
+     "line_start": 268,
+     "line_end": 273,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 274,
+     "line_end": 280,
+     "label": "emc_correction_energy_dependence"
+    }
+   ]
+  },
+  {
+   "line_start": 282,
+   "line_end": 286,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 288,
+   "line_end": 290,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 200,
+   "title": "Summary of the integrated luminosity results for the 2016–2017 XYZ data samples",
+   "section_type": "results"
+  },
+  {
+   "line": 206,
+   "title": "Parameters of the BABAYAGA@NLO generator for MC sample at E_CM = 4.19 GeV",
+   "section_type": "detector"
+  },
+  {
+   "line": 259,
+   "title": "The relative systematic uncertainties (in %) for the integrated luminosities of the new XYZ data set",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 271,
+   "title": "The updated integrated luminosities of the 2010–2014 XYZ data sets and comparison with previous results",
+   "section_type": "results"
+  },
+  {
+   "line": 280,
+   "title": "The systematic uncertainties of the integrated luminosities of the 2010–2014 XYZ data samples",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

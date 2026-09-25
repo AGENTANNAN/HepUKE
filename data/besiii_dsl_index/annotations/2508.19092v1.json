@@ -1,0 +1,199 @@
+{
+ "paper_id": "2508.19092v1",
+ "source_path": "arxiv_papers/2508.19092v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 155,
+ "n_lines_sent": 81,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 131,
+   "to": 155,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 45,
+   "type": "front_matter",
+   "title": "BESIII Collaboration and affiliations"
+  },
+  {
+   "line_start": 47,
+   "line_end": 47,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 49,
+   "line_end": 53,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 55,
+   "line_end": 59,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND MONTE CARLO SAMPLES"
+  },
+  {
+   "line_start": 61,
+   "line_end": 71,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 63,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "kinematic_fit_and_pi0_eta_selection"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "sideband_background_estimation"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "continuum_background"
+    }
+   ]
+  },
+  {
+   "line_start": 73,
+   "line_end": 89,
+   "type": "fit",
+   "title": "IV. BRANCHING-FRACTION DETERMINATION"
+  },
+  {
+   "line_start": 91,
+   "line_end": 98,
+   "type": "results",
+   "title": "V. STUDY OF INTERMEDIATE STATES",
+   "units": [
+    {
+     "line_start": 91,
+     "line_end": 95,
+     "label": "intermediate_resonances"
+    },
+    {
+     "line_start": 97,
+     "line_end": 98,
+     "label": "dalitz_plot"
+    }
+   ]
+  },
+  {
+   "line_start": 100,
+   "line_end": 119,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 102,
+     "label": "overview"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "psi3686_count_photon_detection_tracking_pid_kinematic_fit"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "eta_mass_window"
+    },
+    {
+     "line_start": 108,
+     "line_end": 109,
+     "label": "figure"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "mc_model_and_statistics"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "photon_miscombination_and_quoted_branching_fractions"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "fit_procedure_and_continuum_interference"
+    },
+    {
+     "line_start": 117,
+     "line_end": 119,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 123,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 125,
+   "line_end": 129,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 119,
+   "title": "Relative systematic uncertainties in the measurement of the branching fraction of psi(3686) -> omega eta eta",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

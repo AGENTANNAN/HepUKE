@@ -1,0 +1,289 @@
+{
+ "paper_id": "1207.1201v3",
+ "source_path": "arxiv_papers/1207.1201v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 305,
+ "n_lines_sent": 159,
+ "skipped_ranges": [
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 93,
+   "to": 93,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 265,
+   "to": 305,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 111,
+   "type": "front_matter",
+   "title": "First observation of the isospin violating decay J/psi -> Lambda Sigma0 + c.c."
+  },
+  {
+   "line_start": 107,
+   "line_end": 111,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 113,
+   "line_end": 123,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 125,
+   "line_end": 131,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 131,
+   "line_end": 131,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 133,
+   "line_end": 198,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "lambda_vertex"
+    },
+    {
+     "line_start": 137,
+     "line_end": 142,
+     "label": "combinatorial_selection"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "lambda_mass_window"
+    },
+    {
+     "line_start": 157,
+     "line_end": 159,
+     "label": "background_study"
+    },
+    {
+     "line_start": 161,
+     "line_end": 168,
+     "label": "sigma0_fit"
+    },
+    {
+     "line_start": 170,
+     "line_end": 177,
+     "label": "lambda1520_fit"
+    },
+    {
+     "line_start": 179,
+     "line_end": 198,
+     "label": "eta_c_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 200,
+   "line_end": 237,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "tracking"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "vertex"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "signal_shape_sigma0"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "signal_shape_lambda1520"
+    },
+    {
+     "line_start": 206,
+     "line_end": 208,
+     "label": "signal_shape_eta_c"
+    },
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "fixed_backgrounds"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "nonresonant_background_shape"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 214,
+     "line_end": 220,
+     "label": "qed_correction"
+    },
+    {
+     "line_start": 222,
+     "line_end": 228,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 235,
+     "line_end": 235,
+     "label": "cited_branching_fractions"
+    },
+    {
+     "line_start": 235,
+     "line_end": 235,
+     "label": "number_of_jpsi"
+    }
+   ]
+  },
+  {
+   "line_start": 239,
+   "line_end": 253,
+   "type": "results",
+   "title": "V. RESULTS AND DISCUSSION",
+   "units": [
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "branching_fraction_calculation"
+    },
+    {
+     "line_start": 247,
+     "line_end": 253,
+     "label": "su3_amplitude_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 255,
+   "line_end": 259,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 261,
+   "line_end": 263,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 188,
+   "title": "Signal and background event yields per decay mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 226,
+   "title": "Summary of systematic errors",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 245,
+   "title": "Branching fractions compared with PDG",
+   "section_type": "results"
+  },
+  {
+   "line": 251,
+   "title": "Amplitude parametrizations for J/psi to octet baryons",
+   "section_type": "results"
+  },
+  {
+   "line": 282,
+   "title": "Constraint fit results for amplitude parameters",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 133-198 before line 135",
+  "units of 133-198 share boundary line 135",
+  "units of 133-198 share boundary line 144",
+  "gap in 133-198 before line 157",
+  "gap in 200-237 before line 202",
+  "units of 200-237 share boundary line 202",
+  "units of 200-237 share boundary line 202",
+  "units of 200-237 share boundary line 202",
+  "units of 200-237 share boundary line 204",
+  "units of 200-237 share boundary line 212",
+  "gap in 200-237 before line 235",
+  "units of 200-237 share boundary line 235",
+  "units of 200-237 stop at 235, not 237",
+  "gap in 239-253 before line 241",
+  "gap in 239-253 before line 247",
+  "nested spans 1-111 / 107-111",
+  "nested spans 125-131 / 131-131"
+ ],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

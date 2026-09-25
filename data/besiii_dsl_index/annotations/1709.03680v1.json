@@ -1,0 +1,231 @@
+{
+ "paper_id": "1709.03680v1",
+ "source_path": "arxiv_papers/1709.03680v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 156,
+ "n_lines_sent": 85,
+ "skipped_ranges": [
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 145,
+   "to": 156,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 26,
+   "type": "front_matter",
+   "title": "Author list and collaboration"
+  },
+  {
+   "line_start": 33,
+   "line_end": 33,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 35,
+   "line_end": 41,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 43,
+   "line_end": 47,
+   "type": "detector",
+   "title": "II. BESIII AND MONTE CARLO"
+  },
+  {
+   "line_start": 49,
+   "line_end": 103,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 49,
+     "line_end": 69,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 73,
+     "line_end": 75,
+     "label": "st_selection_and_yield"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "sl_selection"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "u_miss_and_delta_e"
+    },
+    {
+     "line_start": 81,
+     "line_end": 82,
+     "label": "figure1_st_fits"
+    },
+    {
+     "line_start": 84,
+     "line_end": 86,
+     "label": "table1_st_summary"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "dt_yields_and_efficiency"
+    },
+    {
+     "line_start": 92,
+     "line_end": 94,
+     "label": "table2_bf_inputs"
+    },
+    {
+     "line_start": 96,
+     "line_end": 97,
+     "label": "figure2_u_miss"
+    },
+    {
+     "line_start": 99,
+     "line_end": 103,
+     "label": "bf_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 105,
+   "line_end": 129,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 105,
+     "line_end": 107,
+     "label": "introduction"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "extra_gamma_requirement"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "phi_eta_etap_reconstruction"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "background_subtraction"
+    },
+    {
+     "line_start": 119,
+     "line_end": 121,
+     "label": "table3_systematics"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "bfs_of_phi_eta_etap"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 131,
+   "line_end": 133,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 135,
+   "line_end": 143,
+   "type": "acknowledgements",
+   "title": "VI. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 86,
+   "title": "Summary of ST requirements, yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 94,
+   "title": "Numbers used to extract the BFs of SL decays and resultant BFs",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 121,
+   "title": "Systematic uncertainties in the BF measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 141,
+   "title": "Summary of BFs compared with world average values",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

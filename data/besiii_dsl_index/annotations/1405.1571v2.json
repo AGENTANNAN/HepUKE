@@ -1,0 +1,280 @@
+{
+ "paper_id": "1405.1571v2",
+ "source_path": "arxiv_papers/1405.1571v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 238,
+ "n_lines_sent": 135,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 227,
+   "to": 238,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 111,
+   "type": "front_matter",
+   "title": "Measurement of the branching fraction for psi(3686) -> omega K+ K-"
+  },
+  {
+   "line_start": 113,
+   "line_end": 115,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 117,
+   "line_end": 131,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 133,
+   "line_end": 137,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 139,
+   "line_end": 182,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 139,
+     "line_end": 141,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "pid"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "background_study"
+    },
+    {
+     "line_start": 151,
+     "line_end": 152,
+     "label": "figure_mass_distribution"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "signal_efficiency_generator"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "body3_simulation"
+    },
+    {
+     "line_start": 160,
+     "line_end": 161,
+     "label": "figure_dalitz"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "continuum_fit"
+    },
+    {
+     "line_start": 167,
+     "line_end": 173,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 175,
+     "line_end": 176,
+     "label": "figure_cos_theta"
+    },
+    {
+     "line_start": 178,
+     "line_end": 179,
+     "label": "figure_momentum"
+    },
+    {
+     "line_start": 181,
+     "line_end": 182,
+     "label": "figure_fit_3686"
+    }
+   ]
+  },
+  {
+   "line_start": 184,
+   "line_end": 211,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 184,
+     "line_end": 186,
+     "label": "tracking"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "pid"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 194,
+     "line_end": 195,
+     "label": "figure_fit_365"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "body3_generator"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "trigger"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "normalization"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "pi0_selection"
+    },
+    {
+     "line_start": 207,
+     "line_end": 211,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 213,
+   "line_end": 221,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 223,
+   "line_end": 225,
+   "type": "acknowledgements",
+   "title": "VI. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 211,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 219,
+   "title": "Comparison of our result with previous measurements",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

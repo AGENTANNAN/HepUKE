@@ -1,0 +1,212 @@
+{
+ "paper_id": "1405.1076v2",
+ "source_path": "arxiv_papers/1405.1076v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 445,
+ "n_lines_sent": 247,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 416,
+   "to": 445,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 59,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 61,
+   "line_end": 63,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 65,
+   "line_end": 89,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 91,
+   "line_end": 93,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR"
+  },
+  {
+   "line_start": 95,
+   "line_end": 151,
+   "type": "detector",
+   "title": "III. BEAM ENERGY MEASUREMENT SYSTEM"
+  },
+  {
+   "line_start": 153,
+   "line_end": 165,
+   "type": "dataset",
+   "title": "IV. THE DATA SAMPLE AND MC SIMULATION"
+  },
+  {
+   "line_start": 167,
+   "line_end": 226,
+   "type": "event_selection",
+   "title": "V. EVENT SELECTION CRITERIA",
+   "units": [
+    {
+     "line_start": 167,
+     "line_end": 169,
+     "label": "overview"
+    },
+    {
+     "line_start": 171,
+     "line_end": 173,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 175,
+     "line_end": 177,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 179,
+     "line_end": 181,
+     "label": "two_gamma_events"
+    },
+    {
+     "line_start": 183,
+     "line_end": 185,
+     "label": "bhabha_events"
+    },
+    {
+     "line_start": 187,
+     "line_end": 189,
+     "label": "hadronic_events"
+    },
+    {
+     "line_start": 191,
+     "line_end": 193,
+     "label": "tau_pair_candidate_overview"
+    },
+    {
+     "line_start": 195,
+     "line_end": 197,
+     "label": "additional_photon_requirements"
+    },
+    {
+     "line_start": 199,
+     "line_end": 201,
+     "label": "pid"
+    },
+    {
+     "line_start": 203,
+     "line_end": 226,
+     "label": "other_requirements"
+    }
+   ]
+  },
+  {
+   "line_start": 228,
+   "line_end": 381,
+   "type": "fit",
+   "title": "VI. DATA ANALYSIS"
+  },
+  {
+   "line_start": 383,
+   "line_end": 410,
+   "type": "results",
+   "title": "VII. RESULTS",
+   "units": [
+    {
+     "line_start": 383,
+     "line_end": 394,
+     "label": "tau_mass_measurement"
+    },
+    {
+     "line_start": 396,
+     "line_end": 402,
+     "label": "g_tau_coupling"
+    },
+    {
+     "line_start": 404,
+     "line_end": 410,
+     "label": "lepton_universality"
+    }
+   ]
+  },
+  {
+   "line_start": 412,
+   "line_end": 414,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 120,
+   "title": "Measured integrated luminosities at each scan point",
+   "section_type": "dataset"
+  },
+  {
+   "line": 143,
+   "title": "Energy spreads from the J/psi, tau and psi' scan regions",
+   "section_type": "detector"
+  },
+  {
+   "line": 211,
+   "title": "PID for charged particles",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 226,
+   "title": "Selection requirements on acoplanarity angle and PTEM for different final states",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 268,
+   "title": "Fit parameters from the J/psi and psi' fits",
+   "section_type": "fit"
+  },
+  {
+   "line": 293,
+   "title": "Comparison of the numbers of events by final state to those from the tau pair inclusive MC sample",
+   "section_type": "fit"
+  },
+  {
+   "line": 329,
+   "title": "The tau mass determined from fits with different energy spreads",
+   "section_type": "fit"
+  },
+  {
+   "line": 365,
+   "title": "Summary of the tau mass systematic errors",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

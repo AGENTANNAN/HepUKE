@@ -1,0 +1,189 @@
+{
+ "paper_id": "2206.08554v2",
+ "source_path": "arxiv_papers/2206.08554v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 345,
+ "n_lines_sent": 233,
+ "skipped_ranges": [
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 302,
+   "to": 345,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 162,
+   "type": "front_matter",
+   "title": "Study of the resonance structures in e+e- -> pi+pi-J/psi process"
+  },
+  {
+   "line_start": 164,
+   "line_end": 166,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 168,
+   "line_end": 174,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 176,
+   "line_end": 182,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 184,
+   "line_end": 190,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 184,
+     "line_end": 186,
+     "label": "track_and_lepton_selection"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "pion_identification"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "bdt_background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 192,
+   "line_end": 219,
+   "type": "fit",
+   "title": "IV. MEASUREMENT OF THE DRESSED BORN CROSS SECTION"
+  },
+  {
+   "line_start": 221,
+   "line_end": 234,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES OF THE CROSS SECTION MEASUREMENTS",
+   "units": [
+    {
+     "line_start": 221,
+     "line_end": 228,
+     "label": "luminosity_and_branching_fractions"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "gaussian_sampling_method"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "tracking_efficiency_and_mc_model"
+    },
+    {
+     "line_start": 234,
+     "line_end": 234,
+     "label": "isr_correction"
+    }
+   ]
+  },
+  {
+   "line_start": 236,
+   "line_end": 260,
+   "type": "fit",
+   "title": "VI. FIT TO THE CROSS SECTION"
+  },
+  {
+   "line_start": 262,
+   "line_end": 264,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES OF THE RESONANCE PARAMETERS",
+   "units": [
+    {
+     "line_start": 262,
+     "line_end": 264,
+     "label": "fit_model_energy_phsp"
+    }
+   ]
+  },
+  {
+   "line_start": 266,
+   "line_end": 281,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 266,
+     "line_end": 272,
+     "label": "fit_parameters_tables"
+    },
+    {
+     "line_start": 274,
+     "line_end": 281,
+     "label": "fit_quality_and_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 283,
+   "line_end": 294,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 296,
+   "line_end": 300,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 242,
+   "title": "Systematic uncertainties of the cross section",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 268,
+   "title": "Fit results for the additional structure near 4.5 GeV",
+   "section_type": "fit"
+  },
+  {
+   "line": 272,
+   "title": "Fit results of the resonance parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 279,
+   "title": "Summary of the uncertainties of the resonance parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 345,
+   "title": "Cross section of e+e- -> pi+pi-J/psi",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

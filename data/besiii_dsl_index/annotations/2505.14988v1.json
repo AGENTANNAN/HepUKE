@@ -1,0 +1,116 @@
+{
+ "paper_id": "2505.14988v1",
+ "source_path": "arxiv_papers/2505.14988v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 488,
+ "n_lines_sent": 327,
+ "skipped_ranges": [
+  {
+   "from": 428,
+   "to": 488,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 191,
+   "type": "front_matter",
+   "title": "Test of local realism via entangled ΛΛ¯ system"
+  },
+  {
+   "line_start": 193,
+   "line_end": 195,
+   "type": "abstract",
+   "title": "ABSTRACT"
+  },
+  {
+   "line_start": 197,
+   "line_end": 247,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 249,
+   "line_end": 253,
+   "type": "detector",
+   "title": "2 BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 255,
+   "line_end": 269,
+   "type": "event_selection",
+   "title": "3 EVENTS SELECTION",
+   "units": [
+    {
+     "line_start": 255,
+     "line_end": 263,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 265,
+     "line_end": 269,
+     "label": "event_display"
+    }
+   ]
+  },
+  {
+   "line_start": 271,
+   "line_end": 283,
+   "type": "fit",
+   "title": "4 AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 285,
+   "line_end": 294,
+   "type": "results",
+   "title": "5 RESULT",
+   "units": [
+    {
+     "line_start": 285,
+     "line_end": 287,
+     "label": "ch_inequality_test"
+    },
+    {
+     "line_start": 289,
+     "line_end": 289,
+     "label": "bell_chsh_tests"
+    },
+    {
+     "line_start": 291,
+     "line_end": 294,
+     "label": "summary_and_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 296,
+   "line_end": 298,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 300,
+   "line_end": 426,
+   "type": "other",
+   "title": "APPENDIX"
+  }
+ ],
+ "tables": [
+  {
+   "line": 363,
+   "title": "The yields of each component determined in the amplitude fit.",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

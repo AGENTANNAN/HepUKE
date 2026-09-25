@@ -1,0 +1,147 @@
+{
+ "paper_id": "2603.29854v2",
+ "source_path": "arxiv_papers/2603.29854v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 397,
+ "n_lines_sent": 172,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 317,
+   "to": 397,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 163,
+   "type": "front_matter",
+   "title": "First energy scan measurement of e+e- -> K+K- around the psi(2S) resonance"
+  },
+  {
+   "line_start": 165,
+   "line_end": 165,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 167,
+   "line_end": 213,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 215,
+   "line_end": 215,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 217,
+   "line_end": 234,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 221,
+     "line_end": 226,
+     "label": "signal_region_and_mass_distribution"
+    },
+    {
+     "line_start": 228,
+     "line_end": 234,
+     "label": "signal_yield_fit_and_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 236,
+   "line_end": 240,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 236,
+     "line_end": 236,
+     "label": "overview"
+    },
+    {
+     "line_start": 238,
+     "line_end": 238,
+     "label": "tracking_pid_residual_momentum_deltat_ep_mc_generator"
+    },
+    {
+     "line_start": 240,
+     "line_end": 240,
+     "label": "luminosity_signal_background_shapes_fit_range"
+    }
+   ]
+  },
+  {
+   "line_start": 242,
+   "line_end": 307,
+   "type": "fit",
+   "title": "Line-shape fit and form factors"
+  },
+  {
+   "line_start": 309,
+   "line_end": 309,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 311,
+   "line_end": 313,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 315,
+   "line_end": 315,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 256,
+   "title": "Integrated luminosity, observed signal yield, efficiency, vacuum polarization factor, observed cross section and charged kaon EM form factor at all energy points",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 290,
+   "title": "Nominal fit results for the parameters of the cross section line-shape compared with previous measurements",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

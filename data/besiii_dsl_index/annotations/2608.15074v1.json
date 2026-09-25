@@ -1,0 +1,213 @@
+{
+ "paper_id": "2608.15074v1",
+ "source_path": "arxiv_papers/2608.15074v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 555,
+ "n_lines_sent": 121,
+ "skipped_ranges": [
+  {
+   "from": 217,
+   "to": 555,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Measurement of e+e- -> p pbar around psi(2S) with scan method"
+  },
+  {
+   "line_start": 7,
+   "line_end": 7,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 9,
+   "line_end": 16,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 18,
+   "line_end": 45,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 47,
+   "line_end": 55,
+   "type": "detector",
+   "title": "2 The experiment and datasets"
+  },
+  {
+   "line_start": 57,
+   "line_end": 63,
+   "type": "event_selection",
+   "title": "3 Event selection and background analysis",
+   "units": [
+    {
+     "line_start": 57,
+     "line_end": 59,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "background_analysis"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "angular_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 65,
+   "line_end": 113,
+   "type": "dataset",
+   "title": "4 Cross section calculation"
+  },
+  {
+   "line_start": 115,
+   "line_end": 147,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 115,
+     "line_end": 117,
+     "label": "overview"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "tracking"
+    },
+    {
+     "line_start": 121,
+     "line_end": 123,
+     "label": "table1"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "pid"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "e_over_p"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "delta_t"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "theta_ppbar"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "momentum_window"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "alpha_b"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "iteration"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 143,
+     "line_end": 147,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 149,
+   "line_end": 190,
+   "type": "fit",
+   "title": "6 Fit results for the line shape"
+  },
+  {
+   "line_start": 192,
+   "line_end": 200,
+   "type": "results",
+   "title": "7 Effective form factors",
+   "units": [
+    {
+     "line_start": 192,
+     "line_end": 200,
+     "label": "effective_form_factors"
+    }
+   ]
+  },
+  {
+   "line_start": 202,
+   "line_end": 209,
+   "type": "conclusion",
+   "title": "8 Summary"
+  },
+  {
+   "line_start": 211,
+   "line_end": 215,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 123,
+   "title": "CM energy, luminosity, observed event numbers, detection efficiencies, observed cross sections and effective form factors at each energy point",
+   "section_type": "dataset"
+  },
+  {
+   "line": 147,
+   "title": "Summary of relative systematic uncertainties in the cross section measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 169,
+   "title": "Results of parameters in the cross section line shape fit",
+   "section_type": "fit"
+  },
+  {
+   "line": 190,
+   "title": "Systematic uncertainties for every parameter obtained by varying Gamma_psi and Gamma_ee",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-7 / 7-7"
+ ],
+ "revalidated_at": "2026-09-19T03:21:23",
+ "failed_aspects": []
+}

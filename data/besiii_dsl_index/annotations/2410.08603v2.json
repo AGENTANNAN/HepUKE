@@ -1,0 +1,316 @@
+{
+ "paper_id": "2410.08603v2",
+ "source_path": "arxiv_papers/2410.08603v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 335,
+ "n_lines_sent": 159,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 257,
+   "to": 335,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 5,
+   "line_end": 165,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 167,
+   "line_end": 169,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 171,
+   "line_end": 179,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 181,
+   "line_end": 181,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 183,
+   "line_end": 207,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 183,
+     "line_end": 189,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "tag_selection"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "signal_selection"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 199,
+     "line_end": 205,
+     "label": "recoil_mass"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "signal_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 209,
+   "line_end": 214,
+   "type": "results",
+   "title": "Signal yields and branching fractions",
+   "units": [
+    {
+     "line_start": 209,
+     "line_end": 210,
+     "label": "umiss_fit"
+    },
+    {
+     "line_start": 212,
+     "line_end": 214,
+     "label": "branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 216,
+   "line_end": 222,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "tracking"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "pid"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "eta_reconstruction"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "eta_prime_mass_window"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "umiss_fit"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "umiss_resolution"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "subdecay_branching_fractions"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "simulation_statistics"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 224,
+   "line_end": 238,
+   "type": "fit",
+   "title": "Decay dynamics and form factor fit"
+  },
+  {
+   "line_start": 240,
+   "line_end": 248,
+   "type": "results",
+   "title": "Lepton flavor universality test",
+   "units": [
+    {
+     "line_start": 240,
+     "line_end": 240,
+     "label": "ratio_definition"
+    },
+    {
+     "line_start": 242,
+     "line_end": 246,
+     "label": "figures"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "ratio_result"
+    }
+   ]
+  },
+  {
+   "line_start": 250,
+   "line_end": 252,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 254,
+   "line_end": 254,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 256,
+   "line_end": 256,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 214,
+   "title": "Signal efficiencies, yields, significances, and BFs",
+   "section_type": "results"
+  },
+  {
+   "line": 323,
+   "title": "Delta E and M_BC requirements, ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 327,
+   "title": "Relative systematic uncertainties in BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 331,
+   "title": "Partial decay rates in q2 intervals",
+   "section_type": "fit"
+  },
+  {
+   "line": 335,
+   "title": "Statistical and systematic correlation matrices",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 216-222 share boundary line 216",
+  "units of 216-222 share boundary line 216",
+  "units of 216-222 share boundary line 216",
+  "units of 216-222 share boundary line 216",
+  "units of 216-222 share boundary line 216",
+  "units of 216-222 share boundary line 216",
+  "units of 216-222 share boundary line 220",
+  "units of 216-222 share boundary line 220",
+  "units of 216-222 share boundary line 220",
+  "units of 216-222 share boundary line 220"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

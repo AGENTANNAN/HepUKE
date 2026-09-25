@@ -1,0 +1,228 @@
+{
+ "paper_id": "1904.10630v2",
+ "source_path": "arxiv_papers/1904.10630v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 200,
+ "n_lines_sent": 89,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 184,
+   "to": 200,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 4,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 21,
+   "line_end": 21,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 22,
+   "line_end": 22,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 23,
+   "line_end": 23,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 26,
+   "line_end": 26,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 33,
+   "line_end": 33,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 35,
+   "line_end": 43,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 45,
+   "line_end": 49,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENTAL FACILITY"
+  },
+  {
+   "line_start": 51,
+   "line_end": 63,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 51,
+     "line_end": 53,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "dalitz_plot"
+    }
+   ]
+  },
+  {
+   "line_start": 65,
+   "line_end": 163,
+   "type": "fit",
+   "title": "IV. PARTIAL-WAVE ANALYSIS"
+  },
+  {
+   "line_start": 165,
+   "line_end": 177,
+   "type": "results",
+   "title": "V. BRANCHING FRACTIONS",
+   "units": [
+    {
+     "line_start": 165,
+     "line_end": 167,
+     "label": "branching_fraction_measurement"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "table_ii_caption"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "table_ii_content"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "branching_fraction_results"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "table_iii_caption"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "table_iii_content"
+    }
+   ]
+  },
+  {
+   "line_start": 179,
+   "line_end": 179,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 181,
+   "line_end": 181,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 183,
+   "line_end": 183,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 124,
+   "title": "Contributions for solution I",
+   "section_type": "fit"
+  },
+  {
+   "line": 171,
+   "title": "Components for solution II",
+   "section_type": "fit"
+  },
+  {
+   "line": 177,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 196,
+   "title": "Branching fractions via intermediate states",
+   "section_type": "results"
+  },
+  {
+   "line": 200,
+   "title": "Comparison with previous measurements",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

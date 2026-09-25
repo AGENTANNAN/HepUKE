@@ -1,0 +1,177 @@
+{
+ "paper_id": "1304.3205v1",
+ "source_path": "arxiv_papers/1304.3205v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 213,
+ "n_lines_sent": 112,
+ "skipped_ranges": [
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 63,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 188,
+   "to": 213,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 85,
+   "type": "front_matter",
+   "title": "Search for the Lepton Flavor Violation Process J/psi -> e mu at BESIII"
+  },
+  {
+   "line_start": 81,
+   "line_end": 85,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 87,
+   "line_end": 91,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 93,
+   "line_end": 99,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 97,
+   "line_end": 99,
+   "type": "dataset",
+   "title": "Monte Carlo Simulations"
+  },
+  {
+   "line_start": 101,
+   "line_end": 136,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 103,
+     "label": "track_and_cosmic_ray_selection"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "photon_veto"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 109,
+     "line_end": 121,
+     "label": "signal_region_definition"
+    },
+    {
+     "line_start": 123,
+     "line_end": 133,
+     "label": "blind_analysis_and_optimization"
+    },
+    {
+     "line_start": 135,
+     "line_end": 136,
+     "label": "candidate_events_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 138,
+   "line_end": 166,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 138,
+     "line_end": 140,
+     "label": "overview"
+    },
+    {
+     "line_start": 142,
+     "line_end": 146,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 148,
+     "line_end": 152,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 154,
+     "line_end": 156,
+     "label": "acollinearity_acoplanarity"
+    },
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "photon_veto"
+    },
+    {
+     "line_start": 162,
+     "line_end": 166,
+     "label": "number_of_jpsi_and_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 168,
+   "line_end": 176,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 168,
+     "line_end": 176,
+     "label": "upper_limit_on_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 178,
+   "line_end": 182,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 184,
+   "line_end": 186,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 166,
+   "title": "Summary of systematic uncertainties (%)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-85 / 81-85",
+  "nested spans 93-99 / 97-99"
+ ],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

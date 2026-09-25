@@ -1,0 +1,204 @@
+{
+ "paper_id": "1811.08028v4",
+ "source_path": "arxiv_papers/1811.08028v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 224,
+ "n_lines_sent": 152,
+ "skipped_ranges": [
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 94,
+   "to": 94,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 100,
+   "to": 100,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 102,
+   "to": 103,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 212,
+   "to": 224,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 109,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, PACS"
+  },
+  {
+   "line_start": 105,
+   "line_end": 109,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 111,
+   "line_end": 122,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 124,
+   "line_end": 126,
+   "type": "detector",
+   "title": "2 BESIII detector"
+  },
+  {
+   "line_start": 128,
+   "line_end": 134,
+   "type": "dataset",
+   "title": "3 Monte Carlo simulation"
+  },
+  {
+   "line_start": 136,
+   "line_end": 154,
+   "type": "event_selection",
+   "title": "4 Event selection",
+   "units": [
+    {
+     "line_start": 136,
+     "line_end": 138,
+     "label": "reconstruction_channels"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "photon_and_pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "lambda_c_reconstruction_and_delta_q"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "delta_q_requirement"
+    },
+    {
+     "line_start": 148,
+     "line_end": 149,
+     "label": "delta_q_distributions"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 153,
+     "line_end": 154,
+     "label": "mbc_fit_distributions"
+    }
+   ]
+  },
+  {
+   "line_start": 156,
+   "line_end": 178,
+   "type": "fit",
+   "title": "5 Determination of Signal Yields"
+  },
+  {
+   "line_start": 180,
+   "line_end": 196,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 180,
+     "line_end": 182,
+     "label": "cancelling_uncertainties"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "mass_resolution"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "eta_prime_omega_mass_requirement"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "delta_q_and_fit_procedure"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 192,
+     "line_end": 196,
+     "label": "mc_statistics_and_intermediate_bfs"
+    }
+   ]
+  },
+  {
+   "line_start": 198,
+   "line_end": 208,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 210,
+   "line_end": 210,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 134,
+   "title": "Summary of the MC samples size for different processes",
+   "section_type": "dataset"
+  },
+  {
+   "line": 174,
+   "title": "Summary of the requirements on Delta Q, signal yields and detection efficiencies",
+   "section_type": "fit"
+  },
+  {
+   "line": 194,
+   "title": "Summary of the relative systematic uncertainties in the BF ratio measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 206,
+   "title": "Comparisons of the measured results with theoretical predictions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-109 / 105-109"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

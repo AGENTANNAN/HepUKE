@@ -1,0 +1,293 @@
+{
+ "paper_id": "2102.03808v3",
+ "source_path": "arxiv_papers/2102.03808v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 414,
+ "n_lines_sent": 203,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 372,
+   "to": 414,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 58,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 60,
+   "line_end": 60,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 62,
+   "line_end": 68,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 70,
+   "line_end": 76,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 78,
+   "line_end": 106,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTIONS",
+   "units": [
+    {
+     "line_start": 78,
+     "line_end": 80,
+     "label": "st_dt_selection_overview"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "photon_pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 88,
+     "line_end": 96,
+     "label": "amplitude_analysis_selection"
+    },
+    {
+     "line_start": 98,
+     "line_end": 100,
+     "label": "mrec_mtag_requirements"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "kinematic_fits"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "signal_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 289,
+   "type": "fit",
+   "title": "IV. AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 291,
+   "line_end": 321,
+   "type": "results",
+   "title": "V. BRANCHING-FRACTION MEASUREMENT",
+   "units": [
+    {
+     "line_start": 291,
+     "line_end": 303,
+     "label": "yields_and_efficiencies"
+    },
+    {
+     "line_start": 305,
+     "line_end": 321,
+     "label": "tagging_technique_and_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 323,
+   "line_end": 340,
+   "type": "systematic_uncertainty",
+   "title": "C. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 323,
+     "line_end": 327,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 328,
+     "line_end": 328,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 332,
+     "line_end": 332,
+     "label": "st_mtag_fit"
+    },
+    {
+     "line_start": 334,
+     "line_end": 334,
+     "label": "measurement_method"
+    },
+    {
+     "line_start": 336,
+     "line_end": 336,
+     "label": "simulated_statistics"
+    },
+    {
+     "line_start": 338,
+     "line_end": 340,
+     "label": "amplitude_analysis_model"
+    }
+   ]
+  },
+  {
+   "line_start": 342,
+   "line_end": 344,
+   "type": "conclusion",
+   "title": "VI. CONCLUSION"
+  },
+  {
+   "line_start": 346,
+   "line_end": 366,
+   "type": "other",
+   "title": "Tables and figures"
+  },
+  {
+   "line_start": 368,
+   "line_end": 370,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 100,
+   "title": "Requirements of M_rec and M_tag for various energies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 201,
+   "title": "Spin factor S(p) for each decay chain",
+   "section_type": "fit"
+  },
+  {
+   "line": 299,
+   "title": "phi, FFs and significances for resonant contributions",
+   "section_type": "fit"
+  },
+  {
+   "line": 348,
+   "title": "Summary of systematic uncertainties on phi and FFs",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 352,
+   "title": "Systematic uncertainties in branching-fraction measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 363,
+   "title": "Branching fractions measured in this analysis and from PDG",
+   "section_type": "results"
+  },
+  {
+   "line": 410,
+   "title": "Magnitude rho for different resonant contributions",
+   "section_type": "other"
+  },
+  {
+   "line": 414,
+   "title": "Correlation matrix",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 323-340 before line 332"
+ ],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

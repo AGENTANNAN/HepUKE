@@ -1,0 +1,143 @@
+{
+ "paper_id": "2107.09210v2",
+ "source_path": "arxiv_papers/2107.09210v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 311,
+ "n_lines_sent": 193,
+ "skipped_ranges": [
+  {
+   "from": 273,
+   "to": 311,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 106,
+   "type": "front_matter",
+   "title": "Cross section measurement of e+e- -> pi+pi- psi(3686) from sqrt(s)=4.0076 to 4.6984 GeV"
+  },
+  {
+   "line_start": 108,
+   "line_end": 130,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 132,
+   "line_end": 136,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND THE DATA SETS"
+  },
+  {
+   "line_start": 138,
+   "line_end": 154,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 138,
+     "line_end": 140,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "mode_i_mode_ii_topology_and_pid"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "mode_i_kinematic_fit_and_jpsi_mass_window"
+    },
+    {
+     "line_start": 146,
+     "line_end": 147,
+     "label": "figure_1_mll_distributions"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "mode_ii_background_vetoes"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "signal_and_sideband_distributions"
+    },
+    {
+     "line_start": 153,
+     "line_end": 154,
+     "label": "figure_2_signal_fits"
+    }
+   ]
+  },
+  {
+   "line_start": 156,
+   "line_end": 183,
+   "type": "fit",
+   "title": "IV. EXTRACTION OF THE BORN CROSS SECTION"
+  },
+  {
+   "line_start": 185,
+   "line_end": 256,
+   "type": "fit",
+   "title": "V. FIT TO THE CROSS SECTION"
+  },
+  {
+   "line_start": 258,
+   "line_end": 265,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 267,
+   "line_end": 271,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 122,
+   "title": "Born cross section at individual c.m. energies (part 1)",
+   "section_type": "fit"
+  },
+  {
+   "line": 128,
+   "title": "Born cross section at individual c.m. energies (continued)",
+   "section_type": "fit"
+  },
+  {
+   "line": 177,
+   "title": "Summary of systematic uncertainties for different data sets",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 234,
+   "title": "Fit results with continuous part described by psi_cont",
+   "section_type": "fit"
+  },
+  {
+   "line": 238,
+   "title": "Fit results with continuous part described by sigma_NY",
+   "section_type": "fit"
+  },
+  {
+   "line": 254,
+   "title": "Systematic uncertainties of resonance parameters in the cross section fit",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

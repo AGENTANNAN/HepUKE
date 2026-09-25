@@ -1,0 +1,207 @@
+{
+ "paper_id": "1012.5131v2",
+ "source_path": "arxiv_papers/1012.5131v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 302,
+ "n_lines_sent": 142,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 64,
+   "to": 64,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 277,
+   "to": 302,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 68,
+   "type": "front_matter",
+   "title": "Study of a0(980)-f0(980) mixing"
+  },
+  {
+   "line_start": 70,
+   "line_end": 88,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 90,
+   "line_end": 94,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 96,
+   "line_end": 102,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 96,
+     "line_end": 98,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "pi0_eta_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 104,
+   "line_end": 150,
+   "type": "fit",
+   "title": "IV. MEASUREMENT OF J/psi -> phi f0(980) -> phi a0(980) -> phi eta pi0"
+  },
+  {
+   "line_start": 152,
+   "line_end": 192,
+   "type": "fit",
+   "title": "V. MEASUREMENT OF psi' -> gamma chi_c1 -> gamma pi0 a0(980) -> gamma pi0 f0(980) -> gamma pi0 pi+ pi-"
+  },
+  {
+   "line_start": 194,
+   "line_end": 196,
+   "type": "discussion",
+   "title": "VI. DISCUSSION"
+  },
+  {
+   "line_start": 198,
+   "line_end": 224,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 198,
+     "line_end": 200,
+     "label": "overview"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "tracking"
+    },
+    {
+     "line_start": 204,
+     "line_end": 206,
+     "label": "table_iii"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "pid"
+    },
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "branching_ratios"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "normalization"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "parameterization"
+    }
+   ]
+  },
+  {
+   "line_start": 226,
+   "line_end": 271,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 273,
+   "line_end": 275,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 145,
+   "title": "Results of fits to the eta pi0 mass spectrum",
+   "section_type": "fit"
+  },
+  {
+   "line": 185,
+   "title": "Results of fits to the pi+ pi- invariant mass spectrum in the chi_c1 region",
+   "section_type": "fit"
+  },
+  {
+   "line": 206,
+   "title": "Fitting results with various theoretical and experimental values of the resonance parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 234,
+   "title": "Summary of systematic errors for the branching ratio measurements and upper limits determination",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

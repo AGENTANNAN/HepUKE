@@ -1,0 +1,269 @@
+{
+ "paper_id": "2401.09225v1",
+ "source_path": "arxiv_papers/2401.09225v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 278,
+ "n_lines_sent": 150,
+ "skipped_ranges": [
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 212,
+   "to": 278,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 120,
+   "type": "front_matter",
+   "title": "First measurements of the absolute branching fraction of $\\Lambda_c(2625)^+ \\to \\Lambda_c^+ \\pi^+ \\pi^-$ and upper limit on $\\Lambda_c(2595)^+ \\to \\Lambda_c^+ \\pi^+ \\pi^-$"
+  },
+  {
+   "line_start": 121,
+   "line_end": 121,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 123,
+   "line_end": 131,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 133,
+   "line_end": 133,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 135,
+   "line_end": 148,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "analysis_strategy"
+    },
+    {
+     "line_start": 137,
+     "line_end": 143,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 145,
+     "line_end": 148,
+     "label": "signal_processes_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 150,
+   "line_end": 150,
+   "type": "event_selection",
+   "title": "Partial Reconstruction Method",
+   "units": [
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "partial_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 156,
+   "type": "event_selection",
+   "title": "Track and Particle Identification",
+   "units": [
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "tracking"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "pid"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "ks0_lambda_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 158,
+   "line_end": 158,
+   "type": "event_selection",
+   "title": "Tagged $\\Lambda_c^+$ Selection",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "tagged_lambda_c_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 160,
+   "line_end": 168,
+   "type": "event_selection",
+   "title": "Signal Selection",
+   "units": [
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "pion_pair_selection"
+    },
+    {
+     "line_start": 162,
+     "line_end": 168,
+     "label": "delta_m_requirement"
+    }
+   ]
+  },
+  {
+   "line_start": 170,
+   "line_end": 170,
+   "type": "background",
+   "title": "Background Estimation",
+   "units": [
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "inclusive_background"
+    }
+   ]
+  },
+  {
+   "line_start": 172,
+   "line_end": 197,
+   "type": "fit",
+   "title": "Fit and Results",
+   "units": [
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "fit_tag"
+    },
+    {
+     "line_start": 174,
+     "line_end": 187,
+     "label": "fit_tag_details"
+    },
+    {
+     "line_start": 189,
+     "line_end": 191,
+     "label": "fit_sig"
+    },
+    {
+     "line_start": 193,
+     "line_end": 197,
+     "label": "branching_fraction_results"
+    }
+   ]
+  },
+  {
+   "line_start": 199,
+   "line_end": 203,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 199,
+     "line_end": 201,
+     "label": "introduction"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "ntag_statistical"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "delta_m_requirement"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "signal_modeling"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "fit_strategy"
+    }
+   ]
+  },
+  {
+   "line_start": 205,
+   "line_end": 205,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 207,
+   "line_end": 209,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 211,
+   "line_end": 211,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 195,
+   "title": "Branching fractions and detection efficiencies for $\\Lambda_c(2595)^+$ and $\\Lambda_c(2625)^+ \\to \\Lambda_c^+ \\pi^+ \\pi^-$",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 12.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 199-203 share boundary line 203",
+  "units of 199-203 share boundary line 203",
+  "units of 199-203 share boundary line 203",
+  "units of 199-203 share boundary line 203"
+ ],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

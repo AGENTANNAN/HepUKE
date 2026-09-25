@@ -1,0 +1,174 @@
+{
+ "paper_id": "1802.04057v2",
+ "source_path": "arxiv_papers/1802.04057v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 133,
+ "n_lines_sent": 47,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 110,
+   "to": 133,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 12,
+   "line_end": 31,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, abstract, PACS"
+  },
+  {
+   "line_start": 33,
+   "line_end": 42,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 44,
+   "line_end": 44,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 46,
+   "line_end": 46,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 48,
+   "line_end": 62,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 48,
+     "line_end": 52,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 54,
+     "line_end": 56,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 58,
+     "line_end": 62,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 64,
+   "line_end": 88,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 64,
+     "line_end": 68,
+     "label": "number_of_psi3686_decays"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "bf_lambdac"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "signal_region"
+    },
+    {
+     "line_start": 75,
+     "line_end": 77,
+     "label": "mp_pi_selection"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "physics_model"
+    },
+    {
+     "line_start": 81,
+     "line_end": 88,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 90,
+   "line_end": 94,
+   "type": "fit",
+   "title": "Upper limit calculation"
+  },
+  {
+   "line_start": 96,
+   "line_end": 98,
+   "type": "results",
+   "title": "V. RESULT",
+   "units": [
+    {
+     "line_start": 96,
+     "line_end": 98,
+     "label": "signal_yield_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 100,
+   "line_end": 102,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 104,
+   "line_end": 108,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 88,
+   "title": "Overview of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

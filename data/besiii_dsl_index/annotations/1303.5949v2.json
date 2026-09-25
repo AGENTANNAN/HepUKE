@@ -1,0 +1,214 @@
+{
+ "paper_id": "1303.5949v2",
+ "source_path": "arxiv_papers/1303.5949v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 188,
+ "n_lines_sent": 126,
+ "skipped_ranges": [
+  {
+   "from": 166,
+   "to": 188,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 88,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 90,
+   "line_end": 90,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 92,
+   "line_end": 96,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 98,
+   "line_end": 98,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 100,
+   "line_end": 106,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "track_and_lepton_selection"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "background_rejection"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "efficiency_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 113,
+   "type": "fit",
+   "title": "J/psi mass fit"
+  },
+  {
+   "line_start": 115,
+   "line_end": 115,
+   "type": "results",
+   "title": "Born cross section",
+   "units": [
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "born_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 133,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "overview"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "luminosity_and_tracking"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "background_shape_and_fit_range"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "dalitz_model"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "branching_fraction_and_other"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 152,
+   "type": "results",
+   "title": "Intermediate states and Zc(3900) observation",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "event_selection_and_purity"
+    },
+    {
+     "line_start": 137,
+     "line_end": 142,
+     "label": "dalitz_plot"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "mass_projections"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "pipi_dynamics"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "likelihood_fit"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "production_ratio"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "robustness_checks"
+    }
+   ]
+  },
+  {
+   "line_start": 154,
+   "line_end": 154,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on resonance parameters",
+   "units": [
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "resonance_parameter_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 162,
+   "line_end": 162,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 164,
+   "line_end": 164,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

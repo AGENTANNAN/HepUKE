@@ -1,0 +1,301 @@
+{
+ "paper_id": "2409.01419v1",
+ "source_path": "arxiv_papers/2409.01419v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 344,
+ "n_lines_sent": 171,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 305,
+   "to": 344,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 6,
+   "line_end": 6,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 9,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 16,
+   "line_end": 16,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 18,
+   "line_end": 30,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 32,
+   "line_end": 37,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 39,
+   "line_end": 39,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 41,
+   "line_end": 63,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 41,
+     "line_end": 43,
+     "label": "tag_technique"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 53,
+     "line_end": 63,
+     "label": "mbc_deltae_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 65,
+   "line_end": 94,
+   "type": "background",
+   "title": "IV. BACKGROUND STUDY"
+  },
+  {
+   "line_start": 96,
+   "line_end": 230,
+   "type": "fit",
+   "title": "V. AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 232,
+   "line_end": 248,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY OF THE AMPLITUDE ANALYSIS",
+   "units": [
+    {
+     "line_start": 232,
+     "line_end": 238,
+     "label": "input_parameters"
+    },
+    {
+     "line_start": 240,
+     "line_end": 240,
+     "label": "radii_of_mesons"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "background"
+    },
+    {
+     "line_start": 244,
+     "line_end": 246,
+     "label": "efficiency"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "fit_bias"
+    }
+   ]
+  },
+  {
+   "line_start": 250,
+   "line_end": 267,
+   "type": "results",
+   "title": "VII. BRANCHING FRACTION MEASUREMENT",
+   "units": [
+    {
+     "line_start": 250,
+     "line_end": 260,
+     "label": "bf_measurement"
+    },
+    {
+     "line_start": 262,
+     "line_end": 267,
+     "label": "st_yields_efficiencies"
+    }
+   ]
+  },
+  {
+   "line_start": 269,
+   "line_end": 291,
+   "type": "systematic_uncertainty",
+   "title": "VIII. SYSTEMATIC UNCERTAINTY OF BF MEASUREMENT",
+   "units": [
+    {
+     "line_start": 269,
+     "line_end": 273,
+     "label": "st_d_yield"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "2d_fit"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 285,
+     "line_end": 285,
+     "label": "quoted_bf"
+    },
+    {
+     "line_start": 287,
+     "line_end": 291,
+     "label": "deltae_requirement"
+    }
+   ]
+  },
+  {
+   "line_start": 293,
+   "line_end": 297,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 299,
+   "line_end": 303,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 30,
+   "title": "Theoretical predictions of B(D+ -> KS0 K*(892)+) and previous experimental measurement",
+   "section_type": "introduction"
+  },
+  {
+   "line": 63,
+   "title": "Requirements of Delta E_tag for different D- tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 94,
+   "title": "Yields obtained from the 2D fit",
+   "section_type": "background"
+  },
+  {
+   "line": 200,
+   "title": "The K pi S-wave parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 230,
+   "title": "The obtained FFs and phase difference to the reference amplitude",
+   "section_type": "fit"
+  },
+  {
+   "line": 236,
+   "title": "Systematic uncertainties on the phase and FFs",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 264,
+   "title": "The ST yields, ST efficiencies and DT efficiencies for six tag modes",
+   "section_type": "results"
+  },
+  {
+   "line": 291,
+   "title": "Systematic uncertainties for the BF measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

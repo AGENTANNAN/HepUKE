@@ -1,0 +1,166 @@
+{
+ "paper_id": "2504.10867v1",
+ "source_path": "arxiv_papers/2504.10867v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 170,
+ "n_lines_sent": 60,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 136,
+   "to": 170,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 34,
+   "type": "front_matter",
+   "title": "Precise measurement of the form factors in D0 -> K*(892)- mu+ nu_mu and test of lepton universality with D0 -> K*(892)- l+ nu_l decays"
+  },
+  {
+   "line_start": 44,
+   "line_end": 44,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 46,
+   "line_end": 52,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 54,
+   "line_end": 54,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 56,
+   "line_end": 83,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 56,
+     "line_end": 62,
+     "label": "st_dt_definition"
+    },
+    {
+     "line_start": 64,
+     "line_end": 70,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 72,
+     "line_end": 77,
+     "label": "st_fit_and_table"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "sl_candidate_selection"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "u_miss_fit"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "efficiency_and_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 85,
+   "line_end": 85,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 87,
+   "line_end": 112,
+   "type": "fit",
+   "title": "Form factor fit"
+  },
+  {
+   "line_start": 114,
+   "line_end": 130,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 132,
+   "line_end": 134,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 77,
+   "title": "Selection requirements on Delta E, ST yields, ST and DT efficiencies for the six tag decay modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 104,
+   "title": "Fit results for the form factor parameters",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

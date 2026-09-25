@@ -1,0 +1,261 @@
+{
+ "paper_id": "1701.07191v2",
+ "source_path": "arxiv_papers/1701.07191v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 265,
+ "n_lines_sent": 159,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 247,
+   "to": 265,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 13,
+   "line_end": 104,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 106,
+   "line_end": 106,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 108,
+   "line_end": 126,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 128,
+   "line_end": 132,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND DATA SET"
+  },
+  {
+   "line_start": 134,
+   "line_end": 142,
+   "type": "dataset",
+   "title": "Data samples and Monte Carlo simulation"
+  },
+  {
+   "line_start": 144,
+   "line_end": 154,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 144,
+     "line_end": 146,
+     "label": "decay_modes"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "charged_tracks_and_photons"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "sigma0_reconstruction"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 156,
+   "line_end": 160,
+   "type": "background",
+   "title": "IV. BACKGROUND ESTIMATION"
+  },
+  {
+   "line_start": 162,
+   "line_end": 192,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 162,
+     "line_end": 166,
+     "label": "branching_fraction_fit"
+    },
+    {
+     "line_start": 168,
+     "line_end": 174,
+     "label": "branching_fraction_calculation"
+    },
+    {
+     "line_start": 176,
+     "line_end": 181,
+     "label": "signal_yields_and_fit_results"
+    },
+    {
+     "line_start": 183,
+     "line_end": 186,
+     "label": "angular_distribution_fit"
+    },
+    {
+     "line_start": 188,
+     "line_end": 192,
+     "label": "efficiency_correction_factors"
+    }
+   ]
+  },
+  {
+   "line_start": 194,
+   "line_end": 230,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 194,
+     "line_end": 198,
+     "label": "overview"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "tracking_and_reconstruction"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "mass_and_angular_requirements"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "baryon_polar_angle"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "branching_fractions_and_normalization"
+    },
+    {
+     "line_start": 210,
+     "line_end": 214,
+     "label": "summary_table"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "signal_yield_uncertainties"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "cos_theta_fit_procedure"
+    },
+    {
+     "line_start": 220,
+     "line_end": 224,
+     "label": "alpha_systematics_table"
+    },
+    {
+     "line_start": 226,
+     "line_end": 230,
+     "label": "angular_distribution_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 232,
+   "line_end": 240,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 242,
+   "line_end": 244,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 246,
+   "line_end": 246,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 136,
+   "title": "Experimental measurements and PDG averages for branching fractions of psi -> BB",
+   "section_type": "introduction"
+  },
+  {
+   "line": 140,
+   "title": "Theoretical predictions and experimental measurements of alpha for J/psi -> BB",
+   "section_type": "introduction"
+  },
+  {
+   "line": 178,
+   "title": "Signal yields, efficiencies, backgrounds, alpha values and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 214,
+   "title": "Systematic uncertainties in the measurement of branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 224,
+   "title": "Absolute systematic uncertainties in the measurement of alpha",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 238,
+   "title": "Results for measured alpha values and branching fractions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

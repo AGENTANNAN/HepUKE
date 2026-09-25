@@ -1,0 +1,225 @@
+{
+ "paper_id": "2501.08080v2",
+ "source_path": "arxiv_papers/2501.08080v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 362,
+ "n_lines_sent": 98,
+ "skipped_ranges": [
+  {
+   "from": 179,
+   "to": 362,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Search for the FCNC charmonium decay"
+  },
+  {
+   "line_start": 13,
+   "line_end": 25,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 27,
+   "line_end": 40,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 42,
+   "line_end": 46,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 48,
+   "line_end": 124,
+   "type": "event_selection",
+   "title": "3 EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 48,
+     "line_end": 50,
+     "label": "overview_and_tag_modes"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 58,
+     "line_end": 61,
+     "label": "d0_mass_and_chi2_selection"
+    },
+    {
+     "line_start": 63,
+     "line_end": 71,
+     "label": "missing_momentum"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "recoil_mass_selection"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "mode_i_background_suppression"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "mode_ii_background_suppression"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "mode_iii_background_suppression"
+    },
+    {
+     "line_start": 81,
+     "line_end": 87,
+     "label": "invariant_mass_and_signal_region"
+    },
+    {
+     "line_start": 89,
+     "line_end": 95,
+     "label": "simultaneous_fit"
+    },
+    {
+     "line_start": 97,
+     "line_end": 103,
+     "label": "branching_fraction_calculation"
+    },
+    {
+     "line_start": 105,
+     "line_end": 111,
+     "label": "likelihood_scan"
+    },
+    {
+     "line_start": 113,
+     "line_end": 119,
+     "label": "systematic_smearing"
+    },
+    {
+     "line_start": 121,
+     "line_end": 124,
+     "label": "upper_limit_result"
+    }
+   ]
+  },
+  {
+   "line_start": 126,
+   "line_end": 167,
+   "type": "systematic_uncertainty",
+   "title": "5 SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 126,
+     "line_end": 130,
+     "label": "signal_mc_model"
+    },
+    {
+     "line_start": 132,
+     "line_end": 139,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "emu_selection"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "md0_and_chi2_selection"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "intermediate_branching_fractions"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "ks0_veto"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 157,
+     "line_end": 167,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 169,
+   "line_end": 171,
+   "type": "conclusion",
+   "title": "6 SUMMARY"
+  },
+  {
+   "line_start": 173,
+   "line_end": 177,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 35,
+   "title": "Experimental results of the charmonium FCNC decays",
+   "section_type": "introduction"
+  },
+  {
+   "line": 137,
+   "title": "The systematic uncertainties for each D0 tag mode",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

@@ -1,0 +1,148 @@
+{
+ "paper_id": "2409.02578v2",
+ "source_path": "arxiv_papers/2409.02578v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 262,
+ "n_lines_sent": 130,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 193,
+   "to": 262,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 118,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 120,
+   "line_end": 120,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 122,
+   "line_end": 141,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 143,
+   "line_end": 157,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 159,
+   "line_end": 159,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 159,
+     "line_end": 159,
+     "label": "selection_criteria"
+    }
+   ]
+  },
+  {
+   "line_start": 161,
+   "line_end": 170,
+   "type": "fit",
+   "title": "Signal extraction"
+  },
+  {
+   "line_start": 172,
+   "line_end": 172,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 174,
+   "line_end": 174,
+   "type": "results",
+   "title": "Upper limits on branching fractions",
+   "units": [
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 176,
+   "line_end": 178,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty table",
+   "units": [
+    {
+     "line_start": 176,
+     "line_end": 178,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 180,
+   "line_end": 183,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 185,
+   "line_end": 187,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 189,
+   "line_end": 191,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 178,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

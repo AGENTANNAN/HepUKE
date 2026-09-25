@@ -1,0 +1,274 @@
+{
+ "paper_id": "2512.04701v1",
+ "source_path": "arxiv_papers/2512.04701v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 228,
+ "n_lines_sent": 87,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 84,
+   "to": 91,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 175,
+   "to": 228,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 83,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 93,
+   "line_end": 93,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 95,
+   "line_end": 103,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 105,
+   "line_end": 107,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 109,
+   "line_end": 115,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "candidate_selection"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "recoil_mass_and_background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 118,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 120,
+   "line_end": 120,
+   "type": "fit",
+   "title": "Signal Yield Determination"
+  },
+  {
+   "line_start": 122,
+   "line_end": 137,
+   "type": "results",
+   "title": "Cross Section Measurement",
+   "units": [
+    {
+     "line_start": 122,
+     "line_end": 128,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 130,
+     "line_end": 131,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 133,
+     "line_end": 137,
+     "label": "effective_luminosity"
+    }
+   ]
+  },
+  {
+   "line_start": 139,
+   "line_end": 141,
+   "type": "other",
+   "title": "Table 1"
+  },
+  {
+   "line_start": 143,
+   "line_end": 146,
+   "type": "results",
+   "title": "H-dibaryon Search",
+   "units": [
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "h_dibaryon_search"
+    },
+    {
+     "line_start": 145,
+     "line_end": 146,
+     "label": "figure_3"
+    }
+   ]
+  },
+  {
+   "line_start": 148,
+   "line_end": 167,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 148,
+     "line_end": 150,
+     "label": "tracking_pid_photon"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "fermi_momentum"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "mass_distribution"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "lambda_sigma0_contribution"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "mc_statistics_fit_procedure"
+    },
+    {
+     "line_start": 160,
+     "line_end": 161,
+     "label": "interaction_point_cross_section_ratio"
+    },
+    {
+     "line_start": 163,
+     "line_end": 167,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 169,
+   "line_end": 169,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 171,
+   "line_end": 173,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 141,
+   "title": "Input parameters for the effective luminosity calculation",
+   "section_type": "results"
+  },
+  {
+   "line": 167,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

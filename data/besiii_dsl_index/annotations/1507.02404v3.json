@@ -1,0 +1,322 @@
+{
+ "paper_id": "1507.02404v3",
+ "source_path": "arxiv_papers/1507.02404v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 293,
+ "n_lines_sent": 144,
+ "skipped_ranges": [
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 252,
+   "to": 293,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 160,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, abstract, PACS"
+  },
+  {
+   "line_start": 162,
+   "line_end": 166,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 168,
+   "line_end": 170,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 172,
+   "line_end": 172,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 174,
+   "line_end": 182,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "pid"
+    },
+    {
+     "line_start": 176,
+     "line_end": 178,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "vertex_fit"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "dd_pair_selection"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "bachelor_pi0_reconstruction"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "bachelor_pi0_background_rejection"
+    }
+   ]
+  },
+  {
+   "line_start": 184,
+   "line_end": 221,
+   "type": "fit",
+   "title": "Fit to the recoil mass spectrum"
+  },
+  {
+   "line_start": 223,
+   "line_end": 238,
+   "type": "results",
+   "title": "Born cross sections",
+   "units": [
+    {
+     "line_start": 223,
+     "line_end": 229,
+     "label": "born_cross_section"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "signal_yields"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "vacuum_polarization"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 238,
+     "line_end": 238,
+     "label": "cross_section_values"
+    }
+   ]
+  },
+  {
+   "line_start": 240,
+   "line_end": 244,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 240,
+     "line_end": 240,
+     "label": "tracking"
+    },
+    {
+     "line_start": 240,
+     "line_end": 240,
+     "label": "pid"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "photon_veto"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "mass_scale"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "backgrounds"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "oval_cut"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "line_shape"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 244,
+     "line_end": 244,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 244,
+     "line_end": 244,
+     "label": "detector_resolution"
+    },
+    {
+     "line_start": 244,
+     "line_end": 244,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 244,
+     "line_end": 244,
+     "label": "isospin_violation"
+    },
+    {
+     "line_start": 244,
+     "line_end": 244,
+     "label": "vacuum_polarization"
+    }
+   ]
+  },
+  {
+   "line_start": 246,
+   "line_end": 248,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 250,
+   "line_end": 250,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 236,
+   "title": "Summary of systematic uncertainties on Zc(4025)0 parameters and cross sections",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 174-182 share boundary line 174",
+  "units of 174-182 share boundary line 178",
+  "units of 174-182 share boundary line 180",
+  "units of 174-182 share boundary line 180",
+  "units of 174-182 share boundary line 182",
+  "units of 223-238 share boundary line 229",
+  "units of 223-238 share boundary line 229",
+  "units of 223-238 share boundary line 229",
+  "units of 223-238 share boundary line 229",
+  "gap in 223-238 before line 238",
+  "units of 240-244 share boundary line 240",
+  "units of 240-244 share boundary line 242",
+  "units of 240-244 share boundary line 242",
+  "units of 240-244 share boundary line 242",
+  "units of 240-244 share boundary line 242",
+  "units of 240-244 share boundary line 242",
+  "units of 240-244 share boundary line 242",
+  "units of 240-244 share boundary line 244",
+  "units of 240-244 share boundary line 244",
+  "units of 240-244 share boundary line 244",
+  "units of 240-244 share boundary line 244"
+ ],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": [],
+ "units_repaired": true
+}

@@ -1,0 +1,237 @@
+{
+ "paper_id": "2302.12579v2",
+ "source_path": "arxiv_papers/2302.12579v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 240,
+ "n_lines_sent": 114,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 86,
+   "to": 86,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 92,
+   "to": 92,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 206,
+   "to": 240,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 103,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 105,
+   "line_end": 105,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 107,
+   "line_end": 115,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 117,
+   "line_end": 121,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 123,
+   "line_end": 133,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "decay_topology_and_reconstruction_strategy"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "charged_track_and_pid_selection"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "lambda_and_omega_reconstruction"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "radiative_photon_and_omega_plus_signal_region"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 144,
+   "type": "background",
+   "title": "IV. BACKGROUND STUDY"
+  },
+  {
+   "line_start": 146,
+   "line_end": 162,
+   "type": "fit",
+   "title": "V. SIGNAL YIELDS AND BFS"
+  },
+  {
+   "line_start": 164,
+   "line_end": 196,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 164,
+     "line_end": 166,
+     "label": "overview_of_systematic_sources"
+    },
+    {
+     "line_start": 168,
+     "line_end": 170,
+     "label": "table_i_signal_yields_and_efficiencies"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "photon_reconstruction_and_kaon_tracking_pid"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "l_omega_sigma_requirement"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "m_lambda_k_requirement"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "rm_gamma_omega_requirement"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "mc_generator"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "mc_sample_size_and_input_branching_fractions"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "summary_of_systematic_uncertainties"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "signal_significance_with_systematics"
+    },
+    {
+     "line_start": 194,
+     "line_end": 196,
+     "label": "table_ii_systematic_uncertainty_budget"
+    }
+   ]
+  },
+  {
+   "line_start": 198,
+   "line_end": 200,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 202,
+   "line_end": 204,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 170,
+   "title": "Signal yields, detection efficiencies, branching fractions and significances",
+   "section_type": "fit"
+  },
+  {
+   "line": 196,
+   "title": "Summary of relative systematic uncertainties on the branching fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 9.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

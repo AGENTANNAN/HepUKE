@@ -1,0 +1,264 @@
+{
+ "paper_id": "2311.17131v2",
+ "source_path": "arxiv_papers/2311.17131v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 291,
+ "n_lines_sent": 119,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 65,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 223,
+   "to": 291,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 18,
+   "line_end": 68,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 70,
+   "line_end": 70,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 72,
+   "line_end": 99,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 101,
+   "line_end": 107,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 109,
+   "line_end": 121,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 109,
+     "line_end": 111,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 113,
+     "line_end": 115,
+     "label": "signal_side_reconstruction"
+    },
+    {
+     "line_start": 117,
+     "line_end": 119,
+     "label": "neutron_missing_mass"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "background_vetoes"
+    }
+   ]
+  },
+  {
+   "line_start": 123,
+   "line_end": 161,
+   "type": "fit",
+   "title": "IV. ABSOLUTE BF MEASUREMENTS"
+  },
+  {
+   "line_start": 163,
+   "line_end": 177,
+   "type": "results",
+   "title": "Tables I-IV",
+   "units": [
+    {
+     "line_start": 163,
+     "line_end": 165,
+     "label": "st_yields"
+    },
+    {
+     "line_start": 167,
+     "line_end": 169,
+     "label": "st_efficiencies"
+    },
+    {
+     "line_start": 171,
+     "line_end": 173,
+     "label": "dt_efficiencies_pi"
+    },
+    {
+     "line_start": 175,
+     "line_end": 177,
+     "label": "dt_efficiencies_k"
+    }
+   ]
+  },
+  {
+   "line_start": 179,
+   "line_end": 207,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 179,
+     "line_end": 181,
+     "label": "overview"
+    },
+    {
+     "line_start": 183,
+     "line_end": 185,
+     "label": "table_v"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "extra_charged_track_veto"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "sigma_pi_pi_veto"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "intermediate_bf"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "st_fitting_models"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "ratio_a"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "signal_fitting_models"
+    }
+   ]
+  },
+  {
+   "line_start": 209,
+   "line_end": 217,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 219,
+   "line_end": 221,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 165,
+   "title": "ST yields at seven energy points",
+   "section_type": "results"
+  },
+  {
+   "line": 169,
+   "title": "ST efficiencies at seven energy points",
+   "section_type": "results"
+  },
+  {
+   "line": 173,
+   "title": "DT efficiencies for nKS0pi+",
+   "section_type": "results"
+  },
+  {
+   "line": 177,
+   "title": "DT efficiencies for nKS0K+",
+   "section_type": "results"
+  },
+  {
+   "line": 185,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 215,
+   "title": "Comparison of BFs with theoretical predictions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

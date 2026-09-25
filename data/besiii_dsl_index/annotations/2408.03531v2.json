@@ -1,0 +1,258 @@
+{
+ "paper_id": "2408.03531v2",
+ "source_path": "arxiv_papers/2408.03531v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 383,
+ "n_lines_sent": 186,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 72,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 74,
+   "to": 84,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 106,
+   "to": 109,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 346,
+   "to": 383,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": "0003",
+   "line_end": "0146",
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": "0148",
+   "line_end": "0148",
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": "0150",
+   "line_end": "0172",
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": "0174",
+   "line_end": "0178",
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MC SIMULATION"
+  },
+  {
+   "line_start": "0180",
+   "line_end": "0199",
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": "0180",
+     "line_end": "0182",
+     "label": "overview"
+    },
+    {
+     "line_start": "0184",
+     "line_end": "0184",
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": "0186",
+     "line_end": "0186",
+     "label": "photon_selection"
+    },
+    {
+     "line_start": "0188",
+     "line_end": "0188",
+     "label": "background_suppression"
+    },
+    {
+     "line_start": "0190",
+     "line_end": "0199",
+     "label": "mass_fit"
+    }
+   ]
+  },
+  {
+   "line_start": "0201",
+   "line_end": "0254",
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": "0256",
+   "line_end": "0305",
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": "0256",
+     "line_end": "0258",
+     "label": "overview"
+    },
+    {
+     "line_start": "0263",
+     "line_end": "0265",
+     "label": "integrated_luminosity"
+    },
+    {
+     "line_start": "0267",
+     "line_end": "0269",
+     "label": "photon_detection"
+    },
+    {
+     "line_start": "0271",
+     "line_end": "0273",
+     "label": "pi0_branching_fraction"
+    },
+    {
+     "line_start": "0275",
+     "line_end": "0277",
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": "0279",
+     "line_end": "0281",
+     "label": "mdc_hits"
+    },
+    {
+     "line_start": "0283",
+     "line_end": "0285",
+     "label": "photon_number"
+    },
+    {
+     "line_start": "0287",
+     "line_end": "0289",
+     "label": "signal_shape"
+    },
+    {
+     "line_start": "0291",
+     "line_end": "0295",
+     "label": "background_shape"
+    },
+    {
+     "line_start": "0297",
+     "line_end": "0305",
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": "0307",
+   "line_end": "0338",
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": "0340",
+   "line_end": "0344",
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": "0221",
+   "title": "Signal yields and observed cross sections at each c.m. energy",
+   "section_type": "fit"
+  },
+  {
+   "line": "0254",
+   "title": "Information of two solutions",
+   "section_type": "fit"
+  },
+  {
+   "line": "0329",
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 256-305 before line 263"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

@@ -1,0 +1,163 @@
+{
+ "paper_id": "2207.01004v2",
+ "source_path": "arxiv_papers/2207.01004v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 241,
+ "n_lines_sent": 136,
+ "skipped_ranges": [
+  {
+   "from": 27,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 212,
+   "to": 241,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 31,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 33,
+   "line_end": 33,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 35,
+   "line_end": 44,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 46,
+   "line_end": 46,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 48,
+   "line_end": 55,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 52,
+     "line_end": 55,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 57,
+   "line_end": 101,
+   "type": "fit",
+   "title": "Fit"
+  },
+  {
+   "line_start": 103,
+   "line_end": 115,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "overview"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "eta_1c_kinematic_fit"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "photon_miscombination"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "efficiency_parametrization"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "8c_kinematic_fit"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "resolution"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 117,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 119,
+   "line_end": 124,
+   "type": "other",
+   "title": "Figures and tables"
+  },
+  {
+   "line_start": 126,
+   "line_end": 128,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 130,
+   "line_end": 210,
+   "type": "other",
+   "title": "Supplemental Material"
+  }
+ ],
+ "tables": [
+  {
+   "line": 63,
+   "title": "Experimental values of the matrix element parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 124,
+   "title": "Summary of systematic uncertainty sources",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

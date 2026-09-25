@@ -1,0 +1,317 @@
+{
+ "paper_id": "2408.00495v2",
+ "source_path": "arxiv_papers/2408.00495v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 414,
+ "n_lines_sent": 142,
+ "skipped_ranges": [
+  {
+   "from": 250,
+   "to": 414,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Partial wave analysis of ψ(3686) → ΛΣ̄⁰π⁰ + c.c."
+  },
+  {
+   "line_start": 9,
+   "line_end": 9,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 11,
+   "line_end": 35,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 37,
+   "line_end": 41,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 43,
+   "line_end": 47,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 49,
+   "line_end": 60,
+   "type": "event_selection",
+   "title": "3 Event Selection",
+   "units": [
+    {
+     "line_start": 49,
+     "line_end": 51,
+     "label": "charged_track_and_photon_selection"
+    },
+    {
+     "line_start": 53,
+     "line_end": 54,
+     "label": "figure1_mass_distributions"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "lambda_reconstruction_and_kinematic_fit"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "sigma0_and_background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 62,
+   "line_end": 72,
+   "type": "background",
+   "title": "4 Background study"
+  },
+  {
+   "line_start": 74,
+   "line_end": 95,
+   "type": "fit",
+   "title": "5 Branching fraction"
+  },
+  {
+   "line_start": 97,
+   "line_end": 149,
+   "type": "fit",
+   "title": "6.1 Helicity formalism"
+  },
+  {
+   "line_start": 151,
+   "line_end": 169,
+   "type": "fit",
+   "title": "6.2 Nominal fit model"
+  },
+  {
+   "line_start": 171,
+   "line_end": 194,
+   "type": "systematic_uncertainty",
+   "title": "7.1 Systematic uncertainties on branching fraction",
+   "units": [
+    {
+     "line_start": 171,
+     "line_end": 175,
+     "label": "introduction"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "pi0_signal_region"
+    },
+    {
+     "line_start": 182,
+     "line_end": 184,
+     "label": "table2_systematic_uncertainties"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "total_number_of_psi3686_events"
+    }
+   ]
+  },
+  {
+   "line_start": 196,
+   "line_end": 203,
+   "type": "systematic_uncertainty",
+   "title": "7.2 Systematic uncertainties on partial wave analysis",
+   "units": [
+    {
+     "line_start": 196,
+     "line_end": 198,
+     "label": "introduction"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "extra_resonances"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "lambda1405_parameterization"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "blatt_weisskopf_barrier_factor"
+    }
+   ]
+  },
+  {
+   "line_start": 205,
+   "line_end": 229,
+   "type": "results",
+   "title": "8 Results and interpretation",
+   "units": [
+    {
+     "line_start": 205,
+     "line_end": 207,
+     "label": "mass_width_branching_fraction_results"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "chiral_dynamics_two_pole_structure"
+    },
+    {
+     "line_start": 211,
+     "line_end": 212,
+     "label": "figure3_dalitz_plots"
+    },
+    {
+     "line_start": 214,
+     "line_end": 215,
+     "label": "figure4_invariant_mass_distributions"
+    },
+    {
+     "line_start": 217,
+     "line_end": 219,
+     "label": "table3_systematic_uncertainties_masses"
+    },
+    {
+     "line_start": 221,
+     "line_end": 223,
+     "label": "table4_systematic_uncertainties_widths"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "flatte_like_alternative_fit"
+    },
+    {
+     "line_start": 227,
+     "line_end": 229,
+     "label": "table5_systematic_uncertainties_fit_fractions"
+    },
+    {
+     "line_start": 231,
+     "line_end": 233,
+     "label": "table6_fit_fractions_and_phases"
+    }
+   ]
+  },
+  {
+   "line_start": 235,
+   "line_end": 244,
+   "type": "conclusion",
+   "title": "9 Summary"
+  },
+  {
+   "line_start": 246,
+   "line_end": 248,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 161,
+   "title": "Comparison of the different quantum numbers for the spin-parity of the Λ(2325)",
+   "section_type": "fit"
+  },
+  {
+   "line": 184,
+   "title": "The systematic uncertainties for the branching fraction",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 219,
+   "title": "The systematic uncertainty sources for the masses",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 223,
+   "title": "The systematic uncertainty sources for the widths",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 229,
+   "title": "The systematic uncertainty sources for the fit fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 233,
+   "title": "The fit fractions and phases of each component in the nominal PWA fit",
+   "section_type": "results"
+  },
+  {
+   "line": 242,
+   "title": "The masses, widths, and branching fractions of each component in the nominal PWA fit",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 32.2,
+ "status": "partial",
+ "errors": [
+  "[units] unit 231-233 escapes section 205-229"
+ ],
+ "warnings": [
+  "nested spans 1-9 / 9-9"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": [
+  "units"
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "paper_id": "2009.08099v2",
+ "source_path": "arxiv_papers/2009.08099v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 342,
+ "n_lines_sent": 194,
+ "skipped_ranges": [
+  {
+   "from": 112,
+   "to": 112,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 277,
+   "to": 342,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 110,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 114,
+   "line_end": 118,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 120,
+   "line_end": 138,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 140,
+   "line_end": 146,
+   "type": "detector",
+   "title": "2. Detector and data sample"
+  },
+  {
+   "line_start": 148,
+   "line_end": 194,
+   "type": "event_selection",
+   "title": "3. Event selection and determination of the Born cross section",
+   "units": [
+    {
+     "line_start": 148,
+     "line_end": 150,
+     "label": "section_heading"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "kinematic_fit_and_pi0_eta_selection"
+    },
+    {
+     "line_start": 156,
+     "line_end": 159,
+     "label": "background_study"
+    },
+    {
+     "line_start": 161,
+     "line_end": 163,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 165,
+     "line_end": 171,
+     "label": "born_cross_section_formula"
+    },
+    {
+     "line_start": 173,
+     "line_end": 194,
+     "label": "systematic_uncertainties_omega_eta"
+    }
+   ]
+  },
+  {
+   "line_start": 196,
+   "line_end": 219,
+   "type": "event_selection",
+   "title": "3.2. Analysis of e+e- -> omega pi0",
+   "units": [
+    {
+     "line_start": 196,
+     "line_end": 200,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 202,
+     "line_end": 205,
+     "label": "background_study"
+    },
+    {
+     "line_start": 207,
+     "line_end": 209,
+     "label": "signal_yield_and_cross_section"
+    },
+    {
+     "line_start": 211,
+     "line_end": 219,
+     "label": "systematic_uncertainties_omega_pi0"
+    }
+   ]
+  },
+  {
+   "line_start": 221,
+   "line_end": 263,
+   "type": "fit",
+   "title": "4. Line shape analysis"
+  },
+  {
+   "line_start": 265,
+   "line_end": 269,
+   "type": "conclusion",
+   "title": "5. Summary and discussion"
+  },
+  {
+   "line_start": 271,
+   "line_end": 275,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 177,
+   "title": "Born cross sections of e+e- -> omega eta",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 185,
+   "title": "Summary of relative systematic uncertainties for omega eta",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 215,
+   "title": "Born cross sections of e+e- -> omega pi0",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 219,
+   "title": "Summary of relative systematic uncertainties for omega pi0",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 235,
+   "title": "Resonance parameters of Y(2180)",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

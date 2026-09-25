@@ -1,0 +1,197 @@
+{
+ "paper_id": "1201.2737v2",
+ "source_path": "arxiv_papers/1201.2737v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 172,
+ "n_lines_sent": 89,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 145,
+   "to": 172,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 83,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 85,
+   "line_end": 87,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 89,
+   "line_end": 95,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 97,
+   "line_end": 97,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 99,
+   "line_end": 110,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "charged_channel_selection"
+    },
+    {
+     "line_start": 103,
+     "line_end": 104,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "neutral_channel_selection"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "mass_distributions"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 112,
+   "line_end": 121,
+   "type": "fit",
+   "title": "Mass Spectrum Fits"
+  },
+  {
+   "line_start": 123,
+   "line_end": 124,
+   "type": "other",
+   "title": "Figure 3"
+  },
+  {
+   "line_start": 126,
+   "line_end": 126,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 128,
+   "line_end": 130,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 130,
+     "label": "table_i"
+    }
+   ]
+  },
+  {
+   "line_start": 132,
+   "line_end": 133,
+   "type": "other",
+   "title": "Figure 4"
+  },
+  {
+   "line_start": 135,
+   "line_end": 137,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 139,
+   "line_end": 139,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 141,
+   "line_end": 143,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 130,
+   "title": "Summary of measurements of masses, widths, number of events, efficiencies and product branching ratios",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

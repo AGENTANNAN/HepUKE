@@ -1,0 +1,240 @@
+{
+ "paper_id": "2303.09718v1",
+ "source_path": "arxiv_papers/2303.09718v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 662,
+ "n_lines_sent": 237,
+ "skipped_ranges": [
+  {
+   "from": 405,
+   "to": 662,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Study of the e+e- -> pi+pi-omega process at center-of-mass energies between 4.0 and 4.6 GeV"
+  },
+  {
+   "line_start": 11,
+   "line_end": 40,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 42,
+   "line_end": 48,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 50,
+   "line_end": 58,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 60,
+   "line_end": 71,
+   "type": "event_selection",
+   "title": "3 EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 60,
+     "line_end": 62,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "background_suppression_and_kinematic_fit"
+    },
+    {
+     "line_start": 68,
+     "line_end": 71,
+     "label": "omega_mass_fit_and_sidebands"
+    }
+   ]
+  },
+  {
+   "line_start": 73,
+   "line_end": 248,
+   "type": "fit",
+   "title": "4 AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 250,
+   "line_end": 302,
+   "type": "results",
+   "title": "5 BORN CROSS SECTION",
+   "units": [
+    {
+     "line_start": 250,
+     "line_end": 282,
+     "label": "isr_correction_factor"
+    },
+    {
+     "line_start": 284,
+     "line_end": 292,
+     "label": "born_cross_section_total"
+    },
+    {
+     "line_start": 294,
+     "line_end": 302,
+     "label": "born_cross_section_intermediate_states"
+    }
+   ]
+  },
+  {
+   "line_start": 304,
+   "line_end": 360,
+   "type": "systematic_uncertainty",
+   "title": "6 SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 304,
+     "line_end": 310,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 312,
+     "line_end": 316,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 318,
+     "line_end": 318,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 320,
+     "line_end": 320,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 322,
+     "line_end": 322,
+     "label": "ks0_veto"
+    },
+    {
+     "line_start": 324,
+     "line_end": 331,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 333,
+     "line_end": 333,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 335,
+     "line_end": 339,
+     "label": "pwa"
+    },
+    {
+     "line_start": 341,
+     "line_end": 341,
+     "label": "mass_and_width"
+    },
+    {
+     "line_start": 343,
+     "line_end": 343,
+     "label": "background_level"
+    },
+    {
+     "line_start": 345,
+     "line_end": 345,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 347,
+     "line_end": 349,
+     "label": "insignificant_resonance"
+    },
+    {
+     "line_start": 351,
+     "line_end": 360,
+     "label": "intermediate_process_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 362,
+   "line_end": 393,
+   "type": "fit",
+   "title": "7 FIT TO THE LINE SHAPE"
+  },
+  {
+   "line_start": 395,
+   "line_end": 397,
+   "type": "conclusion",
+   "title": "8 SUMMARY"
+  },
+  {
+   "line_start": 399,
+   "line_end": 403,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 101,
+   "title": "Variable definitions for helicity angles and amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 236,
+   "title": "Masses, widths and statistical significances for intermediate resonances",
+   "section_type": "fit"
+  },
+  {
+   "line": 314,
+   "title": "Integrated luminosities, efficiencies, signal yields, ISR and VP factors, and Born cross sections",
+   "section_type": "results"
+  },
+  {
+   "line": 329,
+   "title": "Ratios of signal yields for intermediate states",
+   "section_type": "fit"
+  },
+  {
+   "line": 337,
+   "title": "Signal yields for intermediate states",
+   "section_type": "fit"
+  },
+  {
+   "line": 372,
+   "title": "Relative systematic uncertainties in cross section measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 386,
+   "title": "Systematic uncertainties for intermediate processes",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 390,
+   "title": "Fitted parameters and significances for charmonium states",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 13.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

@@ -1,0 +1,198 @@
+{
+ "paper_id": "1305.5333v3",
+ "source_path": "arxiv_papers/1305.5333v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 203,
+ "n_lines_sent": 144,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 190,
+   "to": 203,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 17,
+   "type": "front_matter",
+   "title": "Title, authors, and collaboration"
+  },
+  {
+   "line_start": 23,
+   "line_end": 23,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 25,
+   "line_end": 47,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 49,
+   "line_end": 49,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 51,
+   "line_end": 65,
+   "type": "dataset",
+   "title": "Monte Carlo simulation and event reconstruction"
+  },
+  {
+   "line_start": 66,
+   "line_end": 81,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 66,
+     "line_end": 74,
+     "label": "charged_track_and_photon_selection"
+    },
+    {
+     "line_start": 76,
+     "line_end": 77,
+     "label": "figure_1_mass_spectrum"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "mass_spectrum_observation"
+    }
+   ]
+  },
+  {
+   "line_start": 83,
+   "line_end": 83,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 85,
+   "line_end": 111,
+   "type": "fit",
+   "title": "Mass spectrum fit"
+  },
+  {
+   "line_start": 113,
+   "line_end": 113,
+   "type": "results",
+   "title": "Upper limit on eta' branching fraction",
+   "units": [
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "eta_prime_upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 115,
+   "line_end": 135,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "tracking_and_photon_detection"
+    },
+    {
+     "line_start": 117,
+     "line_end": 135,
+     "label": "mass_and_width_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 137,
+   "line_end": 138,
+   "type": "results",
+   "title": "Comparison of observations",
+   "units": [
+    {
+     "line_start": 137,
+     "line_end": 138,
+     "label": "figure_3_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 140,
+   "line_end": 142,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty table",
+   "units": [
+    {
+     "line_start": 140,
+     "line_end": 142,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 144,
+   "line_end": 166,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 168,
+   "line_end": 168,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 170,
+   "line_end": 188,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 142,
+   "title": "Summary of systematic uncertainties in branching fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

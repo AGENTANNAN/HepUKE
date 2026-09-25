@@ -1,0 +1,250 @@
+{
+ "paper_id": "2502.19850v1",
+ "source_path": "arxiv_papers/2502.19850v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 365,
+ "n_lines_sent": 192,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 89,
+   "to": 89,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 134,
+   "to": 134,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 136,
+   "to": 138,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 330,
+   "to": 365,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 140,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 142,
+   "line_end": 142,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 144,
+   "line_end": 166,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 168,
+   "line_end": 176,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 178,
+   "line_end": 206,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 178,
+     "line_end": 180,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 186,
+     "line_end": 201,
+     "label": "kinematic_variables"
+    },
+    {
+     "line_start": 203,
+     "line_end": 206,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 208,
+   "line_end": 263,
+   "type": "fit",
+   "title": "IV. CROSS SECTION CALCULATION ON e+ e- -> tau+ tau-"
+  },
+  {
+   "line_start": 265,
+   "line_end": 295,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 265,
+     "line_end": 267,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 271,
+     "line_end": 271,
+     "label": "n_psi2s"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "tracking"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "pid"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "muon_pion_separation"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "photon_number"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "missing_mass_cos_theta"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "background"
+    },
+    {
+     "line_start": 285,
+     "line_end": 285,
+     "label": "cross_section"
+    },
+    {
+     "line_start": 287,
+     "line_end": 287,
+     "label": "tau_branching_fractions"
+    },
+    {
+     "line_start": 289,
+     "line_end": 289,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 291,
+     "line_end": 295,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 297,
+   "line_end": 313,
+   "type": "results",
+   "title": "VI. CALCULATION OF THE psi(2S) -> tau+ tau- BRANCHING FRACTION",
+   "units": [
+    {
+     "line_start": 297,
+     "line_end": 313,
+     "label": "branching_fraction_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 315,
+   "line_end": 319,
+   "type": "conclusion",
+   "title": "VII. CONCLUSION"
+  },
+  {
+   "line_start": 321,
+   "line_end": 323,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  },
+  {
+   "line_start": 325,
+   "line_end": 328,
+   "type": "other",
+   "title": "Tables II and III"
+  }
+ ],
+ "tables": [
+  {
+   "line": 293,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 328,
+   "title": "Numbers for branching fraction calculation",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

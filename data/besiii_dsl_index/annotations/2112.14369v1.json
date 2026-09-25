@@ -1,0 +1,190 @@
+{
+ "paper_id": "2112.14369v1",
+ "source_path": "arxiv_papers/2112.14369v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 262,
+ "n_lines_sent": 146,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 225,
+   "to": 262,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 154,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 156,
+   "line_end": 156,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 158,
+   "line_end": 174,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 176,
+   "line_end": 176,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 178,
+   "line_end": 185,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "eta_prime_to_gamma_pi_pi_selection"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "eta_prime_to_pi_pi_eta_selection"
+    },
+    {
+     "line_start": 184,
+     "line_end": 185,
+     "label": "eta_prime_mass_windows"
+    }
+   ]
+  },
+  {
+   "line_start": 187,
+   "line_end": 191,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 193,
+   "line_end": 208,
+   "type": "fit",
+   "title": "Fit to the pi+pi-eta' mass spectrum"
+  },
+  {
+   "line_start": 210,
+   "line_end": 210,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "efficiency_and_fit_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 212,
+   "line_end": 217,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 212,
+     "line_end": 213,
+     "label": "transition_form_factor"
+    },
+    {
+     "line_start": 215,
+     "line_end": 217,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 219,
+   "line_end": 219,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 221,
+   "line_end": 223,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 217,
+   "title": "Branching fractions of J/psi -> e+e- X, X -> pi+pi-eta'",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

@@ -1,0 +1,289 @@
+{
+ "paper_id": "2602.11501v1",
+ "source_path": "arxiv_papers/2602.11501v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 306,
+ "n_lines_sent": 31,
+ "skipped_ranges": [
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 62,
+   "to": 306,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Observation of a New Excited Σ State in ψ(3686) → p̄K⁺Σ⁰ + c.c."
+  },
+  {
+   "line_start": 3,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "BESIII Collaboration"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 7,
+   "line_end": 13,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 15,
+   "line_end": 15,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 17,
+   "line_end": 19,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 17,
+     "line_end": 17,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 19,
+     "line_end": 19,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 21,
+   "line_end": 21,
+   "type": "fit",
+   "title": "Signal Yield and Branching Fraction"
+  },
+  {
+   "line_start": 23,
+   "line_end": 23,
+   "type": "fit",
+   "title": "Partial-Wave Analysis"
+  },
+  {
+   "line_start": 25,
+   "line_end": 26,
+   "type": "fit",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 28,
+   "line_end": 28,
+   "type": "fit",
+   "title": "Nominal Fit Hypothesis"
+  },
+  {
+   "line_start": 30,
+   "line_end": 33,
+   "type": "fit",
+   "title": "Figure 2"
+  },
+  {
+   "line_start": 35,
+   "line_end": 37,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 35,
+     "line_end": 35,
+     "label": "n2300_n2570_spin_parity"
+    },
+    {
+     "line_start": 37,
+     "line_end": 37,
+     "label": "sigma2330_spin_parity"
+    }
+   ]
+  },
+  {
+   "line_start": 39,
+   "line_end": 41,
+   "type": "results",
+   "title": "Table I"
+  },
+  {
+   "line_start": 43,
+   "line_end": 43,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "tracking"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "pid"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "chicj_background_suppression"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "background"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "intermediate_branching_fractions"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "total_psi3686_events"
+    }
+   ]
+  },
+  {
+   "line_start": 45,
+   "line_end": 46,
+   "type": "systematic_uncertainty",
+   "title": "Figure 3"
+  },
+  {
+   "line_start": 48,
+   "line_end": 50,
+   "type": "systematic_uncertainty",
+   "title": "Table II"
+  },
+  {
+   "line_start": 52,
+   "line_end": 52,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties on PWA Parameters",
+   "units": [
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "additional_components"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "nr_orbital_angular_momentum"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "blatt_weisskopf_radius"
+    }
+   ]
+  },
+  {
+   "line_start": 54,
+   "line_end": 54,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 58,
+   "line_end": 58,
+   "type": "other",
+   "title": "Author List Note"
+  },
+  {
+   "line_start": 60,
+   "line_end": 60,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 41,
+   "title": "Statistical significance of spin-parity hypotheses",
+   "section_type": "fit"
+  },
+  {
+   "line": 50,
+   "title": "Relative systematic uncertainties for branching fraction",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 106,
+   "title": "Masses, widths, and branching fractions of resonances",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 39-41 typed results has no units",
+  "units of 43-43 share boundary line 43",
+  "units of 43-43 share boundary line 43",
+  "units of 43-43 share boundary line 43",
+  "units of 43-43 share boundary line 43",
+  "units of 43-43 share boundary line 43",
+  "units of 43-43 share boundary line 43",
+  "units of 43-43 share boundary line 43",
+  "units of 43-43 share boundary line 43",
+  "units of 43-43 share boundary line 43",
+  "units of 43-43 share boundary line 43",
+  "short section 45-46 typed systematic_uncertainty has no units",
+  "short section 48-50 typed systematic_uncertainty has no units",
+  "units of 52-52 share boundary line 52",
+  "units of 52-52 share boundary line 52",
+  "units of 52-52 share boundary line 52"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

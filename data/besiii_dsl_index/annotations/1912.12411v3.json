@@ -1,0 +1,298 @@
+{
+ "paper_id": "1912.12411v3",
+ "source_path": "arxiv_papers/1912.12411v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 319,
+ "n_lines_sent": 189,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 75,
+   "to": 75,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 292,
+   "to": 319,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 110,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 112,
+   "line_end": 116,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 118,
+   "line_end": 122,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 124,
+   "line_end": 134,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 136,
+   "line_end": 156,
+   "type": "event_selection",
+   "title": "III. MEASUREMENT METHOD",
+   "units": [
+    {
+     "line_start": 136,
+     "line_end": 138,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 140,
+     "line_end": 142,
+     "label": "yield_equations"
+    },
+    {
+     "line_start": 144,
+     "line_end": 146,
+     "label": "efficiency_definitions"
+    },
+    {
+     "line_start": 148,
+     "line_end": 150,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 152,
+     "line_end": 156,
+     "label": "average_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 158,
+   "line_end": 182,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "pid"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "photon_pi0_eta"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 170,
+     "line_end": 182,
+     "label": "kinematic_variables"
+    }
+   ]
+  },
+  {
+   "line_start": 184,
+   "line_end": 219,
+   "type": "fit",
+   "title": "V. SINGLE-TAG AND DOUBLE-TAG YIELDS"
+  },
+  {
+   "line_start": 221,
+   "line_end": 251,
+   "type": "results",
+   "title": "VI. BRANCHING FRACTIONS",
+   "units": [
+    {
+     "line_start": 221,
+     "line_end": 232,
+     "label": "signal_efficiency"
+    },
+    {
+     "line_start": 234,
+     "line_end": 234,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 236,
+     "line_end": 236,
+     "label": "cp_asymmetry"
+    },
+    {
+     "line_start": 238,
+     "line_end": 243,
+     "label": "dalitz_plots"
+    },
+    {
+     "line_start": 245,
+     "line_end": 247,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 249,
+     "line_end": 251,
+     "label": "table_iii"
+    }
+   ]
+  },
+  {
+   "line_start": 253,
+   "line_end": 280,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 253,
+     "line_end": 255,
+     "label": "overview"
+    },
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 259,
+     "line_end": 259,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 261,
+     "line_end": 263,
+     "label": "two_d_fit"
+    },
+    {
+     "line_start": 265,
+     "line_end": 265,
+     "label": "delta_e_sig"
+    },
+    {
+     "line_start": 266,
+     "line_end": 266,
+     "label": "modified_mc_generator"
+    },
+    {
+     "line_start": 267,
+     "line_end": 267,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "ks0_rejection"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 270,
+     "line_end": 272,
+     "label": "cp_asymmetry"
+    },
+    {
+     "line_start": 274,
+     "line_end": 274,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 276,
+     "line_end": 278,
+     "label": "table_iv"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "acp_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 282,
+   "line_end": 284,
+   "type": "conclusion",
+   "title": "VIII. CONCLUSIONS"
+  },
+  {
+   "line_start": 286,
+   "line_end": 290,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 206,
+   "title": "ST yields and efficiencies",
+   "section_type": "fit"
+  },
+  {
+   "line": 247,
+   "title": "DT yields, efficiencies, and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 251,
+   "title": "ST yields, DT yields, efficiencies, BFs, and CP asymmetries",
+   "section_type": "results"
+  },
+  {
+   "line": 278,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": [],
+ "units_repaired": true
+}

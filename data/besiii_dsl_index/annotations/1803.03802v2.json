@@ -1,0 +1,283 @@
+{
+ "paper_id": "1803.03802v2",
+ "source_path": "arxiv_papers/1803.03802v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 198,
+ "n_lines_sent": 112,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 76,
+   "to": 76,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 83,
+   "to": 86,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 192,
+   "to": 198,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 92,
+   "type": "front_matter",
+   "title": "Measurement of the Integrated Luminosities of Cross-section Scan Data Samples Around the ψ(3770) Mass Region"
+  },
+  {
+   "line_start": 88,
+   "line_end": 88,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 94,
+   "line_end": 100,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 102,
+   "line_end": 104,
+   "type": "detector",
+   "title": "2 BESIII detector"
+  },
+  {
+   "line_start": 106,
+   "line_end": 116,
+   "type": "other",
+   "title": "3 Method"
+  },
+  {
+   "line_start": 118,
+   "line_end": 120,
+   "type": "event_selection",
+   "title": "4 Luminosity measurement",
+   "units": [
+    {
+     "line_start": 118,
+     "line_end": 120,
+     "label": "luminosity_measurement_overview"
+    }
+   ]
+  },
+  {
+   "line_start": 122,
+   "line_end": 126,
+   "type": "event_selection",
+   "title": "4.1 Event selection",
+   "units": [
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "data_mc_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 128,
+   "line_end": 136,
+   "type": "background",
+   "title": "4.2 Background estimation"
+  },
+  {
+   "line_start": 138,
+   "line_end": 142,
+   "type": "results",
+   "title": "4.3 Numerical result",
+   "units": [
+    {
+     "line_start": 138,
+     "line_end": 140,
+     "label": "integrated_luminosity_calculation"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "total_integrated_luminosity"
+    }
+   ]
+  },
+  {
+   "line_start": 144,
+   "line_end": 145,
+   "type": "other",
+   "title": "Fig. 1"
+  },
+  {
+   "line_start": 147,
+   "line_end": 163,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 147,
+     "line_end": 149,
+     "label": "systematic_uncertainty_overview"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "cos_theta_requirement"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "tracking_and_momentum"
+    },
+    {
+     "line_start": 155,
+     "line_end": 157,
+     "label": "table1"
+    },
+    {
+     "line_start": 159,
+     "line_end": 159,
+     "label": "emc_cluster_and_eemc"
+    },
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "trigger_background_generator_beam_energy"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 165,
+   "line_end": 167,
+   "type": "systematic_uncertainty",
+   "title": "Table 2",
+   "units": [
+    {
+     "line_start": 165,
+     "line_end": 167,
+     "label": "table2"
+    }
+   ]
+  },
+  {
+   "line_start": 169,
+   "line_end": 182,
+   "type": "results",
+   "title": "6 Cross check",
+   "units": [
+    {
+     "line_start": 169,
+     "line_end": 171,
+     "label": "cross_check_overview"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 175,
+     "line_end": 176,
+     "label": "figure2"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "luminosity_and_systematics"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "total_integrated_luminosity"
+    }
+   ]
+  },
+  {
+   "line_start": 184,
+   "line_end": 186,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 188,
+   "line_end": 190,
+   "type": "acknowledgements",
+   "title": "8 Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 157,
+   "title": "Summary of integrated luminosities measured using e+e-→(γ)e+e- and e+e-→(γ)γγ at each CM energy",
+   "section_type": "results"
+  },
+  {
+   "line": 167,
+   "title": "Summary of systematic uncertainties in the luminosity measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-92 / 88-88"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": [],
+ "units_repaired": true
+}

@@ -1,0 +1,247 @@
+{
+ "paper_id": "2408.01597v2",
+ "source_path": "arxiv_papers/2408.01597v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 258,
+ "n_lines_sent": 111,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 213,
+   "to": 258,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 21,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 19,
+   "line_end": 19,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 23,
+   "line_end": 59,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 61,
+   "line_end": 61,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 63,
+   "line_end": 85,
+   "type": "dataset",
+   "title": "Data samples and Monte Carlo simulation"
+  },
+  {
+   "line_start": 87,
+   "line_end": 114,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 87,
+     "line_end": 89,
+     "label": "overview"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 95,
+     "line_end": 101,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 103,
+     "line_end": 108,
+     "label": "vetoes"
+    },
+    {
+     "line_start": 110,
+     "line_end": 114,
+     "label": "multiple_counting_and_chi_cJ_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 145,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELDS"
+  },
+  {
+   "line_start": 147,
+   "line_end": 181,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 147,
+     "line_end": 149,
+     "label": "overview"
+    },
+    {
+     "line_start": 151,
+     "line_end": 153,
+     "label": "photon_detection_and_tracking"
+    },
+    {
+     "line_start": 155,
+     "line_end": 157,
+     "label": "input_branching_fractions"
+    },
+    {
+     "line_start": 159,
+     "line_end": 161,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 163,
+     "line_end": 165,
+     "label": "e_over_p_cut"
+    },
+    {
+     "line_start": 167,
+     "line_end": 173,
+     "label": "decay_model"
+    },
+    {
+     "line_start": 175,
+     "line_end": 177,
+     "label": "total_systematic_uncertainties"
+    },
+    {
+     "line_start": 179,
+     "line_end": 181,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 183,
+   "line_end": 201,
+   "type": "results",
+   "title": "VI. UPPER LIMIT CALCULATIONS",
+   "units": [
+    {
+     "line_start": 183,
+     "line_end": 185,
+     "label": "upper_limit_method"
+    },
+    {
+     "line_start": 187,
+     "line_end": 189,
+     "label": "efficiency_ratio_energy_dependence"
+    },
+    {
+     "line_start": 191,
+     "line_end": 201,
+     "label": "upper_limit_results"
+    }
+   ]
+  },
+  {
+   "line_start": 203,
+   "line_end": 205,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 207,
+   "line_end": 211,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 67,
+   "title": "Data samples with center-of-mass energies between 4.15 GeV and 4.30 GeV",
+   "section_type": "dataset"
+  },
+  {
+   "line": 73,
+   "title": "Low-luminosity scan data samples",
+   "section_type": "dataset"
+  },
+  {
+   "line": 83,
+   "title": "Decays used to generate exclusive MC",
+   "section_type": "dataset"
+  },
+  {
+   "line": 122,
+   "title": "Processes we choose to veto and their optimized selection criteria",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 145,
+   "title": "Summary of signal yields, efficiencies, and other values",
+   "section_type": "fit"
+  },
+  {
+   "line": 181,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 7-21 / 19-19"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

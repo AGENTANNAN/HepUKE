@@ -1,0 +1,277 @@
+{
+ "paper_id": "2106.02218v2",
+ "source_path": "arxiv_papers/2106.02218v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 156,
+ "n_lines_sent": 50,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 116,
+   "to": 156,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 2,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 18,
+   "line_end": 18,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 26,
+   "line_end": 28,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 30,
+   "line_end": 42,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 44,
+   "line_end": 44,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 46,
+   "line_end": 46,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 46,
+     "line_end": 46,
+     "label": "double_tag_technique"
+    }
+   ]
+  },
+  {
+   "line_start": 48,
+   "line_end": 54,
+   "type": "fit",
+   "title": "Branching fraction determination"
+  },
+  {
+   "line_start": 56,
+   "line_end": 60,
+   "type": "event_selection",
+   "title": "ST selection and yields",
+   "units": [
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "st_reconstruction_and_pid"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "recoil_mass_selection"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "st_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 62,
+   "line_end": 64,
+   "type": "event_selection",
+   "title": "DT selection",
+   "units": [
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "dt_selection"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "dt_yields_and_efficiencies"
+    }
+   ]
+  },
+  {
+   "line_start": 66,
+   "line_end": 66,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "table_i"
+    }
+   ]
+  },
+  {
+   "line_start": 68,
+   "line_end": 69,
+   "type": "results",
+   "title": "Figure 1",
+   "units": [
+    {
+     "line_start": 68,
+     "line_end": 69,
+     "label": "figure_1"
+    }
+   ]
+  },
+  {
+   "line_start": 71,
+   "line_end": 77,
+   "type": "fit",
+   "title": "Background determination and fit"
+  },
+  {
+   "line_start": 79,
+   "line_end": 80,
+   "type": "results",
+   "title": "Figure 2",
+   "units": [
+    {
+     "line_start": 79,
+     "line_end": 80,
+     "label": "figure_2"
+    }
+   ]
+  },
+  {
+   "line_start": 82,
+   "line_end": 100,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "overview"
+    },
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "non_ds_background"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "extra_energy_selection"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "extra_charged_tracks"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "kl0e_nu_background"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "xe_nu_background"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "fsr_and_tau_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 106,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "bf_and_decay_constant"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "decay_constant_ratio"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "world_average_and_bf_ratio"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 108,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 110,
+   "line_end": 114,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 66,
+   "title": "ST yields, DT yields, efficiencies and branching fractions for each tag mode",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": [],
+ "units_repaired": true
+}

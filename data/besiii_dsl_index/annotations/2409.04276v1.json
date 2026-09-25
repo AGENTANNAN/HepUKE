@@ -1,0 +1,270 @@
+{
+ "paper_id": "2409.04276v1",
+ "source_path": "arxiv_papers/2409.04276v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 439,
+ "n_lines_sent": 265,
+ "skipped_ranges": [
+  {
+   "from": 37,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 85,
+   "to": 85,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 102,
+   "to": 102,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 104,
+   "to": 104,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 106,
+   "to": 106,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 110,
+   "to": 110,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 401,
+   "to": 439,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 124,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 126,
+   "line_end": 126,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 128,
+   "line_end": 140,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 142,
+   "line_end": 144,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 146,
+   "line_end": 146,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 148,
+   "line_end": 184,
+   "type": "event_selection",
+   "title": "III. ANALYSIS",
+   "units": [
+    {
+     "line_start": 148,
+     "line_end": 156,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 162,
+     "line_end": 170,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 172,
+     "line_end": 182,
+     "label": "signal_selection"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "signal_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 186,
+   "line_end": 222,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on BF",
+   "units": [
+    {
+     "line_start": 186,
+     "line_end": 188,
+     "label": "n_st_total"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "pi_tracking_pid"
+    },
+    {
+     "line_start": 190,
+     "line_end": 203,
+     "label": "e_tracking_pid"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 206,
+     "line_end": 208,
+     "label": "k_rejection"
+    },
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "extra_energy_tracks_pi0"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "m_pi_pi0_e"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "u_miss_fit"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "input_bf"
+    },
+    {
+     "line_start": 218,
+     "line_end": 222,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 224,
+   "line_end": 354,
+   "type": "fit",
+   "title": "IV. AMPLITUDE ANALYSIS OF D0 -> pi- pi0 e+ nu_e DECAY"
+  },
+  {
+   "line_start": 356,
+   "line_end": 383,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on form-factor ratios",
+   "units": [
+    {
+     "line_start": 356,
+     "line_end": 373,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 374,
+     "line_end": 374,
+     "label": "r_bw"
+    },
+    {
+     "line_start": 375,
+     "line_end": 375,
+     "label": "m_v_m_a"
+    },
+    {
+     "line_start": 376,
+     "line_end": 376,
+     "label": "rho_line_shape"
+    },
+    {
+     "line_start": 377,
+     "line_end": 379,
+     "label": "s_wave"
+    },
+    {
+     "line_start": 381,
+     "line_end": 383,
+     "label": "efficiency_corrections"
+    }
+   ]
+  },
+  {
+   "line_start": 385,
+   "line_end": 393,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 395,
+   "line_end": 399,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 134,
+   "title": "Theoretical calculations of r_V and r_2",
+   "section_type": "introduction"
+  },
+  {
+   "line": 166,
+   "title": "ST mode requirements, efficiencies and yields",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 222,
+   "title": "Relative systematic uncertainties in the BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 358,
+   "title": "Relative systematic uncertainties of the hadronic form-factor ratio measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 393,
+   "title": "Comparison of r_V and r_2 with previous measurements",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

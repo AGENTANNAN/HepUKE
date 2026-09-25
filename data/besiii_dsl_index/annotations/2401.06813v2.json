@@ -1,0 +1,227 @@
+{
+ "paper_id": "2401.06813v2",
+ "source_path": "arxiv_papers/2401.06813v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 262,
+ "n_lines_sent": 150,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 237,
+   "to": 262,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 17,
+   "line_end": 109,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 111,
+   "line_end": 111,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 113,
+   "line_end": 122,
+   "type": "introduction",
+   "title": "INTRODUCTION"
+  },
+  {
+   "line_start": 124,
+   "line_end": 126,
+   "type": "dataset",
+   "title": "Data samples"
+  },
+  {
+   "line_start": 128,
+   "line_end": 132,
+   "type": "detector",
+   "title": "BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 134,
+   "line_end": 149,
+   "type": "event_selection",
+   "title": "EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 139,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "pion_selection"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "photon_pi0_selection"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "neutron_missing_mass"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "peaking_background_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 151,
+   "line_end": 199,
+   "type": "fit",
+   "title": "ABSOLUTE BF MEASUREMENT"
+  },
+  {
+   "line_start": 201,
+   "line_end": 221,
+   "type": "systematic_uncertainty",
+   "title": "SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 201,
+     "line_end": 203,
+     "label": "overview"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "pi0_ks0_reconstruction"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "st_yield_dt_efficiency"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "fitting_model"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "peaking_background_window"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 217,
+     "line_end": 221,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 223,
+   "line_end": 231,
+   "type": "conclusion",
+   "title": "SUMMARY"
+  },
+  {
+   "line_start": 233,
+   "line_end": 235,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 126,
+   "title": "Center-of-mass energies and integrated luminosities",
+   "section_type": "dataset"
+  },
+  {
+   "line": 191,
+   "title": "ST yields at seven c.m. energies",
+   "section_type": "fit"
+  },
+  {
+   "line": 195,
+   "title": "ST efficiencies at seven c.m. energies",
+   "section_type": "fit"
+  },
+  {
+   "line": 199,
+   "title": "DT efficiencies at seven c.m. energies",
+   "section_type": "fit"
+  },
+  {
+   "line": 221,
+   "title": "Systematic uncertainties in the BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 231,
+   "title": "BFs of Lambda_c+ -> n K_S^0 pi+ pi0 and its isospin partners",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

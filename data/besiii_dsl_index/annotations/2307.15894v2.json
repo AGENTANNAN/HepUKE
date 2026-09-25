@@ -1,0 +1,187 @@
+{
+ "paper_id": "2307.15894v2",
+ "source_path": "arxiv_papers/2307.15894v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 253,
+ "n_lines_sent": 144,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 202,
+   "to": 253,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 93,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 95,
+   "line_end": 95,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 97,
+   "line_end": 103,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 105,
+   "line_end": 105,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 107,
+   "line_end": 124,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "reconstruction_methods"
+    },
+    {
+     "line_start": 109,
+     "line_end": 110,
+     "label": "mass_distributions"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "tracking_pid_photon"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 116,
+     "line_end": 118,
+     "label": "missing_pi0_reconstruction"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "background_study"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "tightened_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 126,
+   "line_end": 181,
+   "type": "fit",
+   "title": "Angular distribution and fit"
+  },
+  {
+   "line_start": 183,
+   "line_end": 187,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "selection_and_fit_systematics"
+    },
+    {
+     "line_start": 185,
+     "line_end": 187,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 189,
+   "line_end": 194,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 196,
+   "line_end": 198,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 200,
+   "line_end": 200,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 176,
+   "title": "Fit results for alpha, Delta Phi, sin(Delta Phi), and |G_E/G_M| at each energy point",
+   "section_type": "fit"
+  },
+  {
+   "line": 187,
+   "title": "Systematic uncertainties for alpha, Delta Phi, and sin(Delta Phi) at each energy point",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

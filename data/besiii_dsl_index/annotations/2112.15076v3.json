@@ -1,0 +1,257 @@
+{
+ "paper_id": "2112.15076v3",
+ "source_path": "arxiv_papers/2112.15076v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 296,
+ "n_lines_sent": 170,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 76,
+   "to": 76,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 87,
+   "to": 87,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 89,
+   "to": 89,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 91,
+   "to": 91,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 95,
+   "to": 95,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 256,
+   "to": 296,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 101,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 103,
+   "line_end": 103,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 105,
+   "line_end": 115,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 117,
+   "line_end": 123,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLE"
+  },
+  {
+   "line_start": 125,
+   "line_end": 144,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 125,
+     "line_end": 127,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "pid"
+    },
+    {
+     "line_start": 131,
+     "line_end": 135,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "omega_mass_window"
+    },
+    {
+     "line_start": 139,
+     "line_end": 140,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 142,
+     "line_end": 144,
+     "label": "background_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 146,
+   "line_end": 162,
+   "type": "fit",
+   "title": "IV. BORN CROSS SECTION MEASUREMENT"
+  },
+  {
+   "line_start": 164,
+   "line_end": 209,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 164,
+     "line_end": 166,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "tracking"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "pid"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "reweight_procedure"
+    },
+    {
+     "line_start": 174,
+     "line_end": 193,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 195,
+     "line_end": 197,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 199,
+     "line_end": 200,
+     "label": "figure_3"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "gamma_gamma_mass_window"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "pi0pi0_mass_window"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "isr_vp_correction"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 211,
+   "line_end": 244,
+   "type": "fit",
+   "title": "VI. LINE SHAPE FITTING TO THE CROSS SECTION"
+  },
+  {
+   "line_start": 246,
+   "line_end": 248,
+   "type": "conclusion",
+   "title": "VII. CONCLUSION"
+  },
+  {
+   "line_start": 250,
+   "line_end": 254,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 189,
+   "title": "Born cross sections for e+e- -> omega pi0 pi0",
+   "section_type": "fit"
+  },
+  {
+   "line": 197,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 231,
+   "title": "Fit results for the cross section line shape",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

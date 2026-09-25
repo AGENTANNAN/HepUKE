@@ -1,0 +1,158 @@
+{
+ "paper_id": "1311.1274v1",
+ "source_path": "arxiv_papers/1311.1274v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 87,
+ "n_lines_sent": 32,
+ "skipped_ranges": [
+  {
+   "from": 63,
+   "to": 87,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Study of charmonium decays at BESIII"
+  },
+  {
+   "line_start": 9,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "PRESENTED AT"
+  },
+  {
+   "line_start": 11,
+   "line_end": 13,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 15,
+   "line_end": 28,
+   "type": "results",
+   "title": "2 Search for baryonic decays of psi(3770) and psi(4040)",
+   "units": [
+    {
+     "line_start": 15,
+     "line_end": 17,
+     "label": "motivation"
+    },
+    {
+     "line_start": 19,
+     "line_end": 21,
+     "label": "previous_measurements"
+    },
+    {
+     "line_start": 23,
+     "line_end": 23,
+     "label": "data_samples_and_modes"
+    },
+    {
+     "line_start": 25,
+     "line_end": 26,
+     "label": "figure1_scatter_plots"
+    },
+    {
+     "line_start": 28,
+     "line_end": 28,
+     "label": "branching_fractions_and_upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 30,
+   "line_end": 30,
+   "type": "other",
+   "title": "3 Light hadron spectroscopy in charmonium radiative decays"
+  },
+  {
+   "line_start": 32,
+   "line_end": 43,
+   "type": "results",
+   "title": "3.1 Partial wave analysis of J/psi -> gamma p pbar",
+   "units": [
+    {
+     "line_start": 32,
+     "line_end": 34,
+     "label": "ppbar_threshold_enhancement"
+    },
+    {
+     "line_start": 36,
+     "line_end": 37,
+     "label": "figure2_scatter_plots"
+    },
+    {
+     "line_start": 39,
+     "line_end": 39,
+     "label": "pwa_results"
+    },
+    {
+     "line_start": 41,
+     "line_end": 43,
+     "label": "table1_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 45,
+   "line_end": 53,
+   "type": "results",
+   "title": "3.2 Partial wave analysis of J/psi -> gamma eta eta",
+   "units": [
+    {
+     "line_start": 45,
+     "line_end": 47,
+     "label": "glueball_motivation"
+    },
+    {
+     "line_start": 49,
+     "line_end": 51,
+     "label": "table2_pwa_results"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "pwa_conclusions"
+    }
+   ]
+  },
+  {
+   "line_start": 55,
+   "line_end": 57,
+   "type": "conclusion",
+   "title": "4 Summary"
+  },
+  {
+   "line_start": 59,
+   "line_end": 61,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 43,
+   "title": "Branching fractions and upper limits for baryonic decays of psi(3770) and psi(4040)",
+   "section_type": "results"
+  },
+  {
+   "line": 51,
+   "title": "Summary of PWA results for J/psi -> gamma eta eta",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

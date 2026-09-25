@@ -1,0 +1,235 @@
+{
+ "paper_id": "2401.14720v2",
+ "source_path": "arxiv_papers/2401.14720v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 136,
+ "n_lines_sent": 44,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 97,
+   "to": 136,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 6,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 18,
+   "line_end": 18,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 20,
+   "line_end": 26,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 28,
+   "line_end": 28,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 30,
+   "line_end": 30,
+   "type": "dataset",
+   "title": "Data samples and Monte Carlo simulation"
+  },
+  {
+   "line_start": 32,
+   "line_end": 38,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 32,
+     "line_end": 32,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 34,
+     "line_end": 34,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 36,
+     "line_end": 36,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 38,
+     "line_end": 38,
+     "label": "mass_windows"
+    }
+   ]
+  },
+  {
+   "line_start": 40,
+   "line_end": 48,
+   "type": "fit",
+   "title": "Signal extraction"
+  },
+  {
+   "line_start": 50,
+   "line_end": 56,
+   "type": "results",
+   "title": "Born cross section",
+   "units": [
+    {
+     "line_start": 50,
+     "line_end": 56,
+     "label": "born_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 58,
+   "line_end": 68,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties of the Born cross section measurements",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "overview"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "luminosity_tracking_photon"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "kinematic_fit_jpsi_mass_window"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "angular_distribution_lineshape"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "fit_range_signal_shape_background_shape_branching_fraction"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 70,
+   "line_end": 79,
+   "type": "fit",
+   "title": "Fit to the cross sections"
+  },
+  {
+   "line_start": 81,
+   "line_end": 91,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties of the resonant parameters",
+   "units": [
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "overview"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "beam_energy_bw_parametrization"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "cross_section_measurement"
+    },
+    {
+     "line_start": 87,
+     "line_end": 91,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 93,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 95,
+   "line_end": 95,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 91,
+   "title": "Systematic uncertainties on the resonant parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 128,
+   "title": "Born cross sections of e+e- to omega chi_c1",
+   "section_type": "results"
+  },
+  {
+   "line": 132,
+   "title": "Born cross sections of e+e- to omega chi_c2",
+   "section_type": "results"
+  },
+  {
+   "line": 136,
+   "title": "Systematic uncertainties on cross section measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

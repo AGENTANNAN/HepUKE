@@ -1,0 +1,248 @@
+{
+ "paper_id": "2404.13840v2",
+ "source_path": "arxiv_papers/2404.13840v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 525,
+ "n_lines_sent": 271,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 86,
+   "to": 86,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 106,
+   "to": 108,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 110,
+   "to": 110,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 451,
+   "to": 525,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 114,
+   "type": "front_matter",
+   "title": "BESIII Collaboration and affiliations"
+  },
+  {
+   "line_start": 115,
+   "line_end": 117,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 119,
+   "line_end": 131,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 133,
+   "line_end": 139,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MC SAMPLE"
+  },
+  {
+   "line_start": 141,
+   "line_end": 173,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 149,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 151,
+     "line_end": 161,
+     "label": "omega_gamma_jpsi_selection"
+    },
+    {
+     "line_start": 163,
+     "line_end": 167,
+     "label": "omega_pi_pi_jpsi_selection"
+    },
+    {
+     "line_start": 169,
+     "line_end": 173,
+     "label": "gamma_pi_pi_jpsi_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 175,
+   "line_end": 181,
+   "type": "other",
+   "title": "Figures 1 and 2"
+  },
+  {
+   "line_start": 183,
+   "line_end": 210,
+   "type": "fit",
+   "title": "IV. R MEASUREMENT"
+  },
+  {
+   "line_start": 212,
+   "line_end": 243,
+   "type": "fit",
+   "title": "V. sigma_omegaX(3872)/sigma_omega_chi_cJ MEASUREMENT"
+  },
+  {
+   "line_start": 245,
+   "line_end": 265,
+   "type": "fit",
+   "title": "VI. sigma_gammaX(3872)/sigma_omegaX(3872) MEASUREMENT"
+  },
+  {
+   "line_start": 267,
+   "line_end": 291,
+   "type": "results",
+   "title": "VII. THE CROSS SECTION MEASUREMENT",
+   "units": [
+    {
+     "line_start": 267,
+     "line_end": 275,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 277,
+     "line_end": 291,
+     "label": "cross_section_results"
+    }
+   ]
+  },
+  {
+   "line_start": 293,
+   "line_end": 369,
+   "type": "systematic_uncertainty",
+   "title": "VIII. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 293,
+     "line_end": 311,
+     "label": "systematic_R"
+    },
+    {
+     "line_start": 313,
+     "line_end": 339,
+     "label": "systematic_sigma_omegaX_omega_chi_cJ"
+    },
+    {
+     "line_start": 341,
+     "line_end": 357,
+     "label": "systematic_sigma_gammaX_omegaX"
+    },
+    {
+     "line_start": 359,
+     "line_end": 369,
+     "label": "systematic_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 371,
+   "line_end": 375,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 377,
+   "line_end": 381,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 383,
+   "line_end": 449,
+   "type": "other",
+   "title": "Tables VIII-X and Figures 9-10"
+  }
+ ],
+ "tables": [
+  {
+   "line": 210,
+   "title": "Comparison of R measurements",
+   "section_type": "fit"
+  },
+  {
+   "line": 243,
+   "title": "Results of sigma_omegaX(3872)/sigma_omega_chi_cJ and related parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 311,
+   "title": "Systematic uncertainties for R",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 339,
+   "title": "Systematic uncertainties for sigma_omegaX(3872)/sigma_omega_chi_cJ",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 357,
+   "title": "Systematic uncertainties for sigma_gammaX(3872)/sigma_omegaX(3872)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 365,
+   "title": "Systematic uncertainties for cross section of e+e- -> omega X(3872)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 369,
+   "title": "Systematic uncertainties for cross section of e+e- -> omega chi_c1(chi_c2)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 385,
+   "title": "Born cross section times branching fraction for e+e- -> omega X(3872)",
+   "section_type": "results"
+  },
+  {
+   "line": 389,
+   "title": "Born cross section for e+e- -> omega chi_c2",
+   "section_type": "results"
+  },
+  {
+   "line": 393,
+   "title": "Born cross section for e+e- -> omega chi_c1",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 12.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

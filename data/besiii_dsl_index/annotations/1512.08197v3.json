@@ -1,0 +1,208 @@
+{
+ "paper_id": "1512.08197v3",
+ "source_path": "arxiv_papers/1512.08197v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 199,
+ "n_lines_sent": 78,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 166,
+   "to": 199,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 16,
+   "line_end": 30,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 32,
+   "line_end": 38,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 40,
+   "line_end": 46,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 48,
+   "line_end": 76,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 48,
+     "line_end": 50,
+     "label": "introduction"
+    },
+    {
+     "line_start": 52,
+     "line_end": 65,
+     "label": "phi_to_ks_kl"
+    },
+    {
+     "line_start": 67,
+     "line_end": 73,
+     "label": "phi_to_kplus_kminus"
+    },
+    {
+     "line_start": 75,
+     "line_end": 76,
+     "label": "figure_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 78,
+   "line_end": 99,
+   "type": "fit",
+   "title": "IV. MEASUREMENT OF B(J/psi -> p pbar phi)"
+  },
+  {
+   "line_start": 101,
+   "line_end": 121,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 103,
+     "label": "introduction"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "mdc_tracking"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "pid_efficiency"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "ks_kl_mass_window"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "lambda_veto"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "mass_spectrum_fit"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "weighting_procedure"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 123,
+   "line_end": 150,
+   "type": "results",
+   "title": "VI. UPPER LIMIT OF pp MASS THRESHOLD ENHANCEMENT",
+   "units": [
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "introduction"
+    },
+    {
+     "line_start": 127,
+     "line_end": 133,
+     "label": "combined_fit"
+    },
+    {
+     "line_start": 135,
+     "line_end": 141,
+     "label": "signal_parameterization"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "fit_scenarios"
+    },
+    {
+     "line_start": 145,
+     "line_end": 150,
+     "label": "table_and_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 158,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 160,
+   "line_end": 164,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 96,
+   "title": "Signal yields, weighted detection efficiencies and branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 147,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

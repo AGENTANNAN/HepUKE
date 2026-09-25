@@ -1,0 +1,265 @@
+{
+ "paper_id": "2311.02347v3",
+ "source_path": "arxiv_papers/2311.02347v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 449,
+ "n_lines_sent": 240,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 62,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 108,
+   "to": 108,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 119,
+   "to": 121,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 394,
+   "to": 449,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 7,
+   "line_end": 128,
+   "type": "front_matter",
+   "title": "BESIII Collaboration and affiliations"
+  },
+  {
+   "line_start": 129,
+   "line_end": 129,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 131,
+   "line_end": 161,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 163,
+   "line_end": 169,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO"
+  },
+  {
+   "line_start": 171,
+   "line_end": 181,
+   "type": "other",
+   "title": "III. METHODOLOGY"
+  },
+  {
+   "line_start": 183,
+   "line_end": 231,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 183,
+     "line_end": 189,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "ks_lambda_selection"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "pi0_selection"
+    },
+    {
+     "line_start": 197,
+     "line_end": 205,
+     "label": "delta_e_selection"
+    },
+    {
+     "line_start": 207,
+     "line_end": 213,
+     "label": "mbc_fit"
+    },
+    {
+     "line_start": 215,
+     "line_end": 229,
+     "label": "recoil_mass"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 233,
+   "line_end": 267,
+   "type": "background",
+   "title": "V. BACKGROUND ANALYSIS"
+  },
+  {
+   "line_start": 269,
+   "line_end": 305,
+   "type": "fit",
+   "title": "VI. BRANCHING FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 307,
+   "line_end": 376,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 307,
+     "line_end": 311,
+     "label": "no_extra_charged_track"
+    },
+    {
+     "line_start": 313,
+     "line_end": 313,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 315,
+     "line_end": 315,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 317,
+     "line_end": 333,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 335,
+     "line_end": 337,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 339,
+     "line_end": 366,
+     "label": "pi0_selection"
+    },
+    {
+     "line_start": 368,
+     "line_end": 368,
+     "label": "reweighting"
+    },
+    {
+     "line_start": 370,
+     "line_end": 376,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 378,
+   "line_end": 382,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 384,
+   "line_end": 388,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 390,
+   "line_end": 392,
+   "type": "conclusion",
+   "title": "Table 9"
+  }
+ ],
+ "tables": [
+  {
+   "line": 161,
+   "title": "CM energy and integrated luminosity for each energy point",
+   "section_type": "introduction"
+  },
+  {
+   "line": 256,
+   "title": "Delta E requirements, ST yields, and ST detection efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 277,
+   "title": "DT detection efficiency of Lambda_c+ -> Xi(1530)0 K+",
+   "section_type": "fit"
+  },
+  {
+   "line": 281,
+   "title": "DT detection efficiency of Lambda_c+ -> Xi0 K+ pi0",
+   "section_type": "fit"
+  },
+  {
+   "line": 285,
+   "title": "DT detection efficiency of Lambda_c+ -> n K+ pi0",
+   "section_type": "fit"
+  },
+  {
+   "line": 289,
+   "title": "DT detection efficiency of Lambda_c+ -> Sigma0 K+ pi0",
+   "section_type": "fit"
+  },
+  {
+   "line": 293,
+   "title": "DT detection efficiency of Lambda_c+ -> Lambda K+ pi0",
+   "section_type": "fit"
+  },
+  {
+   "line": 374,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 392,
+   "title": "Comparison between measurement and theoretical predictions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

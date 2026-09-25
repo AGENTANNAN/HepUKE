@@ -1,0 +1,510 @@
+{
+ "paper_id": "2312.02524v2",
+ "source_path": "arxiv_papers/2312.02524v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 693,
+ "n_lines_sent": 377,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 83,
+   "to": 83,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 95,
+   "to": 98,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 633,
+   "to": 693,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 102,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and keywords"
+  },
+  {
+   "line_start": 104,
+   "line_end": 122,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 124,
+   "line_end": 128,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 130,
+   "line_end": 150,
+   "type": "event_selection",
+   "title": "3 EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 130,
+     "line_end": 132,
+     "label": "tracking"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "pid"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 138,
+     "line_end": 150,
+     "label": "dt_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 212,
+   "type": "background",
+   "title": "4 BACKGROUND STUDY AND SIGNAL EXTRACTION"
+  },
+  {
+   "line_start": 214,
+   "line_end": 361,
+   "type": "fit",
+   "title": "5 AMPLITUDE FORMULA"
+  },
+  {
+   "line_start": 363,
+   "line_end": 452,
+   "type": "fit",
+   "title": "6 AMPLITUDE FIT PROCESS AND RESULT"
+  },
+  {
+   "line_start": 454,
+   "line_end": 547,
+   "type": "systematic_uncertainty",
+   "title": "7 SYSTEMATIC UNCERTAINTY OF THE AMPLITUDE ANALYSIS",
+   "units": [
+    {
+     "line_start": 454,
+     "line_end": 488,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 490,
+     "line_end": 490,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 492,
+     "line_end": 492,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 494,
+     "line_end": 494,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 496,
+     "line_end": 496,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 498,
+     "line_end": 498,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 500,
+     "line_end": 500,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 502,
+     "line_end": 502,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 504,
+     "line_end": 504,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 506,
+     "line_end": 506,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 507,
+     "line_end": 507,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 509,
+     "line_end": 509,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 511,
+     "line_end": 511,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 513,
+     "line_end": 513,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 515,
+     "line_end": 515,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 517,
+     "line_end": 517,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 518,
+     "line_end": 518,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 520,
+     "line_end": 520,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 521,
+     "line_end": 521,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 523,
+     "line_end": 523,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 525,
+     "line_end": 525,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 527,
+     "line_end": 527,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 529,
+     "line_end": 529,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 531,
+     "line_end": 531,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 533,
+     "line_end": 533,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 535,
+     "line_end": 535,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 537,
+     "line_end": 537,
+     "label": "blatt_weisskopf_radii"
+    },
+    {
+     "line_start": 539,
+     "line_end": 539,
+     "label": "blatt_weisskopf_radii"
+    },
+    {
+     "line_start": 541,
+     "line_end": 541,
+     "label": "quantum_correlation"
+    },
+    {
+     "line_start": 543,
+     "line_end": 543,
+     "label": "quantum_correlation"
+    },
+    {
+     "line_start": 545,
+     "line_end": 545,
+     "label": "extra_amplitudes"
+    },
+    {
+     "line_start": 547,
+     "line_end": 547,
+     "label": "extra_amplitudes"
+    }
+   ]
+  },
+  {
+   "line_start": 549,
+   "line_end": 621,
+   "type": "results",
+   "title": "8 MEASUREMENT OF BRANCHING FRACTIONS",
+   "units": [
+    {
+     "line_start": 549,
+     "line_end": 577,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 579,
+     "line_end": 579,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 581,
+     "line_end": 581,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 583,
+     "line_end": 583,
+     "label": "pid_efficiency"
+    },
+    {
+     "line_start": 585,
+     "line_end": 585,
+     "label": "pid_efficiency"
+    },
+    {
+     "line_start": 587,
+     "line_end": 587,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 589,
+     "line_end": 589,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 591,
+     "line_end": 591,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 593,
+     "line_end": 593,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 595,
+     "line_end": 595,
+     "label": "st_fit"
+    },
+    {
+     "line_start": 597,
+     "line_end": 597,
+     "label": "st_fit"
+    },
+    {
+     "line_start": 599,
+     "line_end": 599,
+     "label": "dt_fit"
+    },
+    {
+     "line_start": 601,
+     "line_end": 601,
+     "label": "dt_fit"
+    },
+    {
+     "line_start": 603,
+     "line_end": 603,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 605,
+     "line_end": 605,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 607,
+     "line_end": 607,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 609,
+     "line_end": 609,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 611,
+     "line_end": 611,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 613,
+     "line_end": 613,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 615,
+     "line_end": 615,
+     "label": "quantum_correlation_corrections"
+    },
+    {
+     "line_start": 617,
+     "line_end": 617,
+     "label": "quantum_correlation_corrections"
+    },
+    {
+     "line_start": 619,
+     "line_end": 619,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 621,
+     "line_end": 621,
+     "label": "mc_statistics"
+    }
+   ]
+  },
+  {
+   "line_start": 623,
+   "line_end": 627,
+   "type": "conclusion",
+   "title": "9 SUMMARY"
+  },
+  {
+   "line_start": 629,
+   "line_end": 631,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 148,
+   "title": "Delta E requirements for different decay modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 160,
+   "title": "Estimated numbers of peaking background events",
+   "section_type": "background"
+  },
+  {
+   "line": 233,
+   "title": "ST and DT yields, efficiencies, and quantum correlated correction factors",
+   "section_type": "background"
+  },
+  {
+   "line": 311,
+   "title": "Input values of r, R and delta for the three tag modes",
+   "section_type": "fit"
+  },
+  {
+   "line": 315,
+   "title": "Summary of spin factors",
+   "section_type": "fit"
+  },
+  {
+   "line": 372,
+   "title": "Quark components and isospin states for different hadrons",
+   "section_type": "fit"
+  },
+  {
+   "line": 492,
+   "title": "Resonances considered in this analysis",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 496,
+   "title": "Fit parameters, FFs and significances of individual amplitudes",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 500,
+   "title": "Fit parameters, FFs and significance for three-body decays",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 504,
+   "title": "Masses and widths of a1(1260) and pi(1300)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 511,
+   "title": "Fit fractions of interference terms",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 515,
+   "title": "CP-even fractions and comparisons",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 555,
+   "title": "Systematic uncertainties in magnitude of fit parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 559,
+   "title": "Systematic uncertainties in phase of fit parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 563,
+   "title": "Systematic uncertainties in FFs, resonance parameters and CP-even fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 609,
+   "title": "Branching fractions compared to PDG",
+   "section_type": "results"
+  },
+  {
+   "line": 613,
+   "title": "Branching fractions of intermediate processes",
+   "section_type": "results"
+  },
+  {
+   "line": 631,
+   "title": "Relative systematic uncertainties of branching fractions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

@@ -1,0 +1,198 @@
+{
+ "paper_id": "2303.00271v3",
+ "source_path": "arxiv_papers/2303.00271v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 467,
+ "n_lines_sent": 305,
+ "skipped_ranges": [
+  {
+   "from": 143,
+   "to": 144,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 176,
+   "to": 176,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 188,
+   "to": 188,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 201,
+   "to": 203,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 205,
+   "to": 205,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 207,
+   "to": 207,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 404,
+   "to": 467,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 210,
+   "type": "front_matter",
+   "title": "Measurement of Lambda transverse polarization in e+e- collisions at sqrt(s)=3.68-3.71 GeV"
+  },
+  {
+   "line_start": 212,
+   "line_end": 212,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 214,
+   "line_end": 230,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 232,
+   "line_end": 242,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 244,
+   "line_end": 250,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 252,
+   "line_end": 263,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 252,
+     "line_end": 254,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 260,
+     "line_end": 263,
+     "label": "kinematic_fit_and_signal_region"
+    }
+   ]
+  },
+  {
+   "line_start": 265,
+   "line_end": 350,
+   "type": "fit",
+   "title": "4 Extraction of Lambda polarization"
+  },
+  {
+   "line_start": 352,
+   "line_end": 384,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 352,
+     "line_end": 356,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 358,
+     "line_end": 360,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 362,
+     "line_end": 364,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 366,
+     "line_end": 368,
+     "label": "background"
+    },
+    {
+     "line_start": 370,
+     "line_end": 372,
+     "label": "fit_method"
+    },
+    {
+     "line_start": 374,
+     "line_end": 376,
+     "label": "decay_parameter"
+    },
+    {
+     "line_start": 378,
+     "line_end": 384,
+     "label": "summary_of_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 386,
+   "line_end": 392,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 394,
+   "line_end": 402,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  },
+  {
+   "line_start": 404,
+   "line_end": 467,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 384,
+   "title": "Summary of absolute value of the systematic uncertainty of polarization parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 392,
+   "title": "The measured parameters from psi(3686) resonance for merging all scan energy points compared with previous measurements",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 400,
+   "title": "The number of observed events and measured parameters for each energy point",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

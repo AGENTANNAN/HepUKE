@@ -1,0 +1,237 @@
+{
+ "paper_id": "2408.02940v1",
+ "source_path": "arxiv_papers/2408.02940v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 362,
+ "n_lines_sent": 200,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 87,
+   "to": 87,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 111,
+   "to": 111,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 113,
+   "to": 113,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 115,
+   "to": 115,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 119,
+   "to": 119,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 323,
+   "to": 362,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 129,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 131,
+   "line_end": 131,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 133,
+   "line_end": 163,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 165,
+   "line_end": 171,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 173,
+   "line_end": 204,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 173,
+     "line_end": 177,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "event_topology"
+    },
+    {
+     "line_start": 183,
+     "line_end": 187,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "fsr_background"
+    },
+    {
+     "line_start": 191,
+     "line_end": 198,
+     "label": "pi0_veto"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "jpsi_phi_veto"
+    },
+    {
+     "line_start": 202,
+     "line_end": 204,
+     "label": "continuum_background"
+    }
+   ]
+  },
+  {
+   "line_start": 206,
+   "line_end": 256,
+   "type": "fit",
+   "title": "IV. SIGNAL EXTRACTION AND BRANCHING FRACTION"
+  },
+  {
+   "line_start": 258,
+   "line_end": 299,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 258,
+     "line_end": 260,
+     "label": "overview"
+    },
+    {
+     "line_start": 262,
+     "line_end": 264,
+     "label": "n_psi3686"
+    },
+    {
+     "line_start": 266,
+     "line_end": 266,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 270,
+     "line_end": 270,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 274,
+     "line_end": 274,
+     "label": "photon_misidentification"
+    },
+    {
+     "line_start": 276,
+     "line_end": 276,
+     "label": "veto_criteria"
+    },
+    {
+     "line_start": 278,
+     "line_end": 291,
+     "label": "fit_shape"
+    },
+    {
+     "line_start": 293,
+     "line_end": 293,
+     "label": "efficiency_curve"
+    },
+    {
+     "line_start": 295,
+     "line_end": 299,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 301,
+   "line_end": 312,
+   "type": "conclusion",
+   "title": "VI. SUMMARY AND DISCUSSIONS"
+  },
+  {
+   "line_start": 314,
+   "line_end": 316,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 318,
+   "line_end": 322,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 289,
+   "title": "Signal yields, efficiencies, branching fractions and PDG comparison",
+   "section_type": "fit"
+  },
+  {
+   "line": 299,
+   "title": "Relative systematic uncertainties on the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

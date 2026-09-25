@@ -1,0 +1,311 @@
+{
+ "paper_id": "2103.12486v4",
+ "source_path": "arxiv_papers/2103.12486v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 345,
+ "n_lines_sent": 160,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 309,
+   "to": 345,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 18,
+   "line_end": 38,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 40,
+   "line_end": 55,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 57,
+   "line_end": 83,
+   "type": "event_selection",
+   "title": "II. ANALYSIS",
+   "units": [
+    {
+     "line_start": 57,
+     "line_end": 59,
+     "label": "signal_classification"
+    },
+    {
+     "line_start": 61,
+     "line_end": 67,
+     "label": "background_modeling"
+    },
+    {
+     "line_start": 69,
+     "line_end": 83,
+     "label": "cross_section_extraction"
+    }
+   ]
+  },
+  {
+   "line_start": 85,
+   "line_end": 119,
+   "type": "results",
+   "title": "III. RESULTS",
+   "units": [
+    {
+     "line_start": 85,
+     "line_end": 93,
+     "label": "combination_and_systematics"
+    },
+    {
+     "line_start": 95,
+     "line_end": 99,
+     "label": "born_cross_section_results"
+    },
+    {
+     "line_start": 101,
+     "line_end": 119,
+     "label": "form_factor_oscillation"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 123,
+   "type": "conclusion",
+   "title": "IV. CONCLUSION"
+  },
+  {
+   "line_start": 125,
+   "line_end": 125,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  },
+  {
+   "line_start": 127,
+   "line_end": 129,
+   "type": "other",
+   "title": "Appendix A"
+  },
+  {
+   "line_start": 131,
+   "line_end": 133,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 135,
+   "line_end": 142,
+   "type": "results",
+   "title": "1. Results for category A, B, C",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 138,
+     "label": "category_comparison"
+    },
+    {
+     "line_start": 140,
+     "line_end": 142,
+     "label": "category_a_results"
+    }
+   ]
+  },
+  {
+   "line_start": 144,
+   "line_end": 156,
+   "type": "dataset",
+   "title": "2. Monte Carlo Simulation"
+  },
+  {
+   "line_start": 158,
+   "line_end": 171,
+   "type": "detector",
+   "title": "3. Methods"
+  },
+  {
+   "line_start": 173,
+   "line_end": 188,
+   "type": "event_selection",
+   "title": "4. Selections",
+   "units": [
+    {
+     "line_start": 173,
+     "line_end": 175,
+     "label": "general_selection"
+    },
+    {
+     "line_start": 177,
+     "line_end": 182,
+     "label": "photon_verification"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "category_a_selection"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "category_b_selection"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "category_c_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 190,
+   "line_end": 192,
+   "type": "fit",
+   "title": "5. Fitting"
+  },
+  {
+   "line_start": 194,
+   "line_end": 245,
+   "type": "detector",
+   "title": "6. Efficiency Corrections"
+  },
+  {
+   "line_start": 247,
+   "line_end": 275,
+   "type": "systematic_uncertainty",
+   "title": "7. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 247,
+     "line_end": 251,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 253,
+     "line_end": 253,
+     "label": "signal_selection"
+    },
+    {
+     "line_start": 255,
+     "line_end": 255,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 259,
+     "line_end": 259,
+     "label": "trigger_efficiency"
+    },
+    {
+     "line_start": 261,
+     "line_end": 261,
+     "label": "radiative_corrections"
+    },
+    {
+     "line_start": 263,
+     "line_end": 263,
+     "label": "category_specific"
+    },
+    {
+     "line_start": 265,
+     "line_end": 275,
+     "label": "combination"
+    }
+   ]
+  },
+  {
+   "line_start": 277,
+   "line_end": 307,
+   "type": "results",
+   "title": "8. Cross-check",
+   "units": [
+    {
+     "line_start": 277,
+     "line_end": 281,
+     "label": "jpsi_cross_check"
+    },
+    {
+     "line_start": 283,
+     "line_end": 293,
+     "label": "dipole_fit"
+    },
+    {
+     "line_start": 295,
+     "line_end": 307,
+     "label": "oscillation_study"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "line": 97,
+   "title": "Born cross section and effective form factor results",
+   "section_type": "results"
+  },
+  {
+   "line": 142,
+   "title": "Category A results",
+   "section_type": "results"
+  },
+  {
+   "line": 150,
+   "title": "Category B results",
+   "section_type": "results"
+  },
+  {
+   "line": 154,
+   "title": "Category C results",
+   "section_type": "results"
+  },
+  {
+   "line": 179,
+   "title": "Verification of neutral TOF algorithm with gamma gamma",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 291,
+   "title": "Branching fraction of J/psi to n nbar",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 12.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

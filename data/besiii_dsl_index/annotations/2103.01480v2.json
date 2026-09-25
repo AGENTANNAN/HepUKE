@@ -1,0 +1,226 @@
+{
+ "paper_id": "2103.01480v2",
+ "source_path": "arxiv_papers/2103.01480v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 414,
+ "n_lines_sent": 270,
+ "skipped_ranges": [
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 152,
+   "to": 152,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 179,
+   "to": 180,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 182,
+   "to": 182,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 184,
+   "to": 184,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 353,
+   "to": 414,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 186,
+   "type": "front_matter",
+   "title": "Observation of e+e- -> eta psi(2S) at center-of-mass energies from 4.236 to 4.600 GeV"
+  },
+  {
+   "line_start": 188,
+   "line_end": 190,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 192,
+   "line_end": 200,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 202,
+   "line_end": 214,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 216,
+   "line_end": 222,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 224,
+   "line_end": 249,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 224,
+     "line_end": 226,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 230,
+     "line_end": 249,
+     "label": "figure_1"
+    }
+   ]
+  },
+  {
+   "line_start": 251,
+   "line_end": 287,
+   "type": "background",
+   "title": "4 Background analysis"
+  },
+  {
+   "line_start": 289,
+   "line_end": 322,
+   "type": "fit",
+   "title": "5 Cross section measurement"
+  },
+  {
+   "line_start": 324,
+   "line_end": 339,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 324,
+     "line_end": 326,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 328,
+     "line_end": 328,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 329,
+     "line_end": 329,
+     "label": "tracking"
+    },
+    {
+     "line_start": 330,
+     "line_end": 330,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 331,
+     "line_end": 331,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 332,
+     "line_end": 332,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 333,
+     "line_end": 333,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 334,
+     "line_end": 334,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 335,
+     "line_end": 337,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 339,
+     "line_end": 339,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 341,
+   "line_end": 343,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 345,
+   "line_end": 347,
+   "type": "systematic_uncertainty",
+   "title": "Table 5",
+   "units": [
+    {
+     "line_start": 345,
+     "line_end": 347,
+     "label": "systematics_table"
+    }
+   ]
+  },
+  {
+   "line_start": 349,
+   "line_end": 351,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 253,
+   "title": "Background processes",
+   "section_type": "background"
+  },
+  {
+   "line": 277,
+   "title": "Number of gamma gamma psi(2S) events outside eta signal region and F factor",
+   "section_type": "background"
+  },
+  {
+   "line": 301,
+   "title": "Total number of background events in signal region",
+   "section_type": "background"
+  },
+  {
+   "line": 320,
+   "title": "Cross sections and upper limits",
+   "section_type": "fit"
+  },
+  {
+   "line": 347,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

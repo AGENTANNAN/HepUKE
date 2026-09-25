@@ -1,0 +1,365 @@
+{
+ "paper_id": "2303.12468v3",
+ "source_path": "arxiv_papers/2303.12468v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 429,
+ "n_lines_sent": 244,
+ "skipped_ranges": [
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 373,
+   "to": 429,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 114,
+   "type": "front_matter",
+   "title": "Measurement of the branching fraction of D_s^+ -> tau^+ nu_tau via tau^+ -> mu^+ nu_mu nu_tau"
+  },
+  {
+   "line_start": 116,
+   "line_end": 116,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 118,
+   "line_end": 142,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 144,
+   "line_end": 164,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 166,
+   "line_end": 170,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 172,
+   "line_end": 180,
+   "type": "event_selection",
+   "title": "3 ANALYSIS METHOD",
+   "units": [
+    {
+     "line_start": 172,
+     "line_end": 174,
+     "label": "analysis_method_overview"
+    },
+    {
+     "line_start": 176,
+     "line_end": 180,
+     "label": "bf_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 182,
+   "line_end": 222,
+   "type": "event_selection",
+   "title": "4 SINGLE-TAG CANDIDATES",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 184,
+     "label": "st_mode_list"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "track_selection_pid"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "soft_pion_suppression"
+    },
+    {
+     "line_start": 196,
+     "line_end": 204,
+     "label": "mbc_requirement"
+    },
+    {
+     "line_start": 206,
+     "line_end": 207,
+     "label": "figure1"
+    },
+    {
+     "line_start": 209,
+     "line_end": 215,
+     "label": "multiple_candidate_selection"
+    },
+    {
+     "line_start": 217,
+     "line_end": 219,
+     "label": "st_yield_fits"
+    },
+    {
+     "line_start": 221,
+     "line_end": 222,
+     "label": "figure2"
+    }
+   ]
+  },
+  {
+   "line_start": 224,
+   "line_end": 251,
+   "type": "event_selection",
+   "title": "5 DOUBLE-TAG CANDIDATES",
+   "units": [
+    {
+     "line_start": 224,
+     "line_end": 226,
+     "label": "dt_selection_overview"
+    },
+    {
+     "line_start": 228,
+     "line_end": 232,
+     "label": "muon_identification"
+    },
+    {
+     "line_start": 234,
+     "line_end": 246,
+     "label": "kinematic_variables"
+    },
+    {
+     "line_start": 248,
+     "line_end": 249,
+     "label": "figure3"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "m3nu2_requirement"
+    }
+   ]
+  },
+  {
+   "line_start": 253,
+   "line_end": 281,
+   "type": "fit",
+   "title": "6 BRANCHING FRACTION DETERMINATION"
+  },
+  {
+   "line_start": 283,
+   "line_end": 285,
+   "type": "systematic_uncertainty",
+   "title": "7 SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 283,
+     "line_end": 285,
+     "label": "overview"
+    }
+   ]
+  },
+  {
+   "line_start": 287,
+   "line_end": 297,
+   "type": "systematic_uncertainty",
+   "title": "7.1 TAG-MODE DEPENDENT SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 287,
+     "line_end": 289,
+     "label": "overview"
+    },
+    {
+     "line_start": 291,
+     "line_end": 291,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 293,
+     "line_end": 293,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 295,
+     "line_end": 297,
+     "label": "mc_sample_size"
+    }
+   ]
+  },
+  {
+   "line_start": 299,
+   "line_end": 312,
+   "type": "systematic_uncertainty",
+   "title": "7.2 TAG-MODE INDEPENDENT SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 299,
+     "line_end": 299,
+     "label": "overview"
+    },
+    {
+     "line_start": 301,
+     "line_end": 301,
+     "label": "muon_tracking_pid"
+    },
+    {
+     "line_start": 303,
+     "line_end": 303,
+     "label": "gamma_pi0_reconstruction"
+    },
+    {
+     "line_start": 305,
+     "line_end": 305,
+     "label": "m3nu2_requirement"
+    },
+    {
+     "line_start": 307,
+     "line_end": 308,
+     "label": "nextra_charge_requirement"
+    },
+    {
+     "line_start": 310,
+     "line_end": 310,
+     "label": "eextragamma_fit"
+    },
+    {
+     "line_start": 312,
+     "line_end": 312,
+     "label": "tau_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 314,
+   "line_end": 320,
+   "type": "systematic_uncertainty",
+   "title": "7.3 TOTAL SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 314,
+     "line_end": 320,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 322,
+   "line_end": 348,
+   "type": "results",
+   "title": "8 RESULTS",
+   "units": [
+    {
+     "line_start": 322,
+     "line_end": 328,
+     "label": "bf_measurement"
+    },
+    {
+     "line_start": 330,
+     "line_end": 334,
+     "label": "fds_vcs_product"
+    },
+    {
+     "line_start": 336,
+     "line_end": 340,
+     "label": "fds_from_vcs"
+    },
+    {
+     "line_start": 342,
+     "line_end": 348,
+     "label": "vcs_from_fds"
+    }
+   ]
+  },
+  {
+   "line_start": 350,
+   "line_end": 356,
+   "type": "conclusion",
+   "title": "9 SUMMARY"
+  },
+  {
+   "line_start": 358,
+   "line_end": 371,
+   "type": "acknowledgements",
+   "title": "10 ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 232,
+   "title": "Identification criteria for muon candidates",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 297,
+   "title": "ST yields, efficiencies, DT yields, efficiencies and BFs for each tag mode",
+   "section_type": "results"
+  },
+  {
+   "line": 320,
+   "title": "Systematic uncertainties in the BF measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 6.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

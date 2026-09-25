@@ -1,0 +1,487 @@
+{
+ "paper_id": "2306.05194v3",
+ "source_path": "arxiv_papers/2306.05194v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 712,
+ "n_lines_sent": 341,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 88,
+   "to": 89,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 121,
+   "to": 121,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 133,
+   "to": 133,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 151,
+   "to": 151,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 153,
+   "to": 153,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 161,
+   "to": 161,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 579,
+   "to": 712,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 164,
+   "type": "front_matter",
+   "title": "Precision Measurements of D_s^+ -> eta e^+ nu_e and D_s^+ -> eta' e^+ nu_e"
+  },
+  {
+   "line_start": 166,
+   "line_end": 166,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 168,
+   "line_end": 184,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 186,
+   "line_end": 192,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 194,
+   "line_end": 206,
+   "type": "event_selection",
+   "title": "III. ANALYSIS METHOD",
+   "units": [
+    {
+     "line_start": 196,
+     "line_end": 196,
+     "label": "double_tag_strategy"
+    },
+    {
+     "line_start": 198,
+     "line_end": 206,
+     "label": "branching_fraction_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 208,
+   "line_end": 244,
+   "type": "event_selection",
+   "title": "IV. SINGLE-TAG EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "tag_mode_list"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 216,
+     "line_end": 218,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "rho_reconstruction"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "eta_etaprime_reconstruction"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "pion_momentum_and_ks0_veto"
+    },
+    {
+     "line_start": 226,
+     "line_end": 232,
+     "label": "mbc_requirement"
+    },
+    {
+     "line_start": 238,
+     "line_end": 244,
+     "label": "best_candidate_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 246,
+   "line_end": 252,
+   "type": "event_selection",
+   "title": "V. DOUBLE-TAG EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "transition_selection"
+    },
+    {
+     "line_start": 250,
+     "line_end": 250,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 252,
+     "line_end": 252,
+     "label": "positron_identification"
+    }
+   ]
+  },
+  {
+   "line_start": 254,
+   "line_end": 268,
+   "type": "results",
+   "title": "VI. BRANCHING FRACTIONS",
+   "units": [
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "fit_description"
+    },
+    {
+     "line_start": 264,
+     "line_end": 264,
+     "label": "branching_fraction_results"
+    }
+   ]
+  },
+  {
+   "line_start": 270,
+   "line_end": 320,
+   "type": "systematic_uncertainty",
+   "title": "B. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "st_ds_yields"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 282,
+     "line_end": 287,
+     "label": "pi_tracking_pid"
+    },
+    {
+     "line_start": 288,
+     "line_end": 290,
+     "label": "e_tracking_pid"
+    },
+    {
+     "line_start": 292,
+     "line_end": 292,
+     "label": "transition_gamma_pi0_reconstruction"
+    },
+    {
+     "line_start": 293,
+     "line_end": 293,
+     "label": "smallest_delta_e"
+    },
+    {
+     "line_start": 294,
+     "line_end": 301,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 302,
+     "line_end": 302,
+     "label": "hadronic_transition_form_factors"
+    },
+    {
+     "line_start": 303,
+     "line_end": 303,
+     "label": "eta_etaprime_selection"
+    },
+    {
+     "line_start": 304,
+     "line_end": 306,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 307,
+     "line_end": 307,
+     "label": "chi2_requirement"
+    },
+    {
+     "line_start": 308,
+     "line_end": 308,
+     "label": "m_eta_etaprime_e_requirement"
+    },
+    {
+     "line_start": 309,
+     "line_end": 309,
+     "label": "cos_theta_gamma_miss_requirement"
+    },
+    {
+     "line_start": 315,
+     "line_end": 315,
+     "label": "extra_energy_and_tracks_requirements"
+    },
+    {
+     "line_start": 316,
+     "line_end": 316,
+     "label": "mmiss2_fit"
+    },
+    {
+     "line_start": 317,
+     "line_end": 317,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 318,
+     "line_end": 320,
+     "label": "quoted_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 322,
+   "line_end": 532,
+   "type": "fit",
+   "title": "VII. HADRONIC TRANSITION FORM FACTORS"
+  },
+  {
+   "line_start": 534,
+   "line_end": 560,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 562,
+   "line_end": 577,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 180,
+   "title": "Theoretical predictions of hadronic transition form factors",
+   "section_type": "introduction"
+  },
+  {
+   "line": 236,
+   "title": "MBC requirements for various energy points",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 262,
+   "title": "NST, epsilon_ST, epsilon_DT for various signal decays",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 268,
+   "title": "Signal efficiencies, yields, and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 313,
+   "title": "Relative systematic uncertainties on branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 402,
+   "title": "Efficiency correction factors in each q2 bin",
+   "section_type": "fit"
+  },
+  {
+   "line": 406,
+   "title": "Efficiency matrices for Ds+ to eta e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 410,
+   "title": "Efficiency matrices for Ds+ to eta' e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 456,
+   "title": "Partial decay rates of Ds+ to eta e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 460,
+   "title": "Partial decay rates of Ds+ to eta' e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 512,
+   "title": "Systematic uncertainties of measured decay rates for eta e+ nu_e",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 540,
+   "title": "Systematic uncertainties of measured decay rates for eta' e+ nu_e",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 547,
+   "title": "Statistical and systematic uncertainty density matrices for eta e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 549,
+   "title": "Systematic correlation matrix for eta e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 575,
+   "title": "Statistical correlation matrix for eta' e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 594,
+   "title": "Parameters from individual fits",
+   "section_type": "fit"
+  },
+  {
+   "line": 598,
+   "title": "Parameters from simultaneous fits",
+   "section_type": "fit"
+  },
+  {
+   "line": 666,
+   "title": "Signal efficiencies, yields, and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 681,
+   "title": "Parameters from simultaneous fits",
+   "section_type": "fit"
+  },
+  {
+   "line": 685,
+   "title": "Partial decay rates of Ds+ to eta e+ nu_e at 4.178 GeV",
+   "section_type": "fit"
+  },
+  {
+   "line": 698,
+   "title": "Partial decay rates of Ds+ to eta' e+ nu_e at 4.178 GeV",
+   "section_type": "fit"
+  },
+  {
+   "line": 706,
+   "title": "Statistical and systematic uncertainty density matrices for eta e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 708,
+   "title": "Systematic correlation matrix for eta e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 712,
+   "title": "Statistical correlation matrix for eta' e+ nu_e",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 194-206 before line 196",
+  "gap in 208-244 before line 210",
+  "gap in 208-244 before line 238",
+  "gap in 246-252 before line 248",
+  "gap in 254-268 before line 258",
+  "gap in 254-268 before line 264",
+  "units of 254-268 stop at 264, not 268",
+  "gap in 270-320 before line 278",
+  "gap in 270-320 before line 315"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

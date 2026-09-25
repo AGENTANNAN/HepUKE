@@ -1,0 +1,198 @@
+{
+ "paper_id": "2107.06704v1",
+ "source_path": "arxiv_papers/2107.06704v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 161,
+ "n_lines_sent": 64,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 123,
+   "to": 161,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 16,
+   "line_end": 16,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 18,
+   "line_end": 28,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 30,
+   "line_end": 30,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 32,
+   "line_end": 59,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 32,
+     "line_end": 38,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 40,
+     "line_end": 54,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 56,
+     "line_end": 59,
+     "label": "st_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 61,
+   "line_end": 91,
+   "type": "event_selection",
+   "title": "Signal selection and background suppression",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 87,
+     "label": "signal_selection"
+    },
+    {
+     "line_start": 89,
+     "line_end": 91,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 100,
+   "type": "fit",
+   "title": "Signal yield determination"
+  },
+  {
+   "line_start": 102,
+   "line_end": 105,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "signal_mc_model"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "tracking"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "pid"
+    },
+    {
+     "line_start": 102,
+     "line_end": 105,
+     "label": "fit_procedures"
+    }
+   ]
+  },
+  {
+   "line_start": 107,
+   "line_end": 115,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 109,
+     "line_end": 115,
+     "label": "cp_asymmetry"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 119,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 121,
+   "line_end": 121,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 97,
+   "title": "ST and DT yields, efficiencies and branching fractions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 102-105 share boundary line 102",
+  "units of 102-105 share boundary line 102",
+  "units of 102-105 share boundary line 102",
+  "units of 102-105 share boundary line 102",
+  "units of 102-105 share boundary line 102"
+ ],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

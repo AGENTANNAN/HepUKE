@@ -1,0 +1,431 @@
+{
+ "paper_id": "2310.15601v1",
+ "source_path": "arxiv_papers/2310.15601v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 318,
+ "n_lines_sent": 164,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 83,
+   "to": 83,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 132,
+   "to": 132,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 134,
+   "to": 134,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 286,
+   "to": 318,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 4,
+   "line_end": 4,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 12,
+   "line_end": 13,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 29,
+   "line_end": 29,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 32,
+   "line_end": 32,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 47,
+   "line_end": 47,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 54,
+   "line_end": 54,
+   "type": "front_matter",
+   "title": "Collaboration"
+  },
+  {
+   "line_start": 56,
+   "line_end": 130,
+   "type": "front_matter",
+   "title": "Affiliations"
+  },
+  {
+   "line_start": 136,
+   "line_end": 136,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 138,
+   "line_end": 144,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 146,
+   "line_end": 150,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 152,
+   "line_end": 160,
+   "type": "event_selection",
+   "title": "III. MEASUREMENT METHOD",
+   "units": [
+    {
+     "line_start": 152,
+     "line_end": 160,
+     "label": "double_tag_method"
+    }
+   ]
+  },
+  {
+   "line_start": 162,
+   "line_end": 208,
+   "type": "event_selection",
+   "title": "IV. ST CANDIDATES",
+   "units": [
+    {
+     "line_start": 162,
+     "line_end": 166,
+     "label": "st_tag_modes"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "table_content"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "ks0_selection"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "mbc_definition"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "pi0_eta_selection"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "transition_pion_suppression"
+    },
+    {
+     "line_start": 187,
+     "line_end": 189,
+     "label": "mbc_formula"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "mbc_distribution"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "multiple_candidates"
+    },
+    {
+     "line_start": 195,
+     "line_end": 197,
+     "label": "mrec_formula"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "tag_fit"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "background_subtraction"
+    },
+    {
+     "line_start": 203,
+     "line_end": 204,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "st_yields"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "signal_side_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 210,
+   "line_end": 226,
+   "type": "event_selection",
+   "title": "V. DT CANDIDATES",
+   "units": [
+    {
+     "line_start": 210,
+     "line_end": 212,
+     "label": "dt_reconstruction"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "efficiencies"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "table_content"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "significance"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 228,
+   "line_end": 254,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 228,
+     "line_end": 230,
+     "label": "introduction"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 234,
+     "line_end": 234,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 236,
+     "line_end": 236,
+     "label": "photon_pi0"
+    },
+    {
+     "line_start": 238,
+     "line_end": 238,
+     "label": "msig_fit"
+    },
+    {
+     "line_start": 240,
+     "line_end": 240,
+     "label": "ds_star_branching"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 244,
+     "line_end": 245,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 247,
+     "line_end": 248,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 250,
+     "line_end": 250,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 252,
+     "line_end": 252,
+     "label": "table_content"
+    },
+    {
+     "line_start": 254,
+     "line_end": 254,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 256,
+   "line_end": 268,
+   "type": "results",
+   "title": "VII. RESULTS",
+   "units": [
+    {
+     "line_start": 256,
+     "line_end": 260,
+     "label": "upper_limit"
+    },
+    {
+     "line_start": 262,
+     "line_end": 266,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "upper_limit_statement"
+    }
+   ]
+  },
+  {
+   "line_start": 270,
+   "line_end": 278,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 280,
+   "line_end": 284,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 173,
+   "title": "Requirements of M_BC for each energy point",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 222,
+   "title": "Fitted yields and efficiencies for ST and DT events",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 252,
+   "title": "Systematic uncertainties on branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 276,
+   "title": "Branching fractions and ratios",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

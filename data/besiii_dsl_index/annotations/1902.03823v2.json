@@ -1,0 +1,213 @@
+{
+ "paper_id": "1902.03823v2",
+ "source_path": "arxiv_papers/1902.03823v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 132,
+ "n_lines_sent": 42,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 102,
+   "to": 132,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 23,
+   "line_end": 27,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 25,
+   "line_end": 25,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 29,
+   "line_end": 45,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 47,
+   "line_end": 53,
+   "type": "event_selection",
+   "title": "Event selection and inclusive measurement",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "track_and_conversion_selection"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "recoil_mass_fit"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "efficiency_and_correction"
+    }
+   ]
+  },
+  {
+   "line_start": 55,
+   "line_end": 56,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 58,
+   "line_end": 70,
+   "type": "event_selection",
+   "title": "Exclusive event selection",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "common_selection_criteria"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "gamma_pi_pi_selection"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "eta_pi_pi_selection"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "eta_pi0_pi0_selection"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "gamma_omega_selection"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "gamma_gamma_selection"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "mass_spectra_fits"
+    }
+   ]
+  },
+  {
+   "line_start": 72,
+   "line_end": 72,
+   "type": "results",
+   "title": "Branching fraction results",
+   "units": [
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 74,
+   "line_end": 92,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "overview"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "tracking_and_photon_detection"
+    },
+    {
+     "line_start": 78,
+     "line_end": 80,
+     "label": "table_i"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "radiative_photon_eta_pi0_kinematic_fit"
+    },
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "inclusive_measurement"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "jpsi_to_gamma_eta_prime"
+    },
+    {
+     "line_start": 88,
+     "line_end": 92,
+     "label": "table_ii"
+    }
+   ]
+  },
+  {
+   "line_start": 94,
+   "line_end": 98,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 100,
+   "line_end": 100,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 80,
+   "title": "Summary of measured BFs for eta' decays",
+   "section_type": "results"
+  },
+  {
+   "line": 92,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 98,
+   "title": "Comparison of measured decay widths with theory",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 23-27 / 25-25"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

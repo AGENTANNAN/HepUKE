@@ -1,0 +1,210 @@
+{
+ "paper_id": "1310.5826v1",
+ "source_path": "arxiv_papers/1310.5826v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 184,
+ "n_lines_sent": 87,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 177,
+   "to": 184,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 11,
+   "line_end": 27,
+   "type": "front_matter",
+   "title": "Title, authors, and PACS"
+  },
+  {
+   "line_start": 29,
+   "line_end": 45,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 47,
+   "line_end": 51,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 53,
+   "line_end": 79,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 53,
+     "line_end": 55,
+     "label": "final_state_reconstruction"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 63,
+     "line_end": 67,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "lambda_mass_window"
+    },
+    {
+     "line_start": 71,
+     "line_end": 73,
+     "label": "kinematic_fit_and_sigma_fit"
+    },
+    {
+     "line_start": 75,
+     "line_end": 79,
+     "label": "neutron_recoil_and_sigma_fits"
+    }
+   ]
+  },
+  {
+   "line_start": 81,
+   "line_end": 97,
+   "type": "background",
+   "title": "IV. BACKGROUND STUDY"
+  },
+  {
+   "line_start": 99,
+   "line_end": 107,
+   "type": "detector",
+   "title": "V. DETECTION EFFICIENCY DETERMINATION"
+  },
+  {
+   "line_start": 109,
+   "line_end": 131,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 109,
+     "line_end": 111,
+     "label": "tracking"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "pid_and_photon_detection"
+    },
+    {
+     "line_start": 115,
+     "line_end": 123,
+     "label": "fit_range_and_background_shape"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "intermediate_excited_states"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "branching_fractions_and_normalization"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 133,
+   "line_end": 149,
+   "type": "results",
+   "title": "VII. RESULTS",
+   "units": [
+    {
+     "line_start": 133,
+     "line_end": 141,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 143,
+     "line_end": 149,
+     "label": "branching_fraction_results"
+    }
+   ]
+  },
+  {
+   "line_start": 151,
+   "line_end": 165,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 167,
+   "line_end": 169,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 171,
+   "line_end": 175,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 145,
+   "title": "Branching fractions and values used in the calculation for each decay mode",
+   "section_type": "results"
+  },
+  {
+   "line": 173,
+   "title": "Summary of systematic sources and contributions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 7.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

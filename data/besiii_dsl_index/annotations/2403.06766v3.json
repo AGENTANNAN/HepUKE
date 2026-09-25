@@ -1,0 +1,292 @@
+{
+ "paper_id": "2403.06766v3",
+ "source_path": "arxiv_papers/2403.06766v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 368,
+ "n_lines_sent": 207,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 75,
+   "to": 75,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 77,
+   "to": 77,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 114,
+   "to": 114,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 126,
+   "to": 126,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 138,
+   "to": 140,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 142,
+   "to": 142,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 351,
+   "to": 368,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 147,
+   "type": "front_matter",
+   "title": "Determination of the number of ψ(3686) events taken at BESIII"
+  },
+  {
+   "line_start": 149,
+   "line_end": 151,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 153,
+   "line_end": 157,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 159,
+   "line_end": 165,
+   "type": "detector",
+   "title": "2 BEPCII and BESIII Detector"
+  },
+  {
+   "line_start": 167,
+   "line_end": 205,
+   "type": "event_selection",
+   "title": "3 Event Selection",
+   "units": [
+    {
+     "line_start": 167,
+     "line_end": 169,
+     "label": "event_categories"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "charged_track_and_photon_selection"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "multiplicity_classification"
+    },
+    {
+     "line_start": 175,
+     "line_end": 191,
+     "label": "type_ii_selection"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "type_i_selection"
+    },
+    {
+     "line_start": 195,
+     "line_end": 205,
+     "label": "vertex_and_signal_yield"
+    }
+   ]
+  },
+  {
+   "line_start": 208,
+   "line_end": 239,
+   "type": "background",
+   "title": "4 Background Analysis"
+  },
+  {
+   "line_start": 241,
+   "line_end": 255,
+   "type": "fit",
+   "title": "5 Numerical Results"
+  },
+  {
+   "line_start": 257,
+   "line_end": 341,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 257,
+     "line_end": 259,
+     "label": "overview"
+    },
+    {
+     "line_start": 261,
+     "line_end": 263,
+     "label": "polar_angle"
+    },
+    {
+     "line_start": 265,
+     "line_end": 267,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 269,
+     "line_end": 271,
+     "label": "momentum_and_opening_angle"
+    },
+    {
+     "line_start": 273,
+     "line_end": 275,
+     "label": "leb_contamination"
+    },
+    {
+     "line_start": 277,
+     "line_end": 279,
+     "label": "extraction_method"
+    },
+    {
+     "line_start": 281,
+     "line_end": 292,
+     "label": "table1_and_figure5"
+    },
+    {
+     "line_start": 294,
+     "line_end": 296,
+     "label": "vertex_requirement"
+    },
+    {
+     "line_start": 298,
+     "line_end": 300,
+     "label": "scaling_factor"
+    },
+    {
+     "line_start": 302,
+     "line_end": 304,
+     "label": "pi0_mass_requirement"
+    },
+    {
+     "line_start": 306,
+     "line_end": 312,
+     "label": "missing_ngood0"
+    },
+    {
+     "line_start": 314,
+     "line_end": 316,
+     "label": "charged_track_multiplicity"
+    },
+    {
+     "line_start": 318,
+     "line_end": 320,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 322,
+     "line_end": 324,
+     "label": "trigger_efficiency"
+    },
+    {
+     "line_start": 326,
+     "line_end": 328,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 330,
+     "line_end": 337,
+     "label": "table2"
+    },
+    {
+     "line_start": 339,
+     "line_end": 341,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 343,
+   "line_end": 347,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 349,
+   "line_end": 349,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 283,
+   "title": "Number of hadronic events in ψ(3686) data for different N_good requirements",
+   "section_type": "background"
+  },
+  {
+   "line": 337,
+   "title": "Relative systematic uncertainties in the determination of the number of ψ(3686) events",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

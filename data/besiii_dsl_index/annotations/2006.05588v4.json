@@ -1,0 +1,298 @@
+{
+ "paper_id": "2006.05588v4",
+ "source_path": "arxiv_papers/2006.05588v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 407,
+ "n_lines_sent": 213,
+ "skipped_ranges": [
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 377,
+   "to": 407,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 55,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 57,
+   "line_end": 73,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 75,
+   "line_end": 88,
+   "type": "detector",
+   "title": "II. LUNDCHARM MODEL"
+  },
+  {
+   "line_start": 90,
+   "line_end": 140,
+   "type": "event_selection",
+   "title": "III. MULTIPLICITY DISTRIBUTION OF CHARGED TRACKS",
+   "units": [
+    {
+     "line_start": 90,
+     "line_end": 98,
+     "label": "method"
+    },
+    {
+     "line_start": 100,
+     "line_end": 109,
+     "label": "nch0_selection_fit"
+    },
+    {
+     "line_start": 111,
+     "line_end": 119,
+     "label": "results"
+    },
+    {
+     "line_start": 121,
+     "line_end": 140,
+     "label": "nch_gt0_selection_fitting"
+    }
+   ]
+  },
+  {
+   "line_start": 142,
+   "line_end": 182,
+   "type": "event_selection",
+   "title": "IV. MULTIPLICITY DISTRIBUTION OF THE NUMBER OF EMC SHOWERS",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 174,
+     "label": "mc_study_emc_energy_deposits"
+    },
+    {
+     "line_start": 176,
+     "line_end": 182,
+     "label": "nsh_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 184,
+   "line_end": 211,
+   "type": "event_selection",
+   "title": "V. MULTIPLICITY DISTRIBUTION OF THE NUMBER OF π0S",
+   "units": [
+    {
+     "line_start": 184,
+     "line_end": 211,
+     "label": "pi0_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 213,
+   "line_end": 312,
+   "type": "fit",
+   "title": "VI. PRODUCED DISTRIBUTIONS"
+  },
+  {
+   "line_start": 314,
+   "line_end": 346,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 314,
+     "line_end": 318,
+     "label": "overview"
+    },
+    {
+     "line_start": 320,
+     "line_end": 320,
+     "label": "fitting_uncertainties"
+    },
+    {
+     "line_start": 322,
+     "line_end": 322,
+     "label": "charged_track_systematics"
+    },
+    {
+     "line_start": 324,
+     "line_end": 324,
+     "label": "photon_pion_systematics"
+    },
+    {
+     "line_start": 326,
+     "line_end": 328,
+     "label": "pdf_modification"
+    },
+    {
+     "line_start": 330,
+     "line_end": 340,
+     "label": "corrected_pdf_fits"
+    },
+    {
+     "line_start": 342,
+     "line_end": 346,
+     "label": "selection_criteria_variation"
+    }
+   ]
+  },
+  {
+   "line_start": 348,
+   "line_end": 364,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 366,
+   "line_end": 368,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 370,
+   "line_end": 376,
+   "type": "other",
+   "title": "Tables"
+  }
+ ],
+ "tables": [
+  {
+   "line": 81,
+   "title": "Fractions of charmonium unmeasured decays",
+   "section_type": "detector"
+  },
+  {
+   "line": 138,
+   "title": "Detected data events, efficiencies, and scaled simulated events for chi_cJ to anything",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 150,
+   "title": "Detected data events, efficiencies, and scaled simulated events for chi_c1/2 to gamma J/psi",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 154,
+   "title": "Comparison of event fractions with N_ch for data and scaled MC for chi_cJ hadrons",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 161,
+   "title": "Comparison of event fractions with N_ch for data and scaled MC for chi_c1,2 to gamma J/psi",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 194,
+   "title": "Comparison of event fractions with N_sh between data and scaled MC for psi(3686) to gamma chi_cJ",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 198,
+   "title": "Comparison of event fractions with N_sh between data and scaled MC for chi_c1,2 to gamma J/psi",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 206,
+   "title": "Fraction R of events that are valid pi0s versus N_pi0",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 229,
+   "title": "Comparison of event fractions with N_pi0 for data and scaled MC for chi_cJ",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 240,
+   "title": "Comparison of event fractions with N_pi0 for data and scaled MC for chi_c1,2 to gamma J/psi",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 263,
+   "title": "P_N_ch^P event fractions for data and MC for chi_cJ",
+   "section_type": "fit"
+  },
+  {
+   "line": 267,
+   "title": "P_N_ch^P event fractions for data and MC for J/psi1,2",
+   "section_type": "fit"
+  },
+  {
+   "line": 298,
+   "title": "Mean charged multiplicity, dispersion, and ratio for chi_cJ to hadrons",
+   "section_type": "fit"
+  },
+  {
+   "line": 302,
+   "title": "P_N_gamma^P event fractions for data and MC for chi_cJ",
+   "section_type": "fit"
+  },
+  {
+   "line": 306,
+   "title": "P_N_gamma^P event fractions for data and MC for J/psi1,2",
+   "section_type": "fit"
+  },
+  {
+   "line": 332,
+   "title": "Results from MC input-output test for N_ch^P",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 336,
+   "title": "Results from input-output test for N_gamma^P",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 372,
+   "title": "Systematic uncertainties for N_ch, N_sh, and N_pi0 event fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 389,
+   "title": "Systematic uncertainties for P_N_ch^P and P_N_gamma^P event fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 395,
+   "title": "Detected data events, efficiencies, and scaled simulated events for chi_cJ to anything (N_sh)",
+   "section_type": "other"
+  },
+  {
+   "line": 399,
+   "title": "Detected data events, efficiencies, and scaled simulated events for chi_c1/2 to gamma J/psi (N_sh)",
+   "section_type": "other"
+  },
+  {
+   "line": 403,
+   "title": "Detected data events, efficiencies, and scaled simulated events for chi_cJ to anything (N_pi0)",
+   "section_type": "other"
+  },
+  {
+   "line": 407,
+   "title": "Detected data events, efficiencies, and scaled simulated events for chi_c1/2 to gamma J/psi (N_pi0)",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

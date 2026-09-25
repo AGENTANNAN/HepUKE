@@ -1,0 +1,217 @@
+{
+ "paper_id": "1901.06627v2",
+ "source_path": "arxiv_papers/1901.06627v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 152,
+ "n_lines_sent": 61,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 138,
+   "to": 152,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 9,
+   "line_end": 28,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 30,
+   "line_end": 38,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 40,
+   "line_end": 44,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 46,
+   "line_end": 63,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 46,
+     "line_end": 48,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "lepton_pid_and_kinematic_fit"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "background_categories"
+    },
+    {
+     "line_start": 56,
+     "line_end": 59,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "eta_background_veto"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "continuum_background"
+    }
+   ]
+  },
+  {
+   "line_start": 65,
+   "line_end": 80,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 82,
+   "line_end": 89,
+   "type": "fit",
+   "title": "V. TRANSITION FORM FACTOR MEASUREMENT"
+  },
+  {
+   "line_start": 91,
+   "line_end": 100,
+   "type": "results",
+   "title": "Tables and figures",
+   "units": [
+    {
+     "line_start": 91,
+     "line_end": 93,
+     "label": "branching_fraction_table"
+    },
+    {
+     "line_start": 95,
+     "line_end": 97,
+     "label": "tff_table"
+    },
+    {
+     "line_start": 99,
+     "line_end": 100,
+     "label": "tff_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 104,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty details",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "tracking_and_photon_detection"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 106,
+   "line_end": 120,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 110,
+     "label": "tracking"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "jpsi_mass_and_kinematic_requirements"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "normalization_and_branching_fractions"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 122,
+   "line_end": 130,
+   "type": "conclusion",
+   "title": "VII. RESULTS AND DISCUSSION"
+  },
+  {
+   "line_start": 132,
+   "line_end": 136,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 93,
+   "title": "Signal yields, detection efficiency, branching fraction and ratio for each decay channel",
+   "section_type": "results"
+  },
+  {
+   "line": 97,
+   "title": "Signal yields, measured branching fraction, QED predicted branching fraction and TFF in each bin",
+   "section_type": "results"
+  },
+  {
+   "line": 128,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

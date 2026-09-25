@@ -1,0 +1,167 @@
+{
+ "paper_id": "2204.11058v3",
+ "source_path": "arxiv_papers/2204.11058v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 144,
+ "n_lines_sent": 54,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 104,
+   "to": 144,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Precise Measurements of Decay Parameters and CP Asymmetry with Entangled Lambda-Lambda pairs"
+  },
+  {
+   "line_start": 14,
+   "line_end": 14,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 16,
+   "line_end": 20,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 22,
+   "line_end": 41,
+   "type": "other",
+   "title": "Theoretical formalism"
+  },
+  {
+   "line_start": 43,
+   "line_end": 43,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 45,
+   "line_end": 50,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "track_and_vertex_selection"
+    },
+    {
+     "line_start": 47,
+     "line_end": 50,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 52,
+   "line_end": 85,
+   "type": "fit",
+   "title": "Maximum likelihood fit"
+  },
+  {
+   "line_start": 87,
+   "line_end": 91,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "background"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "tracking"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "lambda_vertex_fit"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "fit_method"
+    },
+    {
+     "line_start": 89,
+     "line_end": 91,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 98,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 100,
+   "line_end": 102,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 68,
+   "title": "Angular distribution parameters and asymmetry parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 91,
+   "title": "Absolute systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 87-91 share boundary line 87",
+  "units of 87-91 share boundary line 87",
+  "units of 87-91 share boundary line 87",
+  "units of 87-91 share boundary line 87"
+ ],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

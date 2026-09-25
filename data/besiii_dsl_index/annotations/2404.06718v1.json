@@ -1,0 +1,357 @@
+{
+ "paper_id": "2404.06718v1",
+ "source_path": "arxiv_papers/2404.06718v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 271,
+ "n_lines_sent": 141,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 238,
+   "to": 271,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Measurement of the Born cross section for e+e- -> eta h_c at center-of-mass energies between 4.1 and 4.6 GeV"
+  },
+  {
+   "line_start": 5,
+   "line_end": 149,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 151,
+   "line_end": 151,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 153,
+   "line_end": 153,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 155,
+   "line_end": 159,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 161,
+   "line_end": 161,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 163,
+   "line_end": 163,
+   "type": "dataset",
+   "title": "Data sets and event reconstruction"
+  },
+  {
+   "line_start": 165,
+   "line_end": 172,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 165,
+     "line_end": 166,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "optimization"
+    },
+    {
+     "line_start": 170,
+     "line_end": 172,
+     "label": "signal_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 174,
+   "line_end": 174,
+   "type": "fit",
+   "title": "Signal yield extraction"
+  },
+  {
+   "line_start": 176,
+   "line_end": 180,
+   "type": "results",
+   "title": "Figures 1 and 2",
+   "units": [
+    {
+     "line_start": 176,
+     "line_end": 177,
+     "label": "figure1"
+    },
+    {
+     "line_start": 179,
+     "line_end": 180,
+     "label": "figure2"
+    }
+   ]
+  },
+  {
+   "line_start": 182,
+   "line_end": 190,
+   "type": "fit",
+   "title": "Born cross section calculation"
+  },
+  {
+   "line_start": 192,
+   "line_end": 208,
+   "type": "fit",
+   "title": "Cross section line shape fit"
+  },
+  {
+   "line_start": 210,
+   "line_end": 212,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 210,
+     "line_end": 212,
+     "label": "table1"
+    }
+   ]
+  },
+  {
+   "line_start": 214,
+   "line_end": 214,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties for Born cross sections",
+   "units": [
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "vp_correction"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "efficiency_weight"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "efficiency"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "angular_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 216,
+   "line_end": 217,
+   "type": "results",
+   "title": "Figure 3",
+   "units": [
+    {
+     "line_start": 216,
+     "line_end": 217,
+     "label": "figure3"
+    }
+   ]
+  },
+  {
+   "line_start": 219,
+   "line_end": 221,
+   "type": "systematic_uncertainty",
+   "title": "Table II",
+   "units": [
+    {
+     "line_start": 219,
+     "line_end": 221,
+     "label": "table2"
+    }
+   ]
+  },
+  {
+   "line_start": 223,
+   "line_end": 223,
+   "type": "systematic_uncertainty",
+   "title": "Summary of systematic uncertainties",
+   "units": [
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 225,
+   "line_end": 225,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties for fit parameters",
+   "units": [
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "fit_model"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "cms_energy"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "beam_energy_spread"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "cross_section_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 227,
+   "line_end": 227,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 229,
+   "line_end": 229,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 231,
+   "line_end": 233,
+   "type": "systematic_uncertainty",
+   "title": "Table III",
+   "units": [
+    {
+     "line_start": 231,
+     "line_end": 233,
+     "label": "table3"
+    }
+   ]
+  },
+  {
+   "line_start": 235,
+   "line_end": 235,
+   "type": "acknowledgements",
+   "title": "Acknowledgements (continued)"
+  },
+  {
+   "line_start": 237,
+   "line_end": 237,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 212,
+   "title": "Results of the fit to the distribution of sigma^Dressed(e+e- -> eta h_c) for the first resonance",
+   "section_type": "results"
+  },
+  {
+   "line": 221,
+   "title": "Relative systematic uncertainties on sigma^Born(e+e- -> eta h_c) at sqrt(s)=4.179 GeV",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 233,
+   "title": "Systematic uncertainties due to the fit of the cross section line shape",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 14.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 214-214 share boundary line 214",
+  "units of 214-214 share boundary line 214",
+  "units of 214-214 share boundary line 214",
+  "units of 214-214 share boundary line 214",
+  "units of 214-214 share boundary line 214",
+  "units of 214-214 share boundary line 214",
+  "units of 214-214 share boundary line 214",
+  "units of 214-214 share boundary line 214",
+  "units of 214-214 share boundary line 214",
+  "units of 225-225 share boundary line 225",
+  "units of 225-225 share boundary line 225",
+  "units of 225-225 share boundary line 225"
+ ],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

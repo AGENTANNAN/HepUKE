@@ -1,0 +1,261 @@
+{
+ "paper_id": "2410.13478v1",
+ "source_path": "arxiv_papers/2410.13478v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 351,
+ "n_lines_sent": 187,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 120,
+   "to": 120,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 142,
+   "to": 142,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 146,
+   "to": 146,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 150,
+   "to": 150,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 325,
+   "to": 351,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 172,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 174,
+   "line_end": 178,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 180,
+   "line_end": 186,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 188,
+   "line_end": 194,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 196,
+   "line_end": 222,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 196,
+     "line_end": 198,
+     "label": "reconstruction_channels"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 202,
+     "line_end": 204,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "pi0_selection"
+    },
+    {
+     "line_start": 208,
+     "line_end": 214,
+     "label": "kinematic_fit_and_delta_m"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 218,
+     "line_end": 220,
+     "label": "vetoes_and_continuum"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "mass_windows_and_sidebands"
+    }
+   ]
+  },
+  {
+   "line_start": 224,
+   "line_end": 249,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELD DETERMINATION"
+  },
+  {
+   "line_start": 251,
+   "line_end": 311,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 251,
+     "line_end": 259,
+     "label": "overview"
+    },
+    {
+     "line_start": 261,
+     "line_end": 261,
+     "label": "tracking"
+    },
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "pid"
+    },
+    {
+     "line_start": 263,
+     "line_end": 270,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 274,
+     "line_end": 276,
+     "label": "mass_vetoes"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 280,
+     "line_end": 295,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 297,
+     "line_end": 299,
+     "label": "scale_factor_f_eta"
+    },
+    {
+     "line_start": 301,
+     "line_end": 301,
+     "label": "non_sigma_background_level"
+    },
+    {
+     "line_start": 302,
+     "line_end": 302,
+     "label": "possible_intermediate_states"
+    },
+    {
+     "line_start": 303,
+     "line_end": 303,
+     "label": "external_branching_fractions"
+    },
+    {
+     "line_start": 304,
+     "line_end": 304,
+     "label": "number_of_psi3686_events"
+    },
+    {
+     "line_start": 305,
+     "line_end": 305,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 307,
+     "line_end": 311,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 313,
+   "line_end": 315,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 317,
+   "line_end": 323,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 257,
+   "title": "Fitted signal yield, detection efficiency, statistical significance, and branching fraction",
+   "section_type": "fit"
+  },
+  {
+   "line": 309,
+   "title": "Relative systematic uncertainties in the measurements of the branching fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

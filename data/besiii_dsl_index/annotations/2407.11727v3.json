@@ -1,0 +1,357 @@
+{
+ "paper_id": "2407.11727v3",
+ "source_path": "arxiv_papers/2407.11727v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 465,
+ "n_lines_sent": 193,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 62,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 88,
+   "to": 88,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 90,
+   "to": 91,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 357,
+   "to": 465,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 113,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and acknowledgements of institutions"
+  },
+  {
+   "line_start": 115,
+   "line_end": 115,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 117,
+   "line_end": 127,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 129,
+   "line_end": 131,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 133,
+   "line_end": 139,
+   "type": "event_selection",
+   "title": "III. SINGLE-TAG D_s*- CANDIDATES",
+   "units": [
+    {
+     "line_start": 133,
+     "line_end": 139,
+     "label": "single_tag_definition_and_bf_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 141,
+   "line_end": 184,
+   "type": "event_selection",
+   "title": "IV. SINGLE-TAG D_s*- CANDIDATES",
+   "units": [
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "ds_decay_modes"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "charged_tracks_and_pid"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "eta_prime_rho_reconstruction"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "peaking_background_veto"
+    },
+    {
+     "line_start": 157,
+     "line_end": 176,
+     "label": "kinematic_variables_and_selection"
+    },
+    {
+     "line_start": 178,
+     "line_end": 184,
+     "label": "single_tag_yields_and_tables"
+    }
+   ]
+  },
+  {
+   "line_start": 186,
+   "line_end": 265,
+   "type": "fit",
+   "title": "V. ANALYSIS OF LEPTONIC D_s+ DECAYS"
+  },
+  {
+   "line_start": 267,
+   "line_end": 339,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "overview"
+    },
+    {
+     "line_start": 273,
+     "line_end": 275,
+     "label": "single_tag_yield"
+    },
+    {
+     "line_start": 277,
+     "line_end": 281,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 283,
+     "line_end": 285,
+     "label": "photon_pi0_selection"
+    },
+    {
+     "line_start": 291,
+     "line_end": 293,
+     "label": "extra_energy_charge_requirements"
+    },
+    {
+     "line_start": 295,
+     "line_end": 299,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 301,
+     "line_end": 303,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 305,
+     "line_end": 313,
+     "label": "signal_and_background_shape"
+    },
+    {
+     "line_start": 315,
+     "line_end": 321,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 323,
+     "line_end": 325,
+     "label": "total_systematic_without_lu"
+    },
+    {
+     "line_start": 327,
+     "line_end": 329,
+     "label": "total_systematic_with_lu"
+    }
+   ]
+  },
+  {
+   "line_start": 341,
+   "line_end": 343,
+   "type": "conclusion",
+   "title": "VII. CONCLUSION"
+  },
+  {
+   "line_start": 345,
+   "line_end": 355,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 180,
+   "title": "Single-tag requirements and yields for D_s*-",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 184,
+   "title": "Integrated luminosities and single-tag yields per energy point",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 196,
+   "title": "Muon candidate d_mu+ requirements",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 265,
+   "title": "Signal yields, efficiencies and branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 289,
+   "title": "Data-MC differences of tracking and PID efficiencies",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 339,
+   "title": "Relative systematic uncertainties on branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 351,
+   "title": "Comparison of BFs and f_Ds+|Vcs| across experiments",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 402,
+   "title": "Single- and double-tag yields at 4.237 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 409,
+   "title": "Single- and double-tag yields at 4.260 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 416,
+   "title": "Single- and double-tag yields at 4.270 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 423,
+   "title": "Single- and double-tag yields at 4.290 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 430,
+   "title": "Single- and double-tag yields at 4.315 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 443,
+   "title": "Single- and double-tag yields at 4.400 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 447,
+   "title": "Single- and double-tag yields at 4.420 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 451,
+   "title": "Single- and double-tag yields at 4.440 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 455,
+   "title": "Single- and double-tag yields at 4.600 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 462,
+   "title": "Single- and double-tag yields at 4.699 GeV",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 141-184 before line 143",
+  "gap in 267-339 before line 269",
+  "gap in 267-339 before line 273",
+  "gap in 267-339 before line 291",
+  "units of 267-339 stop at 329, not 339"
+ ],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

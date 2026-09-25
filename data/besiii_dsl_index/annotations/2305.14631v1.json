@@ -1,0 +1,192 @@
+{
+ "paper_id": "2305.14631v1",
+ "source_path": "arxiv_papers/2305.14631v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 316,
+ "n_lines_sent": 194,
+ "skipped_ranges": [
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 62,
+   "to": 62,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 64,
+   "to": 64,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 96,
+   "to": 96,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 109,
+   "to": 109,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 269,
+   "to": 316,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 117,
+   "type": "front_matter",
+   "title": "Determination of spin and parity of D*(s) mesons"
+  },
+  {
+   "line_start": 119,
+   "line_end": 123,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 125,
+   "line_end": 133,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 135,
+   "line_end": 139,
+   "type": "detector",
+   "title": "2. BESIII Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 141,
+   "line_end": 167,
+   "type": "event_selection",
+   "title": "3. Event selection",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 143,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "photon_and_pi0"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 151,
+     "line_end": 163,
+     "label": "delta_e_and_mass_constraints"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "signal_region_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 169,
+   "line_end": 193,
+   "type": "fit",
+   "title": "4. Formalism"
+  },
+  {
+   "line_start": 195,
+   "line_end": 245,
+   "type": "fit",
+   "title": "5. Significance estimation"
+  },
+  {
+   "line_start": 247,
+   "line_end": 259,
+   "type": "systematic_uncertainty",
+   "title": "6. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 247,
+     "line_end": 249,
+     "label": "overview"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "tracking_pid_photon_ks0_pi0"
+    },
+    {
+     "line_start": 253,
+     "line_end": 253,
+     "label": "track_helix"
+    },
+    {
+     "line_start": 255,
+     "line_end": 255,
+     "label": "kinematic_variable_smearing"
+    },
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "background_weight_and_bw_parameters"
+    },
+    {
+     "line_start": 259,
+     "line_end": 259,
+     "label": "conclusion"
+    }
+   ]
+  },
+  {
+   "line_start": 261,
+   "line_end": 263,
+   "type": "conclusion",
+   "title": "7. Summary"
+  },
+  {
+   "line_start": 265,
+   "line_end": 267,
+   "type": "acknowledgements",
+   "title": "8. Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 207,
+   "title": "Requirements of Delta E, M(D(s)), M(D(s) pi0(gamma)) and RM(D(s)) for each data sample",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 237,
+   "title": "Significance of J^P=1^- over other quantum number hypotheses",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

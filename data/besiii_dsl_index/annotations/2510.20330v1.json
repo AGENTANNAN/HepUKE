@@ -1,0 +1,242 @@
+{
+ "paper_id": "2510.20330v1",
+ "source_path": "arxiv_papers/2510.20330v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 323,
+ "n_lines_sent": 217,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 311,
+   "to": 323,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Precision Measurement of $D_s^{*+}-D_s^+$ Mass Difference with $D_s^{*+} \\to D_s^+(\\to K^+K^-\\pi^+)\\pi^0$"
+  },
+  {
+   "line_start": 5,
+   "line_end": 221,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 223,
+   "line_end": 223,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 225,
+   "line_end": 231,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 233,
+   "line_end": 233,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 235,
+   "line_end": 235,
+   "type": "dataset",
+   "title": "Data sample and analysis strategy"
+  },
+  {
+   "line_start": 237,
+   "line_end": 255,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 239,
+     "line_end": 241,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 245,
+     "line_end": 245,
+     "label": "d_mass_window"
+    },
+    {
+     "line_start": 247,
+     "line_end": 255,
+     "label": "recoil_mass_requirements"
+    }
+   ]
+  },
+  {
+   "line_start": 257,
+   "line_end": 272,
+   "type": "fit",
+   "title": "Fit to the mass difference"
+  },
+  {
+   "line_start": 274,
+   "line_end": 275,
+   "type": "fit",
+   "title": "Figure 2"
+  },
+  {
+   "line_start": 277,
+   "line_end": 296,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "m_ds_dependence"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "signal_shape_parameters"
+    },
+    {
+     "line_start": 281,
+     "line_end": 282,
+     "label": "figure3"
+    },
+    {
+     "line_start": 284,
+     "line_end": 284,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 286,
+     "line_end": 286,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 288,
+     "line_end": 288,
+     "label": "pi0_energy_correction"
+    },
+    {
+     "line_start": 290,
+     "line_end": 290,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 292,
+     "line_end": 292,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 294,
+     "line_end": 294,
+     "label": "track_momentum_scale"
+    },
+    {
+     "line_start": 296,
+     "line_end": 296,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 298,
+   "line_end": 301,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 303,
+   "line_end": 305,
+   "type": "systematic_uncertainty",
+   "title": "Table 1"
+  },
+  {
+   "line_start": 307,
+   "line_end": 309,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 305,
+   "title": "Assigned systematic uncertainties from all sources",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 303-305 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

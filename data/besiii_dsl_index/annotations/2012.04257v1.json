@@ -1,0 +1,246 @@
+{
+ "paper_id": "2012.04257v1",
+ "source_path": "arxiv_papers/2012.04257v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 261,
+ "n_lines_sent": 152,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 79,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 238,
+   "to": 261,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 146,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 148,
+   "line_end": 152,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 154,
+   "line_end": 154,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR"
+  },
+  {
+   "line_start": 156,
+   "line_end": 160,
+   "type": "dataset",
+   "title": "III. DATA SAMPLE AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 162,
+   "line_end": 164,
+   "type": "detector",
+   "title": "IV. DATA ANALYSIS"
+  },
+  {
+   "line_start": 166,
+   "line_end": 166,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR"
+  },
+  {
+   "line_start": 168,
+   "line_end": 187,
+   "type": "event_selection",
+   "title": "A. Event selection and background analysis",
+   "units": [
+    {
+     "line_start": 168,
+     "line_end": 170,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "pid_and_kinematic_fit"
+    },
+    {
+     "line_start": 176,
+     "line_end": 187,
+     "label": "background_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 189,
+   "line_end": 202,
+   "type": "fit",
+   "title": "B. Measurement of B(η' → π+π-μ+μ-)"
+  },
+  {
+   "line_start": 204,
+   "line_end": 224,
+   "type": "systematic_uncertainty",
+   "title": "C. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 204,
+     "line_end": 206,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "mdc_tracking"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "pid"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "form_factor"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "branching_fraction_jpsi_to_gamma_etaprime"
+    }
+   ]
+  },
+  {
+   "line_start": 226,
+   "line_end": 228,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 230,
+   "line_end": 232,
+   "type": "systematic_uncertainty",
+   "title": "TABLE II. Sources of systematic uncertainties",
+   "units": [
+    {
+     "line_start": 230,
+     "line_end": 232,
+     "label": "systematics_table"
+    }
+   ]
+  },
+  {
+   "line_start": 234,
+   "line_end": 236,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 178,
+   "title": "Main background processes and normalized events",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 232,
+   "title": "Sources of systematic uncertainties and their contribution",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

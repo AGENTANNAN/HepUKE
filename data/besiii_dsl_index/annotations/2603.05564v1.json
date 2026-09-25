@@ -1,0 +1,333 @@
+{
+ "paper_id": "2603.05564v1",
+ "source_path": "arxiv_papers/2603.05564v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 844,
+ "n_lines_sent": 411,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 91,
+   "to": 91,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 117,
+   "to": 117,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 121,
+   "to": 121,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 125,
+   "to": 125,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 129,
+   "to": 129,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 143,
+   "to": 143,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 716,
+   "to": 844,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 143,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 145,
+   "line_end": 145,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 147,
+   "line_end": 160,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 162,
+   "line_end": 164,
+   "type": "detector",
+   "title": "II. APPARATUS AND DATA SETS"
+  },
+  {
+   "line_start": 166,
+   "line_end": 166,
+   "type": "detector",
+   "title": "A. BEPCII collider and BESIII detector"
+  },
+  {
+   "line_start": 168,
+   "line_end": 176,
+   "type": "dataset",
+   "title": "B. Data and Monte Carlo simulation samples"
+  },
+  {
+   "line_start": 178,
+   "line_end": 178,
+   "type": "fit",
+   "title": "III. PARTIAL WAVE ANALYSIS"
+  },
+  {
+   "line_start": 180,
+   "line_end": 255,
+   "type": "fit",
+   "title": "A. Amplitude construction"
+  },
+  {
+   "line_start": 257,
+   "line_end": 265,
+   "type": "fit",
+   "title": "B. Amplitude fitting"
+  },
+  {
+   "line_start": 267,
+   "line_end": 267,
+   "type": "results",
+   "title": "IV. RESULTS AND DISCUSSIONS",
+   "units": [
+    {
+     "line_start": 267,
+     "line_end": 267,
+     "label": "results_discussions_heading"
+    }
+   ]
+  },
+  {
+   "line_start": 269,
+   "line_end": 291,
+   "type": "results",
+   "title": "A. Pole positions and branching fractions",
+   "units": [
+    {
+     "line_start": 269,
+     "line_end": 283,
+     "label": "pole_positions"
+    },
+    {
+     "line_start": 285,
+     "line_end": 291,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 293,
+   "line_end": 322,
+   "type": "results",
+   "title": "B. Spin and parity",
+   "units": [
+    {
+     "line_start": 293,
+     "line_end": 295,
+     "label": "spin_parity_hypotheses"
+    },
+    {
+     "line_start": 297,
+     "line_end": 304,
+     "label": "table_ii_fig3"
+    },
+    {
+     "line_start": 306,
+     "line_end": 316,
+     "label": "ff_tables"
+    },
+    {
+     "line_start": 318,
+     "line_end": 322,
+     "label": "spin_parity_significance"
+    }
+   ]
+  },
+  {
+   "line_start": 324,
+   "line_end": 332,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 324,
+     "line_end": 326,
+     "label": "systematic_overview"
+    },
+    {
+     "line_start": 328,
+     "line_end": 328,
+     "label": "three_body_cross_sections"
+    },
+    {
+     "line_start": 330,
+     "line_end": 330,
+     "label": "pwa_systematics"
+    },
+    {
+     "line_start": 332,
+     "line_end": 332,
+     "label": "systematic_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 334,
+   "line_end": 340,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 342,
+   "line_end": 359,
+   "type": "other",
+   "title": "Figures and tables"
+  },
+  {
+   "line_start": 361,
+   "line_end": 363,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 365,
+   "line_end": 365,
+   "type": "other",
+   "title": "VII. METHODOLOGY"
+  },
+  {
+   "line_start": 367,
+   "line_end": 420,
+   "type": "event_selection",
+   "title": "A. Event selections",
+   "units": [
+    {
+     "line_start": 367,
+     "line_end": 369,
+     "label": "event_selection_intro"
+    },
+    {
+     "line_start": 371,
+     "line_end": 383,
+     "label": "dstar0_dstarminus_piplus_selection"
+    },
+    {
+     "line_start": 385,
+     "line_end": 402,
+     "label": "piplus_piminus_jpsi_selection"
+    },
+    {
+     "line_start": 404,
+     "line_end": 420,
+     "label": "piplus_piminus_hc_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 422,
+   "line_end": 674,
+   "type": "fit",
+   "title": "B. Helicity amplitude"
+  },
+  {
+   "line_start": 676,
+   "line_end": 696,
+   "type": "fit",
+   "title": "C. Likelihood Function in PWA Fit"
+  },
+  {
+   "line_start": 698,
+   "line_end": 704,
+   "type": "fit",
+   "title": "D. Full Pole Positions"
+  },
+  {
+   "line_start": 706,
+   "line_end": 712,
+   "type": "fit",
+   "title": "E. Hypothesis test of spin-parity in data"
+  },
+  {
+   "line_start": 714,
+   "line_end": 714,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 176,
+   "title": "Data and background event counts for PWA",
+   "section_type": "dataset"
+  },
+  {
+   "line": 308,
+   "title": "Measured FFs at 4.395 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 312,
+   "title": "Measured FFs at 4.416 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 316,
+   "title": "Production cross sections of Tcbar decay channels",
+   "section_type": "results"
+  },
+  {
+   "line": 351,
+   "title": "Absolute systematic uncertainties of pole mass and width",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 355,
+   "title": "Relative systematic uncertainties of FFs",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 359,
+   "title": "Confidence levels of spin-parity hypotheses",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 704,
+   "title": "Summary of pole positions",
+   "section_type": "fit"
+  },
+  {
+   "line": 712,
+   "title": "JP hypothesis test summary",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

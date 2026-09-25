@@ -1,0 +1,173 @@
+{
+ "paper_id": "2402.03829v3",
+ "source_path": "arxiv_papers/2402.03829v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 174,
+ "n_lines_sent": 40,
+ "skipped_ranges": [
+  {
+   "from": 69,
+   "to": 174,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Precise Measurement of Born Cross Sections for e+e- -> D Dbar at sqrt(s)=3.80-4.95 GeV"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 7,
+   "line_end": 11,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 13,
+   "line_end": 13,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 15,
+   "line_end": 15,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 17,
+   "line_end": 25,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 17,
+     "line_end": 17,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 19,
+     "line_end": 25,
+     "label": "recoil_mass"
+    }
+   ]
+  },
+  {
+   "line_start": 27,
+   "line_end": 27,
+   "type": "fit",
+   "title": "Signal Yield Extraction"
+  },
+  {
+   "line_start": 29,
+   "line_end": 30,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 32,
+   "line_end": 53,
+   "type": "fit",
+   "title": "Born Cross Section and Line Shape Fit"
+  },
+  {
+   "line_start": 55,
+   "line_end": 55,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "tracking"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "pid"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "d_mass_window"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "line_shape_model"
+    }
+   ]
+  },
+  {
+   "line_start": 57,
+   "line_end": 57,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 59,
+   "line_end": 60,
+   "type": "other",
+   "title": "Figure 3"
+  },
+  {
+   "line_start": 62,
+   "line_end": 62,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 64,
+   "line_end": 68,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 55-55 share boundary line 55",
+  "units of 55-55 share boundary line 55",
+  "units of 55-55 share boundary line 55",
+  "units of 55-55 share boundary line 55",
+  "units of 55-55 share boundary line 55",
+  "units of 55-55 share boundary line 55",
+  "units of 55-55 share boundary line 55"
+ ],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

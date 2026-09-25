@@ -1,0 +1,254 @@
+{
+ "paper_id": "2406.17452v2",
+ "source_path": "arxiv_papers/2406.17452v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 213,
+ "n_lines_sent": 106,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 160,
+   "to": 213,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 16,
+   "line_end": 16,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 18,
+   "line_end": 49,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 51,
+   "line_end": 54,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 56,
+   "line_end": 77,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "double_tag_technique"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "background_rejection"
+    },
+    {
+     "line_start": 62,
+     "line_end": 71,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "observable_requirements"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "additional_constraint"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "purity_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 79,
+   "line_end": 96,
+   "type": "fit",
+   "title": "Amplitude Analysis"
+  },
+  {
+   "line_start": 98,
+   "line_end": 114,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 98,
+     "line_end": 102,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 103,
+     "line_end": 106,
+     "label": "f0_980_parameters"
+    },
+    {
+     "line_start": 107,
+     "line_end": 109,
+     "label": "detector_effects"
+    },
+    {
+     "line_start": 110,
+     "line_end": 114,
+     "label": "background_purity"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 117,
+   "type": "results",
+   "title": "Figure 1",
+   "units": [
+    {
+     "line_start": 116,
+     "line_end": 117,
+     "label": "mass_projections"
+    }
+   ]
+  },
+  {
+   "line_start": 119,
+   "line_end": 138,
+   "type": "results",
+   "title": "Branching Fraction Measurement",
+   "units": [
+    {
+     "line_start": 119,
+     "line_end": 121,
+     "label": "dt_technique"
+    },
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "table_i"
+    },
+    {
+     "line_start": 127,
+     "line_end": 129,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 131,
+     "line_end": 132,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 134,
+     "line_end": 138,
+     "label": "yields_efficiencies"
+    }
+   ]
+  },
+  {
+   "line_start": 140,
+   "line_end": 145,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties for BF Measurement",
+   "units": [
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "dt_background_shape"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "tracking_pid_pi0"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "mc_sample_size_model"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "bf_knowledge"
+    },
+    {
+     "line_start": 142,
+     "line_end": 145,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 147,
+   "line_end": 154,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 156,
+   "line_end": 158,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 125,
+   "title": "Physical parameters for the resonances involved in amplitude analysis",
+   "section_type": "fit"
+  },
+  {
+   "line": 129,
+   "title": "Phases, FFs, and BFs for various intermediate processes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 140-145 share boundary line 140",
+  "units of 140-145 share boundary line 140",
+  "units of 140-145 share boundary line 140",
+  "units of 140-145 share boundary line 140"
+ ],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

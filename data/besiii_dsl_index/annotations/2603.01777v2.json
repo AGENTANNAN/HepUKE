@@ -1,0 +1,224 @@
+{
+ "paper_id": "2603.01777v2",
+ "source_path": "arxiv_papers/2603.01777v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 563,
+ "n_lines_sent": 110,
+ "skipped_ranges": [
+  {
+   "from": 187,
+   "to": 563,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Search for the charmonium weak decay ..."
+  },
+  {
+   "line_start": 11,
+   "line_end": 17,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 19,
+   "line_end": 30,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 32,
+   "line_end": 40,
+   "type": "detector",
+   "title": "2 BESIII detector and data sample"
+  },
+  {
+   "line_start": 42,
+   "line_end": 96,
+   "type": "event_selection",
+   "title": "3 Event selection and data analysis",
+   "units": [
+    {
+     "line_start": 42,
+     "line_end": 44,
+     "label": "ds_reconstruction"
+    },
+    {
+     "line_start": 46,
+     "line_end": 46,
+     "label": "pid"
+    },
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "phi_selection"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "pi0_rho_reconstruction"
+    },
+    {
+     "line_start": 54,
+     "line_end": 68,
+     "label": "missing_momentum_energy"
+    },
+    {
+     "line_start": 70,
+     "line_end": 75,
+     "label": "umiss_distribution"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "e_gamma_rest"
+    },
+    {
+     "line_start": 79,
+     "line_end": 96,
+     "label": "ds_mass_window"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 116,
+   "type": "background",
+   "title": "4 Background study"
+  },
+  {
+   "line_start": 118,
+   "line_end": 146,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 118,
+     "line_end": 120,
+     "label": "overview"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "mc_generator_model"
+    },
+    {
+     "line_start": 124,
+     "line_end": 126,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "intermediate_bf"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "n_psi2s"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 136,
+     "line_end": 138,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "m_k_k"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "m_pi_pi0"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "m_ds"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 148,
+   "line_end": 168,
+   "type": "results",
+   "title": "6 Results",
+   "units": [
+    {
+     "line_start": 148,
+     "line_end": 156,
+     "label": "observed_events"
+    },
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "systematic_table"
+    },
+    {
+     "line_start": 162,
+     "line_end": 168,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 170,
+   "line_end": 181,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 183,
+   "line_end": 185,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 38,
+   "title": "Experimental results and SM predictions for charmonium weak decays",
+   "section_type": "introduction"
+  },
+  {
+   "line": 160,
+   "title": "Systematic uncertainties from different sources",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

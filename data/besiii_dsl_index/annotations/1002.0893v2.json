@@ -1,0 +1,146 @@
+{
+ "paper_id": "1002.0893v2",
+ "source_path": "arxiv_papers/1002.0893v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 610,
+ "n_lines_sent": 114,
+ "skipped_ranges": [
+  {
+   "from": 383,
+   "to": 610,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 253,
+   "type": "front_matter",
+   "title": "A study of charged κ in J/ψ → K±KSπ∓π0"
+  },
+  {
+   "line_start": 255,
+   "line_end": 255,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 257,
+   "line_end": 267,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 269,
+   "line_end": 284,
+   "type": "event_selection",
+   "title": "2 Event selection",
+   "units": [
+    {
+     "line_start": 269,
+     "line_end": 271,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "background_rejection"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "mass_spectra"
+    },
+    {
+     "line_start": 281,
+     "line_end": 284,
+     "label": "signal_channels_table"
+    }
+   ]
+  },
+  {
+   "line_start": 287,
+   "line_end": 297,
+   "type": "background",
+   "title": "3 Background Studies"
+  },
+  {
+   "line_start": 299,
+   "line_end": 349,
+   "type": "fit",
+   "title": "4 Partial wave analysis"
+  },
+  {
+   "line_start": 351,
+   "line_end": 375,
+   "type": "results",
+   "title": "5 Branching ratio measurements",
+   "units": [
+    {
+     "line_start": 351,
+     "line_end": 363,
+     "label": "kappa_branching_ratio"
+    },
+    {
+     "line_start": 365,
+     "line_end": 375,
+     "label": "kstar_kstar_branching_ratio"
+    }
+   ]
+  },
+  {
+   "line_start": 377,
+   "line_end": 379,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 381,
+   "line_end": 381,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 281,
+   "title": "Four signal channels and number of events from each",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 309,
+   "title": "Resonances included in the fit of this channel",
+   "section_type": "fit"
+  },
+  {
+   "line": 335,
+   "title": "Masses, widths and pole positions of the charged κ",
+   "section_type": "fit"
+  },
+  {
+   "line": 341,
+   "title": "Masses, widths and pole positions of the neutral κ",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

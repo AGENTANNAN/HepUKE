@@ -1,0 +1,232 @@
+{
+ "paper_id": "1912.11208v1",
+ "source_path": "arxiv_papers/1912.11208v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 333,
+ "n_lines_sent": 170,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 316,
+   "to": 333,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 15,
+   "line_end": 15,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 28,
+   "line_end": 28,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 30,
+   "line_end": 50,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 52,
+   "line_end": 62,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 64,
+   "line_end": 78,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 64,
+     "line_end": 66,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "optimization"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "vertex_requirement"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 80,
+   "line_end": 99,
+   "type": "background",
+   "title": "IV. BACKGROUND SUBTRACTION"
+  },
+  {
+   "line_start": 101,
+   "line_end": 111,
+   "type": "other",
+   "title": "V. UNFOLDING"
+  },
+  {
+   "line_start": 113,
+   "line_end": 214,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 113,
+     "line_end": 115,
+     "label": "introduction"
+    },
+    {
+     "line_start": 117,
+     "line_end": 147,
+     "label": "tracking"
+    },
+    {
+     "line_start": 149,
+     "line_end": 180,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 182,
+     "line_end": 202,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 204,
+     "line_end": 206,
+     "label": "background_subtraction"
+    },
+    {
+     "line_start": 208,
+     "line_end": 210,
+     "label": "unfolding"
+    },
+    {
+     "line_start": 212,
+     "line_end": 214,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 216,
+   "line_end": 260,
+   "type": "fit",
+   "title": "VII. COMBINED FIT OF THE $3\\pi$ MASS SPECTRUM"
+  },
+  {
+   "line_start": 262,
+   "line_end": 304,
+   "type": "results",
+   "title": "VIII. CROSS SECTION RESULTS",
+   "units": [
+    {
+     "line_start": 262,
+     "line_end": 272,
+     "label": "born_cross_section"
+    },
+    {
+     "line_start": 274,
+     "line_end": 304,
+     "label": "amu_contribution"
+    }
+   ]
+  },
+  {
+   "line_start": 306,
+   "line_end": 308,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 310,
+   "line_end": 314,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 237,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 285,
+   "title": "Result of the fit to the 3pi mass spectra",
+   "section_type": "fit"
+  },
+  {
+   "line": 289,
+   "title": "Relative systematic uncertainties from the fit",
+   "section_type": "fit"
+  },
+  {
+   "line": 302,
+   "title": "Born cross sections of e+e- -> pi+pi-pi0",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

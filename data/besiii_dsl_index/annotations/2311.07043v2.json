@@ -1,0 +1,184 @@
+{
+ "paper_id": "2311.07043v2",
+ "source_path": "arxiv_papers/2311.07043v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 287,
+ "n_lines_sent": 165,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 237,
+   "to": 287,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 156,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 157,
+   "line_end": 157,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 159,
+   "line_end": 163,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 165,
+   "line_end": 167,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 169,
+   "line_end": 173,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 171,
+     "line_end": 173,
+     "label": "q_factor_background_subtraction"
+    }
+   ]
+  },
+  {
+   "line_start": 175,
+   "line_end": 178,
+   "type": "results",
+   "title": "Invariant mass distributions",
+   "units": [
+    {
+     "line_start": 175,
+     "line_end": 176,
+     "label": "kk_invariant_mass_figure"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "phi_eta_phi_pi0_eta_pi0_distributions"
+    }
+   ]
+  },
+  {
+   "line_start": 180,
+   "line_end": 217,
+   "type": "fit",
+   "title": "Partial wave analysis"
+  },
+  {
+   "line_start": 219,
+   "line_end": 225,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "table_content"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "tracking_pid_kinematic_fit_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 227,
+   "line_end": 231,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 233,
+   "line_end": 235,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 223,
+   "title": "PWA fit results for different subdecays",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

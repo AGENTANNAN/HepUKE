@@ -1,0 +1,126 @@
+{
+ "paper_id": "2607.29138v1",
+ "source_path": "arxiv_papers/2607.29138v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 295,
+ "n_lines_sent": 93,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 185,
+   "to": 295,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 111,
+   "type": "front_matter",
+   "title": "Observation of a Charged Charmoniumlike Structure in e+e- -> D0 D- pi+ + c.c."
+  },
+  {
+   "line_start": 113,
+   "line_end": 113,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 115,
+   "line_end": 121,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 123,
+   "line_end": 131,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "st_dt_reconstruction"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "track_photon_pi0_ks_selection"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "background_suppression_kinematic_fit"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "signal_sideband_regions"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "dalitz_plots_mass_projections"
+    }
+   ]
+  },
+  {
+   "line_start": 133,
+   "line_end": 171,
+   "type": "fit",
+   "title": "Partial Wave Analysis"
+  },
+  {
+   "line_start": 173,
+   "line_end": 173,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 175,
+   "line_end": 177,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 175,
+     "line_end": 177,
+     "label": "resonance_parameters_table"
+    }
+   ]
+  },
+  {
+   "line_start": 179,
+   "line_end": 181,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 183,
+   "line_end": 183,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 177,
+   "title": "Masses, widths, fit fractions, and significances of the resonances",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:23",
+ "failed_aspects": []
+}

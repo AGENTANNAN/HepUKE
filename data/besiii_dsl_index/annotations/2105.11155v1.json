@@ -1,0 +1,161 @@
+{
+ "paper_id": "2105.11155v1",
+ "source_path": "arxiv_papers/2105.11155v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 399,
+ "n_lines_sent": 257,
+ "skipped_ranges": [
+  {
+   "from": 132,
+   "to": 132,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 156,
+   "to": 156,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 350,
+   "to": 399,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 154,
+   "type": "front_matter",
+   "title": "BESIII Collaboration"
+  },
+  {
+   "line_start": 158,
+   "line_end": 160,
+   "type": "abstract",
+   "title": "ABSTRACT"
+  },
+  {
+   "line_start": 162,
+   "line_end": 209,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 211,
+   "line_end": 227,
+   "type": "other",
+   "title": "2 Method"
+  },
+  {
+   "line_start": 229,
+   "line_end": 233,
+   "type": "event_selection",
+   "title": "3 Analysis",
+   "units": [
+    {
+     "line_start": 229,
+     "line_end": 231,
+     "label": "data_sample_and_reconstruction"
+    },
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "kinematic_variables_and_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 235,
+   "line_end": 248,
+   "type": "results",
+   "title": "4 Results",
+   "units": [
+    {
+     "line_start": 235,
+     "line_end": 237,
+     "label": "fit_results_and_quality"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "cp_asymmetry_xi"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "phi_xi_and_delta_phi_cp"
+    },
+    {
+     "line_start": 243,
+     "line_end": 244,
+     "label": "figure_polarization_correlations"
+    },
+    {
+     "line_start": 246,
+     "line_end": 246,
+     "label": "strong_and_weak_phase_differences"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "lambda_decay_parameter"
+    }
+   ]
+  },
+  {
+   "line_start": 250,
+   "line_end": 252,
+   "type": "conclusion",
+   "title": "5 Conclusion"
+  },
+  {
+   "line_start": 254,
+   "line_end": 276,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 278,
+   "line_end": 348,
+   "type": "other",
+   "title": "Appendix"
+  }
+ ],
+ "tables": [
+  {
+   "line": 260,
+   "title": "Summary of results",
+   "section_type": "results"
+  },
+  {
+   "line": 308,
+   "title": "Correlation coefficients for the production and asymmetry decay parameters",
+   "section_type": "other"
+  },
+  {
+   "line": 326,
+   "title": "Contributing systematic uncertainties, and the sum in quadrature",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 344,
+   "title": "Contributing systematic uncertainties to CP tests, and the sum in quadrature",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 348,
+   "title": "Contributing systematic uncertainties to average values of decay parameters, and the sum in quadrature",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

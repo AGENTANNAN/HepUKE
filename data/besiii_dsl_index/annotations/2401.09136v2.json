@@ -1,0 +1,260 @@
+{
+ "paper_id": "2401.09136v2",
+ "source_path": "arxiv_papers/2401.09136v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 297,
+ "n_lines_sent": 128,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 255,
+   "to": 297,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 15,
+   "line_end": 16,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 33,
+   "line_end": 33,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 35,
+   "line_end": 83,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 85,
+   "line_end": 89,
+   "type": "detector",
+   "title": "II. DETECTOR AND MC SIMULATION"
+  },
+  {
+   "line_start": 91,
+   "line_end": 111,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 91,
+     "line_end": 93,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "pid_and_kinematic_fit"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "qed_and_fsr_background_suppression"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 101,
+     "line_end": 102,
+     "label": "figure1_conversion_points"
+    },
+    {
+     "line_start": 104,
+     "line_end": 105,
+     "label": "figure2_rxy_distribution"
+    },
+    {
+     "line_start": 107,
+     "line_end": 109,
+     "label": "conversion_rejection_criteria"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "mass_spectra_and_background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 113,
+   "line_end": 128,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELDS OF eta/eta' -> gamma e+ e-"
+  },
+  {
+   "line_start": 130,
+   "line_end": 162,
+   "type": "fit",
+   "title": "V. FORM FACTOR MEASUREMENT"
+  },
+  {
+   "line_start": 164,
+   "line_end": 210,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 164,
+     "line_end": 166,
+     "label": "overview"
+    },
+    {
+     "line_start": 168,
+     "line_end": 170,
+     "label": "mdc_tracking"
+    },
+    {
+     "line_start": 172,
+     "line_end": 174,
+     "label": "pid_efficiency"
+    },
+    {
+     "line_start": 176,
+     "line_end": 178,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 180,
+     "line_end": 182,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 184,
+     "line_end": 188,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 190,
+     "line_end": 192,
+     "label": "mass_fit"
+    },
+    {
+     "line_start": 194,
+     "line_end": 196,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 198,
+     "line_end": 200,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 202,
+     "line_end": 204,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 206,
+     "line_end": 210,
+     "label": "summary_and_table"
+    }
+   ]
+  },
+  {
+   "line_start": 212,
+   "line_end": 233,
+   "type": "results",
+   "title": "VII. SEARCH FOR THE DARK PHOTON",
+   "units": [
+    {
+     "line_start": 212,
+     "line_end": 214,
+     "label": "dark_photon_fit_setup"
+    },
+    {
+     "line_start": 216,
+     "line_end": 218,
+     "label": "table_ii_systematics"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "additive_systematics"
+    },
+    {
+     "line_start": 222,
+     "line_end": 228,
+     "label": "upper_limit_calculation"
+    },
+    {
+     "line_start": 230,
+     "line_end": 231,
+     "label": "figure6_fit_example"
+    },
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "multiplicative_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 235,
+   "line_end": 247,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 249,
+   "line_end": 253,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 210,
+   "title": "Systematic uncertainties of the measured branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 218,
+   "title": "Systematic uncertainties of the measured form factors",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

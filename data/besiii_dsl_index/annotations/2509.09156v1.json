@@ -1,0 +1,215 @@
+{
+ "paper_id": "2509.09156v1",
+ "source_path": "arxiv_papers/2509.09156v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 353,
+ "n_lines_sent": 191,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 82,
+   "to": 82,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 320,
+   "to": 353,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 14,
+   "line_end": 165,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 167,
+   "line_end": 167,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 169,
+   "line_end": 185,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 187,
+   "line_end": 195,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 197,
+   "line_end": 209,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 197,
+     "line_end": 199,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "pid"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 211,
+   "line_end": 224,
+   "type": "fit",
+   "title": "A. Analysis of η(1405) → f0(980)π0 → π+π−π0"
+  },
+  {
+   "line_start": 226,
+   "line_end": 243,
+   "type": "fit",
+   "title": "B. Search for ψ(3686) → γηc, ηc → π+π−π0"
+  },
+  {
+   "line_start": 245,
+   "line_end": 263,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 245,
+     "line_end": 247,
+     "label": "overview"
+    },
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "tracking_pid_photon"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "kinematic_fit_pi0_window"
+    },
+    {
+     "line_start": 253,
+     "line_end": 253,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 255,
+     "line_end": 255,
+     "label": "f0_width"
+    },
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 259,
+     "line_end": 259,
+     "label": "fit_range_eta_width"
+    },
+    {
+     "line_start": 261,
+     "line_end": 263,
+     "label": "normalization"
+    }
+   ]
+  },
+  {
+   "line_start": 265,
+   "line_end": 302,
+   "type": "results",
+   "title": "V. RESULT",
+   "units": [
+    {
+     "line_start": 265,
+     "line_end": 277,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "mixing_interpretation"
+    },
+    {
+     "line_start": 281,
+     "line_end": 302,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 304,
+   "line_end": 314,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 316,
+   "line_end": 318,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 310,
+   "title": "Systematic uncertainties on the measurements of the branching fraction and ULs",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

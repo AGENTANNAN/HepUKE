@@ -1,0 +1,163 @@
+{
+ "paper_id": "1808.02166v2",
+ "source_path": "arxiv_papers/1808.02166v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 341,
+ "n_lines_sent": 155,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 79,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 266,
+   "to": 341,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 77,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 81,
+   "line_end": 85,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 87,
+   "line_end": 120,
+   "type": "introduction",
+   "title": "1. INTRODUCTION"
+  },
+  {
+   "line_start": 122,
+   "line_end": 128,
+   "type": "detector",
+   "title": "2. BESIII EXPERIMENT AND DATA SETS"
+  },
+  {
+   "line_start": 130,
+   "line_end": 191,
+   "type": "event_selection",
+   "title": "3. ANALYSIS",
+   "units": [
+    {
+     "line_start": 130,
+     "line_end": 142,
+     "label": "muon_pair_selection"
+    },
+    {
+     "line_start": 144,
+     "line_end": 152,
+     "label": "five_pion_and_eta_selection"
+    },
+    {
+     "line_start": 154,
+     "line_end": 169,
+     "label": "cross_section_calculation"
+    },
+    {
+     "line_start": 171,
+     "line_end": 175,
+     "label": "data_tables"
+    },
+    {
+     "line_start": 177,
+     "line_end": 191,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 193,
+   "line_end": 256,
+   "type": "fit",
+   "title": "4. RESULTS"
+  },
+  {
+   "line_start": 258,
+   "line_end": 260,
+   "type": "conclusion",
+   "title": "5. SUMMARY"
+  },
+  {
+   "line_start": 262,
+   "line_end": 264,
+   "type": "acknowledgements",
+   "title": "6. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 138,
+   "title": "CM energy and integrated luminosity for each data point",
+   "section_type": "dataset"
+  },
+  {
+   "line": 173,
+   "title": "Number of events, efficiency, and observed cross section for mu+mu- and 5pi",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 175,
+   "title": "Number of events, efficiency, and observed cross section for eta pi+ pi-",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 244,
+   "title": "Fit results for the lineshape of e+e- -> 5pi",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

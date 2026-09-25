@@ -1,0 +1,348 @@
+{
+ "paper_id": "2510.16531v1",
+ "source_path": "arxiv_papers/2510.16531v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 464,
+ "n_lines_sent": 224,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 67,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 70,
+   "to": 71,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 75,
+   "to": 76,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 81,
+   "to": 81,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 83,
+   "to": 85,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 87,
+   "to": 87,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 90,
+   "to": 90,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 92,
+   "to": 92,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 94,
+   "to": 95,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 98,
+   "to": 98,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 101,
+   "to": 103,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 141,
+   "to": 141,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 179,
+   "to": 179,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 192,
+   "to": 192,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 203,
+   "to": 205,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 207,
+   "to": 207,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 380,
+   "to": 464,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 226,
+   "type": "front_matter",
+   "title": "Search for a hypothetical gauge boson and dark photons in charmonium transitions"
+  },
+  {
+   "line_start": 228,
+   "line_end": 228,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 230,
+   "line_end": 238,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 240,
+   "line_end": 250,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 252,
+   "line_end": 281,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 252,
+     "line_end": 256,
+     "label": "final_state_and_track_requirements"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 264,
+     "line_end": 264,
+     "label": "photon_energy_selection"
+    },
+    {
+     "line_start": 266,
+     "line_end": 268,
+     "label": "jpsi_and_psi3686_mass_windows"
+    },
+    {
+     "line_start": 270,
+     "line_end": 273,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "eta_pi0_veto"
+    },
+    {
+     "line_start": 277,
+     "line_end": 279,
+     "label": "chicj_state_identification"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 283,
+   "line_end": 287,
+   "type": "fit",
+   "title": "B. Fits to the data"
+  },
+  {
+   "line_start": 289,
+   "line_end": 324,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 289,
+     "line_end": 300,
+     "label": "overview"
+    },
+    {
+     "line_start": 302,
+     "line_end": 304,
+     "label": "table_i"
+    },
+    {
+     "line_start": 306,
+     "line_end": 306,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 308,
+     "line_end": 310,
+     "label": "photon_detection_and_intermediate_bfs"
+    },
+    {
+     "line_start": 312,
+     "line_end": 312,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 314,
+     "line_end": 314,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 316,
+     "line_end": 316,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 318,
+     "line_end": 318,
+     "label": "veto_efficiencies"
+    },
+    {
+     "line_start": 320,
+     "line_end": 322,
+     "label": "chicj_state_identification"
+    },
+    {
+     "line_start": 324,
+     "line_end": 324,
+     "label": "signal_and_background_shapes"
+    }
+   ]
+  },
+  {
+   "line_start": 326,
+   "line_end": 374,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 326,
+     "line_end": 340,
+     "label": "upper_limits_on_branching_fractions"
+    },
+    {
+     "line_start": 342,
+     "line_end": 365,
+     "label": "mixing_strength_and_charm_coupling"
+    },
+    {
+     "line_start": 367,
+     "line_end": 374,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 376,
+   "line_end": 378,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 304,
+   "title": "Summary of the multiplicative systematic uncertainties (%) for three chi_cJ channels",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 6.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

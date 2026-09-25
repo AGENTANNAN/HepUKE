@@ -1,0 +1,428 @@
+{
+ "paper_id": "2011.08041v4",
+ "source_path": "arxiv_papers/2011.08041v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 620,
+ "n_lines_sent": 360,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 592,
+   "to": 620,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 147,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 149,
+   "line_end": 151,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 153,
+   "line_end": 163,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 165,
+   "line_end": 169,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 171,
+   "line_end": 173,
+   "type": "dataset",
+   "title": "Table I and MC samples"
+  },
+  {
+   "line_start": 175,
+   "line_end": 197,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 175,
+     "line_end": 177,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "pid"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "soft_pion_veto"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "etaprime_reconstruction"
+    },
+    {
+     "line_start": 191,
+     "line_end": 197,
+     "label": "tag_signal_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 199,
+   "line_end": 299,
+   "type": "fit",
+   "title": "IV. MODEL-INDEPENDENT PARTIAL WAVE ANALYSIS IN THE LOW K+K- MASS REGION"
+  },
+  {
+   "line_start": 301,
+   "line_end": 303,
+   "type": "fit",
+   "title": "V. AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 305,
+   "line_end": 323,
+   "type": "event_selection",
+   "title": "A. Tag Technique in Amplitude Analysis",
+   "units": [
+    {
+     "line_start": 305,
+     "line_end": 307,
+     "label": "tag_modes"
+    },
+    {
+     "line_start": 309,
+     "line_end": 319,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 321,
+     "line_end": 323,
+     "label": "kinematic_fit_background"
+    }
+   ]
+  },
+  {
+   "line_start": 325,
+   "line_end": 443,
+   "type": "fit",
+   "title": "B. Likelihood Function Construction"
+  },
+  {
+   "line_start": 445,
+   "line_end": 457,
+   "type": "fit",
+   "title": "C. Fit Result"
+  },
+  {
+   "line_start": 459,
+   "line_end": 492,
+   "type": "systematic_uncertainty",
+   "title": "D. Systematic Uncertainty",
+   "units": [
+    {
+     "line_start": 459,
+     "line_end": 463,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 465,
+     "line_end": 472,
+     "label": "resonance_parameters_cont"
+    },
+    {
+     "line_start": 474,
+     "line_end": 474,
+     "label": "effective_radius"
+    },
+    {
+     "line_start": 476,
+     "line_end": 478,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 480,
+     "line_end": 482,
+     "label": "other_amplitudes"
+    },
+    {
+     "line_start": 484,
+     "line_end": 484,
+     "label": "detector_effects"
+    },
+    {
+     "line_start": 486,
+     "line_end": 486,
+     "label": "model_assumptions"
+    },
+    {
+     "line_start": 488,
+     "line_end": 488,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 490,
+     "line_end": 492,
+     "label": "low_significance_contributions"
+    }
+   ]
+  },
+  {
+   "line_start": 494,
+   "line_end": 496,
+   "type": "results",
+   "title": "VI. BRANCHING FRACTION MEASUREMENT",
+   "units": [
+    {
+     "line_start": 494,
+     "line_end": 496,
+     "label": "introduction"
+    }
+   ]
+  },
+  {
+   "line_start": 498,
+   "line_end": 506,
+   "type": "results",
+   "title": "A. Efficiency and Data Yields",
+   "units": [
+    {
+     "line_start": 498,
+     "line_end": 500,
+     "label": "st_yields_efficiencies"
+    },
+    {
+     "line_start": 502,
+     "line_end": 506,
+     "label": "dt_categories"
+    }
+   ]
+  },
+  {
+   "line_start": 508,
+   "line_end": 548,
+   "type": "fit",
+   "title": "B. Tagging Technique and Branching Fraction"
+  },
+  {
+   "line_start": 550,
+   "line_end": 572,
+   "type": "systematic_uncertainty",
+   "title": "C. Systematic Uncertainty",
+   "units": [
+    {
+     "line_start": 550,
+     "line_end": 554,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 556,
+     "line_end": 556,
+     "label": "dt_signal_shape"
+    },
+    {
+     "line_start": 558,
+     "line_end": 558,
+     "label": "dt_background_shape"
+    },
+    {
+     "line_start": 560,
+     "line_end": 560,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 562,
+     "line_end": 562,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 564,
+     "line_end": 564,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 566,
+     "line_end": 566,
+     "label": "dalitz_model"
+    },
+    {
+     "line_start": 568,
+     "line_end": 572,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 574,
+   "line_end": 576,
+   "type": "results",
+   "title": "Table XI",
+   "units": [
+    {
+     "line_start": 574,
+     "line_end": 576,
+     "label": "bf_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 578,
+   "line_end": 578,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 580,
+   "line_end": 588,
+   "type": "conclusion",
+   "title": "VII. CONCLUSION"
+  },
+  {
+   "line_start": 590,
+   "line_end": 590,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 173,
+   "title": "Comparison of FFs for different decay modes",
+   "section_type": "dataset"
+  },
+  {
+   "line": 311,
+   "title": "Values of |S|^2, |P|^2 and phi_S",
+   "section_type": "fit"
+  },
+  {
+   "line": 315,
+   "title": "Systematic uncertainties of the partial wave analysis",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 319,
+   "title": "Mass windows for signal and tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 467,
+   "title": "Magnitudes, phases, FFs and significances for six amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 482,
+   "title": "Significances for other tested amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 521,
+   "title": "Systematic uncertainties on phi, rho and FFs",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 525,
+   "title": "ST yields and ST efficiencies",
+   "section_type": "results"
+  },
+  {
+   "line": 545,
+   "title": "DT efficiencies",
+   "section_type": "results"
+  },
+  {
+   "line": 572,
+   "title": "Relative systematic uncertainties on the BF",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 576,
+   "title": "Comparisons of BFs among collaborations",
+   "section_type": "results"
+  },
+  {
+   "line": 620,
+   "title": "BFs measured in this analysis and quoted from PDG",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

@@ -1,0 +1,284 @@
+{
+ "paper_id": "1709.00018v3",
+ "source_path": "arxiv_papers/1709.00018v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 350,
+ "n_lines_sent": 171,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 314,
+   "to": 350,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": "9",
+   "line_end": "30",
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": "28",
+   "line_end": "28",
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": "32",
+   "line_end": "44",
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": "46",
+   "line_end": "50",
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": "52",
+   "line_end": "56",
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": "52",
+     "line_end": "52",
+     "label": "tracking"
+    },
+    {
+     "line_start": "54",
+     "line_end": "54",
+     "label": "pid"
+    },
+    {
+     "line_start": "56",
+     "line_end": "56",
+     "label": "photon_detection"
+    }
+   ]
+  },
+  {
+   "line_start": "58",
+   "line_end": "70",
+   "type": "background",
+   "title": "IV. BACKGROUND ANALYSIS"
+  },
+  {
+   "line_start": "72",
+   "line_end": "98",
+   "type": "fit",
+   "title": "VI. PARTIAL WAVE ANALYSIS"
+  },
+  {
+   "line_start": "94",
+   "line_end": "100",
+   "type": "fit",
+   "title": "V. FITTING M_eta pi+ pi- SPECTRUM"
+  },
+  {
+   "line_start": "102",
+   "line_end": "216",
+   "type": "fit",
+   "title": "VI. PARTIAL WAVE ANALYSIS (continued)"
+  },
+  {
+   "line_start": "218",
+   "line_end": "256",
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": "218",
+     "line_end": "222",
+     "label": "overview"
+    },
+    {
+     "line_start": "224",
+     "line_end": "227",
+     "label": "photon_detection"
+    },
+    {
+     "line_start": "229",
+     "line_end": "231",
+     "label": "tracking"
+    },
+    {
+     "line_start": "233",
+     "line_end": "233",
+     "label": "pid"
+    },
+    {
+     "line_start": "235",
+     "line_end": "235",
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": "237",
+     "line_end": "237",
+     "label": "mass_window"
+    },
+    {
+     "line_start": "239",
+     "line_end": "239",
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": "241",
+     "line_end": "241",
+     "label": "number_of_psi_events"
+    },
+    {
+     "line_start": "243",
+     "line_end": "243",
+     "label": "pwa_fit"
+    },
+    {
+     "line_start": "244",
+     "line_end": "244",
+     "label": "barrier_factor"
+    },
+    {
+     "line_start": "245",
+     "line_end": "245",
+     "label": "bw_parametrization"
+    },
+    {
+     "line_start": "246",
+     "line_end": "246",
+     "label": "detector_resolution"
+    },
+    {
+     "line_start": "247",
+     "line_end": "247",
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": "248",
+     "line_end": "250",
+     "label": "extra_resonances"
+    },
+    {
+     "line_start": "252",
+     "line_end": "252",
+     "label": "background"
+    },
+    {
+     "line_start": "254",
+     "line_end": "254",
+     "label": "inclusive_decay"
+    },
+    {
+     "line_start": "256",
+     "line_end": "256",
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": "258",
+   "line_end": "294",
+   "type": "results",
+   "title": "VIII. RESULTS AND DISCUSSION",
+   "units": [
+    {
+     "line_start": "258",
+     "line_end": "262",
+     "label": "signal_yields"
+    },
+    {
+     "line_start": "264",
+     "line_end": "278",
+     "label": "branching_fraction_ratios"
+    },
+    {
+     "line_start": "280",
+     "line_end": "294",
+     "label": "electromagnetic_process_test"
+    }
+   ]
+  },
+  {
+   "line_start": "288",
+   "line_end": "294",
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": "296",
+   "line_end": "312",
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": "231",
+   "title": "Relative systematic uncertainties from the event selection",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": "282",
+   "title": "Relative systematic uncertainties for the branching fraction measurement of the decay psi -> X eta'",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": "286",
+   "title": "Relative systematic uncertainties for the inclusive branching fraction of psi -> pi+ pi- eta' decay",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": "302",
+   "title": "Signal yields, detection efficiencies, and measured branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": "306",
+   "title": "Ratios of branching fractions between psi(3686) and J/psi decays",
+   "section_type": "results"
+  },
+  {
+   "line": "310",
+   "title": "Ratio of branching fractions of psi -> rho eta' between measurement and estimation",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.8,
+ "status": "invalid",
+ "errors": [
+  "[sections] crossing spans 72-98 / 94-100"
+ ],
+ "warnings": [
+  "nested spans 9-30 / 28-28",
+  "nested spans 258-294 / 288-294"
+ ],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": [
+  "sections"
+ ]
+}

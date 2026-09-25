@@ -1,0 +1,152 @@
+{
+ "paper_id": "1504.02680v3",
+ "source_path": "arxiv_papers/1504.02680v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 245,
+ "n_lines_sent": 117,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 221,
+   "to": 245,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 12,
+   "line_end": 29,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 31,
+   "line_end": 67,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 69,
+   "line_end": 73,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND DATA SETS"
+  },
+  {
+   "line_start": 75,
+   "line_end": 83,
+   "type": "event_selection",
+   "title": "III. ANALYSIS STRATEGY",
+   "units": [
+    {
+     "line_start": 75,
+     "line_end": 77,
+     "label": "analysis_strategy_intro"
+    },
+    {
+     "line_start": 79,
+     "line_end": 83,
+     "label": "event_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 85,
+   "line_end": 106,
+   "type": "background",
+   "title": "B. Background study"
+  },
+  {
+   "line_start": 108,
+   "line_end": 145,
+   "type": "fit",
+   "title": "C. Extraction of the Born cross section of e+e- -> p pbar and the effective FF"
+  },
+  {
+   "line_start": 147,
+   "line_end": 205,
+   "type": "fit",
+   "title": "D. Extraction of the electromagnetic |GE/GM| ratio"
+  },
+  {
+   "line_start": 207,
+   "line_end": 209,
+   "type": "conclusion",
+   "title": "IV. SUMMARY"
+  },
+  {
+   "line_start": 211,
+   "line_end": 213,
+   "type": "systematic_uncertainty",
+   "title": "TABLE V. Summary of systematic uncertainties (in %) in the |GE/GM| ratio and |GM| measurement.",
+   "units": [
+    {
+     "line_start": 211,
+     "line_end": 213,
+     "label": "systematic_uncertainties_ratio"
+    }
+   ]
+  },
+  {
+   "line_start": 215,
+   "line_end": 219,
+   "type": "acknowledgements",
+   "title": "V. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 103,
+   "title": "Physical background processes estimated from MC samples",
+   "section_type": "background"
+  },
+  {
+   "line": 142,
+   "title": "Summary of Born cross section and effective FF",
+   "section_type": "fit"
+  },
+  {
+   "line": 161,
+   "title": "Summary of systematic uncertainties for Born cross section and effective FF",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 192,
+   "title": "Summary of |GE/GM| and |GM| from fit and method of moments",
+   "section_type": "fit"
+  },
+  {
+   "line": 213,
+   "title": "Summary of systematic uncertainties for |GE/GM| and |GM|",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

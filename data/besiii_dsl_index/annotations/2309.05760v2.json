@@ -1,0 +1,182 @@
+{
+ "paper_id": "2309.05760v2",
+ "source_path": "arxiv_papers/2309.05760v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 168,
+ "n_lines_sent": 51,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 111,
+   "to": 168,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 19,
+   "line_end": 19,
+   "type": "front_matter",
+   "title": "Dated line"
+  },
+  {
+   "line_start": 21,
+   "line_end": 23,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 25,
+   "line_end": 39,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 41,
+   "line_end": 41,
+   "type": "detector",
+   "title": "BESIII detector and dataset"
+  },
+  {
+   "line_start": 43,
+   "line_end": 45,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 47,
+   "line_end": 51,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "d_meson_selection"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 53,
+   "line_end": 54,
+   "type": "other",
+   "title": "Figure 3"
+  },
+  {
+   "line_start": 56,
+   "line_end": 80,
+   "type": "fit",
+   "title": "Amplitude analysis"
+  },
+  {
+   "line_start": 82,
+   "line_end": 84,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "background_and_detector_acceptance"
+    }
+   ]
+  },
+  {
+   "line_start": 86,
+   "line_end": 86,
+   "type": "results",
+   "title": "Branching fraction measurement",
+   "units": [
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 88,
+   "line_end": 101,
+   "type": "other",
+   "title": "Tables"
+  },
+  {
+   "line_start": 103,
+   "line_end": 107,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 109,
+   "line_end": 109,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 90,
+   "title": "Phases, FFs, and statistical significances for different amplitudes",
+   "section_type": "results"
+  },
+  {
+   "line": 97,
+   "title": "Correlation matrix for the phases and FFs",
+   "section_type": "fit"
+  },
+  {
+   "line": 101,
+   "title": "Systematic uncertainties on the phases and FFs",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

@@ -1,0 +1,150 @@
+{
+ "paper_id": "2509.09266v2",
+ "source_path": "arxiv_papers/2509.09266v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 264,
+ "n_lines_sent": 44,
+ "skipped_ranges": [
+  {
+   "from": 79,
+   "to": 264,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 5,
+   "line_end": 7,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 9,
+   "line_end": 26,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 28,
+   "line_end": 37,
+   "type": "other",
+   "title": "Method and kinematics"
+  },
+  {
+   "line_start": 39,
+   "line_end": 44,
+   "type": "event_selection",
+   "title": "Event selection and signal yield",
+   "units": [
+    {
+     "line_start": 39,
+     "line_end": 39,
+     "label": "detector_and_data"
+    },
+    {
+     "line_start": 41,
+     "line_end": 41,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 43,
+     "line_end": 44,
+     "label": "umiss_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 46,
+   "line_end": 54,
+   "type": "results",
+   "title": "Branching fraction measurement",
+   "units": [
+    {
+     "line_start": 46,
+     "line_end": 46,
+     "label": "double_tagging_technique"
+    },
+    {
+     "line_start": 48,
+     "line_end": 54,
+     "label": "branching_fraction_result"
+    }
+   ]
+  },
+  {
+   "line_start": 56,
+   "line_end": 62,
+   "type": "fit",
+   "title": "Form factor determination"
+  },
+  {
+   "line_start": 64,
+   "line_end": 68,
+   "type": "results",
+   "title": "Results summary",
+   "units": [
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "results_table"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "table_description"
+    }
+   ]
+  },
+  {
+   "line_start": 70,
+   "line_end": 75,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 77,
+   "line_end": 77,
+   "type": "conclusion",
+   "title": "Summary"
+  }
+ ],
+ "tables": [
+  {
+   "line": 66,
+   "title": "Summary of results",
+   "section_type": "results"
+  },
+  {
+   "line": 238,
+   "title": "Systematic uncertainty for branching fraction",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 254,
+   "title": "Systematic uncertainties for form factor ratios",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

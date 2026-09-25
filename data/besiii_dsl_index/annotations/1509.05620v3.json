@@ -1,0 +1,218 @@
+{
+ "paper_id": "1509.05620v3",
+ "source_path": "arxiv_papers/1509.05620v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 146,
+ "n_lines_sent": 40,
+ "skipped_ranges": [
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 115,
+   "to": 146,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 59,
+   "type": "front_matter",
+   "title": "Title, authors, and PACS"
+  },
+  {
+   "line_start": 57,
+   "line_end": 57,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 61,
+   "line_end": 65,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 67,
+   "line_end": 67,
+   "type": "detector",
+   "title": "BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 69,
+   "line_end": 78,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "reconstruction_channels"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "d_meson_selection"
+    },
+    {
+     "line_start": 73,
+     "line_end": 74,
+     "label": "figure_rm_dpi0"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "pi0_selection"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 80,
+   "line_end": 80,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 82,
+   "line_end": 97,
+   "type": "fit",
+   "title": "Fit to the M(DD*) spectrum"
+  },
+  {
+   "line_start": 99,
+   "line_end": 109,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 99,
+     "line_end": 103,
+     "label": "overview"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "beam_energy"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "background"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 105,
+     "line_end": 107,
+     "label": "mass_shift_resolution"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "efficiency"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "input_output_check"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "vacuum_polarization"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "luminosity"
+    }
+   ]
+  },
+  {
+   "line_start": 111,
+   "line_end": 111,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 113,
+   "line_end": 113,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 101,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 99-109 share boundary line 105",
+  "units of 99-109 share boundary line 105",
+  "units of 99-109 share boundary line 105",
+  "units of 99-109 share boundary line 105",
+  "units of 99-109 share boundary line 109",
+  "units of 99-109 share boundary line 109",
+  "units of 99-109 share boundary line 109",
+  "units of 99-109 share boundary line 109",
+  "units of 99-109 share boundary line 109",
+  "nested spans 1-59 / 57-57"
+ ],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

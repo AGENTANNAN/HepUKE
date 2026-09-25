@@ -1,0 +1,194 @@
+{
+ "paper_id": "2310.10452v2",
+ "source_path": "arxiv_papers/2310.10452v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 285,
+ "n_lines_sent": 143,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 238,
+   "to": 285,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 142,
+   "type": "front_matter",
+   "title": "Measurement of the cross sections for e+e- -> eta pi+ pi- at center-of-mass energies between 2.00 and 3.08 GeV"
+  },
+  {
+   "line_start": 144,
+   "line_end": 144,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 146,
+   "line_end": 154,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 156,
+   "line_end": 156,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 158,
+   "line_end": 161,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 160,
+     "line_end": 161,
+     "label": "eta_mass_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 163,
+   "line_end": 187,
+   "type": "fit",
+   "title": "Partial-Wave Analysis and Cross Section Extraction"
+  },
+  {
+   "line_start": 189,
+   "line_end": 198,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "luminosity_efficiency_pid_photon"
+    },
+    {
+     "line_start": 191,
+     "line_end": 193,
+     "label": "table_i"
+    },
+    {
+     "line_start": 195,
+     "line_end": 196,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "pwa_fit_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 200,
+   "line_end": 232,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 200,
+     "line_end": 220,
+     "label": "a2_1320_pi_fit"
+    },
+    {
+     "line_start": 222,
+     "line_end": 223,
+     "label": "figure_3"
+    },
+    {
+     "line_start": 225,
+     "line_end": 227,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 229,
+     "line_end": 230,
+     "label": "figure_4"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "rho_eta_dip_structure"
+    }
+   ]
+  },
+  {
+   "line_start": 234,
+   "line_end": 234,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 236,
+   "line_end": 236,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 193,
+   "title": "Statistical significances and fit fractions of intermediate processes at sqrt(s) = 2.125, 2.396 and 2.900 GeV",
+   "section_type": "fit"
+  },
+  {
+   "line": 227,
+   "title": "Resonant parameters from the fit to e+e- -> a2(1320)pi cross sections",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

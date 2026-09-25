@@ -1,0 +1,205 @@
+{
+ "paper_id": "1207.0223v2",
+ "source_path": "arxiv_papers/1207.0223v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 152,
+ "n_lines_sent": 70,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 129,
+   "to": 152,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 18,
+   "line_end": 45,
+   "type": "front_matter",
+   "title": "BESIII Collaboration and affiliations"
+  },
+  {
+   "line_start": 49,
+   "line_end": 49,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 51,
+   "line_end": 51,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 53,
+   "line_end": 63,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 65,
+   "line_end": 65,
+   "type": "detector",
+   "title": "The BESIII detector"
+  },
+  {
+   "line_start": 67,
+   "line_end": 75,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "pid"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "jpsi_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 77,
+   "line_end": 77,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 79,
+   "line_end": 94,
+   "type": "fit",
+   "title": "Partial wave analysis"
+  },
+  {
+   "line_start": 96,
+   "line_end": 98,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 96,
+     "line_end": 98,
+     "label": "resonance_parameters"
+    }
+   ]
+  },
+  {
+   "line_start": 100,
+   "line_end": 100,
+   "type": "results",
+   "title": "Additional resonance scan",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "additional_resonance_scan"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 112,
+   "type": "results",
+   "title": "Branching fraction measurement",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 112,
+     "label": "branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 114,
+   "line_end": 115,
+   "type": "results",
+   "title": "Figure 2",
+   "units": [
+    {
+     "line_start": 114,
+     "line_end": 115,
+     "label": "intermediate_resonance_contributions"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 123,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "common_sources"
+    },
+    {
+     "line_start": 119,
+     "line_end": 123,
+     "label": "fitting_procedure"
+    }
+   ]
+  },
+  {
+   "line_start": 125,
+   "line_end": 125,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 127,
+   "line_end": 127,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 98,
+   "title": "Optimized mass, width and significance of the seven significant N* resonances",
+   "section_type": "results"
+  },
+  {
+   "line": 121,
+   "title": "Summary of measurements of the number of events, MC efficiency, and branching fraction of each intermediate resonance and the whole channel",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

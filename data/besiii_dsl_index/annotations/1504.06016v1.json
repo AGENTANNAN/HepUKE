@@ -1,0 +1,256 @@
+{
+ "paper_id": "1504.06016v1",
+ "source_path": "arxiv_papers/1504.06016v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 239,
+ "n_lines_sent": 110,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 215,
+   "to": 239,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 12,
+   "line_end": 26,
+   "type": "front_matter",
+   "title": "Title, authors, and abstract"
+  },
+  {
+   "line_start": 28,
+   "line_end": 68,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 70,
+   "line_end": 74,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 76,
+   "line_end": 100,
+   "type": "event_selection",
+   "title": "III. SIGNAL SELECTION: J/ψ → γη′, η′ → γe+e−",
+   "units": [
+    {
+     "line_start": 76,
+     "line_end": 78,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "qed_background"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "gamma_conversion_background"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "misidentified_pion_background"
+    },
+    {
+     "line_start": 90,
+     "line_end": 100,
+     "label": "signal_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 113,
+   "type": "event_selection",
+   "title": "IV. NORMALIZATION CHANNEL: J/ψ → γη′, η′ → γγ",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 104,
+     "label": "normalization_channel_intro"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 110,
+     "line_end": 113,
+     "label": "yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 115,
+   "line_end": 137,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES IN THE RELATIVE DECAY WIDTH",
+   "units": [
+    {
+     "line_start": 115,
+     "line_end": 117,
+     "label": "systematics_intro"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 121,
+     "line_end": 123,
+     "label": "systematics_table"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "gamma_conversion_veto"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "form_factor"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "fit_range_and_background_shape"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "normalization"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 139,
+   "line_end": 157,
+   "type": "results",
+   "title": "VI. RELATIVE DECAY WIDTH",
+   "units": [
+    {
+     "line_start": 139,
+     "line_end": 147,
+     "label": "ratio_formula"
+    },
+    {
+     "line_start": 149,
+     "line_end": 151,
+     "label": "ratio_result"
+    },
+    {
+     "line_start": 153,
+     "line_end": 157,
+     "label": "branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 159,
+   "line_end": 199,
+   "type": "fit",
+   "title": "VII. FORM FACTOR MEASUREMENT"
+  },
+  {
+   "line_start": 201,
+   "line_end": 203,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 205,
+   "line_end": 213,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 97,
+   "title": "Number of observed signal events and detection efficiency",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 123,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 190,
+   "title": "Fitted and efficiency-corrected signal yields and ratios for M(e+e-) bins",
+   "section_type": "fit"
+  },
+  {
+   "line": 194,
+   "title": "Values of |F|^2 in each M(e+e-) bin",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

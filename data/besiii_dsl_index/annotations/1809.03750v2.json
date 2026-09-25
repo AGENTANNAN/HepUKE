@@ -1,0 +1,258 @@
+{
+ "paper_id": "1809.03750v2",
+ "source_path": "arxiv_papers/1809.03750v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 263,
+ "n_lines_sent": 135,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 72,
+   "to": 72,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 95,
+   "to": 95,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 238,
+   "to": 263,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 97,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, PACS"
+  },
+  {
+   "line_start": 99,
+   "line_end": 107,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 109,
+   "line_end": 113,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 115,
+   "line_end": 138,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 115,
+     "line_end": 119,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "pid"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "photon_pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "eta_prime_reconstruction"
+    },
+    {
+     "line_start": 129,
+     "line_end": 138,
+     "label": "delta_e_mbc_requirements"
+    }
+   ]
+  },
+  {
+   "line_start": 140,
+   "line_end": 174,
+   "type": "fit",
+   "title": "IV. DATA ANALYSIS"
+  },
+  {
+   "line_start": 176,
+   "line_end": 188,
+   "type": "results",
+   "title": "V. BRANCHING FRACTIONS",
+   "units": [
+    {
+     "line_start": 176,
+     "line_end": 186,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "numerical_results"
+    }
+   ]
+  },
+  {
+   "line_start": 190,
+   "line_end": 222,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 190,
+     "line_end": 194,
+     "label": "number_of_dd_pairs"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 196,
+     "line_end": 196,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 197,
+     "line_end": 207,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "eta_prime_mass_window"
+    },
+    {
+     "line_start": 210,
+     "line_end": 212,
+     "label": "mbc_fit"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 217,
+     "line_end": 219,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "d0d0_mixing"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "dcs_contribution"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 224,
+   "line_end": 232,
+   "type": "conclusion",
+   "title": "VII. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 234,
+   "line_end": 236,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 201,
+   "title": "Delta E requirements, input quantities and results for the determination of the branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 205,
+   "title": "Relative systematic uncertainties in the branching fractions, R0, and R+",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

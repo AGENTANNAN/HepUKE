@@ -1,0 +1,267 @@
+{
+ "paper_id": "1412.5258v1",
+ "source_path": "arxiv_papers/1412.5258v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 236,
+ "n_lines_sent": 93,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 192,
+   "to": 236,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 14,
+   "line_end": 27,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 29,
+   "line_end": 29,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 31,
+   "line_end": 41,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 43,
+   "line_end": 49,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 51,
+   "line_end": 61,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 51,
+     "line_end": 53,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "signal_regions"
+    }
+   ]
+  },
+  {
+   "line_start": 63,
+   "line_end": 86,
+   "type": "fit",
+   "title": "IV. MEASUREMENT OF J/psi -> eta Y(2175) WITH Y(2175) -> phi f0(980) AND f0(980) -> pi+ pi-"
+  },
+  {
+   "line_start": 88,
+   "line_end": 128,
+   "type": "fit",
+   "title": "V. MEASUREMENT OF J/psi -> phi f1(1285) AND phi eta(1405)"
+  },
+  {
+   "line_start": 130,
+   "line_end": 132,
+   "type": "results",
+   "title": "TABLE II. Measurements of the number of events, statistical significances, and efficiencies.",
+   "units": [
+    {
+     "line_start": 130,
+     "line_end": 132,
+     "label": "event_yields_and_efficiencies"
+    }
+   ]
+  },
+  {
+   "line_start": 134,
+   "line_end": 168,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC ERRORS",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 136,
+     "label": "overview"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "tracking"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "pid"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "number_of_jpsi"
+    },
+    {
+     "line_start": 150,
+     "line_end": 152,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 154,
+     "line_end": 156,
+     "label": "extra_resonances"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "f0_parameterization"
+    },
+    {
+     "line_start": 160,
+     "line_end": 162,
+     "label": "branching_fraction_table"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "fixed_mass_width"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "generation_parameters"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 170,
+   "line_end": 172,
+   "type": "discussion",
+   "title": "Discussion of results"
+  },
+  {
+   "line_start": 174,
+   "line_end": 174,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  },
+  {
+   "line_start": 176,
+   "line_end": 180,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 182,
+   "line_end": 190,
+   "type": "acknowledgements",
+   "title": "Acknowledgements (continued)"
+  }
+ ],
+ "tables": [
+  {
+   "line": 97,
+   "title": "Two solutions of the fit to M(phi f0(980)) with interference",
+   "section_type": "fit"
+  },
+  {
+   "line": 132,
+   "title": "Measurements of the number of events, statistical significances, and efficiencies",
+   "section_type": "results"
+  },
+  {
+   "line": 162,
+   "title": "Measurements of the branching fractions for the decay modes",
+   "section_type": "results"
+  },
+  {
+   "line": 184,
+   "title": "Summary of systematic errors for the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 188,
+   "title": "Comparison of Y(2175) parameters as measured by different experiments",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 12.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

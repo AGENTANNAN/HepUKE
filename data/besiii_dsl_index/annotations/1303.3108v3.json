@@ -1,0 +1,184 @@
+{
+ "paper_id": "1303.3108v3",
+ "source_path": "arxiv_papers/1303.3108v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 412,
+ "n_lines_sent": 318,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 372,
+   "to": 412,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 36,
+   "type": "front_matter",
+   "title": "BESIII Collaboration and affiliations"
+  },
+  {
+   "line_start": 40,
+   "line_end": 40,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 42,
+   "line_end": 122,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 126,
+   "line_end": 162,
+   "type": "event_selection",
+   "title": "II. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 126,
+     "line_end": 131,
+     "label": "event_topology"
+    },
+    {
+     "line_start": 132,
+     "line_end": 147,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 148,
+     "line_end": 162,
+     "label": "photon_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 164,
+   "line_end": 244,
+   "type": "fit",
+   "title": "III. BRANCHING FRACTION AND YIELD MEASUREMENTS"
+  },
+  {
+   "line_start": 246,
+   "line_end": 310,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 246,
+     "line_end": 249,
+     "label": "fsi_alternative_fit"
+    },
+    {
+     "line_start": 250,
+     "line_end": 257,
+     "label": "overview"
+    },
+    {
+     "line_start": 258,
+     "line_end": 261,
+     "label": "fsi_formula"
+    },
+    {
+     "line_start": 262,
+     "line_end": 269,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 270,
+     "line_end": 271,
+     "label": "fsi_upper_limit"
+    },
+    {
+     "line_start": 272,
+     "line_end": 276,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 277,
+     "line_end": 279,
+     "label": "figure3_caption"
+    },
+    {
+     "line_start": 280,
+     "line_end": 281,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 282,
+     "line_end": 283,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 284,
+     "line_end": 285,
+     "label": "fitting_procedure"
+    },
+    {
+     "line_start": 286,
+     "line_end": 297,
+     "label": "upper_limit_fit_systematics"
+    },
+    {
+     "line_start": 298,
+     "line_end": 310,
+     "label": "mc_generator_and_normalization"
+    }
+   ]
+  },
+  {
+   "line_start": 312,
+   "line_end": 314,
+   "type": "systematic_uncertainty",
+   "title": "TABLE I. Summary of systematic uncertainties."
+  },
+  {
+   "line_start": 316,
+   "line_end": 332,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 334,
+   "line_end": 358,
+   "type": "acknowledgements",
+   "title": "VI. ACKNOWLEDGMENT"
+  },
+  {
+   "line_start": 359,
+   "line_end": 370,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 314,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 312-314 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

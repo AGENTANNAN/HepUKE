@@ -1,0 +1,292 @@
+{
+ "paper_id": "2503.21413v2",
+ "source_path": "arxiv_papers/2503.21413v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 399,
+ "n_lines_sent": 286,
+ "skipped_ranges": [
+  {
+   "from": 154,
+   "to": 155,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 189,
+   "to": 189,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 203,
+   "to": 203,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 215,
+   "to": 217,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 219,
+   "to": 219,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 369,
+   "to": 399,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 224,
+   "type": "front_matter",
+   "title": "First observation of Λc(2595)+ → Λc+π0π0 and Λc(2625)+ → Λc+π0π0"
+  },
+  {
+   "line_start": 226,
+   "line_end": 226,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 228,
+   "line_end": 237,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 239,
+   "line_end": 247,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 249,
+   "line_end": 255,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 257,
+   "line_end": 275,
+   "type": "event_selection",
+   "title": "3 MEASUREMENT METHOD",
+   "units": [
+    {
+     "line_start": 257,
+     "line_end": 261,
+     "label": "method_overview"
+    },
+    {
+     "line_start": 263,
+     "line_end": 267,
+     "label": "bf_formula"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "signal_mc_generation"
+    },
+    {
+     "line_start": 271,
+     "line_end": 275,
+     "label": "tag_mc_generation"
+    }
+   ]
+  },
+  {
+   "line_start": 277,
+   "line_end": 292,
+   "type": "event_selection",
+   "title": "4 SELECTION FOR TAGGED Λc− AND EXTRACTION OF THE NUMBER OF TOTAL EVENTS FOR Λc*+",
+   "units": [
+    {
+     "line_start": 277,
+     "line_end": 279,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "ks_lambda_reconstruction"
+    },
+    {
+     "line_start": 283,
+     "line_end": 285,
+     "label": "tag_mass_window_and_recoil"
+    },
+    {
+     "line_start": 287,
+     "line_end": 287,
+     "label": "fit_tag"
+    },
+    {
+     "line_start": 289,
+     "line_end": 292,
+     "label": "figure1"
+    }
+   ]
+  },
+  {
+   "line_start": 294,
+   "line_end": 325,
+   "type": "event_selection",
+   "title": "5 THE SELECTION OF Λc+π0π0 CANDIDATES AND EXTRACTION OF THE SIGNAL YIELDS",
+   "units": [
+    {
+     "line_start": 294,
+     "line_end": 296,
+     "label": "partial_reconstruction_intro"
+    },
+    {
+     "line_start": 298,
+     "line_end": 304,
+     "label": "efficiency_tables"
+    },
+    {
+     "line_start": 306,
+     "line_end": 306,
+     "label": "background_sources"
+    },
+    {
+     "line_start": 308,
+     "line_end": 308,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 310,
+     "line_end": 312,
+     "label": "fit_sig"
+    },
+    {
+     "line_start": 314,
+     "line_end": 314,
+     "label": "peaking_background_subtraction"
+    },
+    {
+     "line_start": 316,
+     "line_end": 318,
+     "label": "efficiency_correction"
+    },
+    {
+     "line_start": 320,
+     "line_end": 323,
+     "label": "figure2"
+    },
+    {
+     "line_start": 325,
+     "line_end": 325,
+     "label": "bf_results"
+    }
+   ]
+  },
+  {
+   "line_start": 327,
+   "line_end": 353,
+   "type": "systematic_uncertainty",
+   "title": "6 SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 327,
+     "line_end": 329,
+     "label": "overview"
+    },
+    {
+     "line_start": 331,
+     "line_end": 331,
+     "label": "line_shapes"
+    },
+    {
+     "line_start": 332,
+     "line_end": 334,
+     "label": "cm_energy"
+    },
+    {
+     "line_start": 336,
+     "line_end": 336,
+     "label": "beam_energy_spread"
+    },
+    {
+     "line_start": 337,
+     "line_end": 337,
+     "label": "tag_yield"
+    },
+    {
+     "line_start": 338,
+     "line_end": 338,
+     "label": "npi0_efficiency_correction"
+    },
+    {
+     "line_start": 339,
+     "line_end": 339,
+     "label": "pi_gamma_vetoes"
+    },
+    {
+     "line_start": 340,
+     "line_end": 342,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 344,
+     "line_end": 347,
+     "label": "fit"
+    },
+    {
+     "line_start": 349,
+     "line_end": 349,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 351,
+     "line_end": 353,
+     "label": "table3"
+    }
+   ]
+  },
+  {
+   "line_start": 355,
+   "line_end": 361,
+   "type": "conclusion",
+   "title": "7 SUMMARY"
+  },
+  {
+   "line_start": 363,
+   "line_end": 367,
+   "type": "acknowledgements",
+   "title": "8 ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 300,
+   "title": "Detection efficiencies and event yields at √s = 4.918 GeV",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 304,
+   "title": "Detection efficiencies and event yields at √s = 4.951 GeV",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 353,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 361,
+   "title": "Summary of the results",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

@@ -1,0 +1,158 @@
+{
+ "paper_id": "2012.11079v2",
+ "source_path": "arxiv_papers/2012.11079v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 171,
+ "n_lines_sent": 58,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 137,
+   "to": 171,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 12,
+   "line_end": 37,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 39,
+   "line_end": 47,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 49,
+   "line_end": 57,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 59,
+   "line_end": 65,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 59,
+     "line_end": 61,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "signal_yield_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 67,
+   "line_end": 84,
+   "type": "results",
+   "title": "IV. DETECTION EFFICIENCY",
+   "units": [
+    {
+     "line_start": 67,
+     "line_end": 69,
+     "label": "data_mc_comparison"
+    },
+    {
+     "line_start": 71,
+     "line_end": 84,
+     "label": "born_cross_section_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 86,
+   "line_end": 94,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 86,
+     "line_end": 88,
+     "label": "luminosity_tracking_pid"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "signal_window"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 96,
+   "line_end": 125,
+   "type": "fit",
+   "title": "VI. FIT TO THE BORN CROSS SECTIONS"
+  },
+  {
+   "line_start": 127,
+   "line_end": 131,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 133,
+   "line_end": 135,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 117,
+   "title": "Integrated luminosities, detection efficiencies, radiative correction factors, vacuum polarization factors, and Born cross sections at different c.m. energies",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

@@ -1,0 +1,191 @@
+{
+ "paper_id": "2501.02594v1",
+ "source_path": "arxiv_papers/2501.02594v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 275,
+ "n_lines_sent": 77,
+ "skipped_ranges": [
+  {
+   "from": 144,
+   "to": 275,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Observation of psi(3686) -> K- Lambda(1520) Xi+ + c.c."
+  },
+  {
+   "line_start": 7,
+   "line_end": 7,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 11,
+   "line_end": 27,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 29,
+   "line_end": 35,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 37,
+   "line_end": 41,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 43,
+   "line_end": 45,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 44,
+     "line_end": 44,
+     "label": "pid"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "xi_recoil_mass"
+    }
+   ]
+  },
+  {
+   "line_start": 47,
+   "line_end": 49,
+   "type": "background",
+   "title": "4 Background study"
+  },
+  {
+   "line_start": 51,
+   "line_end": 56,
+   "type": "other",
+   "title": "5 Intermediate state"
+  },
+  {
+   "line_start": 58,
+   "line_end": 85,
+   "type": "fit",
+   "title": "6 Signal yield and branching fraction"
+  },
+  {
+   "line_start": 87,
+   "line_end": 132,
+   "type": "systematic_uncertainty",
+   "title": "7 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 87,
+     "line_end": 89,
+     "label": "intro"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "tracking"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "pid"
+    },
+    {
+     "line_start": 93,
+     "line_end": 96,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 97,
+     "line_end": 98,
+     "label": "non_lambda1520_background"
+    },
+    {
+     "line_start": 99,
+     "line_end": 100,
+     "label": "continuum_background"
+    },
+    {
+     "line_start": 101,
+     "line_end": 102,
+     "label": "xi_mass_window"
+    },
+    {
+     "line_start": 103,
+     "line_end": 104,
+     "label": "xi_sideband"
+    },
+    {
+     "line_start": 105,
+     "line_end": 118,
+     "label": "mc_imperfection"
+    },
+    {
+     "line_start": 119,
+     "line_end": 120,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 121,
+     "line_end": 122,
+     "label": "total_psi3686_events"
+    },
+    {
+     "line_start": 123,
+     "line_end": 124,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 125,
+     "line_end": 132,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 134,
+   "line_end": 136,
+   "type": "conclusion",
+   "title": "8 Summary"
+  },
+  {
+   "line_start": 138,
+   "line_end": 142,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 130,
+   "title": "Systematic uncertainties in the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-9 / 7-7"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

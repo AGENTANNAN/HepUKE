@@ -1,0 +1,276 @@
+{
+ "paper_id": "2311.12895v1",
+ "source_path": "arxiv_papers/2311.12895v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 223,
+ "n_lines_sent": 94,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 200,
+   "to": 223,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 9,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 23,
+   "line_end": 23,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 24,
+   "line_end": 24,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 26,
+   "line_end": 26,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 30,
+   "line_end": 30,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 44,
+   "line_end": 44,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 46,
+   "line_end": 52,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 54,
+   "line_end": 58,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SAMPLES"
+  },
+  {
+   "line_start": 60,
+   "line_end": 78,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 60,
+     "line_end": 62,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "mode_i_selection"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "mode_ii_selection"
+    },
+    {
+     "line_start": 68,
+     "line_end": 69,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "mode_ii_background"
+    },
+    {
+     "line_start": 73,
+     "line_end": 74,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "mode_iii_selection"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "mode_iii_background"
+    }
+   ]
+  },
+  {
+   "line_start": 80,
+   "line_end": 88,
+   "type": "fit",
+   "title": "IV. MEASUREMENT OF B(η′ → π+π−π+(0)π−(0))"
+  },
+  {
+   "line_start": 90,
+   "line_end": 124,
+   "type": "fit",
+   "title": "V. AMPLITUDE ANALYSIS OF η′ → π+π−π+π−"
+  },
+  {
+   "line_start": 126,
+   "line_end": 149,
+   "type": "fit",
+   "title": "VI. SEARCH FOR η′ → 4π0"
+  },
+  {
+   "line_start": 151,
+   "line_end": 178,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 151,
+     "line_end": 153,
+     "label": "overview"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "tracking"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 159,
+     "line_end": 159,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 161,
+     "line_end": 166,
+     "label": "background"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "veto_and_model"
+    },
+    {
+     "line_start": 170,
+     "line_end": 172,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 174,
+     "line_end": 178,
+     "label": "alpha_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 180,
+   "line_end": 188,
+   "type": "results",
+   "title": "VIII. BRANCHING-FRACTION RESULTS",
+   "units": [
+    {
+     "line_start": 180,
+     "line_end": 188,
+     "label": "branching_fraction_results"
+    }
+   ]
+  },
+  {
+   "line_start": 190,
+   "line_end": 194,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 196,
+   "line_end": 198,
+   "type": "acknowledgements",
+   "title": "X. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 88,
+   "title": "Table I. The fitted signal yields (or 90% confidence-level upper limit), the detection efficiencies and the measured branching fractions (or 90% confidence-level upper limit). Also shown are the previous BESIII results.",
+   "section_type": "fit"
+  },
+  {
+   "line": 172,
+   "title": "Table II. The systematic uncertainties on the branching-fraction measurements (in units of %).",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 178,
+   "title": "Table III. The systematic uncertainties on the doubly virtual isovector contribution α to η′ → π+π−π+π− (in unit of %).",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 6.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

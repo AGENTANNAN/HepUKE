@@ -1,0 +1,302 @@
+{
+ "paper_id": "2202.06447v1",
+ "source_path": "arxiv_papers/2202.06447v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 390,
+ "n_lines_sent": 125,
+ "skipped_ranges": [
+  {
+   "from": 225,
+   "to": 390,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "Measurement of e+e- -> K+K- pi0 cross section and observation of a resonant structure"
+  },
+  {
+   "line_start": 7,
+   "line_end": 25,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 27,
+   "line_end": 33,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 35,
+   "line_end": 37,
+   "type": "dataset",
+   "title": "Table 1. Integrated luminosities of experimental data."
+  },
+  {
+   "line_start": 39,
+   "line_end": 43,
+   "type": "detector",
+   "title": "2 BESIII Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 45,
+   "line_end": 49,
+   "type": "event_selection",
+   "title": "3 Event selection and background analysis",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "pid"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "photons"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "pi0_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 51,
+   "line_end": 89,
+   "type": "fit",
+   "title": "4 Amplitude analysis"
+  },
+  {
+   "line_start": 91,
+   "line_end": 99,
+   "type": "results",
+   "title": "4.2 Cross section measurement",
+   "units": [
+    {
+     "line_start": 93,
+     "line_end": 99,
+     "label": "born_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 101,
+   "line_end": 129,
+   "type": "systematic_uncertainty",
+   "title": "4.3 Systematic uncertainties for the intermediate states",
+   "units": [
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "tracking"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "pid"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "pi0_mass_resolution"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "branching_ratios_intermediate"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "pwa_fit"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "bw_parametrization"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "additional_resonances"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "barrier_factor"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "mc_mode"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "statistics_assignment"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "total_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 131,
+   "line_end": 205,
+   "type": "fit",
+   "title": "5 Fit to the lineshapes"
+  },
+  {
+   "line_start": 207,
+   "line_end": 219,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 221,
+   "line_end": 223,
+   "type": "acknowledgements",
+   "title": "7 Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 37,
+   "title": "Integrated luminosities of experimental data",
+   "section_type": "dataset"
+  },
+  {
+   "line": 63,
+   "title": "Statistical significances of possible intermediate processes at sqrt(s)=2.125 and 2.396 GeV",
+   "section_type": "fit"
+  },
+  {
+   "line": 67,
+   "title": "Masses and widths of the intermediate states at sqrt(s)=2.125 GeV",
+   "section_type": "fit"
+  },
+  {
+   "line": 71,
+   "title": "Fit fractions of possible intermediate processes at sqrt(s)=2.125 and 2.396 GeV",
+   "section_type": "fit"
+  },
+  {
+   "line": 109,
+   "title": "Cross section for e+e- -> K+K- pi0",
+   "section_type": "results"
+  },
+  {
+   "line": 113,
+   "title": "Cross section for e+e- -> phi pi0",
+   "section_type": "results"
+  },
+  {
+   "line": 117,
+   "title": "Cross section for e+e- -> K2*+(1430) K-",
+   "section_type": "results"
+  },
+  {
+   "line": 125,
+   "title": "Cross section for e+e- -> K*+(892) K-",
+   "section_type": "results"
+  },
+  {
+   "line": 143,
+   "title": "Systematic uncertainties of e+e- -> K+K- pi0",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 159,
+   "title": "Systematic uncertainties of e+e- -> phi pi0",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 163,
+   "title": "Systematic uncertainties of e+e- -> K2*+(1430) K-",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 167,
+   "title": "Systematic uncertainties of e+e- -> K*+(892) K-",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 205,
+   "title": "Summary of fit results",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 45-49 before line 47",
+  "units of 45-49 share boundary line 47",
+  "units of 45-49 share boundary line 47",
+  "units of 45-49 share boundary line 49",
+  "gap in 91-99 before line 93",
+  "gap in 101-129 before line 105",
+  "units of 101-129 share boundary line 105",
+  "units of 101-129 share boundary line 105",
+  "units of 101-129 share boundary line 105",
+  "units of 101-129 share boundary line 105",
+  "units of 101-129 share boundary line 105",
+  "units of 101-129 share boundary line 105",
+  "gap in 101-129 before line 119",
+  "units of 101-129 share boundary line 121",
+  "units of 101-129 share boundary line 121",
+  "units of 101-129 share boundary line 121",
+  "units of 101-129 share boundary line 121",
+  "units of 101-129 share boundary line 121",
+  "gap in 101-129 before line 127"
+ ],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": [],
+ "units_repaired": true
+}

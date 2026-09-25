@@ -1,0 +1,250 @@
+{
+ "paper_id": "2202.00623v5",
+ "source_path": "arxiv_papers/2202.00623v5.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 510,
+ "n_lines_sent": 312,
+ "skipped_ranges": [
+  {
+   "from": 107,
+   "to": 109,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 459,
+   "to": 510,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 30,
+   "type": "front_matter",
+   "title": "Title, authors, and collaboration"
+  },
+  {
+   "line_start": 31,
+   "line_end": 106,
+   "type": "front_matter",
+   "title": "Affiliations"
+  },
+  {
+   "line_start": 111,
+   "line_end": 111,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 113,
+   "line_end": 113,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 115,
+   "line_end": 123,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 125,
+   "line_end": 131,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 133,
+   "line_end": 147,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 133,
+     "line_end": 135,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "eta_prime_to_gamma_pi_pi_selection"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "eta_prime_to_eta_pi_pi_selection"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "mass_distributions"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "background_study"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "background_levels"
+    }
+   ]
+  },
+  {
+   "line_start": 149,
+   "line_end": 401,
+   "type": "fit",
+   "title": "IV. PARTIAL WAVE ANALYSIS"
+  },
+  {
+   "line_start": 403,
+   "line_end": 437,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 403,
+     "line_end": 405,
+     "label": "introduction"
+    },
+    {
+     "line_start": 407,
+     "line_end": 407,
+     "label": "pion_tracking"
+    },
+    {
+     "line_start": 408,
+     "line_end": 408,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 409,
+     "line_end": 409,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 410,
+     "line_end": 410,
+     "label": "eta_prime_mass_resolution"
+    },
+    {
+     "line_start": 411,
+     "line_end": 411,
+     "label": "other_systematics"
+    },
+    {
+     "line_start": 413,
+     "line_end": 413,
+     "label": "combination"
+    },
+    {
+     "line_start": 415,
+     "line_end": 415,
+     "label": "pwa_introduction"
+    },
+    {
+     "line_start": 417,
+     "line_end": 417,
+     "label": "bw_parametrization"
+    },
+    {
+     "line_start": 429,
+     "line_end": 429,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 431,
+     "line_end": 431,
+     "label": "background_uncertainty"
+    },
+    {
+     "line_start": 433,
+     "line_end": 433,
+     "label": "additional_resonances"
+    },
+    {
+     "line_start": 435,
+     "line_end": 435,
+     "label": "combination_pwa"
+    },
+    {
+     "line_start": 437,
+     "line_end": 437,
+     "label": "upper_limit_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 443,
+   "line_end": 451,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 453,
+   "line_end": 457,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 294,
+   "title": "Set of all intermediate resonances considered",
+   "section_type": "fit"
+  },
+  {
+   "line": 308,
+   "title": "PWA fit results with PDG-optimized amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 324,
+   "title": "PWA fit results with baseline amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 328,
+   "title": "Fit fractions and interference fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 354,
+   "title": "Additional resonances considered",
+   "section_type": "fit"
+  },
+  {
+   "line": 427,
+   "title": "Systematic uncertainties from event selection",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 441,
+   "title": "Systematic uncertainties on masses and widths",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 449,
+   "title": "Relative systematic uncertainties on branching fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 403-437 before line 429"
+ ],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

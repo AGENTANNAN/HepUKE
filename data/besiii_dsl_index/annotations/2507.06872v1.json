@@ -1,0 +1,199 @@
+{
+ "paper_id": "2507.06872v1",
+ "source_path": "arxiv_papers/2507.06872v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 173,
+ "n_lines_sent": 60,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 134,
+   "to": 173,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 11,
+   "line_end": 13,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 27,
+   "line_end": 27,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 29,
+   "line_end": 48,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 50,
+   "line_end": 60,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 62,
+   "line_end": 73,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "pid"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "signal_region"
+    },
+    {
+     "line_start": 70,
+     "line_end": 73,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 75,
+   "line_end": 95,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 75,
+     "line_end": 77,
+     "label": "introduction"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "tracking"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "pid"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "signal_region"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 91,
+     "line_end": 95,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 97,
+   "line_end": 120,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 97,
+     "line_end": 105,
+     "label": "upper_limit"
+    },
+    {
+     "line_start": 107,
+     "line_end": 120,
+     "label": "majorana_mass_dependent_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 122,
+   "line_end": 124,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 126,
+   "line_end": 132,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 95,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 173,
+   "title": "Mass dependent efficiencies, signal and background counts, and upper limits",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

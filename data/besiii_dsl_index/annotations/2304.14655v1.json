@@ -1,0 +1,205 @@
+{
+ "paper_id": "2304.14655v1",
+ "source_path": "arxiv_papers/2304.14655v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 182,
+ "n_lines_sent": 94,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 152,
+   "to": 182,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 9,
+   "line_end": 78,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 80,
+   "line_end": 80,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 82,
+   "line_end": 99,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 101,
+   "line_end": 110,
+   "type": "introduction",
+   "title": "Theoretical framework"
+  },
+  {
+   "line_start": 112,
+   "line_end": 122,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "data_sample_and_track_selection"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "pid"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 124,
+   "line_end": 130,
+   "type": "fit",
+   "title": "Fit and results"
+  },
+  {
+   "line_start": 132,
+   "line_end": 134,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 132,
+     "line_end": 134,
+     "label": "decay_parameters_table"
+    }
+   ]
+  },
+  {
+   "line_start": 136,
+   "line_end": 138,
+   "type": "systematic_uncertainty",
+   "title": "Table II",
+   "units": [
+    {
+     "line_start": 136,
+     "line_end": 138,
+     "label": "systematic_uncertainties_table"
+    }
+   ]
+  },
+  {
+   "line_start": 140,
+   "line_end": 140,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 142,
+   "line_end": 146,
+   "type": "results",
+   "title": "Figures 2 and 3",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 143,
+     "label": "figure2"
+    },
+    {
+     "line_start": 145,
+     "line_end": 146,
+     "label": "figure3"
+    }
+   ]
+  },
+  {
+   "line_start": 148,
+   "line_end": 148,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 150,
+   "line_end": 150,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 134,
+   "title": "Decay parameters of J/psi -> Sigma+ Sigma-",
+   "section_type": "results"
+  },
+  {
+   "line": 138,
+   "title": "Absolute systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

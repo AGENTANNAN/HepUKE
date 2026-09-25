@@ -1,0 +1,156 @@
+{
+ "paper_id": "1709.10236v4",
+ "source_path": "arxiv_papers/1709.10236v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 165,
+ "n_lines_sent": 57,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 130,
+   "to": 165,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 10,
+   "line_end": 33,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 35,
+   "line_end": 53,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 55,
+   "line_end": 59,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND THE DATA SETS"
+  },
+  {
+   "line_start": 61,
+   "line_end": 92,
+   "type": "event_selection",
+   "title": "III. RECONSTRUCTION OF e+e- -> Lambda Lambda AT sqrt(s)=2.2324 GeV",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 63,
+     "label": "overview"
+    },
+    {
+     "line_start": 65,
+     "line_end": 69,
+     "label": "mode_i_selection"
+    },
+    {
+     "line_start": 71,
+     "line_end": 73,
+     "label": "mode_ii_selection"
+    },
+    {
+     "line_start": 75,
+     "line_end": 88,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 90,
+     "line_end": 92,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 94,
+   "line_end": 107,
+   "type": "event_selection",
+   "title": "IV. RECONSTRUCTION OF e+e- -> Lambda Lambda AT OTHER ENERGY POINTS",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 96,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 98,
+     "line_end": 100,
+     "label": "background_study"
+    },
+    {
+     "line_start": 102,
+     "line_end": 105,
+     "label": "cross_section_measurement"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 109,
+   "line_end": 122,
+   "type": "results",
+   "title": "V. RESULTS AND CONCLUSION",
+   "units": [
+    {
+     "line_start": 109,
+     "line_end": 115,
+     "label": "results_table"
+    },
+    {
+     "line_start": 117,
+     "line_end": 122,
+     "label": "comparison_and_conclusion"
+    }
+   ]
+  },
+  {
+   "line_start": 124,
+   "line_end": 128,
+   "type": "acknowledgements",
+   "title": "VI. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 83,
+   "title": "BDT input variables and their importance",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 115,
+   "title": "Measured Born cross sections and effective form factors",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

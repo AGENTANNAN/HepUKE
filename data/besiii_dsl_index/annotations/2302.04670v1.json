@@ -1,0 +1,254 @@
+{
+ "paper_id": "2302.04670v1",
+ "source_path": "arxiv_papers/2302.04670v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 229,
+ "n_lines_sent": 122,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 204,
+   "to": 229,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 51,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 53,
+   "line_end": 53,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 55,
+   "line_end": 61,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 63,
+   "line_end": 73,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 75,
+   "line_end": 104,
+   "type": "event_selection",
+   "title": "III. METHODOLOGY",
+   "units": [
+    {
+     "line_start": 75,
+     "line_end": 77,
+     "label": "tag_method"
+    },
+    {
+     "line_start": 79,
+     "line_end": 104,
+     "label": "branching_fraction_formalism"
+    }
+   ]
+  },
+  {
+   "line_start": 106,
+   "line_end": 146,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 110,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "ks0_selection"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "soft_pion_veto"
+    },
+    {
+     "line_start": 120,
+     "line_end": 124,
+     "label": "tag_mode_selection"
+    },
+    {
+     "line_start": 126,
+     "line_end": 135,
+     "label": "mrec_selection"
+    },
+    {
+     "line_start": 137,
+     "line_end": 146,
+     "label": "signal_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 148,
+   "line_end": 156,
+   "type": "fit",
+   "title": "V. BRANCHING FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 158,
+   "line_end": 192,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 162,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "two_dimensional_fit"
+    },
+    {
+     "line_start": 168,
+     "line_end": 178,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "omega_mass_window"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 188,
+     "line_end": 192,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 194,
+   "line_end": 198,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 200,
+   "line_end": 202,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 71,
+   "title": "Integrated luminosities and Mrec requirements",
+   "section_type": "dataset"
+  },
+  {
+   "line": 122,
+   "title": "Mtag requirements for tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 146,
+   "title": "ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 173,
+   "title": "DT efficiencies",
+   "section_type": "fit"
+  },
+  {
+   "line": 192,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

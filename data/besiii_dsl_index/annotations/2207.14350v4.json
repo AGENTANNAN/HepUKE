@@ -1,0 +1,306 @@
+{
+ "paper_id": "2207.14350v4",
+ "source_path": "arxiv_papers/2207.14350v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 310,
+ "n_lines_sent": 152,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 65,
+   "to": 65,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 281,
+   "to": 310,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 74,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 76,
+   "line_end": 78,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 80,
+   "line_end": 84,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 86,
+   "line_end": 90,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SAMPLES"
+  },
+  {
+   "line_start": 92,
+   "line_end": 105,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 92,
+     "line_end": 94,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "mass_window_vetoes"
+    },
+    {
+     "line_start": 102,
+     "line_end": 103,
+     "label": "figure1"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "additional_pi0_cuts"
+    }
+   ]
+  },
+  {
+   "line_start": 107,
+   "line_end": 119,
+   "type": "background",
+   "title": "IV. BACKGROUND STUDY"
+  },
+  {
+   "line_start": 121,
+   "line_end": 128,
+   "type": "fit",
+   "title": "V. ANALYSIS OF ψ(3686) → ΛΛπ0"
+  },
+  {
+   "line_start": 130,
+   "line_end": 154,
+   "type": "fit",
+   "title": "VI. ANALYSIS OF ψ(3686) → ΛΛη"
+  },
+  {
+   "line_start": 156,
+   "line_end": 236,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 156,
+     "line_end": 158,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 160,
+     "line_end": 162,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 164,
+     "line_end": 166,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 168,
+     "line_end": 170,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 172,
+     "line_end": 174,
+     "label": "mass_window_requirements"
+    },
+    {
+     "line_start": 176,
+     "line_end": 178,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 180,
+     "line_end": 182,
+     "label": "background_uncertainty"
+    },
+    {
+     "line_start": 184,
+     "line_end": 198,
+     "label": "interference"
+    },
+    {
+     "line_start": 200,
+     "line_end": 202,
+     "label": "physics_model"
+    },
+    {
+     "line_start": 204,
+     "line_end": 206,
+     "label": "intermediate_decays"
+    },
+    {
+     "line_start": 208,
+     "line_end": 210,
+     "label": "number_of_psi3686_events"
+    },
+    {
+     "line_start": 212,
+     "line_end": 214,
+     "label": "pwa_systematics_intro"
+    },
+    {
+     "line_start": 216,
+     "line_end": 220,
+     "label": "table1"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "pwa_additional_resonances"
+    },
+    {
+     "line_start": 224,
+     "line_end": 226,
+     "label": "pwa_background"
+    },
+    {
+     "line_start": 228,
+     "line_end": 230,
+     "label": "pwa_phsp_parametrization"
+    },
+    {
+     "line_start": 232,
+     "line_end": 236,
+     "label": "table2"
+    }
+   ]
+  },
+  {
+   "line_start": 238,
+   "line_end": 260,
+   "type": "results",
+   "title": "VIII. RESULTS",
+   "units": [
+    {
+     "line_start": 238,
+     "line_end": 246,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "lambda1670_parameters"
+    },
+    {
+     "line_start": 250,
+     "line_end": 252,
+     "label": "table3"
+    },
+    {
+     "line_start": 254,
+     "line_end": 260,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 262,
+   "line_end": 275,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 277,
+   "line_end": 279,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 218,
+   "title": "Systematic uncertainties for branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 236,
+   "title": "Systematic uncertainties for Λ(1670) mass and width",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 252,
+   "title": "Signal yields and detection efficiencies",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

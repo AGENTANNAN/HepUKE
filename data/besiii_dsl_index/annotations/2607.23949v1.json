@@ -1,0 +1,187 @@
+{
+ "paper_id": "2607.23949v1",
+ "source_path": "arxiv_papers/2607.23949v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 428,
+ "n_lines_sent": 162,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 308,
+   "to": 428,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 183,
+   "type": "front_matter",
+   "title": "Precision Measurement of Decay Dynamics in D0(+) -> pi-(0) l+ nu_l"
+  },
+  {
+   "line_start": 185,
+   "line_end": 185,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 187,
+   "line_end": 195,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 197,
+   "line_end": 197,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 199,
+   "line_end": 219,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 199,
+     "line_end": 205,
+     "label": "single_tag_and_branching_fraction_formula"
+    },
+    {
+     "line_start": 207,
+     "line_end": 209,
+     "label": "single_tag_selection_and_yields"
+    },
+    {
+     "line_start": 211,
+     "line_end": 213,
+     "label": "signal_candidate_and_lepton_identification"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "missing_mass_variable"
+    },
+    {
+     "line_start": 217,
+     "line_end": 219,
+     "label": "signal_extraction_and_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 221,
+   "line_end": 226,
+   "type": "results",
+   "title": "Branching Fraction Results",
+   "units": [
+    {
+     "line_start": 221,
+     "line_end": 222,
+     "label": "missing_mass_fit_figure"
+    },
+    {
+     "line_start": 224,
+     "line_end": 226,
+     "label": "branching_fraction_table"
+    }
+   ]
+  },
+  {
+   "line_start": 228,
+   "line_end": 230,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 228,
+     "line_end": 230,
+     "label": "systematic_uncertainties_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 232,
+   "line_end": 232,
+   "type": "results",
+   "title": "Lepton Flavor Universality and Isospin Ratios",
+   "units": [
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "lfu_and_isospin_ratios"
+    }
+   ]
+  },
+  {
+   "line_start": 234,
+   "line_end": 248,
+   "type": "fit",
+   "title": "Decay Dynamics and Fit"
+  },
+  {
+   "line_start": 250,
+   "line_end": 250,
+   "type": "results",
+   "title": "Partial Decay Rates and Forward-Backward Asymmetries",
+   "units": [
+    {
+     "line_start": 250,
+     "line_end": 250,
+     "label": "pdr_and_afb_results"
+    }
+   ]
+  },
+  {
+   "line_start": 252,
+   "line_end": 298,
+   "type": "fit",
+   "title": "Theoretical Framework and Simultaneous Fit"
+  },
+  {
+   "line_start": 300,
+   "line_end": 300,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 302,
+   "line_end": 304,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 306,
+   "line_end": 306,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 226,
+   "title": "Signal yields, efficiencies, and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 298,
+   "title": "Fit parameters with and without scalar current",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 5.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:23",
+ "failed_aspects": []
+}

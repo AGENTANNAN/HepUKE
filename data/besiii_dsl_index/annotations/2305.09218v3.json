@@ -1,0 +1,189 @@
+{
+ "paper_id": "2305.09218v3",
+ "source_path": "arxiv_papers/2305.09218v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 175,
+ "n_lines_sent": 60,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 128,
+   "to": 175,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 18,
+   "line_end": 26,
+   "type": "front_matter",
+   "title": "Author list (continued)"
+  },
+  {
+   "line_start": 37,
+   "line_end": 37,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 39,
+   "line_end": 45,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 47,
+   "line_end": 57,
+   "type": "other",
+   "title": "CP asymmetry observables and phase differences"
+  },
+  {
+   "line_start": 59,
+   "line_end": 59,
+   "type": "detector",
+   "title": "BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 61,
+   "line_end": 67,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 63,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "four_constraint_kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 69,
+   "line_end": 72,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 74,
+   "line_end": 100,
+   "type": "fit",
+   "title": "Joint angular distribution and maximum likelihood fit"
+  },
+  {
+   "line_start": 102,
+   "line_end": 118,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 104,
+     "label": "lambda_pi0_kinematic_fit"
+    },
+    {
+     "line_start": 106,
+     "line_end": 108,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "xi_mass_window"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "cos_theta_xi_inconsistency"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "fit_method"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "summary_of_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 120,
+   "line_end": 120,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 122,
+   "line_end": 126,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 97,
+   "title": "Angular distribution and decay parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 108,
+   "title": "Absolute systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 8.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

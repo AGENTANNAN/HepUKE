@@ -1,0 +1,263 @@
+{
+ "paper_id": "2109.06621v1",
+ "source_path": "arxiv_papers/2109.06621v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 216,
+ "n_lines_sent": 86,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 190,
+   "to": 216,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 27,
+   "line_end": 29,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 31,
+   "line_end": 55,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 57,
+   "line_end": 61,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 63,
+   "line_end": 76,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 63,
+     "line_end": 65,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "lambda_xi_reconstruction"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "jpsi_veto"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "recoil_mass"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "background_study"
+    },
+    {
+     "line_start": 75,
+     "line_end": 76,
+     "label": "figure_1"
+    }
+   ]
+  },
+  {
+   "line_start": 78,
+   "line_end": 98,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTION AND ANGULAR DISTRIBUTION MEASUREMENTS"
+  },
+  {
+   "line_start": 100,
+   "line_end": 168,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 106,
+     "label": "overview"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "xi_reconstruction"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "decay_length"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "mass_window_lambda_xi"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "mass_window_xi1530"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 122,
+     "line_end": 123,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 125,
+     "line_end": 127,
+     "label": "table_1"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "signal_shape_cont"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 133,
+     "line_end": 138,
+     "label": "pi0pi0jpsi_background"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "wcb"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "intermediate_decay"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "n_psi3686"
+    },
+    {
+     "line_start": 148,
+     "line_end": 152,
+     "label": "table_2"
+    },
+    {
+     "line_start": 154,
+     "line_end": 156,
+     "label": "alpha_systematics_overview"
+    },
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "cos_theta_binning"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "cos_theta_range"
+    },
+    {
+     "line_start": 164,
+     "line_end": 168,
+     "label": "table_3"
+    }
+   ]
+  },
+  {
+   "line_start": 170,
+   "line_end": 176,
+   "type": "results",
+   "title": "VI. RESULTS",
+   "units": [
+    {
+     "line_start": 170,
+     "line_end": 172,
+     "label": "combined_results"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "isospin_symmetry"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "12_percent_rule"
+    }
+   ]
+  },
+  {
+   "line_start": 178,
+   "line_end": 180,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 182,
+   "line_end": 188,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 127,
+   "title": "Summary of signal yields, efficiencies, angular distribution parameters and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 152,
+   "title": "Relative systematic uncertainties on the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 168,
+   "title": "Systematic uncertainties on the measurement of the alpha value",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 12.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

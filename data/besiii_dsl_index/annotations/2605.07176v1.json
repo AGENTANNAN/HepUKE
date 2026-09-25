@@ -1,0 +1,118 @@
+{
+ "paper_id": "2605.07176v1",
+ "source_path": "arxiv_papers/2605.07176v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 341,
+ "n_lines_sent": 130,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 245,
+   "to": 341,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 117,
+   "type": "front_matter",
+   "title": "First Measurement of the D_s^+ -> K*(892)^0 mu^+ nu_mu Decay, Study of Dynamics and Test of Lepton Universality with D_s^+ -> K*(892)^0 l^+ nu_l Decays"
+  },
+  {
+   "line_start": 119,
+   "line_end": 119,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 121,
+   "line_end": 129,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 131,
+   "line_end": 131,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 133,
+   "line_end": 169,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 133,
+     "line_end": 139,
+     "label": "st_dt_method"
+    },
+    {
+     "line_start": 141,
+     "line_end": 152,
+     "label": "st_reconstruction"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "sl_candidate_selection"
+    },
+    {
+     "line_start": 156,
+     "line_end": 162,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 166,
+     "line_end": 169,
+     "label": "mm2_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 171,
+   "line_end": 221,
+   "type": "fit",
+   "title": "Form Factor Fit and Differential Decay Rate Measurement"
+  },
+  {
+   "line_start": 223,
+   "line_end": 234,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 236,
+   "line_end": 241,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 243,
+   "line_end": 243,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

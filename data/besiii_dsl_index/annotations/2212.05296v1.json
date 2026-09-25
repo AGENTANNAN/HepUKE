@@ -1,0 +1,230 @@
+{
+ "paper_id": "2212.05296v1",
+ "source_path": "arxiv_papers/2212.05296v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 382,
+ "n_lines_sent": 220,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 343,
+   "to": 382,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 206,
+   "type": "front_matter",
+   "title": "First Direct Measurement of the Absolute Branching Fraction of $\\Sigma^+ \\to \\Lambda e^+ \\nu_e$"
+  },
+  {
+   "line_start": 208,
+   "line_end": 208,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 210,
+   "line_end": 228,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 230,
+   "line_end": 230,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 232,
+   "line_end": 232,
+   "type": "dataset",
+   "title": "Dataset and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 234,
+   "line_end": 313,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 234,
+     "line_end": 238,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 240,
+     "line_end": 240,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "pid_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 244,
+     "line_end": 260,
+     "label": "st_sigma_selection_and_fit"
+    },
+    {
+     "line_start": 262,
+     "line_end": 263,
+     "label": "st_fit_figure"
+    },
+    {
+     "line_start": 265,
+     "line_end": 265,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 267,
+     "line_end": 291,
+     "label": "missing_mass_variables"
+    },
+    {
+     "line_start": 293,
+     "line_end": 311,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 313,
+     "line_end": 313,
+     "label": "inclusive_mc_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 315,
+   "line_end": 324,
+   "type": "fit",
+   "title": "Signal Yield Determination"
+  },
+  {
+   "line_start": 326,
+   "line_end": 328,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainty",
+   "units": [
+    {
+     "line_start": 326,
+     "line_end": 326,
+     "label": "ntrack_and_lambda_reconstruction"
+    },
+    {
+     "line_start": 326,
+     "line_end": 326,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 326,
+     "line_end": 328,
+     "label": "signal_mc_model"
+    },
+    {
+     "line_start": 328,
+     "line_end": 328,
+     "label": "fit_procedures"
+    },
+    {
+     "line_start": 328,
+     "line_end": 328,
+     "label": "lambda_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 330,
+   "line_end": 330,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 330,
+     "line_end": 330,
+     "label": "branching_fraction_and_R_value"
+    }
+   ]
+  },
+  {
+   "line_start": 332,
+   "line_end": 332,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 334,
+   "line_end": 341,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 317,
+   "title": "Values of N_ST, N_DT, epsilon_ST and epsilon_DT used for the branching fraction determination",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 326-328 share boundary line 326",
+  "units of 326-328 share boundary line 326",
+  "units of 326-328 share boundary line 328",
+  "units of 326-328 share boundary line 328"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

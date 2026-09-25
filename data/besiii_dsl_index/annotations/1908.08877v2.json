@@ -1,0 +1,205 @@
+{
+ "paper_id": "1908.08877v2",
+ "source_path": "arxiv_papers/1908.08877v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 164,
+ "n_lines_sent": 59,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 130,
+   "to": 164,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 25,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 36,
+   "line_end": 36,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 38,
+   "line_end": 56,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 58,
+   "line_end": 58,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 60,
+   "line_end": 60,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 62,
+   "line_end": 83,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "tau_to_pi_selection"
+    },
+    {
+     "line_start": 64,
+     "line_end": 70,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "tag_selection"
+    },
+    {
+     "line_start": 74,
+     "line_end": 79,
+     "label": "tag_fits_and_table"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "signal_track_selection"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 85,
+   "line_end": 105,
+   "type": "fit",
+   "title": "Maximum likelihood fit"
+  },
+  {
+   "line_start": 107,
+   "line_end": 110,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "b_munu_and_smooth_background_shape"
+    },
+    {
+     "line_start": 109,
+     "line_end": 110,
+     "label": "other_systematic_sources"
+    }
+   ]
+  },
+  {
+   "line_start": 112,
+   "line_end": 122,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "branching_fraction_and_significance"
+    },
+    {
+     "line_start": 114,
+     "line_end": 116,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 118,
+     "line_end": 122,
+     "label": "decay_constant_extraction"
+    }
+   ]
+  },
+  {
+   "line_start": 124,
+   "line_end": 126,
+   "type": "other",
+   "title": "External input parameters"
+  },
+  {
+   "line_start": 128,
+   "line_end": 128,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 79,
+   "title": "Single-tag efficiencies and yields",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 116,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 126,
+   "title": "External input parameters",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

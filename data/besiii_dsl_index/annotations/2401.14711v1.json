@@ -1,0 +1,229 @@
+{
+ "paper_id": "2401.14711v1",
+ "source_path": "arxiv_papers/2401.14711v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 381,
+ "n_lines_sent": 211,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 341,
+   "to": 381,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 160,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 162,
+   "line_end": 162,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 164,
+   "line_end": 172,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 174,
+   "line_end": 180,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLE"
+  },
+  {
+   "line_start": 182,
+   "line_end": 204,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 184,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "helicity_angle"
+    },
+    {
+     "line_start": 192,
+     "line_end": 196,
+     "label": "pi0_signal_sideband"
+    },
+    {
+     "line_start": 198,
+     "line_end": 204,
+     "label": "dalitz_plots"
+    }
+   ]
+  },
+  {
+   "line_start": 206,
+   "line_end": 253,
+   "type": "fit",
+   "title": "IV. PARTIAL WAVE ANALYSIS"
+  },
+  {
+   "line_start": 255,
+   "line_end": 283,
+   "type": "results",
+   "title": "V. BORN CROSS SECTION MEASUREMENT",
+   "units": [
+    {
+     "line_start": 255,
+     "line_end": 257,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 259,
+     "line_end": 271,
+     "label": "intermediate_process_yields"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 275,
+     "line_end": 283,
+     "label": "born_cross_section_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 285,
+   "line_end": 291,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 285,
+     "line_end": 287,
+     "label": "pwa_model_uncertainties"
+    },
+    {
+     "line_start": 289,
+     "line_end": 291,
+     "label": "experimental_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 293,
+   "line_end": 326,
+   "type": "fit",
+   "title": "VII. LINE SHAPE FITTING TO THE CROSS SECTION"
+  },
+  {
+   "line_start": 328,
+   "line_end": 330,
+   "type": "conclusion",
+   "title": "VIII. CONCLUSION"
+  },
+  {
+   "line_start": 332,
+   "line_end": 334,
+   "type": "results",
+   "title": "TABLE V",
+   "units": [
+    {
+     "line_start": 332,
+     "line_end": 334,
+     "label": "fit_results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 336,
+   "line_end": 338,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENTS"
+  },
+  {
+   "line_start": 340,
+   "line_end": 340,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 194,
+   "title": "Number of events in signal and sideband regions",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 242,
+   "title": "Statistical significance of tested processes",
+   "section_type": "fit"
+  },
+  {
+   "line": 250,
+   "title": "Relative magnitudes and phases from PWA fit",
+   "section_type": "fit"
+  },
+  {
+   "line": 311,
+   "title": "Measured Born cross sections",
+   "section_type": "results"
+  },
+  {
+   "line": 334,
+   "title": "Fit results of resonance parameters",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

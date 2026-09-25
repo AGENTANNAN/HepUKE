@@ -1,0 +1,221 @@
+{
+ "paper_id": "2210.09561v2",
+ "source_path": "arxiv_papers/2210.09561v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 264,
+ "n_lines_sent": 178,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 238,
+   "to": 264,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 149,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 151,
+   "line_end": 151,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 153,
+   "line_end": 165,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 167,
+   "line_end": 169,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 171,
+   "line_end": 224,
+   "type": "event_selection",
+   "title": "Event selection and data analysis",
+   "units": [
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "double_tag_approach"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 175,
+     "line_end": 177,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 181,
+     "line_end": 183,
+     "label": "luminosity_and_st_yields_table"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "neutron_selection"
+    },
+    {
+     "line_start": 187,
+     "line_end": 188,
+     "label": "mbc_distribution_figure"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "proton_veto"
+    },
+    {
+     "line_start": 192,
+     "line_end": 204,
+     "label": "data_driven_neutron_efficiency"
+    },
+    {
+     "line_start": 206,
+     "line_end": 208,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 212,
+     "line_end": 224,
+     "label": "branching_fraction_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 226,
+   "line_end": 230,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "overview"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "signal_modeling"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "fit_strategy"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "lambda_c_background"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "neutron_selection"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 232,
+   "line_end": 232,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 234,
+   "line_end": 236,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 183,
+   "title": "Integrated luminosity, ST yields, and detection efficiencies at seven c.m. energies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 222,
+   "title": "Signal yields and background estimation at different c.m. energies",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 226-230 share boundary line 228",
+  "units of 226-230 share boundary line 228",
+  "units of 226-230 share boundary line 228",
+  "units of 226-230 share boundary line 230",
+  "units of 226-230 share boundary line 230"
+ ],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

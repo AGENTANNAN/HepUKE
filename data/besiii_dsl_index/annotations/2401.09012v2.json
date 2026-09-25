@@ -1,0 +1,215 @@
+{
+ "paper_id": "2401.09012v2",
+ "source_path": "arxiv_papers/2401.09012v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 170,
+ "n_lines_sent": 83,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 133,
+   "to": 170,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 52,
+   "type": "front_matter",
+   "title": "First study of antihyperon-nucleon scattering and measurement of Lambda p cross section"
+  },
+  {
+   "line_start": 54,
+   "line_end": 54,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 56,
+   "line_end": 60,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 62,
+   "line_end": 65,
+   "type": "detector",
+   "title": "BESIII detector and beam pipe"
+  },
+  {
+   "line_start": 67,
+   "line_end": 67,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 69,
+   "line_end": 73,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 75,
+   "line_end": 80,
+   "type": "fit",
+   "title": "Signal yield determination"
+  },
+  {
+   "line_start": 82,
+   "line_end": 119,
+   "type": "results",
+   "title": "Cross section measurement",
+   "units": [
+    {
+     "line_start": 82,
+     "line_end": 102,
+     "label": "total_cross_section"
+    },
+    {
+     "line_start": 104,
+     "line_end": 106,
+     "label": "input_parameters"
+    },
+    {
+     "line_start": 108,
+     "line_end": 114,
+     "label": "differential_cross_section"
+    },
+    {
+     "line_start": 116,
+     "line_end": 119,
+     "label": "extrapolation_and_total_elastic"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 125,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "pid_efficiency"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "track_number"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "interaction_point"
+    },
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 127,
+   "line_end": 127,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 129,
+   "line_end": 131,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 86,
+   "title": "Relevant parameters for the differential cross sections",
+   "section_type": "results"
+  },
+  {
+   "line": 106,
+   "title": "Input parameters for the cross section calculations",
+   "section_type": "results"
+  },
+  {
+   "line": 125,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 121-125 share boundary line 121",
+  "units of 121-125 share boundary line 121",
+  "units of 121-125 share boundary line 121",
+  "units of 121-125 share boundary line 121"
+ ],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

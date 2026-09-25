@@ -1,0 +1,236 @@
+{
+ "paper_id": "1208.1461v3",
+ "source_path": "arxiv_papers/1208.1461v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 172,
+ "n_lines_sent": 84,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 150,
+   "to": 172,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 50,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 52,
+   "line_end": 62,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 64,
+   "line_end": 66,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 68,
+   "line_end": 89,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 72,
+     "line_end": 73,
+     "label": "figure1"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "pi0_eta_etaprime_background"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "gamma_e+e-_background"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "gamma_pi0pi0_background"
+    },
+    {
+     "line_start": 83,
+     "line_end": 89,
+     "label": "fit_and_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 91,
+   "line_end": 137,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 93,
+     "line_end": 94,
+     "label": "figure2"
+    },
+    {
+     "line_start": 96,
+     "line_end": 97,
+     "label": "figure3"
+    },
+    {
+     "line_start": 99,
+     "line_end": 103,
+     "label": "signal_model_efficiency"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "eta_c_width_and_line_shape"
+    },
+    {
+     "line_start": 107,
+     "line_end": 109,
+     "label": "table1"
+    },
+    {
+     "line_start": 111,
+     "line_end": 113,
+     "label": "table2"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "resolution"
+    },
+    {
+     "line_start": 117,
+     "line_end": 125,
+     "label": "recoil_mass_window"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "background_normalization"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "pwa_model"
+    },
+    {
+     "line_start": 131,
+     "line_end": 133,
+     "label": "table3"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "photon_detection_tracking_kinematic_fit"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "photon_energy_spectrum"
+    }
+   ]
+  },
+  {
+   "line_start": 139,
+   "line_end": 141,
+   "type": "conclusion",
+   "title": "Conclusion"
+  },
+  {
+   "line_start": 143,
+   "line_end": 145,
+   "type": "other",
+   "title": "Additional details"
+  },
+  {
+   "line_start": 147,
+   "line_end": 147,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 149,
+   "line_end": 149,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 109,
+   "title": "Estimated numbers of events for the backgrounds",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 113,
+   "title": "Detection efficiency, signal yields, significance and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 133,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

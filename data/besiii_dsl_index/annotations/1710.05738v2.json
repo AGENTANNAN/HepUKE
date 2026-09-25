@@ -1,0 +1,266 @@
+{
+ "paper_id": "1710.05738v2",
+ "source_path": "arxiv_papers/1710.05738v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 169,
+ "n_lines_sent": 76,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 51,
+   "reason": "author_affiliation"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 10,
+   "line_end": 43,
+   "type": "front_matter",
+   "title": "Author list and collaboration"
+  },
+  {
+   "line_start": 53,
+   "line_end": 53,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 55,
+   "line_end": 55,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 57,
+   "line_end": 57,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 59,
+   "line_end": 69,
+   "type": "detector",
+   "title": "II. APPARATUS AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 71,
+   "line_end": 124,
+   "type": "event_selection",
+   "title": "III. BRANCHING FRACTION MEASUREMENT OF J/ψ → K_S K_L",
+   "units": [
+    {
+     "line_start": 71,
+     "line_end": 73,
+     "label": "ks_selection"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "background_study"
+    },
+    {
+     "line_start": 77,
+     "line_end": 78,
+     "label": "figure_m_pi_pi"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "continuum_study"
+    },
+    {
+     "line_start": 84,
+     "line_end": 88,
+     "label": "figures_fit_results"
+    },
+    {
+     "line_start": 90,
+     "line_end": 96,
+     "label": "continuum_contribution"
+    },
+    {
+     "line_start": 98,
+     "line_end": 104,
+     "label": "branching_fraction_calculation"
+    },
+    {
+     "line_start": 106,
+     "line_end": 108,
+     "label": "table_numbers"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "systematic_uncertainties_intro"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "ks_reconstruction_systematic"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "theta_ch_systematic"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "fit_method_systematic"
+    },
+    {
+     "line_start": 118,
+     "line_end": 120,
+     "label": "table_systematics"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "pdg_branching_fraction_systematic"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 126,
+   "line_end": 161,
+   "type": "event_selection",
+   "title": "IV. SEARCH FOR J/ψ → K_S K_S",
+   "units": [
+    {
+     "line_start": 126,
+     "line_end": 128,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "kinematic_fit_and_signal_yield"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 134,
+     "line_end": 135,
+     "label": "figure_ks_momentum"
+    },
+    {
+     "line_start": 137,
+     "line_end": 141,
+     "label": "background_calculation"
+    },
+    {
+     "line_start": 143,
+     "line_end": 145,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 147,
+     "line_end": 149,
+     "label": "table_systematics"
+    },
+    {
+     "line_start": 151,
+     "line_end": 157,
+     "label": "upper_limit_calculation"
+    },
+    {
+     "line_start": 159,
+     "line_end": 161,
+     "label": "table_upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 163,
+   "line_end": 165,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 167,
+   "line_end": 169,
+   "type": "acknowledgements",
+   "title": "VI. ACKNOWLEDGMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 108,
+   "title": "Numbers used in the branching fraction calculation for the K_S K_L channel",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 120,
+   "title": "Systematic uncertainties for the measurement of branching fraction of the K_S K_L channel",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 149,
+   "title": "The systematic uncertainties related to the search for J/ψ → K_S K_S",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 161,
+   "title": "Numbers used in the calculation of the upper limit on the signal yield at the 95% C.L.",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 5.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

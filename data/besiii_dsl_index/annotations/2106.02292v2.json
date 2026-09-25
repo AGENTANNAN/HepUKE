@@ -1,0 +1,293 @@
+{
+ "paper_id": "2106.02292v2",
+ "source_path": "arxiv_papers/2106.02292v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 247,
+ "n_lines_sent": 128,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 194,
+   "to": 247,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 120,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 122,
+   "line_end": 122,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 124,
+   "line_end": 124,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 126,
+   "line_end": 132,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 134,
+   "line_end": 134,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 136,
+   "line_end": 142,
+   "type": "event_selection",
+   "title": "Double-tag method and branching fraction formula",
+   "units": [
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 138,
+     "line_end": 142,
+     "label": "branching_fraction_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 144,
+   "line_end": 149,
+   "type": "event_selection",
+   "title": "Single-tag selection",
+   "units": [
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "st_selection_criteria"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 148,
+     "line_end": 149,
+     "label": "st_mbc_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 151,
+   "line_end": 159,
+   "type": "event_selection",
+   "title": "Signal selection and background suppression",
+   "units": [
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "rho_reconstruction"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "muon_identification"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "missing_mass_variable"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "peaking_background_rejection"
+    },
+    {
+     "line_start": 159,
+     "line_end": 159,
+     "label": "kstar_background_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 161,
+   "line_end": 163,
+   "type": "fit",
+   "title": "Signal yield extraction"
+  },
+  {
+   "line_start": 165,
+   "line_end": 170,
+   "type": "results",
+   "title": "Tag yields and efficiencies",
+   "units": [
+    {
+     "line_start": 165,
+     "line_end": 167,
+     "label": "st_dt_efficiency_table"
+    },
+    {
+     "line_start": 169,
+     "line_end": 170,
+     "label": "missing_mass_fit_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 172,
+   "line_end": 178,
+   "type": "results",
+   "title": "Branching fraction result",
+   "units": [
+    {
+     "line_start": 172,
+     "line_end": 178,
+     "label": "branching_fraction_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 180,
+   "line_end": 180,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "pion_tracking"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "pion_pid"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "muon_tracking"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "muon_pid"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "extra_gamma_pi0_veto"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "missing_mass_fit"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "signal_mc_model"
+    }
+   ]
+  },
+  {
+   "line_start": 182,
+   "line_end": 183,
+   "type": "results",
+   "title": "Kinematic comparison figure",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 183,
+     "label": "kinematic_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 185,
+   "line_end": 189,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 191,
+   "line_end": 191,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 193,
+   "line_end": 193,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 167,
+   "title": "ST yields and efficiencies",
+   "section_type": "results"
+  },
+  {
+   "line": 189,
+   "title": "Comparison of measured and predicted branching fractions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 180-180 share boundary line 180",
+  "units of 180-180 share boundary line 180",
+  "units of 180-180 share boundary line 180",
+  "units of 180-180 share boundary line 180",
+  "units of 180-180 share boundary line 180",
+  "units of 180-180 share boundary line 180",
+  "units of 180-180 share boundary line 180",
+  "units of 180-180 share boundary line 180",
+  "units of 180-180 share boundary line 180"
+ ],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

@@ -1,0 +1,216 @@
+{
+ "paper_id": "2102.10845v2",
+ "source_path": "arxiv_papers/2102.10845v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 328,
+ "n_lines_sent": 154,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 288,
+   "to": 328,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 199,
+   "type": "front_matter",
+   "title": "Front matter: title, authors, affiliations"
+  },
+  {
+   "line_start": 199,
+   "line_end": 199,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 201,
+   "line_end": 211,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 213,
+   "line_end": 215,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 217,
+   "line_end": 223,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "reconstruction_and_track_selection"
+    },
+    {
+     "line_start": 219,
+     "line_end": 221,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "signal_regions"
+    }
+   ]
+  },
+  {
+   "line_start": 225,
+   "line_end": 265,
+   "type": "fit",
+   "title": "Fit and results"
+  },
+  {
+   "line_start": 268,
+   "line_end": 278,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "tracking_and_photon_efficiency"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "input_line_shape"
+    },
+    {
+     "line_start": 268,
+     "line_end": 278,
+     "label": "mc_decay_model"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "psi3_contamination"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "mass_window"
+    }
+   ]
+  },
+  {
+   "line_start": 280,
+   "line_end": 282,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 284,
+   "line_end": 286,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 257,
+   "title": "Signal yields and branching-fraction ratios for different decay channels",
+   "section_type": "results"
+  },
+  {
+   "line": 272,
+   "title": "Definitions of the ratios",
+   "section_type": "fit"
+  },
+  {
+   "line": 276,
+   "title": "Relative systematic uncertainties from different sources",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 268-278 share boundary line 268",
+  "units of 268-278 share boundary line 268",
+  "units of 268-278 share boundary line 268",
+  "units of 268-278 share boundary line 268",
+  "units of 268-278 share boundary line 278",
+  "units of 268-278 share boundary line 278",
+  "units of 268-278 share boundary line 278",
+  "units of 268-278 share boundary line 278",
+  "nested spans 3-199 / 199-199"
+ ],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

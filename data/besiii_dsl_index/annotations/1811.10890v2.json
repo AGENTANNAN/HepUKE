@@ -1,0 +1,198 @@
+{
+ "paper_id": "1811.10890v2",
+ "source_path": "arxiv_papers/1811.10890v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 299,
+ "n_lines_sent": 142,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 213,
+   "to": 299,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 15,
+   "line_end": 90,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and PACS"
+  },
+  {
+   "line_start": 92,
+   "line_end": 94,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 96,
+   "line_end": 106,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 108,
+   "line_end": 111,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 113,
+   "line_end": 133,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "st_ds_reconstruction_modes"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "charged_track_and_pid"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "ks_pi0_eta_eta_prime_reconstruction"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "background_rejection"
+    },
+    {
+     "line_start": 121,
+     "line_end": 133,
+     "label": "st_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 152,
+   "type": "event_selection",
+   "title": "DT selection and kinematic variables",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 152,
+     "label": "dt_selection_variables"
+    }
+   ]
+  },
+  {
+   "line_start": 154,
+   "line_end": 171,
+   "type": "fit",
+   "title": "Fit to MM^2 and branching fraction determination"
+  },
+  {
+   "line_start": 173,
+   "line_end": 179,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "intro"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "tracking_pid_photon_deltaE"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "mm2_fit_background"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "st_yield_mc_fsr_bf_radiative_st_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 181,
+   "line_end": 205,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 181,
+     "line_end": 199,
+     "label": "fds_vcs_extraction"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "fds_over_fd_ratio"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "bf_average_lfu_ratio"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "cp_asymmetry"
+    }
+   ]
+  },
+  {
+   "line_start": 207,
+   "line_end": 207,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 209,
+   "line_end": 211,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 295,
+   "title": "Summary of ST yields, DT yields, efficiencies and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 299,
+   "title": "Muon PID efficiencies and correction factors",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

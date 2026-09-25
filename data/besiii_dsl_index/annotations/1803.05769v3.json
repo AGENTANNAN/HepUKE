@@ -1,0 +1,268 @@
+{
+ "paper_id": "1803.05769v3",
+ "source_path": "arxiv_papers/1803.05769v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 216,
+ "n_lines_sent": 129,
+ "skipped_ranges": [
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 71,
+   "to": 71,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 195,
+   "to": 216,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 71,
+   "type": "front_matter",
+   "title": "Measurement of Singly Cabibbo-Suppressed Decays D0 to pi0pi0pi0, pi0pi0eta, pi0etaeta and etaetaeta"
+  },
+  {
+   "line_start": 73,
+   "line_end": 77,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 79,
+   "line_end": 85,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 87,
+   "line_end": 93,
+   "type": "detector",
+   "title": "2. BESIII Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 95,
+   "line_end": 103,
+   "type": "event_selection",
+   "title": "3. Analysis Strategy",
+   "units": [
+    {
+     "line_start": 95,
+     "line_end": 103,
+     "label": "double_tag_method"
+    }
+   ]
+  },
+  {
+   "line_start": 105,
+   "line_end": 157,
+   "type": "event_selection",
+   "title": "4. Data Analysis",
+   "units": [
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 107,
+     "line_end": 109,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 113,
+     "line_end": 115,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 117,
+     "line_end": 118,
+     "label": "st_mbc_fit_figure"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "background_suppression_chi2"
+    },
+    {
+     "line_start": 124,
+     "line_end": 126,
+     "label": "table1_st_yields_efficiencies"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "miscombination_background_rejection"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "ks0_veto"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "mbc_distributions_data"
+    },
+    {
+     "line_start": 134,
+     "line_end": 137,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "fit_figure_caption"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "upper_limit_etaetaeta"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "detection_efficiency_intermediate_states"
+    },
+    {
+     "line_start": 144,
+     "line_end": 146,
+     "label": "a0_980_dalitz_fit"
+    },
+    {
+     "line_start": 148,
+     "line_end": 150,
+     "label": "table2_results"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "a0_significance"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "dt_efficiencies_bf_calculation"
+    },
+    {
+     "line_start": 156,
+     "line_end": 157,
+     "label": "figure3_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 159,
+   "line_end": 181,
+   "type": "systematic_uncertainty",
+   "title": "5. Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 159,
+     "line_end": 161,
+     "label": "overview"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "delta_e_resolution"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "cf_background_veto"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "chi2_requirement"
+    },
+    {
+     "line_start": 171,
+     "line_end": 173,
+     "label": "mbc_fit"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "mc_statistics_and_pi0_eta_bfs"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "strong_phase_correction"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "total_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 183,
+   "line_end": 189,
+   "type": "conclusion",
+   "title": "6. Summary"
+  },
+  {
+   "line_start": 191,
+   "line_end": 193,
+   "type": "acknowledgements",
+   "title": "7. Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 126,
+   "title": "Requirements on Delta E, ST yields, ST and DT efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 150,
+   "title": "Summary of Delta E requirements, signal yields, significances, and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 189,
+   "title": "Relative systematic uncertainties in the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 6.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

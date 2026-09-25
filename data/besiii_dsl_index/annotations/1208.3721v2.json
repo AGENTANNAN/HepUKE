@@ -1,0 +1,271 @@
+{
+ "paper_id": "1208.3721v2",
+ "source_path": "arxiv_papers/1208.3721v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 293,
+ "n_lines_sent": 130,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 70,
+   "to": 70,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 78,
+   "to": 78,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 263,
+   "to": 293,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 88,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": 90,
+   "line_end": 90,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 92,
+   "line_end": 102,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 104,
+   "line_end": 108,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE-CARLO SIMULATION"
+  },
+  {
+   "line_start": 110,
+   "line_end": 133,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 110,
+     "line_end": 112,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 116,
+     "line_end": 119,
+     "label": "neutron_channel_selection"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "antineutron_and_lambda_suppression"
+    },
+    {
+     "line_start": 123,
+     "line_end": 126,
+     "label": "pi0_channel_selection"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "pi0pi0_jpsi_suppression"
+    },
+    {
+     "line_start": 130,
+     "line_end": 133,
+     "label": "signal_observation"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 142,
+   "type": "background",
+   "title": "IV. BACKGROUND STUDIES"
+  },
+  {
+   "line_start": 144,
+   "line_end": 157,
+   "type": "discussion",
+   "title": "V. INTERMEDIATE STATES"
+  },
+  {
+   "line_start": 159,
+   "line_end": 185,
+   "type": "fit",
+   "title": "VI. SIGNAL EXTRACTION"
+  },
+  {
+   "line_start": 187,
+   "line_end": 215,
+   "type": "results",
+   "title": "VII. BRANCHING FRACTIONS",
+   "units": [
+    {
+     "line_start": 187,
+     "line_end": 201,
+     "label": "branching_fraction_pnpi"
+    },
+    {
+     "line_start": 203,
+     "line_end": 215,
+     "label": "branching_fraction_pnpi_pi0"
+    }
+   ]
+  },
+  {
+   "line_start": 217,
+   "line_end": 243,
+   "type": "systematic_uncertainty",
+   "title": "VIII. ESTIMATION OF SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 217,
+     "line_end": 219,
+     "label": "overview"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 223,
+     "line_end": 225,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "angle_alpha"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "intermediate_states"
+    },
+    {
+     "line_start": 235,
+     "line_end": 235,
+     "label": "fitting_procedure"
+    },
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "other_systematics"
+    },
+    {
+     "line_start": 239,
+     "line_end": 243,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 245,
+   "line_end": 255,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 257,
+   "line_end": 261,
+   "type": "acknowledgements",
+   "title": "X. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 201,
+   "title": "Signal yields, efficiencies and branching fractions for chi_cJ -> p nbar pi- and charge conjugate",
+   "section_type": "results"
+  },
+  {
+   "line": 215,
+   "title": "Signal yields, efficiencies and branching fractions for chi_cJ -> p nbar pi- pi0 and charge conjugate",
+   "section_type": "results"
+  },
+  {
+   "line": 243,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 251,
+   "title": "Summary of branching fractions for chi_cJ -> p nbar pi- and chi_cJ -> p nbar pi- pi0",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 255,
+   "title": "Summary of product branching fractions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

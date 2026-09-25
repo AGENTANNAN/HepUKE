@@ -1,0 +1,201 @@
+{
+ "paper_id": "2502.03828v2",
+ "source_path": "arxiv_papers/2502.03828v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 321,
+ "n_lines_sent": 176,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 265,
+   "to": 321,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 148,
+   "type": "front_matter",
+   "title": "Observation of D -> K1(1270) mu+ nu_mu and test of lepton flavor universality with D -> K1(1270) l+ nu_l"
+  },
+  {
+   "line_start": 150,
+   "line_end": 150,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 152,
+   "line_end": 158,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 160,
+   "line_end": 162,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 164,
+   "line_end": 211,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 164,
+     "line_end": 170,
+     "label": "st_dt_selection_and_bf_formula"
+    },
+    {
+     "line_start": 172,
+     "line_end": 176,
+     "label": "st_selection_and_mbc_fit"
+    },
+    {
+     "line_start": 178,
+     "line_end": 184,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 186,
+     "line_end": 198,
+     "label": "k1_mass_window_and_umiss_fit"
+    },
+    {
+     "line_start": 200,
+     "line_end": 203,
+     "label": "dt_efficiency"
+    },
+    {
+     "line_start": 205,
+     "line_end": 211,
+     "label": "bf_product_result"
+    }
+   ]
+  },
+  {
+   "line_start": 213,
+   "line_end": 243,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "tracking_pid_pi0"
+    },
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "muon_pid_and_extra_requirements"
+    },
+    {
+     "line_start": 219,
+     "line_end": 221,
+     "label": "table1"
+    },
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "mkpipi_mu_requirement"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "k1_mass_window"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "umiss_fit_background_shape"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "signal_model_and_mc_statistics"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 233,
+     "line_end": 243,
+     "label": "bf_results_and_table2"
+    }
+   ]
+  },
+  {
+   "line_start": 245,
+   "line_end": 257,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 259,
+   "line_end": 263,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 221,
+   "title": "DT yields, significances, efficiencies and BFs",
+   "section_type": "results"
+  },
+  {
+   "line": 241,
+   "title": "Systematic uncertainties in % for BF measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 255,
+   "title": "Comparison of measured BFs with theoretical predictions",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 313,
+   "title": "Delta E requirements, ST yields, efficiencies and r",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

@@ -1,0 +1,163 @@
+{
+ "paper_id": "1803.04789v1",
+ "source_path": "arxiv_papers/1803.04789v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 83,
+ "n_lines_sent": 31,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 65,
+   "to": 83,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 14,
+   "type": "front_matter",
+   "title": "Title, authors, abstract and PACS"
+  },
+  {
+   "line_start": 16,
+   "line_end": 25,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 27,
+   "line_end": 29,
+   "type": "detector",
+   "title": "The BESIII detector"
+  },
+  {
+   "line_start": 31,
+   "line_end": 31,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 33,
+   "line_end": 39,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 33,
+     "line_end": 33,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 35,
+     "line_end": 35,
+     "label": "pid"
+    },
+    {
+     "line_start": 37,
+     "line_end": 37,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 39,
+     "line_end": 39,
+     "label": "signal_window_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 41,
+   "line_end": 41,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 43,
+   "line_end": 56,
+   "type": "fit",
+   "title": "Upper limit on the branching fraction"
+  },
+  {
+   "line_start": 58,
+   "line_end": 58,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "normalization"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "tracking"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "pid"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 60,
+   "line_end": 60,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 62,
+   "line_end": 62,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 64,
+   "line_end": 64,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 58-58 share boundary line 58",
+  "units of 58-58 share boundary line 58",
+  "units of 58-58 share boundary line 58",
+  "units of 58-58 share boundary line 58",
+  "units of 58-58 share boundary line 58"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

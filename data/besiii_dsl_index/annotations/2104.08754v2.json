@@ -1,0 +1,201 @@
+{
+ "paper_id": "2104.08754v2",
+ "source_path": "arxiv_papers/2104.08754v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 444,
+ "n_lines_sent": 220,
+ "skipped_ranges": [
+  {
+   "from": 124,
+   "to": 124,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 308,
+   "to": 444,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 126,
+   "type": "front_matter",
+   "title": "Observation of a near-threshold enhancement in the Lambda Lambdabar mass spectrum from e+e- -> phi Lambda Lambdabar at sqrt(s) from 3.51 to 4.60 GeV"
+  },
+  {
+   "line_start": 128,
+   "line_end": 132,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 134,
+   "line_end": 142,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 144,
+   "line_end": 150,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 152,
+   "line_end": 165,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 152,
+     "line_end": 154,
+     "label": "track_selection_and_pid"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "lambda_vertex_fit"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 160,
+     "line_end": 161,
+     "label": "figure_chi2_vs_mpi"
+    },
+    {
+     "line_start": 163,
+     "line_end": 165,
+     "label": "table_cross_section_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 167,
+   "line_end": 252,
+   "type": "fit",
+   "title": "IV. DATA ANALYSIS"
+  },
+  {
+   "line_start": 254,
+   "line_end": 292,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 254,
+     "line_end": 258,
+     "label": "overview"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "luminosity_tracking_pid"
+    },
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 264,
+     "line_end": 264,
+     "label": "mass_window_selection"
+    },
+    {
+     "line_start": 266,
+     "line_end": 266,
+     "label": "isr_factor_and_background_model"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "kinematic_fit_and_branching_fraction"
+    },
+    {
+     "line_start": 270,
+     "line_end": 274,
+     "label": "table_systematic_summary"
+    },
+    {
+     "line_start": 276,
+     "line_end": 278,
+     "label": "lineshape_overview"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "mass_calibration"
+    },
+    {
+     "line_start": 282,
+     "line_end": 282,
+     "label": "efficiency_curve"
+    },
+    {
+     "line_start": 284,
+     "line_end": 284,
+     "label": "signal_model_and_background"
+    },
+    {
+     "line_start": 286,
+     "line_end": 286,
+     "label": "total_lineshape_uncertainty"
+    },
+    {
+     "line_start": 288,
+     "line_end": 288,
+     "label": "reversed_exponential_uncertainty"
+    },
+    {
+     "line_start": 290,
+     "line_end": 292,
+     "label": "table_lineshape_systematic_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 294,
+   "line_end": 302,
+   "type": "conclusion",
+   "title": "VI. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 304,
+   "line_end": 306,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 165,
+   "title": "Summary of the cross section measurements of the e+e- -> phi Lambda Lambdabar process at each CM energy point",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 274,
+   "title": "Summary of the systematic uncertainties for the cross section measurements using sqrt(s) = 4.178 GeV data as an example",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 292,
+   "title": "Summary of systematic uncertainties for the M(Lambda Lambdabar) near-threshold enhancement lineshape parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

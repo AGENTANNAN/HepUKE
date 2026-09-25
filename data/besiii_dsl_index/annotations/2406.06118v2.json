@@ -1,0 +1,210 @@
+{
+ "paper_id": "2406.06118v2",
+ "source_path": "arxiv_papers/2406.06118v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 183,
+ "n_lines_sent": 68,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 148,
+   "to": 183,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 15,
+   "line_end": 34,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 36,
+   "line_end": 38,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 40,
+   "line_end": 52,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 54,
+   "line_end": 54,
+   "type": "detector",
+   "title": "BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 56,
+   "line_end": 60,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 62,
+   "line_end": 62,
+   "type": "background",
+   "title": "Background"
+  },
+  {
+   "line_start": 64,
+   "line_end": 78,
+   "type": "fit",
+   "title": "Fit"
+  },
+  {
+   "line_start": 80,
+   "line_end": 118,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "polarization_observation"
+    },
+    {
+     "line_start": 82,
+     "line_end": 84,
+     "label": "correlation_matrix"
+    },
+    {
+     "line_start": 86,
+     "line_end": 87,
+     "label": "helicity_angles"
+    },
+    {
+     "line_start": 89,
+     "line_end": 99,
+     "label": "moment_mu"
+    },
+    {
+     "line_start": 101,
+     "line_end": 118,
+     "label": "moments_T1_T4"
+    }
+   ]
+  },
+  {
+   "line_start": 120,
+   "line_end": 132,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "overview"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "tracking_pid_photon_lambda"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 126,
+     "line_end": 128,
+     "label": "systematic_table"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 134,
+   "line_end": 136,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 138,
+   "line_end": 146,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 84,
+   "title": "Correlation coefficient matrix of the fitted parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 97,
+   "title": "Fit parameters and CP asymmetries",
+   "section_type": "results"
+  },
+  {
+   "line": 128,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 144,
+   "title": "Parameters of psi -> Sigma0 Sigma0 and psi -> Sigma+ Sigma-",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

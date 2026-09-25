@@ -1,0 +1,218 @@
+{
+ "paper_id": "2311.06883v6",
+ "source_path": "arxiv_papers/2311.06883v6.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 109,
+ "n_lines_sent": 46,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 94,
+   "to": 109,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 19,
+   "type": "front_matter",
+   "title": "Title, author list, affiliations, date"
+  },
+  {
+   "line_start": 21,
+   "line_end": 21,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 23,
+   "line_end": 27,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 29,
+   "line_end": 29,
+   "type": "detector",
+   "title": "BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 31,
+   "line_end": 37,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 31,
+     "line_end": 31,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 33,
+     "line_end": 33,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 35,
+     "line_end": 35,
+     "label": "st_yield_extraction"
+    },
+    {
+     "line_start": 37,
+     "line_end": 37,
+     "label": "signal_side_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 39,
+   "line_end": 41,
+   "type": "event_selection",
+   "title": "Table I"
+  },
+  {
+   "line_start": 43,
+   "line_end": 45,
+   "type": "event_selection",
+   "title": "Signal candidate reconstruction and background vetoes",
+   "units": [
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "signal_candidate_reconstruction"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "background_vetoes"
+    }
+   ]
+  },
+  {
+   "line_start": 47,
+   "line_end": 64,
+   "type": "results",
+   "title": "Signal observation",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 59,
+     "label": "mgamma_gamma_distribution"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "mbc_distributions"
+    },
+    {
+     "line_start": 63,
+     "line_end": 64,
+     "label": "figure_1"
+    }
+   ]
+  },
+  {
+   "line_start": 66,
+   "line_end": 72,
+   "type": "fit",
+   "title": "Simultaneous fit"
+  },
+  {
+   "line_start": 74,
+   "line_end": 74,
+   "type": "results",
+   "title": "Fit results",
+   "units": [
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "branching_fractions_and_significances"
+    }
+   ]
+  },
+  {
+   "line_start": 76,
+   "line_end": 83,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "overview"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "dt_efficiency_sources"
+    },
+    {
+     "line_start": 80,
+     "line_end": 81,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 85,
+   "line_end": 88,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 90,
+   "line_end": 92,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 41,
+   "title": "ST yields and detection efficiencies for nine tag modes",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 12.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 39-41 typed event_selection has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

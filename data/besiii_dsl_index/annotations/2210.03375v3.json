@@ -1,0 +1,223 @@
+{
+ "paper_id": "2210.03375v3",
+ "source_path": "arxiv_papers/2210.03375v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 324,
+ "n_lines_sent": 211,
+ "skipped_ranges": [
+  {
+   "from": 67,
+   "to": 67,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 113,
+   "to": 113,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 130,
+   "to": 130,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 282,
+   "to": 324,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 137,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 139,
+   "line_end": 141,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 143,
+   "line_end": 162,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 164,
+   "line_end": 166,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 168,
+   "line_end": 216,
+   "type": "event_selection",
+   "title": "3 Analysis",
+   "units": [
+    {
+     "line_start": 168,
+     "line_end": 170,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 172,
+     "line_end": 174,
+     "label": "st_yields_and_efficiencies_table"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "photon_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "ks0_lambda_sigma_reconstruction"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 182,
+     "line_end": 184,
+     "label": "st_fit_and_yields"
+    },
+    {
+     "line_start": 186,
+     "line_end": 187,
+     "label": "mbc_distributions_figure"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "dt_signal_selection_and_missing_mass"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "mmiss_distributions_figure"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "dt_yield_fit"
+    },
+    {
+     "line_start": 195,
+     "line_end": 201,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 203,
+     "line_end": 205,
+     "label": "bf_results_table"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 209,
+     "line_end": 210,
+     "label": "mmiss_fit_figure"
+    },
+    {
+     "line_start": 212,
+     "line_end": 214,
+     "label": "systematic_uncertainties_table"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "discussion_of_ratios"
+    }
+   ]
+  },
+  {
+   "line_start": 218,
+   "line_end": 218,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 220,
+   "line_end": 222,
+   "type": "conclusion",
+   "title": "4 Summary"
+  },
+  {
+   "line_start": 224,
+   "line_end": 280,
+   "type": "other",
+   "title": "Appendices"
+  }
+ ],
+ "tables": [
+  {
+   "line": 160,
+   "title": "Center-of-mass energies and integrated luminosities",
+   "section_type": "introduction"
+  },
+  {
+   "line": 174,
+   "title": "Requirements on Delta E, ST yields, ST and DT efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 205,
+   "title": "Obtained branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 214,
+   "title": "Relative systematic uncertainties in BF measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 260,
+   "title": "ST yields, ST and DT efficiencies at 4599.53 MeV",
+   "section_type": "other"
+  },
+  {
+   "line": 264,
+   "title": "ST yields, ST and DT efficiencies at 4611.86 MeV",
+   "section_type": "other"
+  },
+  {
+   "line": 268,
+   "title": "ST yields, ST and DT efficiencies at 4628.00 MeV",
+   "section_type": "other"
+  },
+  {
+   "line": 272,
+   "title": "ST yields, ST and DT efficiencies at 4640.91 MeV",
+   "section_type": "other"
+  },
+  {
+   "line": 276,
+   "title": "ST yields, ST and DT efficiencies at 4661.24 MeV",
+   "section_type": "other"
+  },
+  {
+   "line": 280,
+   "title": "ST yields, ST and DT efficiencies at 4698.82 MeV",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 11.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

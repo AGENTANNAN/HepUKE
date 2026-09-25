@@ -1,0 +1,191 @@
+{
+ "paper_id": "2203.05815v2",
+ "source_path": "arxiv_papers/2203.05815v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 226,
+ "n_lines_sent": 109,
+ "skipped_ranges": [
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 70,
+   "to": 70,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 78,
+   "to": 78,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 80,
+   "to": 81,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 88,
+   "to": 88,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 90,
+   "to": 92,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 154,
+   "to": 154,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 156,
+   "to": 226,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 98,
+   "type": "front_matter",
+   "title": "Observation of Resonance Structures in e+e- -> pi+pi- psi2(3823) and Mass Measurement of psi2(3823)"
+  },
+  {
+   "line_start": 100,
+   "line_end": 108,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 110,
+   "line_end": 110,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 112,
+   "line_end": 118,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "background_rejection"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "jpsi_and_chic1_mass_windows"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "remaining_backgrounds"
+    }
+   ]
+  },
+  {
+   "line_start": 120,
+   "line_end": 134,
+   "type": "fit",
+   "title": "Fit to Recoil Mass and Cross Section"
+  },
+  {
+   "line_start": 136,
+   "line_end": 136,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties on psi2(3823) Mass",
+   "units": [
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "mass_scale_resolution_signal_background_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 138,
+   "line_end": 140,
+   "type": "results",
+   "title": "Results of the Fit to the Cross Section",
+   "units": [
+    {
+     "line_start": 138,
+     "line_end": 140,
+     "label": "resonance_parameters_table"
+    }
+   ]
+  },
+  {
+   "line_start": 142,
+   "line_end": 144,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties on Cross Section and Resonance Parameters",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "cross_section_systematics"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "resonance_parameter_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 146,
+   "line_end": 152,
+   "type": "conclusion",
+   "title": "Summary"
+  }
+ ],
+ "tables": [
+  {
+   "line": 140,
+   "title": "Fit results for resonance parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 206,
+   "title": "Measured cross section times branching ratio",
+   "section_type": "results"
+  },
+  {
+   "line": 210,
+   "title": "Systematic uncertainties for resonance parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

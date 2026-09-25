@@ -1,0 +1,189 @@
+{
+ "paper_id": "2608.06109v1",
+ "source_path": "arxiv_papers/2608.06109v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 487,
+ "n_lines_sent": 85,
+ "skipped_ranges": [
+  {
+   "from": 151,
+   "to": 487,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Search for the charged lepton flavour violating decay eta' -> e mu"
+  },
+  {
+   "line_start": 11,
+   "line_end": 17,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 19,
+   "line_end": 33,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 35,
+   "line_end": 43,
+   "type": "detector",
+   "title": "2 BESIII detector and data samples"
+  },
+  {
+   "line_start": 45,
+   "line_end": 74,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 45,
+     "line_end": 53,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 55,
+     "line_end": 60,
+     "label": "pid"
+    },
+    {
+     "line_start": 62,
+     "line_end": 67,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 69,
+     "line_end": 74,
+     "label": "kinematic_fit_and_signal_window"
+    }
+   ]
+  },
+  {
+   "line_start": 76,
+   "line_end": 82,
+   "type": "background",
+   "title": "4 Background study"
+  },
+  {
+   "line_start": 84,
+   "line_end": 110,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 84,
+     "line_end": 92,
+     "label": "overview"
+    },
+    {
+     "line_start": 94,
+     "line_end": 98,
+     "label": "tracking"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "pid"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "njpsi"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "bf_jpsi_gamma_etaprime"
+    }
+   ]
+  },
+  {
+   "line_start": 112,
+   "line_end": 141,
+   "type": "results",
+   "title": "6 Result",
+   "units": [
+    {
+     "line_start": 112,
+     "line_end": 120,
+     "label": "likelihood_definition"
+    },
+    {
+     "line_start": 122,
+     "line_end": 124,
+     "label": "fixed_parameters"
+    },
+    {
+     "line_start": 126,
+     "line_end": 129,
+     "label": "upper_limit"
+    },
+    {
+     "line_start": 131,
+     "line_end": 141,
+     "label": "wilson_coefficients"
+    }
+   ]
+  },
+  {
+   "line_start": 143,
+   "line_end": 145,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 147,
+   "line_end": 149,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 96,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 124,
+   "title": "Fixed parameters in the likelihood function",
+   "section_type": "results"
+  },
+  {
+   "line": 141,
+   "title": "Comparison of upper limits on Wilson coefficients",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:23",
+ "failed_aspects": []
+}

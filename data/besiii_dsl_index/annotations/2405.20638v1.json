@@ -1,0 +1,285 @@
+{
+ "paper_id": "2405.20638v1",
+ "source_path": "arxiv_papers/2405.20638v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 334,
+ "n_lines_sent": 193,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 64,
+   "to": 64,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 70,
+   "to": 70,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 72,
+   "to": 72,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 74,
+   "to": 74,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 76,
+   "to": 76,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 78,
+   "to": 78,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 84,
+   "to": 84,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 86,
+   "to": 88,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 121,
+   "to": 121,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 134,
+   "to": 134,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 138,
+   "to": 138,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 295,
+   "to": 334,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 4,
+   "line_end": 149,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 150,
+   "line_end": 152,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 154,
+   "line_end": 160,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 162,
+   "line_end": 170,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 172,
+   "line_end": 191,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 172,
+     "line_end": 178,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 182,
+     "line_end": 191,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 193,
+   "line_end": 214,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELDS"
+  },
+  {
+   "line_start": 216,
+   "line_end": 224,
+   "type": "results",
+   "title": "V. NUMERICAL RESULTS",
+   "units": [
+    {
+     "line_start": 216,
+     "line_end": 224,
+     "label": "branching_fraction_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 226,
+   "line_end": 285,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 226,
+     "line_end": 230,
+     "label": "kaon_tracking"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "kaon_pid"
+    },
+    {
+     "line_start": 233,
+     "line_end": 255,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 259,
+     "line_end": 261,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 262,
+     "line_end": 268,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 270,
+     "line_end": 272,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 274,
+     "line_end": 274,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "normalization_factor"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "input_branching_fractions"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "psi3686_number"
+    },
+    {
+     "line_start": 281,
+     "line_end": 285,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 287,
+   "line_end": 289,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 291,
+   "line_end": 293,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 240,
+   "title": "Signal yields, significances, efficiencies, and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 285,
+   "title": "Systematic uncertainties in the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

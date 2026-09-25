@@ -1,0 +1,299 @@
+{
+ "paper_id": "1512.06998v2",
+ "source_path": "arxiv_papers/1512.06998v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 176,
+ "n_lines_sent": 123,
+ "skipped_ranges": [],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 71,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 73,
+   "line_end": 73,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 75,
+   "line_end": 75,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 77,
+   "line_end": 87,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 89,
+   "line_end": 89,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 91,
+   "line_end": 91,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 93,
+   "line_end": 109,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "st_modes"
+    },
+    {
+     "line_start": 97,
+     "line_end": 103,
+     "label": "mbc_deltae"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "signal_side_selection"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 111,
+   "line_end": 114,
+   "type": "event_selection",
+   "title": "Signal region definition",
+   "units": [
+    {
+     "line_start": 111,
+     "line_end": 112,
+     "label": "figure1"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "signal_region"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 117,
+   "type": "event_selection",
+   "title": "Figure 2",
+   "units": [
+    {
+     "line_start": 116,
+     "line_end": 117,
+     "label": "figure2"
+    }
+   ]
+  },
+  {
+   "line_start": 119,
+   "line_end": 121,
+   "type": "event_selection",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 119,
+     "line_end": 121,
+     "label": "table1"
+    }
+   ]
+  },
+  {
+   "line_start": 123,
+   "line_end": 124,
+   "type": "fit",
+   "title": "Figure 3"
+  },
+  {
+   "line_start": 126,
+   "line_end": 128,
+   "type": "fit",
+   "title": "Fit to M3pi"
+  },
+  {
+   "line_start": 130,
+   "line_end": 131,
+   "type": "fit",
+   "title": "Figure 4"
+  },
+  {
+   "line_start": 133,
+   "line_end": 135,
+   "type": "fit",
+   "title": "Table II"
+  },
+  {
+   "line_start": 137,
+   "line_end": 137,
+   "type": "fit",
+   "title": "Helicity dependence"
+  },
+  {
+   "line_start": 139,
+   "line_end": 139,
+   "type": "fit",
+   "title": "Eta pi cross-check"
+  },
+  {
+   "line_start": 141,
+   "line_end": 141,
+   "type": "fit",
+   "title": "Eta pi fit"
+  },
+  {
+   "line_start": 143,
+   "line_end": 144,
+   "type": "fit",
+   "title": "Figure 5"
+  },
+  {
+   "line_start": 146,
+   "line_end": 160,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "overview"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "tracking_pid_pi0"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "signal_region_deltae"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "helicity_ks_veto"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "sideband"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "resolution"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "background_shape_fit_range"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 162,
+   "line_end": 164,
+   "type": "systematic_uncertainty",
+   "title": "Table III",
+   "units": [
+    {
+     "line_start": 162,
+     "line_end": 164,
+     "label": "table3"
+    }
+   ]
+  },
+  {
+   "line_start": 166,
+   "line_end": 170,
+   "type": "results",
+   "title": "Branching fraction results",
+   "units": [
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "results_summary"
+    },
+    {
+     "line_start": 168,
+     "line_end": 170,
+     "label": "table4"
+    }
+   ]
+  },
+  {
+   "line_start": 172,
+   "line_end": 172,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 174,
+   "line_end": 176,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 121,
+   "title": "ST yields, ST and DT efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 135,
+   "title": "Summary of omega(eta) yields and peaking background",
+   "section_type": "fit"
+  },
+  {
+   "line": 164,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 170,
+   "title": "Summary of branching fraction measurements",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

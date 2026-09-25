@@ -1,0 +1,137 @@
+{
+ "paper_id": "1705.11109v1",
+ "source_path": "arxiv_papers/1705.11109v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 180,
+ "n_lines_sent": 116,
+ "skipped_ranges": [
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 159,
+   "to": 180,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 76,
+   "type": "front_matter",
+   "title": "Observation of the decay Λc+ → Σ−π+π+π0 (title, authors, affiliations)"
+  },
+  {
+   "line_start": 78,
+   "line_end": 82,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 84,
+   "line_end": 88,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 90,
+   "line_end": 96,
+   "type": "detector",
+   "title": "2. BESIII Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 98,
+   "line_end": 141,
+   "type": "event_selection",
+   "title": "3. Analysis",
+   "units": [
+    {
+     "line_start": 98,
+     "line_end": 102,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "dt_selection"
+    },
+    {
+     "line_start": 106,
+     "line_end": 112,
+     "label": "neutron_mass_variable"
+    },
+    {
+     "line_start": 114,
+     "line_end": 116,
+     "label": "st_yields_table"
+    },
+    {
+     "line_start": 118,
+     "line_end": 124,
+     "label": "sigma_mass_variable"
+    },
+    {
+     "line_start": 126,
+     "line_end": 134,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 138,
+     "line_end": 141,
+     "label": "figure_and_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 143,
+   "line_end": 147,
+   "type": "conclusion",
+   "title": "4. Summary"
+  },
+  {
+   "line_start": 149,
+   "line_end": 157,
+   "type": "acknowledgements",
+   "title": "5. Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 116,
+   "title": "Requirements on ΔE and ST yields for the eleven ST modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 155,
+   "title": "Summary of the relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

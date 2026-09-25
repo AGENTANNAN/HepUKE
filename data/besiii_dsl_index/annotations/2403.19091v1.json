@@ -1,0 +1,210 @@
+{
+ "paper_id": "2403.19091v1",
+ "source_path": "arxiv_papers/2403.19091v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 321,
+ "n_lines_sent": 91,
+ "skipped_ranges": [
+  {
+   "from": 172,
+   "to": 321,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 7,
+   "line_end": 7,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 9,
+   "line_end": 24,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 26,
+   "line_end": 32,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 34,
+   "line_end": 42,
+   "type": "detector",
+   "title": "2 Detector and data sets"
+  },
+  {
+   "line_start": 44,
+   "line_end": 85,
+   "type": "event_selection",
+   "title": "3 Measurement method and single-tag selection",
+   "units": [
+    {
+     "line_start": 44,
+     "line_end": 54,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 56,
+     "line_end": 62,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 64,
+     "line_end": 76,
+     "label": "st_selection_variables"
+    },
+    {
+     "line_start": 78,
+     "line_end": 85,
+     "label": "st_yield_fits"
+    }
+   ]
+  },
+  {
+   "line_start": 87,
+   "line_end": 95,
+   "type": "event_selection",
+   "title": "4.1 Selection of signal candidates",
+   "units": [
+    {
+     "line_start": 87,
+     "line_end": 91,
+     "label": "signal_candidate_reconstruction"
+    },
+    {
+     "line_start": 93,
+     "line_end": 95,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 97,
+   "line_end": 124,
+   "type": "fit",
+   "title": "4.2 Measurement of branching fractions"
+  },
+  {
+   "line_start": 126,
+   "line_end": 158,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 126,
+     "line_end": 130,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "pion_tracking_pid"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "electron_tracking_pid"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "two_dimensional_fit"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "signal_generator"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "k1_subdecays"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "fsr_recovery"
+    },
+    {
+     "line_start": 150,
+     "line_end": 158,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 160,
+   "line_end": 166,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 168,
+   "line_end": 170,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 80,
+   "title": "Delta E requirements and M_BC mass windows for the ten tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 118,
+   "title": "ST yields, ST efficiencies, signal efficiencies, weighted efficiencies and signal yields",
+   "section_type": "fit"
+  },
+  {
+   "line": 124,
+   "title": "Measured and combined branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 152,
+   "title": "Systematic uncertainties from the 2D fits",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 156,
+   "title": "Relative systematic uncertainties in the BF measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 10.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

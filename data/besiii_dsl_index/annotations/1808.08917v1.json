@@ -1,0 +1,178 @@
+{
+ "paper_id": "1808.08917v1",
+ "source_path": "arxiv_papers/1808.08917v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 344,
+ "n_lines_sent": 160,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 93,
+   "to": 93,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 96,
+   "to": 96,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 300,
+   "to": 344,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 103,
+   "type": "front_matter",
+   "title": "Polarization and Entanglement in Baryon-Antibaryon Pair Production in Electron-Positron Annihilation"
+  },
+  {
+   "line_start": 105,
+   "line_end": 130,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 132,
+   "line_end": 142,
+   "type": "fit",
+   "title": "II. ANALYSIS"
+  },
+  {
+   "line_start": 144,
+   "line_end": 155,
+   "type": "results",
+   "title": "III. RESULTS",
+   "units": [
+    {
+     "line_start": 144,
+     "line_end": 155,
+     "label": "polarization_and_decay_parameters"
+    }
+   ]
+  },
+  {
+   "line_start": 157,
+   "line_end": 161,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 163,
+   "line_end": 167,
+   "type": "dataset",
+   "title": "Appendix A: Methods - 1. Monte Carlo simulation"
+  },
+  {
+   "line_start": 169,
+   "line_end": 186,
+   "type": "event_selection",
+   "title": "2. Selection Criteria",
+   "units": [
+    {
+     "line_start": 169,
+     "line_end": 173,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "selection_ppim_pbarpiplus"
+    },
+    {
+     "line_start": 177,
+     "line_end": 186,
+     "label": "selection_ppim_nbarpi0"
+    }
+   ]
+  },
+  {
+   "line_start": 188,
+   "line_end": 260,
+   "type": "fit",
+   "title": "3. The global fit"
+  },
+  {
+   "line_start": 262,
+   "line_end": 298,
+   "type": "systematic_uncertainty",
+   "title": "4. Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 262,
+     "line_end": 266,
+     "label": "tracking"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "pi0_and_neutron_reconstruction"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "lambda_vertex"
+    },
+    {
+     "line_start": 270,
+     "line_end": 285,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 287,
+     "line_end": 287,
+     "label": "fit_method"
+    },
+    {
+     "line_start": 288,
+     "line_end": 298,
+     "label": "background_estimation"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "line": 140,
+   "title": "Summary of results",
+   "section_type": "results"
+  },
+  {
+   "line": 245,
+   "title": "Simultaneous fit results",
+   "section_type": "fit"
+  },
+  {
+   "line": 294,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

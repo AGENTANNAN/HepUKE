@@ -1,0 +1,295 @@
+{
+ "paper_id": "1705.06853v1",
+ "source_path": "arxiv_papers/1705.06853v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 180,
+ "n_lines_sent": 72,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 164,
+   "to": 180,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 77,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 79,
+   "line_end": 79,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 81,
+   "line_end": 81,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 83,
+   "line_end": 89,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 91,
+   "line_end": 91,
+   "type": "detector",
+   "title": "BEPCII and BESIII detector"
+  },
+  {
+   "line_start": 93,
+   "line_end": 93,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 95,
+   "line_end": 103,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "pi0_eta_ks_reconstruction"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 105,
+   "line_end": 111,
+   "type": "fit",
+   "title": "Cross section measurement"
+  },
+  {
+   "line_start": 113,
+   "line_end": 121,
+   "type": "results",
+   "title": "Results at each energy",
+   "units": [
+    {
+     "line_start": 113,
+     "line_end": 114,
+     "label": "figure1"
+    },
+    {
+     "line_start": 116,
+     "line_end": 117,
+     "label": "figure2"
+    },
+    {
+     "line_start": 119,
+     "line_end": 121,
+     "label": "table1"
+    }
+   ]
+  },
+  {
+   "line_start": 123,
+   "line_end": 131,
+   "type": "results",
+   "title": "Combined results",
+   "units": [
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "combined_fit"
+    },
+    {
+     "line_start": 125,
+     "line_end": 127,
+     "label": "table2"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "shape_test"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "psi_assumptions"
+    }
+   ]
+  },
+  {
+   "line_start": 133,
+   "line_end": 155,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "overview"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 137,
+     "line_end": 139,
+     "label": "table3"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "mass_resolution"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "eta_c_mass_width"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "eta_c_lineshape"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "tracking_photon_ks_efficiency"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "kinematic_fitting"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "jpsi_peak"
+    }
+   ]
+  },
+  {
+   "line_start": 157,
+   "line_end": 159,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 161,
+   "line_end": 161,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 163,
+   "line_end": 163,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 121,
+   "title": "Born cross section, significance and upper limits at each center-of-mass energy",
+   "section_type": "results"
+  },
+  {
+   "line": 127,
+   "title": "Peak Born cross section under various energy-dependence assumptions",
+   "section_type": "results"
+  },
+  {
+   "line": 139,
+   "title": "Systematic uncertainties on the cross section measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 12.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

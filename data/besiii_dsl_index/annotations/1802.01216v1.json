@@ -1,0 +1,211 @@
+{
+ "paper_id": "1802.01216v1",
+ "source_path": "arxiv_papers/1802.01216v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 255,
+ "n_lines_sent": 123,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 223,
+   "to": 255,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 119,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 121,
+   "line_end": 123,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 125,
+   "line_end": 131,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 133,
+   "line_end": 137,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 139,
+   "line_end": 144,
+   "type": "dataset",
+   "title": "Data Samples and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 146,
+   "line_end": 165,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 146,
+     "line_end": 148,
+     "label": "final_state_reconstruction"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "pid_and_ks_selection"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "background_study"
+    },
+    {
+     "line_start": 158,
+     "line_end": 165,
+     "label": "intermediate_states"
+    }
+   ]
+  },
+  {
+   "line_start": 167,
+   "line_end": 183,
+   "type": "fit",
+   "title": "Cross Section Calculation and Fit"
+  },
+  {
+   "line_start": 185,
+   "line_end": 185,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "final_results"
+    }
+   ]
+  },
+  {
+   "line_start": 187,
+   "line_end": 204,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 187,
+     "line_end": 190,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 196,
+     "line_end": 196,
+     "label": "jpsi_resolution"
+    },
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "isr_vacuum_polarization"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "zc_substructure"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "kk_substructure"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "total_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 206,
+   "line_end": 216,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 218,
+   "line_end": 220,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 222,
+   "line_end": 222,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 210,
+   "title": "Center-of-mass energies, integrated luminosities, and final results for cross sections and ratios",
+   "section_type": "results"
+  },
+  {
+   "line": 214,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

@@ -1,0 +1,254 @@
+{
+ "paper_id": "2404.09219v1",
+ "source_path": "arxiv_papers/2404.09219v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 146,
+ "n_lines_sent": 44,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 110,
+   "to": 146,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 6,
+   "line_end": 6,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 9,
+   "line_end": 10,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 18,
+   "line_end": 18,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 21,
+   "line_end": 21,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 29,
+   "line_end": 29,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 31,
+   "line_end": 31,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 44,
+   "line_end": 44,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 46,
+   "line_end": 54,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 56,
+   "line_end": 56,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 58,
+   "line_end": 62,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "tracking_pid_ks_pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "tag_modes_and_signal_mc"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "signal_side_selection_and_mva"
+    }
+   ]
+  },
+  {
+   "line_start": 64,
+   "line_end": 80,
+   "type": "fit",
+   "title": "Amplitude analysis"
+  },
+  {
+   "line_start": 82,
+   "line_end": 86,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 82,
+     "line_end": 86,
+     "label": "table_i_phases_ffs_significances_bfs"
+    }
+   ]
+  },
+  {
+   "line_start": 88,
+   "line_end": 88,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "systematic_uncertainties_amplitude_model"
+    }
+   ]
+  },
+  {
+   "line_start": 90,
+   "line_end": 92,
+   "type": "results",
+   "title": "Branching fraction measurements",
+   "units": [
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "bf_measurement_method"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "total_bfs_and_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 94,
+   "line_end": 98,
+   "type": "results",
+   "title": "Figures",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 95,
+     "label": "dalitz_plots_and_projections"
+    },
+    {
+     "line_start": 97,
+     "line_end": 98,
+     "label": "delta_e_fits"
+    }
+   ]
+  },
+  {
+   "line_start": 100,
+   "line_end": 100,
+   "type": "results",
+   "title": "Ratios",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "ratios_r_plus_minus_and_r_plus_zero"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 104,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 106,
+   "line_end": 108,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 84,
+   "title": "Phases, fit fractions, significances and branching fractions for various amplitudes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

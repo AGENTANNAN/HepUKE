@@ -1,0 +1,266 @@
+{
+ "paper_id": "1504.02025v1",
+ "source_path": "arxiv_papers/1504.02025v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 362,
+ "n_lines_sent": 174,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 67,
+   "to": 67,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 81,
+   "to": 81,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 95,
+   "to": 95,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 103,
+   "to": 103,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 105,
+   "to": 105,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 109,
+   "to": 109,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 335,
+   "to": 362,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 123,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, abstract and PACS"
+  },
+  {
+   "line_start": 125,
+   "line_end": 137,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 139,
+   "line_end": 143,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 145,
+   "line_end": 153,
+   "type": "event_selection",
+   "title": "Event selection for psi(3686) -> K- Lambda Xi+",
+   "units": [
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "secondary_vertex"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "kinematic_fit_and_mass_windows"
+    },
+    {
+     "line_start": 151,
+     "line_end": 153,
+     "label": "background_studies"
+    }
+   ]
+  },
+  {
+   "line_start": 155,
+   "line_end": 163,
+   "type": "fit",
+   "title": "A. BRANCHING FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 165,
+   "line_end": 220,
+   "type": "fit",
+   "title": "B. OBSERVATION OF Xi*- STATES"
+  },
+  {
+   "line_start": 222,
+   "line_end": 230,
+   "type": "event_selection",
+   "title": "IV. ANALYSIS OF psi(3686) -> gamma K- Lambda Xi+",
+   "units": [
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 226,
+     "line_end": 230,
+     "label": "mass_windows_and_scatter_plot"
+    }
+   ]
+  },
+  {
+   "line_start": 232,
+   "line_end": 236,
+   "type": "fit",
+   "title": "A. STUDY OF psi(3686) -> K- Sigma0 Xi+"
+  },
+  {
+   "line_start": 238,
+   "line_end": 263,
+   "type": "fit",
+   "title": "B. STUDY OF chi_cJ -> K- Lambda Xi+ (J = 0, 1, 2)"
+  },
+  {
+   "line_start": 265,
+   "line_end": 317,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 265,
+     "line_end": 267,
+     "label": "introduction"
+    },
+    {
+     "line_start": 269,
+     "line_end": 271,
+     "label": "tracking"
+    },
+    {
+     "line_start": 273,
+     "line_end": 275,
+     "label": "pid"
+    },
+    {
+     "line_start": 277,
+     "line_end": 279,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 281,
+     "line_end": 285,
+     "label": "secondary_vertex_fit"
+    },
+    {
+     "line_start": 287,
+     "line_end": 289,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 291,
+     "line_end": 303,
+     "label": "fit_method"
+    },
+    {
+     "line_start": 305,
+     "line_end": 307,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 309,
+     "line_end": 317,
+     "label": "other_and_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 319,
+   "line_end": 321,
+   "type": "conclusion",
+   "title": "VI. CONCLUSION"
+  },
+  {
+   "line_start": 323,
+   "line_end": 333,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 220,
+   "title": "Xi(1690)- and Xi(1820)- fit results",
+   "section_type": "fit"
+  },
+  {
+   "line": 293,
+   "title": "Summary of relative systematic uncertainties in branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 301,
+   "title": "Summary of systematic uncertainties on Xi*- parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 329,
+   "title": "Summary of branching fraction measurements",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

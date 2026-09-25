@@ -1,0 +1,165 @@
+{
+ "paper_id": "2405.07741v2",
+ "source_path": "arxiv_papers/2405.07741v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 119,
+ "n_lines_sent": 38,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 85,
+   "to": 119,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 4,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 15,
+   "line_end": 15,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 17,
+   "line_end": 25,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 27,
+   "line_end": 37,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 39,
+   "line_end": 59,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND RESULT",
+   "units": [
+    {
+     "line_start": 39,
+     "line_end": 41,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 43,
+     "line_end": 45,
+     "label": "data_sets_luminosity"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "kinematic_fit_and_background_veto"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "mass_distribution_and_backgrounds"
+    },
+    {
+     "line_start": 51,
+     "line_end": 59,
+     "label": "branching_ratio_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 62,
+   "line_end": 71,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 62,
+     "line_end": 64,
+     "label": "background_scaling_factor_r"
+    },
+    {
+     "line_start": 66,
+     "line_end": 67,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "n_pi_pi_jpsi_and_branching_fraction"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "efficiency_ratio_and_pi0_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 73,
+   "line_end": 75,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 81,
+   "line_end": 83,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 33,
+   "title": "Calculated values for R_chi_c1(2P)",
+   "section_type": "introduction"
+  },
+  {
+   "line": 45,
+   "title": "Data sets and integrated luminosity",
+   "section_type": "dataset"
+  },
+  {
+   "line": 79,
+   "title": "Relative systematic uncertainties on R_chi_c1(3872)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

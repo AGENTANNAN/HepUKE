@@ -1,0 +1,287 @@
+{
+ "paper_id": "2501.01661v1",
+ "source_path": "arxiv_papers/2501.01661v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 386,
+ "n_lines_sent": 196,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 64,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 95,
+   "to": 95,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 98,
+   "to": 98,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 154,
+   "to": 154,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 345,
+   "to": 386,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 152,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 156,
+   "line_end": 156,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 158,
+   "line_end": 180,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 182,
+   "line_end": 190,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 192,
+   "line_end": 214,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 192,
+     "line_end": 196,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 198,
+     "line_end": 204,
+     "label": "photon_selection_and_kinematic_fit"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "fake_photon_correction"
+    },
+    {
+     "line_start": 208,
+     "line_end": 214,
+     "label": "fsr_background"
+    }
+   ]
+  },
+  {
+   "line_start": 216,
+   "line_end": 254,
+   "type": "fit",
+   "title": "IV. DETERMINATION OF BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 256,
+   "line_end": 309,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 256,
+     "line_end": 270,
+     "label": "introduction"
+    },
+    {
+     "line_start": 272,
+     "line_end": 274,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 276,
+     "line_end": 276,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "figure"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "table"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "table"
+    },
+    {
+     "line_start": 285,
+     "line_end": 285,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 287,
+     "line_end": 287,
+     "label": "fake_photon_sampling"
+    },
+    {
+     "line_start": 289,
+     "line_end": 289,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 291,
+     "line_end": 291,
+     "label": "normalization"
+    },
+    {
+     "line_start": 293,
+     "line_end": 293,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 295,
+     "line_end": 295,
+     "label": "additive_uncertainties_intro"
+    },
+    {
+     "line_start": 297,
+     "line_end": 297,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 299,
+     "line_end": 301,
+     "label": "nonresonant_background"
+    },
+    {
+     "line_start": 303,
+     "line_end": 303,
+     "label": "damping_function"
+    },
+    {
+     "line_start": 305,
+     "line_end": 305,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 307,
+     "line_end": 307,
+     "label": "efficiency_curve"
+    },
+    {
+     "line_start": 309,
+     "line_end": 309,
+     "label": "resolution"
+    }
+   ]
+  },
+  {
+   "line_start": 311,
+   "line_end": 321,
+   "type": "results",
+   "title": "VI. RESULTS AND DISCUSSION",
+   "units": [
+    {
+     "line_start": 311,
+     "line_end": 319,
+     "label": "upper_limit"
+    },
+    {
+     "line_start": 321,
+     "line_end": 321,
+     "label": "chi_cJ_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 323,
+   "line_end": 325,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 327,
+   "line_end": 339,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 341,
+   "line_end": 343,
+   "type": "other",
+   "title": "TABLE IV"
+  }
+ ],
+ "tables": [
+  {
+   "line": 283,
+   "title": "Signal yields and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 333,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 337,
+   "title": "Branching fractions of chi_cJ to p pbar K+ K-",
+   "section_type": "results"
+  },
+  {
+   "line": 343,
+   "title": "Comparison of branching fractions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 256-309 before line 281"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

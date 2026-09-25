@@ -1,0 +1,212 @@
+{
+ "paper_id": "2510.24333v1",
+ "source_path": "arxiv_papers/2510.24333v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 314,
+ "n_lines_sent": 177,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 266,
+   "to": 314,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 187,
+   "type": "front_matter",
+   "title": "Test of CP Symmetry in the Neutral Decays of Lambda via J/psi -> Lambda Lambda"
+  },
+  {
+   "line_start": 189,
+   "line_end": 189,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 191,
+   "line_end": 199,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 201,
+   "line_end": 207,
+   "type": "other",
+   "title": "Angular distribution formalism"
+  },
+  {
+   "line_start": 209,
+   "line_end": 209,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 211,
+   "line_end": 215,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "neutron_missing_mass"
+    }
+   ]
+  },
+  {
+   "line_start": 217,
+   "line_end": 240,
+   "type": "fit",
+   "title": "Fit to the joint angular distribution"
+  },
+  {
+   "line_start": 242,
+   "line_end": 242,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "event_reconstruction"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "data_mc_discrepancy"
+    }
+   ]
+  },
+  {
+   "line_start": 244,
+   "line_end": 249,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 244,
+     "line_end": 246,
+     "label": "fit_results_table"
+    },
+    {
+     "line_start": 248,
+     "line_end": 249,
+     "label": "polarization_moment"
+    }
+   ]
+  },
+  {
+   "line_start": 251,
+   "line_end": 251,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 253,
+   "line_end": 258,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty table and figure",
+   "units": [
+    {
+     "line_start": 253,
+     "line_end": 255,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 257,
+     "line_end": 258,
+     "label": "decay_parameter_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 260,
+   "line_end": 264,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 246,
+   "title": "Summaries of production and decay parameters",
+   "section_type": "results"
+  },
+  {
+   "line": 255,
+   "title": "Absolute systematic uncertainties of measured parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 242-242 share boundary line 242",
+  "units of 242-242 share boundary line 242",
+  "units of 242-242 share boundary line 242"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

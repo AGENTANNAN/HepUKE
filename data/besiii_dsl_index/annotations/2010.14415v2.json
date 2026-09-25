@@ -1,0 +1,255 @@
+{
+ "paper_id": "2010.14415v2",
+ "source_path": "arxiv_papers/2010.14415v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 560,
+ "n_lines_sent": 307,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 73,
+   "to": 73,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 85,
+   "to": 85,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 506,
+   "to": 560,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 110,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 111,
+   "line_end": 111,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 112,
+   "line_end": 137,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 138,
+   "line_end": 157,
+   "type": "detector",
+   "title": "II. DETECTORS AND DATA SAMPLES"
+  },
+  {
+   "line_start": 158,
+   "line_end": 231,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 161,
+     "label": "overview"
+    },
+    {
+     "line_start": 162,
+     "line_end": 173,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 174,
+     "line_end": 177,
+     "label": "reconstruction_efficiencies"
+    },
+    {
+     "line_start": 178,
+     "line_end": 231,
+     "label": "radiative_corrections"
+    }
+   ]
+  },
+  {
+   "line_start": 232,
+   "line_end": 344,
+   "type": "fit",
+   "title": "IV. CROSS SECTION MEASUREMENTS FOR ηc PRODUCTION"
+  },
+  {
+   "line_start": 345,
+   "line_end": 410,
+   "type": "results",
+   "title": "V. SEARCH FOR Zc → ηc π",
+   "units": [
+    {
+     "line_start": 345,
+     "line_end": 354,
+     "label": "search_setup"
+    },
+    {
+     "line_start": 355,
+     "line_end": 360,
+     "label": "mass_width_scan"
+    },
+    {
+     "line_start": 361,
+     "line_end": 368,
+     "label": "charged_zc_results"
+    },
+    {
+     "line_start": 369,
+     "line_end": 410,
+     "label": "neutral_zc_results"
+    }
+   ]
+  },
+  {
+   "line_start": 411,
+   "line_end": 453,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 411,
+     "line_end": 414,
+     "label": "overview"
+    },
+    {
+     "line_start": 415,
+     "line_end": 433,
+     "label": "sources_a_i"
+    },
+    {
+     "line_start": 434,
+     "line_end": 439,
+     "label": "sources_j_l"
+    },
+    {
+     "line_start": 440,
+     "line_end": 443,
+     "label": "total_uncertainty"
+    },
+    {
+     "line_start": 444,
+     "line_end": 453,
+     "label": "treatment_in_limits_and_significances"
+    }
+   ]
+  },
+  {
+   "line_start": 454,
+   "line_end": 463,
+   "type": "conclusion",
+   "title": "VII. SUMMARY OF RESULTS"
+  },
+  {
+   "line_start": 464,
+   "line_end": 467,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 468,
+   "line_end": 504,
+   "type": "other",
+   "title": "Tables"
+  }
+ ],
+ "tables": [
+  {
+   "line": 146,
+   "title": "Integrated luminosities at six center-of-mass energies",
+   "section_type": "dataset"
+  },
+  {
+   "line": 150,
+   "title": "Summary of the 16 hadronic ηc decay channels",
+   "section_type": "dataset"
+  },
+  {
+   "line": 472,
+   "title": "Results for e+e- → ηc π+ π- π0",
+   "section_type": "results"
+  },
+  {
+   "line": 478,
+   "title": "Results for e+e- → ηc π+ π-",
+   "section_type": "results"
+  },
+  {
+   "line": 484,
+   "title": "Results for e+e- → ηc π0 γ",
+   "section_type": "results"
+  },
+  {
+   "line": 488,
+   "title": "Results for Zc± → ηc π±",
+   "section_type": "results"
+  },
+  {
+   "line": 492,
+   "title": "Results for Zc0 → ηc π0",
+   "section_type": "results"
+  },
+  {
+   "line": 496,
+   "title": "Signal significances for Zc± → ηc π±",
+   "section_type": "results"
+  },
+  {
+   "line": 500,
+   "title": "Signal significances for Zc0 → ηc π0",
+   "section_type": "results"
+  },
+  {
+   "line": 504,
+   "title": "List of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

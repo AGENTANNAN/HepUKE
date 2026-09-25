@@ -1,0 +1,198 @@
+{
+ "paper_id": "2111.07571v1",
+ "source_path": "arxiv_papers/2111.07571v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 233,
+ "n_lines_sent": 120,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 220,
+   "to": 233,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 62,
+   "type": "front_matter",
+   "title": "Number of J/ψ events at BESIII"
+  },
+  {
+   "line_start": 64,
+   "line_end": 66,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 68,
+   "line_end": 92,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 94,
+   "line_end": 123,
+   "type": "event_selection",
+   "title": "2 Inclusive J/ψ selection criteria",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 96,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 98,
+     "line_end": 102,
+     "label": "visible_energy_requirement"
+    },
+    {
+     "line_start": 104,
+     "line_end": 105,
+     "label": "visible_energy_figure"
+    },
+    {
+     "line_start": 107,
+     "line_end": 113,
+     "label": "two_track_momentum_and_emc_energy"
+    },
+    {
+     "line_start": 115,
+     "line_end": 123,
+     "label": "selected_events_and_distributions"
+    }
+   ]
+  },
+  {
+   "line_start": 125,
+   "line_end": 137,
+   "type": "background",
+   "title": "3 Background analysis"
+  },
+  {
+   "line_start": 139,
+   "line_end": 156,
+   "type": "fit",
+   "title": "4 Determination of the detection efficiency and correction factor"
+  },
+  {
+   "line_start": 158,
+   "line_end": 164,
+   "type": "results",
+   "title": "5 Number of J/ψ events",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 164,
+     "label": "number_of_jpsi_events"
+    }
+   ]
+  },
+  {
+   "line_start": 166,
+   "line_end": 210,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 166,
+     "line_end": 168,
+     "label": "overview"
+    },
+    {
+     "line_start": 170,
+     "line_end": 172,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 174,
+     "line_end": 178,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 180,
+     "line_end": 184,
+     "label": "fit_to_jpsi_peak"
+    },
+    {
+     "line_start": 186,
+     "line_end": 194,
+     "label": "background_uncertainty"
+    },
+    {
+     "line_start": 196,
+     "line_end": 198,
+     "label": "random_trigger_mixing"
+    },
+    {
+     "line_start": 200,
+     "line_end": 202,
+     "label": "soft_pion_selection_efficiency"
+    },
+    {
+     "line_start": 204,
+     "line_end": 210,
+     "label": "summary_of_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 212,
+   "line_end": 218,
+   "type": "conclusion",
+   "title": "7 Summary"
+  }
+ ],
+ "tables": [
+  {
+   "line": 76,
+   "title": "Data samples used in the determination of the number of J/ψ events",
+   "section_type": "introduction"
+  },
+  {
+   "line": 164,
+   "title": "Values used in the calculation and resulting number of J/ψ events",
+   "section_type": "results"
+  },
+  {
+   "line": 210,
+   "title": "Sources of systematic uncertainties and contributions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

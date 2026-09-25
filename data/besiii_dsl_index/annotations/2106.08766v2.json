@@ -1,0 +1,216 @@
+{
+ "paper_id": "2106.08766v2",
+ "source_path": "arxiv_papers/2106.08766v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 358,
+ "n_lines_sent": 257,
+ "skipped_ranges": [
+  {
+   "from": 79,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 81,
+   "to": 81,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 145,
+   "to": 145,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 354,
+   "to": 358,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 145,
+   "type": "front_matter",
+   "title": "Measurement of the inclusive branching fraction for psi(3686) -> K_S^0 + anything"
+  },
+  {
+   "line_start": 147,
+   "line_end": 151,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 153,
+   "line_end": 161,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 163,
+   "line_end": 223,
+   "type": "other",
+   "title": "2. Expected Observed Cross Section"
+  },
+  {
+   "line_start": 225,
+   "line_end": 235,
+   "type": "detector",
+   "title": "3. Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 237,
+   "line_end": 313,
+   "type": "event_selection",
+   "title": "4. Data Analysis",
+   "units": [
+    {
+     "line_start": 237,
+     "line_end": 239,
+     "label": "overview"
+    },
+    {
+     "line_start": 241,
+     "line_end": 243,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 245,
+     "line_end": 246,
+     "label": "mass_fit"
+    },
+    {
+     "line_start": 248,
+     "line_end": 254,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 256,
+     "line_end": 258,
+     "label": "yields_and_cross_sections"
+    },
+    {
+     "line_start": 260,
+     "line_end": 261,
+     "label": "efficiency"
+    },
+    {
+     "line_start": 263,
+     "line_end": 265,
+     "label": "efficiency_correction"
+    },
+    {
+     "line_start": 267,
+     "line_end": 273,
+     "label": "efficiency_determination"
+    },
+    {
+     "line_start": 275,
+     "line_end": 281,
+     "label": "observed_cross_section"
+    },
+    {
+     "line_start": 283,
+     "line_end": 288,
+     "label": "iterative_procedure"
+    },
+    {
+     "line_start": 290,
+     "line_end": 313,
+     "label": "fit"
+    }
+   ]
+  },
+  {
+   "line_start": 314,
+   "line_end": 336,
+   "type": "systematic_uncertainty",
+   "title": "5. Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 314,
+     "line_end": 318,
+     "label": "overview"
+    },
+    {
+     "line_start": 319,
+     "line_end": 320,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 321,
+     "line_end": 322,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 323,
+     "line_end": 324,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 325,
+     "line_end": 326,
+     "label": "cm_energy"
+    },
+    {
+     "line_start": 327,
+     "line_end": 336,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 338,
+   "line_end": 346,
+   "type": "conclusion",
+   "title": "6. Summary"
+  },
+  {
+   "line_start": 348,
+   "line_end": 352,
+   "type": "acknowledgements",
+   "title": "7. Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 233,
+   "title": "Numbers of signal MC events",
+   "section_type": "detector"
+  },
+  {
+   "line": 258,
+   "title": "Luminosity, observed events, background, efficiency, and cross sections at each energy point",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 312,
+   "title": "Results of the fit to the observed cross sections",
+   "section_type": "fit"
+  },
+  {
+   "line": 332,
+   "title": "Systematic uncertainties for measuring the observed cross sections",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 336,
+   "title": "Systematic uncertainties for measuring the product of Gamma_ee and branching fraction",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

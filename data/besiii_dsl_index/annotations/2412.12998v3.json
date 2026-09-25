@@ -1,0 +1,221 @@
+{
+ "paper_id": "2412.12998v3",
+ "source_path": "arxiv_papers/2412.12998v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 280,
+ "n_lines_sent": 146,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 212,
+   "to": 280,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 98,
+   "type": "front_matter",
+   "title": "Title, author list, affiliations, and abstract"
+  },
+  {
+   "line_start": 100,
+   "line_end": 121,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 123,
+   "line_end": 123,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 125,
+   "line_end": 125,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 127,
+   "line_end": 129,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "pion_track_selection"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "photon_selection_and_kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 131,
+   "line_end": 180,
+   "type": "fit",
+   "title": "Fit to the M12 distribution"
+  },
+  {
+   "line_start": 182,
+   "line_end": 184,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "psi3686_number_and_intermediate_bf"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "tracking"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "veto_selection"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "pid"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "recoil_mass_requirement"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "photon_number_requirement"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "lineshape"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "background_yield"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "reference_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 186,
+   "line_end": 188,
+   "type": "other",
+   "title": "Table I"
+  },
+  {
+   "line_start": 190,
+   "line_end": 200,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "product_branching_fraction"
+    },
+    {
+     "line_start": 192,
+     "line_end": 200,
+     "label": "partial_decay_width"
+    }
+   ]
+  },
+  {
+   "line_start": 202,
+   "line_end": 204,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 206,
+   "line_end": 210,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 188,
+   "title": "Relative systematic uncertainties in the measurement of B(J/psi -> gamma eta_c) x B(eta_c -> gamma gamma)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 182-184 share boundary line 182",
+  "units of 182-184 share boundary line 182",
+  "units of 182-184 share boundary line 182",
+  "units of 182-184 share boundary line 182",
+  "units of 182-184 share boundary line 182",
+  "units of 182-184 share boundary line 182",
+  "units of 182-184 share boundary line 182",
+  "units of 182-184 share boundary line 182",
+  "units of 182-184 share boundary line 182",
+  "units of 182-184 share boundary line 184"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

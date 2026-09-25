@@ -1,0 +1,184 @@
+{
+ "paper_id": "2110.07650v1",
+ "source_path": "arxiv_papers/2110.07650v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 167,
+ "n_lines_sent": 68,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 135,
+   "to": 167,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 9,
+   "line_end": 58,
+   "type": "front_matter",
+   "title": "Author list, affiliations, and date"
+  },
+  {
+   "line_start": 60,
+   "line_end": 60,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 62,
+   "line_end": 68,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 70,
+   "line_end": 70,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 72,
+   "line_end": 72,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 74,
+   "line_end": 78,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "tag_technique"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "tag_modes"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 80,
+   "line_end": 98,
+   "type": "fit",
+   "title": "Amplitude analysis"
+  },
+  {
+   "line_start": 100,
+   "line_end": 102,
+   "type": "results",
+   "title": "Fit fractions and phases",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 102,
+     "label": "fit_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 104,
+   "line_end": 104,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties for the amplitude analysis",
+   "units": [
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "amplitude_analysis_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 106,
+   "line_end": 115,
+   "type": "fit",
+   "title": "Branching fraction measurement"
+  },
+  {
+   "line_start": 117,
+   "line_end": 119,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties for the branching fraction",
+   "units": [
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "background_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 125,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 127,
+   "line_end": 133,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 102,
+   "title": "Fit fractions and phases for the two amplitudes",
+   "section_type": "results"
+  },
+  {
+   "line": 131,
+   "title": "Branching fractions for the two amplitudes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

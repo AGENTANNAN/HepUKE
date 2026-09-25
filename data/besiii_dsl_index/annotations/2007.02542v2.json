@@ -1,0 +1,258 @@
+{
+ "paper_id": "2007.02542v2",
+ "source_path": "arxiv_papers/2007.02542v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 266,
+ "n_lines_sent": 133,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 240,
+   "to": 266,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 106,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 107,
+   "line_end": 113,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 115,
+   "line_end": 123,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 125,
+   "line_end": 127,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 129,
+   "line_end": 206,
+   "type": "event_selection",
+   "title": "III. ANALYSIS STRATEGY",
+   "units": [
+    {
+     "line_start": 129,
+     "line_end": 137,
+     "label": "analysis_strategy"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "photon_pi0_reconstruction"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 147,
+     "line_end": 152,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "dt_selection"
+    },
+    {
+     "line_start": 156,
+     "line_end": 162,
+     "label": "st_yields_efficiencies"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "mbc_distributions"
+    },
+    {
+     "line_start": 166,
+     "line_end": 169,
+     "label": "background_components"
+    },
+    {
+     "line_start": 171,
+     "line_end": 180,
+     "label": "2d_fit"
+    },
+    {
+     "line_start": 182,
+     "line_end": 199,
+     "label": "background_subtraction"
+    },
+    {
+     "line_start": 201,
+     "line_end": 206,
+     "label": "results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 208,
+   "line_end": 224,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 208,
+     "line_end": 210,
+     "label": "introduction"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "dt_yield"
+    },
+    {
+     "line_start": 218,
+     "line_end": 220,
+     "label": "systematic_table"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "strong_phase"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "intermediate_bfs"
+    }
+   ]
+  },
+  {
+   "line_start": 226,
+   "line_end": 228,
+   "type": "results",
+   "title": "VI. RESULTS",
+   "units": [
+    {
+     "line_start": 226,
+     "line_end": 228,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 230,
+   "line_end": 232,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 234,
+   "line_end": 238,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 158,
+   "title": "ST yields and efficiencies for D0 decays",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 162,
+   "title": "ST yields and efficiencies for D- decays",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 206,
+   "title": "Signal yields, backgrounds, and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 220,
+   "title": "Systematic uncertainties and their sources",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

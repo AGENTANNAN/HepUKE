@@ -1,0 +1,120 @@
+{
+ "paper_id": "1707.07042v2",
+ "source_path": "arxiv_papers/1707.07042v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 142,
+ "n_lines_sent": 84,
+ "skipped_ranges": [
+  {
+   "from": 122,
+   "to": 142,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 51,
+   "type": "front_matter",
+   "title": "Title, authors, abstract and PACS"
+  },
+  {
+   "line_start": 53,
+   "line_end": 61,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 63,
+   "line_end": 67,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND SIMULATION"
+  },
+  {
+   "line_start": 69,
+   "line_end": 87,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 69,
+     "line_end": 71,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 75,
+     "line_end": 77,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 79,
+     "line_end": 87,
+     "label": "eta_prime_signal_and_sideband_regions"
+    }
+   ]
+  },
+  {
+   "line_start": 89,
+   "line_end": 98,
+   "type": "fit",
+   "title": "IV. DATA ANALYSIS"
+  },
+  {
+   "line_start": 100,
+   "line_end": 104,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 102,
+     "label": "psi3686_number_tracking_photon_eta_etaprime_kinematic_fit"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "fit_and_background_veto_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 106,
+   "line_end": 108,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 110,
+   "line_end": 120,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 114,
+   "title": "Results for chi_c0,2 -> eta'eta' / eta eta'",
+   "section_type": "results"
+  },
+  {
+   "line": 118,
+   "title": "Systematic uncertainties in the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

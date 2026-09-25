@@ -1,0 +1,194 @@
+{
+ "paper_id": "1801.10384v4",
+ "source_path": "arxiv_papers/1801.10384v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 214,
+ "n_lines_sent": 136,
+ "skipped_ranges": [
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 180,
+   "to": 214,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 101,
+   "type": "front_matter",
+   "title": "Search for a strangeonium-like structure Z_s decaying into Phi pi and a measurement of the cross section e+e- -> Phi pi pi"
+  },
+  {
+   "line_start": 103,
+   "line_end": 103,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 105,
+   "line_end": 109,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 111,
+   "line_end": 111,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 113,
+   "line_end": 113,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 115,
+   "line_end": 119,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "phi_mass_window_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 134,
+   "type": "fit",
+   "title": "Amplitude Analysis"
+  },
+  {
+   "line_start": 136,
+   "line_end": 138,
+   "type": "results",
+   "title": "Z_s Search Results",
+   "units": [
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "z_s_signal_hypothesis_test"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "upper_limit_determination"
+    }
+   ]
+  },
+  {
+   "line_start": 140,
+   "line_end": 150,
+   "type": "fit",
+   "title": "Upper Limit Calculation"
+  },
+  {
+   "line_start": 152,
+   "line_end": 152,
+   "type": "results",
+   "title": "Cross Section Measurement",
+   "units": [
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "signal_yield_and_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 154,
+   "line_end": 166,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "tracking_pid_photon"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "kinematic_fit_pi0_mass_window"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "fit_range_background_shape_signal_shape_model"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "branching_fraction_luminosity_radiative_correction"
+    }
+   ]
+  },
+  {
+   "line_start": 168,
+   "line_end": 170,
+   "type": "systematic_uncertainty",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 168,
+     "line_end": 170,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 172,
+   "line_end": 174,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 176,
+   "line_end": 178,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 170,
+   "title": "Systematic uncertainties for the measurements of the upper limits and cross sections",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 154-166 before line 164"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

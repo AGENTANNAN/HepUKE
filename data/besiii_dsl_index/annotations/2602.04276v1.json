@@ -1,0 +1,195 @@
+{
+ "paper_id": "2602.04276v1",
+ "source_path": "arxiv_papers/2602.04276v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 311,
+ "n_lines_sent": 108,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 219,
+   "to": 311,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 137,
+   "type": "front_matter",
+   "title": "Study of \\bar{\\Lambda}-p Annihilation into Light Mesons"
+  },
+  {
+   "line_start": 139,
+   "line_end": 139,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 141,
+   "line_end": 145,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 147,
+   "line_end": 147,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 149,
+   "line_end": 149,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 151,
+   "line_end": 157,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "tracking"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "lambda_bar_recoil"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "rxy_and_proton_momentum"
+    }
+   ]
+  },
+  {
+   "line_start": 159,
+   "line_end": 179,
+   "type": "fit",
+   "title": "Signal Yield and Cross Section"
+  },
+  {
+   "line_start": 181,
+   "line_end": 181,
+   "type": "results",
+   "title": "Cross Section Results",
+   "units": [
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "cross_section_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 183,
+   "line_end": 194,
+   "type": "other",
+   "title": "Figures"
+  },
+  {
+   "line_start": 196,
+   "line_end": 198,
+   "type": "results",
+   "title": "Cross Section Table",
+   "units": [
+    {
+     "line_start": 196,
+     "line_end": 198,
+     "label": "cross_section_table"
+    }
+   ]
+  },
+  {
+   "line_start": 200,
+   "line_end": 202,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "other_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 204,
+   "line_end": 213,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 215,
+   "line_end": 215,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 217,
+   "line_end": 217,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 165,
+   "title": "Number of signal events, efficiencies, and significances",
+   "section_type": "fit"
+  },
+  {
+   "line": 198,
+   "title": "Cross sections for \\bar{\\Lambda}p and \\bar{n}p reactions",
+   "section_type": "results"
+  },
+  {
+   "line": 208,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

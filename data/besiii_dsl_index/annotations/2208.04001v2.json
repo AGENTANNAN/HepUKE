@@ -1,0 +1,190 @@
+{
+ "paper_id": "2208.04001v2",
+ "source_path": "arxiv_papers/2208.04001v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 159,
+ "n_lines_sent": 41,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 113,
+   "to": 159,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 43,
+   "type": "front_matter",
+   "title": "Measurement of the Branching Fraction of the Singly Cabibbo-Suppressed Decay Lambda_c+ -> Lambda K+"
+  },
+  {
+   "line_start": 41,
+   "line_end": 41,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 45,
+   "line_end": 51,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 53,
+   "line_end": 58,
+   "type": "introduction",
+   "title": "Figures and theoretical predictions"
+  },
+  {
+   "line_start": 60,
+   "line_end": 60,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 62,
+   "line_end": 62,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 64,
+   "line_end": 70,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "bachelor_track_pid"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "lambda_c_reconstruction"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 72,
+   "line_end": 87,
+   "type": "fit",
+   "title": "Simultaneous fit to M_BC distributions"
+  },
+  {
+   "line_start": 89,
+   "line_end": 103,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "overview"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "tracking"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "pid"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "e_over_p"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "decay_asymmetry"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 105,
+   "line_end": 109,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 111,
+   "line_end": 111,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 58,
+   "title": "Theoretical predictions on the branching fraction of Lambda_c+ -> Lambda K+",
+   "section_type": "introduction"
+  },
+  {
+   "line": 79,
+   "title": "Integrated luminosity, signal yield and detection efficiencies at each c.m. energy",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-43 / 41-41"
+ ],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

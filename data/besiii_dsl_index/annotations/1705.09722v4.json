@@ -1,0 +1,237 @@
+{
+ "paper_id": "1705.09722v4",
+ "source_path": "arxiv_papers/1705.09722v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 233,
+ "n_lines_sent": 147,
+ "skipped_ranges": [
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 219,
+   "to": 233,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 83,
+   "type": "front_matter",
+   "title": "Measurement of integrated luminosity and center-of-mass energy of data taken by BESIII at 2.125 GeV"
+  },
+  {
+   "line_start": 85,
+   "line_end": 89,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 91,
+   "line_end": 95,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 97,
+   "line_end": 99,
+   "type": "detector",
+   "title": "2 The BESIII detector"
+  },
+  {
+   "line_start": 101,
+   "line_end": 103,
+   "type": "dataset",
+   "title": "3 Monte Carlo simulation"
+  },
+  {
+   "line_start": 105,
+   "line_end": 107,
+   "type": "event_selection",
+   "title": "4 Measurement of the luminosity"
+  },
+  {
+   "line_start": 109,
+   "line_end": 113,
+   "type": "event_selection",
+   "title": "4.1 Event selection",
+   "units": [
+    {
+     "line_start": 109,
+     "line_end": 113,
+     "label": "bhabha_event_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 115,
+   "line_end": 128,
+   "type": "fit",
+   "title": "4.2 Integrated luminosity"
+  },
+  {
+   "line_start": 130,
+   "line_end": 150,
+   "type": "systematic_uncertainty",
+   "title": "4.3 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 130,
+     "line_end": 136,
+     "label": "angular_requirements"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "deposited_energy"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "beam_energy"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "mc_statistics_trigger_generator"
+    },
+    {
+     "line_start": 146,
+     "line_end": 150,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 154,
+   "type": "results",
+   "title": "4.4 Cross check",
+   "units": [
+    {
+     "line_start": 152,
+     "line_end": 154,
+     "label": "di_photon_cross_check"
+    }
+   ]
+  },
+  {
+   "line_start": 156,
+   "line_end": 158,
+   "type": "event_selection",
+   "title": "5 Measurement of the center-of-mass energy"
+  },
+  {
+   "line_start": 160,
+   "line_end": 165,
+   "type": "event_selection",
+   "title": "5.1 Event selection",
+   "units": [
+    {
+     "line_start": 160,
+     "line_end": 165,
+     "label": "dimuon_event_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 167,
+   "line_end": 199,
+   "type": "fit",
+   "title": "5.2 Center-of-mass energy"
+  },
+  {
+   "line_start": 201,
+   "line_end": 211,
+   "type": "systematic_uncertainty",
+   "title": "5.3 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 201,
+     "line_end": 203,
+     "label": "mc_off_mass_shift"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "momentum_measurement"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "signal_shape_fit_range"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "mcm_fit_range"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 213,
+   "line_end": 215,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 217,
+   "line_end": 217,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 150,
+   "title": "Summary of the systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 21.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 105-107 typed event_selection has no units",
+  "short section 156-158 typed event_selection has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

@@ -1,0 +1,276 @@
+{
+ "paper_id": "2110.03415v1",
+ "source_path": "arxiv_papers/2110.03415v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 257,
+ "n_lines_sent": 123,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 62,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 64,
+   "to": 64,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 216,
+   "to": 257,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 68,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and PACS"
+  },
+  {
+   "line_start": 66,
+   "line_end": 66,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 70,
+   "line_end": 74,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 76,
+   "line_end": 80,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 82,
+   "line_end": 96,
+   "type": "event_selection",
+   "title": "III. DOUBLE-TAG METHOD",
+   "units": [
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 86,
+     "line_end": 96,
+     "label": "branching_fraction_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 123,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 108,
+     "line_end": 118,
+     "label": "delta_e_and_mbc"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "omega_selection"
+    },
+    {
+     "line_start": 122,
+     "line_end": 123,
+     "label": "figure_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 125,
+   "line_end": 156,
+   "type": "fit",
+   "title": "V. SINGLE-TAG AND DOUBLE-TAG YIELDS"
+  },
+  {
+   "line_start": 158,
+   "line_end": 162,
+   "type": "fit",
+   "title": "VI. DETECTION EFFICIENCIES AND BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 164,
+   "line_end": 206,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "overview"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "single_tag_yields"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "two_d_fit"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 182,
+     "line_end": 186,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "quantum_correlation_effect"
+    },
+    {
+     "line_start": 194,
+     "line_end": 196,
+     "label": "table_1"
+    },
+    {
+     "line_start": 198,
+     "line_end": 200,
+     "label": "table_2"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "sideband_and_rejection"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "factor_f_omega"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 208,
+   "line_end": 210,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 212,
+   "line_end": 214,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 196,
+   "title": "Double-tag yields, peaking backgrounds, efficiencies, and branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 200,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 6.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 82-96 before line 84",
+  "gap in 98-123 before line 100",
+  "gap in 164-206 before line 166",
+  "nested spans 4-68 / 66-66"
+ ],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": [],
+ "units_repaired": true
+}

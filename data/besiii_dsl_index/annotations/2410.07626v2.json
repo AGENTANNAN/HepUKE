@@ -1,0 +1,248 @@
+{
+ "paper_id": "2410.07626v2",
+ "source_path": "arxiv_papers/2410.07626v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 331,
+ "n_lines_sent": 180,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 282,
+   "to": 331,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 35,
+   "line_end": 149,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 151,
+   "line_end": 151,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 153,
+   "line_end": 165,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 167,
+   "line_end": 167,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 169,
+   "line_end": 229,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 169,
+     "line_end": 181,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 187,
+     "line_end": 188,
+     "label": "mbc_fit_figure"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 192,
+     "line_end": 194,
+     "label": "st_yields_table"
+    },
+    {
+     "line_start": 196,
+     "line_end": 198,
+     "label": "st_yield_extraction"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "muon_identification"
+    },
+    {
+     "line_start": 202,
+     "line_end": 208,
+     "label": "missing_mass_variable"
+    },
+    {
+     "line_start": 210,
+     "line_end": 216,
+     "label": "efficiency_correction"
+    },
+    {
+     "line_start": 218,
+     "line_end": 224,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 226,
+     "line_end": 229,
+     "label": "signal_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 231,
+   "line_end": 245,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "mbc_fit"
+    },
+    {
+     "line_start": 233,
+     "line_end": 235,
+     "label": "systematics_table"
+    },
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "extra_photon"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "miss2_fit"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "radiative_background_mc"
+    },
+    {
+     "line_start": 245,
+     "line_end": 245,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 247,
+   "line_end": 276,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 247,
+     "line_end": 251,
+     "label": "fD_Vcd"
+    },
+    {
+     "line_start": 253,
+     "line_end": 257,
+     "label": "fD_from_Vcd"
+    },
+    {
+     "line_start": 259,
+     "line_end": 263,
+     "label": "Vcd_from_fD"
+    },
+    {
+     "line_start": 265,
+     "line_end": 265,
+     "label": "input_uncertainties"
+    },
+    {
+     "line_start": 267,
+     "line_end": 267,
+     "label": "R_tau_mu"
+    },
+    {
+     "line_start": 269,
+     "line_end": 276,
+     "label": "cp_asymmetry"
+    }
+   ]
+  },
+  {
+   "line_start": 278,
+   "line_end": 278,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 280,
+   "line_end": 280,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 194,
+   "title": "Requirements of Delta E, ST D- yields, ST efficiencies, and DT efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 235,
+   "title": "Systematic uncertainties in the BF measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

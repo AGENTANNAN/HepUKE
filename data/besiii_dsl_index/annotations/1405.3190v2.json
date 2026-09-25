@@ -1,0 +1,234 @@
+{
+ "paper_id": "1405.3190v2",
+ "source_path": "arxiv_papers/1405.3190v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 292,
+ "n_lines_sent": 146,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 65,
+   "to": 65,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 258,
+   "to": 292,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 82,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 84,
+   "line_end": 86,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 88,
+   "line_end": 98,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 100,
+   "line_end": 104,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 106,
+   "line_end": 115,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 112,
+     "line_end": 113,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "background_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 175,
+   "type": "fit",
+   "title": "IV. DATA ANALYSIS"
+  },
+  {
+   "line_start": 177,
+   "line_end": 208,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 177,
+     "line_end": 179,
+     "label": "overview"
+    },
+    {
+     "line_start": 181,
+     "line_end": 183,
+     "label": "summary_table"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "tracking_and_photon"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 189,
+     "line_end": 192,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "d0_pi0_veto"
+    },
+    {
+     "line_start": 196,
+     "line_end": 196,
+     "label": "intermediate_states"
+    },
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "luminosity_and_cross_section"
+    },
+    {
+     "line_start": 200,
+     "line_end": 206,
+     "label": "fit_uncertainties"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 210,
+   "line_end": 226,
+   "type": "results",
+   "title": "VI. RESULTS",
+   "units": [
+    {
+     "line_start": 210,
+     "line_end": 224,
+     "label": "upper_limits_and_branching_fractions"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "division_by_eta_c_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 228,
+   "line_end": 244,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 246,
+   "line_end": 256,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 145,
+   "title": "Background events from the radiative tail of the psi(3686) resonance",
+   "section_type": "fit"
+  },
+  {
+   "line": 183,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 252,
+   "title": "Results for the branching fraction calculation",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 10.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

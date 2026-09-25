@@ -1,0 +1,291 @@
+{
+ "paper_id": "1704.08033v3",
+ "source_path": "arxiv_papers/1704.08033v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 449,
+ "n_lines_sent": 226,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 63,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 131,
+   "to": 131,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 157,
+   "to": 157,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 387,
+   "to": 449,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 161,
+   "type": "front_matter",
+   "title": "Observation of e+e- -> eta h_c at center-of-mass energies from 4.085 to 4.600 GeV"
+  },
+  {
+   "line_start": 163,
+   "line_end": 167,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 169,
+   "line_end": 175,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 177,
+   "line_end": 183,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 185,
+   "line_end": 212,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND STUDY OF BACKGROUND",
+   "units": [
+    {
+     "line_start": 185,
+     "line_end": 187,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 189,
+     "line_end": 191,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "pi0_eta_ks_reconstruction"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "figure_of_merit_optimization"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "signal_region_distributions"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "background_study"
+    },
+    {
+     "line_start": 205,
+     "line_end": 212,
+     "label": "figure1_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 214,
+   "line_end": 226,
+   "type": "fit",
+   "title": "IV. FIT TO THE RECOIL MASS OF eta"
+  },
+  {
+   "line_start": 228,
+   "line_end": 256,
+   "type": "fit",
+   "title": "V. BORN CROSS SECTION MEASUREMENT"
+  },
+  {
+   "line_start": 258,
+   "line_end": 344,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 258,
+     "line_end": 268,
+     "label": "overview"
+    },
+    {
+     "line_start": 270,
+     "line_end": 272,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 274,
+     "line_end": 280,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 282,
+     "line_end": 284,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 286,
+     "line_end": 288,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 290,
+     "line_end": 294,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 296,
+     "line_end": 298,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 300,
+     "line_end": 302,
+     "label": "vp_correction"
+    },
+    {
+     "line_start": 304,
+     "line_end": 344,
+     "label": "efficiency_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 346,
+   "line_end": 367,
+   "type": "results",
+   "title": "VII. UPPER LIMIT WITH SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 346,
+     "line_end": 367,
+     "label": "upper_limit_method"
+    }
+   ]
+  },
+  {
+   "line_start": 369,
+   "line_end": 377,
+   "type": "conclusion",
+   "title": "VIII. RESULTS AND DISCUSSION"
+  },
+  {
+   "line_start": 379,
+   "line_end": 383,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  },
+  {
+   "line_start": 385,
+   "line_end": 385,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 266,
+   "title": "Data sets and results of the Born cross section measurement",
+   "section_type": "results"
+  },
+  {
+   "line": 353,
+   "title": "Summary of systematic uncertainties on sigma_B",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 355,
+   "title": "Systematic uncertainties for epsilon_i B(eta_c -> X_i) for each decay channel",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 369,
+   "title": "Systematic uncertainties for epsilon_i B(eta_c -> X_i) for each decay channel (continued)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

@@ -1,0 +1,263 @@
+{
+ "paper_id": "2412.06247v2",
+ "source_path": "arxiv_papers/2412.06247v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 546,
+ "n_lines_sent": 308,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 66,
+   "to": 66,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 496,
+   "to": 546,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 133,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 135,
+   "line_end": 135,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 137,
+   "line_end": 149,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 151,
+   "line_end": 155,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 157,
+   "line_end": 167,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND STUDY",
+   "units": [
+    {
+     "line_start": 157,
+     "line_end": 159,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "background_study"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "continuum_estimation"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "interference_scan_data"
+    }
+   ]
+  },
+  {
+   "line_start": 169,
+   "line_end": 345,
+   "type": "fit",
+   "title": "IV. PARTIAL WAVE ANALYSIS"
+  },
+  {
+   "line_start": 347,
+   "line_end": 369,
+   "type": "results",
+   "title": "V. OBSERVED CROSS SECTION",
+   "units": [
+    {
+     "line_start": 347,
+     "line_end": 349,
+     "label": "observed_cross_section_fit"
+    },
+    {
+     "line_start": 351,
+     "line_end": 351,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 353,
+     "line_end": 353,
+     "label": "efficiency_and_isr"
+    },
+    {
+     "line_start": 355,
+     "line_end": 369,
+     "label": "observed_cross_section_results"
+    }
+   ]
+  },
+  {
+   "line_start": 371,
+   "line_end": 411,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 371,
+     "line_end": 375,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 377,
+     "line_end": 377,
+     "label": "luminosity_tracking_pid_photon"
+    },
+    {
+     "line_start": 379,
+     "line_end": 379,
+     "label": "jpsi_veto_kinematic_fit"
+    },
+    {
+     "line_start": 381,
+     "line_end": 381,
+     "label": "mc_modeling_fit_range_background_shape"
+    },
+    {
+     "line_start": 383,
+     "line_end": 397,
+     "label": "intermediate_resonance_systematics"
+    },
+    {
+     "line_start": 399,
+     "line_end": 399,
+     "label": "non_pwa_systematics"
+    },
+    {
+     "line_start": 401,
+     "line_end": 407,
+     "label": "normalization_factor_interference"
+    },
+    {
+     "line_start": 409,
+     "line_end": 411,
+     "label": "pwa_related_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 413,
+   "line_end": 459,
+   "type": "fit",
+   "title": "VII. FIT TO OBSERVED CROSS SECTIONS"
+  },
+  {
+   "line_start": 461,
+   "line_end": 478,
+   "type": "results",
+   "title": "VIII. RATIO OF ΓN(1535)→Nη/ΓN(1535)→Nπ",
+   "units": [
+    {
+     "line_start": 461,
+     "line_end": 463,
+     "label": "ratio_systematics_cancellation"
+    },
+    {
+     "line_start": 465,
+     "line_end": 478,
+     "label": "ratio_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 480,
+   "line_end": 488,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 490,
+   "line_end": 494,
+   "type": "acknowledgements",
+   "title": "X. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 211,
+   "title": "Dominant decay channels and branching fractions of the three lowest lying N* states",
+   "section_type": "fit"
+  },
+  {
+   "line": 322,
+   "title": "Resonance parameters, quantum numbers, and references of intermediate states",
+   "section_type": "fit"
+  },
+  {
+   "line": 326,
+   "title": "Numbers used to calculate branching fractions of N* states in psi(3686) -> p pbar pi0",
+   "section_type": "fit"
+  },
+  {
+   "line": 360,
+   "title": "Numbers used to calculate branching fractions of N* states in psi(3686) -> p pbar eta",
+   "section_type": "fit"
+  },
+  {
+   "line": 388,
+   "title": "Measured observed cross sections around the psi(3686) peak",
+   "section_type": "results"
+  },
+  {
+   "line": 395,
+   "title": "Systematic uncertainties on the measurement of observed cross sections",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 427,
+   "title": "Relative systematic uncertainties of branching fractions for intermediate resonances in psi(3686) -> p pbar pi0",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 431,
+   "title": "Relative systematic uncertainties of branching fractions for N(1535) and N(1710) in psi(3686) -> p pbar eta",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 470,
+   "title": "Fitted parameters and branching fractions of psi(3686) -> p pbar pi0 and psi(3686) -> p pbar eta",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 13.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

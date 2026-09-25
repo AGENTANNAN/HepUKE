@@ -1,0 +1,189 @@
+{
+ "paper_id": "1612.05721v5",
+ "source_path": "arxiv_papers/1612.05721v5.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 113,
+ "n_lines_sent": 47,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 109,
+   "to": 113,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 22,
+   "type": "front_matter",
+   "title": "Title and author list"
+  },
+  {
+   "line_start": 31,
+   "line_end": 31,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 33,
+   "line_end": 37,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 39,
+   "line_end": 43,
+   "type": "detector",
+   "title": "II. EXPERIMENTAL DETAILS"
+  },
+  {
+   "line_start": 45,
+   "line_end": 57,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ESTIMATION",
+   "units": [
+    {
+     "line_start": 45,
+     "line_end": 47,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 53,
+     "line_end": 57,
+     "label": "figures"
+    }
+   ]
+  },
+  {
+   "line_start": 59,
+   "line_end": 75,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELDS AND BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 77,
+   "line_end": 95,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 77,
+     "line_end": 79,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 83,
+     "line_end": 87,
+     "label": "figures"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "rho_intensity"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "normalization"
+    }
+   ]
+  },
+  {
+   "line_start": 97,
+   "line_end": 99,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 101,
+   "line_end": 103,
+   "type": "systematic_uncertainty",
+   "title": "TABLE III: Summary of relative systematic uncertainties",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 103,
+     "label": "systematic_table"
+    }
+   ]
+  },
+  {
+   "line_start": 105,
+   "line_end": 107,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 69,
+   "title": "Observed signal yields, efficiencies, and branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 75,
+   "title": "Partial widths for M_{γγ}^2 intervals",
+   "section_type": "fit"
+  },
+  {
+   "line": 103,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

@@ -1,0 +1,215 @@
+{
+ "paper_id": "2406.05827v2",
+ "source_path": "arxiv_papers/2406.05827v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 298,
+ "n_lines_sent": 168,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 263,
+   "to": 298,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 163,
+   "type": "front_matter",
+   "title": "Measurement of the integrated luminosity of the data collected at 3.773 GeV by BESIII from 2021 to 2024"
+  },
+  {
+   "line_start": 165,
+   "line_end": 167,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 169,
+   "line_end": 179,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 181,
+   "line_end": 197,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 199,
+   "line_end": 211,
+   "type": "other",
+   "title": "3 Method"
+  },
+  {
+   "line_start": 213,
+   "line_end": 215,
+   "type": "event_selection",
+   "title": "4 Luminosity measurement"
+  },
+  {
+   "line_start": 217,
+   "line_end": 230,
+   "type": "event_selection",
+   "title": "4.1 Event selection",
+   "units": [
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "emc_energy"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "delta_phi"
+    },
+    {
+     "line_start": 223,
+     "line_end": 230,
+     "label": "figures"
+    }
+   ]
+  },
+  {
+   "line_start": 232,
+   "line_end": 234,
+   "type": "background",
+   "title": "4.2 Background estimation"
+  },
+  {
+   "line_start": 236,
+   "line_end": 238,
+   "type": "other",
+   "title": "4.3 Detection efficiency and cross section"
+  },
+  {
+   "line_start": 240,
+   "line_end": 244,
+   "type": "results",
+   "title": "4.4 Integrated luminosities",
+   "units": [
+    {
+     "line_start": 240,
+     "line_end": 242,
+     "label": "observed_events"
+    },
+    {
+     "line_start": 244,
+     "line_end": 244,
+     "label": "luminosity_values"
+    }
+   ]
+  },
+  {
+   "line_start": 246,
+   "line_end": 253,
+   "type": "systematic_uncertainty",
+   "title": "4.5 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 246,
+     "line_end": 248,
+     "label": "mdc_tracking"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "emc_energy"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "cos_theta"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "delta_phi"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "trigger"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "generator"
+    },
+    {
+     "line_start": 250,
+     "line_end": 253,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 255,
+   "line_end": 257,
+   "type": "conclusion",
+   "title": "5 Summary"
+  },
+  {
+   "line_start": 259,
+   "line_end": 261,
+   "type": "other",
+   "title": "Table 2"
+  }
+ ],
+ "tables": [
+  {
+   "line": 197,
+   "title": "Beam parameters and selection criteria",
+   "section_type": "detector"
+  },
+  {
+   "line": 261,
+   "title": "Relative systematic uncertainties in luminosity determination",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 274,
+   "title": "Numerical results for DATA I, II, III and DATA 2010",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 213-215 typed event_selection has no units",
+  "units of 246-253 share boundary line 248",
+  "units of 246-253 share boundary line 248",
+  "units of 246-253 share boundary line 248",
+  "units of 246-253 share boundary line 248",
+  "units of 246-253 share boundary line 248"
+ ],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

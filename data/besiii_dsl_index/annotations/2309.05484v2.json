@@ -1,0 +1,205 @@
+{
+ "paper_id": "2309.05484v2",
+ "source_path": "arxiv_papers/2309.05484v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 277,
+ "n_lines_sent": 167,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 236,
+   "to": 277,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": "0003",
+   "line_end": "0150",
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": "0152",
+   "line_end": "0165",
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": "0167",
+   "line_end": "0167",
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": "0169",
+   "line_end": "0171",
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": "0169",
+     "line_end": "0171",
+     "label": "double_tag_approach"
+    }
+   ]
+  },
+  {
+   "line_start": "0173",
+   "line_end": "0189",
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": "0173",
+     "line_end": "0173",
+     "label": "particle_identification"
+    },
+    {
+     "line_start": "0175",
+     "line_end": "0189",
+     "label": "recoiling_mass"
+    }
+   ]
+  },
+  {
+   "line_start": "0191",
+   "line_end": "0200",
+   "type": "results",
+   "title": "Signal observation",
+   "units": [
+    {
+     "line_start": "0191",
+     "line_end": "0200",
+     "label": "signal_observation"
+    }
+   ]
+  },
+  {
+   "line_start": "0202",
+   "line_end": "0204",
+   "type": "background",
+   "title": "Backgrounds"
+  },
+  {
+   "line_start": "0206",
+   "line_end": "0208",
+   "type": "fit",
+   "title": "Fit"
+  },
+  {
+   "line_start": "0210",
+   "line_end": "0216",
+   "type": "results",
+   "title": "Branching fractions",
+   "units": [
+    {
+     "line_start": "0210",
+     "line_end": "0216",
+     "label": "branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": "0218",
+   "line_end": "0226",
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": "0218",
+     "line_end": "0218",
+     "label": "st_yields"
+    },
+    {
+     "line_start": "0220",
+     "line_end": "0220",
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": "0222",
+     "line_end": "0224",
+     "label": "dt_yields"
+    },
+    {
+     "line_start": "0226",
+     "line_end": "0226",
+     "label": "background_modeling"
+    }
+   ]
+  },
+  {
+   "line_start": "0228",
+   "line_end": "0230",
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": "0232",
+   "line_end": "0234",
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": "0224",
+   "title": "DT detection efficiencies for each ST mode at c.m. energies",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

@@ -1,0 +1,207 @@
+{
+ "paper_id": "2605.04898v2",
+ "source_path": "arxiv_papers/2605.04898v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 336,
+ "n_lines_sent": 79,
+ "skipped_ranges": [
+  {
+   "from": 148,
+   "to": 336,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "Measurement of the double Dalitz decay eta -> e+ e- e+ e-"
+  },
+  {
+   "line_start": 7,
+   "line_end": 20,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 22,
+   "line_end": 26,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 28,
+   "line_end": 53,
+   "type": "event_selection",
+   "title": "III. EVENTS SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 28,
+     "line_end": 30,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 32,
+     "line_end": 32,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 34,
+     "line_end": 34,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 36,
+     "line_end": 36,
+     "label": "background_analysis"
+    },
+    {
+     "line_start": 38,
+     "line_end": 38,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 40,
+     "line_end": 45,
+     "label": "figures"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "misidentification_veto"
+    },
+    {
+     "line_start": 49,
+     "line_end": 53,
+     "label": "background_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 55,
+   "line_end": 91,
+   "type": "fit",
+   "title": "IV. MEASUREMENT OF BRANCHING FRACTION"
+  },
+  {
+   "line_start": 93,
+   "line_end": 135,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 93,
+     "line_end": 97,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 105,
+     "line_end": 119,
+     "label": "mc_generator"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "intermediate_branching_fractions"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 131,
+     "line_end": 135,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 137,
+   "line_end": 139,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 141,
+   "line_end": 141,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 143,
+   "line_end": 144,
+   "type": "other",
+   "title": "Figure 5"
+  },
+  {
+   "line_start": 146,
+   "line_end": 146,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 18,
+   "title": "Theoretical predictions and experimental measurements for branching fractions of eta and eta' double Dalitz decays",
+   "section_type": "introduction"
+  },
+  {
+   "line": 53,
+   "title": "Dominant background channels and normalized yields for mode I and mode II",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 91,
+   "title": "Numerical results for signal yields, detection efficiencies, branching fractions, and statistical significances",
+   "section_type": "fit"
+  },
+  {
+   "line": 135,
+   "title": "Systematic uncertainties on the measurement of the branching fraction",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

@@ -1,0 +1,296 @@
+{
+ "paper_id": "2601.01503v2",
+ "source_path": "arxiv_papers/2601.01503v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 1338,
+ "n_lines_sent": 604,
+ "skipped_ranges": [
+  {
+   "from": 976,
+   "to": 1338,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 24,
+   "type": "front_matter",
+   "title": "Measurements of the absolute branching fractions of the Lambda_c+ hadronic decays"
+  },
+  {
+   "line_start": 26,
+   "line_end": 40,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 42,
+   "line_end": 50,
+   "type": "detector",
+   "title": "2 BESIII Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 52,
+   "line_end": 66,
+   "type": "event_selection",
+   "title": "3 Event Selection",
+   "units": [
+    {
+     "line_start": 52,
+     "line_end": 54,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "pid"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "photon_and_pi0"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "ks_and_lambda"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "intermediate_vetoes"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "deltaE_and_MBC"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "residual_backgrounds"
+    }
+   ]
+  },
+  {
+   "line_start": 68,
+   "line_end": 483,
+   "type": "fit",
+   "title": "4 Extractions of the ST and DT yields"
+  },
+  {
+   "line_start": 485,
+   "line_end": 509,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 485,
+     "line_end": 497,
+     "label": "tracking_pid_lambda_pi0_reconstruction"
+    },
+    {
+     "line_start": 499,
+     "line_end": 499,
+     "label": "two_d_fit_model"
+    },
+    {
+     "line_start": 501,
+     "line_end": 501,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 503,
+     "line_end": 503,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 505,
+     "line_end": 509,
+     "label": "summary_and_total"
+    }
+   ]
+  },
+  {
+   "line_start": 511,
+   "line_end": 553,
+   "type": "fit",
+   "title": "6 Global least-square fit"
+  },
+  {
+   "line_start": 555,
+   "line_end": 561,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 563,
+   "line_end": 904,
+   "type": "other",
+   "title": "A ST fits"
+  },
+  {
+   "line_start": 906,
+   "line_end": 932,
+   "type": "systematic_uncertainty",
+   "title": "C Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 906,
+     "line_end": 912,
+     "label": "systematics_4599_53"
+    },
+    {
+     "line_start": 914,
+     "line_end": 916,
+     "label": "systematics_4611_86"
+    },
+    {
+     "line_start": 918,
+     "line_end": 920,
+     "label": "systematics_4628_00"
+    },
+    {
+     "line_start": 922,
+     "line_end": 924,
+     "label": "systematics_4640_91"
+    },
+    {
+     "line_start": 926,
+     "line_end": 928,
+     "label": "systematics_4661_24"
+    },
+    {
+     "line_start": 930,
+     "line_end": 932,
+     "label": "systematics_4698_82"
+    }
+   ]
+  },
+  {
+   "line_start": 934,
+   "line_end": 968,
+   "type": "other",
+   "title": "D DT efficiencies"
+  },
+  {
+   "line_start": 970,
+   "line_end": 974,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 79,
+   "title": "ST yields for different decay modes at different energy points",
+   "section_type": "fit"
+  },
+  {
+   "line": 483,
+   "title": "DT yields for different decay modes at different energy points",
+   "section_type": "fit"
+  },
+  {
+   "line": 509,
+   "title": "Systematic uncertainties in BF measurements at sqrt(s)=4681.92 MeV",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 549,
+   "title": "Globally determined BFs at the seven energy points compared with PDG",
+   "section_type": "fit"
+  },
+  {
+   "line": 553,
+   "title": "Integrated luminosities and vacuum polarization and ISR correction factors",
+   "section_type": "fit"
+  },
+  {
+   "line": 561,
+   "title": "Measured average Born cross sections and effective form factors at each energy point",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 912,
+   "title": "Systematic uncertainties in BF measurements at sqrt(s)=4599.53 MeV",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 916,
+   "title": "Systematic uncertainties in BF measurements at sqrt(s)=4611.86 MeV",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 920,
+   "title": "Systematic uncertainties in BF measurements at sqrt(s)=4628.00 MeV",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 924,
+   "title": "Systematic uncertainties in BF measurements at sqrt(s)=4640.91 MeV",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 928,
+   "title": "Systematic uncertainties in BF measurements at sqrt(s)=4661.24 MeV",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 932,
+   "title": "Systematic uncertainties in BF measurements at sqrt(s)=4698.82 MeV",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 940,
+   "title": "DT efficiencies for 12 tag modes versus 12 signal modes at sqrt(s)=4599.53 MeV",
+   "section_type": "other"
+  },
+  {
+   "line": 944,
+   "title": "DT efficiencies for 12 tag modes versus 12 signal modes at sqrt(s)=4611.86 MeV",
+   "section_type": "other"
+  },
+  {
+   "line": 948,
+   "title": "DT efficiencies for 12 tag modes versus 12 signal modes at sqrt(s)=4628.00 MeV",
+   "section_type": "other"
+  },
+  {
+   "line": 952,
+   "title": "DT efficiencies for 12 tag modes versus 12 signal modes at sqrt(s)=4640.91 MeV",
+   "section_type": "other"
+  },
+  {
+   "line": 956,
+   "title": "DT efficiencies for 12 tag modes versus 12 signal modes at sqrt(s)=4661.24 MeV",
+   "section_type": "other"
+  },
+  {
+   "line": 960,
+   "title": "DT efficiencies for 12 tag modes versus 12 signal modes at sqrt(s)=4681.92 MeV",
+   "section_type": "other"
+  },
+  {
+   "line": 964,
+   "title": "DT efficiencies for 12 tag modes versus 12 signal modes at sqrt(s)=4698.82 MeV",
+   "section_type": "other"
+  },
+  {
+   "line": 968,
+   "title": "Correlation coefficients among 19 fit parameters",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 15.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

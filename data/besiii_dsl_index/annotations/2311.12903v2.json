@@ -1,0 +1,160 @@
+{
+ "paper_id": "2311.12903v2",
+ "source_path": "arxiv_papers/2311.12903v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 326,
+ "n_lines_sent": 79,
+ "skipped_ranges": [
+  {
+   "from": 149,
+   "to": 326,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "First observation of Lambda_c+ -> Lambda K+ pi0 and evidence of Lambda_c+ -> Lambda K+ pi+ pi-"
+  },
+  {
+   "line_start": 13,
+   "line_end": 32,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 34,
+   "line_end": 40,
+   "type": "detector",
+   "title": "II. DETECTOR AND SIMULATION"
+  },
+  {
+   "line_start": 42,
+   "line_end": 70,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 42,
+     "line_end": 44,
+     "label": "single_tag_method"
+    },
+    {
+     "line_start": 46,
+     "line_end": 46,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 48,
+     "line_end": 55,
+     "label": "delta_e_distributions"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "photon_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 59,
+     "line_end": 61,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 63,
+     "line_end": 70,
+     "label": "delta_e_and_mbc_requirements"
+    }
+   ]
+  },
+  {
+   "line_start": 72,
+   "line_end": 109,
+   "type": "fit",
+   "title": "IV. RELATIVE BF MEASUREMENT"
+  },
+  {
+   "line_start": 111,
+   "line_end": 133,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 111,
+     "line_end": 113,
+     "label": "overview"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "tracking_pid_pi0"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 119,
+     "line_end": 125,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "truth_matching"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "significance"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 139,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 141,
+   "line_end": 147,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 91,
+   "title": "Relative detection efficiencies and signal yields for reference modes at different energy points",
+   "section_type": "fit"
+  },
+  {
+   "line": 123,
+   "title": "Systematic uncertainty in the relative BF measurements (in %)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

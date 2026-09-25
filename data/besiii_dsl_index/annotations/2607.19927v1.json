@@ -1,0 +1,168 @@
+{
+ "paper_id": "2607.19927v1",
+ "source_path": "arxiv_papers/2607.19927v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 308,
+ "n_lines_sent": 107,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 206,
+   "to": 308,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 69,
+   "type": "front_matter",
+   "title": "Proof of principle for nucleon polarization measurement at BESIII"
+  },
+  {
+   "line_start": 71,
+   "line_end": 71,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 73,
+   "line_end": 87,
+   "type": "introduction",
+   "title": "INTRODUCTION"
+  },
+  {
+   "line_start": 89,
+   "line_end": 93,
+   "type": "detector",
+   "title": "BESIII EXPERIMENT"
+  },
+  {
+   "line_start": 95,
+   "line_end": 104,
+   "type": "other",
+   "title": "POLARIZED PROTON OR ANTIPROTON FROM HYPERON DECAY"
+  },
+  {
+   "line_start": 106,
+   "line_end": 126,
+   "type": "event_selection",
+   "title": "DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 108,
+     "label": "decay_channels"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "scattering_vertex_recoil"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "mc_generation"
+    },
+    {
+     "line_start": 116,
+     "line_end": 122,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "lambda_decay_requirement"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "sigma_channels_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 128,
+   "line_end": 180,
+   "type": "fit",
+   "title": "EXPECTED AND MEASURED P_y A_N"
+  },
+  {
+   "line_start": 182,
+   "line_end": 192,
+   "type": "systematic_uncertainty",
+   "title": "SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 184,
+     "label": "mass_windows_vertex"
+    },
+    {
+     "line_start": 186,
+     "line_end": 190,
+     "label": "figures"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "tracking_pid_fit_procedure"
+    }
+   ]
+  },
+  {
+   "line_start": 194,
+   "line_end": 200,
+   "type": "conclusion",
+   "title": "SUMMARY"
+  },
+  {
+   "line_start": 202,
+   "line_end": 204,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 167,
+   "title": "Expected average P_y A_N by channel",
+   "section_type": "fit"
+  },
+  {
+   "line": 222,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

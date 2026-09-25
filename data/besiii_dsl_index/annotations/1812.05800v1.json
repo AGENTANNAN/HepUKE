@@ -1,0 +1,200 @@
+{
+ "paper_id": "1812.05800v1",
+ "source_path": "arxiv_papers/1812.05800v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 291,
+ "n_lines_sent": 156,
+ "skipped_ranges": [
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 70,
+   "to": 70,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 81,
+   "to": 81,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 95,
+   "to": 95,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 98,
+   "to": 98,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 258,
+   "to": 291,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 105,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, date, PACS"
+  },
+  {
+   "line_start": 103,
+   "line_end": 103,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 107,
+   "line_end": 121,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 123,
+   "line_end": 129,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 127,
+   "line_end": 129,
+   "type": "dataset",
+   "title": "Data samples and Monte Carlo simulation"
+  },
+  {
+   "line_start": 131,
+   "line_end": 150,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTIONS AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 131,
+     "line_end": 135,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 137,
+     "line_end": 139,
+     "label": "eta_prime_reconstruction_and_kinematic_fit"
+    },
+    {
+     "line_start": 141,
+     "line_end": 146,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 148,
+     "line_end": 150,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 176,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELDS AND BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 178,
+   "line_end": 230,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 178,
+     "line_end": 180,
+     "label": "overview"
+    },
+    {
+     "line_start": 182,
+     "line_end": 214,
+     "label": "tracking"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "photon_and_eta_reconstruction"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "pid"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 224,
+     "line_end": 226,
+     "label": "branching_fraction_and_number_of_psi"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "physics_model"
+    }
+   ]
+  },
+  {
+   "line_start": 232,
+   "line_end": 252,
+   "type": "conclusion",
+   "title": "VI. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 254,
+   "line_end": 256,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 212,
+   "title": "Results from separate and simultaneous fits for each decay",
+   "section_type": "fit"
+  },
+  {
+   "line": 240,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 246,
+   "title": "Ratios between psi(3686) and J/psi decays",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-105 / 103-103",
+  "nested spans 123-129 / 127-129"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

@@ -1,0 +1,182 @@
+{
+ "paper_id": "2403.14998v1",
+ "source_path": "arxiv_papers/2403.14998v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 252,
+ "n_lines_sent": 135,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 223,
+   "to": 252,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 154,
+   "type": "front_matter",
+   "title": "Precise measurement of the e+e- -> Ds+ Ds- cross sections at center-of-mass energies from threshold to 4.95 GeV"
+  },
+  {
+   "line_start": 156,
+   "line_end": 156,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 158,
+   "line_end": 164,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 166,
+   "line_end": 166,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 168,
+   "line_end": 174,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "single_tag_reconstruction"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "recoil_mass_resolution"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "mass_fit"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "peaking_background"
+    }
+   ]
+  },
+  {
+   "line_start": 176,
+   "line_end": 177,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 179,
+   "line_end": 198,
+   "type": "fit",
+   "title": "Cross Section Measurement"
+  },
+  {
+   "line_start": 200,
+   "line_end": 213,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainty",
+   "units": [
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "overview"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "common_systematics"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "energy_dependent_systematics"
+    },
+    {
+     "line_start": 206,
+     "line_end": 207,
+     "label": "figure3"
+    },
+    {
+     "line_start": 209,
+     "line_end": 211,
+     "label": "table1"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "total_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 215,
+   "line_end": 217,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 219,
+   "line_end": 221,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 211,
+   "title": "Common relative systematic uncertainties in the measured Born cross sections",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

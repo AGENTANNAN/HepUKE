@@ -1,0 +1,185 @@
+{
+ "paper_id": "2604.12524v2",
+ "source_path": "arxiv_papers/2604.12524v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 312,
+ "n_lines_sent": 95,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 191,
+   "to": 312,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 119,
+   "type": "front_matter",
+   "title": "Observation of the Exotic State π1(1600) in ψ(2S) → γχc1, χc1 → π+π−η′"
+  },
+  {
+   "line_start": 121,
+   "line_end": 121,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 123,
+   "line_end": 127,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 129,
+   "line_end": 129,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 131,
+   "line_end": 139,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "tracking"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "eta_prime_to_gamma_pi_pi_selection"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "eta_prime_to_pi_pi_eta_selection"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "final_sample"
+    }
+   ]
+  },
+  {
+   "line_start": 141,
+   "line_end": 141,
+   "type": "background",
+   "title": "Background Estimation"
+  },
+  {
+   "line_start": 143,
+   "line_end": 169,
+   "type": "fit",
+   "title": "Partial Wave Analysis"
+  },
+  {
+   "line_start": 171,
+   "line_end": 177,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "pwa_background_and_resonance_parametrization"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "f2_components"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "summary_of_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 179,
+   "line_end": 179,
+   "type": "results",
+   "title": "Alternative Analysis",
+   "units": [
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "alternative_bw_constant_width"
+    }
+   ]
+  },
+  {
+   "line_start": 181,
+   "line_end": 181,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 183,
+   "line_end": 185,
+   "type": "systematic_uncertainty",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 183,
+     "line_end": 185,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 187,
+   "line_end": 187,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 189,
+   "line_end": 189,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 185,
+   "title": "Systematic uncertainties on mass, width and branching fraction of pi1(1600)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 312,
+   "title": "Fit fractions and interference fractions in the PWA fit",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

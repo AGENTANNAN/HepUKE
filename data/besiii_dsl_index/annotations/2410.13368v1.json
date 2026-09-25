@@ -1,0 +1,178 @@
+{
+ "paper_id": "2410.13368v1",
+ "source_path": "arxiv_papers/2410.13368v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 209,
+ "n_lines_sent": 94,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 155,
+   "to": 209,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 10,
+   "line_end": 82,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 84,
+   "line_end": 84,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 86,
+   "line_end": 96,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 98,
+   "line_end": 98,
+   "type": "detector",
+   "title": "BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 100,
+   "line_end": 103,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 102,
+     "line_end": 103,
+     "label": "mbc_distributions_before_dnn"
+    }
+   ]
+  },
+  {
+   "line_start": 105,
+   "line_end": 122,
+   "type": "other",
+   "title": "Deep learning approach"
+  },
+  {
+   "line_start": 124,
+   "line_end": 140,
+   "type": "fit",
+   "title": "Branching fraction ratio measurement"
+  },
+  {
+   "line_start": 142,
+   "line_end": 144,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "intermediate_bfs"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "fit_related"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "dnn_model_uncertainty"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "domain_shift"
+    }
+   ]
+  },
+  {
+   "line_start": 146,
+   "line_end": 148,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 150,
+   "line_end": 150,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 152,
+   "line_end": 153,
+   "type": "other",
+   "title": "Figure 4"
+  }
+ ],
+ "tables": [
+  {
+   "line": 137,
+   "title": "Signal efficiencies and signal yields for each c.m. energy",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 142-144 share boundary line 142",
+  "units of 142-144 share boundary line 142",
+  "units of 142-144 share boundary line 142",
+  "units of 142-144 share boundary line 144"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

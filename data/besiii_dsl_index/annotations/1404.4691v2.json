@@ -1,0 +1,230 @@
+{
+ "paper_id": "1404.4691v2",
+ "source_path": "arxiv_papers/1404.4691v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 264,
+ "n_lines_sent": 146,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 63,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 240,
+   "to": 264,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 67,
+   "type": "front_matter",
+   "title": "Measurement of the D -> K- pi+ strong phase difference in ..."
+  },
+  {
+   "line_start": 69,
+   "line_end": 73,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 75,
+   "line_end": 121,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 123,
+   "line_end": 125,
+   "type": "detector",
+   "title": "2. The BESIII Detector"
+  },
+  {
+   "line_start": 127,
+   "line_end": 133,
+   "type": "dataset",
+   "title": "3. MC Simulation"
+  },
+  {
+   "line_start": 135,
+   "line_end": 181,
+   "type": "event_selection",
+   "title": "4. Data Analysis",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 137,
+     "label": "decay_modes_and_overview"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "pi0_eta_selection"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "ks0_selection"
+    },
+    {
+     "line_start": 147,
+     "line_end": 177,
+     "label": "single_tags_cp_modes"
+    },
+    {
+     "line_start": 179,
+     "line_end": 181,
+     "label": "double_tags"
+    }
+   ]
+  },
+  {
+   "line_start": 183,
+   "line_end": 200,
+   "type": "background",
+   "title": "5. Purities of the CP Modes"
+  },
+  {
+   "line_start": 202,
+   "line_end": 224,
+   "type": "systematic_uncertainty",
+   "title": "6. Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 202,
+     "line_end": 204,
+     "label": "table5_summary"
+    },
+    {
+     "line_start": 206,
+     "line_end": 214,
+     "label": "efficiency_ratio"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "cosmic_bhabha_veto_and_kl0"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "other_systematics_table5"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "fitting"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "cp_purity"
+    }
+   ]
+  },
+  {
+   "line_start": 226,
+   "line_end": 230,
+   "type": "results",
+   "title": "7. Results",
+   "units": [
+    {
+     "line_start": 226,
+     "line_end": 228,
+     "label": "combination_and_akpi"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "cos_delta_kpi"
+    }
+   ]
+  },
+  {
+   "line_start": 232,
+   "line_end": 234,
+   "type": "conclusion",
+   "title": "8. Summary"
+  },
+  {
+   "line_start": 236,
+   "line_end": 238,
+   "type": "acknowledgements",
+   "title": "9. Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 133,
+   "title": "D decay modes used in this analysis",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 157,
+   "title": "Requirements on Delta E for different D reconstruction modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 161,
+   "title": "Yields and efficiencies of all single-tag (ST) and double-tag (DT) modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 200,
+   "title": "The same-CP yields and the corresponding efficiencies used in our CP-purity tests",
+   "section_type": "background"
+  },
+  {
+   "line": 204,
+   "title": "A summary of mode-dependent fractional systematic uncertainties, in percent",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 212,
+   "title": "Values of A_CP^Kpi in units of 10^-2 extracted from the 15 different combinations of CP decay modes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

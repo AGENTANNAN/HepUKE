@@ -1,0 +1,272 @@
+{
+ "paper_id": "2512.03877v1",
+ "source_path": "arxiv_papers/2512.03877v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 344,
+ "n_lines_sent": 116,
+ "skipped_ranges": [
+  {
+   "from": 208,
+   "to": 344,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Measurement of the hyperon weak radiative decay Xi0 -> gamma Sigma0 at BESIII"
+  },
+  {
+   "line_start": 13,
+   "line_end": 28,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 30,
+   "line_end": 52,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 54,
+   "line_end": 67,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 69,
+   "line_end": 98,
+   "type": "event_selection",
+   "title": "3 Event selection and background analysis",
+   "units": [
+    {
+     "line_start": 69,
+     "line_end": 71,
+     "label": "double_tag_technique"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "photon_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "st_xi0_reconstruction_and_fit"
+    },
+    {
+     "line_start": 81,
+     "line_end": 87,
+     "label": "st_backgrounds_and_branching_fraction"
+    },
+    {
+     "line_start": 89,
+     "line_end": 94,
+     "label": "st_fit_figures_and_table"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 100,
+   "line_end": 135,
+   "type": "fit",
+   "title": "4 Branching fraction and decay asymmetry measurement"
+  },
+  {
+   "line_start": 137,
+   "line_end": 139,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 137,
+     "line_end": 139,
+     "label": "overview"
+    }
+   ]
+  },
+  {
+   "line_start": 141,
+   "line_end": 161,
+   "type": "systematic_uncertainty",
+   "title": "5.1 Systematic Uncertainties of B Measurement",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 143,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "st_yield_fit_intro"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "bin_width"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "self_background_shape"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "combinatorial_background_shape"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "bump_like_background_shape"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "event_level_selection"
+    },
+    {
+     "line_start": 156,
+     "line_end": 159,
+     "label": "decay_asymmetry_parameters"
+    },
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "dt_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 163,
+   "line_end": 186,
+   "type": "systematic_uncertainty",
+   "title": "5.2 Systematic Uncertainty of Decay Asymmetry Measurement",
+   "units": [
+    {
+     "line_start": 163,
+     "line_end": 165,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 167,
+     "line_end": 171,
+     "label": "event_level_selection"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "signal_mass_window"
+    },
+    {
+     "line_start": 175,
+     "line_end": 186,
+     "label": "fit_related"
+    }
+   ]
+  },
+  {
+   "line_start": 188,
+   "line_end": 202,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 204,
+   "line_end": 206,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 44,
+   "title": "Theoretical predictions and experimental measurements of HWRD branching fractions and decay asymmetry parameters",
+   "section_type": "introduction"
+  },
+  {
+   "line": 50,
+   "title": "Experimental results of the branching fractions and decay asymmetry parameters of Xi0 -> gamma Sigma0",
+   "section_type": "introduction"
+  },
+  {
+   "line": 92,
+   "title": "ST yields, ST efficiencies and obtained branching fractions",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 115,
+   "title": "Summaries of DT yields",
+   "section_type": "fit"
+  },
+  {
+   "line": 132,
+   "title": "Fit results for the decay asymmetry alpha_gamma",
+   "section_type": "fit"
+  },
+  {
+   "line": 171,
+   "title": "Summary of alpha_Xi0->Lambda pi0 results with different event selection requirements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 182,
+   "title": "Systematic uncertainties of B measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 186,
+   "title": "Systematic uncertainties of decay asymmetry parameter measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 194,
+   "title": "B and alpha_gamma results of this measurement",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 12.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

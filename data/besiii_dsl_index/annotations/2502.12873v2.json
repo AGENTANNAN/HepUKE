@@ -1,0 +1,314 @@
+{
+ "paper_id": "2502.12873v2",
+ "source_path": "arxiv_papers/2502.12873v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 703,
+ "n_lines_sent": 374,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 70,
+   "to": 70,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 105,
+   "to": 105,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 152,
+   "to": 152,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 154,
+   "to": 154,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 156,
+   "to": 156,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 160,
+   "to": 160,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 646,
+   "to": 703,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 6,
+   "line_end": 40,
+   "type": "front_matter",
+   "title": "Author list and collaboration"
+  },
+  {
+   "line_start": 42,
+   "line_end": 176,
+   "type": "front_matter",
+   "title": "Affiliations and dated"
+  },
+  {
+   "line_start": 178,
+   "line_end": 178,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 180,
+   "line_end": 198,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 200,
+   "line_end": 302,
+   "type": "other",
+   "title": "II. MEASUREMENT STRATEGY"
+  },
+  {
+   "line_start": 304,
+   "line_end": 312,
+   "type": "detector",
+   "title": "III. DESCRIPTION OF BEPCII AND THE BESIII DETECTOR"
+  },
+  {
+   "line_start": 314,
+   "line_end": 340,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 314,
+     "line_end": 318,
+     "label": "electron_selection"
+    },
+    {
+     "line_start": 320,
+     "line_end": 330,
+     "label": "fully_reconstructed_tags"
+    },
+    {
+     "line_start": 332,
+     "line_end": 340,
+     "label": "partially_reconstructed_tags"
+    }
+   ]
+  },
+  {
+   "line_start": 342,
+   "line_end": 438,
+   "type": "fit",
+   "title": "V. SINGLE- AND DOUBLE-TAG YIELD DETERMINATION"
+  },
+  {
+   "line_start": 440,
+   "line_end": 522,
+   "type": "fit",
+   "title": "VI. BINNED STRONG-PHASE MEASUREMENT"
+  },
+  {
+   "line_start": 523,
+   "line_end": 554,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 523,
+     "line_end": 530,
+     "label": "overview"
+    },
+    {
+     "line_start": 532,
+     "line_end": 534,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 536,
+     "line_end": 536,
+     "label": "external_strong_phases"
+    },
+    {
+     "line_start": 538,
+     "line_end": 538,
+     "label": "finite_mc_size"
+    },
+    {
+     "line_start": 540,
+     "line_end": 546,
+     "label": "st_dt_fit"
+    },
+    {
+     "line_start": 548,
+     "line_end": 548,
+     "label": "ks_veto"
+    },
+    {
+     "line_start": 550,
+     "line_end": 552,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 554,
+     "line_end": 554,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 556,
+   "line_end": 562,
+   "type": "results",
+   "title": "VIII. IMPACT ON THE MEASUREMENT OF THE CKM ANGLE gamma",
+   "units": [
+    {
+     "line_start": 556,
+     "line_end": 562,
+     "label": "gamma_impact"
+    }
+   ]
+  },
+  {
+   "line_start": 564,
+   "line_end": 620,
+   "type": "conclusion",
+   "title": "IX. SUMMARY AND OUTLOOK"
+  },
+  {
+   "line_start": 622,
+   "line_end": 624,
+   "type": "other",
+   "title": "Appendix A: Correlation matrices"
+  },
+  {
+   "line_start": 626,
+   "line_end": 628,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 232,
+   "title": "Tag modes used in this analysis",
+   "section_type": "other"
+  },
+  {
+   "line": 354,
+   "title": "ST yields in data and corresponding efficiencies",
+   "section_type": "fit"
+  },
+  {
+   "line": 406,
+   "title": "DT yields of flavor tags",
+   "section_type": "fit"
+  },
+  {
+   "line": 544,
+   "title": "DT yields of CP tags",
+   "section_type": "fit"
+  },
+  {
+   "line": 570,
+   "title": "DT yields of the D->KS0 pi+ pi- tag",
+   "section_type": "fit"
+  },
+  {
+   "line": 574,
+   "title": "DT yields of the D->KS0 pi+ pi- tag with partially reconstructed D->K+ K- pi+ pi-",
+   "section_type": "fit"
+  },
+  {
+   "line": 578,
+   "title": "DT yields of the D->KL0 pi+ pi- tag",
+   "section_type": "fit"
+  },
+  {
+   "line": 602,
+   "title": "Results from the strong-phase fit",
+   "section_type": "fit"
+  },
+  {
+   "line": 606,
+   "title": "Comparison of R_i between fit results and model predictions",
+   "section_type": "fit"
+  },
+  {
+   "line": 632,
+   "title": "Summary of systematic uncertainties on c_i, s_i and B",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 636,
+   "title": "Summary of systematic uncertainties on R_i, r_D cos(delta_D) and r_D sin(delta_D)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 640,
+   "title": "Correlation matrix associated with the statistical uncertainties",
+   "section_type": "other"
+  },
+  {
+   "line": 644,
+   "title": "Correlation matrix associated with the systematic uncertainties",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 13.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

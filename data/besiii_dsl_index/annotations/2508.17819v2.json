@@ -1,0 +1,194 @@
+{
+ "paper_id": "2508.17819v2",
+ "source_path": "arxiv_papers/2508.17819v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 195,
+ "n_lines_sent": 80,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 168,
+   "to": 195,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 29,
+   "type": "front_matter",
+   "title": "Author list and collaboration"
+  },
+  {
+   "line_start": 38,
+   "line_end": 38,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 40,
+   "line_end": 61,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 63,
+   "line_end": 65,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 67,
+   "line_end": 67,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 69,
+   "line_end": 129,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 69,
+     "line_end": 85,
+     "label": "cross_section_and_branching_fraction_definitions"
+    },
+    {
+     "line_start": 87,
+     "line_end": 89,
+     "label": "photon_and_ks0_reconstruction"
+    },
+    {
+     "line_start": 91,
+     "line_end": 103,
+     "label": "delta_e_selection"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "background_regions"
+    },
+    {
+     "line_start": 107,
+     "line_end": 113,
+     "label": "beam_constrained_mass"
+    },
+    {
+     "line_start": 115,
+     "line_end": 126,
+     "label": "two_dimensional_fit"
+    },
+    {
+     "line_start": 128,
+     "line_end": 129,
+     "label": "figure_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 131,
+   "line_end": 139,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 131,
+     "line_end": 133,
+     "label": "overview_and_multiplicative_uncertainties"
+    },
+    {
+     "line_start": 135,
+     "line_end": 137,
+     "label": "table_i"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "additive_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 141,
+   "line_end": 154,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 149,
+     "label": "likelihood_with_systematics"
+    },
+    {
+     "line_start": 151,
+     "line_end": 152,
+     "label": "figure_4_caption"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 156,
+   "line_end": 158,
+   "type": "conclusion",
+   "title": "VI. CONCLUSION"
+  },
+  {
+   "line_start": 160,
+   "line_end": 166,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 137,
+   "title": "Estimated multiplicative and additive systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

@@ -1,0 +1,193 @@
+{
+ "paper_id": "2506.08072v1",
+ "source_path": "arxiv_papers/2506.08072v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 295,
+ "n_lines_sent": 160,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 244,
+   "to": 295,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 140,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 142,
+   "line_end": 142,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 144,
+   "line_end": 150,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 152,
+   "line_end": 152,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 154,
+   "line_end": 162,
+   "type": "dataset",
+   "title": "Dataset and simulation"
+  },
+  {
+   "line_start": 164,
+   "line_end": 168,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "double_tag_selection"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "single_tag_efficiency_background"
+    }
+   ]
+  },
+  {
+   "line_start": 170,
+   "line_end": 188,
+   "type": "fit",
+   "title": "Cross-section and form factor extraction"
+  },
+  {
+   "line_start": 190,
+   "line_end": 190,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "cross_section_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 192,
+   "line_end": 212,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 192,
+     "line_end": 201,
+     "label": "effective_form_factor"
+    },
+    {
+     "line_start": 203,
+     "line_end": 208,
+     "label": "form_factor_ratio_and_phase"
+    },
+    {
+     "line_start": 210,
+     "line_end": 212,
+     "label": "results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 214,
+   "line_end": 214,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "R_and_phase_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 216,
+   "line_end": 240,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 242,
+   "line_end": 242,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 180,
+   "title": "CMS energies, luminosities, ISR+VP corrections, yields, efficiencies, and Born cross-sections",
+   "section_type": "fit"
+  },
+  {
+   "line": 212,
+   "title": "Measured effective form factor, ratio R, and relative phase ΔΦ at each CMS energy",
+   "section_type": "results"
+  },
+  {
+   "line": 226,
+   "title": "Systematic uncertainties in R (ΔΦ) at each CMS energy",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 230,
+   "title": "RMS charge radius and probability for different (Nth, Nasy) scenarios",
+   "section_type": "discussion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

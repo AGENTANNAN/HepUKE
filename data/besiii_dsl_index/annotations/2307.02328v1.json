@@ -1,0 +1,218 @@
+{
+ "paper_id": "2307.02328v1",
+ "source_path": "arxiv_papers/2307.02328v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 278,
+ "n_lines_sent": 153,
+ "skipped_ranges": [
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 64,
+   "to": 65,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 235,
+   "to": 278,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 101,
+   "type": "front_matter",
+   "title": "Measurement of e+e- -> pK-Lambda + c.c. cross sections between 4.009 GeV and 4.951 GeV"
+  },
+  {
+   "line_start": 103,
+   "line_end": 103,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 105,
+   "line_end": 119,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 121,
+   "line_end": 127,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 129,
+   "line_end": 133,
+   "type": "detector",
+   "title": "2 Detector and data sets"
+  },
+  {
+   "line_start": 135,
+   "line_end": 147,
+   "type": "event_selection",
+   "title": "3 Event selection and background analysis",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 137,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 139,
+     "line_end": 141,
+     "label": "born_cross_section_table"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "kinematic_fit_and_kaon_veto"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 149,
+   "line_end": 182,
+   "type": "fit",
+   "title": "4 Cross section measurement"
+  },
+  {
+   "line_start": 184,
+   "line_end": 196,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 184,
+     "line_end": 188,
+     "label": "luminosity_tracking_lambda_reconstruction_ntrk"
+    },
+    {
+     "line_start": 190,
+     "line_end": 192,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "mc_modeling_and_fit"
+    },
+    {
+     "line_start": 196,
+     "line_end": 196,
+     "label": "kinematic_fit_cos_theta_correction_factor_peaking_background_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 198,
+   "line_end": 218,
+   "type": "fit",
+   "title": "6 Fit to the cross sections of e+e- -> pK-Lambda + c.c."
+  },
+  {
+   "line_start": 220,
+   "line_end": 222,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 224,
+   "line_end": 233,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 141,
+   "title": "Born cross sections of e+e- -> pK-Lambda + c.c. at various energy points",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 192,
+   "title": "Relative systematic uncertainties on the cross section measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 218,
+   "title": "Upper limits on Gamma_ee B(R -> pK-Lambda + c.c.) at 90% C.L.",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

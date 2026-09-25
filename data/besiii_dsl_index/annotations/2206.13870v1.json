@@ -1,0 +1,225 @@
+{
+ "paper_id": "2206.13870v1",
+ "source_path": "arxiv_papers/2206.13870v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 238,
+ "n_lines_sent": 120,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 69,
+   "to": 74,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 212,
+   "to": 238,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 74,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 76,
+   "line_end": 76,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 78,
+   "line_end": 88,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 90,
+   "line_end": 100,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 102,
+   "line_end": 156,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 130,
+     "label": "tag_technique_and_yields"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "charged_track_and_pid"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "ks0_rho_etap_selection"
+    },
+    {
+     "line_start": 138,
+     "line_end": 144,
+     "label": "recoil_mass_requirement"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "st_yield_fits"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "signal_selection_and_kinematic_fit"
+    },
+    {
+     "line_start": 150,
+     "line_end": 156,
+     "label": "mm2_fit_and_upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 158,
+   "line_end": 200,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 176,
+     "label": "overview_and_multiplicative_summary"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "additive_background_shape"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "multiplicative_efficiency_and_bf"
+    },
+    {
+     "line_start": 182,
+     "line_end": 185,
+     "label": "photon_pi0_extra_photon_track_mc_kinfit_model_tag_bias"
+    },
+    {
+     "line_start": 187,
+     "line_end": 189,
+     "label": "multiplicative_systematics_table"
+    },
+    {
+     "line_start": 191,
+     "line_end": 200,
+     "label": "incorporation_in_upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 202,
+   "line_end": 204,
+   "type": "conclusion",
+   "title": "V. CONCLUSION"
+  },
+  {
+   "line_start": 206,
+   "line_end": 210,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 98,
+   "title": "Integrated luminosity and recoil mass requirements",
+   "section_type": "detector"
+  },
+  {
+   "line": 167,
+   "title": "Tag mode requirements, ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 174,
+   "title": "DT efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 189,
+   "title": "Multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

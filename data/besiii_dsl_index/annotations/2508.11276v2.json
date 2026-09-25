@@ -1,0 +1,207 @@
+{
+ "paper_id": "2508.11276v2",
+ "source_path": "arxiv_papers/2508.11276v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 362,
+ "n_lines_sent": 78,
+ "skipped_ranges": [
+  {
+   "from": 142,
+   "to": 362,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Measurement of the Born cross section for e+e- -> pK-K-Xi+ at sqrt(s)=3.5-4.9 GeV"
+  },
+  {
+   "line_start": 13,
+   "line_end": 34,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 36,
+   "line_end": 40,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 42,
+   "line_end": 46,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 48,
+   "line_end": 58,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 48,
+     "line_end": 50,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 52,
+     "line_end": 58,
+     "label": "vertex_fit_and_recoil_mass_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 60,
+   "line_end": 68,
+   "type": "results",
+   "title": "4 Determination of Born cross section",
+   "units": [
+    {
+     "line_start": 60,
+     "line_end": 68,
+     "label": "born_cross_section_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 70,
+   "line_end": 72,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 70,
+     "line_end": 72,
+     "label": "overview"
+    }
+   ]
+  },
+  {
+   "line_start": 74,
+   "line_end": 76,
+   "type": "systematic_uncertainty",
+   "title": "5.1 Tracking",
+   "units": [
+    {
+     "line_start": 74,
+     "line_end": 76,
+     "label": "tracking"
+    }
+   ]
+  },
+  {
+   "line_start": 78,
+   "line_end": 80,
+   "type": "systematic_uncertainty",
+   "title": "5.2 PID",
+   "units": [
+    {
+     "line_start": 78,
+     "line_end": 80,
+     "label": "pid"
+    }
+   ]
+  },
+  {
+   "line_start": 82,
+   "line_end": 93,
+   "type": "systematic_uncertainty",
+   "title": "5.3 Vertex fit",
+   "units": [
+    {
+     "line_start": 82,
+     "line_end": 93,
+     "label": "vertex_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 95,
+   "line_end": 97,
+   "type": "systematic_uncertainty",
+   "title": "5.4 Signal and background shapes",
+   "units": [
+    {
+     "line_start": 95,
+     "line_end": 97,
+     "label": "signal_and_background_shapes"
+    }
+   ]
+  },
+  {
+   "line_start": 99,
+   "line_end": 101,
+   "type": "systematic_uncertainty",
+   "title": "5.5 Input lineshape",
+   "units": [
+    {
+     "line_start": 99,
+     "line_end": 101,
+     "label": "input_lineshape"
+    }
+   ]
+  },
+  {
+   "line_start": 103,
+   "line_end": 109,
+   "type": "systematic_uncertainty",
+   "title": "5.6 Luminosity",
+   "units": [
+    {
+     "line_start": 103,
+     "line_end": 109,
+     "label": "luminosity"
+    }
+   ]
+  },
+  {
+   "line_start": 111,
+   "line_end": 125,
+   "type": "fit",
+   "title": "6 Fit to the dressed cross section"
+  },
+  {
+   "line_start": 127,
+   "line_end": 136,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 138,
+   "line_end": 140,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 91,
+   "title": "Numerical results for the Born cross sections of e+e- -> pK-K-Xi+ at different energy points",
+   "section_type": "results"
+  },
+  {
+   "line": 109,
+   "title": "Relative systematic uncertainties in the cross section measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 136,
+   "title": "Results of the fits to the dressed cross sections",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

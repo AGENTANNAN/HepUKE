@@ -1,0 +1,215 @@
+{
+ "paper_id": "1606.03847v3",
+ "source_path": "arxiv_papers/1606.03847v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 215,
+ "n_lines_sent": 99,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 182,
+   "to": 215,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 93,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 95,
+   "line_end": 95,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 97,
+   "line_end": 99,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 101,
+   "line_end": 115,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 108,
+     "label": "eta_prime_to_pi+pi-pi0_selection"
+    },
+    {
+     "line_start": 110,
+     "line_end": 115,
+     "label": "eta_prime_to_pi0pi0pi0_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 147,
+   "type": "fit",
+   "title": "Amplitude analysis"
+  },
+  {
+   "line_start": 149,
+   "line_end": 154,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 149,
+     "line_end": 151,
+     "label": "branching_fractions_table"
+    },
+    {
+     "line_start": 153,
+     "line_end": 154,
+     "label": "fit_projections"
+    }
+   ]
+  },
+  {
+   "line_start": 156,
+   "line_end": 158,
+   "type": "systematic_uncertainty",
+   "title": "Model and constraint checks",
+   "units": [
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "alternative_rho_parametrization"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "bose_einstein_constraint"
+    }
+   ]
+  },
+  {
+   "line_start": 160,
+   "line_end": 168,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "model_and_constraint"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "tracking_photon_pi0"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "background"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "normalization"
+    }
+   ]
+  },
+  {
+   "line_start": 170,
+   "line_end": 172,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 174,
+   "line_end": 176,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty table",
+   "units": [
+    {
+     "line_start": 174,
+     "line_end": 176,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 178,
+   "line_end": 178,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 180,
+   "line_end": 180,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 151,
+   "title": "Yields, detection efficiencies, and branching fractions for the studied eta' decay modes",
+   "section_type": "results"
+  },
+  {
+   "line": 176,
+   "title": "Summary of systematic uncertainties for the determination of branching fractions for each component",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

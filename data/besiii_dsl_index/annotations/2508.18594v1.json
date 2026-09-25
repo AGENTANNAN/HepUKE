@@ -1,0 +1,241 @@
+{
+ "paper_id": "2508.18594v1",
+ "source_path": "arxiv_papers/2508.18594v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 299,
+ "n_lines_sent": 142,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 63,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 69,
+   "to": 69,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 77,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 98,
+   "to": 99,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 110,
+   "to": 110,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 122,
+   "to": 124,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 126,
+   "to": 126,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 128,
+   "to": 128,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 264,
+   "to": 299,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 130,
+   "type": "front_matter",
+   "title": "Search for a bound state of ΛcΣc near threshold"
+  },
+  {
+   "line_start": 132,
+   "line_end": 132,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 134,
+   "line_end": 138,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 140,
+   "line_end": 144,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 146,
+   "line_end": 148,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 150,
+   "line_end": 191,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 150,
+     "line_end": 152,
+     "label": "partial_reconstruction"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "lambda_c_reconstruction"
+    },
+    {
+     "line_start": 158,
+     "line_end": 191,
+     "label": "fit_and_significance"
+    }
+   ]
+  },
+  {
+   "line_start": 193,
+   "line_end": 232,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 193,
+     "line_end": 195,
+     "label": "overview"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "input_bf"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "lambda_c_vertex_fit"
+    },
+    {
+     "line_start": 216,
+     "line_end": 218,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 222,
+     "line_end": 228,
+     "label": "background"
+    },
+    {
+     "line_start": 230,
+     "line_end": 232,
+     "label": "table_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 234,
+   "line_end": 249,
+   "type": "results",
+   "title": "V. RESULT",
+   "units": [
+    {
+     "line_start": 234,
+     "line_end": 249,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 251,
+   "line_end": 258,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 260,
+   "line_end": 262,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 232,
+   "title": "Multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 193-232 before line 213"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

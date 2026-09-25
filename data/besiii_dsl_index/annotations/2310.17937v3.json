@@ -1,0 +1,194 @@
+{
+ "paper_id": "2310.17937v3",
+ "source_path": "arxiv_papers/2310.17937v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 295,
+ "n_lines_sent": 180,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 256,
+   "to": 295,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 162,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 164,
+   "line_end": 164,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 166,
+   "line_end": 166,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 168,
+   "line_end": 168,
+   "type": "detector",
+   "title": "BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 170,
+   "line_end": 185,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 170,
+     "line_end": 172,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "kinematic_fit_and_pi0_veto"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "ks0_background_suppression"
+    },
+    {
+     "line_start": 178,
+     "line_end": 185,
+     "label": "m6pi_spectrum_and_background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 187,
+   "line_end": 230,
+   "type": "fit",
+   "title": "Fit to the M(6pi) spectrum"
+  },
+  {
+   "line_start": 232,
+   "line_end": 234,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 232,
+     "line_end": 234,
+     "label": "systematic_uncertainty_sources"
+    }
+   ]
+  },
+  {
+   "line_start": 236,
+   "line_end": 242,
+   "type": "results",
+   "title": "Tables of fitted parameters and systematic uncertainties",
+   "units": [
+    {
+     "line_start": 236,
+     "line_end": 238,
+     "label": "fitted_parameters_table"
+    },
+    {
+     "line_start": 240,
+     "line_end": 242,
+     "label": "systematic_uncertainties_table"
+    }
+   ]
+  },
+  {
+   "line_start": 244,
+   "line_end": 250,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 252,
+   "line_end": 254,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 238,
+   "title": "Fitted parameters of the two coherent resonant structures and product branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 242,
+   "title": "Relative systematic uncertainties in the product branching fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 7.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

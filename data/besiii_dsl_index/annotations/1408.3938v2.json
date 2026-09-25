@@ -1,0 +1,178 @@
+{
+ "paper_id": "1408.3938v2",
+ "source_path": "arxiv_papers/1408.3938v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 219,
+ "n_lines_sent": 118,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 74,
+   "to": 74,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 197,
+   "to": 219,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 13,
+   "line_end": 72,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 76,
+   "line_end": 78,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 80,
+   "line_end": 86,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 88,
+   "line_end": 94,
+   "type": "detector",
+   "title": "II. THE EXPERIMENT AND DATA SETS"
+  },
+  {
+   "line_start": 96,
+   "line_end": 109,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 96,
+     "line_end": 98,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 100,
+     "line_end": 109,
+     "label": "kinematic_fit_and_photon_pairing"
+    }
+   ]
+  },
+  {
+   "line_start": 111,
+   "line_end": 148,
+   "type": "fit",
+   "title": "IV. DATA ANALYSIS"
+  },
+  {
+   "line_start": 150,
+   "line_end": 177,
+   "type": "systematic_uncertainty",
+   "title": "V. ESTIMATION OF SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 150,
+     "line_end": 152,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "kinematic_fit_duplicate"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "pi0pi0_veto"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "coupling_constants"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "background_shape_and_fit_range"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 179,
+   "line_end": 189,
+   "type": "conclusion",
+   "title": "VI. CONCLUSION AND DISCUSSION"
+  },
+  {
+   "line_start": 191,
+   "line_end": 195,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 122,
+   "title": "Backgrounds of the final states with ppπ0π0, ppπ0π0γ, ppπ0γ and ppπ0γγ",
+   "section_type": "background"
+  },
+  {
+   "line": 161,
+   "title": "Summary of systematic uncertainties on Br(J/ψ→pp̄a0(980)→pp̄π0η)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 8.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 150-177 before line 163"
+ ],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

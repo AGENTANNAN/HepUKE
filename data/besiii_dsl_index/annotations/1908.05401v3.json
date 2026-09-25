@@ -1,0 +1,238 @@
+{
+ "paper_id": "1908.05401v3",
+ "source_path": "arxiv_papers/1908.05401v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 381,
+ "n_lines_sent": 217,
+ "skipped_ranges": [
+  {
+   "from": 5,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 352,
+   "to": 381,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 138,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 140,
+   "line_end": 140,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 142,
+   "line_end": 152,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 154,
+   "line_end": 158,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 160,
+   "line_end": 170,
+   "type": "event_selection",
+   "title": "III. ANALYSIS METHOD",
+   "units": [
+    {
+     "line_start": 160,
+     "line_end": 164,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 166,
+     "line_end": 170,
+     "label": "branching_fraction_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 172,
+   "line_end": 178,
+   "type": "event_selection",
+   "title": "IV. SELECTION AND YIELD OF ST D MESONS",
+   "units": [
+    {
+     "line_start": 172,
+     "line_end": 174,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "delta_e_and_mbc_variables"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "st_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 180,
+   "line_end": 194,
+   "type": "event_selection",
+   "title": "V. SELECTION AND YIELD OF D -> phi X",
+   "units": [
+    {
+     "line_start": 180,
+     "line_end": 182,
+     "label": "phi_candidate_selection"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "dt_yield_fit"
+    },
+    {
+     "line_start": 186,
+     "line_end": 188,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 190,
+     "line_end": 194,
+     "label": "figures_1_2"
+    }
+   ]
+  },
+  {
+   "line_start": 196,
+   "line_end": 224,
+   "type": "fit",
+   "title": "VI. BRANCHING FRACTION"
+  },
+  {
+   "line_start": 226,
+   "line_end": 236,
+   "type": "results",
+   "title": "VII. ASYMMETRY OF B(D -> phi X) AND B(Dbar -> phi X)",
+   "units": [
+    {
+     "line_start": 226,
+     "line_end": 232,
+     "label": "cp_asymmetry_formula"
+    },
+    {
+     "line_start": 234,
+     "line_end": 236,
+     "label": "comparison_and_cp_result"
+    }
+   ]
+  },
+  {
+   "line_start": 238,
+   "line_end": 240,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 242,
+   "line_end": 250,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 252,
+   "line_end": 350,
+   "type": "other",
+   "title": "Appendix A: QC CORRECTION FACTOR"
+  }
+ ],
+ "tables": [
+  {
+   "line": 152,
+   "title": "Branching fractions of known exclusive decays D+(0) -> phi X",
+   "section_type": "introduction"
+  },
+  {
+   "line": 188,
+   "title": "Summary of Delta E requirements, MBC signal regions, ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 220,
+   "title": "Summary of fitted DT yields, background-subtracted yields, efficiencies and branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 224,
+   "title": "Systematic uncertainties in the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 248,
+   "title": "Comparison of branching fractions with CLEO and BES results",
+   "section_type": "results"
+  },
+  {
+   "line": 316,
+   "title": "Summary of strong-phase factors and parameters",
+   "section_type": "other"
+  },
+  {
+   "line": 334,
+   "title": "Data yields and MC efficiencies for ST and DT candidates",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

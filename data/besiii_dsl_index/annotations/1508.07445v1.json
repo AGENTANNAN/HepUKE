@@ -1,0 +1,124 @@
+{
+ "paper_id": "1508.07445v1",
+ "source_path": "arxiv_papers/1508.07445v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 109,
+ "n_lines_sent": 44,
+ "skipped_ranges": [
+  {
+   "from": 85,
+   "to": 109,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Studies of Charmonium at BESIII"
+  },
+  {
+   "line_start": 9,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "PRESENTED AT"
+  },
+  {
+   "line_start": 11,
+   "line_end": 13,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 15,
+   "line_end": 43,
+   "type": "results",
+   "title": "2 Search for ψ(3770) exclusive decays",
+   "units": [
+    {
+     "line_start": 15,
+     "line_end": 17,
+     "label": "introduction"
+    },
+    {
+     "line_start": 19,
+     "line_end": 23,
+     "label": "baryonic_decays"
+    },
+    {
+     "line_start": 25,
+     "line_end": 34,
+     "label": "radiative_transition_eta_c2s"
+    },
+    {
+     "line_start": 36,
+     "line_end": 43,
+     "label": "radiative_transition_chi_cj"
+    }
+   ]
+  },
+  {
+   "line_start": 45,
+   "line_end": 51,
+   "type": "results",
+   "title": "3 Searches for isospin-violating transitions χc0,2 → π0 ηc",
+   "units": [
+    {
+     "line_start": 45,
+     "line_end": 51,
+     "label": "isospin_violating_transitions"
+    }
+   ]
+  },
+  {
+   "line_start": 53,
+   "line_end": 62,
+   "type": "results",
+   "title": "4 Search for C−violation decay J/ψ → γγ, γφ",
+   "units": [
+    {
+     "line_start": 53,
+     "line_end": 62,
+     "label": "c_violation_decays"
+    }
+   ]
+  },
+  {
+   "line_start": 64,
+   "line_end": 75,
+   "type": "results",
+   "title": "5 Search for the OZI-suppressed decay J/ψ → π0 φ",
+   "units": [
+    {
+     "line_start": 64,
+     "line_end": 75,
+     "label": "ozi_suppressed_decay"
+    }
+   ]
+  },
+  {
+   "line_start": 77,
+   "line_end": 79,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 81,
+   "line_end": 83,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

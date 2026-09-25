@@ -1,0 +1,170 @@
+{
+ "paper_id": "2405.11585v2",
+ "source_path": "arxiv_papers/2405.11585v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 278,
+ "n_lines_sent": 74,
+ "skipped_ranges": [
+  {
+   "from": 141,
+   "to": 278,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 27,
+   "type": "front_matter",
+   "title": "Title, authors, abstract, keywords, contents"
+  },
+  {
+   "line_start": 29,
+   "line_end": 37,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 39,
+   "line_end": 45,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 47,
+   "line_end": 59,
+   "type": "event_selection",
+   "title": "3 Event section and background analysis",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 49,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "eta_prime_to_pi+pi-eta_selection"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "eta_to_pi+pi-pi0_selection"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "eta_prime_to_gamma_pi+pi-_selection"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "neutral_final_state_selection"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 61,
+   "line_end": 99,
+   "type": "fit",
+   "title": "4 Fit and numerical results"
+  },
+  {
+   "line_start": 101,
+   "line_end": 131,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 103,
+     "label": "tracking"
+    },
+    {
+     "line_start": 105,
+     "line_end": 113,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "pi0_reconstruction_and_eta_mass_window"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "R_ratio_and_cos_theta"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "input_branching_fractions"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "number_of_psi3686_events"
+    },
+    {
+     "line_start": 129,
+     "line_end": 131,
+     "label": "upper_limit_and_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 133,
+   "line_end": 135,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 137,
+   "line_end": 139,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 95,
+   "title": "Measured branching fractions for h_c -> gamma eta' and h_c -> gamma eta, and their ratio",
+   "section_type": "results"
+  },
+  {
+   "line": 111,
+   "title": "Relative systematic uncertainties on the branching-fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

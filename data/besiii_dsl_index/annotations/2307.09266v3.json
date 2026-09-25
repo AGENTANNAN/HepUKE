@@ -1,0 +1,238 @@
+{
+ "paper_id": "2307.09266v3",
+ "source_path": "arxiv_papers/2307.09266v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 430,
+ "n_lines_sent": 100,
+ "skipped_ranges": [
+  {
+   "from": 184,
+   "to": 430,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Measurement of the branching fractions of the singly Cabibbo-suppressed decays Λc+ → pη and Λc+ → pω"
+  },
+  {
+   "line_start": 13,
+   "line_end": 30,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 32,
+   "line_end": 47,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 49,
+   "line_end": 53,
+   "type": "detector",
+   "title": "2 BESIII Experiment and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 55,
+   "line_end": 94,
+   "type": "event_selection",
+   "title": "3 Event Selection",
+   "units": [
+    {
+     "line_start": 55,
+     "line_end": 57,
+     "label": "overview"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "tracking"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 67,
+     "line_end": 77,
+     "label": "dalitz_plot"
+    },
+    {
+     "line_start": 79,
+     "line_end": 80,
+     "label": "figure2"
+    },
+    {
+     "line_start": 82,
+     "line_end": 88,
+     "label": "mbc_deltae"
+    },
+    {
+     "line_start": 90,
+     "line_end": 94,
+     "label": "multiple_candidates"
+    }
+   ]
+  },
+  {
+   "line_start": 96,
+   "line_end": 110,
+   "type": "fit",
+   "title": "4 Branching Fraction Measurement"
+  },
+  {
+   "line_start": 112,
+   "line_end": 120,
+   "type": "fit",
+   "title": "4.1 Λc+ → pη"
+  },
+  {
+   "line_start": 122,
+   "line_end": 124,
+   "type": "fit",
+   "title": "4.2 Λc+ → pω"
+  },
+  {
+   "line_start": 126,
+   "line_end": 174,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 126,
+     "line_end": 132,
+     "label": "overview"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "proton_tracking_pid"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "proton_vr"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "charged_pion_tracking_pid"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "eta_pi0_reconstruction"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "shower_requirements"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "vetoing_sigma_ks_lambda"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "non_eta_non_omega"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "input_binter"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "number_of_lambda_pairs"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 156,
+     "line_end": 170,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "fitting_model"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "combination"
+    }
+   ]
+  },
+  {
+   "line_start": 176,
+   "line_end": 178,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 180,
+   "line_end": 182,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 40,
+   "title": "Measurements and predictions of the branching fractions of Λc+ → pη and Λc+ → pω",
+   "section_type": "introduction"
+  },
+  {
+   "line": 94,
+   "title": "Fractions of events with more than one candidate at different energy points",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 110,
+   "title": "Number of Λc+Λc- pairs, luminosities, efficiencies, and signal events at different energy points",
+   "section_type": "fit"
+  },
+  {
+   "line": 130,
+   "title": "Systematic uncertainties from multiple sources of three signal channels",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

@@ -1,0 +1,297 @@
+{
+ "paper_id": "2406.09475v1",
+ "source_path": "arxiv_papers/2406.09475v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 259,
+ "n_lines_sent": 125,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 74,
+   "to": 74,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 221,
+   "to": 259,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 72,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 76,
+   "line_end": 76,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 78,
+   "line_end": 80,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 82,
+   "line_end": 84,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR"
+  },
+  {
+   "line_start": 86,
+   "line_end": 92,
+   "type": "dataset",
+   "title": "III. DATASET AND MC SIMULATION"
+  },
+  {
+   "line_start": 94,
+   "line_end": 111,
+   "type": "event_selection",
+   "title": "IV. MEASUREMENT OF BF OF J/psi -> omega K+ K- eta",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 98,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 100,
+     "line_end": 101,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "background_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 113,
+   "line_end": 127,
+   "type": "fit",
+   "title": "B. Measurement of Branching Fraction"
+  },
+  {
+   "line_start": 129,
+   "line_end": 153,
+   "type": "systematic_uncertainty",
+   "title": "C. Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 129,
+     "line_end": 131,
+     "label": "overview"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "number_of_jpsi_and_quoted_bfs"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "eta_prime_veto"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 149,
+     "line_end": 153,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 155,
+   "line_end": 158,
+   "type": "background",
+   "title": "Background analysis"
+  },
+  {
+   "line_start": 160,
+   "line_end": 170,
+   "type": "fit",
+   "title": "B. Upper Limit of the Branching Fraction for X(1870)"
+  },
+  {
+   "line_start": 172,
+   "line_end": 207,
+   "type": "systematic_uncertainty",
+   "title": "C. Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 172,
+     "line_end": 176,
+     "label": "background_analysis"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "additive_uncertainties"
+    },
+    {
+     "line_start": 180,
+     "line_end": 181,
+     "label": "figure_3"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "multiplicative_uncertainties_overview"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "omega_eta_signal_region"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "quantum_numbers"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "eta_prime_veto"
+    },
+    {
+     "line_start": 193,
+     "line_end": 207,
+     "label": "summary_and_upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 209,
+   "line_end": 211,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 213,
+   "line_end": 219,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 153,
+   "title": "Relative systematic uncertainties on the BF measurement for J/psi -> omega K+ K- eta",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 199,
+   "title": "The multiplicative uncertainties for the upper limit on the BF measurement for J/psi -> omega X(1870) -> omega K+ K- eta",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

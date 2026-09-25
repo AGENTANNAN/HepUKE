@@ -1,0 +1,301 @@
+{
+ "paper_id": "2511.21462v1",
+ "source_path": "arxiv_papers/2511.21462v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 205,
+ "n_lines_sent": 102,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 178,
+   "to": 205,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 92,
+   "type": "front_matter",
+   "title": "Study of the reactions ... using J/psi -> p pi- nbar"
+  },
+  {
+   "line_start": 94,
+   "line_end": 94,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 96,
+   "line_end": 100,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 102,
+   "line_end": 104,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 106,
+   "line_end": 109,
+   "type": "dataset",
+   "title": "Momentum intervals and PWA distributions"
+  },
+  {
+   "line_start": 111,
+   "line_end": 121,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "pid"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "vertex_fit"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 113,
+     "line_end": 114,
+     "label": "recoil_mass_fit"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "st_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 123,
+   "line_end": 151,
+   "type": "fit",
+   "title": "Cross Section Determination"
+  },
+  {
+   "line_start": 153,
+   "line_end": 153,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainty",
+   "units": [
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "st_fit"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "reweight_mc_efficiency"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "vertex_fit"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "np_scattering_position"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "p_oil_requirement"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "delta_e_fit"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "ip_position"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "efficiency_correction"
+    }
+   ]
+  },
+  {
+   "line_start": 155,
+   "line_end": 163,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 155,
+     "line_end": 156,
+     "label": "delta_e_distribution"
+    },
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "cross_section_measurement"
+    },
+    {
+     "line_start": 162,
+     "line_end": 163,
+     "label": "mass_distributions"
+    }
+   ]
+  },
+  {
+   "line_start": 165,
+   "line_end": 165,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 167,
+   "line_end": 172,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainty Table and Cross Section Figure",
+   "units": [
+    {
+     "line_start": 167,
+     "line_end": 169,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 171,
+     "line_end": 172,
+     "label": "cross_section_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 174,
+   "line_end": 176,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 121,
+   "title": "The sum of N_ST and epsilon_ST of the full sample and in different P(n) intervals",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 160,
+   "title": "Summary of the measured N_DT, epsilon_DT and sigma_i for nbar p -> 2pi+ pi- i pi0 in full and different P(n) intervals",
+   "section_type": "results"
+  },
+  {
+   "line": 169,
+   "title": "The systematic uncertainties in the cross section measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 111-121 share boundary line 111",
+  "units of 111-121 share boundary line 111",
+  "units of 111-121 share boundary line 111",
+  "units of 111-121 share boundary line 114",
+  "units of 111-121 stop at 114, not 121",
+  "units of 153-153 share boundary line 153",
+  "units of 153-153 share boundary line 153",
+  "units of 153-153 share boundary line 153",
+  "units of 153-153 share boundary line 153",
+  "units of 153-153 share boundary line 153",
+  "units of 153-153 share boundary line 153",
+  "units of 153-153 share boundary line 153",
+  "units of 153-153 share boundary line 153",
+  "units of 153-153 share boundary line 153",
+  "units of 153-153 share boundary line 153",
+  "units of 153-153 share boundary line 153"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": [],
+ "units_repaired": true
+}

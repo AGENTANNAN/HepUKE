@@ -1,0 +1,204 @@
+{
+ "paper_id": "2309.14689v1",
+ "source_path": "arxiv_papers/2309.14689v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 285,
+ "n_lines_sent": 151,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 118,
+   "to": 118,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 120,
+   "to": 120,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 250,
+   "to": 285,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 122,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 124,
+   "line_end": 124,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 126,
+   "line_end": 142,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 144,
+   "line_end": 150,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 152,
+   "line_end": 162,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 152,
+     "line_end": 154,
+     "label": "event_topology"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "track_selection_pid"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 164,
+   "line_end": 193,
+   "type": "background",
+   "title": "IV. BACKGROUNDS ANALYSIS"
+  },
+  {
+   "line_start": 195,
+   "line_end": 214,
+   "type": "fit",
+   "title": "V. BRANCHING FRACTION DETERMINATION"
+  },
+  {
+   "line_start": 216,
+   "line_end": 236,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 216,
+     "line_end": 218,
+     "label": "overview"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "fit"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "psi3686_number"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "continuum"
+    },
+    {
+     "line_start": 228,
+     "line_end": 236,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 238,
+   "line_end": 242,
+   "type": "results",
+   "title": "VII. RESULT AND DISCUSSION",
+   "units": [
+    {
+     "line_start": 238,
+     "line_end": 240,
+     "label": "measurements"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 244,
+   "line_end": 248,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 136,
+   "title": "Theoretical calculations for eta_c(2S) mass, BF and partial width",
+   "section_type": "introduction"
+  },
+  {
+   "line": 230,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 234,
+   "title": "Comparison with previous measurements",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

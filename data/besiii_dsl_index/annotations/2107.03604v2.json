@@ -1,0 +1,459 @@
+{
+ "paper_id": "2107.03604v2",
+ "source_path": "arxiv_papers/2107.03604v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 335,
+ "n_lines_sent": 179,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 85,
+   "to": 86,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 116,
+   "to": 116,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 118,
+   "to": 118,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 285,
+   "to": 335,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 21,
+   "line_end": 21,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 30,
+   "line_end": 30,
+   "type": "front_matter",
+   "title": "Collaboration"
+  },
+  {
+   "line_start": 31,
+   "line_end": 115,
+   "type": "front_matter",
+   "title": "Affiliations"
+  },
+  {
+   "line_start": 117,
+   "line_end": 117,
+   "type": "front_matter",
+   "title": "Affiliations"
+  },
+  {
+   "line_start": 120,
+   "line_end": 120,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 122,
+   "line_end": 122,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 124,
+   "line_end": 132,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 134,
+   "line_end": 138,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MC SIMULATION"
+  },
+  {
+   "line_start": 140,
+   "line_end": 144,
+   "type": "event_selection",
+   "title": "Event selection"
+  },
+  {
+   "line_start": 146,
+   "line_end": 148,
+   "type": "event_selection",
+   "title": "A. Event selection"
+  },
+  {
+   "line_start": 150,
+   "line_end": 156,
+   "type": "fit",
+   "title": "B. Cross section"
+  },
+  {
+   "line_start": 158,
+   "line_end": 164,
+   "type": "fit",
+   "title": "Cross section formula"
+  },
+  {
+   "line_start": 166,
+   "line_end": 167,
+   "type": "fit",
+   "title": "Fig. 1"
+  },
+  {
+   "line_start": 169,
+   "line_end": 171,
+   "type": "fit",
+   "title": "Fit to e+e- -> gamma chi_c1 cross sections"
+  },
+  {
+   "line_start": 173,
+   "line_end": 173,
+   "type": "fit",
+   "title": "Fit function"
+  },
+  {
+   "line_start": 175,
+   "line_end": 177,
+   "type": "fit",
+   "title": "Fit function"
+  },
+  {
+   "line_start": 179,
+   "line_end": 179,
+   "type": "fit",
+   "title": "Continuum amplitude"
+  },
+  {
+   "line_start": 181,
+   "line_end": 183,
+   "type": "fit",
+   "title": "Continuum amplitude"
+  },
+  {
+   "line_start": 185,
+   "line_end": 185,
+   "type": "fit",
+   "title": "BW function"
+  },
+  {
+   "line_start": 187,
+   "line_end": 189,
+   "type": "fit",
+   "title": "BW function"
+  },
+  {
+   "line_start": 191,
+   "line_end": 191,
+   "type": "fit",
+   "title": "BW function"
+  },
+  {
+   "line_start": 193,
+   "line_end": 195,
+   "type": "fit",
+   "title": "psi(3686) BW"
+  },
+  {
+   "line_start": 197,
+   "line_end": 197,
+   "type": "fit",
+   "title": "Phase space and damping factor"
+  },
+  {
+   "line_start": 199,
+   "line_end": 199,
+   "type": "fit",
+   "title": "Likelihood function"
+  },
+  {
+   "line_start": 201,
+   "line_end": 203,
+   "type": "fit",
+   "title": "Likelihood function"
+  },
+  {
+   "line_start": 205,
+   "line_end": 205,
+   "type": "fit",
+   "title": "Fit result"
+  },
+  {
+   "line_start": 207,
+   "line_end": 208,
+   "type": "fit",
+   "title": "Fig. 2"
+  },
+  {
+   "line_start": 210,
+   "line_end": 210,
+   "type": "fit",
+   "title": "Table 1 caption"
+  },
+  {
+   "line_start": 212,
+   "line_end": 212,
+   "type": "fit",
+   "title": "Table 1"
+  },
+  {
+   "line_start": 214,
+   "line_end": 214,
+   "type": "fit",
+   "title": "Fit to e+e- -> gamma chi_c2 cross sections"
+  },
+  {
+   "line_start": 216,
+   "line_end": 217,
+   "type": "fit",
+   "title": "Fig. 3"
+  },
+  {
+   "line_start": 219,
+   "line_end": 219,
+   "type": "fit",
+   "title": "Fit function"
+  },
+  {
+   "line_start": 221,
+   "line_end": 223,
+   "type": "fit",
+   "title": "Fit function"
+  },
+  {
+   "line_start": 225,
+   "line_end": 225,
+   "type": "fit",
+   "title": "Fit results"
+  },
+  {
+   "line_start": 227,
+   "line_end": 227,
+   "type": "event_selection",
+   "title": "chi_c0 selection"
+  },
+  {
+   "line_start": 229,
+   "line_end": 231,
+   "type": "event_selection",
+   "title": "Background veto"
+  },
+  {
+   "line_start": 233,
+   "line_end": 235,
+   "type": "event_selection",
+   "title": "A. Event selection"
+  },
+  {
+   "line_start": 237,
+   "line_end": 237,
+   "type": "event_selection",
+   "title": "chi_c0 selection"
+  },
+  {
+   "line_start": 239,
+   "line_end": 241,
+   "type": "fit",
+   "title": "B. Cross section"
+  },
+  {
+   "line_start": 243,
+   "line_end": 243,
+   "type": "fit",
+   "title": "Table 2 caption"
+  },
+  {
+   "line_start": 245,
+   "line_end": 245,
+   "type": "fit",
+   "title": "Table 2"
+  },
+  {
+   "line_start": 247,
+   "line_end": 248,
+   "type": "fit",
+   "title": "Fig. 4"
+  },
+  {
+   "line_start": 250,
+   "line_end": 252,
+   "type": "fit",
+   "title": "Upper limit formula"
+  },
+  {
+   "line_start": 254,
+   "line_end": 254,
+   "type": "fit",
+   "title": "Upper limit results"
+  },
+  {
+   "line_start": 256,
+   "line_end": 258,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 256,
+     "line_end": 258,
+     "label": "luminosity_tracking_photon_pid_kinematic_fit_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 260,
+   "line_end": 261,
+   "type": "systematic_uncertainty",
+   "title": "Fig. 5",
+   "units": [
+    {
+     "line_start": 260,
+     "line_end": 261,
+     "label": "figure"
+    }
+   ]
+  },
+  {
+   "line_start": 263,
+   "line_end": 263,
+   "type": "systematic_uncertainty",
+   "title": "Background veto and J/psi mass window",
+   "units": [
+    {
+     "line_start": 263,
+     "line_end": 263,
+     "label": "background_veto_jpsi_mass_window"
+    }
+   ]
+  },
+  {
+   "line_start": 265,
+   "line_end": 265,
+   "type": "systematic_uncertainty",
+   "title": "Table 3 caption",
+   "units": [
+    {
+     "line_start": 265,
+     "line_end": 265,
+     "label": "table_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 267,
+   "line_end": 267,
+   "type": "systematic_uncertainty",
+   "title": "Table 3",
+   "units": [
+    {
+     "line_start": 267,
+     "line_end": 267,
+     "label": "table"
+    }
+   ]
+  },
+  {
+   "line_start": 269,
+   "line_end": 271,
+   "type": "systematic_uncertainty",
+   "title": "Signal extraction and ISR correction",
+   "units": [
+    {
+     "line_start": 269,
+     "line_end": 271,
+     "label": "signal_extraction_isr_correction"
+    }
+   ]
+  },
+  {
+   "line_start": 273,
+   "line_end": 273,
+   "type": "systematic_uncertainty",
+   "title": "Resonance parameters",
+   "units": [
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "resonance_parameters"
+    }
+   ]
+  },
+  {
+   "line_start": 275,
+   "line_end": 277,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 279,
+   "line_end": 283,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 212,
+   "title": "Results of the fit to the e+e- -> gamma chi_c1 cross sections",
+   "section_type": "fit"
+  },
+  {
+   "line": 245,
+   "title": "Results of the fit to the e+e- -> gamma chi_c2 cross sections",
+   "section_type": "fit"
+  },
+  {
+   "line": 267,
+   "title": "Summary of systematic uncertainties sources on the cross section measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 18.1,
+ "status": "invalid",
+ "errors": [
+  "[sections] 54 sections — sections were used where units belong",
+  "[tables] unannotated tables at [327, 331, 335]"
+ ],
+ "warnings": [
+  "short section 140-144 typed event_selection has no units",
+  "short section 146-148 typed event_selection has no units",
+  "short section 227-227 typed event_selection has no units",
+  "short section 229-231 typed event_selection has no units",
+  "short section 233-235 typed event_selection has no units",
+  "short section 237-237 typed event_selection has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": [
+  "sections",
+  "tables"
+ ]
+}

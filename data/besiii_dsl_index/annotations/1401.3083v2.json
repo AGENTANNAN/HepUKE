@@ -1,0 +1,237 @@
+{
+ "paper_id": "1401.3083v2",
+ "source_path": "arxiv_papers/1401.3083v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 498,
+ "n_lines_sent": 280,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 477,
+   "to": 498,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 96,
+   "type": "front_matter",
+   "title": "Amplitude Analysis of the D+ -> KS0 pi+ pi0 Dalitz Plot"
+  },
+  {
+   "line_start": 98,
+   "line_end": 100,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 102,
+   "line_end": 110,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 112,
+   "line_end": 132,
+   "type": "event_selection",
+   "title": "II. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 112,
+     "line_end": 116,
+     "label": "detector_and_data_sample"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "event_reconstruction"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "ks0_selection"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "charged_pion_selection"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "pi0_selection"
+    },
+    {
+     "line_start": 126,
+     "line_end": 128,
+     "label": "d_plus_selection_and_kinematic_fit"
+    },
+    {
+     "line_start": 130,
+     "line_end": 132,
+     "label": "recoil_mass_fit_and_signal_region"
+    }
+   ]
+  },
+  {
+   "line_start": 134,
+   "line_end": 228,
+   "type": "fit",
+   "title": "III. PARTIAL WAVE ANALYSIS"
+  },
+  {
+   "line_start": 230,
+   "line_end": 348,
+   "type": "fit",
+   "title": "IV. FITTING PROCEDURE"
+  },
+  {
+   "line_start": 350,
+   "line_end": 399,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 350,
+     "line_end": 354,
+     "label": "overview"
+    },
+    {
+     "line_start": 356,
+     "line_end": 356,
+     "label": "background_overview"
+    },
+    {
+     "line_start": 358,
+     "line_end": 361,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 363,
+     "line_end": 367,
+     "label": "background_sideband"
+    },
+    {
+     "line_start": 369,
+     "line_end": 369,
+     "label": "background_normalization"
+    },
+    {
+     "line_start": 371,
+     "line_end": 375,
+     "label": "efficiency_overview"
+    },
+    {
+     "line_start": 377,
+     "line_end": 381,
+     "label": "efficiency_parameterization"
+    },
+    {
+     "line_start": 383,
+     "line_end": 383,
+     "label": "efficiency_cuts"
+    },
+    {
+     "line_start": 385,
+     "line_end": 385,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 387,
+     "line_end": 387,
+     "label": "resolution"
+    },
+    {
+     "line_start": 389,
+     "line_end": 391,
+     "label": "model_overview"
+    },
+    {
+     "line_start": 393,
+     "line_end": 395,
+     "label": "barrier_factors"
+    },
+    {
+     "line_start": 397,
+     "line_end": 397,
+     "label": "resonance_shapes"
+    },
+    {
+     "line_start": 399,
+     "line_end": 399,
+     "label": "resonance_choice"
+    }
+   ]
+  },
+  {
+   "line_start": 401,
+   "line_end": 409,
+   "type": "conclusion",
+   "title": "VI. SUMMARY AND CONCLUSIONS"
+  },
+  {
+   "line_start": 411,
+   "line_end": 413,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 415,
+   "line_end": 475,
+   "type": "other",
+   "title": "Appendix A: Isobar Model; Appendix B: Momentum-Dependent Correction"
+  }
+ ],
+ "tables": [
+  {
+   "line": 298,
+   "title": "Intermediate resonance decay modes considered in this analysis",
+   "section_type": "fit"
+  },
+  {
+   "line": 302,
+   "title": "Results of the fits to the D+ -> KS0 pi+ pi0 Dalitz plot for models A-D",
+   "section_type": "fit"
+  },
+  {
+   "line": 365,
+   "title": "Summary of statistical and systematic errors on the fit parameters of model D",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 379,
+   "title": "Partial branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 445,
+   "title": "Blatt-Weisskopf barrier factors",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

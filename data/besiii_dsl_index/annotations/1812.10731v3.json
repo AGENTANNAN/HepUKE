@@ -1,0 +1,209 @@
+{
+ "paper_id": "1812.10731v3",
+ "source_path": "arxiv_papers/1812.10731v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 167,
+ "n_lines_sent": 67,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 155,
+   "to": 167,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 51,
+   "type": "front_matter",
+   "title": "Title, authors, and PACS"
+  },
+  {
+   "line_start": 49,
+   "line_end": 49,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 53,
+   "line_end": 59,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 61,
+   "line_end": 65,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 67,
+   "line_end": 75,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 67,
+     "line_end": 69,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "photon_and_eta_reconstruction"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "lambda_c_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 77,
+   "line_end": 114,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELD AND BRANCHING FRACTION"
+  },
+  {
+   "line_start": 116,
+   "line_end": 145,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 116,
+     "line_end": 118,
+     "label": "overview"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "eta_reconstruction"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "fitting_range"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "background_description"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "signal_mc_model"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "normalization_and_intermediate_bfs"
+    },
+    {
+     "line_start": 141,
+     "line_end": 145,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 147,
+   "line_end": 149,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 151,
+   "line_end": 153,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 86,
+   "title": "Summary of signal yields, detection efficiencies, and branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 145,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 12.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 116-145 before line 125",
+  "nested spans 1-51 / 49-49"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

@@ -1,0 +1,243 @@
+{
+ "paper_id": "2410.18464v1",
+ "source_path": "arxiv_papers/2410.18464v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 210,
+ "n_lines_sent": 82,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 178,
+   "to": 210,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 8,
+   "line_end": 8,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 14,
+   "line_end": 14,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 16,
+   "line_end": 16,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 30,
+   "line_end": 32,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 36,
+   "line_end": 40,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 50,
+   "line_end": 50,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 52,
+   "line_end": 60,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 62,
+   "line_end": 64,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 66,
+   "line_end": 66,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 68,
+   "line_end": 76,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 68,
+     "line_end": 70,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "pid"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 78,
+   "line_end": 100,
+   "type": "background",
+   "title": "IV. BACKGROUND ANALYSIS"
+  },
+  {
+   "line_start": 102,
+   "line_end": 126,
+   "type": "fit",
+   "title": "V. BRANCHING FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 128,
+   "line_end": 166,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 130,
+     "label": "overview"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "generator_model"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "efficiency_curve_damping"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "normalization"
+    },
+    {
+     "line_start": 146,
+     "line_end": 166,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 168,
+   "line_end": 172,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 174,
+   "line_end": 176,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 153,
+   "title": "Signal yields, detection efficiencies, and measured branching fractions of chi_cJ -> p pbar",
+   "section_type": "results"
+  },
+  {
+   "line": 157,
+   "title": "Relative systematic uncertainties in the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

@@ -1,0 +1,399 @@
+{
+ "paper_id": "2406.01332v3",
+ "source_path": "arxiv_papers/2406.01332v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 568,
+ "n_lines_sent": 286,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 84,
+   "to": 84,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 169,
+   "to": 169,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 495,
+   "to": 568,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 199,
+   "type": "front_matter",
+   "title": "Measurements of the branching fractions of semileptonic D_s^+ decays via e^+e^- -> D_s^{*+} D_s^{*-}"
+  },
+  {
+   "line_start": 201,
+   "line_end": 201,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 203,
+   "line_end": 211,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 213,
+   "line_end": 219,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 221,
+   "line_end": 233,
+   "type": "event_selection",
+   "title": "III. ANALYSIS METHOD",
+   "units": [
+    {
+     "line_start": 221,
+     "line_end": 229,
+     "label": "analysis_method"
+    },
+    {
+     "line_start": 231,
+     "line_end": 233,
+     "label": "theory_predictions"
+    }
+   ]
+  },
+  {
+   "line_start": 235,
+   "line_end": 271,
+   "type": "event_selection",
+   "title": "IV. SINGLE-TAG D_s^{*-} CANDIDATES",
+   "units": [
+    {
+     "line_start": 235,
+     "line_end": 237,
+     "label": "st_reconstruction"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 243,
+     "line_end": 245,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 247,
+     "line_end": 247,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "eta_3pi_reconstruction"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "etap_reconstruction"
+    },
+    {
+     "line_start": 253,
+     "line_end": 253,
+     "label": "rho_reconstruction"
+    },
+    {
+     "line_start": 255,
+     "line_end": 255,
+     "label": "veto_ks0"
+    },
+    {
+     "line_start": 257,
+     "line_end": 269,
+     "label": "kinematic_variables"
+    },
+    {
+     "line_start": 271,
+     "line_end": 271,
+     "label": "st_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 273,
+   "line_end": 319,
+   "type": "event_selection",
+   "title": "V. DOUBLE-TAG EVENTS",
+   "units": [
+    {
+     "line_start": 273,
+     "line_end": 275,
+     "label": "dt_selection"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "signal_side_reconstruction"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "positron_identification"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "extra_track_veto"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "hadronic_mass_veto"
+    },
+    {
+     "line_start": 285,
+     "line_end": 297,
+     "label": "missing_mass"
+    },
+    {
+     "line_start": 299,
+     "line_end": 319,
+     "label": "dt_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 321,
+   "line_end": 377,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 321,
+     "line_end": 325,
+     "label": "overview"
+    },
+    {
+     "line_start": 327,
+     "line_end": 329,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 331,
+     "line_end": 347,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 349,
+     "line_end": 351,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 353,
+     "line_end": 355,
+     "label": "gamma_pi0_eta"
+    },
+    {
+     "line_start": 357,
+     "line_end": 359,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 361,
+     "line_end": 363,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 365,
+     "line_end": 367,
+     "label": "mc_statistics_model"
+    },
+    {
+     "line_start": 369,
+     "line_end": 373,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 375,
+     "line_end": 377,
+     "label": "mmiss2_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 379,
+   "line_end": 471,
+   "type": "fit",
+   "title": "VII. HADRONIC FORM FACTOR"
+  },
+  {
+   "line_start": 473,
+   "line_end": 477,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 479,
+   "line_end": 481,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGMENT"
+  },
+  {
+   "line_start": 483,
+   "line_end": 493,
+   "type": "other",
+   "title": "Tables"
+  }
+ ],
+ "tables": [
+  {
+   "line": 233,
+   "title": "Theoretical predictions for semileptonic D_s+ branching fractions",
+   "section_type": "introduction"
+  },
+  {
+   "line": 311,
+   "title": "Mass windows, Delta E requirements, ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 315,
+   "title": "Integrated luminosities, M_BC requirements, and ST yields at various energy points",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 345,
+   "title": "Signal efficiencies, signal yields, and branching fractions",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 397,
+   "title": "Relative systematic uncertainties in branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 431,
+   "title": "Efficiency matrices for D_s+ to eta e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 443,
+   "title": "Efficiency matrices for D_s+ to eta' e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 449,
+   "title": "Efficiency matrix for D_s+ to K0 e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 455,
+   "title": "Partial decay rates of D_s+ to eta e+ nu_e in q2 intervals",
+   "section_type": "fit"
+  },
+  {
+   "line": 465,
+   "title": "Partial decay rates of D_s+ to eta' e+ nu_e in q2 intervals",
+   "section_type": "fit"
+  },
+  {
+   "line": 485,
+   "title": "Partial decay rates of D_s+ to K0 e+ nu_e in q2 intervals",
+   "section_type": "fit"
+  },
+  {
+   "line": 493,
+   "title": "Statistical and systematic covariance density matrices for D_s+ to eta e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 540,
+   "title": "Statistical and systematic covariance density matrices for D_s+ to eta' e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 544,
+   "title": "Statistical and systematic covariance density matrices for D_s+ to K0 e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 548,
+   "title": "Obtained parameters of hadronic form factors",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

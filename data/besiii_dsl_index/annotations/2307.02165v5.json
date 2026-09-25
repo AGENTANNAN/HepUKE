@@ -1,0 +1,195 @@
+{
+ "paper_id": "2307.02165v5",
+ "source_path": "arxiv_papers/2307.02165v5.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 403,
+ "n_lines_sent": 108,
+ "skipped_ranges": [
+  {
+   "from": 179,
+   "to": 403,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 20,
+   "type": "front_matter",
+   "title": "Title, authors, abstract, keywords, contents"
+  },
+  {
+   "line_start": 22,
+   "line_end": 43,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 45,
+   "line_end": 53,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 55,
+   "line_end": 99,
+   "type": "event_selection",
+   "title": "3 EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 55,
+     "line_end": 59,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 61,
+     "line_end": 66,
+     "label": "muon_emc_energy"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 70,
+     "line_end": 76,
+     "label": "d_meson_reconstruction"
+    },
+    {
+     "line_start": 78,
+     "line_end": 85,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 87,
+     "line_end": 99,
+     "label": "u_miss_variable"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 141,
+   "type": "fit",
+   "title": "4 RESULT"
+  },
+  {
+   "line_start": 143,
+   "line_end": 169,
+   "type": "systematic_uncertainty",
+   "title": "5 SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 143,
+     "line_end": 154,
+     "label": "overview"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "gaussian_resolution"
+    },
+    {
+     "line_start": 159,
+     "line_end": 159,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "d_decay_bf"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "jpsi_number"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "mass_and_chi2_requirements"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "momentum_requirements"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "photon_energy_and_missing_momentum"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "m_pipi_veto"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "mass_vetoes"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 171,
+   "line_end": 173,
+   "type": "conclusion",
+   "title": "6 SUMMARY"
+  },
+  {
+   "line_start": 175,
+   "line_end": 177,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 33,
+   "title": "Experimental results for J/psi semi-leptonic weak decays",
+   "section_type": "introduction"
+  },
+  {
+   "line": 41,
+   "title": "Theoretical results for the BF of J/psi -> D- mu+ nu_mu within the SM",
+   "section_type": "introduction"
+  },
+  {
+   "line": 97,
+   "title": "Number of main backgrounds before and after vetoes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 152,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

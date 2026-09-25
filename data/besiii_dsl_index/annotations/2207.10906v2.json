@@ -1,0 +1,248 @@
+{
+ "paper_id": "2207.10906v2",
+ "source_path": "arxiv_papers/2207.10906v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 250,
+ "n_lines_sent": 102,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 203,
+   "to": 250,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 9,
+   "line_end": 24,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 35,
+   "line_end": 35,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 37,
+   "line_end": 37,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 39,
+   "line_end": 59,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 61,
+   "line_end": 67,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 69,
+   "line_end": 105,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 69,
+     "line_end": 71,
+     "label": "reconstruction_channels"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "photon_pi0_reconstruction"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "ks0_lambda_reconstruction"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "sigma_plus_reconstruction"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "vetoes_deltaE"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "sigma0_reconstruction"
+    },
+    {
+     "line_start": 85,
+     "line_end": 87,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 89,
+     "line_end": 105,
+     "label": "mbc_fit_setup"
+    }
+   ]
+  },
+  {
+   "line_start": 107,
+   "line_end": 140,
+   "type": "fit",
+   "title": "IV. RELATIVE BRANCHING FRACTION MEASUREMENTS"
+  },
+  {
+   "line_start": 142,
+   "line_end": 191,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 144,
+     "label": "overview"
+    },
+    {
+     "line_start": 146,
+     "line_end": 147,
+     "label": "figure2"
+    },
+    {
+     "line_start": 149,
+     "line_end": 163,
+     "label": "pid"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "tracking"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "ks0_lambda_veto"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "chi2_requirement"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "deltaE_requirement"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 177,
+     "line_end": 178,
+     "label": "figure3"
+    },
+    {
+     "line_start": 180,
+     "line_end": 187,
+     "label": "fitting_model"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "bf_ks0"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "erratum_note"
+    }
+   ]
+  },
+  {
+   "line_start": 193,
+   "line_end": 197,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 199,
+   "line_end": 201,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 57,
+   "title": "Comparison of theoretical predictions and experimental values for B(Λc+ → ΣK)",
+   "section_type": "introduction"
+  },
+  {
+   "line": 153,
+   "title": "Integrated luminosities, yields, detection efficiencies and relative BFs at seven energy points",
+   "section_type": "fit"
+  },
+  {
+   "line": 157,
+   "title": "Summary of systematic uncertainties for relative BF measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

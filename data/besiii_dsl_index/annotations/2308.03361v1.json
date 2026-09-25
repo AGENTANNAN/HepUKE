@@ -1,0 +1,336 @@
+{
+ "paper_id": "2308.03361v1",
+ "source_path": "arxiv_papers/2308.03361v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 323,
+ "n_lines_sent": 188,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 120,
+   "to": 120,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 288,
+   "to": 323,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 139,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": 141,
+   "line_end": 141,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 143,
+   "line_end": 163,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 165,
+   "line_end": 165,
+   "type": "event_selection",
+   "title": "III. RECONSTRUCTION OF e+e- -> Lambda Sigma0 AT sqrt(s) = 2.3094 GeV",
+   "units": [
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "section_heading"
+    }
+   ]
+  },
+  {
+   "line_start": 167,
+   "line_end": 167,
+   "type": "event_selection",
+   "title": "III. RECONSTRUCTION OF e+e- -> Lambda Sigma0 AT sqrt(s) = 2.3094 GeV",
+   "units": [
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "signal_process_and_reconstruction_strategy"
+    }
+   ]
+  },
+  {
+   "line_start": 169,
+   "line_end": 171,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLE"
+  },
+  {
+   "line_start": 173,
+   "line_end": 189,
+   "type": "event_selection",
+   "title": "Event selection and cross-section measurement at 2.3094 GeV",
+   "units": [
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "pid_and_pion_selection"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "secondary_vertex_and_antiproton_identification"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "background_studies"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "signal_extraction_fit"
+    },
+    {
+     "line_start": 183,
+     "line_end": 189,
+     "label": "cross_section_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 191,
+   "line_end": 202,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties at sqrt(s) = 2.3094 GeV",
+   "units": [
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "systematic_uncertainties_intro"
+    },
+    {
+     "line_start": 193,
+     "line_end": 194,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 196,
+     "line_end": 196,
+     "label": "luminosity_tracking_pid_branching_mc_sample_selection_isr_annihilation"
+    },
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "signal_shape_background_shape_energy_spread"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "table_data"
+    }
+   ]
+  },
+  {
+   "line_start": 204,
+   "line_end": 225,
+   "type": "event_selection",
+   "title": "IV. RECONSTRUCTION OF e+e- -> Lambda Sigma0 AT HIGHER ENERGIES",
+   "units": [
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "section_heading"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "reconstruction_strategy"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "charged_tracks_and_pid"
+    },
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 212,
+     "line_end": 218,
+     "label": "sigma0_recoil_mass"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "background_studies"
+    },
+    {
+     "line_start": 222,
+     "line_end": 223,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "signal_extraction_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 227,
+   "line_end": 231,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties at higher energies",
+   "units": [
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "table_data"
+    }
+   ]
+  },
+  {
+   "line_start": 233,
+   "line_end": 270,
+   "type": "results",
+   "title": "V. RESULTS AND CONCLUSION",
+   "units": [
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "section_heading"
+    },
+    {
+     "line_start": 235,
+     "line_end": 243,
+     "label": "kinematic_variables"
+    },
+    {
+     "line_start": 245,
+     "line_end": 245,
+     "label": "born_cross_sections_and_effective_ffs"
+    },
+    {
+     "line_start": 247,
+     "line_end": 249,
+     "label": "pqcd_fit"
+    },
+    {
+     "line_start": 251,
+     "line_end": 263,
+     "label": "strong_interaction_model_fit"
+    },
+    {
+     "line_start": 265,
+     "line_end": 265,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 267,
+     "line_end": 267,
+     "label": "table_data"
+    },
+    {
+     "line_start": 269,
+     "line_end": 270,
+     "label": "figure_3"
+    }
+   ]
+  },
+  {
+   "line_start": 272,
+   "line_end": 280,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 282,
+   "line_end": 286,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 202,
+   "title": "Relative systematic uncertainties on the Born cross section at sqrt(s) = 2.3094 GeV",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 231,
+   "title": "Relative systematic uncertainties in the cross section measurement for each c.m. energy above 2.3864 GeV",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 267,
+   "title": "Luminosity, signal yield, detection efficiency, radiative correction factor, Born cross section and effective form factor at each c.m. energy",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": [],
+ "units_repaired": true
+}

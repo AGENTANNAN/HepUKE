@@ -1,0 +1,299 @@
+{
+ "paper_id": "2202.00759v2",
+ "source_path": "arxiv_papers/2202.00759v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 271,
+ "n_lines_sent": 117,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 238,
+   "to": 271,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 14,
+   "line_end": 14,
+   "type": "front_matter",
+   "title": "Dated"
+  },
+  {
+   "line_start": 16,
+   "line_end": 16,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 18,
+   "line_end": 38,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 40,
+   "line_end": 62,
+   "type": "detector",
+   "title": "II. EXPERIMENTAL BACKGROUND"
+  },
+  {
+   "line_start": 64,
+   "line_end": 91,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 64,
+     "line_end": 66,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "normalization_channel_selection"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "fom_optimization"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "selection_criteria_optimization"
+    },
+    {
+     "line_start": 78,
+     "line_end": 82,
+     "label": "additional_variables"
+    },
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 86,
+     "line_end": 89,
+     "label": "background_events"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "multiple_candidates"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 148,
+   "type": "fit",
+   "title": "IV. FITTING"
+  },
+  {
+   "line_start": 150,
+   "line_end": 200,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 150,
+     "line_end": 152,
+     "label": "introduction"
+    },
+    {
+     "line_start": 154,
+     "line_end": 156,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 158,
+     "line_end": 162,
+     "label": "signal_mc_models"
+    },
+    {
+     "line_start": 164,
+     "line_end": 166,
+     "label": "signal_mc_models"
+    },
+    {
+     "line_start": 168,
+     "line_end": 171,
+     "label": "signal_mc_models"
+    },
+    {
+     "line_start": 173,
+     "line_end": 175,
+     "label": "chi_c0_mass_window"
+    },
+    {
+     "line_start": 177,
+     "line_end": 179,
+     "label": "ecm_dependence"
+    },
+    {
+     "line_start": 181,
+     "line_end": 184,
+     "label": "input_branching_fractions"
+    },
+    {
+     "line_start": 186,
+     "line_end": 188,
+     "label": "input_branching_fractions"
+    },
+    {
+     "line_start": 190,
+     "line_end": 192,
+     "label": "fit_model"
+    },
+    {
+     "line_start": 194,
+     "line_end": 196,
+     "label": "fit_model"
+    },
+    {
+     "line_start": 198,
+     "line_end": 200,
+     "label": "total_systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 202,
+   "line_end": 216,
+   "type": "results",
+   "title": "VI. CALCULATION OF UPPER LIMITS",
+   "units": [
+    {
+     "line_start": 202,
+     "line_end": 204,
+     "label": "likelihood_scan"
+    },
+    {
+     "line_start": 206,
+     "line_end": 208,
+     "label": "systematic_uncertainties_table"
+    },
+    {
+     "line_start": 210,
+     "line_end": 212,
+     "label": "systematic_uncertainties_table"
+    },
+    {
+     "line_start": 214,
+     "line_end": 216,
+     "label": "upper_limit_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 218,
+   "line_end": 226,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 228,
+   "line_end": 236,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 28,
+   "title": "Theoretical predictions for X(3872) decay ratios",
+   "section_type": "introduction"
+  },
+  {
+   "line": 36,
+   "title": "Hadronic decay modes of chi_c0",
+   "section_type": "introduction"
+  },
+  {
+   "line": 50,
+   "title": "Data sets with center-of-mass energies and luminosities",
+   "section_type": "detector"
+  },
+  {
+   "line": 80,
+   "title": "Optimized chi^2/DOF values",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 134,
+   "title": "Efficiencies, scaling factors, and yields for X(3872)->pi0 chi_c0",
+   "section_type": "fit"
+  },
+  {
+   "line": 140,
+   "title": "Efficiencies, scaling factors, and yields for X(3872)->pi+pi- chi_c0",
+   "section_type": "fit"
+  },
+  {
+   "line": 144,
+   "title": "Efficiencies, scaling factors, and yields for X(3872)->pi0pi0 chi_c0",
+   "section_type": "fit"
+  },
+  {
+   "line": 196,
+   "title": "List of fit variations",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 208,
+   "title": "Total systematic uncertainties for X(3872)->pi0 chi_c0",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 212,
+   "title": "Total systematic uncertainties for X(3872)->pi+pi- chi_c0 and pi0pi0 chi_c0",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 226,
+   "title": "90% C.L. upper limits",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

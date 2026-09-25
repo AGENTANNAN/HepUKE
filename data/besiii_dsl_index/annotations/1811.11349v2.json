@@ -1,0 +1,156 @@
+{
+ "paper_id": "1811.11349v2",
+ "source_path": "arxiv_papers/1811.11349v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 215,
+ "n_lines_sent": 135,
+ "skipped_ranges": [
+  {
+   "from": 197,
+   "to": 215,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 54,
+   "type": "front_matter",
+   "title": "Title, authors, collaboration, abstract, PACS"
+  },
+  {
+   "line_start": 56,
+   "line_end": 56,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 58,
+   "line_end": 68,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 70,
+   "line_end": 125,
+   "type": "event_selection",
+   "title": "III. ANALYSIS",
+   "units": [
+    {
+     "line_start": 70,
+     "line_end": 84,
+     "label": "st_dt_formalism"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 88,
+     "line_end": 94,
+     "label": "st_reconstruction"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "sl_selection"
+    },
+    {
+     "line_start": 100,
+     "line_end": 105,
+     "label": "table_figure"
+    },
+    {
+     "line_start": 107,
+     "line_end": 119,
+     "label": "u_miss_definition"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "dt_yield_fit"
+    },
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "bf_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 127,
+   "line_end": 178,
+   "type": "fit",
+   "title": "IV. D0 -> K0bar pi- e+ nu_e DECAY RATE FORMALISM"
+  },
+  {
+   "line_start": 180,
+   "line_end": 186,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties of fitted parameters",
+   "units": [
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "fit_fractions"
+    },
+    {
+     "line_start": 182,
+     "line_end": 186,
+     "label": "systematic_sources"
+    }
+   ]
+  },
+  {
+   "line_start": 188,
+   "line_end": 192,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 194,
+   "line_end": 194,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 196,
+   "line_end": 196,
+   "type": "other",
+   "title": "Charge-conjugate note"
+  }
+ ],
+ "tables": [
+  {
+   "line": 102,
+   "title": "Selection requirements and ST yields for tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 176,
+   "title": "Fit results for parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 186,
+   "title": "Systematic uncertainties of fitted parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

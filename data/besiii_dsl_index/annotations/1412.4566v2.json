@@ -1,0 +1,165 @@
+{
+ "paper_id": "1412.4566v2",
+ "source_path": "arxiv_papers/1412.4566v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 136,
+ "n_lines_sent": 67,
+ "skipped_ranges": [
+  {
+   "from": 115,
+   "to": 136,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 22,
+   "type": "front_matter",
+   "title": "Title, authors, collaboration, abstract, PACS"
+  },
+  {
+   "line_start": 24,
+   "line_end": 28,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 30,
+   "line_end": 34,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO"
+  },
+  {
+   "line_start": 36,
+   "line_end": 52,
+   "type": "event_selection",
+   "title": "III. METHODOLOGY AND EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 36,
+     "line_end": 40,
+     "label": "signal_reconstruction_and_mc_samples"
+    },
+    {
+     "line_start": 42,
+     "line_end": 46,
+     "label": "tag_modes"
+    },
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "charged_track_selection_and_pid"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "kinematic_fit_and_background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 54,
+   "line_end": 64,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 66,
+   "line_end": 100,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 66,
+     "line_end": 68,
+     "label": "cancelling_uncertainties"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "dividing_line"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "signal_regions"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "fsr_simulation"
+    },
+    {
+     "line_start": 78,
+     "line_end": 90,
+     "label": "background"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "other_negligible_sources"
+    },
+    {
+     "line_start": 96,
+     "line_end": 100,
+     "label": "summary_and_total"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 109,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 111,
+   "line_end": 113,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 46,
+   "title": "The charmed meson tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 85,
+   "title": "Numbers used for the calculation of the branching fractions and the results",
+   "section_type": "fit"
+  },
+  {
+   "line": 100,
+   "title": "Summary of the absolute systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

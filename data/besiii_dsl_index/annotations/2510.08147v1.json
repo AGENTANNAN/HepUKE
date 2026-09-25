@@ -1,0 +1,318 @@
+{
+ "paper_id": "2510.08147v1",
+ "source_path": "arxiv_papers/2510.08147v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 376,
+ "n_lines_sent": 180,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 62,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 64,
+   "to": 67,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 69,
+   "to": 76,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 79,
+   "to": 81,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 83,
+   "to": 84,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 89,
+   "to": 89,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 91,
+   "to": 99,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 101,
+   "to": 103,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 105,
+   "to": 105,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 107,
+   "to": 107,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 109,
+   "to": 111,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 337,
+   "to": 376,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 170,
+   "type": "front_matter",
+   "title": "First measurements of the branching fractions of J/psi decays"
+  },
+  {
+   "line_start": 172,
+   "line_end": 172,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 174,
+   "line_end": 180,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 182,
+   "line_end": 190,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 192,
+   "line_end": 230,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 192,
+     "line_end": 194,
+     "label": "candidate_reconstruction"
+    },
+    {
+     "line_start": 196,
+     "line_end": 196,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "ks_lambda_reconstruction"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "pi0_selection"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 206,
+     "line_end": 212,
+     "label": "lambda_assignment"
+    },
+    {
+     "line_start": 214,
+     "line_end": 220,
+     "label": "sigma0_assignment"
+    },
+    {
+     "line_start": 222,
+     "line_end": 228,
+     "label": "sigma_minus_assignment"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 232,
+   "line_end": 261,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 263,
+   "line_end": 307,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 263,
+     "line_end": 267,
+     "label": "njpsi"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "k_tracking_pid"
+    },
+    {
+     "line_start": 271,
+     "line_end": 271,
+     "label": "p_tracking_pid"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "2d_fit"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 288,
+     "line_end": 288,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 290,
+     "line_end": 301,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 303,
+     "line_end": 303,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 305,
+     "line_end": 305,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 307,
+     "line_end": 307,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 316,
+   "line_end": 326,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 328,
+   "line_end": 335,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 311,
+   "title": "Systematic uncertainties in the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 263-307 before line 288"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

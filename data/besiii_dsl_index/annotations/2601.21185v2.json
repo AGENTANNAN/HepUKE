@@ -1,0 +1,225 @@
+{
+ "paper_id": "2601.21185v2",
+ "source_path": "arxiv_papers/2601.21185v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 344,
+ "n_lines_sent": 120,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 220,
+   "to": 344,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 79,
+   "type": "front_matter",
+   "title": "First Experimental Constraint on the Scalar Current in the D0(+) -> Kbar l+ nu_l Transition"
+  },
+  {
+   "line_start": 81,
+   "line_end": 81,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 83,
+   "line_end": 87,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 89,
+   "line_end": 89,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 91,
+   "line_end": 91,
+   "type": "dataset",
+   "title": "Dataset and Double-Tag Method"
+  },
+  {
+   "line_start": 93,
+   "line_end": 111,
+   "type": "event_selection",
+   "title": "Event Selection and Signal Yield Determination",
+   "units": [
+    {
+     "line_start": 93,
+     "line_end": 97,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "st_selection_criteria"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "st_yields"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "missing_momentum_reconstruction"
+    },
+    {
+     "line_start": 107,
+     "line_end": 111,
+     "label": "umiss_fit_and_bf_ratios"
+    }
+   ]
+  },
+  {
+   "line_start": 113,
+   "line_end": 118,
+   "type": "results",
+   "title": "Signal Yields and Branching Fractions",
+   "units": [
+    {
+     "line_start": 113,
+     "line_end": 114,
+     "label": "umiss_fit_figure"
+    },
+    {
+     "line_start": 116,
+     "line_end": 118,
+     "label": "signal_yields_table"
+    }
+   ]
+  },
+  {
+   "line_start": 120,
+   "line_end": 120,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "bf_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 122,
+   "line_end": 130,
+   "type": "results",
+   "title": "Partial Decay Rates and Forward-Backward Asymmetries",
+   "units": [
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "partial_decay_rates"
+    },
+    {
+     "line_start": 124,
+     "line_end": 130,
+     "label": "forward_backward_asymmetry"
+    }
+   ]
+  },
+  {
+   "line_start": 132,
+   "line_end": 185,
+   "type": "fit",
+   "title": "Simultaneous Fit for the Scalar Current"
+  },
+  {
+   "line_start": 187,
+   "line_end": 193,
+   "type": "results",
+   "title": "Fit Results",
+   "units": [
+    {
+     "line_start": 187,
+     "line_end": 189,
+     "label": "scalar_current_fit_results"
+    },
+    {
+     "line_start": 191,
+     "line_end": 193,
+     "label": "fitted_parameters_table"
+    }
+   ]
+  },
+  {
+   "line_start": 195,
+   "line_end": 203,
+   "type": "results",
+   "title": "Constraints on Wilson Coefficients and Form Factor",
+   "units": [
+    {
+     "line_start": 195,
+     "line_end": 201,
+     "label": "ds_to_l_nu_constraints"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "form_factor_and_ckm"
+    }
+   ]
+  },
+  {
+   "line_start": 205,
+   "line_end": 205,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 207,
+   "line_end": 216,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 218,
+   "line_end": 218,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 118,
+   "title": "Fitted signal yields, averaged signal efficiencies, and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 193,
+   "title": "Fitted parameters and fit qualities with and without scalar current",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

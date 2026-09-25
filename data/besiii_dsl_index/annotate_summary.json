@@ -1,0 +1,26 @@
+{
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "reasoning_effort": "none",
+ "counts": {
+  "ok": 592,
+  "invalid": 270,
+  "error": 0
+ },
+ "n_papers": 862,
+ "usage": {
+  "prompt_tokens": 28801741,
+  "cached_tokens": 7100657,
+  "completion_tokens": 1693193,
+  "reasoning_tokens": 0,
+  "calls": 1575
+ },
+ "cost": {
+  "prompt": 65.10325200000007,
+  "completion": 15.238736999999995,
+  "input_cache_read": 0.7100657000000037
+ },
+ "cost_total": 81.0521,
+ "wall_min": 12.5
+}

@@ -1,0 +1,204 @@
+{
+ "paper_id": "1801.02127v1",
+ "source_path": "arxiv_papers/1801.02127v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 301,
+ "n_lines_sent": 143,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 271,
+   "to": 301,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 161,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and PACS"
+  },
+  {
+   "line_start": 163,
+   "line_end": 167,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 169,
+   "line_end": 175,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 177,
+   "line_end": 177,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 179,
+   "line_end": 195,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 181,
+     "line_end": 183,
+     "label": "kinematic_fit_and_background_veto"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "background_study"
+    },
+    {
+     "line_start": 187,
+     "line_end": 194,
+     "label": "figure_1_and_background_discussion"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "signal_yield_determination_intro"
+    }
+   ]
+  },
+  {
+   "line_start": 196,
+   "line_end": 247,
+   "type": "fit",
+   "title": "Fit to the M(γφ) distribution"
+  },
+  {
+   "line_start": 249,
+   "line_end": 255,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "branching_fraction_sources"
+    },
+    {
+     "line_start": 253,
+     "line_end": 253,
+     "label": "total_systematic_uncertainty"
+    },
+    {
+     "line_start": 255,
+     "line_end": 255,
+     "label": "mass_and_width_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 257,
+   "line_end": 261,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "measured_results"
+    },
+    {
+     "line_start": 259,
+     "line_end": 261,
+     "label": "table_i"
+    }
+   ]
+  },
+  {
+   "line_start": 263,
+   "line_end": 265,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 267,
+   "line_end": 269,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 261,
+   "title": "Mass, width, and branching fraction of each component in the two solutions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

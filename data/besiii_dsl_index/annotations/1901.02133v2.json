@@ -1,0 +1,159 @@
+{
+ "paper_id": "1901.02133v2",
+ "source_path": "arxiv_papers/1901.02133v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 160,
+ "n_lines_sent": 56,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 115,
+   "to": 160,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 16,
+   "line_end": 16,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 18,
+   "line_end": 22,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 24,
+   "line_end": 26,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 28,
+   "line_end": 55,
+   "type": "event_selection",
+   "title": "Event Selection and Data Analysis",
+   "units": [
+    {
+     "line_start": 28,
+     "line_end": 34,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 36,
+     "line_end": 36,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 38,
+     "line_end": 38,
+     "label": "photon_pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 40,
+     "line_end": 40,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 42,
+     "line_end": 45,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "dt_selection"
+    },
+    {
+     "line_start": 49,
+     "line_end": 55,
+     "label": "signal_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 57,
+   "line_end": 57,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 59,
+   "line_end": 59,
+   "type": "results",
+   "title": "Branching Fraction Ratio and Mixing Angle",
+   "units": [
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "bf_ratio_mixing_angle"
+    }
+   ]
+  },
+  {
+   "line_start": 61,
+   "line_end": 96,
+   "type": "fit",
+   "title": "Form Factor Fit"
+  },
+  {
+   "line_start": 98,
+   "line_end": 98,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 100,
+   "line_end": 109,
+   "type": "other",
+   "title": "Tables and Figures"
+  },
+  {
+   "line_start": 111,
+   "line_end": 113,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 51,
+   "title": "Efficiencies, signal yields, and branching fractions",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 102,
+   "title": "Results of the fits to Delta Gamma_msr",
+   "section_type": "fit"
+  },
+  {
+   "line": 106,
+   "title": "Comparison of measured form factors with theoretical calculations",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

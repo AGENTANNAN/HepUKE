@@ -1,0 +1,325 @@
+{
+ "paper_id": "2607.05041v1",
+ "source_path": "arxiv_papers/2607.05041v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 366,
+ "n_lines_sent": 150,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 119,
+   "to": 119,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 296,
+   "to": 366,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Observation of the chi_cJ decays into p K- Lambda-bar eta + c.c."
+  },
+  {
+   "line_start": 3,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "Author list (continued)"
+  },
+  {
+   "line_start": 7,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Author list (continued)"
+  },
+  {
+   "line_start": 9,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "(BESIII Collaboration)"
+  },
+  {
+   "line_start": 13,
+   "line_end": 121,
+   "type": "front_matter",
+   "title": "Affiliation list"
+  },
+  {
+   "line_start": 125,
+   "line_end": 125,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 127,
+   "line_end": 133,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 135,
+   "line_end": 141,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 143,
+   "line_end": 163,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 143,
+     "line_end": 145,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "pid"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 151,
+     "line_end": 154,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 158,
+     "line_end": 163,
+     "label": "eta_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 165,
+   "line_end": 171,
+   "type": "background",
+   "title": "IV. BACKGROUND ANALYSIS"
+  },
+  {
+   "line_start": 173,
+   "line_end": 212,
+   "type": "fit",
+   "title": "V. BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 214,
+   "line_end": 278,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 214,
+     "line_end": 216,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "normalization"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "figure"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "figure"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "figure"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "figure"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "figure"
+    },
+    {
+     "line_start": 232,
+     "line_end": 233,
+     "label": "figure"
+    },
+    {
+     "line_start": 235,
+     "line_end": 237,
+     "label": "table"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "eta_mass_window"
+    },
+    {
+     "line_start": 243,
+     "line_end": 245,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 247,
+     "line_end": 247,
+     "label": "veto_windows"
+    },
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "figure"
+    },
+    {
+     "line_start": 253,
+     "line_end": 253,
+     "label": "figure"
+    },
+    {
+     "line_start": 255,
+     "line_end": 255,
+     "label": "figure"
+    },
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "figure"
+    },
+    {
+     "line_start": 259,
+     "line_end": 259,
+     "label": "figure"
+    },
+    {
+     "line_start": 261,
+     "line_end": 262,
+     "label": "figure"
+    },
+    {
+     "line_start": 264,
+     "line_end": 264,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 266,
+     "line_end": 266,
+     "label": "sideband_regions"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 270,
+     "line_end": 270,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "external_branching_fractions"
+    },
+    {
+     "line_start": 274,
+     "line_end": 276,
+     "label": "resonance_modeling"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 280,
+   "line_end": 290,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 292,
+   "line_end": 292,
+   "type": "systematic_uncertainty",
+   "title": "TABLE II"
+  },
+  {
+   "line_start": 294,
+   "line_end": 294,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 237,
+   "title": "Signal yields, efficiencies, and branching-fraction results for chi_cJ -> p K- Lambda-bar eta",
+   "section_type": "fit"
+  },
+  {
+   "line": 292,
+   "title": "Relative systematic uncertainties on B(chi_cJ -> p K- Lambda-bar eta)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 12.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 292-292 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

@@ -1,0 +1,207 @@
+{
+ "paper_id": "1602.01523v3",
+ "source_path": "arxiv_papers/1602.01523v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 324,
+ "n_lines_sent": 176,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 282,
+   "to": 324,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 5,
+   "line_end": 63,
+   "type": "front_matter",
+   "title": "Affiliations and footnotes"
+  },
+  {
+   "line_start": 64,
+   "line_end": 64,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 66,
+   "line_end": 70,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 72,
+   "line_end": 76,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 78,
+   "line_end": 99,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "tracking"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "phi_reconstruction"
+    },
+    {
+     "line_start": 84,
+     "line_end": 95,
+     "label": "figures"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "background_mc"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "sideband_background"
+    }
+   ]
+  },
+  {
+   "line_start": 101,
+   "line_end": 223,
+   "type": "fit",
+   "title": "IV. PARTIAL WAVE ANALYSIS"
+  },
+  {
+   "line_start": 225,
+   "line_end": 262,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 225,
+     "line_end": 227,
+     "label": "normalization"
+    },
+    {
+     "line_start": 229,
+     "line_end": 231,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 233,
+     "line_end": 244,
+     "label": "figures"
+    },
+    {
+     "line_start": 246,
+     "line_end": 246,
+     "label": "tracking_pid_photon_kinematic_fit"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "bw_parametrization"
+    },
+    {
+     "line_start": 249,
+     "line_end": 255,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "background_uncertainty"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "additional_resonances"
+    },
+    {
+     "line_start": 260,
+     "line_end": 262,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 264,
+   "line_end": 266,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 268,
+   "line_end": 280,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 217,
+   "title": "Mass, width, branching fraction and significance of each component in the baseline solution",
+   "section_type": "fit"
+  },
+  {
+   "line": 231,
+   "title": "Fraction of each component and interference fractions in the baseline solution",
+   "section_type": "fit"
+  },
+  {
+   "line": 253,
+   "title": "Additional resonances, change of number of free parameters, change of NLL and significance",
+   "section_type": "fit"
+  },
+  {
+   "line": 274,
+   "title": "Summary of systematic error sources and contributions to masses and widths",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 278,
+   "title": "Summary of systematic error sources and contributions to branching fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 12.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

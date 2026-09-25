@@ -1,0 +1,352 @@
+{
+ "paper_id": "1507.08188v3",
+ "source_path": "arxiv_papers/1507.08188v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 418,
+ "n_lines_sent": 215,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 70,
+   "to": 70,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 72,
+   "to": 72,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 80,
+   "to": 80,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 372,
+   "to": 418,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Measurement of the e+e- -> pi+pi- Cross Section between 600 and 900 MeV Using Initial State Radiation"
+  },
+  {
+   "line_start": 4,
+   "line_end": 140,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 141,
+   "line_end": 144,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 146,
+   "line_end": 156,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 158,
+   "line_end": 164,
+   "type": "detector",
+   "title": "2. The BESIII experiment"
+  },
+  {
+   "line_start": 166,
+   "line_end": 196,
+   "type": "event_selection",
+   "title": "3. Data sample, event selection, and efficiency corrections",
+   "units": [
+    {
+     "line_start": 166,
+     "line_end": 170,
+     "label": "data_sample_and_mc"
+    },
+    {
+     "line_start": 172,
+     "line_end": 186,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 188,
+     "line_end": 192,
+     "label": "efficiency_corrections"
+    },
+    {
+     "line_start": 194,
+     "line_end": 196,
+     "label": "background_subtraction"
+    }
+   ]
+  },
+  {
+   "line_start": 198,
+   "line_end": 200,
+   "type": "background",
+   "title": "Table 1: Background events"
+  },
+  {
+   "line_start": 202,
+   "line_end": 206,
+   "type": "dataset",
+   "title": "4. Luminosity measurement using Bhabha events"
+  },
+  {
+   "line_start": 208,
+   "line_end": 217,
+   "type": "results",
+   "title": "5. QED test using e+e- -> mu+mu- gamma events",
+   "units": [
+    {
+     "line_start": 208,
+     "line_end": 212,
+     "label": "qed_test"
+    },
+    {
+     "line_start": 214,
+     "line_end": 217,
+     "label": "figure_1"
+    }
+   ]
+  },
+  {
+   "line_start": 219,
+   "line_end": 262,
+   "type": "fit",
+   "title": "6. Extraction of sigma(e+e- -> pi+pi-) and |F_pi|^2"
+  },
+  {
+   "line_start": 264,
+   "line_end": 270,
+   "type": "fit",
+   "title": "6.2. Unfolding"
+  },
+  {
+   "line_start": 272,
+   "line_end": 288,
+   "type": "fit",
+   "title": "6.3. FSR correction"
+  },
+  {
+   "line_start": 290,
+   "line_end": 302,
+   "type": "fit",
+   "title": "6.4. Radiator function and vacuum polarisation correction"
+  },
+  {
+   "line_start": 304,
+   "line_end": 318,
+   "type": "systematic_uncertainty",
+   "title": "6.5. Summary of systematic uncertainties",
+   "units": [
+    {
+     "line_start": 304,
+     "line_end": 308,
+     "label": "efficiency_corrections"
+    },
+    {
+     "line_start": 309,
+     "line_end": 309,
+     "label": "residual_background"
+    },
+    {
+     "line_start": 310,
+     "line_end": 310,
+     "label": "angular_acceptance"
+    },
+    {
+     "line_start": 311,
+     "line_end": 313,
+     "label": "unfolding"
+    },
+    {
+     "line_start": 315,
+     "line_end": 315,
+     "label": "fsr_correction"
+    },
+    {
+     "line_start": 316,
+     "line_end": 316,
+     "label": "vacuum_polarization"
+    },
+    {
+     "line_start": 317,
+     "line_end": 317,
+     "label": "radiator_function"
+    },
+    {
+     "line_start": 318,
+     "line_end": 318,
+     "label": "luminosity"
+    }
+   ]
+  },
+  {
+   "line_start": 320,
+   "line_end": 322,
+   "type": "systematic_uncertainty",
+   "title": "Table 2: Summary of systematic uncertainties"
+  },
+  {
+   "line_start": 324,
+   "line_end": 354,
+   "type": "results",
+   "title": "7. Results",
+   "units": [
+    {
+     "line_start": 324,
+     "line_end": 326,
+     "label": "cross_section_and_form_factor"
+    },
+    {
+     "line_start": 328,
+     "line_end": 330,
+     "label": "table_3_fit_parameters"
+    },
+    {
+     "line_start": 332,
+     "line_end": 336,
+     "label": "figures_3_and_4"
+    },
+    {
+     "line_start": 338,
+     "line_end": 342,
+     "label": "gounaris_sakurai_fit"
+    },
+    {
+     "line_start": 344,
+     "line_end": 346,
+     "label": "comparison_with_previous_measurements"
+    },
+    {
+     "line_start": 348,
+     "line_end": 354,
+     "label": "contribution_to_g_minus_2"
+    }
+   ]
+  },
+  {
+   "line_start": 356,
+   "line_end": 358,
+   "type": "conclusion",
+   "title": "8. Conclusion"
+  },
+  {
+   "line_start": 360,
+   "line_end": 370,
+   "type": "acknowledgements",
+   "title": "9. Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 200,
+   "title": "Background events",
+   "section_type": "background"
+  },
+  {
+   "line": 322,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 330,
+   "title": "Fit parameters of the Gounaris-Sakurai fit",
+   "section_type": "fit"
+  },
+  {
+   "line": 418,
+   "title": "Cross section and pion form factor results",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 6.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 320-322 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

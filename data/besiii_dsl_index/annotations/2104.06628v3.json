@@ -1,0 +1,176 @@
+{
+ "paper_id": "2104.06628v3",
+ "source_path": "arxiv_papers/2104.06628v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 325,
+ "n_lines_sent": 65,
+ "skipped_ranges": [
+  {
+   "from": 117,
+   "to": 325,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 26,
+   "type": "front_matter",
+   "title": "Search for the rare semi-leptonic decay J/ψ → D−e+νe + c.c."
+  },
+  {
+   "line_start": 13,
+   "line_end": 13,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 28,
+   "line_end": 41,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 43,
+   "line_end": 51,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 51,
+   "line_end": 51,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 53,
+   "line_end": 65,
+   "type": "event_selection",
+   "title": "3 EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 53,
+     "line_end": 55,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "pid"
+    },
+    {
+     "line_start": 57,
+     "line_end": 59,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "d_meson_reconstruction"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "missing_momentum"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "efficiency_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 67,
+   "line_end": 82,
+   "type": "fit",
+   "title": "4 RESULT"
+  },
+  {
+   "line_start": 84,
+   "line_end": 105,
+   "type": "systematic_uncertainty",
+   "title": "5 SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 84,
+     "line_end": 86,
+     "label": "overview"
+    },
+    {
+     "line_start": 88,
+     "line_end": 93,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "signal_mc_model"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "selection_requirements"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "bf_d_decay"
+    },
+    {
+     "line_start": 99,
+     "line_end": 101,
+     "label": "table2"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 107,
+   "line_end": 109,
+   "type": "conclusion",
+   "title": "6 SUMMARY"
+  },
+  {
+   "line_start": 111,
+   "line_end": 115,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 39,
+   "title": "Theoretical results for the BF of the semi-leptonic decay J/ψ → D−e+νe",
+   "section_type": "introduction"
+  },
+  {
+   "line": 101,
+   "title": "Summary of the systematic uncertainties in percentage for the measurement of the BF",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 53-65 share boundary line 55",
+  "nested spans 1-26 / 13-13",
+  "nested spans 43-51 / 51-51"
+ ],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

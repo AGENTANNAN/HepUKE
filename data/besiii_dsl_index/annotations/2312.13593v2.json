@@ -1,0 +1,320 @@
+{
+ "paper_id": "2312.13593v2",
+ "source_path": "arxiv_papers/2312.13593v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 265,
+ "n_lines_sent": 173,
+ "skipped_ranges": [
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 218,
+   "to": 265,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 130,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": 132,
+   "line_end": 132,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 134,
+   "line_end": 140,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 142,
+   "line_end": 142,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 144,
+   "line_end": 146,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 148,
+   "line_end": 163,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "three_track_selection"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "background_veto_3track"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "four_track_selection"
+    },
+    {
+     "line_start": 158,
+     "line_end": 159,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "background_veto_4track"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "jpsi_mass_window"
+    }
+   ]
+  },
+  {
+   "line_start": 165,
+   "line_end": 170,
+   "type": "fit",
+   "title": "Simultaneous fit to recoil mass"
+  },
+  {
+   "line_start": 172,
+   "line_end": 188,
+   "type": "results",
+   "title": "Upper limits and branching ratio",
+   "units": [
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "signal_yield_upper_limit"
+    },
+    {
+     "line_start": 174,
+     "line_end": 180,
+     "label": "relative_branching_ratio"
+    },
+    {
+     "line_start": 182,
+     "line_end": 188,
+     "label": "cross_section_times_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 190,
+   "line_end": 210,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "pion_tracking"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "pid"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "mc_decay_model"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "chi_c1_to_pi_pi_jpsi"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "total_multiplicative"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "background"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 196,
+     "line_end": 204,
+     "label": "table_i_and_ii"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "pid"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "jpsi_mass_window"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "mc_decay_model"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "jpsi_mass_window"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 212,
+   "line_end": 212,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 214,
+   "line_end": 216,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 198,
+   "title": "Integrated luminosities, efficiencies and upper limits",
+   "section_type": "results"
+  },
+  {
+   "line": 202,
+   "title": "Multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 265,
+   "title": "Systematic uncertainties for cross section times branching fraction",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 15.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 190-210 share boundary line 190",
+  "units of 190-210 share boundary line 190",
+  "units of 190-210 share boundary line 190",
+  "units of 190-210 share boundary line 190",
+  "units of 190-210 share boundary line 190",
+  "units of 190-210 share boundary line 194",
+  "units of 190-210 share boundary line 194",
+  "units of 190-210 share boundary line 206",
+  "units of 190-210 share boundary line 206",
+  "units of 190-210 share boundary line 206",
+  "units of 190-210 share boundary line 206",
+  "units of 190-210 share boundary line 206",
+  "units of 190-210 share boundary line 206",
+  "units of 190-210 share boundary line 206",
+  "units of 190-210 share boundary line 206",
+  "units of 190-210 share boundary line 208",
+  "units of 190-210 share boundary line 208",
+  "units of 190-210 share boundary line 208"
+ ],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

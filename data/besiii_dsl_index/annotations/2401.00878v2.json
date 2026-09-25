@@ -1,0 +1,123 @@
+{
+ "paper_id": "2401.00878v2",
+ "source_path": "arxiv_papers/2401.00878v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 220,
+ "n_lines_sent": 134,
+ "skipped_ranges": [
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 181,
+   "to": 220,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 87,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 89,
+   "line_end": 89,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 91,
+   "line_end": 99,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 101,
+   "line_end": 101,
+   "type": "detector",
+   "title": "BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 103,
+   "line_end": 109,
+   "type": "event_selection",
+   "title": "Event selection and cross section measurement",
+   "units": [
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "background_subtraction"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "efficiency_determination"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "cross_section_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 111,
+   "line_end": 175,
+   "type": "fit",
+   "title": "Fit to the cross sections"
+  },
+  {
+   "line_start": 177,
+   "line_end": 177,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 179,
+   "line_end": 179,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 158,
+   "title": "Fit results for the resonance parameters",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

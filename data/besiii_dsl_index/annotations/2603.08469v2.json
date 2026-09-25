@@ -1,0 +1,223 @@
+{
+ "paper_id": "2603.08469v2",
+ "source_path": "arxiv_papers/2603.08469v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 456,
+ "n_lines_sent": 184,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 127,
+   "to": 127,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 137,
+   "to": 137,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 149,
+   "to": 149,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 151,
+   "to": 151,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 153,
+   "to": 153,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 155,
+   "to": 155,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 157,
+   "to": 157,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 159,
+   "to": 159,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 358,
+   "to": 456,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 161,
+   "type": "front_matter",
+   "title": "Amplitude Analysis of Singly Cabibbo-Suppressed Decay Λc+ → pK+K−"
+  },
+  {
+   "line_start": 163,
+   "line_end": 163,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 165,
+   "line_end": 185,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 187,
+   "line_end": 191,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 193,
+   "line_end": 211,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 193,
+     "line_end": 195,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 197,
+     "line_end": 199,
+     "label": "table_i_predictions"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "proton_vr_requirement"
+    },
+    {
+     "line_start": 203,
+     "line_end": 211,
+     "label": "kinematic_variables_and_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 213,
+   "line_end": 282,
+   "type": "fit",
+   "title": "IV. AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 284,
+   "line_end": 308,
+   "type": "fit",
+   "title": "V. BRANCHING FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 310,
+   "line_end": 324,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 310,
+     "line_end": 312,
+     "label": "introduction"
+    },
+    {
+     "line_start": 314,
+     "line_end": 314,
+     "label": "amplitude_analysis_systematics"
+    },
+    {
+     "line_start": 316,
+     "line_end": 318,
+     "label": "table_iv_amplitude_systematics"
+    },
+    {
+     "line_start": 320,
+     "line_end": 322,
+     "label": "table_v_branching_fraction_systematics"
+    },
+    {
+     "line_start": 324,
+     "line_end": 324,
+     "label": "branching_fraction_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 326,
+   "line_end": 352,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 354,
+   "line_end": 354,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 356,
+   "line_end": 356,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 199,
+   "title": "Predictions and measurements of branching fractions for Λc+ → pK+K− and Λc+ → pφ(1020)",
+   "section_type": "introduction"
+  },
+  {
+   "line": 282,
+   "title": "Fit fractions and statistical significances for components in the baseline solution",
+   "section_type": "fit"
+  },
+  {
+   "line": 308,
+   "title": "Detection efficiencies for each decay mode at six energy points",
+   "section_type": "fit"
+  },
+  {
+   "line": 318,
+   "title": "Systematic uncertainties of the amplitude analysis",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 322,
+   "title": "Relative systematic uncertainties in the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

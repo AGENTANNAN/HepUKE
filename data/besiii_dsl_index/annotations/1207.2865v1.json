@@ -1,0 +1,230 @@
+{
+ "paper_id": "1207.2865v1",
+ "source_path": "arxiv_papers/1207.2865v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 291,
+ "n_lines_sent": 162,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 271,
+   "to": 291,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 17,
+   "line_end": 73,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 75,
+   "line_end": 75,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 77,
+   "line_end": 101,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 103,
+   "line_end": 122,
+   "type": "event_selection",
+   "title": "II. J/ψ inclusive SELECTION CRITERIA",
+   "units": [
+    {
+     "line_start": 103,
+     "line_end": 105,
+     "label": "introduction"
+    },
+    {
+     "line_start": 107,
+     "line_end": 109,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "emc_cluster_selection"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "event_level_selection"
+    },
+    {
+     "line_start": 115,
+     "line_end": 117,
+     "label": "lepton_background_rejection"
+    },
+    {
+     "line_start": 119,
+     "line_end": 122,
+     "label": "multiplicity_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 124,
+   "line_end": 144,
+   "type": "background",
+   "title": "III. BACKGROUND ANALYSIS"
+  },
+  {
+   "line_start": 146,
+   "line_end": 162,
+   "type": "fit",
+   "title": "IV. DETERMINATION OF THE DETECTION EFFICIENCY AND CORRECTION FACTOR"
+  },
+  {
+   "line_start": 164,
+   "line_end": 174,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 164,
+     "line_end": 170,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 172,
+     "line_end": 174,
+     "label": "correction_factor"
+    }
+   ]
+  },
+  {
+   "line_start": 176,
+   "line_end": 178,
+   "type": "detector",
+   "title": "V. TRIGGER EFFICIENCY"
+  },
+  {
+   "line_start": 180,
+   "line_end": 182,
+   "type": "results",
+   "title": "VI. THE NUMBER OF J/ψ EVENTS",
+   "units": [
+    {
+     "line_start": 180,
+     "line_end": 182,
+     "label": "number_of_jpsi_events"
+    }
+   ]
+  },
+  {
+   "line_start": 184,
+   "line_end": 248,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties (continued)",
+   "units": [
+    {
+     "line_start": 184,
+     "line_end": 188,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 190,
+     "line_end": 196,
+     "label": "fitting"
+    },
+    {
+     "line_start": 198,
+     "line_end": 211,
+     "label": "background_uncertainty"
+    },
+    {
+     "line_start": 213,
+     "line_end": 215,
+     "label": "charged_multiplicity"
+    },
+    {
+     "line_start": 217,
+     "line_end": 224,
+     "label": "noise_mixing"
+    },
+    {
+     "line_start": 226,
+     "line_end": 237,
+     "label": "vz_sideband"
+    },
+    {
+     "line_start": 239,
+     "line_end": 248,
+     "label": "soft_pion_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 250,
+   "line_end": 258,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 260,
+   "line_end": 264,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 266,
+   "line_end": 269,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 280,
+   "title": "Parameters and resulting number of J/psi events",
+   "section_type": "results"
+  },
+  {
+   "line": 284,
+   "title": "J/psi events and calculation values for N_good>=2 and >=3",
+   "section_type": "results"
+  },
+  {
+   "line": 288,
+   "title": "Summary of systematic uncertainties on J/psi events",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

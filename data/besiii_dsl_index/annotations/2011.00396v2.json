@@ -1,0 +1,245 @@
+{
+ "paper_id": "2011.00396v2",
+ "source_path": "arxiv_papers/2011.00396v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 271,
+ "n_lines_sent": 153,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 237,
+   "to": 271,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 8,
+   "line_end": 137,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 139,
+   "line_end": 139,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 141,
+   "line_end": 172,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 174,
+   "line_end": 174,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 176,
+   "line_end": 176,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 178,
+   "line_end": 189,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "final_state_reconstruction"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "charged_track_and_pid"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "lambda_ks0_selection"
+    },
+    {
+     "line_start": 186,
+     "line_end": 187,
+     "label": "mbc_distributions"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "mbc_signal_window_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 191,
+   "line_end": 201,
+   "type": "fit",
+   "title": "Likelihood fit"
+  },
+  {
+   "line_start": 203,
+   "line_end": 225,
+   "type": "results",
+   "title": "Fit results and spin determination",
+   "units": [
+    {
+     "line_start": 203,
+     "line_end": 209,
+     "label": "simultaneous_fit_setup"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "minimization_and_likelihood_values"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "moment_distribution"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "likelihood_ratio_test"
+    },
+    {
+     "line_start": 217,
+     "line_end": 218,
+     "label": "moment_figure"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "systematic_introduction"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "efficiency_corrections"
+    },
+    {
+     "line_start": 224,
+     "line_end": 225,
+     "label": "test_statistic_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 227,
+   "line_end": 231,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "systematic_table_caption"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "systematic_table"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "selection_and_sideband_variations"
+    }
+   ]
+  },
+  {
+   "line_start": 233,
+   "line_end": 233,
+   "type": "conclusion",
+   "title": "Conclusion"
+  },
+  {
+   "line_start": 235,
+   "line_end": 235,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 201,
+   "title": "Observed and normalized background events in the signal region",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 229,
+   "title": "Systematic uncertainties on the spin significance",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

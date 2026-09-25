@@ -1,0 +1,285 @@
+{
+ "paper_id": "1409.4040v2",
+ "source_path": "arxiv_papers/1409.4040v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 166,
+ "n_lines_sent": 78,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 147,
+   "to": 166,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 12,
+   "type": "front_matter",
+   "title": "Title, collaboration, abstract, PACS"
+  },
+  {
+   "line_start": 14,
+   "line_end": 20,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 22,
+   "line_end": 26,
+   "type": "detector",
+   "title": "II. BESIII AND BEPCII"
+  },
+  {
+   "line_start": 28,
+   "line_end": 51,
+   "type": "event_selection",
+   "title": "III. SEARCH FOR J/psi -> gamma gamma",
+   "units": [
+    {
+     "line_start": 28,
+     "line_end": 30,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 32,
+     "line_end": 32,
+     "label": "pion_selection"
+    },
+    {
+     "line_start": 34,
+     "line_end": 34,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 36,
+     "line_end": 36,
+     "label": "mass_spectrum_fit"
+    },
+    {
+     "line_start": 38,
+     "line_end": 39,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 41,
+     "line_end": 45,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 47,
+     "line_end": 49,
+     "label": "table_i"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 53,
+   "line_end": 80,
+   "type": "event_selection",
+   "title": "IV. SEARCH FOR J/psi -> gamma phi",
+   "units": [
+    {
+     "line_start": 53,
+     "line_end": 55,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "pid"
+    },
+    {
+     "line_start": 59,
+     "line_end": 66,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "mass_spectrum"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "mass_spectrum_fit"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 74,
+     "line_end": 80,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 82,
+   "line_end": 111,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 82,
+     "line_end": 84,
+     "label": "overview"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "tracking"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 90,
+     "line_end": 91,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "number_of_photons"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "cos_theta_pi_pi_requirement"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "mrec_requirement"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "fitting"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "number_of_psi3686"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "total"
+    },
+    {
+     "line_start": 109,
+     "line_end": 111,
+     "label": "table_ii"
+    }
+   ]
+  },
+  {
+   "line_start": 113,
+   "line_end": 137,
+   "type": "results",
+   "title": "VI. RESULTS",
+   "units": [
+    {
+     "line_start": 113,
+     "line_end": 115,
+     "label": "upper_limit_formula"
+    },
+    {
+     "line_start": 117,
+     "line_end": 119,
+     "label": "formula"
+    },
+    {
+     "line_start": 121,
+     "line_end": 125,
+     "label": "result_phi"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "parameter_definitions"
+    },
+    {
+     "line_start": 129,
+     "line_end": 131,
+     "label": "table_iii"
+    },
+    {
+     "line_start": 133,
+     "line_end": 137,
+     "label": "result_gamma_gamma"
+    }
+   ]
+  },
+  {
+   "line_start": 139,
+   "line_end": 141,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 143,
+   "line_end": 145,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 49,
+   "title": "Expected peaking background events for J/psi -> gamma gamma",
+   "section_type": "background"
+  },
+  {
+   "line": 111,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 131,
+   "title": "Results for both channels",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 8.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

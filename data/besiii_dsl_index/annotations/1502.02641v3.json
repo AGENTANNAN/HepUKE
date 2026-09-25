@@ -1,0 +1,252 @@
+{
+ "paper_id": "1502.02641v3",
+ "source_path": "arxiv_papers/1502.02641v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 185,
+ "n_lines_sent": 70,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 154,
+   "to": 185,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 31,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 33,
+   "line_end": 33,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 35,
+   "line_end": 49,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 51,
+   "line_end": 57,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND DATA SET"
+  },
+  {
+   "line_start": 59,
+   "line_end": 85,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 59,
+     "line_end": 63,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "event_topology"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "ks_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 75,
+     "line_end": 85,
+     "label": "mass_distributions_and_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 87,
+   "line_end": 93,
+   "type": "background",
+   "title": "B. Background studies"
+  },
+  {
+   "line_start": 95,
+   "line_end": 97,
+   "type": "fit",
+   "title": "C. Upper limits for the number of signal events"
+  },
+  {
+   "line_start": 99,
+   "line_end": 122,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 99,
+     "line_end": 101,
+     "label": "overview"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "tracking_and_photon_reconstruction"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "phsp_generator_model"
+    },
+    {
+     "line_start": 109,
+     "line_end": 112,
+     "label": "four_charged_particle_tracks"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "transition_photon_resolution"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "fitting"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "number_of_psi3686_and_trigger"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 124,
+   "line_end": 126,
+   "type": "systematic_uncertainty",
+   "title": "TABLE I. Summary of all considered systematic uncertainties"
+  },
+  {
+   "line_start": 128,
+   "line_end": 146,
+   "type": "results",
+   "title": "V. RESULTS AND DISCUSSION",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 136,
+     "label": "upper_limit_calculation"
+    },
+    {
+     "line_start": 138,
+     "line_end": 140,
+     "label": "final_results_table"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "summary_of_results"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "comparison_with_theory"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "future_prospects"
+    }
+   ]
+  },
+  {
+   "line_start": 148,
+   "line_end": 152,
+   "type": "acknowledgements",
+   "title": "VI. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 126,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 140,
+   "title": "Summary of final results",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 124-126 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

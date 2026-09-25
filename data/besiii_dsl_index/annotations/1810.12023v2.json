@@ -1,0 +1,201 @@
+{
+ "paper_id": "1810.12023v2",
+ "source_path": "arxiv_papers/1810.12023v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 193,
+ "n_lines_sent": 119,
+ "skipped_ranges": [
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 161,
+   "to": 193,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 85,
+   "type": "front_matter",
+   "title": "First observations of h_c hadrons"
+  },
+  {
+   "line_start": 87,
+   "line_end": 102,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 104,
+   "line_end": 104,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 106,
+   "line_end": 106,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 108,
+   "line_end": 123,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 108,
+     "line_end": 109,
+     "label": "figure_1_caption"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "charged_track_and_photon_selection"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "chi2_comparison"
+    },
+    {
+     "line_start": 117,
+     "line_end": 123,
+     "label": "mass_windows_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 125,
+   "line_end": 133,
+   "type": "fit",
+   "title": "Fit and branching fractions"
+  },
+  {
+   "line_start": 135,
+   "line_end": 135,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "overview"
+    }
+   ]
+  },
+  {
+   "line_start": 137,
+   "line_end": 139,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 137,
+     "line_end": 139,
+     "label": "results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 141,
+   "line_end": 143,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty table",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 143,
+     "label": "systematic_table"
+    }
+   ]
+  },
+  {
+   "line_start": 145,
+   "line_end": 149,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty details",
+   "units": [
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "tracking_photon_pid_kinematic"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "fitting_procedure"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "physics_model"
+    }
+   ]
+  },
+  {
+   "line_start": 151,
+   "line_end": 153,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 155,
+   "line_end": 157,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 159,
+   "line_end": 159,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 121,
+   "title": "Mass windows imposed in background rejection",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 139,
+   "title": "Results of the analysis",
+   "section_type": "results"
+  },
+  {
+   "line": 143,
+   "title": "Relative uncertainties on the branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 153,
+   "title": "Comparison of measured ratios of hadronic decay widths with theoretical predictions",
+   "section_type": "discussion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

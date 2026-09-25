@@ -1,0 +1,184 @@
+{
+ "paper_id": "2012.07360v3",
+ "source_path": "arxiv_papers/2012.07360v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 344,
+ "n_lines_sent": 183,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 135,
+   "to": 135,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 137,
+   "to": 137,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 303,
+   "to": 344,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 140,
+   "type": "front_matter",
+   "title": "Measurement of the Born cross sections for e+e- -> eta' pi+ pi- at center-of-mass energies between 2.00 and 3.08 GeV"
+  },
+  {
+   "line_start": 142,
+   "line_end": 144,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 146,
+   "line_end": 154,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 156,
+   "line_end": 168,
+   "type": "detector",
+   "title": "II. BESIII AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 170,
+   "line_end": 187,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 170,
+     "line_end": 172,
+     "label": "decay_modes"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "tracking"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "background"
+    },
+    {
+     "line_start": 182,
+     "line_end": 187,
+     "label": "dalitz_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 189,
+   "line_end": 222,
+   "type": "fit",
+   "title": "IV. BORN CROSS SECTION MEASUREMENT"
+  },
+  {
+   "line_start": 224,
+   "line_end": 291,
+   "type": "fit",
+   "title": "V. FIT TO THE BORN CROSS SECTION"
+  },
+  {
+   "line_start": 293,
+   "line_end": 297,
+   "type": "conclusion",
+   "title": "VI. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 299,
+   "line_end": 301,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 210,
+   "title": "Summary of integrated luminosities, observed event yields, detection efficiencies, radiative correction factors, vacuum polarization factors, and Born cross sections at different c.m. energies",
+   "section_type": "fit"
+  },
+  {
+   "line": 230,
+   "title": "Systematic uncertainties from various sources for each c.m. energy",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 275,
+   "title": "Results of the fit to the Born cross section",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

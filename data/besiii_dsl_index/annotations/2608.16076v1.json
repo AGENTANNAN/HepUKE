@@ -1,0 +1,138 @@
+{
+ "paper_id": "2608.16076v1",
+ "source_path": "arxiv_papers/2608.16076v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 292,
+ "n_lines_sent": 122,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 232,
+   "to": 292,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 121,
+   "type": "front_matter",
+   "title": "Measurement of Branching Fraction and Transition Magnetic Moment of the Hyperon Dalitz Decay Σ0 → Λe+e−"
+  },
+  {
+   "line_start": 123,
+   "line_end": 123,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 125,
+   "line_end": 134,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 136,
+   "line_end": 136,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 138,
+   "line_end": 154,
+   "type": "dataset",
+   "title": "Data Sample and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 156,
+   "line_end": 174,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 162,
+     "line_end": 170,
+     "label": "sigma0_reconstruction"
+    },
+    {
+     "line_start": 172,
+     "line_end": 174,
+     "label": "st_dt_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 176,
+   "line_end": 178,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 176,
+     "line_end": 178,
+     "label": "table_i_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 180,
+   "line_end": 194,
+   "type": "fit",
+   "title": "Kinematic Fit and Background Suppression"
+  },
+  {
+   "line_start": 196,
+   "line_end": 220,
+   "type": "fit",
+   "title": "Form Factor and Magnetic Moment Extraction"
+  },
+  {
+   "line_start": 222,
+   "line_end": 222,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 224,
+   "line_end": 230,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 178,
+   "title": "Summary of ST/DT yields, efficiencies, branching fractions and transition magnetic moments",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:23",
+ "failed_aspects": []
+}

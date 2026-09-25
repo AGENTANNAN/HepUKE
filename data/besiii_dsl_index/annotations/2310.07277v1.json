@@ -1,0 +1,234 @@
+{
+ "paper_id": "2310.07277v1",
+ "source_path": "arxiv_papers/2310.07277v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 207,
+ "n_lines_sent": 85,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 71,
+   "to": 71,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 73,
+   "to": 77,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 176,
+   "to": 207,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 9,
+   "line_end": 78,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 80,
+   "line_end": 80,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 82,
+   "line_end": 91,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 93,
+   "line_end": 99,
+   "type": "detector",
+   "title": "II. DETECTORS AND DATA SAMPLES"
+  },
+  {
+   "line_start": 101,
+   "line_end": 117,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 103,
+     "label": "overview"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "tracking"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "pid"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "track_multiplicity"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "umiss_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 119,
+   "line_end": 135,
+   "type": "fit",
+   "title": "IV. UPPER LIMITS"
+  },
+  {
+   "line_start": 137,
+   "line_end": 162,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 137,
+     "line_end": 139,
+     "label": "overview"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "pi0_eta_kinematic_fit"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "rho_mass_window"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "umiss_requirement"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 159,
+     "line_end": 159,
+     "label": "njpsi"
+    },
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "additive_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 164,
+   "line_end": 166,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 168,
+   "line_end": 174,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 148,
+   "title": "Signal yields and upper limits on branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 157,
+   "title": "Multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 137-162 before line 146",
+  "gap in 137-162 before line 155"
+ ],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

@@ -1,0 +1,180 @@
+{
+ "paper_id": "2404.07436v1",
+ "source_path": "arxiv_papers/2404.07436v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 325,
+ "n_lines_sent": 82,
+ "skipped_ranges": [
+  {
+   "from": 153,
+   "to": 325,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 29,
+   "type": "front_matter",
+   "title": "Title, collaboration, abstract, keywords, contents"
+  },
+  {
+   "line_start": 31,
+   "line_end": 37,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 39,
+   "line_end": 41,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 43,
+   "line_end": 58,
+   "type": "event_selection",
+   "title": "3 Event selection and background analysis",
+   "units": [
+    {
+     "line_start": 43,
+     "line_end": 45,
+     "label": "signal_decay_channels"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "kinematic_fit_and_mass_windows"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "background_study"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 57,
+     "line_end": 58,
+     "label": "figure1_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 60,
+   "line_end": 96,
+   "type": "systematic_uncertainty",
+   "title": "4 Born cross section and systematic uncertainty",
+   "units": [
+    {
+     "line_start": 60,
+     "line_end": 74,
+     "label": "born_cross_section_formula"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "systematics_intro"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "kinematic_fit_and_omega_mass"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "vp_isr_correction"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "mass_fit"
+    },
+    {
+     "line_start": 92,
+     "line_end": 96,
+     "label": "systematics_summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 131,
+   "type": "fit",
+   "title": "5 Fit to the line shape"
+  },
+  {
+   "line_start": 133,
+   "line_end": 147,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 149,
+   "line_end": 151,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 70,
+   "title": "Born cross sections for e+e- -> omega eta' at 22 energy points",
+   "section_type": "results"
+  },
+  {
+   "line": 94,
+   "title": "Systematic uncertainties in the Born cross section at each energy point",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 131,
+   "title": "Obtained resonance parameters",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

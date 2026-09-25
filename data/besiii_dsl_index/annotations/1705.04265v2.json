@@ -1,0 +1,181 @@
+{
+ "paper_id": "1705.04265v2",
+ "source_path": "arxiv_papers/1705.04265v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 189,
+ "n_lines_sent": 99,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 150,
+   "to": 189,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 84,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 86,
+   "line_end": 90,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 92,
+   "line_end": 94,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 96,
+   "line_end": 98,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 100,
+   "line_end": 100,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 102,
+   "line_end": 106,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 109,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 111,
+   "line_end": 111,
+   "type": "background",
+   "title": "Background"
+  },
+  {
+   "line_start": 113,
+   "line_end": 140,
+   "type": "fit",
+   "title": "Fit and limit calculation"
+  },
+  {
+   "line_start": 142,
+   "line_end": 142,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "r_value"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "background_subtraction"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "polynomial_fit"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "bhabha_correction"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "mass_resolution"
+    }
+   ]
+  },
+  {
+   "line_start": 144,
+   "line_end": 144,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "mixing_strength_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 146,
+   "line_end": 146,
+   "type": "conclusion",
+   "title": "Conclusion"
+  },
+  {
+   "line_start": 148,
+   "line_end": 148,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 142-142 share boundary line 142",
+  "units of 142-142 share boundary line 142",
+  "units of 142-142 share boundary line 142",
+  "units of 142-142 share boundary line 142"
+ ],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

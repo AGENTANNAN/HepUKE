@@ -1,0 +1,215 @@
+{
+ "paper_id": "2601.12293v2",
+ "source_path": "arxiv_papers/2601.12293v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 423,
+ "n_lines_sent": 52,
+ "skipped_ranges": [
+  {
+   "from": 93,
+   "to": 423,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Observation of Ξ(1530)0 Polarization and Determination of Its Electric and Magnetic Moments in ψ(3686) → Ξ(1530)0Ξ(1530)¯0"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 7,
+   "line_end": 13,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 15,
+   "line_end": 15,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 17,
+   "line_end": 24,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 17,
+     "line_end": 17,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 19,
+     "line_end": 19,
+     "label": "vertex_fit_and_kinematic_fit"
+    },
+    {
+     "line_start": 21,
+     "line_end": 22,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 24,
+     "line_end": 24,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 26,
+   "line_end": 62,
+   "type": "fit",
+   "title": "Angular Distribution and Likelihood Fit"
+  },
+  {
+   "line_start": 64,
+   "line_end": 64,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "reconstruction"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "backgrounds"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "decay_parameters"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "fit_method"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "efficiency_correction"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "width"
+    }
+   ]
+  },
+  {
+   "line_start": 66,
+   "line_end": 69,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 66,
+     "line_end": 69,
+     "label": "figure_4"
+    }
+   ]
+  },
+  {
+   "line_start": 71,
+   "line_end": 73,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 71,
+     "line_end": 73,
+     "label": "table_i"
+    }
+   ]
+  },
+  {
+   "line_start": 75,
+   "line_end": 77,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 79,
+   "line_end": 79,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  },
+  {
+   "line_start": 81,
+   "line_end": 81,
+   "type": "other",
+   "title": "Data availability"
+  },
+  {
+   "line_start": 83,
+   "line_end": 85,
+   "type": "systematic_uncertainty",
+   "title": "Table II",
+   "units": [
+    {
+     "line_start": 83,
+     "line_end": 85,
+     "label": "table_ii"
+    }
+   ]
+  },
+  {
+   "line_start": 87,
+   "line_end": 89,
+   "type": "other",
+   "title": "Data availability"
+  },
+  {
+   "line_start": 91,
+   "line_end": 91,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 73,
+   "title": "Numerical results and uncertainties of the helicity parameters, the moduli of form factors, and their ratios",
+   "section_type": "results"
+  },
+  {
+   "line": 85,
+   "title": "Absolute systematic uncertainties for the measured helicity parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 40.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 64-64 share boundary line 64",
+  "units of 64-64 share boundary line 64",
+  "units of 64-64 share boundary line 64",
+  "units of 64-64 share boundary line 64",
+  "units of 64-64 share boundary line 64",
+  "units of 64-64 share boundary line 64"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

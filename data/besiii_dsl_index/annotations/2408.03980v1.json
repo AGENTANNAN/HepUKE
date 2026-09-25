@@ -1,0 +1,269 @@
+{
+ "paper_id": "2408.03980v1",
+ "source_path": "arxiv_papers/2408.03980v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 308,
+ "n_lines_sent": 95,
+ "skipped_ranges": [
+  {
+   "from": 170,
+   "to": 308,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Title and author list"
+  },
+  {
+   "line_start": 7,
+   "line_end": 7,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 9,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Keywords"
+  },
+  {
+   "line_start": 11,
+   "line_end": 25,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 27,
+   "line_end": 33,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 35,
+   "line_end": 45,
+   "type": "detector",
+   "title": "2 Detector and data sets"
+  },
+  {
+   "line_start": 47,
+   "line_end": 60,
+   "type": "event_selection",
+   "title": "3 Analysis strategy",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 51,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 53,
+     "line_end": 60,
+     "label": "branching_fraction_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 62,
+   "line_end": 104,
+   "type": "event_selection",
+   "title": "4 Event selection",
+   "units": [
+    {
+     "line_start": 62,
+     "line_end": 64,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 66,
+     "line_end": 68,
+     "label": "tag_mode_mass_windows"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 76,
+     "line_end": 82,
+     "label": "st_selection_and_recoil_mass"
+    },
+    {
+     "line_start": 84,
+     "line_end": 89,
+     "label": "multiple_candidate_handling"
+    },
+    {
+     "line_start": 91,
+     "line_end": 97,
+     "label": "st_yields_and_efficiencies"
+    },
+    {
+     "line_start": 99,
+     "line_end": 104,
+     "label": "dt_selection_and_background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 106,
+   "line_end": 117,
+   "type": "fit",
+   "title": "5 Branching fraction measurement"
+  },
+  {
+   "line_start": 119,
+   "line_end": 152,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 119,
+     "line_end": 123,
+     "label": "overview"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 129,
+     "line_end": 130,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "mgammagamma_requirements"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "rho_mass_window"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "additive_overview"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "signal_shape_resolution"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "summary_of_systematics"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "upper_limit_method"
+    },
+    {
+     "line_start": 144,
+     "line_end": 146,
+     "label": "systematic_table"
+    },
+    {
+     "line_start": 148,
+     "line_end": 152,
+     "label": "likelihood_scan"
+    }
+   ]
+  },
+  {
+   "line_start": 154,
+   "line_end": 162,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 164,
+   "line_end": 168,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 43,
+   "title": "Integrated luminosities and recoil mass requirements",
+   "section_type": "dataset"
+  },
+  {
+   "line": 68,
+   "title": "Requirements on M_tag for various tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 93,
+   "title": "ST yields for data samples",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 97,
+   "title": "ST efficiencies for data samples",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 110,
+   "title": "DT efficiencies for data samples",
+   "section_type": "fit"
+  },
+  {
+   "line": 146,
+   "title": "Systematic uncertainties in the BF measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-9 / 7-7",
+  "nested spans 1-9 / 9-9"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

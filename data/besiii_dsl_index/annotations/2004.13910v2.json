@@ -1,0 +1,273 @@
+{
+ "paper_id": "2004.13910v2",
+ "source_path": "arxiv_papers/2004.13910v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 291,
+ "n_lines_sent": 139,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 221,
+   "to": 291,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 142,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 144,
+   "line_end": 144,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 146,
+   "line_end": 146,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 148,
+   "line_end": 154,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 156,
+   "line_end": 156,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 158,
+   "line_end": 158,
+   "type": "dataset",
+   "title": "Data sample and reaction chain"
+  },
+  {
+   "line_start": 160,
+   "line_end": 190,
+   "type": "event_selection",
+   "title": "Event selection and data analysis",
+   "units": [
+    {
+     "line_start": 160,
+     "line_end": 166,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "particle_selection_criteria"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "tagging_variables_and_st_yields"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "signal_selection_and_background_rejection"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "two_dimensional_fit_setup"
+    },
+    {
+     "line_start": 176,
+     "line_end": 180,
+     "label": "background_pdf_construction"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "ks0_sideband_background_estimation"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "net_dt_yield_calculation"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "statistical_significance"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "signal_efficiency_determination"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "branching_fraction_results"
+    }
+   ]
+  },
+  {
+   "line_start": 192,
+   "line_end": 194,
+   "type": "results",
+   "title": "Table 1 and results",
+   "units": [
+    {
+     "line_start": 192,
+     "line_end": 194,
+     "label": "branching_fraction_table"
+    }
+   ]
+  },
+  {
+   "line_start": 196,
+   "line_end": 207,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 196,
+     "line_end": 196,
+     "label": "st_yield_tracking_pid_ks0_pi0_eta_bf"
+    },
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "fit_opening_angle_delta_e_sideband_rejection_mc_stat"
+    },
+    {
+     "line_start": 200,
+     "line_end": 201,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "quantum_correlation"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 209,
+   "line_end": 209,
+   "type": "results",
+   "title": "CP asymmetry results",
+   "units": [
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "cp_asymmetry"
+    }
+   ]
+  },
+  {
+   "line_start": 211,
+   "line_end": 211,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 213,
+   "line_end": 215,
+   "type": "results",
+   "title": "Table 2 and CP asymmetry results",
+   "units": [
+    {
+     "line_start": 213,
+     "line_end": 215,
+     "label": "cp_asymmetry_table"
+    }
+   ]
+  },
+  {
+   "line_start": 217,
+   "line_end": 219,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 194,
+   "title": "Requirements on Delta E_sig, net DT yields, detection efficiencies and BFs",
+   "section_type": "results"
+  },
+  {
+   "line": 215,
+   "title": "Charge-conjugated BFs and CP asymmetries",
+   "section_type": "results"
+  },
+  {
+   "line": 287,
+   "title": "Summary of ST yields, DT yields and Q_CP",
+   "section_type": "results"
+  },
+  {
+   "line": 291,
+   "title": "Systematic uncertainties in the measurements of the BFs",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

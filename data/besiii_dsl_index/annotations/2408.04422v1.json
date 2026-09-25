@@ -1,0 +1,162 @@
+{
+ "paper_id": "2408.04422v1",
+ "source_path": "arxiv_papers/2408.04422v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 529,
+ "n_lines_sent": 204,
+ "skipped_ranges": [
+  {
+   "from": 343,
+   "to": 529,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 34,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 36,
+   "line_end": 43,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 45,
+   "line_end": 53,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 55,
+   "line_end": 69,
+   "type": "other",
+   "title": "3 METHOD"
+  },
+  {
+   "line_start": 71,
+   "line_end": 81,
+   "type": "event_selection",
+   "title": "4 SINGLE-TAG SELECTION",
+   "units": [
+    {
+     "line_start": 71,
+     "line_end": 73,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "delta_e_and_mbc"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "st_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 83,
+   "line_end": 100,
+   "type": "event_selection",
+   "title": "5 DOUBLE-TAG SELECTION",
+   "units": [
+    {
+     "line_start": 83,
+     "line_end": 87,
+     "label": "dt_selection"
+    },
+    {
+     "line_start": 89,
+     "line_end": 94,
+     "label": "table_and_figure"
+    },
+    {
+     "line_start": 96,
+     "line_end": 98,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "u_miss_and_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 134,
+   "type": "fit",
+   "title": "6 BRANCHING FRACTION"
+  },
+  {
+   "line_start": 136,
+   "line_end": 321,
+   "type": "fit",
+   "title": "8 AMPLITUDE ANALYSIS OF D+ -> KS0 pi0 e+ nu_e"
+  },
+  {
+   "line_start": 323,
+   "line_end": 339,
+   "type": "conclusion",
+   "title": "9 SUMMARY"
+  },
+  {
+   "line_start": 341,
+   "line_end": 341,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 91,
+   "title": "Delta E requirements, ST yields, ST and DT efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 134,
+   "title": "Relative systematic uncertainties in the BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 303,
+   "title": "Fitted parameters of the amplitude model",
+   "section_type": "fit"
+  },
+  {
+   "line": 321,
+   "title": "Systematic uncertainties on the fitted parameters in the amplitude analysis",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 333,
+   "title": "Hadronic form factors of D -> K* at q^2=0 predicted by different theories",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

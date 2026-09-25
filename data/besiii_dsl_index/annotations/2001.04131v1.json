@@ -1,0 +1,192 @@
+{
+ "paper_id": "2001.04131v1",
+ "source_path": "arxiv_papers/2001.04131v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 159,
+ "n_lines_sent": 70,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 133,
+   "to": 159,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 19,
+   "line_end": 49,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": 51,
+   "line_end": 51,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 53,
+   "line_end": 61,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 63,
+   "line_end": 63,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 65,
+   "line_end": 67,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "track_pid_photon_selection"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "kinematic_fit_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 69,
+   "line_end": 77,
+   "type": "fit",
+   "title": "Partial-wave analysis and fit procedure"
+  },
+  {
+   "line_start": 79,
+   "line_end": 89,
+   "type": "systematic_uncertainty",
+   "title": "Cross section measurement and systematic uncertainties",
+   "units": [
+    {
+     "line_start": 79,
+     "line_end": 85,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "luminosity_tracking_pid_kinematic_fit_isr_branching_fractions"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "pwa_fit_procedure_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 91,
+   "line_end": 94,
+   "type": "results",
+   "title": "Born cross sections",
+   "units": [
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "total_and_subprocess_cross_sections"
+    },
+    {
+     "line_start": 93,
+     "line_end": 94,
+     "label": "figure_1"
+    }
+   ]
+  },
+  {
+   "line_start": 96,
+   "line_end": 99,
+   "type": "fit",
+   "title": "Fit to the cross sections"
+  },
+  {
+   "line_start": 101,
+   "line_end": 119,
+   "type": "fit",
+   "title": "Simultaneous fit and resonant parameters"
+  },
+  {
+   "line_start": 121,
+   "line_end": 123,
+   "type": "results",
+   "title": "Fit results table",
+   "units": [
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "table_content"
+    }
+   ]
+  },
+  {
+   "line_start": 125,
+   "line_end": 125,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on resonant parameters",
+   "units": [
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "fit_range_and_signal_model"
+    }
+   ]
+  },
+  {
+   "line_start": 127,
+   "line_end": 129,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 131,
+   "line_end": 131,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 123,
+   "title": "Summary of fit results",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 13.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

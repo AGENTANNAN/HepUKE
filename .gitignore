@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+config.yaml
+.pytest_cache/
+storage/
+data/besiii_block_index/
+token_conf/batch/
+token_conf/dsl_gate/runs_gate*/
+token_conf/dsl_gate/results/
+token_conf/dsl_gate/logs/
+*.log
+.DS_Store
+build/
+dist/

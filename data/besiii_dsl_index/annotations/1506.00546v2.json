@@ -1,0 +1,204 @@
+{
+ "paper_id": "1506.00546v2",
+ "source_path": "arxiv_papers/1506.00546v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 518,
+ "n_lines_sent": 263,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 480,
+   "to": 518,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 8,
+   "line_end": 40,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 38,
+   "line_end": 38,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 42,
+   "line_end": 58,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 60,
+   "line_end": 66,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR"
+  },
+  {
+   "line_start": 68,
+   "line_end": 78,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 68,
+     "line_end": 70,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "background_rejection"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "event_count"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 80,
+   "line_end": 249,
+   "type": "fit",
+   "title": "IV. AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 251,
+   "line_end": 312,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 251,
+     "line_end": 253,
+     "label": "overview"
+    },
+    {
+     "line_start": 255,
+     "line_end": 261,
+     "label": "gamma_eta_background"
+    },
+    {
+     "line_start": 263,
+     "line_end": 271,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 273,
+     "line_end": 281,
+     "label": "number_of_jpsi"
+    },
+    {
+     "line_start": 283,
+     "line_end": 285,
+     "label": "background_size"
+    },
+    {
+     "line_start": 287,
+     "line_end": 302,
+     "label": "acceptance_corrected_signal_yield"
+    },
+    {
+     "line_start": 304,
+     "line_end": 306,
+     "label": "summary_table"
+    },
+    {
+     "line_start": 308,
+     "line_end": 312,
+     "label": "four_plus_plus_amplitude"
+    }
+   ]
+  },
+  {
+   "line_start": 314,
+   "line_end": 318,
+   "type": "conclusion",
+   "title": "VI. CONCLUSIONS"
+  },
+  {
+   "line_start": 320,
+   "line_end": 326,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 328,
+   "line_end": 478,
+   "type": "other",
+   "title": "Appendices"
+  }
+ ],
+ "tables": [
+  {
+   "line": 90,
+   "title": "Background event counts after selection",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 306,
+   "title": "Systematic uncertainties summary",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 8-40 / 38-38"
+ ],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

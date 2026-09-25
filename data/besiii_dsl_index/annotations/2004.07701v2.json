@@ -1,0 +1,244 @@
+{
+ "paper_id": "2004.07701v2",
+ "source_path": "arxiv_papers/2004.07701v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 160,
+ "n_lines_sent": 57,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 131,
+   "to": 160,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 19,
+   "line_end": 19,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 20,
+   "line_end": 20,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 23,
+   "line_end": 23,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 24,
+   "line_end": 24,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 39,
+   "line_end": 39,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 41,
+   "line_end": 68,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 70,
+   "line_end": 70,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 72,
+   "line_end": 80,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "photon_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "background_mc"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "sideband_background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 82,
+   "line_end": 97,
+   "type": "fit",
+   "title": "Likelihood fit"
+  },
+  {
+   "line_start": 99,
+   "line_end": 114,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "fit_parameter_table"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "fit_parameter_table"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "spin_polarization_and_relative_phase"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "angular_distribution_comparison"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "angular_distribution_comparison"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "moment_definition"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "moment_definition"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "moment_definition"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "cp_asymmetry_and_decay_asymmetry"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 123,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "fit_method"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "signal_window"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "track_correction"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "efficiency_correction"
+    }
+   ]
+  },
+  {
+   "line_start": 125,
+   "line_end": 127,
+   "type": "conclusion",
+   "title": "Conclusion"
+  },
+  {
+   "line_start": 129,
+   "line_end": 129,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 101,
+   "title": "Values and uncertainties of the fit parameters",
+   "section_type": "results"
+  },
+  {
+   "line": 123,
+   "title": "Summary of systematic uncertainties on fit parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 99-114 before line 112"
+ ],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

@@ -1,0 +1,184 @@
+{
+ "paper_id": "1511.08564v2",
+ "source_path": "arxiv_papers/1511.08564v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 146,
+ "n_lines_sent": 49,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 114,
+   "to": 146,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 17,
+   "line_end": 35,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 37,
+   "line_end": 41,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 43,
+   "line_end": 46,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 45,
+     "line_end": 46,
+     "label": "figure_1"
+    }
+   ]
+  },
+  {
+   "line_start": 48,
+   "line_end": 50,
+   "type": "background",
+   "title": "Backgrounds"
+  },
+  {
+   "line_start": 52,
+   "line_end": 55,
+   "type": "fit",
+   "title": "Fit to M(gamma J/psi)"
+  },
+  {
+   "line_start": 57,
+   "line_end": 69,
+   "type": "results",
+   "title": "Cross section measurement",
+   "units": [
+    {
+     "line_start": 57,
+     "line_end": 59,
+     "label": "upper_limits"
+    },
+    {
+     "line_start": 61,
+     "line_end": 69,
+     "label": "born_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 71,
+   "line_end": 91,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "overview"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "tracking_and_photon"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "helix_correction"
+    },
+    {
+     "line_start": 79,
+     "line_end": 81,
+     "label": "table_i"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "line_shape"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 87,
+     "line_end": 89,
+     "label": "luminosity_and_branching_fractions"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 103,
+   "type": "fit",
+   "title": "Line shape fit"
+  },
+  {
+   "line_start": 105,
+   "line_end": 105,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 107,
+   "line_end": 112,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 81,
+   "title": "Results on e+e- -> omega chi_cJ",
+   "section_type": "results"
+  },
+  {
+   "line": 103,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

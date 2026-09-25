@@ -1,0 +1,206 @@
+{
+ "paper_id": "2412.11040v1",
+ "source_path": "arxiv_papers/2412.11040v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 673,
+ "n_lines_sent": 262,
+ "skipped_ranges": [
+  {
+   "from": 443,
+   "to": 673,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 38,
+   "type": "front_matter",
+   "title": "Title, authors, abstract, keywords, contents"
+  },
+  {
+   "line_start": 40,
+   "line_end": 55,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 57,
+   "line_end": 65,
+   "type": "detector",
+   "title": "2 Detector and data"
+  },
+  {
+   "line_start": 67,
+   "line_end": 87,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 67,
+     "line_end": 69,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "pid"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 77,
+     "line_end": 87,
+     "label": "dt_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 89,
+   "line_end": 341,
+   "type": "fit",
+   "title": "4 Amplitude analysis"
+  },
+  {
+   "line_start": 343,
+   "line_end": 413,
+   "type": "results",
+   "title": "5 Measurement of the branching fraction",
+   "units": [
+    {
+     "line_start": 343,
+     "line_end": 367,
+     "label": "branching_fraction_measurement"
+    },
+    {
+     "line_start": 369,
+     "line_end": 371,
+     "label": "systematic_uncertainties_amplitude_model"
+    },
+    {
+     "line_start": 373,
+     "line_end": 381,
+     "label": "st_dt_fits"
+    },
+    {
+     "line_start": 383,
+     "line_end": 385,
+     "label": "st_yield_uncertainty"
+    },
+    {
+     "line_start": 387,
+     "line_end": 391,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 393,
+     "line_end": 395,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 397,
+     "line_end": 399,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 401,
+     "line_end": 403,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 405,
+     "line_end": 407,
+     "label": "assumed_bf"
+    },
+    {
+     "line_start": 409,
+     "line_end": 413,
+     "label": "fit_procedure"
+    }
+   ]
+  },
+  {
+   "line_start": 415,
+   "line_end": 427,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 429,
+   "line_end": 441,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 232,
+   "title": "K pi S-wave parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 260,
+   "title": "Spin factors for amplitude model contributions",
+   "section_type": "fit"
+  },
+  {
+   "line": 327,
+   "title": "Phases, FFs, and significances for amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 371,
+   "title": "Systematic uncertainties on phases and FFs",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 381,
+   "title": "Energy difference requirements, ST yields and DT efficiency",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 421,
+   "title": "Relative systematic uncertainties in BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 435,
+   "title": "BFs of intermediate processes",
+   "section_type": "results"
+  },
+  {
+   "line": 439,
+   "title": "Comparison of BFs of intermediate processes",
+   "section_type": "results"
+  },
+  {
+   "line": 519,
+   "title": "CG relations assumed in the analysis",
+   "section_type": "fit"
+  },
+  {
+   "line": 563,
+   "title": "Interference of each amplitude",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

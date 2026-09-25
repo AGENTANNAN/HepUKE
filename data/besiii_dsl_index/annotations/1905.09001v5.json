@@ -1,0 +1,123 @@
+{
+ "paper_id": "1905.09001v5",
+ "source_path": "arxiv_papers/1905.09001v5.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 274,
+ "n_lines_sent": 212,
+ "skipped_ranges": [
+  {
+   "from": 263,
+   "to": 274,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 135,
+   "type": "front_matter",
+   "title": "Measurement of Proton Electromagnetic Form Factors in e+e- -> p pbar"
+  },
+  {
+   "line_start": 137,
+   "line_end": 139,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 141,
+   "line_end": 164,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 166,
+   "line_end": 166,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 168,
+   "line_end": 170,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "pid"
+    }
+   ]
+  },
+  {
+   "line_start": 172,
+   "line_end": 207,
+   "type": "fit",
+   "title": "Cross Section and Form Factor Measurement"
+  },
+  {
+   "line_start": 209,
+   "line_end": 240,
+   "type": "results",
+   "title": "Energy Dependence of Cross Section and Form Factors",
+   "units": [
+    {
+     "line_start": 209,
+     "line_end": 221,
+     "label": "cross_section_fit"
+    },
+    {
+     "line_start": 223,
+     "line_end": 240,
+     "label": "form_factor_fits"
+    }
+   ]
+  },
+  {
+   "line_start": 242,
+   "line_end": 244,
+   "type": "conclusion",
+   "title": "Conclusion"
+  },
+  {
+   "line_start": 246,
+   "line_end": 246,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 248,
+   "line_end": 248,
+   "type": "other",
+   "title": "Author Notes"
+  },
+  {
+   "line_start": 249,
+   "line_end": 262,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 192,
+   "title": "Integrated luminosity, number of events, Born cross section, and form factors",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

@@ -1,0 +1,408 @@
+{
+ "paper_id": "2506.02521v2",
+ "source_path": "arxiv_papers/2506.02521v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 615,
+ "n_lines_sent": 369,
+ "skipped_ranges": [
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 93,
+   "to": 94,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 582,
+   "to": 615,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 126,
+   "type": "front_matter",
+   "title": "Improved Measurements of D+ -> eta e+ nu_e and D+ -> eta mu+ nu_mu"
+  },
+  {
+   "line_start": 128,
+   "line_end": 128,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 130,
+   "line_end": 158,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 160,
+   "line_end": 168,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 170,
+   "line_end": 178,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 180,
+   "line_end": 192,
+   "type": "event_selection",
+   "title": "3 DATA ANALYSIS METHOD",
+   "units": [
+    {
+     "line_start": 180,
+     "line_end": 192,
+     "label": "double_tag_method"
+    }
+   ]
+  },
+  {
+   "line_start": 194,
+   "line_end": 234,
+   "type": "event_selection",
+   "title": "4 SINGLE-TAG D- CANDIDATES",
+   "units": [
+    {
+     "line_start": 196,
+     "line_end": 200,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 202,
+     "line_end": 208,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 210,
+     "line_end": 212,
+     "label": "pid"
+    },
+    {
+     "line_start": 214,
+     "line_end": 220,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 222,
+     "line_end": 224,
+     "label": "ks0_vertex"
+    },
+    {
+     "line_start": 226,
+     "line_end": 234,
+     "label": "st_yield_extraction"
+    }
+   ]
+  },
+  {
+   "line_start": 236,
+   "line_end": 247,
+   "type": "event_selection",
+   "title": "5 DOUBLE-TAG EVENTS",
+   "units": [
+    {
+     "line_start": 238,
+     "line_end": 238,
+     "label": "eta_selection"
+    },
+    {
+     "line_start": 238,
+     "line_end": 238,
+     "label": "lepton_identification"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 245,
+     "line_end": 247,
+     "label": "u_miss_variable"
+    }
+   ]
+  },
+  {
+   "line_start": 249,
+   "line_end": 268,
+   "type": "fit",
+   "title": "6 DETERMINATION OF BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 270,
+   "line_end": 299,
+   "type": "systematic_uncertainty",
+   "title": "6.2 Systematic Uncertainties in Branching Fractions",
+   "units": [
+    {
+     "line_start": 274,
+     "line_end": 274,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 276,
+     "line_end": 276,
+     "label": "pi_tracking_pid"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "lepton_tracking_pid"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 282,
+     "line_end": 282,
+     "label": "m_eta_mu_requirement"
+    },
+    {
+     "line_start": 284,
+     "line_end": 285,
+     "label": "extra_particle_requirements"
+    },
+    {
+     "line_start": 287,
+     "line_end": 287,
+     "label": "fsr_recovery"
+    },
+    {
+     "line_start": 289,
+     "line_end": 289,
+     "label": "u_miss_fit"
+    },
+    {
+     "line_start": 291,
+     "line_end": 291,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 293,
+     "line_end": 293,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 295,
+     "line_end": 295,
+     "label": "quoted_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 301,
+   "line_end": 410,
+   "type": "fit",
+   "title": "7 HADRONIC TRANSITION FORM FACTORS"
+  },
+  {
+   "line_start": 412,
+   "line_end": 490,
+   "type": "systematic_uncertainty",
+   "title": "7.4 Systematic Uncertainties in Hadronic Form Factor",
+   "units": [
+    {
+     "line_start": 416,
+     "line_end": 422,
+     "label": "number_of_d_tags"
+    },
+    {
+     "line_start": 424,
+     "line_end": 430,
+     "label": "d_lifetime"
+    },
+    {
+     "line_start": 432,
+     "line_end": 442,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 444,
+     "line_end": 450,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 452,
+     "line_end": 458,
+     "label": "u_miss_fit"
+    },
+    {
+     "line_start": 460,
+     "line_end": 466,
+     "label": "form_factor_model"
+    },
+    {
+     "line_start": 468,
+     "line_end": 474,
+     "label": "other_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 492,
+   "line_end": 543,
+   "type": "fit",
+   "title": "7.5 Hadronic Form Factor from Separate Fits"
+  },
+  {
+   "line_start": 545,
+   "line_end": 576,
+   "type": "conclusion",
+   "title": "8 SUMMARY"
+  },
+  {
+   "line_start": 578,
+   "line_end": 580,
+   "type": "acknowledgements",
+   "title": "9 ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 166,
+   "title": "Theoretical predictions of the hadronic transition form factor f_+(0)",
+   "section_type": "introduction"
+  },
+  {
+   "line": 230,
+   "title": "Delta E requirements, ST D- yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 262,
+   "title": "DT and signal efficiencies for different signal decays in each tag mode",
+   "section_type": "fit"
+  },
+  {
+   "line": 268,
+   "title": "Signal yields, weighted signal efficiencies and branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 299,
+   "title": "Relative systematic uncertainties in the BF measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 363,
+   "title": "Weighted efficiency matrix for D+ -> eta e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 367,
+   "title": "Weighted efficiency matrix for D+ -> eta mu+ nu_mu",
+   "section_type": "fit"
+  },
+  {
+   "line": 379,
+   "title": "Measured partial decay rates of D+ -> eta_(2gamma) e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 391,
+   "title": "Measured partial decay rates of D+ -> eta mu+ nu_mu",
+   "section_type": "fit"
+  },
+  {
+   "line": 406,
+   "title": "Statistical covariance matrices for D+ -> eta e+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 410,
+   "title": "Statistical covariance matrices for D+ -> eta mu+ nu_mu",
+   "section_type": "fit"
+  },
+  {
+   "line": 478,
+   "title": "Systematic uncertainties of measured decay rates of D+ -> eta e+ nu_e",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 482,
+   "title": "Systematic uncertainties of measured decay rates of D+ -> eta mu+ nu_mu",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 486,
+   "title": "Systematic correlation matrices for D+ -> eta e+ nu_e",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 490,
+   "title": "Systematic correlation matrices for D+ -> eta mu+ nu_mu",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 514,
+   "title": "Parameters of hadronic form factor from separate and simultaneous fits",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 194-234 before line 196",
+  "gap in 236-247 before line 238",
+  "units of 236-247 share boundary line 238",
+  "gap in 236-247 before line 243",
+  "gap in 270-299 before line 274",
+  "units of 270-299 stop at 295, not 299",
+  "gap in 412-490 before line 416",
+  "units of 412-490 stop at 474, not 490"
+ ],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": [],
+ "units_repaired": true
+}

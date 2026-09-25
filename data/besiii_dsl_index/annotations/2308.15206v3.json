@@ -1,0 +1,268 @@
+{
+ "paper_id": "2308.15206v3",
+ "source_path": "arxiv_papers/2308.15206v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 308,
+ "n_lines_sent": 159,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 62,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 64,
+   "to": 64,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 66,
+   "to": 66,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 294,
+   "to": 308,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 74,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 76,
+   "line_end": 86,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 88,
+   "line_end": 90,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR"
+  },
+  {
+   "line_start": 92,
+   "line_end": 96,
+   "type": "dataset",
+   "title": "III. DATA SETS AND MONTE CARLO SAMPLES"
+  },
+  {
+   "line_start": 98,
+   "line_end": 112,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 98,
+     "line_end": 100,
+     "label": "partial_reconstruction"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "track_requirements"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "pid"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "xi_reconstruction"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 114,
+   "line_end": 246,
+   "type": "fit",
+   "title": "V. PARTIAL WAVE ANALYSIS"
+  },
+  {
+   "line_start": 248,
+   "line_end": 270,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 248,
+     "line_end": 250,
+     "label": "overview"
+    },
+    {
+     "line_start": 252,
+     "line_end": 252,
+     "label": "number_of_psi3686_events"
+    },
+    {
+     "line_start": 253,
+     "line_end": 253,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 254,
+     "line_end": 254,
+     "label": "xi_reconstruction"
+    },
+    {
+     "line_start": 255,
+     "line_end": 255,
+     "label": "fit_model_and_range"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "additional_resonances"
+    },
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "form_factor_parameters"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 259,
+     "line_end": 259,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 261,
+     "line_end": 261,
+     "label": "summary_tables"
+    },
+    {
+     "line_start": 263,
+     "line_end": 263,
+     "label": "table_iv_caption"
+    },
+    {
+     "line_start": 265,
+     "line_end": 265,
+     "label": "table_iv"
+    },
+    {
+     "line_start": 267,
+     "line_end": 267,
+     "label": "pwa_systematics_intro"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "background_level_and_sideband"
+    },
+    {
+     "line_start": 270,
+     "line_end": 270,
+     "label": "non_resonant_component"
+    }
+   ]
+  },
+  {
+   "line_start": 272,
+   "line_end": 292,
+   "type": "conclusion",
+   "title": "VII. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 284,
+   "line_end": 288,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 204,
+   "title": "Optimized mass, width, and fit fraction for each resonance",
+   "section_type": "fit"
+  },
+  {
+   "line": 214,
+   "title": "Checks of different J^P assignments",
+   "section_type": "fit"
+  },
+  {
+   "line": 225,
+   "title": "Checks of other possible non-resonant contributions",
+   "section_type": "fit"
+  },
+  {
+   "line": 265,
+   "title": "Relative systematic uncertainties on the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 278,
+   "title": "Systematic uncertainties on the measurements of the Xi* parameters and branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 282,
+   "title": "Results for I(J^P), mass and width for each component",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 292,
+   "title": "Branching fraction results",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 272-292 / 284-288"
+ ],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

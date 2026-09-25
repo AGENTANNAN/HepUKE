@@ -1,0 +1,253 @@
+{
+ "paper_id": "2310.00720v1",
+ "source_path": "arxiv_papers/2310.00720v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 290,
+ "n_lines_sent": 89,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 154,
+   "to": 290,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": "0006",
+   "line_end": "0069",
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": "0071",
+   "line_end": "0071",
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": "0073",
+   "line_end": "0079",
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": "0081",
+   "line_end": "0081",
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": "0083",
+   "line_end": "0083",
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": "0085",
+   "line_end": "0108",
+   "type": "event_selection",
+   "title": "Method and event selection",
+   "units": [
+    {
+     "line_start": "0085",
+     "line_end": "0085",
+     "label": "single_tag_recoil_mass"
+    },
+    {
+     "line_start": "0087",
+     "line_end": "0088",
+     "label": "target_structure_figure"
+    },
+    {
+     "line_start": "0090",
+     "line_end": "0094",
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": "0096",
+     "line_end": "0100",
+     "label": "effective_luminosity"
+    },
+    {
+     "line_start": "0102",
+     "line_end": "0106",
+     "label": "cross_section_equation"
+    },
+    {
+     "line_start": "0108",
+     "line_end": "0108",
+     "label": "neutron_contribution"
+    }
+   ]
+  },
+  {
+   "line_start": "0110",
+   "line_end": "0121",
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": "0110",
+     "line_end": "0110",
+     "label": "track_selection"
+    },
+    {
+     "line_start": "0112",
+     "line_end": "0112",
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": "0114",
+     "line_end": "0115",
+     "label": "single_tag_fit_figure"
+    },
+    {
+     "line_start": "0117",
+     "line_end": "0117",
+     "label": "double_tag_selection"
+    },
+    {
+     "line_start": "0119",
+     "line_end": "0119",
+     "label": "background_suppression"
+    },
+    {
+     "line_start": "0121",
+     "line_end": "0121",
+     "label": "double_tag_yield"
+    }
+   ]
+  },
+  {
+   "line_start": "0123",
+   "line_end": "0127",
+   "type": "results",
+   "title": "Cross section result",
+   "units": [
+    {
+     "line_start": "0123",
+     "line_end": "0123",
+     "label": "cross_section_value"
+    },
+    {
+     "line_start": "0125",
+     "line_end": "0127",
+     "label": "input_table"
+    }
+   ]
+  },
+  {
+   "line_start": "0129",
+   "line_end": "0140",
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty",
+   "units": [
+    {
+     "line_start": "0129",
+     "line_end": "0129",
+     "label": "overview"
+    },
+    {
+     "line_start": "0131",
+     "line_end": "0132",
+     "label": "fit_figure"
+    },
+    {
+     "line_start": "0134",
+     "line_end": "0134",
+     "label": "tracking_pid_pi0"
+    },
+    {
+     "line_start": "0136",
+     "line_end": "0136",
+     "label": "ip_fit_method_cooling"
+    },
+    {
+     "line_start": "0138",
+     "line_end": "0138",
+     "label": "cross_section_ratio"
+    },
+    {
+     "line_start": "0140",
+     "line_end": "0140",
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": "0142",
+   "line_end": "0146",
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": "0148",
+   "line_end": "0150",
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  },
+  {
+   "line_start": "0152",
+   "line_end": "0152",
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": "0127",
+   "title": "Inputs used to calculate the cross section",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

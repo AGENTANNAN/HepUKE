@@ -1,0 +1,282 @@
+{
+ "paper_id": "2201.02056v2",
+ "source_path": "arxiv_papers/2201.02056v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 242,
+ "n_lines_sent": 42,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 100,
+   "to": 242,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 8,
+   "line_end": 26,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 30,
+   "line_end": 30,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 32,
+   "line_end": 40,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 42,
+   "line_end": 42,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 44,
+   "line_end": 44,
+   "type": "dataset",
+   "title": "Data samples and Monte Carlo simulation"
+  },
+  {
+   "line_start": 46,
+   "line_end": 60,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 46,
+     "line_end": 46,
+     "label": "tracking"
+    },
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "ks_lambda_reconstruction"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 54,
+     "line_end": 56,
+     "label": "table_i"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "veto"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "st_yield"
+    }
+   ]
+  },
+  {
+   "line_start": 62,
+   "line_end": 63,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 65,
+   "line_end": 73,
+   "type": "event_selection",
+   "title": "Signal selection",
+   "units": [
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "signal_selection"
+    },
+    {
+     "line_start": 67,
+     "line_end": 71,
+     "label": "recoil_mass"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "mrec_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 75,
+   "line_end": 76,
+   "type": "other",
+   "title": "Figure 2"
+  },
+  {
+   "line_start": 78,
+   "line_end": 78,
+   "type": "background",
+   "title": "Backgrounds"
+  },
+  {
+   "line_start": 80,
+   "line_end": 88,
+   "type": "fit",
+   "title": "Fit and branching fraction"
+  },
+  {
+   "line_start": 90,
+   "line_end": 94,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 90,
+     "line_end": 92,
+     "label": "overview"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "tracking"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "pid"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "zero_loose_tracks"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "dt_yield"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "lambda_sigma_br"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "mc_stat"
+    }
+   ]
+  },
+  {
+   "line_start": 96,
+   "line_end": 96,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 98,
+   "line_end": 98,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 56,
+   "title": "Delta E requirement, ST yield, and detection efficiency for each tag mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 207,
+   "title": "Delta E requirement, ST yield, and detection efficiency at 4.612 GeV",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 211,
+   "title": "Delta E requirement, ST yield, and detection efficiency at 4.628 GeV",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 215,
+   "title": "Delta E requirement, ST yield, and detection efficiency at 4.641 GeV",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 219,
+   "title": "Delta E requirement, ST yield, and detection efficiency at 4.661 GeV",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 223,
+   "title": "Delta E requirement, ST yield, and detection efficiency at 4.682 GeV",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 227,
+   "title": "Delta E requirement, ST yield, and detection efficiency at 4.699 GeV",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 90-94 share boundary line 94",
+  "units of 90-94 share boundary line 94",
+  "units of 90-94 share boundary line 94",
+  "units of 90-94 share boundary line 94",
+  "units of 90-94 share boundary line 94",
+  "units of 90-94 share boundary line 94",
+  "units of 90-94 share boundary line 94"
+ ],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

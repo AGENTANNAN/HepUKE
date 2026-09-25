@@ -1,0 +1,186 @@
+{
+ "paper_id": "2505.12086v1",
+ "source_path": "arxiv_papers/2505.12086v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 124,
+ "n_lines_sent": 42,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 97,
+   "to": 124,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 30,
+   "type": "front_matter",
+   "title": "Observation of an Altered a0(980) Line-shape in D+ -> pi+ eta eta due to the Triangle Loop Rescattering Effect"
+  },
+  {
+   "line_start": 30,
+   "line_end": 30,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 32,
+   "line_end": 41,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 43,
+   "line_end": 45,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 45,
+   "line_end": 45,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "event_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 47,
+   "line_end": 71,
+   "type": "fit",
+   "title": "Amplitude Analysis"
+  },
+  {
+   "line_start": 76,
+   "line_end": 80,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "a0_line_shape"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "input_parameters"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "background_ratio"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 78,
+     "line_end": 80,
+     "label": "table"
+    }
+   ]
+  },
+  {
+   "line_start": 82,
+   "line_end": 91,
+   "type": "results",
+   "title": "Branching Fraction Measurement",
+   "units": [
+    {
+     "line_start": 82,
+     "line_end": 84,
+     "label": "branching_fraction_measurement"
+    },
+    {
+     "line_start": 86,
+     "line_end": 87,
+     "label": "figure"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "consistency_check"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 93,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 95,
+   "line_end": 95,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 80,
+   "title": "Systematic uncertainties for each floated parameter in Fit1, Fit2 and Fit3",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 76-80 share boundary line 76",
+  "units of 76-80 share boundary line 76",
+  "units of 76-80 share boundary line 76",
+  "units of 76-80 share boundary line 76",
+  "nested spans 1-30 / 30-30",
+  "nested spans 43-45 / 45-45"
+ ],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

@@ -1,0 +1,232 @@
+{
+ "paper_id": "2109.12625v2",
+ "source_path": "arxiv_papers/2109.12625v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 151,
+ "n_lines_sent": 57,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 119,
+   "to": 151,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 14,
+   "line_end": 14,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 16,
+   "line_end": 30,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 32,
+   "line_end": 36,
+   "type": "detector",
+   "title": "I. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 38,
+   "line_end": 77,
+   "type": "event_selection",
+   "title": "II. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 38,
+     "line_end": 40,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 42,
+     "line_end": 42,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 44,
+     "line_end": 44,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 46,
+     "line_end": 46,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "fit_components"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "pdf_modeling"
+    },
+    {
+     "line_start": 52,
+     "line_end": 53,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 55,
+     "line_end": 57,
+     "label": "table_1"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "peaking_background_pdf"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "mass_scan"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "alternative_fits"
+    },
+    {
+     "line_start": 65,
+     "line_end": 71,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 73,
+     "line_end": 74,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 76,
+     "line_end": 77,
+     "label": "figure_3"
+    }
+   ]
+  },
+  {
+   "line_start": 79,
+   "line_end": 98,
+   "type": "systematic_uncertainty",
+   "title": "III. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 79,
+     "line_end": 81,
+     "label": "overview"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "multiplicative_overview"
+    },
+    {
+     "line_start": 87,
+     "line_end": 89,
+     "label": "table_2"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "tracking"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "pid"
+    },
+    {
+     "line_start": 97,
+     "line_end": 98,
+     "label": "figure_4"
+    }
+   ]
+  },
+  {
+   "line_start": 100,
+   "line_end": 104,
+   "type": "results",
+   "title": "IV. RESULT",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 102,
+     "label": "upper_limits"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "yukawa_coupling"
+    }
+   ]
+  },
+  {
+   "line_start": 106,
+   "line_end": 111,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 113,
+   "line_end": 117,
+   "type": "acknowledgements",
+   "title": "VI. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 57,
+   "title": "The m_red fit intervals for various m_A0 points",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 89,
+   "title": "The fit bias and multiplicative sources of the systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

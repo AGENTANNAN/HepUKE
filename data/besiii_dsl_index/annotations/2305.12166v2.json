@@ -1,0 +1,207 @@
+{
+ "paper_id": "2305.12166v2",
+ "source_path": "arxiv_papers/2305.12166v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 279,
+ "n_lines_sent": 161,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 62,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 107,
+   "to": 107,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 121,
+   "to": 123,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 125,
+   "to": 125,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 242,
+   "to": 279,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 128,
+   "type": "front_matter",
+   "title": "Production of doubly-charged ∆ baryon in e+e− annihilation at energies from 2.3094 to 2.6464 GeV"
+  },
+  {
+   "line_start": 130,
+   "line_end": 130,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 132,
+   "line_end": 148,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 150,
+   "line_end": 156,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 158,
+   "line_end": 169,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 162,
+     "line_end": 169,
+     "label": "signal_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 171,
+   "line_end": 196,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELD AND CROSS SECTION"
+  },
+  {
+   "line_start": 198,
+   "line_end": 232,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 198,
+     "line_end": 208,
+     "label": "overview"
+    },
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 212,
+     "line_end": 220,
+     "label": "kinematic_fit_and_luminosity"
+    },
+    {
+     "line_start": 222,
+     "line_end": 224,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "branching_fraction_and_angular_distribution"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "signal_and_background_shapes"
+    },
+    {
+     "line_start": 230,
+     "line_end": 232,
+     "label": "mass_width_and_intermediate_states"
+    }
+   ]
+  },
+  {
+   "line_start": 234,
+   "line_end": 236,
+   "type": "conclusion",
+   "title": "VI. CONCLUSION"
+  },
+  {
+   "line_start": 238,
+   "line_end": 240,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 148,
+   "title": "Data set and expected cross section",
+   "section_type": "detector"
+  },
+  {
+   "line": 214,
+   "title": "Born cross sections of e+e- to Delta++ Delta--",
+   "section_type": "fit"
+  },
+  {
+   "line": 218,
+   "title": "Born cross sections of e+e- to Delta++ pbar pi- + c.c.",
+   "section_type": "fit"
+  },
+  {
+   "line": 253,
+   "title": "Relative systematic uncertainties for Born cross-section measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

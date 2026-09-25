@@ -1,0 +1,140 @@
+{
+ "paper_id": "1709.04627v2",
+ "source_path": "arxiv_papers/1709.04627v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 262,
+ "n_lines_sent": 123,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 239,
+   "to": 262,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 19,
+   "line_end": 35,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 37,
+   "line_end": 73,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 75,
+   "line_end": 79,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 81,
+   "line_end": 135,
+   "type": "fit",
+   "title": "III. MEASUREMENT OF THE MATRIX ELEMENT FOR η′ → ηπ+π−"
+  },
+  {
+   "line_start": 137,
+   "line_end": 182,
+   "type": "fit",
+   "title": "IV. MEASUREMENT OF THE MATRIX ELEMENT FOR THE DECAY η′ → ηπ0π0"
+  },
+  {
+   "line_start": 184,
+   "line_end": 201,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 184,
+     "line_end": 188,
+     "label": "tracking_and_efficiency_corrections"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "photon_miscombination"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "efficiency_correction"
+    },
+    {
+     "line_start": 196,
+     "line_end": 201,
+     "label": "resolution_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 203,
+   "line_end": 207,
+   "type": "discussion",
+   "title": "VI. COMPARISON BETWEEN η′ → ηπ+π− AND η′ → ηπ0π0 AND SEARCH FOR CUSP EFFECT IN η′ → ηπ0π0"
+  },
+  {
+   "line_start": 209,
+   "line_end": 226,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 228,
+   "line_end": 232,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 234,
+   "line_end": 238,
+   "type": "other",
+   "title": "Table II caption and note"
+  }
+ ],
+ "tables": [
+  {
+   "line": 217,
+   "title": "Systematic uncertainties of the Dalitz plot parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 236,
+   "title": "Experimental and theoretical values of the Dalitz plot parameters",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

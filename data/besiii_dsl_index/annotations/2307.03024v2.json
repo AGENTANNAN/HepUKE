@@ -1,0 +1,372 @@
+{
+ "paper_id": "2307.03024v2",
+ "source_path": "arxiv_papers/2307.03024v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 516,
+ "n_lines_sent": 211,
+ "skipped_ranges": [
+  {
+   "from": 351,
+   "to": 516,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 11,
+   "line_end": 30,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 32,
+   "line_end": 40,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 42,
+   "line_end": 48,
+   "type": "detector",
+   "title": "2 Detector and Monte Carlo simulations"
+  },
+  {
+   "line_start": 50,
+   "line_end": 76,
+   "type": "event_selection",
+   "title": "3 Analysis method",
+   "units": [
+    {
+     "line_start": 50,
+     "line_end": 52,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 54,
+     "line_end": 76,
+     "label": "branching_fraction_formalism"
+    }
+   ]
+  },
+  {
+   "line_start": 78,
+   "line_end": 115,
+   "type": "event_selection",
+   "title": "4 Single tag selection",
+   "units": [
+    {
+     "line_start": 78,
+     "line_end": 80,
+     "label": "st_decay_modes"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "ks0_selection"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "eta_pi0pi+pi-_mass_window"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "eta_prime_rho_reconstruction"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "background_suppression_pion_momentum_ks0_veto"
+    },
+    {
+     "line_start": 96,
+     "line_end": 102,
+     "label": "beam_constrained_mass"
+    },
+    {
+     "line_start": 104,
+     "line_end": 110,
+     "label": "multiple_candidate_selection"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 114,
+     "line_end": 115,
+     "label": "figure1_st_fits"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 143,
+   "type": "event_selection",
+   "title": "5 Selection of D_s^+ -> K^+ K^- mu^+ nu_mu",
+   "units": [
+    {
+     "line_start": 117,
+     "line_end": 125,
+     "label": "transition_gamma_pi0_selection"
+    },
+    {
+     "line_start": 127,
+     "line_end": 133,
+     "label": "tables_st_yields_efficiencies"
+    },
+    {
+     "line_start": 135,
+     "line_end": 141,
+     "label": "u_miss_kinematic_fit"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "background_suppression_extra_tracks_pi0_mass_windows"
+    }
+   ]
+  },
+  {
+   "line_start": 145,
+   "line_end": 149,
+   "type": "fit",
+   "title": "6 Branching fraction measurement"
+  },
+  {
+   "line_start": 151,
+   "line_end": 153,
+   "type": "fit",
+   "title": "7 Partial wave analysis"
+  },
+  {
+   "line_start": 155,
+   "line_end": 206,
+   "type": "fit",
+   "title": "7.1 Kinematics and decay rate formalism"
+  },
+  {
+   "line_start": 208,
+   "line_end": 266,
+   "type": "fit",
+   "title": "7.2 Fit method"
+  },
+  {
+   "line_start": 268,
+   "line_end": 272,
+   "type": "results",
+   "title": "7.3 PWA results",
+   "units": [
+    {
+     "line_start": 268,
+     "line_end": 270,
+     "label": "pwa_fit_form_factor_ratios"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "f0_980_component_upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 274,
+   "line_end": 315,
+   "type": "systematic_uncertainty",
+   "title": "8.1 Branching fraction measurement",
+   "units": [
+    {
+     "line_start": 274,
+     "line_end": 278,
+     "label": "introduction"
+    },
+    {
+     "line_start": 280,
+     "line_end": 292,
+     "label": "figures"
+    },
+    {
+     "line_start": 294,
+     "line_end": 296,
+     "label": "n_st_total"
+    },
+    {
+     "line_start": 298,
+     "line_end": 298,
+     "label": "k_tracking_pid"
+    },
+    {
+     "line_start": 299,
+     "line_end": 299,
+     "label": "mu_tracking_pid"
+    },
+    {
+     "line_start": 300,
+     "line_end": 300,
+     "label": "transition_gamma_pi0_reconstruction"
+    },
+    {
+     "line_start": 301,
+     "line_end": 301,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 302,
+     "line_end": 302,
+     "label": "extra_energy_tracks_pi0"
+    },
+    {
+     "line_start": 303,
+     "line_end": 303,
+     "label": "m_phi_nu_m_phi_mu"
+    },
+    {
+     "line_start": 304,
+     "line_end": 304,
+     "label": "u_miss_fit"
+    },
+    {
+     "line_start": 306,
+     "line_end": 306,
+     "label": "least_delta_e"
+    },
+    {
+     "line_start": 307,
+     "line_end": 307,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 308,
+     "line_end": 308,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 309,
+     "line_end": 309,
+     "label": "quoted_bf"
+    },
+    {
+     "line_start": 311,
+     "line_end": 315,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 317,
+   "line_end": 329,
+   "type": "systematic_uncertainty",
+   "title": "8.2 Measurement of form factors",
+   "units": [
+    {
+     "line_start": 317,
+     "line_end": 319,
+     "label": "introduction"
+    },
+    {
+     "line_start": 321,
+     "line_end": 321,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 322,
+     "line_end": 322,
+     "label": "r_bw"
+    },
+    {
+     "line_start": 323,
+     "line_end": 323,
+     "label": "m_v_m_a"
+    },
+    {
+     "line_start": 324,
+     "line_end": 324,
+     "label": "phi_line_shape"
+    },
+    {
+     "line_start": 325,
+     "line_end": 325,
+     "label": "efficiency_corrections"
+    },
+    {
+     "line_start": 327,
+     "line_end": 329,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 331,
+   "line_end": 343,
+   "type": "conclusion",
+   "title": "9 Summary"
+  },
+  {
+   "line_start": 345,
+   "line_end": 349,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 129,
+   "title": "ST yields and efficiencies for each tag mode at E_CM = 4.178 GeV",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 133,
+   "title": "ST yields and averaged signal efficiencies at each energy point",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 315,
+   "title": "Relative systematic uncertainties in the BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 329,
+   "title": "Relative systematic uncertainties of the FF ratio measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 341,
+   "title": "Measured FF ratios and comparison with previous measurements",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": [],
+ "units_repaired": true
+}

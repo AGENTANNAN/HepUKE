@@ -1,0 +1,205 @@
+{
+ "paper_id": "2105.14657v2",
+ "source_path": "arxiv_papers/2105.14657v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 354,
+ "n_lines_sent": 234,
+ "skipped_ranges": [
+  {
+   "from": 83,
+   "to": 83,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 101,
+   "to": 101,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 305,
+   "to": 354,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 154,
+   "type": "front_matter",
+   "title": "Measurement of cross section for e+e- -> Xi0 Xi0bar near threshold"
+  },
+  {
+   "line_start": 156,
+   "line_end": 160,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 162,
+   "line_end": 168,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 170,
+   "line_end": 174,
+   "type": "detector",
+   "title": "2. BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 176,
+   "line_end": 196,
+   "type": "event_selection",
+   "title": "3. Event selection",
+   "units": [
+    {
+     "line_start": 176,
+     "line_end": 178,
+     "label": "single_tag_method"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "pi0_lambda_xi0_reconstruction"
+    },
+    {
+     "line_start": 186,
+     "line_end": 196,
+     "label": "recoil_mass_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 198,
+   "line_end": 213,
+   "type": "fit",
+   "title": "4. Extraction of signal yields"
+  },
+  {
+   "line_start": 215,
+   "line_end": 239,
+   "type": "results",
+   "title": "6. Determination of effective form factor",
+   "units": [
+    {
+     "line_start": 215,
+     "line_end": 221,
+     "label": "born_cross_section_parameterization"
+    },
+    {
+     "line_start": 223,
+     "line_end": 239,
+     "label": "effective_form_factor"
+    }
+   ]
+  },
+  {
+   "line_start": 241,
+   "line_end": 264,
+   "type": "fit",
+   "title": "7. Fit to Born cross section"
+  },
+  {
+   "line_start": 266,
+   "line_end": 293,
+   "type": "systematic_uncertainty",
+   "title": "8. Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 266,
+     "line_end": 268,
+     "label": "overview"
+    },
+    {
+     "line_start": 270,
+     "line_end": 270,
+     "label": "xi0_reconstruction"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 274,
+     "line_end": 274,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 276,
+     "line_end": 276,
+     "label": "mass_resolution"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "line_shape"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "intermediate_states"
+    },
+    {
+     "line_start": 282,
+     "line_end": 282,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 284,
+     "line_end": 293,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 295,
+   "line_end": 299,
+   "type": "conclusion",
+   "title": "9. Discussion and conclusion"
+  },
+  {
+   "line_start": 301,
+   "line_end": 303,
+   "type": "acknowledgements",
+   "title": "10. Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 225,
+   "title": "Measured Born cross sections and effective form factors at ten CM energy points",
+   "section_type": "results"
+  },
+  {
+   "line": 290,
+   "title": "Systematic uncertainty on the Born cross section measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

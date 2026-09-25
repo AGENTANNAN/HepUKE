@@ -1,0 +1,268 @@
+{
+ "paper_id": "2308.13980v2",
+ "source_path": "arxiv_papers/2308.13980v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 250,
+ "n_lines_sent": 138,
+ "skipped_ranges": [
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 196,
+   "to": 250,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 88,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 90,
+   "line_end": 90,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 92,
+   "line_end": 98,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 100,
+   "line_end": 100,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 102,
+   "line_end": 104,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 106,
+   "line_end": 116,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 108,
+     "line_end": 110,
+     "label": "eta_to_gamma_gamma_selection"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "eta_to_gamma_gamma_background_suppression"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "eta_to_pi_pi_pi0_selection"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "eta_to_pi_pi_pi0_background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 118,
+   "line_end": 132,
+   "type": "fit",
+   "title": "Fit and results"
+  },
+  {
+   "line_start": 134,
+   "line_end": 160,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "overview"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "luminosity_tracking_pid"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "eta_pi0_reconstruction_kinematic_fit"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "decay_model"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "signal_extraction"
+    },
+    {
+     "line_start": 148,
+     "line_end": 160,
+     "label": "combination_and_total"
+    }
+   ]
+  },
+  {
+   "line_start": 162,
+   "line_end": 164,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 162,
+     "line_end": 164,
+     "label": "cross_section_table"
+    }
+   ]
+  },
+  {
+   "line_start": 166,
+   "line_end": 174,
+   "type": "results",
+   "title": "Branching fraction ratio",
+   "units": [
+    {
+     "line_start": 166,
+     "line_end": 174,
+     "label": "bf_ratio_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 176,
+   "line_end": 189,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties for the branching fraction ratio",
+   "units": [
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "overview"
+    },
+    {
+     "line_start": 178,
+     "line_end": 179,
+     "label": "figure"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "branching_fractions_and_reconstruction"
+    },
+    {
+     "line_start": 185,
+     "line_end": 189,
+     "label": "combination_and_table"
+    }
+   ]
+  },
+  {
+   "line_start": 191,
+   "line_end": 191,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 193,
+   "line_end": 193,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 195,
+   "line_end": 195,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 164,
+   "title": "Production cross section times branching fraction",
+   "section_type": "results"
+  },
+  {
+   "line": 189,
+   "title": "Systematic uncertainties for relative branching fraction",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 250,
+   "title": "Systematic uncertainties on product of cross section and branching fraction",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

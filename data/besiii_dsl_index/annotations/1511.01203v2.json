@@ -1,0 +1,195 @@
+{
+ "paper_id": "1511.01203v2",
+ "source_path": "arxiv_papers/1511.01203v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 152,
+ "n_lines_sent": 55,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 118,
+   "to": 152,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 13,
+   "line_end": 22,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 24,
+   "line_end": 26,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 28,
+   "line_end": 34,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 36,
+   "line_end": 40,
+   "type": "detector",
+   "title": "2. BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 42,
+   "line_end": 42,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 44,
+   "line_end": 84,
+   "type": "event_selection",
+   "title": "3. Analysis",
+   "units": [
+    {
+     "line_start": 44,
+     "line_end": 46,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "pid"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 56,
+     "line_end": 59,
+     "label": "mass_spectra_psi3686"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "mass_spectra_psi3770"
+    },
+    {
+     "line_start": 63,
+     "line_end": 84,
+     "label": "peaking_background"
+    }
+   ]
+  },
+  {
+   "line_start": 86,
+   "line_end": 100,
+   "type": "results",
+   "title": "4. Results",
+   "units": [
+    {
+     "line_start": 86,
+     "line_end": 96,
+     "label": "ratio_measurement"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "branching_fraction_and_width"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 108,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 104,
+     "label": "table1_ratio_results"
+    },
+    {
+     "line_start": 106,
+     "line_end": 108,
+     "label": "table2_systematic_budget"
+    }
+   ]
+  },
+  {
+   "line_start": 110,
+   "line_end": 112,
+   "type": "conclusion",
+   "title": "5. Summary"
+  },
+  {
+   "line_start": 114,
+   "line_end": 116,
+   "type": "acknowledgements",
+   "title": "6. Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 104,
+   "title": "Measured R_cJ values",
+   "section_type": "results"
+  },
+  {
+   "line": 108,
+   "title": "Systematic uncertainties in R_cJ",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 122,
+   "title": "Comparison of partial widths for psi(3770) to gamma chi_cJ",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

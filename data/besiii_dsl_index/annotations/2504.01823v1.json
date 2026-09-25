@@ -1,0 +1,171 @@
+{
+ "paper_id": "2504.01823v1",
+ "source_path": "arxiv_papers/2504.01823v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 328,
+ "n_lines_sent": 185,
+ "skipped_ranges": [
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 90,
+   "to": 90,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 107,
+   "to": 107,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 109,
+   "to": 109,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 111,
+   "to": 111,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 115,
+   "to": 115,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 127,
+   "to": 127,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 287,
+   "to": 328,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 129,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 131,
+   "line_end": 144,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 146,
+   "line_end": 152,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 154,
+   "line_end": 180,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 154,
+     "line_end": 166,
+     "label": "common_selection"
+    },
+    {
+     "line_start": 168,
+     "line_end": 180,
+     "label": "further_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 182,
+   "line_end": 202,
+   "type": "background",
+   "title": "IV. BACKGROUND SUBTRACTION"
+  },
+  {
+   "line_start": 204,
+   "line_end": 249,
+   "type": "fit",
+   "title": "V. SIGNAL EXTRACTION"
+  },
+  {
+   "line_start": 251,
+   "line_end": 275,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 251,
+     "line_end": 255,
+     "label": "external_inputs"
+    },
+    {
+     "line_start": 257,
+     "line_end": 259,
+     "label": "tracking_pid_photon_kinematic_fit_signal_regions"
+    },
+    {
+     "line_start": 261,
+     "line_end": 261,
+     "label": "pi0_decay_angle_eta_prime_veto"
+    },
+    {
+     "line_start": 263,
+     "line_end": 269,
+     "label": "signal_mc_shape_width_background_fit_range"
+    },
+    {
+     "line_start": 271,
+     "line_end": 275,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 277,
+   "line_end": 281,
+   "type": "conclusion",
+   "title": "VII. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 283,
+   "line_end": 285,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 244,
+   "title": "Definitions and normalization of coordinates in the multidimensional space",
+   "section_type": "background"
+  },
+  {
+   "line": 273,
+   "title": "Sources and assigned systematic uncertainties in the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

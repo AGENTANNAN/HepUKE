@@ -1,0 +1,227 @@
+{
+ "paper_id": "2211.11935v2",
+ "source_path": "arxiv_papers/2211.11935v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 292,
+ "n_lines_sent": 170,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 112,
+   "to": 112,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 114,
+   "to": 114,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 116,
+   "to": 116,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 120,
+   "to": 120,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 257,
+   "to": 292,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 130,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and PACS"
+  },
+  {
+   "line_start": 132,
+   "line_end": 146,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 148,
+   "line_end": 152,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 154,
+   "line_end": 182,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 154,
+     "line_end": 158,
+     "label": "final_state_selection"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "m4c_fit"
+    },
+    {
+     "line_start": 168,
+     "line_end": 173,
+     "label": "jpsi_background_veto"
+    },
+    {
+     "line_start": 175,
+     "line_end": 176,
+     "label": "jpsi_background_veto"
+    },
+    {
+     "line_start": 178,
+     "line_end": 180,
+     "label": "fsr_background"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "other_backgrounds"
+    }
+   ]
+  },
+  {
+   "line_start": 184,
+   "line_end": 217,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTION DETERMINATION"
+  },
+  {
+   "line_start": 219,
+   "line_end": 236,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 219,
+     "line_end": 223,
+     "label": "n_psi3686"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 228,
+     "line_end": 230,
+     "label": "fit_systematics"
+    },
+    {
+     "line_start": 232,
+     "line_end": 236,
+     "label": "total_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 238,
+   "line_end": 247,
+   "type": "results",
+   "title": "VI. RESULTS AND DISCUSSION",
+   "units": [
+    {
+     "line_start": 238,
+     "line_end": 240,
+     "label": "branching_fraction_results"
+    },
+    {
+     "line_start": 242,
+     "line_end": 247,
+     "label": "ratio_and_discussion"
+    }
+   ]
+  },
+  {
+   "line_start": 249,
+   "line_end": 255,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 196,
+   "title": "Input values for calculating the branching fraction",
+   "section_type": "fit"
+  },
+  {
+   "line": 236,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

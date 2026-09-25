@@ -1,0 +1,171 @@
+{
+ "paper_id": "2007.12872v1",
+ "source_path": "arxiv_papers/2007.12872v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 147,
+ "n_lines_sent": 71,
+ "skipped_ranges": [
+  {
+   "from": 29,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 116,
+   "to": 147,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 27,
+   "type": "front_matter",
+   "title": "Title, authors, and collaboration"
+  },
+  {
+   "line_start": 34,
+   "line_end": 34,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 36,
+   "line_end": 46,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 48,
+   "line_end": 48,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 50,
+   "line_end": 65,
+   "type": "event_selection",
+   "title": "Event selection and cross section measurement",
+   "units": [
+    {
+     "line_start": 50,
+     "line_end": 56,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 60,
+     "line_end": 61,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "luminosity_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 67,
+   "line_end": 67,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty on the observed cross section",
+   "units": [
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "cross_section_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 69,
+   "line_end": 93,
+   "type": "fit",
+   "title": "Fit to the cross section"
+  },
+  {
+   "line_start": 95,
+   "line_end": 95,
+   "type": "results",
+   "title": "Table I caption",
+   "units": [
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "table_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 97,
+   "line_end": 97,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "fit_results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 99,
+   "line_end": 100,
+   "type": "results",
+   "title": "Figure 2",
+   "units": [
+    {
+     "line_start": 99,
+     "line_end": 100,
+     "label": "figure_2"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 104,
+   "type": "discussion",
+   "title": "Discussion of results"
+  },
+  {
+   "line_start": 106,
+   "line_end": 112,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 114,
+   "line_end": 114,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 97,
+   "title": "Results from the fit to the e+e- -> mu+mu- cross section",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

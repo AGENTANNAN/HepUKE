@@ -1,0 +1,243 @@
+{
+ "paper_id": "2206.13864v1",
+ "source_path": "arxiv_papers/2206.13864v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 284,
+ "n_lines_sent": 127,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 201,
+   "to": 284,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 120,
+   "type": "front_matter",
+   "title": "Title, author list, and affiliations"
+  },
+  {
+   "line_start": 122,
+   "line_end": 122,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 124,
+   "line_end": 130,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 132,
+   "line_end": 132,
+   "type": "detector",
+   "title": "BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 134,
+   "line_end": 140,
+   "type": "event_selection",
+   "title": "Double-tag method and branching fraction formula",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 136,
+     "line_end": 140,
+     "label": "branching_fraction_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 142,
+   "line_end": 150,
+   "type": "event_selection",
+   "title": "Selection criteria",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "particle_selection"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "tag_variables"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "background_rejection"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "signal_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 160,
+   "type": "fit",
+   "title": "Signal yield extraction and efficiency determination"
+  },
+  {
+   "line_start": 162,
+   "line_end": 183,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "two_dimensional_fit"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "ks0_rejection"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "quantum_correlation"
+    },
+    {
+     "line_start": 178,
+     "line_end": 179,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "mc_statistics_daughter_bfs"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 185,
+   "line_end": 185,
+   "type": "results",
+   "title": "CP asymmetry results",
+   "units": [
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "cp_asymmetry"
+    }
+   ]
+  },
+  {
+   "line_start": 187,
+   "line_end": 197,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 199,
+   "line_end": 199,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 191,
+   "title": "Requirements of Delta E_sig, DT yields, detection efficiencies and BFs",
+   "section_type": "results"
+  },
+  {
+   "line": 195,
+   "title": "Charge-separated BFs and CP asymmetries",
+   "section_type": "results"
+  },
+  {
+   "line": 252,
+   "title": "Summary of ST and DT yields for CP tags",
+   "section_type": "results"
+  },
+  {
+   "line": 259,
+   "title": "Statistical significances for various decay modes",
+   "section_type": "results"
+  },
+  {
+   "line": 281,
+   "title": "Systematic uncertainties in BF measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

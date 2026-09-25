@@ -1,0 +1,196 @@
+{
+ "paper_id": "2512.14369v1",
+ "source_path": "arxiv_papers/2512.14369v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 505,
+ "n_lines_sent": 226,
+ "skipped_ranges": [
+  {
+   "from": 239,
+   "to": 239,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 443,
+   "to": 505,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 245,
+   "type": "front_matter",
+   "title": "Measurements of the branching fractions of chi_cJ -> phi phi eta, phi phi eta', and phi K+ K- eta"
+  },
+  {
+   "line_start": 247,
+   "line_end": 247,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 249,
+   "line_end": 255,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 257,
+   "line_end": 263,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 265,
+   "line_end": 275,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 265,
+     "line_end": 267,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 271,
+     "line_end": 271,
+     "label": "signal_reconstruction"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "phi_mass_window"
+    }
+   ]
+  },
+  {
+   "line_start": 277,
+   "line_end": 305,
+   "type": "background",
+   "title": "IV. BACKGROUND AND SIGNAL YIELDS"
+  },
+  {
+   "line_start": 307,
+   "line_end": 357,
+   "type": "fit",
+   "title": "V. BRANCHING FRACTION"
+  },
+  {
+   "line_start": 359,
+   "line_end": 431,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 359,
+     "line_end": 363,
+     "label": "normalization"
+    },
+    {
+     "line_start": 403,
+     "line_end": 403,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 405,
+     "line_end": 405,
+     "label": "photon_detection_and_eta_reconstruction"
+    },
+    {
+     "line_start": 407,
+     "line_end": 407,
+     "label": "eta_prime_reconstruction"
+    },
+    {
+     "line_start": 419,
+     "line_end": 419,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 421,
+     "line_end": 421,
+     "label": "phi_mass_window"
+    },
+    {
+     "line_start": 423,
+     "line_end": 423,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 425,
+     "line_end": 425,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 427,
+     "line_end": 427,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 429,
+     "line_end": 431,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 433,
+   "line_end": 435,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 437,
+   "line_end": 439,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 441,
+   "line_end": 441,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 317,
+   "title": "Numbers of events and MC efficiencies for each signal decay",
+   "section_type": "fit"
+  },
+  {
+   "line": 411,
+   "title": "Relative systematic uncertainties for chi_cJ -> phi phi eta and phi K+ K- eta",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 415,
+   "title": "Relative systematic uncertainties for chi_cJ -> phi phi eta'",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 359-431 before line 403",
+  "gap in 359-431 before line 419"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

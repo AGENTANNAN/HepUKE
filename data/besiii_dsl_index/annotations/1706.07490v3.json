@@ -1,0 +1,216 @@
+{
+ "paper_id": "1706.07490v3",
+ "source_path": "arxiv_papers/1706.07490v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 241,
+ "n_lines_sent": 141,
+ "skipped_ranges": [
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 69,
+   "to": 69,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 71,
+   "to": 71,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 216,
+   "to": 241,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 71,
+   "type": "front_matter",
+   "title": "Measurement of cross sections of the interactions e+e- -> phi phi omega and e+e- -> phi phi phi at center-of-mass energies from 4.008 to 4.600 GeV"
+  },
+  {
+   "line_start": 73,
+   "line_end": 77,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 79,
+   "line_end": 87,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 89,
+   "line_end": 93,
+   "type": "detector",
+   "title": "2. Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 95,
+   "line_end": 106,
+   "type": "event_selection",
+   "title": "3. Event Selection",
+   "units": [
+    {
+     "line_start": 95,
+     "line_end": 99,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 101,
+     "line_end": 102,
+     "label": "feynman_diagrams"
+    },
+    {
+     "line_start": 104,
+     "line_end": 106,
+     "label": "phi_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 115,
+   "type": "background",
+   "title": "4. Study of Backgrounds in RM(phi phi)"
+  },
+  {
+   "line_start": 117,
+   "line_end": 147,
+   "type": "fit",
+   "title": "5. Fits to the RM(phi phi) Spectrum and Cross Section Results"
+  },
+  {
+   "line_start": 149,
+   "line_end": 200,
+   "type": "systematic_uncertainty",
+   "title": "6. Systematic Uncertainties of Cross Sections",
+   "units": [
+    {
+     "line_start": 149,
+     "line_end": 153,
+     "label": "tracking"
+    },
+    {
+     "line_start": 155,
+     "line_end": 180,
+     "label": "pid"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "phi_mass_window"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "peaking_backgrounds"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "line_shape"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "vacuum_polarization"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "simulation_model"
+    },
+    {
+     "line_start": 194,
+     "line_end": 196,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 198,
+     "line_end": 200,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 202,
+   "line_end": 204,
+   "type": "results",
+   "title": "7. Ratio sigma(e+e- -> phi phi omega) / sigma(e+e- -> phi phi phi)",
+   "units": [
+    {
+     "line_start": 202,
+     "line_end": 204,
+     "label": "ratio_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 206,
+   "line_end": 208,
+   "type": "conclusion",
+   "title": "8. Summary and Discussion"
+  },
+  {
+   "line_start": 210,
+   "line_end": 214,
+   "type": "acknowledgements",
+   "title": "9. Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 160,
+   "title": "Summary of measurements of e+e- -> phi phi omega",
+   "section_type": "results"
+  },
+  {
+   "line": 164,
+   "title": "Summary of measurements of e+e- -> phi phi phi",
+   "section_type": "results"
+  },
+  {
+   "line": 174,
+   "title": "Systematic uncertainties for sigma(e+e- -> phi phi omega)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 178,
+   "title": "Systematic uncertainties for sigma(e+e- -> phi phi phi)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 241,
+   "title": "Measured rcs at different c.m. energies and weighted average",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

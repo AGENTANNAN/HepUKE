@@ -1,0 +1,173 @@
+{
+ "paper_id": "1911.06669v3",
+ "source_path": "arxiv_papers/1911.06669v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 193,
+ "n_lines_sent": 102,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 11,
+   "reason": "author_affiliation"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 17,
+   "type": "front_matter",
+   "title": "Title and PACS"
+  },
+  {
+   "line_start": 15,
+   "line_end": 15,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 19,
+   "line_end": 47,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 49,
+   "line_end": 55,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 57,
+   "line_end": 95,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 57,
+     "line_end": 71,
+     "label": "inclusive_xi1530_selection"
+    },
+    {
+     "line_start": 73,
+     "line_end": 95,
+     "label": "radiative_xi1530_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 97,
+   "line_end": 126,
+   "type": "fit",
+   "title": "IV. MEASUREMENTS OF BRANCHING FRACTIONS AND ANGULAR DISTRIBUTION"
+  },
+  {
+   "line_start": 128,
+   "line_end": 177,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 137,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "xi_efficiency_correction"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "mass_window_decay_length"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 149,
+     "line_end": 153,
+     "label": "intermediate_decays"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 159,
+     "line_end": 177,
+     "label": "angular_distribution_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 179,
+   "line_end": 183,
+   "type": "conclusion",
+   "title": "VI. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 185,
+   "line_end": 193,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 81,
+   "title": "Numerical results on the branching fraction measurement for J/psi -> Xi(1530)- Xibar+",
+   "section_type": "results"
+  },
+  {
+   "line": 151,
+   "title": "Systematic uncertainties on the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 165,
+   "title": "Absolute systematic uncertainties on the alpha value",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 191,
+   "title": "Comparison of the results from this measurements to previous work",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-17 / 15-15"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

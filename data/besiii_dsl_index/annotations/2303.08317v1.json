@@ -1,0 +1,188 @@
+{
+ "paper_id": "2303.08317v1",
+ "source_path": "arxiv_papers/2303.08317v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 174,
+ "n_lines_sent": 62,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 145,
+   "to": 174,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 15,
+   "line_end": 15,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 16,
+   "line_end": 16,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 17,
+   "line_end": 17,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 21,
+   "line_end": 21,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 37,
+   "line_end": 37,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 39,
+   "line_end": 45,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 47,
+   "line_end": 57,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 59,
+   "line_end": 111,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 59,
+     "line_end": 69,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 71,
+     "line_end": 79,
+     "label": "background_study"
+    },
+    {
+     "line_start": 81,
+     "line_end": 97,
+     "label": "continuum_background_and_efficiency"
+    },
+    {
+     "line_start": 99,
+     "line_end": 111,
+     "label": "interference_and_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 113,
+   "line_end": 131,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 113,
+     "line_end": 115,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "n_psi3686_and_body3"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "kinematic_fit_and_fc_factor"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "mc_statistics_and_branching_fractions"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "interference"
+    },
+    {
+     "line_start": 127,
+     "line_end": 131,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 133,
+   "line_end": 135,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 137,
+   "line_end": 143,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 103,
+   "title": "Continuum background estimation for each data set",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 131,
+   "title": "Relative systematic uncertainties in the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

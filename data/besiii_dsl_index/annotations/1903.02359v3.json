@@ -1,0 +1,198 @@
+{
+ "paper_id": "1903.02359v3",
+ "source_path": "arxiv_papers/1903.02359v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 230,
+ "n_lines_sent": 111,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 66,
+   "to": 67,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 69,
+   "to": 69,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 72,
+   "to": 72,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 197,
+   "to": 230,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 73,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 75,
+   "line_end": 77,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 79,
+   "line_end": 83,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 85,
+   "line_end": 87,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 89,
+   "line_end": 89,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 91,
+   "line_end": 97,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 91,
+     "line_end": 93,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "event_topology_and_kinematic_fit"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "particle_identification"
+    }
+   ]
+  },
+  {
+   "line_start": 99,
+   "line_end": 146,
+   "type": "fit",
+   "title": "IV. BORN CROSS SECTION MEASUREMENT"
+  },
+  {
+   "line_start": 148,
+   "line_end": 173,
+   "type": "fit",
+   "title": "V. RESONANT PARAMETER MEASUREMENT"
+  },
+  {
+   "line_start": 175,
+   "line_end": 182,
+   "type": "results",
+   "title": "VI. ANGULAR DISTRIBUTION MEASUREMENT",
+   "units": [
+    {
+     "line_start": 175,
+     "line_end": 180,
+     "label": "angular_distribution_fit"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "angular_distribution_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 184,
+   "line_end": 191,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 193,
+   "line_end": 195,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 123,
+   "title": "Born cross sections for e+e- -> omega chi_c0 at different center-of-mass energies",
+   "section_type": "fit"
+  },
+  {
+   "line": 142,
+   "title": "Relative systematic uncertainties from different sources",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 173,
+   "title": "Summary of systematic uncertainties on the resonant parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

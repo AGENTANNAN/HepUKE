@@ -1,0 +1,267 @@
+{
+ "paper_id": "2202.13601v2",
+ "source_path": "arxiv_papers/2202.13601v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 319,
+ "n_lines_sent": 158,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 263,
+   "to": 319,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 155,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and PACS"
+  },
+  {
+   "line_start": 157,
+   "line_end": 157,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 159,
+   "line_end": 169,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 171,
+   "line_end": 171,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 173,
+   "line_end": 179,
+   "type": "dataset",
+   "title": "Data sample and double-tag method"
+  },
+  {
+   "line_start": 181,
+   "line_end": 207,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 183,
+     "line_end": 185,
+     "label": "st_kinematic_variables"
+    },
+    {
+     "line_start": 187,
+     "line_end": 189,
+     "label": "signal_reconstruction"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "mm2_variable"
+    },
+    {
+     "line_start": 193,
+     "line_end": 194,
+     "label": "st_fit_figure"
+    },
+    {
+     "line_start": 196,
+     "line_end": 196,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 198,
+     "line_end": 200,
+     "label": "sideband_background"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "quantum_correlation"
+    },
+    {
+     "line_start": 204,
+     "line_end": 205,
+     "label": "mm2_fit_figure"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "weighted_average"
+    }
+   ]
+  },
+  {
+   "line_start": 209,
+   "line_end": 243,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "introduction"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "st_yield_tracking_pid"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 215,
+     "line_end": 217,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "extra_tracks"
+    },
+    {
+     "line_start": 223,
+     "line_end": 231,
+     "label": "mm2_fit"
+    },
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "opening_angle"
+    },
+    {
+     "line_start": 235,
+     "line_end": 235,
+     "label": "quoted_bfs"
+    },
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "quantum_correlation"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "total"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "cp_asymmetry"
+    }
+   ]
+  },
+  {
+   "line_start": 245,
+   "line_end": 247,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 249,
+   "line_end": 261,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 227,
+   "title": "Quantities used for BF determinations and obtained BFs",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 253,
+   "title": "Systematic uncertainties in the measurements of the BFs",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 257,
+   "title": "CP-conjugate BFs and asymmetries",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 285,
+   "title": "Comparison of measured BFs and KS-KL asymmetries with theory",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

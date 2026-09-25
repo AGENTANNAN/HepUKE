@@ -1,0 +1,281 @@
+{
+ "paper_id": "1508.07560v1",
+ "source_path": "arxiv_papers/1508.07560v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 934,
+ "n_lines_sent": 493,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 871,
+   "to": 934,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 28,
+   "line_end": 55,
+   "type": "front_matter",
+   "title": "Title, authors, and PACS"
+  },
+  {
+   "line_start": 57,
+   "line_end": 73,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 75,
+   "line_end": 177,
+   "type": "other",
+   "title": "II. FORM FACTOR AND APPROACHES FOR D0 SEMILEPTONIC DECAYS"
+  },
+  {
+   "line_start": 179,
+   "line_end": 191,
+   "type": "detector",
+   "title": "III. DATA SAMPLE AND THE BESIII EXPERIMENT"
+  },
+  {
+   "line_start": 193,
+   "line_end": 215,
+   "type": "dataset",
+   "title": "A. Properties of doubly tagged D0D0 decays"
+  },
+  {
+   "line_start": 217,
+   "line_end": 329,
+   "type": "event_selection",
+   "title": "IV. RECONSTRUCTION OF D0D0 DECAY EVENTS",
+   "units": [
+    {
+     "line_start": 217,
+     "line_end": 223,
+     "label": "overview"
+    },
+    {
+     "line_start": 225,
+     "line_end": 260,
+     "label": "single_d0_tags"
+    },
+    {
+     "line_start": 262,
+     "line_end": 329,
+     "label": "semileptonic_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 331,
+   "line_end": 436,
+   "type": "results",
+   "title": "V. MEASUREMENTS OF ABSOLUTE DECAY BRANCHING FRACTIONS",
+   "units": [
+    {
+     "line_start": 331,
+     "line_end": 364,
+     "label": "efficiency"
+    },
+    {
+     "line_start": 366,
+     "line_end": 382,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 384,
+     "line_end": 432,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 434,
+     "line_end": 436,
+     "label": "comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 438,
+   "line_end": 768,
+   "type": "fit",
+   "title": "VI. DIFFERENTIAL DECAY RATES"
+  },
+  {
+   "line_start": 770,
+   "line_end": 823,
+   "type": "results",
+   "title": "VII. EXTRACTION OF |Vcs| AND |Vcd|",
+   "units": [
+    {
+     "line_start": 770,
+     "line_end": 814,
+     "label": "ckm_determination"
+    },
+    {
+     "line_start": 816,
+     "line_end": 823,
+     "label": "ckm_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 825,
+   "line_end": 865,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 867,
+   "line_end": 869,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 268,
+   "title": "Single D0 tag yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 364,
+   "title": "Double tag efficiencies for D0 to h-e+nu",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 400,
+   "title": "Systematic uncertainties in branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 464,
+   "title": "Comparison of measured branching fractions with other experiments",
+   "section_type": "results"
+  },
+  {
+   "line": 474,
+   "title": "q2 bin summary of observed and produced events",
+   "section_type": "fit"
+  },
+  {
+   "line": 482,
+   "title": "q2 bin summary of observed and produced events",
+   "section_type": "fit"
+  },
+  {
+   "line": 552,
+   "title": "Weighted efficiency matrix for D0 to K-e+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 556,
+   "title": "Weighted efficiency matrix for D0 to pi-e+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 586,
+   "title": "Statistical correlation matrix for D0 to K-e+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 590,
+   "title": "Statistical correlation matrix for D0 to pi-e+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 670,
+   "title": "Systematic correlation matrix for D0 to K-e+nu",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 674,
+   "title": "Systematic correlation matrix for D0 to pi-e+nu",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 792,
+   "title": "Summary of form factor fit results",
+   "section_type": "fit"
+  },
+  {
+   "line": 796,
+   "title": "Comparison of pole mass measurements",
+   "section_type": "results"
+  },
+  {
+   "line": 800,
+   "title": "Comparison of shape parameter measurements",
+   "section_type": "results"
+  },
+  {
+   "line": 804,
+   "title": "Comparison of form factor f+K(0) measurements",
+   "section_type": "results"
+  },
+  {
+   "line": 922,
+   "title": "Comparison of form factor f+pi(0) measurements",
+   "section_type": "results"
+  },
+  {
+   "line": 926,
+   "title": "Comparison of |Vcs| measurements",
+   "section_type": "results"
+  },
+  {
+   "line": 930,
+   "title": "Comparison of |Vcd| measurements",
+   "section_type": "results"
+  },
+  {
+   "line": 934,
+   "title": "Comparison of |Vcd|/|Vcs| measurements",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 12.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

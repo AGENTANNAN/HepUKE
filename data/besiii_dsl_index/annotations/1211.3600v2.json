@@ -1,0 +1,236 @@
+{
+ "paper_id": "1211.3600v2",
+ "source_path": "arxiv_papers/1211.3600v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 185,
+ "n_lines_sent": 71,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 152,
+   "to": 185,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 47,
+   "type": "front_matter",
+   "title": "Title, authors, collaboration, abstract, PACS"
+  },
+  {
+   "line_start": 49,
+   "line_end": 55,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 57,
+   "line_end": 61,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND MC SIMULATION"
+  },
+  {
+   "line_start": 63,
+   "line_end": 103,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 63,
+     "line_end": 67,
+     "label": "analysis_strategy"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "mass_distributions"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "background_study"
+    },
+    {
+     "line_start": 79,
+     "line_end": 83,
+     "label": "figures"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "upper_limit"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "ratio_measurement"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "hadronic_selection"
+    },
+    {
+     "line_start": 91,
+     "line_end": 103,
+     "label": "ml_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 105,
+   "line_end": 129,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 105,
+     "line_end": 107,
+     "label": "nshower_requirement"
+    },
+    {
+     "line_start": 109,
+     "line_end": 113,
+     "label": "figures"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "pmiss_requirement"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "pid_and_ep"
+    },
+    {
+     "line_start": 121,
+     "line_end": 123,
+     "label": "table_i"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "photon_and_background"
+    },
+    {
+     "line_start": 127,
+     "line_end": 129,
+     "label": "table_ii"
+    }
+   ]
+  },
+  {
+   "line_start": 131,
+   "line_end": 146,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 131,
+     "line_end": 139,
+     "label": "upper_limit_formula"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "upper_limit_values"
+    },
+    {
+     "line_start": 143,
+     "line_end": 146,
+     "label": "table_iii"
+    }
+   ]
+  },
+  {
+   "line_start": 148,
+   "line_end": 150,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  }
+ ],
+ "tables": [
+  {
+   "line": 123,
+   "title": "Fitted signal and background yields",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 129,
+   "title": "Summary of relative systematic errors",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 146,
+   "title": "Numbers used in the calculations of the ratios",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

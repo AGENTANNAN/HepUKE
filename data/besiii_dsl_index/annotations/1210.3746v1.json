@@ -1,0 +1,235 @@
+{
+ "paper_id": "1210.3746v1",
+ "source_path": "arxiv_papers/1210.3746v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 197,
+ "n_lines_sent": 113,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 93,
+   "to": 93,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 95,
+   "to": 95,
+   "reason": "author_affiliation"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 91,
+   "type": "front_matter",
+   "title": "Title, authors and affiliations"
+  },
+  {
+   "line_start": 97,
+   "line_end": 99,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 101,
+   "line_end": 107,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 109,
+   "line_end": 117,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT AND DATA SET"
+  },
+  {
+   "line_start": 119,
+   "line_end": 135,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 119,
+     "line_end": 121,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "mass_windows_and_background_suppression"
+    },
+    {
+     "line_start": 131,
+     "line_end": 135,
+     "label": "figures"
+    }
+   ]
+  },
+  {
+   "line_start": 137,
+   "line_end": 156,
+   "type": "fit",
+   "title": "IV. DATA ANALYSIS"
+  },
+  {
+   "line_start": 158,
+   "line_end": 173,
+   "type": "systematic_uncertainty",
+   "title": "A. SYSTEMATIC ERRORS",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "overview"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "psi_prime_number_and_trigger_and_photon_and_tracking"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 166,
+     "line_end": 167,
+     "label": "figure"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "ep_and_mass_window"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "chi_c_mass_requirement"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "background_shape_and_fit_range"
+    }
+   ]
+  },
+  {
+   "line_start": 175,
+   "line_end": 179,
+   "type": "results",
+   "title": "B. RESULTS AND DISCUSSION",
+   "units": [
+    {
+     "line_start": 175,
+     "line_end": 177,
+     "label": "branching_fractions_and_ratio"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "physics_interpretation"
+    }
+   ]
+  },
+  {
+   "line_start": 181,
+   "line_end": 191,
+   "type": "other",
+   "title": "Tables"
+  },
+  {
+   "line_start": 193,
+   "line_end": 195,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 197,
+   "line_end": 197,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 183,
+   "title": "Table I: Summary of signal yields and detection efficiencies",
+   "section_type": "fit"
+  },
+  {
+   "line": 187,
+   "title": "Table II: Summary of measured branching fractions and ratio R",
+   "section_type": "results"
+  },
+  {
+   "line": 191,
+   "title": "Table III: Summary of all systematic errors",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

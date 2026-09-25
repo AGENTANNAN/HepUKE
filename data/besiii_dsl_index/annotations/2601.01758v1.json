@@ -1,0 +1,196 @@
+{
+ "paper_id": "2601.01758v1",
+ "source_path": "arxiv_papers/2601.01758v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 391,
+ "n_lines_sent": 173,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 139,
+   "to": 139,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 326,
+   "to": 391,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 145,
+   "type": "front_matter",
+   "title": "Measurements of the branching fractions of chi_cJ -> 2K+2K-omega and phi K+K-omega decays"
+  },
+  {
+   "line_start": 147,
+   "line_end": 147,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 149,
+   "line_end": 153,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 155,
+   "line_end": 165,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 167,
+   "line_end": 183,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 167,
+     "line_end": 169,
+     "label": "final_state_and_reconstruction"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 177,
+     "line_end": 183,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 185,
+   "line_end": 233,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTION"
+  },
+  {
+   "line_start": 235,
+   "line_end": 289,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 235,
+     "line_end": 237,
+     "label": "overview"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "normalization"
+    },
+    {
+     "line_start": 241,
+     "line_end": 265,
+     "label": "figures"
+    },
+    {
+     "line_start": 267,
+     "line_end": 267,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "photon_detection_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 271,
+     "line_end": 271,
+     "label": "phi_mass_window"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "mass_fit"
+    },
+    {
+     "line_start": 275,
+     "line_end": 281,
+     "label": "tables"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "mc_generator"
+    },
+    {
+     "line_start": 285,
+     "line_end": 285,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 287,
+     "line_end": 287,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 289,
+     "line_end": 289,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 291,
+   "line_end": 322,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 324,
+   "line_end": 324,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 165,
+   "title": "Fractions of different sub-processes in chi_cJ -> 2K+2K-omega",
+   "section_type": "detector"
+  },
+  {
+   "line": 277,
+   "title": "Signal yields and MC efficiencies for branching fraction calculations",
+   "section_type": "results"
+  },
+  {
+   "line": 281,
+   "title": "Relative systematic uncertainties in the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

@@ -1,0 +1,164 @@
+{
+ "paper_id": "2603.18521v1",
+ "source_path": "arxiv_papers/2603.18521v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 352,
+ "n_lines_sent": 122,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 246,
+   "to": 352,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 161,
+   "type": "front_matter",
+   "title": "Observation of D_s^+ -> a_0(980)^+ f_0(500) in the Amplitude Analysis of D_s^+ -> pi^+ pi^0 pi^0 eta"
+  },
+  {
+   "line_start": 163,
+   "line_end": 163,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 165,
+   "line_end": 173,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 175,
+   "line_end": 186,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 188,
+   "line_end": 196,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 190,
+     "line_end": 196,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 198,
+   "line_end": 210,
+   "type": "fit",
+   "title": "Amplitude Analysis"
+  },
+  {
+   "line_start": 212,
+   "line_end": 212,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 214,
+   "line_end": 221,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 214,
+     "line_end": 221,
+     "label": "fit_results"
+    }
+   ]
+  },
+  {
+   "line_start": 223,
+   "line_end": 230,
+   "type": "fit",
+   "title": "Branching Fraction Measurement"
+  },
+  {
+   "line_start": 232,
+   "line_end": 232,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties for BF Measurement",
+   "units": [
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "systematic_uncertainties_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 234,
+   "line_end": 236,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 238,
+   "line_end": 242,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 244,
+   "line_end": 244,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 221,
+   "title": "Phases, FFs, BFs and statistical significances for the amplitudes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

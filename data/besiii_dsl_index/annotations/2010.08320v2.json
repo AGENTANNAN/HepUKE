@@ -1,0 +1,198 @@
+{
+ "paper_id": "2010.08320v2",
+ "source_path": "arxiv_papers/2010.08320v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 287,
+ "n_lines_sent": 212,
+ "skipped_ranges": [
+  {
+   "from": 257,
+   "to": 287,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 145,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 147,
+   "line_end": 147,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 149,
+   "line_end": 169,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 171,
+   "line_end": 171,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 173,
+   "line_end": 175,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 177,
+   "line_end": 192,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "single_baryon_tag"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "lambda_xi_reconstruction"
+    },
+    {
+     "line_start": 183,
+     "line_end": 192,
+     "label": "recoil_mass_background"
+    }
+   ]
+  },
+  {
+   "line_start": 194,
+   "line_end": 205,
+   "type": "fit",
+   "title": "Fit to recoil mass"
+  },
+  {
+   "line_start": 207,
+   "line_end": 207,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "xi_reconstruction"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "isr_factor"
+    }
+   ]
+  },
+  {
+   "line_start": 209,
+   "line_end": 250,
+   "type": "results",
+   "title": "Fit to Born cross-section",
+   "units": [
+    {
+     "line_start": 209,
+     "line_end": 215,
+     "label": "pqcd_power_law"
+    },
+    {
+     "line_start": 217,
+     "line_end": 235,
+     "label": "bw_resonance"
+    },
+    {
+     "line_start": 237,
+     "line_end": 247,
+     "label": "plateau_model"
+    },
+    {
+     "line_start": 249,
+     "line_end": 250,
+     "label": "figure3"
+    }
+   ]
+  },
+  {
+   "line_start": 252,
+   "line_end": 252,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 254,
+   "line_end": 254,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 256,
+   "line_end": 256,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 223,
+   "title": "Summary of measured Born cross-sections and effective form factors",
+   "section_type": "results"
+  },
+  {
+   "line": 227,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 207-207 share boundary line 207",
+  "units of 207-207 share boundary line 207",
+  "units of 207-207 share boundary line 207",
+  "units of 207-207 share boundary line 207",
+  "units of 207-207 share boundary line 207",
+  "units of 207-207 share boundary line 207"
+ ],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

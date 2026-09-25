@@ -1,0 +1,188 @@
+{
+ "paper_id": "2608.12793v1",
+ "source_path": "arxiv_papers/2608.12793v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 356,
+ "n_lines_sent": 131,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 260,
+   "to": 356,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 165,
+   "type": "front_matter",
+   "title": "High-precision measurement of the space-like η′ transition form factor"
+  },
+  {
+   "line_start": 167,
+   "line_end": 167,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 169,
+   "line_end": 181,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 183,
+   "line_end": 185,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 187,
+   "line_end": 202,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "pid"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 193,
+     "line_end": 196,
+     "label": "figure1"
+    },
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "eta_mass_constraint"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "untagged_lepton_angle"
+    }
+   ]
+  },
+  {
+   "line_start": 204,
+   "line_end": 204,
+   "type": "background",
+   "title": "Background"
+  },
+  {
+   "line_start": 206,
+   "line_end": 234,
+   "type": "fit",
+   "title": "Fit and TFF extraction"
+  },
+  {
+   "line_start": 236,
+   "line_end": 248,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 236,
+     "line_end": 236,
+     "label": "luminosity_and_branching_fraction"
+    },
+    {
+     "line_start": 238,
+     "line_end": 240,
+     "label": "table1"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 244,
+     "line_end": 244,
+     "label": "signal_mc_model_and_radiative_correction"
+    },
+    {
+     "line_start": 246,
+     "line_end": 246,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 250,
+   "line_end": 252,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 254,
+   "line_end": 256,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 258,
+   "line_end": 258,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 240,
+   "title": "Numerical inputs for the TFF determination and the product of the weighted average Q² and the TFF",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:23",
+ "failed_aspects": []
+}

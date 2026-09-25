@@ -1,0 +1,196 @@
+{
+ "paper_id": "1205.1036v2",
+ "source_path": "arxiv_papers/1205.1036v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 389,
+ "n_lines_sent": 213,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 71,
+   "to": 71,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 362,
+   "to": 389,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 69,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 73,
+   "line_end": 73,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 75,
+   "line_end": 87,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 89,
+   "line_end": 91,
+   "type": "detector",
+   "title": "II. BEPCII AND BESIII"
+  },
+  {
+   "line_start": 93,
+   "line_end": 99,
+   "type": "dataset",
+   "title": "III. DATA SAMPLE"
+  },
+  {
+   "line_start": 101,
+   "line_end": 211,
+   "type": "event_selection",
+   "title": "V. ANALYSIS OF J/ψ → p p̄",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 107,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 109,
+     "line_end": 113,
+     "label": "figures"
+    },
+    {
+     "line_start": 115,
+     "line_end": 144,
+     "label": "efficiency_correction"
+    },
+    {
+     "line_start": 146,
+     "line_end": 171,
+     "label": "angular_distribution_and_branching_fraction"
+    },
+    {
+     "line_start": 173,
+     "line_end": 211,
+     "label": "systematic_errors_and_results"
+    }
+   ]
+  },
+  {
+   "line_start": 213,
+   "line_end": 332,
+   "type": "event_selection",
+   "title": "VI. ANALYSIS OF J/ψ → n n̄",
+   "units": [
+    {
+     "line_start": 213,
+     "line_end": 230,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 232,
+     "line_end": 262,
+     "label": "efficiency_determination"
+    },
+    {
+     "line_start": 264,
+     "line_end": 294,
+     "label": "angular_distribution_and_branching_fraction"
+    },
+    {
+     "line_start": 296,
+     "line_end": 332,
+     "label": "systematic_errors_and_results"
+    }
+   ]
+  },
+  {
+   "line_start": 334,
+   "line_end": 356,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 358,
+   "line_end": 360,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 207,
+   "title": "Systematic errors for J/ψ → p p̄",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 211,
+   "title": "Previous measurements of α in J/ψ → p p̄",
+   "section_type": "results"
+  },
+  {
+   "line": 340,
+   "title": "Systematic errors for J/ψ → n n̄",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

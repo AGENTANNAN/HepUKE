@@ -1,0 +1,203 @@
+{
+ "paper_id": "2104.05549v4",
+ "source_path": "arxiv_papers/2104.05549v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 251,
+ "n_lines_sent": 120,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 209,
+   "to": 251,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 61,
+   "type": "front_matter",
+   "title": "Study of the process e+e- -> phi eta at center-of-mass energies between 2.00 and 3.08 GeV"
+  },
+  {
+   "line_start": 63,
+   "line_end": 63,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 65,
+   "line_end": 77,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 79,
+   "line_end": 83,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 85,
+   "line_end": 98,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 85,
+     "line_end": 87,
+     "label": "track_selection_pid"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "kinematic_fit_signal_region"
+    },
+    {
+     "line_start": 93,
+     "line_end": 98,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 100,
+   "line_end": 131,
+   "type": "fit",
+   "title": "IV. CROSS SECTIONS OF e+e- -> phi eta"
+  },
+  {
+   "line_start": 133,
+   "line_end": 133,
+   "type": "systematic_uncertainty",
+   "title": "C. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "tracking_pid_photon_luminosity_kinematic_fit_eta_selection_fit_range_signal_shape_background_shape_phi_peaking_radiative_correction_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 187,
+   "type": "fit",
+   "title": "V. LINE SHAPE OF e+e- -> phi eta"
+  },
+  {
+   "line_start": 189,
+   "line_end": 201,
+   "type": "conclusion",
+   "title": "VI. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 203,
+   "line_end": 205,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  },
+  {
+   "line_start": 207,
+   "line_end": 207,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 165,
+   "title": "The integrated luminosity, number of signal events, efficiency, radiative correction factor, VP correction factor and Born cross section for each energy point",
+   "section_type": "fit"
+  },
+  {
+   "line": 169,
+   "title": "Relative systematic uncertainties of the measurement of the Born cross section",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 183,
+   "title": "Parameters for resonances phi(2170) obtained by fitting",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

@@ -1,0 +1,221 @@
+{
+ "paper_id": "2401.08252v3",
+ "source_path": "arxiv_papers/2401.08252v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 392,
+ "n_lines_sent": 278,
+ "skipped_ranges": [
+  {
+   "from": 149,
+   "to": 150,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 184,
+   "to": 184,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 210,
+   "to": 212,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 214,
+   "to": 214,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 354,
+   "to": 392,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 218,
+   "type": "front_matter",
+   "title": "BESIII Collaboration"
+  },
+  {
+   "line_start": 220,
+   "line_end": 222,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 224,
+   "line_end": 233,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 235,
+   "line_end": 247,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 249,
+   "line_end": 253,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 255,
+   "line_end": 269,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 255,
+     "line_end": 257,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 259,
+     "line_end": 259,
+     "label": "lambda_and_omega_reconstruction"
+    },
+    {
+     "line_start": 261,
+     "line_end": 269,
+     "label": "signal_and_sideband_regions"
+    }
+   ]
+  },
+  {
+   "line_start": 271,
+   "line_end": 279,
+   "type": "detector",
+   "title": "4 Detection efficiency determination"
+  },
+  {
+   "line_start": 281,
+   "line_end": 285,
+   "type": "background",
+   "title": "5 Background study"
+  },
+  {
+   "line_start": 287,
+   "line_end": 318,
+   "type": "fit",
+   "title": "6 Signal yield and BF"
+  },
+  {
+   "line_start": 320,
+   "line_end": 340,
+   "type": "systematic_uncertainty",
+   "title": "7 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 320,
+     "line_end": 322,
+     "label": "overview"
+    },
+    {
+     "line_start": 324,
+     "line_end": 324,
+     "label": "kaon_tracking_and_pid"
+    },
+    {
+     "line_start": 324,
+     "line_end": 324,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 326,
+     "line_end": 328,
+     "label": "mass_window_omega"
+    },
+    {
+     "line_start": 330,
+     "line_end": 330,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 330,
+     "line_end": 330,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 332,
+     "line_end": 332,
+     "label": "fc_factor"
+    },
+    {
+     "line_start": 334,
+     "line_end": 334,
+     "label": "mc_generator"
+    },
+    {
+     "line_start": 336,
+     "line_end": 336,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 336,
+     "line_end": 336,
+     "label": "number_of_psi3686_events"
+    },
+    {
+     "line_start": 336,
+     "line_end": 336,
+     "label": "input_branching_fractions"
+    },
+    {
+     "line_start": 338,
+     "line_end": 340,
+     "label": "total_and_significance"
+    }
+   ]
+  },
+  {
+   "line_start": 342,
+   "line_end": 344,
+   "type": "conclusion",
+   "title": "8 Summary"
+  },
+  {
+   "line_start": 346,
+   "line_end": 348,
+   "type": "systematic_uncertainty",
+   "title": "Table 2"
+  },
+  {
+   "line_start": 350,
+   "line_end": 352,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 301,
+   "title": "Physical quantities in fc factor and estimated values of fc and NQED",
+   "section_type": "fit"
+  },
+  {
+   "line": 348,
+   "title": "Relative systematic uncertainties in the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 320-340 share boundary line 324",
+  "units of 320-340 share boundary line 330",
+  "units of 320-340 share boundary line 336",
+  "units of 320-340 share boundary line 336",
+  "short section 346-348 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

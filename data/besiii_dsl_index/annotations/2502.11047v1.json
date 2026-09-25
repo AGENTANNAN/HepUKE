@@ -1,0 +1,269 @@
+{
+ "paper_id": "2502.11047v1",
+ "source_path": "arxiv_papers/2502.11047v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 389,
+ "n_lines_sent": 215,
+ "skipped_ranges": [
+  {
+   "from": 81,
+   "to": 81,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 83,
+   "to": 83,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 147,
+   "to": 147,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 173,
+   "to": 173,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 195,
+   "to": 197,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 199,
+   "to": 199,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 205,
+   "to": 205,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 359,
+   "to": 389,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 205,
+   "type": "front_matter",
+   "title": "Search for the Cabibbo-suppressed decays ... (title, authors, affiliations)"
+  },
+  {
+   "line_start": 207,
+   "line_end": 211,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 213,
+   "line_end": 238,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 240,
+   "line_end": 246,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 248,
+   "line_end": 291,
+   "type": "event_selection",
+   "title": "3 Event selection and data analysis",
+   "units": [
+    {
+     "line_start": 248,
+     "line_end": 250,
+     "label": "single_tag_and_blind_analysis"
+    },
+    {
+     "line_start": 252,
+     "line_end": 254,
+     "label": "charged_track_and_pid"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "photon_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 260,
+     "line_end": 262,
+     "label": "background_suppression_and_delta_e"
+    },
+    {
+     "line_start": 264,
+     "line_end": 264,
+     "label": "mbc_and_signal_region"
+    },
+    {
+     "line_start": 266,
+     "line_end": 266,
+     "label": "efficiency_and_fit_overview"
+    },
+    {
+     "line_start": 268,
+     "line_end": 274,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 276,
+     "line_end": 291,
+     "label": "efficiency_and_contamination_tables"
+    }
+   ]
+  },
+  {
+   "line_start": 293,
+   "line_end": 332,
+   "type": "systematic_uncertainty",
+   "title": "4 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 293,
+     "line_end": 299,
+     "label": "additive_terms"
+    },
+    {
+     "line_start": 301,
+     "line_end": 301,
+     "label": "multiplicative_overview"
+    },
+    {
+     "line_start": 303,
+     "line_end": 305,
+     "label": "systematics_table"
+    },
+    {
+     "line_start": 307,
+     "line_end": 307,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 308,
+     "line_end": 315,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 317,
+     "line_end": 317,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 318,
+     "line_end": 318,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 319,
+     "line_end": 319,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 320,
+     "line_end": 322,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 324,
+     "line_end": 324,
+     "label": "b_inter"
+    },
+    {
+     "line_start": 325,
+     "line_end": 325,
+     "label": "truth_matching"
+    },
+    {
+     "line_start": 326,
+     "line_end": 326,
+     "label": "n_lambdac_pairs"
+    },
+    {
+     "line_start": 327,
+     "line_end": 327,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 328,
+     "line_end": 330,
+     "label": "delta_e_lambda_requirement"
+    },
+    {
+     "line_start": 332,
+     "line_end": 332,
+     "label": "theta_pbar_gamma_requirement"
+    }
+   ]
+  },
+  {
+   "line_start": 334,
+   "line_end": 344,
+   "type": "results",
+   "title": "5 Results",
+   "units": [
+    {
+     "line_start": 334,
+     "line_end": 344,
+     "label": "upper_limits_on_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 346,
+   "line_end": 355,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 357,
+   "line_end": 357,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 280,
+   "title": "Efficiencies at each energy point",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 291,
+   "title": "Efficiencies at each energy point",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 305,
+   "title": "Multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 369,
+   "title": "Comparison of experimental measurements",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

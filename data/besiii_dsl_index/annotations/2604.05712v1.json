@@ -1,0 +1,184 @@
+{
+ "paper_id": "2604.05712v1",
+ "source_path": "arxiv_papers/2604.05712v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 695,
+ "n_lines_sent": 80,
+ "skipped_ranges": [
+  {
+   "from": 137,
+   "to": 695,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Precise measurement of the CKM angle γ with a novel approach"
+  },
+  {
+   "line_start": 13,
+   "line_end": 13,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 15,
+   "line_end": 39,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 41,
+   "line_end": 48,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 50,
+   "line_end": 60,
+   "type": "other",
+   "title": "Observables and Table 1"
+  },
+  {
+   "line_start": 62,
+   "line_end": 64,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 66,
+   "line_end": 72,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "besiii_selection"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "besiii_background"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "lhcb_selection"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "lhcb_signal_extraction"
+    }
+   ]
+  },
+  {
+   "line_start": 74,
+   "line_end": 103,
+   "type": "fit",
+   "title": "Fit and Results"
+  },
+  {
+   "line_start": 105,
+   "line_end": 105,
+   "type": "results",
+   "title": "Interpretation of CP observables",
+   "units": [
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "gamma_interpretation"
+    }
+   ]
+  },
+  {
+   "line_start": 107,
+   "line_end": 117,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "introduction"
+    },
+    {
+     "line_start": 109,
+     "line_end": 111,
+     "label": "table2"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "besiii_systematics"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "lhcb_systematics"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "additional_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 119,
+   "line_end": 125,
+   "type": "results",
+   "title": "Final Results",
+   "units": [
+    {
+     "line_start": 119,
+     "line_end": 123,
+     "label": "final_parameters"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 127,
+   "line_end": 127,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 129,
+   "line_end": 135,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 60,
+   "title": "Summary of tag modes and corresponding observables",
+   "section_type": "other"
+  },
+  {
+   "line": 111,
+   "title": "Results of the extracted parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

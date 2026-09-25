@@ -1,0 +1,261 @@
+{
+ "paper_id": "1901.00085v3",
+ "source_path": "arxiv_papers/1901.00085v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 295,
+ "n_lines_sent": 156,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 102,
+   "to": 102,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 106,
+   "to": 106,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 110,
+   "to": 110,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 112,
+   "to": 112,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 264,
+   "to": 295,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 116,
+   "type": "front_matter",
+   "title": "Observation and study of the decay J/psi -> phi eta eta'"
+  },
+  {
+   "line_start": 118,
+   "line_end": 124,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 126,
+   "line_end": 128,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 130,
+   "line_end": 132,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 134,
+   "line_end": 147,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 136,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 140,
+     "line_end": 142,
+     "label": "kinematic_fit_and_mass_windows"
+    },
+    {
+     "line_start": 144,
+     "line_end": 147,
+     "label": "background_sidebands"
+    }
+   ]
+  },
+  {
+   "line_start": 149,
+   "line_end": 168,
+   "type": "results",
+   "title": "IV. MEASUREMENT OF B(J/psi -> phi eta eta')",
+   "units": [
+    {
+     "line_start": 149,
+     "line_end": 164,
+     "label": "branching_fraction_measurement"
+    },
+    {
+     "line_start": 166,
+     "line_end": 168,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 170,
+   "line_end": 172,
+   "type": "systematic_uncertainty",
+   "title": "TABLE I. Systematic uncertainties in B(J/psi -> phi eta eta')",
+   "units": [
+    {
+     "line_start": 170,
+     "line_end": 172,
+     "label": "systematic_uncertainty_budget"
+    }
+   ]
+  },
+  {
+   "line_start": 174,
+   "line_end": 183,
+   "type": "results",
+   "title": "V. STUDY OF AN INTERMEDIATE STATE IN THE phi eta' MASS SPECTRUM",
+   "units": [
+    {
+     "line_start": 174,
+     "line_end": 183,
+     "label": "dalitz_plot_study"
+    }
+   ]
+  },
+  {
+   "line_start": 185,
+   "line_end": 209,
+   "type": "fit",
+   "title": "A. Simultaneous fit"
+  },
+  {
+   "line_start": 211,
+   "line_end": 220,
+   "type": "results",
+   "title": "B. Angular distribution",
+   "units": [
+    {
+     "line_start": 211,
+     "line_end": 220,
+     "label": "angular_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 222,
+   "line_end": 234,
+   "type": "results",
+   "title": "C. Measurement of the product branching fraction",
+   "units": [
+    {
+     "line_start": 222,
+     "line_end": 234,
+     "label": "product_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 236,
+   "line_end": 252,
+   "type": "systematic_uncertainty",
+   "title": "D. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 236,
+     "line_end": 240,
+     "label": "signal_parametrization"
+    },
+    {
+     "line_start": 242,
+     "line_end": 252,
+     "label": "other_systematic_sources"
+    }
+   ]
+  },
+  {
+   "line_start": 254,
+   "line_end": 258,
+   "type": "conclusion",
+   "title": "VI. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 260,
+   "line_end": 262,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 172,
+   "title": "Systematic uncertainties in B(J/psi -> phi eta eta')",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 234,
+   "title": "Measured N_sig and B(J/psi -> eta X) x B(X -> phi eta') for 1- and 1+ assumptions",
+   "section_type": "results"
+  },
+  {
+   "line": 244,
+   "title": "Systematic uncertainties for the 1- assumption",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 248,
+   "title": "Systematic uncertainties for the 1+ assumption",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

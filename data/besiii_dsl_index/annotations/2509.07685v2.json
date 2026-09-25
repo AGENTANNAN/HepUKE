@@ -1,0 +1,228 @@
+{
+ "paper_id": "2509.07685v2",
+ "source_path": "arxiv_papers/2509.07685v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 286,
+ "n_lines_sent": 154,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 240,
+   "to": 286,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 129,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 131,
+   "line_end": 135,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 137,
+   "line_end": 150,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 152,
+   "line_end": 158,
+   "type": "detector",
+   "title": "2. Detector and Data"
+  },
+  {
+   "line_start": 160,
+   "line_end": 199,
+   "type": "event_selection",
+   "title": "3. Analysis",
+   "units": [
+    {
+     "line_start": 160,
+     "line_end": 162,
+     "label": "single_tag_strategy"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "untagged_electron_reconstruction"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "helicity_angle_veto"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "r_gamma_veto"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "extra_photon_veto"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "best_candidate_selection"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "q2_quasi_real_check"
+    },
+    {
+     "line_start": 180,
+     "line_end": 199,
+     "label": "mass_fit_and_tff_extraction"
+    }
+   ]
+  },
+  {
+   "line_start": 201,
+   "line_end": 221,
+   "type": "systematic_uncertainty",
+   "title": "4. Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 201,
+     "line_end": 203,
+     "label": "overview"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "luminosity_and_trigger"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "pi0_branching_fraction"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "analysis_conditions"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "efficiency_and_model_dependence"
+    },
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "radiative_corrections"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "background_and_fit_range"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "quadrature_sum"
+    }
+   ]
+  },
+  {
+   "line_start": 223,
+   "line_end": 225,
+   "type": "results",
+   "title": "Table 1",
+   "units": [
+    {
+     "line_start": 223,
+     "line_end": 225,
+     "label": "tff_results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 227,
+   "line_end": 234,
+   "type": "conclusion",
+   "title": "5. Summary"
+  },
+  {
+   "line_start": 236,
+   "line_end": 238,
+   "type": "acknowledgements",
+   "title": "Acknowledgment"
+  }
+ ],
+ "tables": [
+  {
+   "line": 225,
+   "title": "Signal yields, efficiencies, radiative corrections, point-like cross sections, and extracted TFF values per Q^2 interval",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

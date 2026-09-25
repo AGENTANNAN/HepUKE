@@ -1,0 +1,294 @@
+{
+ "paper_id": "2408.06677v1",
+ "source_path": "arxiv_papers/2408.06677v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 427,
+ "n_lines_sent": 216,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 65,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 96,
+   "to": 96,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 98,
+   "to": 98,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 387,
+   "to": 427,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 139,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 141,
+   "line_end": 141,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 143,
+   "line_end": 167,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 169,
+   "line_end": 173,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 175,
+   "line_end": 197,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 175,
+     "line_end": 179,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 185,
+     "line_end": 188,
+     "label": "omega_omega_selection"
+    },
+    {
+     "line_start": 190,
+     "line_end": 193,
+     "label": "omega_phi_selection"
+    },
+    {
+     "line_start": 195,
+     "line_end": 197,
+     "label": "mass_windows_and_kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 199,
+   "line_end": 233,
+   "type": "background",
+   "title": "IV. BACKGROUND ESTIMATION"
+  },
+  {
+   "line_start": 235,
+   "line_end": 282,
+   "type": "fit",
+   "title": "V. SIGNAL EXTRACTION"
+  },
+  {
+   "line_start": 284,
+   "line_end": 335,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY ESTIMATION",
+   "units": [
+    {
+     "line_start": 284,
+     "line_end": 288,
+     "label": "mdc_tracking"
+    },
+    {
+     "line_start": 290,
+     "line_end": 290,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 292,
+     "line_end": 294,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 296,
+     "line_end": 299,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 301,
+     "line_end": 301,
+     "label": "helicity_angle"
+    },
+    {
+     "line_start": 303,
+     "line_end": 307,
+     "label": "sideband"
+    },
+    {
+     "line_start": 309,
+     "line_end": 309,
+     "label": "sideband_factor"
+    },
+    {
+     "line_start": 311,
+     "line_end": 311,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 313,
+     "line_end": 313,
+     "label": "total_psi2s_events"
+    },
+    {
+     "line_start": 315,
+     "line_end": 315,
+     "label": "input_branching_fractions"
+    },
+    {
+     "line_start": 317,
+     "line_end": 317,
+     "label": "damping_function"
+    },
+    {
+     "line_start": 319,
+     "line_end": 319,
+     "label": "efficiency_curve"
+    },
+    {
+     "line_start": 321,
+     "line_end": 323,
+     "label": "mc_resolution"
+    },
+    {
+     "line_start": 325,
+     "line_end": 327,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 329,
+     "line_end": 335,
+     "label": "upper_limit_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 337,
+   "line_end": 377,
+   "type": "results",
+   "title": "VII. RESULT AND SUMMARY",
+   "units": [
+    {
+     "line_start": 337,
+     "line_end": 341,
+     "label": "upper_limits"
+    },
+    {
+     "line_start": 343,
+     "line_end": 353,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 355,
+     "line_end": 375,
+     "label": "eta_c2S_results"
+    },
+    {
+     "line_start": 377,
+     "line_end": 377,
+     "label": "chi_cJ_results"
+    }
+   ]
+  },
+  {
+   "line_start": 379,
+   "line_end": 385,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 219,
+   "title": "Scale factors for sideband regions",
+   "section_type": "background"
+  },
+  {
+   "line": 272,
+   "title": "Signal events in signal and sideband regions",
+   "section_type": "fit"
+  },
+  {
+   "line": 305,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 345,
+   "title": "Signal yields, efficiencies, and branching fractions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

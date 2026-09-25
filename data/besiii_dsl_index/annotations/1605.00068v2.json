@@ -1,0 +1,237 @@
+{
+ "paper_id": "1605.00068v2",
+ "source_path": "arxiv_papers/1605.00068v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 291,
+ "n_lines_sent": 166,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 78,
+   "to": 78,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 80,
+   "to": 80,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 274,
+   "to": 291,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 20,
+   "line_end": 76,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 82,
+   "line_end": 84,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 86,
+   "line_end": 92,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 94,
+   "line_end": 96,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO"
+  },
+  {
+   "line_start": 98,
+   "line_end": 118,
+   "type": "fit",
+   "title": "III. METHOD"
+  },
+  {
+   "line_start": 120,
+   "line_end": 143,
+   "type": "event_selection",
+   "title": "IV. ST D- MESONS",
+   "units": [
+    {
+     "line_start": 120,
+     "line_end": 122,
+     "label": "st_mode_selection"
+    },
+    {
+     "line_start": 124,
+     "line_end": 126,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "pid"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "photon_pi0_reconstruction"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "delta_e_mbc_requirements"
+    },
+    {
+     "line_start": 136,
+     "line_end": 143,
+     "label": "st_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 145,
+   "line_end": 217,
+   "type": "event_selection",
+   "title": "V. DT EVENTS",
+   "units": [
+    {
+     "line_start": 145,
+     "line_end": 147,
+     "label": "k0_reconstruction"
+    },
+    {
+     "line_start": 149,
+     "line_end": 151,
+     "label": "muon_identification"
+    },
+    {
+     "line_start": 153,
+     "line_end": 177,
+     "label": "u_miss_definition"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 181,
+     "line_end": 201,
+     "label": "dt_efficiency"
+    },
+    {
+     "line_start": 203,
+     "line_end": 209,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 211,
+     "line_end": 217,
+     "label": "data_mc_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 219,
+   "line_end": 239,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 219,
+     "line_end": 221,
+     "label": "common_systematics"
+    },
+    {
+     "line_start": 223,
+     "line_end": 227,
+     "label": "figures"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "independent_systematics_kpipi"
+    },
+    {
+     "line_start": 231,
+     "line_end": 233,
+     "label": "independent_systematics_kpi0pi0"
+    },
+    {
+     "line_start": 235,
+     "line_end": 239,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 241,
+   "line_end": 264,
+   "type": "results",
+   "title": "VII. BRANCHING FRACTION",
+   "units": [
+    {
+     "line_start": 241,
+     "line_end": 259,
+     "label": "branching_fraction_measurement"
+    },
+    {
+     "line_start": 261,
+     "line_end": 264,
+     "label": "st_mode_consistency"
+    }
+   ]
+  },
+  {
+   "line_start": 266,
+   "line_end": 268,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 270,
+   "line_end": 272,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 140,
+   "title": "Summary of ST yields, ST and DT efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 237,
+   "title": "Systematic uncertainties in the measurement of B(D+ -> K0 mu+ nu_mu)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 12.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

@@ -1,0 +1,344 @@
+{
+ "paper_id": "2305.15879v2",
+ "source_path": "arxiv_papers/2305.15879v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 633,
+ "n_lines_sent": 292,
+ "skipped_ranges": [
+  {
+   "from": 487,
+   "to": 633,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Title, collaboration, abstract, keywords"
+  },
+  {
+   "line_start": 11,
+   "line_end": 37,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 39,
+   "line_end": 45,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 47,
+   "line_end": 53,
+   "type": "detector",
+   "title": "2 Detector and data sets"
+  },
+  {
+   "line_start": 55,
+   "line_end": 77,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 55,
+     "line_end": 57,
+     "label": "overview"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 67,
+     "line_end": 77,
+     "label": "mbc_deltae"
+    }
+   ]
+  },
+  {
+   "line_start": 79,
+   "line_end": 87,
+   "type": "event_selection",
+   "title": "4.1 Further selection criteria",
+   "units": [
+    {
+     "line_start": 79,
+     "line_end": 83,
+     "label": "st_mode_and_deltae"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "ks0_veto_and_miscombination"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "kinematic_fit_and_purity"
+    }
+   ]
+  },
+  {
+   "line_start": 89,
+   "line_end": 163,
+   "type": "fit",
+   "title": "4.2 Fit method"
+  },
+  {
+   "line_start": 165,
+   "line_end": 179,
+   "type": "fit",
+   "title": "4.2.1 Blatt-Weisskopf barriers"
+  },
+  {
+   "line_start": 181,
+   "line_end": 286,
+   "type": "fit",
+   "title": "4.2.2 Propagator"
+  },
+  {
+   "line_start": 288,
+   "line_end": 306,
+   "type": "fit",
+   "title": "4.2.3 Spin factors"
+  },
+  {
+   "line_start": 308,
+   "line_end": 334,
+   "type": "results",
+   "title": "4.3 Fit results",
+   "units": [
+    {
+     "line_start": 308,
+     "line_end": 310,
+     "label": "fit_strategy"
+    },
+    {
+     "line_start": 312,
+     "line_end": 312,
+     "label": "intermediate_processes"
+    },
+    {
+     "line_start": 314,
+     "line_end": 320,
+     "label": "fitting_fractions"
+    },
+    {
+     "line_start": 322,
+     "line_end": 328,
+     "label": "interference_and_uncertainties"
+    },
+    {
+     "line_start": 330,
+     "line_end": 334,
+     "label": "fit_results_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 336,
+   "line_end": 351,
+   "type": "systematic_uncertainty",
+   "title": "4.4 Systematic uncertainties for the amplitude analysis",
+   "units": [
+    {
+     "line_start": 336,
+     "line_end": 340,
+     "label": "fixed_parameters"
+    },
+    {
+     "line_start": 342,
+     "line_end": 345,
+     "label": "r_values"
+    },
+    {
+     "line_start": 347,
+     "line_end": 347,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 349,
+     "line_end": 349,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 351,
+     "line_end": 351,
+     "label": "experimental_effects"
+    }
+   ]
+  },
+  {
+   "line_start": 353,
+   "line_end": 423,
+   "type": "results",
+   "title": "5 BF measurement",
+   "units": [
+    {
+     "line_start": 353,
+     "line_end": 383,
+     "label": "bf_formalism_and_st_yields"
+    },
+    {
+     "line_start": 385,
+     "line_end": 400,
+     "label": "dt_yield_and_bf_result"
+    },
+    {
+     "line_start": 402,
+     "line_end": 404,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 405,
+     "line_end": 405,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 406,
+     "line_end": 406,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 408,
+     "line_end": 411,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 413,
+     "line_end": 413,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 415,
+     "line_end": 415,
+     "label": "quoted_bfs"
+    },
+    {
+     "line_start": 417,
+     "line_end": 417,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 419,
+     "line_end": 419,
+     "label": "2d_fit"
+    },
+    {
+     "line_start": 421,
+     "line_end": 423,
+     "label": "deltae_requirement_and_total"
+    }
+   ]
+  },
+  {
+   "line_start": 425,
+   "line_end": 427,
+   "type": "systematic_uncertainty",
+   "title": "Table 6"
+  },
+  {
+   "line_start": 429,
+   "line_end": 437,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 439,
+   "line_end": 443,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  },
+  {
+   "line_start": 445,
+   "line_end": 454,
+   "type": "other",
+   "title": "A Two-dimensional fit on M_BC^sig versus M_BC^tag"
+  },
+  {
+   "line_start": 456,
+   "line_end": 472,
+   "type": "other",
+   "title": "B Other tested intermediate processes"
+  },
+  {
+   "line_start": 474,
+   "line_end": 485,
+   "type": "other",
+   "title": "C The interference between processes"
+  }
+ ],
+ "tables": [
+  {
+   "line": 284,
+   "title": "K pi S-wave parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 304,
+   "title": "Spin factors for each decay chain",
+   "section_type": "fit"
+  },
+  {
+   "line": 332,
+   "title": "Phases, FFs and significances for amplitudes",
+   "section_type": "results"
+  },
+  {
+   "line": 379,
+   "title": "Systematic uncertainties on phi and FF for each amplitude",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 392,
+   "title": "ST yields, efficiencies and DT efficiencies for six tag modes",
+   "section_type": "results"
+  },
+  {
+   "line": 427,
+   "title": "Systematic uncertainties in the BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 433,
+   "title": "Branching fractions for intermediate processes",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 480,
+   "title": "Interference between processes",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 14.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 425-427 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

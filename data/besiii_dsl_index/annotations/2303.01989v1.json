@@ -1,0 +1,180 @@
+{
+ "paper_id": "2303.01989v1",
+ "source_path": "arxiv_papers/2303.01989v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 258,
+ "n_lines_sent": 145,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 225,
+   "to": 258,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 147,
+   "type": "front_matter",
+   "title": "Determination of Spin-parity Quantum Numbers for the Narrow Structure Near the pΛ Threshold in e+e- → pK-Λ + c.c."
+  },
+  {
+   "line_start": 149,
+   "line_end": 149,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 151,
+   "line_end": 155,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 157,
+   "line_end": 157,
+   "type": "detector",
+   "title": "BESIII Detector"
+  },
+  {
+   "line_start": 159,
+   "line_end": 159,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 161,
+   "line_end": 170,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 167,
+     "line_end": 170,
+     "label": "selected_events_and_dalitz_plot"
+    }
+   ]
+  },
+  {
+   "line_start": 172,
+   "line_end": 196,
+   "type": "fit",
+   "title": "Amplitude Analysis"
+  },
+  {
+   "line_start": 198,
+   "line_end": 206,
+   "type": "results",
+   "title": "Fit Results",
+   "units": [
+    {
+     "line_start": 198,
+     "line_end": 200,
+     "label": "jp_hypotheses_significance"
+    },
+    {
+     "line_start": 202,
+     "line_end": 206,
+     "label": "pole_parameters_vs_energy"
+    }
+   ]
+  },
+  {
+   "line_start": 208,
+   "line_end": 215,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "systematic_sources_overview"
+    },
+    {
+     "line_start": 210,
+     "line_end": 211,
+     "label": "fit_projection_figure"
+    },
+    {
+     "line_start": 213,
+     "line_end": 215,
+     "label": "systematic_budget_table"
+    }
+   ]
+  },
+  {
+   "line_start": 217,
+   "line_end": 217,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 219,
+   "line_end": 223,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 200,
+   "title": "Resonance parameters and significances for various J^P hypotheses",
+   "section_type": "results"
+  },
+  {
+   "line": 206,
+   "title": "Luminosity, year and pole parameters at each energy point",
+   "section_type": "results"
+  },
+  {
+   "line": 215,
+   "title": "Systematic uncertainties on the pole positions of X(2085)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 9.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

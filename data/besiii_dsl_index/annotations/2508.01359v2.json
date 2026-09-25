@@ -1,0 +1,169 @@
+{
+ "paper_id": "2508.01359v2",
+ "source_path": "arxiv_papers/2508.01359v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 198,
+ "n_lines_sent": 79,
+ "skipped_ranges": [
+  {
+   "from": 139,
+   "to": 198,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Measurement of Born Cross Sections and Effective Form Factors of e+e- -> Omega- Omega+"
+  },
+  {
+   "line_start": 9,
+   "line_end": 16,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 18,
+   "line_end": 26,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 28,
+   "line_end": 36,
+   "type": "detector",
+   "title": "2 Detector and data sets"
+  },
+  {
+   "line_start": 38,
+   "line_end": 57,
+   "type": "event_selection",
+   "title": "3 Event selection and signal determination",
+   "units": [
+    {
+     "line_start": 38,
+     "line_end": 40,
+     "label": "single_baryon_tag_method"
+    },
+    {
+     "line_start": 42,
+     "line_end": 42,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 44,
+     "line_end": 44,
+     "label": "lambda_and_omega_reconstruction"
+    },
+    {
+     "line_start": 46,
+     "line_end": 46,
+     "label": "decay_length_and_vertex_fit"
+    },
+    {
+     "line_start": 48,
+     "line_end": 50,
+     "label": "corrected_mass_variables"
+    },
+    {
+     "line_start": 52,
+     "line_end": 53,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 55,
+     "line_end": 57,
+     "label": "background_and_signal_yield"
+    }
+   ]
+  },
+  {
+   "line_start": 59,
+   "line_end": 104,
+   "type": "fit",
+   "title": "4 Measurement of BCS and EFF"
+  },
+  {
+   "line_start": 106,
+   "line_end": 119,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 108,
+     "label": "overview"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "luminosity_and_branching_fractions"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "omega_reconstruction"
+    },
+    {
+     "line_start": 114,
+     "line_end": 115,
+     "label": "figure_3"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "mass_windows_and_sideband"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "isr_and_total"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 129,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 131,
+   "line_end": 133,
+   "type": "systematic_uncertainty",
+   "title": "Table 2"
+  },
+  {
+   "line_start": 135,
+   "line_end": 137,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 127,
+   "title": "Numerical results for e+e- -> Omega- Omega+ at each c.m. energy",
+   "section_type": "results"
+  },
+  {
+   "line": 133,
+   "title": "Systematic uncertainties in the BCS measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 131-133 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

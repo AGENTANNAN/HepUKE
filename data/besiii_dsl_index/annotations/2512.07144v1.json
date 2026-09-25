@@ -1,0 +1,290 @@
+{
+ "paper_id": "2512.07144v1",
+ "source_path": "arxiv_papers/2512.07144v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 375,
+ "n_lines_sent": 187,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 72,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 74,
+   "to": 75,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 79,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 81,
+   "to": 83,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 88,
+   "to": 88,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 91,
+   "to": 92,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 94,
+   "to": 94,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 96,
+   "to": 98,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 100,
+   "to": 100,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 103,
+   "to": 104,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 106,
+   "to": 106,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 137,
+   "to": 137,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 195,
+   "to": 195,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 197,
+   "to": 198,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 335,
+   "to": 375,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": "12",
+   "line_end": "198",
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": "200",
+   "line_end": "200",
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": "202",
+   "line_end": "213",
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": "215",
+   "line_end": "219",
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": "221",
+   "line_end": "227",
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": "221",
+     "line_end": "223",
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": "225",
+     "line_end": "225",
+     "label": "photon_selection"
+    },
+    {
+     "line_start": "227",
+     "line_end": "227",
+     "label": "pid_kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": "229",
+   "line_end": "256",
+   "type": "fit",
+   "title": "IV. ANALYSIS OF $\\eta \\mu^+ \\mu^-$"
+  },
+  {
+   "line_start": "258",
+   "line_end": "273",
+   "type": "fit",
+   "title": "V. ANALYSIS OF $\\eta e^+ e^-$"
+  },
+  {
+   "line_start": "275",
+   "line_end": "317",
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": "275",
+     "line_end": "277",
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": "279",
+     "line_end": "281",
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": "283",
+     "line_end": "285",
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": "287",
+     "line_end": "291",
+     "label": "mdc_tracking"
+    },
+    {
+     "line_start": "293",
+     "line_end": "297",
+     "label": "pid_kinematic_fit"
+    },
+    {
+     "line_start": "299",
+     "line_end": "301",
+     "label": "table1"
+    },
+    {
+     "line_start": "303",
+     "line_end": "305",
+     "label": "photon_detection"
+    },
+    {
+     "line_start": "307",
+     "line_end": "311",
+     "label": "signal_shape"
+    },
+    {
+     "line_start": "313",
+     "line_end": "315",
+     "label": "fit_range"
+    },
+    {
+     "line_start": "317",
+     "line_end": "317",
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": "319",
+   "line_end": "323",
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": "325",
+   "line_end": "327",
+   "type": "systematic_uncertainty",
+   "title": "Background shape",
+   "units": [
+    {
+     "line_start": "325",
+     "line_end": "327",
+     "label": "background_shape"
+    }
+   ]
+  },
+  {
+   "line_start": "329",
+   "line_end": "333",
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": "301",
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

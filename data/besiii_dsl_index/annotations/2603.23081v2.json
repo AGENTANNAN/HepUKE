@@ -1,0 +1,217 @@
+{
+ "paper_id": "2603.23081v2",
+ "source_path": "arxiv_papers/2603.23081v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 465,
+ "n_lines_sent": 179,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 163,
+   "to": 163,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 345,
+   "to": 465,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 163,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 165,
+   "line_end": 165,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 167,
+   "line_end": 175,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 177,
+   "line_end": 197,
+   "type": "event_selection",
+   "title": "II. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 177,
+     "line_end": 179,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 181,
+     "line_end": 197,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 199,
+   "line_end": 218,
+   "type": "background",
+   "title": "III. BACKGROUND STUDIES AND SIGNAL EXTRACTION"
+  },
+  {
+   "line_start": 220,
+   "line_end": 266,
+   "type": "fit",
+   "title": "IV. AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 268,
+   "line_end": 315,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 268,
+     "line_end": 270,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "jpsi_yield"
+    },
+    {
+     "line_start": 274,
+     "line_end": 274,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 276,
+     "line_end": 276,
+     "label": "input_branching_fractions"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "selection_and_background_overview"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 282,
+     "line_end": 282,
+     "label": "delta_pi0"
+    },
+    {
+     "line_start": 284,
+     "line_end": 284,
+     "label": "omega_mass_window"
+    },
+    {
+     "line_start": 286,
+     "line_end": 286,
+     "label": "eta_mass_window"
+    },
+    {
+     "line_start": 288,
+     "line_end": 288,
+     "label": "q_weight"
+    },
+    {
+     "line_start": 290,
+     "line_end": 290,
+     "label": "background_yield"
+    },
+    {
+     "line_start": 292,
+     "line_end": 303,
+     "label": "table_i_and_fig2"
+    },
+    {
+     "line_start": 305,
+     "line_end": 305,
+     "label": "lineshape"
+    },
+    {
+     "line_start": 307,
+     "line_end": 307,
+     "label": "eta_c_background"
+    },
+    {
+     "line_start": 309,
+     "line_end": 309,
+     "label": "amplitude_model_overview"
+    },
+    {
+     "line_start": 311,
+     "line_end": 311,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 313,
+     "line_end": 313,
+     "label": "additional_resonances"
+    },
+    {
+     "line_start": 315,
+     "line_end": 315,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 317,
+   "line_end": 337,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 339,
+   "line_end": 341,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 343,
+   "line_end": 343,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 294,
+   "title": "Summary of statistical significance, signal yields, detection efficiencies, and BFs of intermediate processes",
+   "section_type": "results"
+  },
+  {
+   "line": 325,
+   "title": "Comparison of BF(J/psi -> gamma a0(980)0 -> gamma eta pi0) with theoretical predictions",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 335,
+   "title": "Comparison of partial decay width of b1(1235)0 -> gamma eta with theoretical predictions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

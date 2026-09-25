@@ -1,0 +1,107 @@
+{
+ "paper_id": "2002.12791v2",
+ "source_path": "arxiv_papers/2002.12791v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 130,
+ "n_lines_sent": 61,
+ "skipped_ranges": [
+  {
+   "from": 28,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 100,
+   "to": 130,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 37,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 35,
+   "line_end": 35,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 39,
+   "line_end": 51,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 53,
+   "line_end": 57,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 59,
+   "line_end": 69,
+   "type": "dataset",
+   "title": "Dataset and event selection"
+  },
+  {
+   "line_start": 71,
+   "line_end": 79,
+   "type": "fit",
+   "title": "Fit method"
+  },
+  {
+   "line_start": 81,
+   "line_end": 81,
+   "type": "results",
+   "title": "Results"
+  },
+  {
+   "line_start": 83,
+   "line_end": 92,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 94,
+   "line_end": 94,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 96,
+   "line_end": 98,
+   "type": "results",
+   "title": "Tables"
+  }
+ ],
+ "tables": [
+  {
+   "line": 61,
+   "title": "Summary of ST and DT yields",
+   "section_type": "dataset"
+  },
+  {
+   "line": 98,
+   "title": "Measured strong-phase parameters",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 6.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 81-81 typed results has no units",
+  "short section 96-98 typed results has no units",
+  "nested spans 1-37 / 35-35"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

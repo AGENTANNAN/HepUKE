@@ -1,0 +1,416 @@
+{
+ "paper_id": "2003.12220v2",
+ "source_path": "arxiv_papers/2003.12220v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 315,
+ "n_lines_sent": 164,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 241,
+   "to": 315,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 114,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 116,
+   "line_end": 116,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 118,
+   "line_end": 118,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 120,
+   "line_end": 122,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 124,
+   "line_end": 124,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 126,
+   "line_end": 132,
+   "type": "event_selection",
+   "title": "Double-tag method and branching fraction formula",
+   "units": [
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 128,
+     "line_end": 132,
+     "label": "branching_fraction_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 134,
+   "line_end": 134,
+   "type": "event_selection",
+   "title": "ST D- reconstruction",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "st_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 136,
+   "line_end": 136,
+   "type": "event_selection",
+   "title": "Signal side selection",
+   "units": [
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "signal_side_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 138,
+   "line_end": 139,
+   "type": "event_selection",
+   "title": "Figure 1",
+   "units": [
+    {
+     "line_start": 138,
+     "line_end": 139,
+     "label": "figure_1"
+    }
+   ]
+  },
+  {
+   "line_start": 141,
+   "line_end": 141,
+   "type": "event_selection",
+   "title": "Muon identification",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "muon_identification"
+    }
+   ]
+  },
+  {
+   "line_start": 143,
+   "line_end": 143,
+   "type": "event_selection",
+   "title": "Eta reconstruction",
+   "units": [
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "eta_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 145,
+   "line_end": 145,
+   "type": "event_selection",
+   "title": "Background suppression",
+   "units": [
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 147,
+   "line_end": 147,
+   "type": "event_selection",
+   "title": "Umiss variable",
+   "units": [
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "umiss_variable"
+    }
+   ]
+  },
+  {
+   "line_start": 149,
+   "line_end": 149,
+   "type": "fit",
+   "title": "Umiss fit"
+  },
+  {
+   "line_start": 151,
+   "line_end": 152,
+   "type": "fit",
+   "title": "Figure 2"
+  },
+  {
+   "line_start": 154,
+   "line_end": 154,
+   "type": "fit",
+   "title": "Efficiency"
+  },
+  {
+   "line_start": 156,
+   "line_end": 162,
+   "type": "results",
+   "title": "Branching fraction result",
+   "units": [
+    {
+     "line_start": 156,
+     "line_end": 162,
+     "label": "branching_fraction_result"
+    }
+   ]
+  },
+  {
+   "line_start": 164,
+   "line_end": 164,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "muon_tracking_pid"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "eta_reconstruction"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "extra_gamma_pi0"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "m_eta_mu_requirement"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "umiss_fit"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "mc_model"
+    }
+   ]
+  },
+  {
+   "line_start": 166,
+   "line_end": 166,
+   "type": "fit",
+   "title": "q2 intervals and partial decay rate"
+  },
+  {
+   "line_start": 168,
+   "line_end": 170,
+   "type": "fit",
+   "title": "Partial decay rate formula"
+  },
+  {
+   "line_start": 172,
+   "line_end": 172,
+   "type": "fit",
+   "title": "Produced yield definition"
+  },
+  {
+   "line_start": 174,
+   "line_end": 176,
+   "type": "fit",
+   "title": "Efficiency matrix equation"
+  },
+  {
+   "line_start": 178,
+   "line_end": 178,
+   "type": "fit",
+   "title": "Observed yield definition"
+  },
+  {
+   "line_start": 180,
+   "line_end": 182,
+   "type": "fit",
+   "title": "Efficiency matrix formula"
+  },
+  {
+   "line_start": 184,
+   "line_end": 184,
+   "type": "fit",
+   "title": "Efficiency matrix components"
+  },
+  {
+   "line_start": 186,
+   "line_end": 188,
+   "type": "fit",
+   "title": "Observed yield fit"
+  },
+  {
+   "line_start": 190,
+   "line_end": 194,
+   "type": "fit",
+   "title": "Chi2 construction"
+  },
+  {
+   "line_start": 196,
+   "line_end": 196,
+   "type": "fit",
+   "title": "Covariance matrix"
+  },
+  {
+   "line_start": 198,
+   "line_end": 200,
+   "type": "fit",
+   "title": "Expected partial decay rate"
+  },
+  {
+   "line_start": 202,
+   "line_end": 202,
+   "type": "fit",
+   "title": "Form factor description"
+  },
+  {
+   "line_start": 204,
+   "line_end": 204,
+   "type": "fit",
+   "title": "Series expansion"
+  },
+  {
+   "line_start": 206,
+   "line_end": 208,
+   "type": "fit",
+   "title": "Form factor parameterization"
+  },
+  {
+   "line_start": 210,
+   "line_end": 210,
+   "type": "fit",
+   "title": "Kinematic variables"
+  },
+  {
+   "line_start": 212,
+   "line_end": 216,
+   "type": "fit",
+   "title": "Statistical covariance matrix"
+  },
+  {
+   "line_start": 218,
+   "line_end": 222,
+   "type": "fit",
+   "title": "Systematic covariance matrix"
+  },
+  {
+   "line_start": 224,
+   "line_end": 226,
+   "type": "fit",
+   "title": "Systematic uncertainty sources"
+  },
+  {
+   "line_start": 228,
+   "line_end": 229,
+   "type": "fit",
+   "title": "Figure 3"
+  },
+  {
+   "line_start": 231,
+   "line_end": 231,
+   "type": "results",
+   "title": "Fit results",
+   "units": [
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "fit_results"
+    }
+   ]
+  },
+  {
+   "line_start": 233,
+   "line_end": 233,
+   "type": "results",
+   "title": "Comparison with theory",
+   "units": [
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "comparison_with_theory"
+    }
+   ]
+  },
+  {
+   "line_start": 235,
+   "line_end": 235,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 237,
+   "line_end": 239,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 12.4,
+ "status": "invalid",
+ "errors": [
+  "[sections] 41 sections — sections were used where units belong",
+  "[tables] unannotated tables at [305, 311, 315]"
+ ],
+ "warnings": [
+  "units of 164-164 share boundary line 164",
+  "units of 164-164 share boundary line 164",
+  "units of 164-164 share boundary line 164",
+  "units of 164-164 share boundary line 164",
+  "units of 164-164 share boundary line 164",
+  "units of 164-164 share boundary line 164",
+  "units of 164-164 share boundary line 164"
+ ],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": [
+  "sections",
+  "tables"
+ ]
+}

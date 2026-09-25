@@ -1,0 +1,237 @@
+{
+ "paper_id": "2502.13540v3",
+ "source_path": "arxiv_papers/2502.13540v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 527,
+ "n_lines_sent": 195,
+ "skipped_ranges": [
+  {
+   "from": 325,
+   "to": 527,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 8,
+   "line_end": 8,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 9,
+   "line_end": 26,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 27,
+   "line_end": 36,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 37,
+   "line_end": 42,
+   "type": "detector",
+   "title": "2 Detector and data samples"
+  },
+  {
+   "line_start": 43,
+   "line_end": 61,
+   "type": "event_selection",
+   "title": "3 Event selection and background study",
+   "units": [
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 56,
+     "line_end": 58,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 62,
+   "line_end": 224,
+   "type": "fit",
+   "title": "4 Amplitude analysis"
+  },
+  {
+   "line_start": 225,
+   "line_end": 246,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "hadron_scale"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "mass_calibration"
+    },
+    {
+     "line_start": 235,
+     "line_end": 235,
+     "label": "mass_cut"
+    },
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "additional_poles"
+    },
+    {
+     "line_start": 245,
+     "line_end": 245,
+     "label": "p_vector_background"
+    }
+   ]
+  },
+  {
+   "line_start": 247,
+   "line_end": 295,
+   "type": "results",
+   "title": "6 The branching fractions of individual poles",
+   "units": [
+    {
+     "line_start": 249,
+     "line_end": 275,
+     "label": "branching_fraction_formalism"
+    },
+    {
+     "line_start": 277,
+     "line_end": 283,
+     "label": "total_branching_fraction"
+    },
+    {
+     "line_start": 285,
+     "line_end": 285,
+     "label": "psi3686_number"
+    },
+    {
+     "line_start": 286,
+     "line_end": 286,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 287,
+     "line_end": 287,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 288,
+     "line_end": 288,
+     "label": "mc_statistic"
+    },
+    {
+     "line_start": 289,
+     "line_end": 289,
+     "label": "helix_correction"
+    },
+    {
+     "line_start": 290,
+     "line_end": 290,
+     "label": "quoted_ks0_branching_fraction"
+    },
+    {
+     "line_start": 292,
+     "line_end": 294,
+     "label": "final_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 296,
+   "line_end": 318,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 319,
+   "line_end": 324,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 145,
+   "title": "Models with added poles, log-likelihood and significance",
+   "section_type": "fit"
+  },
+  {
+   "line": 183,
+   "title": "Pole positions and squared residues",
+   "section_type": "fit"
+  },
+  {
+   "line": 243,
+   "title": "Systematic uncertainties for pole positions and residues",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 313,
+   "title": "Pole positions compared with PDG and J/psi results",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 317,
+   "title": "Residues and branching fractions of individual poles",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 43-61 before line 45",
+  "gap in 43-61 before line 54",
+  "gap in 225-246 before line 229",
+  "gap in 225-246 before line 245",
+  "gap in 247-295 before line 249"
+ ],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": [],
+ "units_repaired": true
+}

@@ -1,0 +1,212 @@
+{
+ "paper_id": "2011.13850v2",
+ "source_path": "arxiv_papers/2011.13850v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 443,
+ "n_lines_sent": 234,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 390,
+   "to": 443,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 204,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and PACS"
+  },
+  {
+   "line_start": 206,
+   "line_end": 208,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 210,
+   "line_end": 218,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 220,
+   "line_end": 226,
+   "type": "detector",
+   "title": "A. Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 228,
+   "line_end": 236,
+   "type": "event_selection",
+   "title": "B. Data Analysis",
+   "units": [
+    {
+     "line_start": 228,
+     "line_end": 230,
+     "label": "data_sets_and_track_selection"
+    },
+    {
+     "line_start": 232,
+     "line_end": 234,
+     "label": "pi0_eta_ks0_reconstruction"
+    },
+    {
+     "line_start": 236,
+     "line_end": 236,
+     "label": "vertex_and_kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 238,
+   "line_end": 266,
+   "type": "fit",
+   "title": "C. Cross Section and Upper-Limit Determination"
+  },
+  {
+   "line_start": 268,
+   "line_end": 332,
+   "type": "systematic_uncertainty",
+   "title": "D. Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 268,
+     "line_end": 272,
+     "label": "overview"
+    },
+    {
+     "line_start": 274,
+     "line_end": 280,
+     "label": "tracking_pid_photon_pi0_eta_ks0_reconstruction"
+    },
+    {
+     "line_start": 282,
+     "line_end": 298,
+     "label": "eta_c_branching_ratios"
+    },
+    {
+     "line_start": 300,
+     "line_end": 300,
+     "label": "eta_c_parameters"
+    },
+    {
+     "line_start": 302,
+     "line_end": 302,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 304,
+     "line_end": 306,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 308,
+     "line_end": 308,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 310,
+     "line_end": 310,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 312,
+     "line_end": 318,
+     "label": "systematic_uncertainty_inclusion"
+    },
+    {
+     "line_start": 320,
+     "line_end": 332,
+     "label": "isr_and_vacuum_polarization"
+    }
+   ]
+  },
+  {
+   "line_start": 334,
+   "line_end": 336,
+   "type": "other",
+   "title": "Table IV caption"
+  },
+  {
+   "line_start": 338,
+   "line_end": 384,
+   "type": "conclusion",
+   "title": "E. Summary and Results"
+  },
+  {
+   "line_start": 386,
+   "line_end": 388,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 250,
+   "title": "Integrated luminosity and efficiency times branching ratio",
+   "section_type": "dataset"
+  },
+  {
+   "line": 292,
+   "title": "Observed cross sections and upper limits",
+   "section_type": "results"
+  },
+  {
+   "line": 296,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 334,
+   "title": "Vacuum polarization and ISR corrections",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

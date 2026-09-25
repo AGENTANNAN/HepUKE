@@ -1,0 +1,219 @@
+{
+ "paper_id": "1310.6099v2",
+ "source_path": "arxiv_papers/1310.6099v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 194,
+ "n_lines_sent": 114,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 107,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": 109,
+   "line_end": 113,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 115,
+   "line_end": 121,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 123,
+   "line_end": 127,
+   "type": "detector",
+   "title": "II. EXPERIMENT AND DATA SETS"
+  },
+  {
+   "line_start": 129,
+   "line_end": 150,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 129,
+     "line_end": 131,
+     "label": "track_selection_and_pid"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "kinematic_fit_and_candidate_selection"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "background_gamma_pp"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "background_pi0_pp"
+    },
+    {
+     "line_start": 141,
+     "line_end": 142,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 144,
+     "line_end": 145,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "background_pi0_hc"
+    },
+    {
+     "line_start": 149,
+     "line_end": 150,
+     "label": "figure_3"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 164,
+   "type": "fit",
+   "title": "IV. DETERMINATION OF YIELDS"
+  },
+  {
+   "line_start": 166,
+   "line_end": 176,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 166,
+     "line_end": 168,
+     "label": "tracking_pid_photon_kinematic_fit"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "fit_procedure_eta_c2s_chi_cj"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "fit_procedure_hc"
+    },
+    {
+     "line_start": 174,
+     "line_end": 176,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 178,
+   "line_end": 188,
+   "type": "results",
+   "title": "VI. RESULTS AND DISCUSSION",
+   "units": [
+    {
+     "line_start": 178,
+     "line_end": 180,
+     "label": "product_branching_fractions_and_upper_limits"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "branching_fractions_eta_c2s_and_hc"
+    },
+    {
+     "line_start": 184,
+     "line_end": 186,
+     "label": "results_table"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "summary_and_discussion"
+    }
+   ]
+  },
+  {
+   "line_start": 190,
+   "line_end": 192,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 194,
+   "line_end": 194,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 176,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 186,
+   "title": "Selection efficiencies, signal yields and branching fractions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

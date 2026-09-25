@@ -1,0 +1,168 @@
+{
+ "paper_id": "2412.10803v1",
+ "source_path": "arxiv_papers/2412.10803v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 333,
+ "n_lines_sent": 111,
+ "skipped_ranges": [
+  {
+   "from": 194,
+   "to": 333,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Study of the semileptonic decay D0 -> K0bar pi- e+ nu_e"
+  },
+  {
+   "line_start": 9,
+   "line_end": 9,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 11,
+   "line_end": 23,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 25,
+   "line_end": 31,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 33,
+   "line_end": 33,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 35,
+   "line_end": 35,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 37,
+   "line_end": 74,
+   "type": "event_selection",
+   "title": "3 Event selection and data analysis",
+   "units": [
+    {
+     "line_start": 37,
+     "line_end": 53,
+     "label": "st_dt_formalism"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "photon_and_pi0"
+    },
+    {
+     "line_start": 59,
+     "line_end": 65,
+     "label": "mbc_and_deltae"
+    },
+    {
+     "line_start": 66,
+     "line_end": 74,
+     "label": "st_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 76,
+   "line_end": 90,
+   "type": "results",
+   "title": "4 Branching fraction for D0 -> K0bar pi- e+ nu_e",
+   "units": [
+    {
+     "line_start": 76,
+     "line_end": 79,
+     "label": "sl_candidate_selection"
+    },
+    {
+     "line_start": 80,
+     "line_end": 87,
+     "label": "u_miss_definition"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "dt_yield_fit"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "branching_fraction_result"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "systematic_uncertainties_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 92,
+   "line_end": 161,
+   "type": "fit",
+   "title": "5 Decay rate formalism for D0 -> K0bar pi- e+ nu_e"
+  },
+  {
+   "line_start": 163,
+   "line_end": 183,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 185,
+   "line_end": 192,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 71,
+   "title": "Selection requirements, ST yields, and ST/DT efficiencies for the three tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 145,
+   "title": "Fit results for the form-factor parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 149,
+   "title": "Systematic uncertainties on the fitted parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 181,
+   "title": "Comparisons of measured BF and form-factor parameters with theoretical calculations",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 8.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

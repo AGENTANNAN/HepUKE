@@ -1,0 +1,210 @@
+{
+ "paper_id": "2503.02196v2",
+ "source_path": "arxiv_papers/2503.02196v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 523,
+ "n_lines_sent": 190,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 292,
+   "to": 523,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 150,
+   "type": "front_matter",
+   "title": "First Measurement of the Decay Dynamics in the Semileptonic Transition of the D+(0) into the Axial-vector Meson K1(1270)"
+  },
+  {
+   "line_start": 151,
+   "line_end": 151,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 153,
+   "line_end": 161,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 163,
+   "line_end": 163,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 165,
+   "line_end": 185,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 167,
+     "line_end": 171,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 173,
+     "line_end": 175,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 177,
+     "line_end": 179,
+     "label": "positron_identification"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "missing_mass_variable"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "signal_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 187,
+   "line_end": 192,
+   "type": "results",
+   "title": "Signal Yields and Branching Fractions",
+   "units": [
+    {
+     "line_start": 187,
+     "line_end": 188,
+     "label": "umiss_fit_projections"
+    },
+    {
+     "line_start": 190,
+     "line_end": 192,
+     "label": "signal_yields_efficiencies_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 194,
+   "line_end": 273,
+   "type": "fit",
+   "title": "Amplitude Analysis"
+  },
+  {
+   "line_start": 275,
+   "line_end": 277,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "branching_fraction_systematics"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "amplitude_analysis_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 279,
+   "line_end": 286,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 288,
+   "line_end": 290,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 192,
+   "title": "Fitted signal yields, efficiencies and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 269,
+   "title": "Fitted parameters and fit fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 415,
+   "title": "Delta E requirements, ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 475,
+   "title": "Covariant tensor amplitudes of decay processes",
+   "section_type": "fit"
+  },
+  {
+   "line": 517,
+   "title": "Systematic uncertainties for fitted parameters and fit fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

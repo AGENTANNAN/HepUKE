@@ -1,0 +1,283 @@
+{
+ "paper_id": "2601.07617v1",
+ "source_path": "arxiv_papers/2601.07617v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 495,
+ "n_lines_sent": 221,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 131,
+   "to": 131,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 137,
+   "to": 137,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 147,
+   "to": 147,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 149,
+   "to": 149,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 151,
+   "to": 151,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 159,
+   "to": 159,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 161,
+   "to": 161,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 427,
+   "to": 495,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Title and author list"
+  },
+  {
+   "line_start": 11,
+   "line_end": 163,
+   "type": "front_matter",
+   "title": "Affiliations and footnotes"
+  },
+  {
+   "line_start": 163,
+   "line_end": 163,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 165,
+   "line_end": 173,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 175,
+   "line_end": 181,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 183,
+   "line_end": 209,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 183,
+     "line_end": 187,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 189,
+     "line_end": 195,
+     "label": "lambda_reconstruction_and_kinematic_fit"
+    },
+    {
+     "line_start": 197,
+     "line_end": 209,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 211,
+   "line_end": 213,
+   "type": "fit",
+   "title": "IV. PARTIAL WAVE ANALYSIS"
+  },
+  {
+   "line_start": 215,
+   "line_end": 328,
+   "type": "fit",
+   "title": "A. Analysis method"
+  },
+  {
+   "line_start": 330,
+   "line_end": 352,
+   "type": "fit",
+   "title": "B. PWA results"
+  },
+  {
+   "line_start": 354,
+   "line_end": 375,
+   "type": "fit",
+   "title": "C. Branching fraction measurement of J/psi -> Lambda Sigma0 eta"
+  },
+  {
+   "line_start": 377,
+   "line_end": 415,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 377,
+     "line_end": 381,
+     "label": "introduction"
+    },
+    {
+     "line_start": 383,
+     "line_end": 387,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 389,
+     "line_end": 389,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 391,
+     "line_end": 391,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 393,
+     "line_end": 393,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 395,
+     "line_end": 395,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 397,
+     "line_end": 397,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 399,
+     "line_end": 399,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 401,
+     "line_end": 403,
+     "label": "pwa_introduction"
+    },
+    {
+     "line_start": 405,
+     "line_end": 405,
+     "label": "extra_resonances"
+    },
+    {
+     "line_start": 407,
+     "line_end": 407,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 409,
+     "line_end": 411,
+     "label": "mass_resolution"
+    },
+    {
+     "line_start": 413,
+     "line_end": 413,
+     "label": "resonance_parameterization"
+    },
+    {
+     "line_start": 415,
+     "line_end": 415,
+     "label": "resonance_parameterization"
+    }
+   ]
+  },
+  {
+   "line_start": 417,
+   "line_end": 419,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 421,
+   "line_end": 423,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 425,
+   "line_end": 425,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 328,
+   "title": "Possible intermediate Lambda* states (PDG)",
+   "section_type": "fit"
+  },
+  {
+   "line": 371,
+   "title": "Resonant parameters, fitted fractions and detection efficiencies",
+   "section_type": "fit"
+  },
+  {
+   "line": 375,
+   "title": "Signal yields, detection efficiencies and branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 385,
+   "title": "Systematic uncertainties in the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 411,
+   "title": "Systematic uncertainties of masses, widths and fitted fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 11-163 / 163-163"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

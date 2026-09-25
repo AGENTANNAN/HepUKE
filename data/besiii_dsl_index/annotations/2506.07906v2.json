@@ -1,0 +1,190 @@
+{
+ "paper_id": "2506.07906v2",
+ "source_path": "arxiv_papers/2506.07906v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 385,
+ "n_lines_sent": 229,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 345,
+   "to": 385,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 223,
+   "type": "front_matter",
+   "title": "First observation of quantum correlations in $e^+e^- \\to X D \\bar{D}$ and $C$-even constrained $DD$ pairs"
+  },
+  {
+   "line_start": 225,
+   "line_end": 225,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 227,
+   "line_end": 233,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 235,
+   "line_end": 235,
+   "type": "detector",
+   "title": "The BESIII detector"
+  },
+  {
+   "line_start": 237,
+   "line_end": 239,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 241,
+   "line_end": 267,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 241,
+     "line_end": 247,
+     "label": "production_mechanisms_and_coherence_factor"
+    },
+    {
+     "line_start": 249,
+     "line_end": 265,
+     "label": "kinematic_variables_and_selection"
+    },
+    {
+     "line_start": 267,
+     "line_end": 267,
+     "label": "evidence_of_correlations"
+    }
+   ]
+  },
+  {
+   "line_start": 269,
+   "line_end": 272,
+   "type": "results",
+   "title": "Figure 1",
+   "units": [
+    {
+     "line_start": 269,
+     "line_end": 272,
+     "label": "figure_1"
+    }
+   ]
+  },
+  {
+   "line_start": 274,
+   "line_end": 298,
+   "type": "fit",
+   "title": "Unfolding and coherence factor fit"
+  },
+  {
+   "line_start": 300,
+   "line_end": 305,
+   "type": "results",
+   "title": "Measurement of $\\delta_{K\\pi}^D$",
+   "units": [
+    {
+     "line_start": 300,
+     "line_end": 305,
+     "label": "procedure_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 307,
+   "line_end": 319,
+   "type": "fit",
+   "title": "Determination of $\\delta_{K\\pi}^D$"
+  },
+  {
+   "line_start": 321,
+   "line_end": 323,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 321,
+     "line_end": 323,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 325,
+   "line_end": 337,
+   "type": "discussion",
+   "title": "Discussion and future prospects"
+  },
+  {
+   "line_start": 339,
+   "line_end": 341,
+   "type": "conclusion",
+   "title": "Conclusion"
+  },
+  {
+   "line_start": 343,
+   "line_end": 343,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 286,
+   "title": "List of examined $D\\bar{D}$ final states and their expected $CP$ eigenvalues",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 298,
+   "title": "Coherence factors determined by fit",
+   "section_type": "fit"
+  },
+  {
+   "line": 335,
+   "title": "Projected statistical sensitivity to charm-mixing parameters",
+   "section_type": "discussion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

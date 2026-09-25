@@ -1,0 +1,222 @@
+{
+ "paper_id": "2308.08161v2",
+ "source_path": "arxiv_papers/2308.08161v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 270,
+ "n_lines_sent": 115,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 63,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 65,
+   "to": 70,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 223,
+   "to": 270,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 72,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 74,
+   "line_end": 74,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 76,
+   "line_end": 82,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 84,
+   "line_end": 90,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 92,
+   "line_end": 119,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 92,
+     "line_end": 94,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "phi_mass_window"
+    },
+    {
+     "line_start": 104,
+     "line_end": 119,
+     "label": "isr_background_rejection"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 140,
+   "type": "fit",
+   "title": "IV. BORN CROSS SECTION"
+  },
+  {
+   "line_start": 142,
+   "line_end": 184,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 144,
+     "label": "overview"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 148,
+     "line_end": 160,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "phi_mass_window"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "theta_gamma_gamma_window"
+    },
+    {
+     "line_start": 168,
+     "line_end": 174,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "integrated_luminosity"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "total_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 186,
+   "line_end": 206,
+   "type": "fit",
+   "title": "VI. CROSS SECTION FOR Y(4230)/Y(4360) -> eta phi"
+  },
+  {
+   "line_start": 208,
+   "line_end": 210,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 212,
+   "line_end": 221,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 172,
+   "title": "Number of events, luminosity, efficiency, radiative correction factor, Born cross section and significance at each center-of-mass energy",
+   "section_type": "fit"
+  },
+  {
+   "line": 204,
+   "title": "Relative systematic uncertainties on the Born cross section measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

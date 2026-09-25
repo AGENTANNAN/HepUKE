@@ -1,0 +1,164 @@
+{
+ "paper_id": "2302.13568v2",
+ "source_path": "arxiv_papers/2302.13568v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 291,
+ "n_lines_sent": 169,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 257,
+   "to": 291,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 29,
+   "line_end": 128,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 129,
+   "line_end": 129,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 131,
+   "line_end": 141,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 143,
+   "line_end": 159,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 161,
+   "line_end": 191,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 163,
+     "line_end": 169,
+     "label": "st_sigma_selection"
+    },
+    {
+     "line_start": 171,
+     "line_end": 176,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "dt_5c_kinematic_fit"
+    },
+    {
+     "line_start": 180,
+     "line_end": 182,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "proton_momentum_distribution"
+    },
+    {
+     "line_start": 186,
+     "line_end": 191,
+     "label": "dt_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 193,
+   "line_end": 224,
+   "type": "fit",
+   "title": "Angular analysis and fit"
+  },
+  {
+   "line_start": 226,
+   "line_end": 232,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 226,
+     "line_end": 228,
+     "label": "bf_systematics"
+    },
+    {
+     "line_start": 230,
+     "line_end": 232,
+     "label": "alpha_gamma_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 234,
+   "line_end": 244,
+   "type": "results",
+   "title": "CP violation results",
+   "units": [
+    {
+     "line_start": 234,
+     "line_end": 244,
+     "label": "cp_asymmetry"
+    }
+   ]
+  },
+  {
+   "line_start": 246,
+   "line_end": 251,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 253,
+   "line_end": 255,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 213,
+   "title": "ST and DT yields, efficiencies, branching fractions and decay asymmetry parameters",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

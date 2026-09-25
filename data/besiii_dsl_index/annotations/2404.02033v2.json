@@ -1,0 +1,289 @@
+{
+ "paper_id": "2404.02033v2",
+ "source_path": "arxiv_papers/2404.02033v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 467,
+ "n_lines_sent": 246,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 63,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 73,
+   "to": 74,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 132,
+   "to": 132,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 136,
+   "to": 136,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 191,
+   "to": 191,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 204,
+   "to": 204,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 208,
+   "to": 208,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 410,
+   "to": 467,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": "0002",
+   "line_end": "0218",
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": "0219",
+   "line_end": "0221",
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": "0223",
+   "line_end": "0245",
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": "0247",
+   "line_end": "0257",
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": "0259",
+   "line_end": "0273",
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND STUDY",
+   "units": [
+    {
+     "line_start": "0259",
+     "line_end": "0261",
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": "0263",
+     "line_end": "0263",
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": "0265",
+     "line_end": "0265",
+     "label": "photon_selection"
+    },
+    {
+     "line_start": "0267",
+     "line_end": "0267",
+     "label": "ds_reconstruction"
+    },
+    {
+     "line_start": "0269",
+     "line_end": "0271",
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": "0273",
+     "line_end": "0273",
+     "label": "background_suppression_and_recoil_mass"
+    }
+   ]
+  },
+  {
+   "line_start": "0275",
+   "line_end": "0305",
+   "type": "fit",
+   "title": "IV. SIGNAL YIELD EXTRACTION"
+  },
+  {
+   "line_start": "0307",
+   "line_end": "0321",
+   "type": "results",
+   "title": "V. CROSS SECTION CALCULATION",
+   "units": [
+    {
+     "line_start": "0307",
+     "line_end": "0315",
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": "0317",
+     "line_end": "0321",
+     "label": "upper_limits_and_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": "0323",
+   "line_end": "0385",
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTY ESTIMATION",
+   "units": [
+    {
+     "line_start": "0323",
+     "line_end": "0327",
+     "label": "luminosity"
+    },
+    {
+     "line_start": "0328",
+     "line_end": "0328",
+     "label": "tracking"
+    },
+    {
+     "line_start": "0329",
+     "line_end": "0329",
+     "label": "pid"
+    },
+    {
+     "line_start": "0330",
+     "line_end": "0330",
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": "0331",
+     "line_end": "0346",
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": "0348",
+     "line_end": "0348",
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": "0349",
+     "line_end": "0361",
+     "label": "ds_and_dsstar_mass_window"
+    },
+    {
+     "line_start": "0363",
+     "line_end": "0370",
+     "label": "isr_correction_factor"
+    },
+    {
+     "line_start": "0372",
+     "line_end": "0372",
+     "label": "efficiency_curve_parameters"
+    },
+    {
+     "line_start": "0373",
+     "line_end": "0375",
+     "label": "efficiency_curve_parametrization"
+    },
+    {
+     "line_start": "0377",
+     "line_end": "0377",
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": "0379",
+     "line_end": "0385",
+     "label": "fit_models"
+    }
+   ]
+  },
+  {
+   "line_start": "0387",
+   "line_end": "0397",
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": "0399",
+   "line_end": "0408",
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": "0235",
+   "title": "Predicted masses, widths, partial widths and quantum numbers of the six C-even states",
+   "section_type": "introduction"
+  },
+  {
+   "line": "0353",
+   "title": "Product of upper limits of Born cross section and branching fraction at 90% C.L. for each candidate C-even state",
+   "section_type": "results"
+  },
+  {
+   "line": "0357",
+   "title": "Summary of systematic uncertainties for the Born cross section measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

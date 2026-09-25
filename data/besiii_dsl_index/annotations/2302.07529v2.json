@@ -1,0 +1,236 @@
+{
+ "paper_id": "2302.07529v2",
+ "source_path": "arxiv_papers/2302.07529v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 301,
+ "n_lines_sent": 189,
+ "skipped_ranges": [
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 70,
+   "to": 70,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 102,
+   "to": 103,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 114,
+   "to": 114,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 127,
+   "to": 127,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 260,
+   "to": 301,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 130,
+   "type": "front_matter",
+   "title": "Search for the semi-leptonic decays ..."
+  },
+  {
+   "line_start": 132,
+   "line_end": 136,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 138,
+   "line_end": 148,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 150,
+   "line_end": 158,
+   "type": "detector",
+   "title": "2. BESIII experiment and Monte Carlo simulation"
+  },
+  {
+   "line_start": 160,
+   "line_end": 199,
+   "type": "event_selection",
+   "title": "3. Event selection",
+   "units": [
+    {
+     "line_start": 160,
+     "line_end": 162,
+     "label": "double_tag_technique"
+    },
+    {
+     "line_start": 164,
+     "line_end": 170,
+     "label": "st_modes_and_bf_formula"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "signal_track_selection"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "pid"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "lambda_ks_reconstruction"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "u_miss"
+    },
+    {
+     "line_start": 182,
+     "line_end": 184,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 186,
+     "line_end": 189,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 191,
+     "line_end": 199,
+     "label": "figures_and_tables"
+    }
+   ]
+  },
+  {
+   "line_start": 201,
+   "line_end": 231,
+   "type": "systematic_uncertainty",
+   "title": "4. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 201,
+     "line_end": 207,
+     "label": "overview_and_table"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "number_of_st_lambdac"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "b_inter"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "p_tracking_pid"
+    },
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "pi_tracking_pid"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "e_tracking"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "e_pid"
+    },
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 227,
+     "line_end": 229,
+     "label": "cos_theta_requirements_fsr"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "signal_model"
+    }
+   ]
+  },
+  {
+   "line_start": 233,
+   "line_end": 248,
+   "type": "fit",
+   "title": "5. BF upper limits"
+  },
+  {
+   "line_start": 250,
+   "line_end": 252,
+   "type": "conclusion",
+   "title": "6. Summary"
+  },
+  {
+   "line_start": 254,
+   "line_end": 258,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 148,
+   "title": "Theoretical predictions for BFs of Lambda_c+ -> Lambda* e+ nu_e",
+   "section_type": "introduction"
+  },
+  {
+   "line": 196,
+   "title": "Numbers of observed events, efficiencies, backgrounds and upper limits",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 207,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

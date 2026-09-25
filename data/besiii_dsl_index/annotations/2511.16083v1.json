@@ -1,0 +1,175 @@
+{
+ "paper_id": "2511.16083v1",
+ "source_path": "arxiv_papers/2511.16083v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 340,
+ "n_lines_sent": 90,
+ "skipped_ranges": [
+  {
+   "from": 162,
+   "to": 340,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 23,
+   "type": "front_matter",
+   "title": "Search for the charmonium weak decay"
+  },
+  {
+   "line_start": 25,
+   "line_end": 40,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 42,
+   "line_end": 50,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 52,
+   "line_end": 80,
+   "type": "event_selection",
+   "title": "3 Event selection and data analysis",
+   "units": [
+    {
+     "line_start": 52,
+     "line_end": 54,
+     "label": "overview"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "tracking"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "pid"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 62,
+     "line_end": 68,
+     "label": "missing_momentum"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "kstar_reconstruction"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "efficiency_background"
+    },
+    {
+     "line_start": 74,
+     "line_end": 80,
+     "label": "figures"
+    }
+   ]
+  },
+  {
+   "line_start": 82,
+   "line_end": 130,
+   "type": "fit",
+   "title": "4 Result"
+  },
+  {
+   "line_start": 132,
+   "line_end": 152,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 132,
+     "line_end": 134,
+     "label": "overview"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 138,
+     "line_end": 140,
+     "label": "table"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "decay_model"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "bf_intermediate"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "njpsi"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "signal_mc_statistics"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "mkpi_requirement"
+    }
+   ]
+  },
+  {
+   "line_start": 154,
+   "line_end": 156,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 158,
+   "line_end": 160,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 37,
+   "title": "Experimental results and SM predictions for the BFs of J/psi weak decays",
+   "section_type": "introduction"
+  },
+  {
+   "line": 140,
+   "title": "All systematic uncertainties in the measurement of the BF of the J/psi -> D0 K*0 decay",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 3.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

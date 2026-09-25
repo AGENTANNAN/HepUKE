@@ -1,0 +1,191 @@
+{
+ "paper_id": "1810.03127v2",
+ "source_path": "arxiv_papers/1810.03127v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 309,
+ "n_lines_sent": 152,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 233,
+   "to": 309,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 100,
+   "type": "front_matter",
+   "title": "Study of the D0 -> K- mu+ nu_mu dynamics and test of lepton flavor universality with D0 -> K- l+ nu_l decays"
+  },
+  {
+   "line_start": 102,
+   "line_end": 104,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 106,
+   "line_end": 110,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 112,
+   "line_end": 112,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 114,
+   "line_end": 120,
+   "type": "dataset",
+   "title": "Dataset and Analysis Method"
+  },
+  {
+   "line_start": 122,
+   "line_end": 144,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 126,
+     "line_end": 127,
+     "label": "figure_st_fits"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "dt_selection"
+    },
+    {
+     "line_start": 131,
+     "line_end": 140,
+     "label": "u_miss_definition"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "dt_yield_fit"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 146,
+   "line_end": 154,
+   "type": "results",
+   "title": "Branching Fraction Results",
+   "units": [
+    {
+     "line_start": 146,
+     "line_end": 150,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "cp_asymmetry"
+    }
+   ]
+  },
+  {
+   "line_start": 156,
+   "line_end": 222,
+   "type": "fit",
+   "title": "Form Factor Fit"
+  },
+  {
+   "line_start": 224,
+   "line_end": 227,
+   "type": "results",
+   "title": "Lepton Flavor Universality Test",
+   "units": [
+    {
+     "line_start": 224,
+     "line_end": 225,
+     "label": "figure_r_mu_e"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "r_mu_e_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 229,
+   "line_end": 229,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 231,
+   "line_end": 231,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 160,
+   "title": "Delta E and M_BC requirements, ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 297,
+   "title": "Weighted efficiency matrix for all three single tag modes",
+   "section_type": "fit"
+  },
+  {
+   "line": 301,
+   "title": "PDR of D0 -> K- mu+ nu_mu and R_mu/e in each q2 bin",
+   "section_type": "results"
+  },
+  {
+   "line": 305,
+   "title": "Statistical covariance density matrix for measured PDRs",
+   "section_type": "fit"
+  },
+  {
+   "line": 309,
+   "title": "Systematic covariance density matrix for measured PDRs",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

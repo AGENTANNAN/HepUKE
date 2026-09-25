@@ -1,0 +1,249 @@
+{
+ "paper_id": "1903.05375v1",
+ "source_path": "arxiv_papers/1903.05375v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 290,
+ "n_lines_sent": 130,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 264,
+   "to": 290,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 30,
+   "type": "front_matter",
+   "title": "Measurements of the branching fractions of eta_c decays"
+  },
+  {
+   "line_start": 32,
+   "line_end": 42,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 44,
+   "line_end": 66,
+   "type": "fit",
+   "title": "II. METHODOLOGY"
+  },
+  {
+   "line_start": 68,
+   "line_end": 76,
+   "type": "detector",
+   "title": "III. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 78,
+   "line_end": 102,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTIONS",
+   "units": [
+    {
+     "line_start": 78,
+     "line_end": 80,
+     "label": "inclusive_selection_overview"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "vertex_fit_pid"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "inclusive_recoil_mass_selection"
+    },
+    {
+     "line_start": 94,
+     "line_end": 102,
+     "label": "exclusive_selection_kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 104,
+   "line_end": 127,
+   "type": "fit",
+   "title": "V. NUMERICAL RESULTS OF BF(eta_c -> X)"
+  },
+  {
+   "line_start": 129,
+   "line_end": 152,
+   "type": "results",
+   "title": "VI. CHARGED TRACK MULTIPLICITY OF eta_c INCLUSIVE DECAYS",
+   "units": [
+    {
+     "line_start": 129,
+     "line_end": 137,
+     "label": "unfolding_method"
+    },
+    {
+     "line_start": 139,
+     "line_end": 152,
+     "label": "multiplicity_results"
+    }
+   ]
+  },
+  {
+   "line_start": 154,
+   "line_end": 228,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 154,
+     "line_end": 158,
+     "label": "overview"
+    },
+    {
+     "line_start": 160,
+     "line_end": 164,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 166,
+     "line_end": 168,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 170,
+     "line_end": 172,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 174,
+     "line_end": 176,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 178,
+     "line_end": 190,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 192,
+     "line_end": 194,
+     "label": "hc_mass_window"
+    },
+    {
+     "line_start": 196,
+     "line_end": 210,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 212,
+     "line_end": 214,
+     "label": "multiplicity_overview"
+    },
+    {
+     "line_start": 216,
+     "line_end": 218,
+     "label": "multiplicity_tracking_pid"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "multiplicity_hc_mass_window"
+    },
+    {
+     "line_start": 222,
+     "line_end": 224,
+     "label": "multiplicity_mc_model"
+    },
+    {
+     "line_start": 226,
+     "line_end": 228,
+     "label": "multiplicity_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 230,
+   "line_end": 238,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 240,
+   "line_end": 262,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 98,
+   "title": "Requirements of the number of photons, charged tracks, pi0, and KS0 candidates in exclusive eta_c decay modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 102,
+   "title": "The requirements of chi2_4C for the exclusive decays of eta_c",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 147,
+   "title": "Detection efficiencies, observed signal events, and fitted BFs for eta_c inclusive and exclusive decays",
+   "section_type": "results"
+  },
+  {
+   "line": 246,
+   "title": "The normalized multiplicity of eta_c at production level with systematic uncertainties",
+   "section_type": "results"
+  },
+  {
+   "line": 250,
+   "title": "Relative systematic uncertainties in the branching fractions for the different final states of eta_c decays",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 254,
+   "title": "Systematic uncertainties in the multiplicity of eta_c",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 258,
+   "title": "Measured BFs of eta_c decays with statistical and systematic uncertainties",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 6.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

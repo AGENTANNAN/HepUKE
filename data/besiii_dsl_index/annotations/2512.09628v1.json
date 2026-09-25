@@ -1,0 +1,241 @@
+{
+ "paper_id": "2512.09628v1",
+ "source_path": "arxiv_papers/2512.09628v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 407,
+ "n_lines_sent": 219,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 333,
+   "to": 407,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 16,
+   "line_end": 184,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 184,
+   "line_end": 184,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 186,
+   "line_end": 214,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 216,
+   "line_end": 218,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 220,
+   "line_end": 224,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "tracking"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "st_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 226,
+   "line_end": 256,
+   "type": "fit",
+   "title": "Fit and branching fraction determination"
+  },
+  {
+   "line_start": 258,
+   "line_end": 282,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 258,
+     "line_end": 260,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 264,
+     "line_end": 270,
+     "label": "tables"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 274,
+     "line_end": 276,
+     "label": "dt_peaking_bkg"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "mc_generator_statistics"
+    },
+    {
+     "line_start": 282,
+     "line_end": 282,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 284,
+   "line_end": 302,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 304,
+   "line_end": 311,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 313,
+   "line_end": 331,
+   "type": "other",
+   "title": "Appendix"
+  }
+ ],
+ "tables": [
+  {
+   "line": 266,
+   "title": "ST and DT yields, efficiencies and branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 270,
+   "title": "Relative systematic uncertainties of BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 290,
+   "title": "Measured BFs and ratio compared with PDG",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 373,
+   "title": "Current PDG data on alpha and B and extracted A, B",
+   "section_type": "other"
+  },
+  {
+   "line": 377,
+   "title": "Updated alpha and B for Sigma+ and extracted A, B",
+   "section_type": "other"
+  },
+  {
+   "line": 407,
+   "title": "Measured S-wave and P-wave amplitudes vs theory",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 16-184 / 184-184"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

@@ -1,0 +1,208 @@
+{
+ "paper_id": "2005.05850v1",
+ "source_path": "arxiv_papers/2005.05850v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 317,
+ "n_lines_sent": 168,
+ "skipped_ranges": [
+  {
+   "from": 5,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 149,
+   "to": 149,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 279,
+   "to": 317,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 150,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 152,
+   "line_end": 154,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 156,
+   "line_end": 164,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 166,
+   "line_end": 170,
+   "type": "detector",
+   "title": "II. DETECTOR, DATA SAMPLES AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 172,
+   "line_end": 178,
+   "type": "dataset",
+   "title": "Data samples and Monte Carlo simulations"
+  },
+  {
+   "line_start": 180,
+   "line_end": 188,
+   "type": "event_selection",
+   "title": "III. COMMON SELECTION CRITERIA",
+   "units": [
+    {
+     "line_start": 180,
+     "line_end": 182,
+     "label": "partial_reconstruction"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "d_s_submode_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 190,
+   "line_end": 225,
+   "type": "fit",
+   "title": "IV. MEASUREMENT OF e+e- -> Ds+ Ds1(2460)-"
+  },
+  {
+   "line_start": 227,
+   "line_end": 248,
+   "type": "fit",
+   "title": "V. MEASUREMENT OF e+e- -> Ds*+ Ds1(2460)-"
+  },
+  {
+   "line_start": 250,
+   "line_end": 266,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 250,
+     "line_end": 252,
+     "label": "overview"
+    },
+    {
+     "line_start": 254,
+     "line_end": 254,
+     "label": "multiplicative_systematics"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "additive_systematics"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "upper_limit_treatment"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "table_ii_caption"
+    },
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 264,
+     "line_end": 264,
+     "label": "table_iii_caption"
+    },
+    {
+     "line_start": 266,
+     "line_end": 266,
+     "label": "table_iii"
+    }
+   ]
+  },
+  {
+   "line_start": 268,
+   "line_end": 273,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 275,
+   "line_end": 277,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 248,
+   "title": "Summary of Born cross section measurements",
+   "section_type": "fit"
+  },
+  {
+   "line": 262,
+   "title": "Systematic uncertainties for significant energy points",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 266,
+   "title": "Multiplicative systematic uncertainties for low-significance points",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

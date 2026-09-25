@@ -1,0 +1,176 @@
+{
+ "paper_id": "1803.05706v1",
+ "source_path": "arxiv_papers/1803.05706v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 132,
+ "n_lines_sent": 49,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 112,
+   "to": 132,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 17,
+   "line_end": 32,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 30,
+   "line_end": 30,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 34,
+   "line_end": 38,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 40,
+   "line_end": 42,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 44,
+   "line_end": 68,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 44,
+     "line_end": 44,
+     "label": "tag_mode_selection"
+    },
+    {
+     "line_start": 46,
+     "line_end": 60,
+     "label": "signal_yield_formula"
+    },
+    {
+     "line_start": 62,
+     "line_end": 68,
+     "label": "lambda_efficiency_weighting"
+    }
+   ]
+  },
+  {
+   "line_start": 70,
+   "line_end": 100,
+   "type": "fit",
+   "title": "Data Analysis"
+  },
+  {
+   "line_start": 102,
+   "line_end": 106,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "control_sample_statistics"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "lambda_efficiency_bias"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "tag_efficiency_bias"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "kinematic_intervals"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "tag_yield_fit"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "background_subtraction"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 108,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 110,
+   "line_end": 110,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 76,
+   "title": "Tag mode requirements and yields",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 96,
+   "title": "Signal yield and efficiency per interval",
+   "section_type": "fit"
+  },
+  {
+   "line": 106,
+   "title": "Systematic uncertainties summary",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 132,
+   "title": "Signal yields and efficiencies for inclusive Lambda and Lambda-bar",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 102-106 share boundary line 102",
+  "units of 102-106 share boundary line 102",
+  "units of 102-106 share boundary line 102",
+  "units of 102-106 share boundary line 102",
+  "units of 102-106 share boundary line 102",
+  "units of 102-106 stop at 102, not 106",
+  "nested spans 17-32 / 30-30"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

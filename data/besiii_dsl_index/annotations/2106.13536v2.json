@@ -1,0 +1,228 @@
+{
+ "paper_id": "2106.13536v2",
+ "source_path": "arxiv_papers/2106.13536v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 146,
+ "n_lines_sent": 60,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 130,
+   "to": 146,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 64,
+   "type": "front_matter",
+   "title": "Title, author list, affiliations and PACS"
+  },
+  {
+   "line_start": 66,
+   "line_end": 66,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 68,
+   "line_end": 79,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 81,
+   "line_end": 81,
+   "type": "detector",
+   "title": "BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 83,
+   "line_end": 91,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "double_tag_technique"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "bdt_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 106,
+   "type": "fit",
+   "title": "Amplitude analysis"
+  },
+  {
+   "line_start": 108,
+   "line_end": 108,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties of the amplitude analysis",
+   "units": [
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "amplitude_model_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 110,
+   "line_end": 116,
+   "type": "results",
+   "title": "Branching fraction measurement",
+   "units": [
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "dt_selection_and_fits"
+    },
+    {
+     "line_start": 112,
+     "line_end": 114,
+     "label": "table_i_phases_and_ffs"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "branching_fraction_result"
+    }
+   ]
+  },
+  {
+   "line_start": 118,
+   "line_end": 118,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties of the branching fraction measurement",
+   "units": [
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "bf_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 120,
+   "line_end": 123,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 125,
+   "line_end": 127,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  },
+  {
+   "line_start": 129,
+   "line_end": 129,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 114,
+   "title": "Phases and fit fractions for various intermediate processes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

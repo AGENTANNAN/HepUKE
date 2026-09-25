@@ -1,0 +1,248 @@
+{
+ "paper_id": "2210.09601v2",
+ "source_path": "arxiv_papers/2210.09601v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 206,
+ "n_lines_sent": 87,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 75,
+   "to": 75,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 77,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 184,
+   "to": 206,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 11,
+   "line_end": 79,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 81,
+   "line_end": 81,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 83,
+   "line_end": 91,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 93,
+   "line_end": 97,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 99,
+   "line_end": 115,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 99,
+     "line_end": 101,
+     "label": "reconstruction_channels"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "photon_and_pi0_eta"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "inclusive_mc_background"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "sigma_signal_sideband"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "qed_background"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 135,
+   "type": "fit",
+   "title": "IV. DETERMINATION OF THE BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 137,
+   "line_end": 172,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 137,
+     "line_end": 139,
+     "label": "overview"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "fit_model"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "ppn_background_veto"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "pipiJpsi_background_veto"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "eta_recoil_veto"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "signal_mc_model"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "intermediate_branching_fractions"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "total_psi_events"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 174,
+   "line_end": 176,
+   "type": "conclusion",
+   "title": "VI. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 178,
+   "line_end": 182,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 152,
+   "title": "Summary of numbers used for branching fraction calculations",
+   "section_type": "fit"
+  },
+  {
+   "line": 156,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 137-172 before line 158"
+ ],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

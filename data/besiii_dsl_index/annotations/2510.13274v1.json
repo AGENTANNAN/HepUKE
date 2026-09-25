@@ -1,0 +1,210 @@
+{
+ "paper_id": "2510.13274v1",
+ "source_path": "arxiv_papers/2510.13274v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 391,
+ "n_lines_sent": 111,
+ "skipped_ranges": [
+  {
+   "from": 196,
+   "to": 391,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "First measurement of the cross sections for e+e- -> K0 K- pi+ J/psi + c.c. at sqrt(s) from 4.396 to 4.951 GeV"
+  },
+  {
+   "line_start": 9,
+   "line_end": 9,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 11,
+   "line_end": 36,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 38,
+   "line_end": 46,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 48,
+   "line_end": 54,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 56,
+   "line_end": 86,
+   "type": "event_selection",
+   "title": "3 Event reconstruction and selection",
+   "units": [
+    {
+     "line_start": 56,
+     "line_end": 58,
+     "label": "overview"
+    },
+    {
+     "line_start": 60,
+     "line_end": 68,
+     "label": "event_reconstruction"
+    },
+    {
+     "line_start": 70,
+     "line_end": 72,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 74,
+     "line_end": 76,
+     "label": "full_reconstruction"
+    },
+    {
+     "line_start": 78,
+     "line_end": 80,
+     "label": "missing_k_pi"
+    },
+    {
+     "line_start": 82,
+     "line_end": 84,
+     "label": "missing_k0"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "background_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 88,
+   "line_end": 138,
+   "type": "fit",
+   "title": "4 Signal yields and cross sections"
+  },
+  {
+   "line_start": 140,
+   "line_end": 142,
+   "type": "results",
+   "title": "5 Study of the possible intermediate states",
+   "units": [
+    {
+     "line_start": 140,
+     "line_end": 142,
+     "label": "intermediate_states"
+    }
+   ]
+  },
+  {
+   "line_start": 144,
+   "line_end": 184,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 144,
+     "line_end": 146,
+     "label": "overview"
+    },
+    {
+     "line_start": 148,
+     "line_end": 150,
+     "label": "table2"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 154,
+     "line_end": 163,
+     "label": "tracking"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "pid"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "vp_factor"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "isr_factor"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "muc_hit_depth"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 172,
+     "line_end": 184,
+     "label": "fit_procedure"
+    }
+   ]
+  },
+  {
+   "line_start": 186,
+   "line_end": 190,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 192,
+   "line_end": 194,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 122,
+   "title": "Born cross section for different energy points",
+   "section_type": "fit"
+  },
+  {
+   "line": 150,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

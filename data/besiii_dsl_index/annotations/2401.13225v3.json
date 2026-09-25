@@ -1,0 +1,371 @@
+{
+ "paper_id": "2401.13225v3",
+ "source_path": "arxiv_papers/2401.13225v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 478,
+ "n_lines_sent": 223,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 65,
+   "to": 66,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 113,
+   "to": 113,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 122,
+   "to": 124,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 126,
+   "to": 126,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 361,
+   "to": 478,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 131,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 133,
+   "line_end": 133,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 135,
+   "line_end": 147,
+   "type": "introduction",
+   "title": "I. MOTIVATION"
+  },
+  {
+   "line_start": 149,
+   "line_end": 153,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 155,
+   "line_end": 157,
+   "type": "event_selection",
+   "title": "III. SINGLE-TAG D CANDIDATES",
+   "units": [
+    {
+     "line_start": 155,
+     "line_end": 157,
+     "label": "single_tag_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 159,
+   "line_end": 167,
+   "type": "event_selection",
+   "title": "IV. DOUBLE-TAG EVENTS",
+   "units": [
+    {
+     "line_start": 159,
+     "line_end": 161,
+     "label": "double_tag_reconstruction"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "pion_muon_separation"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "u_miss_requirement"
+    }
+   ]
+  },
+  {
+   "line_start": 169,
+   "line_end": 183,
+   "type": "fit",
+   "title": "V. BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 185,
+   "line_end": 232,
+   "type": "systematic_uncertainty",
+   "title": "B. Systematic uncertainties in branching fractions",
+   "units": [
+    {
+     "line_start": 185,
+     "line_end": 187,
+     "label": "ntag"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "figures"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "figures"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "figures"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "figures"
+    },
+    {
+     "line_start": 196,
+     "line_end": 196,
+     "label": "figures"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "figures"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "table"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "u_miss"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "mass_requirements"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "fit_model"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "figures"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "figures"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "figures"
+    },
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "figures"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "figures"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "figures"
+    },
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "figures"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "figures"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "figures"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "figures"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 234,
+   "line_end": 238,
+   "type": "results",
+   "title": "C. Results and discussion",
+   "units": [
+    {
+     "line_start": 234,
+     "line_end": 238,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 240,
+   "line_end": 332,
+   "type": "fit",
+   "title": "VI. HADRONIC FORM FACTORS"
+  },
+  {
+   "line_start": 334,
+   "line_end": 336,
+   "type": "results",
+   "title": "B. Results and discussion",
+   "units": [
+    {
+     "line_start": 334,
+     "line_end": 336,
+     "label": "form_factor_results"
+    }
+   ]
+  },
+  {
+   "line_start": 338,
+   "line_end": 342,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 344,
+   "line_end": 359,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 201,
+   "title": "Signal yields, significances, efficiencies and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 248,
+   "title": "Relative systematic uncertainties in branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 304,
+   "title": "Efficiency matrices of D+ to f0(500) l+ nu_l",
+   "section_type": "fit"
+  },
+  {
+   "line": 326,
+   "title": "Partial decay rates of D+ to f0(500) l+ nu_l in q2 intervals",
+   "section_type": "fit"
+  },
+  {
+   "line": 330,
+   "title": "Statistical covariance matrices for partial decay rates",
+   "section_type": "fit"
+  },
+  {
+   "line": 350,
+   "title": "Systematic covariance matrices for partial decay rates",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

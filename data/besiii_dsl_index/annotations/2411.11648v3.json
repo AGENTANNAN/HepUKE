@@ -1,0 +1,328 @@
+{
+ "paper_id": "2411.11648v3",
+ "source_path": "arxiv_papers/2411.11648v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 127,
+ "n_lines_sent": 34,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 83,
+   "to": 127,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 4,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 14,
+   "line_end": 14,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 16,
+   "line_end": 17,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 27,
+   "line_end": 27,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 29,
+   "line_end": 33,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 35,
+   "line_end": 35,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 37,
+   "line_end": 39,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 37,
+     "line_end": 37,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 39,
+     "line_end": 39,
+     "label": "lambda_omega_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 41,
+   "line_end": 42,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 44,
+   "line_end": 44,
+   "type": "results",
+   "title": "Recoil Mass Spectrum",
+   "units": [
+    {
+     "line_start": 44,
+     "line_end": 44,
+     "label": "recoil_mass_spectrum"
+    }
+   ]
+  },
+  {
+   "line_start": 46,
+   "line_end": 46,
+   "type": "fit",
+   "title": "Fit"
+  },
+  {
+   "line_start": 48,
+   "line_end": 49,
+   "type": "other",
+   "title": "Figure 2"
+  },
+  {
+   "line_start": 51,
+   "line_end": 51,
+   "type": "results",
+   "title": "Significance and Parameters",
+   "units": [
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "significance_and_parameters"
+    }
+   ]
+  },
+  {
+   "line_start": 53,
+   "line_end": 53,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "mass_shift"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "resolution"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "efficiency_curve"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "choice_of_sideband"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "parametrization_omega2012"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "parametrization_omega2109"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "interference"
+    }
+   ]
+  },
+  {
+   "line_start": 55,
+   "line_end": 55,
+   "type": "other",
+   "title": "Table 1"
+  },
+  {
+   "line_start": 57,
+   "line_end": 57,
+   "type": "other",
+   "title": "Table 1"
+  },
+  {
+   "line_start": 59,
+   "line_end": 65,
+   "type": "results",
+   "title": "Cross Section Ratios",
+   "units": [
+    {
+     "line_start": 59,
+     "line_end": 65,
+     "label": "cross_section_ratios"
+    }
+   ]
+  },
+  {
+   "line_start": 67,
+   "line_end": 67,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties for Ratios",
+   "units": [
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "resolution"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "efficiency_curve"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "choice_of_sideband"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "parametrization_omega2012"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "efficiency_ratio"
+    }
+   ]
+  },
+  {
+   "line_start": 69,
+   "line_end": 69,
+   "type": "other",
+   "title": "Table 2"
+  },
+  {
+   "line_start": 71,
+   "line_end": 71,
+   "type": "other",
+   "title": "Table 2"
+  },
+  {
+   "line_start": 73,
+   "line_end": 73,
+   "type": "results",
+   "title": "Upper Limits",
+   "units": [
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 75,
+   "line_end": 79,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 81,
+   "line_end": 81,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 57,
+   "title": "Absolute systematic uncertainties for the measurements of the resonance parameters of Omega(2109)-",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 71,
+   "title": "Systematic uncertainties in % for R_Omega(X)-",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 53-53 share boundary line 53",
+  "units of 53-53 share boundary line 53",
+  "units of 53-53 share boundary line 53",
+  "units of 53-53 share boundary line 53",
+  "units of 53-53 share boundary line 53",
+  "units of 53-53 share boundary line 53",
+  "units of 53-53 share boundary line 53",
+  "units of 67-67 share boundary line 67",
+  "units of 67-67 share boundary line 67",
+  "units of 67-67 share boundary line 67",
+  "units of 67-67 share boundary line 67",
+  "units of 67-67 share boundary line 67",
+  "units of 67-67 share boundary line 67"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

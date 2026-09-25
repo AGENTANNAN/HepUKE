@@ -1,0 +1,193 @@
+{
+ "paper_id": "2510.05904v1",
+ "source_path": "arxiv_papers/2510.05904v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 210,
+ "n_lines_sent": 110,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 170,
+   "to": 210,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 53,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 57,
+   "line_end": 57,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 59,
+   "line_end": 67,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 69,
+   "line_end": 69,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 71,
+   "line_end": 98,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 71,
+     "line_end": 77,
+     "label": "st_dt_selection"
+    },
+    {
+     "line_start": 79,
+     "line_end": 85,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 87,
+     "line_end": 88,
+     "label": "st_fit_figure"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "sl_selection"
+    },
+    {
+     "line_start": 92,
+     "line_end": 96,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "mm2_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 100,
+   "line_end": 100,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 103,
+   "type": "results",
+   "title": "MM2 fit result",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 103,
+     "label": "mm2_fit_result"
+    }
+   ]
+  },
+  {
+   "line_start": 105,
+   "line_end": 137,
+   "type": "fit",
+   "title": "Form factor fit"
+  },
+  {
+   "line_start": 139,
+   "line_end": 145,
+   "type": "results",
+   "title": "Lepton flavor universality test",
+   "units": [
+    {
+     "line_start": 139,
+     "line_end": 145,
+     "label": "lfu_test"
+    }
+   ]
+  },
+  {
+   "line_start": 147,
+   "line_end": 147,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 149,
+   "line_end": 162,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 164,
+   "line_end": 168,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 115,
+   "title": "Measured partial decay rates for Ds+ -> K0 l+ nu_l in q2 bins",
+   "section_type": "fit"
+  },
+  {
+   "line": 151,
+   "title": "Hadronic form factors of Ds+ -> K0 l+ nu_l",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

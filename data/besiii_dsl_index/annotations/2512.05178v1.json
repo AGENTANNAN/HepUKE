@@ -1,0 +1,326 @@
+{
+ "paper_id": "2512.05178v1",
+ "source_path": "arxiv_papers/2512.05178v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 378,
+ "n_lines_sent": 213,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 63,
+   "to": 66,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 71,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 73,
+   "to": 73,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 75,
+   "to": 75,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 77,
+   "to": 78,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 81,
+   "to": 82,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 86,
+   "to": 87,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 90,
+   "to": 98,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 100,
+   "to": 106,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 126,
+   "to": 126,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 137,
+   "to": 137,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 216,
+   "to": 216,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 365,
+   "to": 378,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 6,
+   "line_end": 214,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 218,
+   "line_end": 218,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 220,
+   "line_end": 231,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 233,
+   "line_end": 237,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SAMPLES"
+  },
+  {
+   "line_start": 239,
+   "line_end": 312,
+   "type": "event_selection",
+   "title": "III. ANALYSIS",
+   "units": [
+    {
+     "line_start": 239,
+     "line_end": 259,
+     "label": "analysis_method"
+    },
+    {
+     "line_start": 261,
+     "line_end": 281,
+     "label": "single_tag_event_selection"
+    },
+    {
+     "line_start": 283,
+     "line_end": 304,
+     "label": "signal_event_selection"
+    },
+    {
+     "line_start": 306,
+     "line_end": 312,
+     "label": "branching_fraction_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 314,
+   "line_end": 339,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 314,
+     "line_end": 318,
+     "label": "overview"
+    },
+    {
+     "line_start": 320,
+     "line_end": 320,
+     "label": "neutron_reconstruction"
+    },
+    {
+     "line_start": 322,
+     "line_end": 322,
+     "label": "sigma_reconstruction"
+    },
+    {
+     "line_start": 324,
+     "line_end": 324,
+     "label": "figure3"
+    },
+    {
+     "line_start": 327,
+     "line_end": 327,
+     "label": "table2"
+    },
+    {
+     "line_start": 329,
+     "line_end": 329,
+     "label": "table2_content"
+    },
+    {
+     "line_start": 331,
+     "line_end": 331,
+     "label": "common_systematics"
+    },
+    {
+     "line_start": 333,
+     "line_end": 333,
+     "label": "tracking_pid_pi0"
+    },
+    {
+     "line_start": 335,
+     "line_end": 335,
+     "label": "fit_systematics"
+    },
+    {
+     "line_start": 337,
+     "line_end": 337,
+     "label": "significance_systematics"
+    },
+    {
+     "line_start": 339,
+     "line_end": 339,
+     "label": "correlations"
+    }
+   ]
+  },
+  {
+   "line_start": 341,
+   "line_end": 350,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 341,
+     "line_end": 343,
+     "label": "branching_fraction_results"
+    },
+    {
+     "line_start": 345,
+     "line_end": 345,
+     "label": "upper_limits"
+    },
+    {
+     "line_start": 347,
+     "line_end": 347,
+     "label": "likelihood_curves"
+    },
+    {
+     "line_start": 349,
+     "line_end": 350,
+     "label": "figure4"
+    }
+   ]
+  },
+  {
+   "line_start": 352,
+   "line_end": 357,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 359,
+   "line_end": 363,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 289,
+   "title": "ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 329,
+   "title": "Multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 314-339 before line 327"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

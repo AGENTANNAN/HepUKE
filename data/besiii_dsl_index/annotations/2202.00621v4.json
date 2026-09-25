@@ -1,0 +1,159 @@
+{
+ "paper_id": "2202.00621v4",
+ "source_path": "arxiv_papers/2202.00621v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 251,
+ "n_lines_sent": 169,
+ "skipped_ranges": [
+  {
+   "from": 212,
+   "to": 251,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 112,
+   "type": "front_matter",
+   "title": "Observation of an Isoscalar Resonance with Exotic J^{PC}=1^{-+} Quantum Numbers in J/psi -> gamma eta eta'"
+  },
+  {
+   "line_start": 114,
+   "line_end": 114,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 116,
+   "line_end": 122,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 124,
+   "line_end": 124,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "event_selection_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 126,
+   "line_end": 140,
+   "type": "fit",
+   "title": "Partial Wave Analysis and Fit"
+  },
+  {
+   "line_start": 142,
+   "line_end": 182,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "mass_and_angular_distributions"
+    },
+    {
+     "line_start": 144,
+     "line_end": 146,
+     "label": "resonance_parameters_table"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "validation_checks"
+    },
+    {
+     "line_start": 150,
+     "line_end": 182,
+     "label": "angular_moments"
+    }
+   ]
+  },
+  {
+   "line_start": 184,
+   "line_end": 199,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "branching_fraction_systematics"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "pwa_systematics_overview"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "bw_parametrization"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "additional_resonances"
+    },
+    {
+     "line_start": 196,
+     "line_end": 199,
+     "label": "total_systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 201,
+   "line_end": 201,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 203,
+   "line_end": 203,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 205,
+   "line_end": 210,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 146,
+   "title": "Masses, widths, branching fractions, and significances for each component in the baseline set of amplitudes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

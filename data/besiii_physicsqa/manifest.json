@@ -1,0 +1,113 @@
+{
+  "dataset_id": "besiii_physicsqa_v1",
+  "n": 1000,
+  "sha256": "c63c0d1b7f5bb91c79feca12af10b5545ff75749490ae41fe37b6c0de12dad98",
+  "built_at_utc": "2026-09-25T05:14:10.904855+00:00",
+  "source_snapshot": "internal besiii_multihop_v3 (1000 items)",
+  "schema": [
+    "qid",
+    "question",
+    "answer",
+    "scorer",
+    "n_hops",
+    "hop_chain",
+    "gold_sha1",
+    "task_class",
+    "scenario",
+    "cluster_key",
+    "paper_ids",
+    "provenance"
+  ],
+  "scorers": {
+    "bool_plus_numeric": 3,
+    "exact": 352,
+    "numeric": 517,
+    "set_f1": 128
+  },
+  "task_classes": {
+    "A": 869,
+    "B": 75,
+    "C": 27,
+    "D": 3,
+    "E": 21,
+    "F": 5
+  },
+  "hops": {
+    "1": 871,
+    "2": 51,
+    "3": 21,
+    "4": 17,
+    "5": 24,
+    "6": 15,
+    "8": 1
+  },
+  "n_single_hop": 871,
+  "n_multi_hop": 129,
+  "gold_evidence": {
+    "field": "gold_sha1",
+    "resolves_against": "data/besiii_dsl_index/chunks.jsonl (chunk_sha1)"
+  },
+  "corrections_applied": [
+    {
+      "qid": "besiii-A-0055",
+      "field": "answer",
+      "from": "300_000",
+      "to": "300000",
+      "reason": "Ruby digit separator kept in gold; the numeric scorer tokenises \"300_000\" as 300 and 000, so a correct answer scored 0."
+    },
+    {
+      "qid": "besiii-A-0103",
+      "field": "answer",
+      "from": "50_000",
+      "to": "50000",
+      "reason": "Ruby digit separator kept in gold; the numeric scorer tokenises \"300_000\" as 300 and 000, so a correct answer scored 0."
+    },
+    {
+      "qid": "besiii-A-0170",
+      "field": "answer",
+      "from": "400_000",
+      "to": "400000",
+      "reason": "Ruby digit separator kept in gold; the numeric scorer tokenises \"300_000\" as 300 and 000, so a correct answer scored 0."
+    },
+    {
+      "qid": "besiii-A-0432",
+      "field": "answer",
+      "from": "40_000",
+      "to": "40000",
+      "reason": "Ruby digit separator kept in gold; the numeric scorer tokenises \"300_000\" as 300 and 000, so a correct answer scored 0."
+    },
+    {
+      "qid": "besiii-A-0674",
+      "field": "answer",
+      "from": "50_000",
+      "to": "50000",
+      "reason": "Ruby digit separator kept in gold; the numeric scorer tokenises \"300_000\" as 300 and 000, so a correct answer scored 0."
+    },
+    {
+      "qid": "besiii-A-0686",
+      "field": "answer",
+      "from": "50_000",
+      "to": "50000",
+      "reason": "Ruby digit separator kept in gold; the numeric scorer tokenises \"300_000\" as 300 and 000, so a correct answer scored 0."
+    },
+    {
+      "qid": "besiii-A-2529",
+      "field": "answer",
+      "from": "300_000",
+      "to": "300000",
+      "reason": "Ruby digit separator kept in gold; the numeric scorer tokenises \"300_000\" as 300 and 000, so a correct answer scored 0."
+    }
+  ],
+  "known_issues": [
+    {
+      "id": "numeric-typed dataset labels",
+      "n": 127,
+      "detail": "Items whose answer is a dataset identifier such as \"data_3773\" carry scorer=\"numeric\". The numeric scorer extracts the digit run, so these still discriminate correctly against other datasets; they are NOT re-typed here, but a stricter exact-match reading is defensible and would change their difficulty."
+    },
+    {
+      "id": "review provenance",
+      "n": null,
+      "detail": "Items were produced by a deterministic query over a fact index and then reviewed; the release carries no per-item review record, no independent multi-rater annotation, and no agreement statistic."
+    }
+  ]
+}

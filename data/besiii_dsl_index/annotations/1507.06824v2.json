@@ -1,0 +1,147 @@
+{
+ "paper_id": "1507.06824v2",
+ "source_path": "arxiv_papers/1507.06824v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 209,
+ "n_lines_sent": 114,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 178,
+   "to": 209,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 79,
+   "type": "front_matter",
+   "title": "Measurement of Azimuthal Asymmetries in Inclusive Charged Dipion Production in e+e- Annihilations at sqrt(s)=3.65 GeV"
+  },
+  {
+   "line_start": 80,
+   "line_end": 80,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 82,
+   "line_end": 88,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 90,
+   "line_end": 90,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 92,
+   "line_end": 113,
+   "type": "other",
+   "title": "Theoretical Framework"
+  },
+  {
+   "line_start": 115,
+   "line_end": 117,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "event_selection_criteria"
+    }
+   ]
+  },
+  {
+   "line_start": 119,
+   "line_end": 139,
+   "type": "fit",
+   "title": "Analysis Method and Fit"
+  },
+  {
+   "line_start": 144,
+   "line_end": 158,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "mc_smearing"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "gluon_radiation"
+    },
+    {
+     "line_start": 148,
+     "line_end": 154,
+     "label": "kaon_misidentification"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "higher_harmonics"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "null_asymmetry_and_polarization"
+    }
+   ]
+  },
+  {
+   "line_start": 160,
+   "line_end": 168,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 170,
+   "line_end": 176,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 152,
+   "title": "Results of A_UL and A_UC in each (z1,z2) and pt bin",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

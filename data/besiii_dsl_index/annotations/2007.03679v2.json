@@ -1,0 +1,147 @@
+{
+ "paper_id": "2007.03679v2",
+ "source_path": "arxiv_papers/2007.03679v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 421,
+ "n_lines_sent": 184,
+ "skipped_ranges": [
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 227,
+   "to": 421,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 141,
+   "type": "front_matter",
+   "title": "Model independent determination of the spin of the Omega- and its polarization alignment in ..."
+  },
+  {
+   "line_start": 143,
+   "line_end": 164,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 166,
+   "line_end": 181,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 166,
+     "line_end": 168,
+     "label": "single_tag_and_track_selection"
+    },
+    {
+     "line_start": 170,
+     "line_end": 177,
+     "label": "lambda_omega_reconstruction"
+    },
+    {
+     "line_start": 179,
+     "line_end": 181,
+     "label": "background_and_yield"
+    }
+   ]
+  },
+  {
+   "line_start": 183,
+   "line_end": 206,
+   "type": "fit",
+   "title": "Likelihood fit and spin determination"
+  },
+  {
+   "line_start": 208,
+   "line_end": 208,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "tracking_pid_background_alpha"
+    }
+   ]
+  },
+  {
+   "line_start": 210,
+   "line_end": 219,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "helicity_amplitudes_and_phi_omega"
+    },
+    {
+     "line_start": 212,
+     "line_end": 217,
+     "label": "multipolar_polarization"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 221,
+   "line_end": 223,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 200,
+   "title": "Fit values of helicity parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 204,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 409,
+   "title": "Statistical covariance matrix for solution I",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 413,
+   "title": "Combined covariance matrix for solution I",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 417,
+   "title": "Combined covariance matrix for solution II",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 421,
+   "title": "Statistical covariance matrix for solution II",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

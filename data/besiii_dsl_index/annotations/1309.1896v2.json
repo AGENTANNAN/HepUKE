@@ -1,0 +1,272 @@
+{
+ "paper_id": "1309.1896v2",
+ "source_path": "arxiv_papers/1309.1896v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 152,
+ "n_lines_sent": 94,
+ "skipped_ranges": [
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 134,
+   "to": 152,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 64,
+   "type": "front_matter",
+   "title": "Observation of a charged charmoniumlike structure Z_c(4020) and search for the Z_c(3900) in e+e- -> pi+pi- h_c"
+  },
+  {
+   "line_start": 66,
+   "line_end": 70,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 72,
+   "line_end": 76,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 78,
+   "line_end": 80,
+   "type": "dataset",
+   "title": "Data samples and cross sections"
+  },
+  {
+   "line_start": 82,
+   "line_end": 90,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "charged_tracks_photons_ks0"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 84,
+     "line_end": 86,
+     "label": "charged_tracks_as_pions"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "recoil_mass_windows"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "kinematic_fit_chi2"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "pid_chi2"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "chi4c_requirement"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "eta_c_mass_window"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "signal_extraction_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 92,
+   "line_end": 97,
+   "type": "systematic_uncertainty",
+   "title": "Systematic errors in the cross section measurement",
+   "units": [
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "branching_fraction_hc"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "branching_fraction_eta_c"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "fit_systematics"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "branching_fraction_hc_common"
+    }
+   ]
+  },
+  {
+   "line_start": 99,
+   "line_end": 110,
+   "type": "fit",
+   "title": "Dalitz plot analysis and fit to the pi+- h_c mass spectrum"
+  },
+  {
+   "line_start": 112,
+   "line_end": 126,
+   "type": "systematic_uncertainty",
+   "title": "Systematic errors for the resonance parameters and cross sections",
+   "units": [
+    {
+     "line_start": 112,
+     "line_end": 120,
+     "label": "mass_calibration"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "mass_resolution"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "efficiency_curve"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "zc3900_existence"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "interference"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "total_systematic_resonance"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "cross_section_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 128,
+   "line_end": 128,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 130,
+   "line_end": 132,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 80,
+   "title": "e+e- -> pi+pi- h_c cross sections (or upper limits at 90% C.L.)",
+   "section_type": "dataset"
+  },
+  {
+   "line": 126,
+   "title": "Percentage systematic errors in sigma(e+e- -> pi+- Z_c(4020)-+ -> pi+pi- h_c)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 6.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 82-90 share boundary line 82",
+  "units of 82-90 share boundary line 86",
+  "units of 82-90 share boundary line 88",
+  "units of 82-90 share boundary line 88",
+  "units of 82-90 share boundary line 88",
+  "units of 92-97 share boundary line 92",
+  "units of 92-97 share boundary line 92",
+  "units of 92-97 share boundary line 92",
+  "units of 92-97 share boundary line 92",
+  "units of 92-97 share boundary line 92",
+  "units of 92-97 share boundary line 92",
+  "gap in 92-97 before line 97",
+  "units of 112-126 share boundary line 120",
+  "units of 112-126 share boundary line 120",
+  "units of 112-126 share boundary line 120",
+  "units of 112-126 share boundary line 120",
+  "units of 112-126 share boundary line 120",
+  "units of 112-126 share boundary line 120",
+  "units of 112-126 share boundary line 120",
+  "units of 112-126 share boundary line 120",
+  "units of 112-126 stop at 122, not 126"
+ ],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": [],
+ "units_repaired": true
+}

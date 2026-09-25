@@ -1,0 +1,319 @@
+{
+ "paper_id": "2103.02482v2",
+ "source_path": "arxiv_papers/2103.02482v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 594,
+ "n_lines_sent": 314,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 557,
+   "to": 594,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 34,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 36,
+   "line_end": 53,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 55,
+   "line_end": 65,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 67,
+   "line_end": 103,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 67,
+     "line_end": 69,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "pid"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 75,
+     "line_end": 81,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 83,
+     "line_end": 89,
+     "label": "recoil_mass"
+    },
+    {
+     "line_start": 91,
+     "line_end": 93,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 95,
+     "line_end": 101,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "signal_yield"
+    }
+   ]
+  },
+  {
+   "line_start": 105,
+   "line_end": 379,
+   "type": "fit",
+   "title": "IV. AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 381,
+   "line_end": 439,
+   "type": "results",
+   "title": "V. BRANCHING FRACTION MEASUREMENT",
+   "units": [
+    {
+     "line_start": 381,
+     "line_end": 415,
+     "label": "bf_formalism"
+    },
+    {
+     "line_start": 417,
+     "line_end": 427,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 429,
+     "line_end": 437,
+     "label": "data_yields_efficiencies"
+    },
+    {
+     "line_start": 439,
+     "line_end": 439,
+     "label": "systematic_uncertainties_intro"
+    }
+   ]
+  },
+  {
+   "line_start": 441,
+   "line_end": 495,
+   "type": "systematic_uncertainty",
+   "title": "C. Systematic Uncertainties in the BF",
+   "units": [
+    {
+     "line_start": 441,
+     "line_end": 443,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 444,
+     "line_end": 444,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 445,
+     "line_end": 455,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 457,
+     "line_end": 457,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 459,
+     "line_end": 462,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 464,
+     "line_end": 464,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 466,
+     "line_end": 470,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 472,
+     "line_end": 495,
+     "label": "amplitude_model"
+    }
+   ]
+  },
+  {
+   "line_start": 497,
+   "line_end": 505,
+   "type": "conclusion",
+   "title": "VI. CONCLUSION"
+  },
+  {
+   "line_start": 507,
+   "line_end": 509,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  },
+  {
+   "line_start": 511,
+   "line_end": 555,
+   "type": "other",
+   "title": "Appendices"
+  }
+ ],
+ "tables": [
+  {
+   "line": 51,
+   "title": "Values of R_K1(1270) determined by different experiments",
+   "section_type": "introduction"
+  },
+  {
+   "line": 85,
+   "title": "Integrated luminosities and M_rec requirements for various energies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 89,
+   "title": "D_s^- mass requirements for the eight tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 99,
+   "title": "Misreconstructed background processes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 252,
+   "title": "Spin factor for each decay chain",
+   "section_type": "fit"
+  },
+  {
+   "line": 256,
+   "title": "Masses and widths of intermediate resonances",
+   "section_type": "fit"
+  },
+  {
+   "line": 318,
+   "title": "K pi S-wave parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 351,
+   "title": "The nine components in the nominal amplitude model",
+   "section_type": "fit"
+  },
+  {
+   "line": 387,
+   "title": "Phase, FF, and SS for the different amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 423,
+   "title": "Phase systematic uncertainty sources",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 449,
+   "title": "FF systematic uncertainty sources",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 453,
+   "title": "Efficiencies and ST yields at E_cm = 4.178 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 480,
+   "title": "Efficiencies and ST yields at E_cm = 4.189-4.219 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 484,
+   "title": "Efficiencies and ST yields at E_cm = 4.226 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 495,
+   "title": "Systematic uncertainties for the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 505,
+   "title": "BFS of intermediate processes with final states K^- K^+ pi^+ pi^0",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 549,
+   "title": "Fixed relations of some amplitudes",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 12.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

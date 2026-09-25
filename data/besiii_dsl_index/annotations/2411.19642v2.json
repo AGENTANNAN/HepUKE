@@ -1,0 +1,302 @@
+{
+ "paper_id": "2411.19642v2",
+ "source_path": "arxiv_papers/2411.19642v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 482,
+ "n_lines_sent": 259,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 65,
+   "to": 65,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 99,
+   "to": 99,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 112,
+   "to": 112,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 124,
+   "to": 126,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 128,
+   "to": 128,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 420,
+   "to": 482,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 132,
+   "type": "front_matter",
+   "title": "Measurement of the inclusive cross sections of prompt J/psi and psi(3686) production in e+e- annihilation from sqrt(s) = 3.808 to 4.951 GeV"
+  },
+  {
+   "line_start": 133,
+   "line_end": 133,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 135,
+   "line_end": 145,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 147,
+   "line_end": 153,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 155,
+   "line_end": 253,
+   "type": "fit",
+   "title": "III. METHODOLOGY"
+  },
+  {
+   "line_start": 255,
+   "line_end": 294,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 255,
+     "line_end": 257,
+     "label": "data_samples_and_luminosity"
+    },
+    {
+     "line_start": 259,
+     "line_end": 259,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 261,
+     "line_end": 261,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 263,
+     "line_end": 263,
+     "label": "event_topology_and_lepton_id"
+    },
+    {
+     "line_start": 265,
+     "line_end": 265,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 267,
+     "line_end": 267,
+     "label": "signal_yield_extraction"
+    },
+    {
+     "line_start": 269,
+     "line_end": 271,
+     "label": "table_i_energy_luminosity_cross_sections"
+    },
+    {
+     "line_start": 273,
+     "line_end": 275,
+     "label": "table_ii_event_topology"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "jpsi_background_fit"
+    },
+    {
+     "line_start": 279,
+     "line_end": 281,
+     "label": "psi3686_background_fit"
+    },
+    {
+     "line_start": 283,
+     "line_end": 294,
+     "label": "chicj_background_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 296,
+   "line_end": 351,
+   "type": "detector",
+   "title": "V. EFFICIENCY"
+  },
+  {
+   "line_start": 353,
+   "line_end": 361,
+   "type": "background",
+   "title": "VI. BACKGROUND ANALYSIS"
+  },
+  {
+   "line_start": 363,
+   "line_end": 387,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 363,
+     "line_end": 367,
+     "label": "introduction"
+    },
+    {
+     "line_start": 369,
+     "line_end": 369,
+     "label": "tracking_and_photon_efficiency"
+    },
+    {
+     "line_start": 371,
+     "line_end": 373,
+     "label": "pid_and_yield_determination"
+    },
+    {
+     "line_start": 375,
+     "line_end": 375,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 377,
+     "line_end": 377,
+     "label": "luminosity_branching_fraction_vacuum_polarization"
+    },
+    {
+     "line_start": 379,
+     "line_end": 379,
+     "label": "summary_of_systematics"
+    },
+    {
+     "line_start": 381,
+     "line_end": 383,
+     "label": "table_iii_jpsi_systematics"
+    },
+    {
+     "line_start": 385,
+     "line_end": 387,
+     "label": "table_iv_psi3686_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 389,
+   "line_end": 395,
+   "type": "results",
+   "title": "VIII. CROSS SECTION MEASUREMENT",
+   "units": [
+    {
+     "line_start": 389,
+     "line_end": 393,
+     "label": "observed_and_born_cross_sections"
+    },
+    {
+     "line_start": 395,
+     "line_end": 395,
+     "label": "average_cross_sections_and_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 397,
+   "line_end": 412,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 414,
+   "line_end": 418,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 271,
+   "title": "Center-of-mass energies, luminosities, and cross sections",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 275,
+   "title": "Track and photon configurations per process",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 383,
+   "title": "Systematic uncertainties for prompt J/psi X",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 387,
+   "title": "Independent and common systematic uncertainties for psi(3686) prompt X",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 410,
+   "title": "Masses and widths of charmonium(-like) mesons",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 478,
+   "title": "Observed numbers of events and ISR coefficients",
+   "section_type": "results"
+  },
+  {
+   "line": 482,
+   "title": "Reconstruction efficiencies and observed cross sections",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 6.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

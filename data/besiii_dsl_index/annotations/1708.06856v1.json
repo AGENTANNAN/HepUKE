@@ -1,0 +1,234 @@
+{
+ "paper_id": "1708.06856v1",
+ "source_path": "arxiv_papers/1708.06856v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 130,
+ "n_lines_sent": 64,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 123,
+   "to": 130,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "BESIII Collaboration"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 9,
+   "line_end": 19,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 21,
+   "line_end": 23,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MC SAMPLES"
+  },
+  {
+   "line_start": 25,
+   "line_end": 79,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 25,
+     "line_end": 27,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 29,
+     "line_end": 29,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 31,
+     "line_end": 37,
+     "label": "mbc_deltae_variables"
+    },
+    {
+     "line_start": 39,
+     "line_end": 39,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 41,
+     "line_end": 42,
+     "label": "figure1"
+    },
+    {
+     "line_start": 44,
+     "line_end": 46,
+     "label": "table1"
+    },
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "double_tag_selection"
+    },
+    {
+     "line_start": 50,
+     "line_end": 52,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "peaking_backgrounds"
+    },
+    {
+     "line_start": 56,
+     "line_end": 58,
+     "label": "table2"
+    },
+    {
+     "line_start": 60,
+     "line_end": 61,
+     "label": "figure2"
+    },
+    {
+     "line_start": 63,
+     "line_end": 69,
+     "label": "signal_yield_equation"
+    },
+    {
+     "line_start": 71,
+     "line_end": 77,
+     "label": "observed_yield_equation"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "upper_limit_determination"
+    }
+   ]
+  },
+  {
+   "line_start": 81,
+   "line_end": 107,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 81,
+     "line_end": 85,
+     "label": "signal_side_intro"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "signal_side_sum"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "mbc_fit_st"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "probability_requirement"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "2d_fit"
+    },
+    {
+     "line_start": 105,
+     "line_end": 107,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 109,
+   "line_end": 111,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 113,
+   "line_end": 115,
+   "type": "systematic_uncertainty",
+   "title": "TABLE III"
+  },
+  {
+   "line_start": 117,
+   "line_end": 121,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 46,
+   "title": "ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 58,
+   "title": "DT efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 115,
+   "title": "Systematic uncertainties summary",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 113-115 typed systematic_uncertainty has no units",
+  "nested spans 3-7 / 5-5"
+ ],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

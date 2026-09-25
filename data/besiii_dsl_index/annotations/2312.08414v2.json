@@ -1,0 +1,121 @@
+{
+ "paper_id": "2312.08414v2",
+ "source_path": "arxiv_papers/2312.08414v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 270,
+ "n_lines_sent": 133,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 221,
+   "to": 270,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 146,
+   "type": "front_matter",
+   "title": "Measurements of Born Cross Sections for e+e- -> Lambda_c+ Lambda_c(2595)- + c.c. and e+e- -> Lambda_c+ Lambda_c(2625)- + c.c. at sqrt(s) = 4918.0 and 4950.9 MeV"
+  },
+  {
+   "line_start": 148,
+   "line_end": 148,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 150,
+   "line_end": 156,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 158,
+   "line_end": 158,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 160,
+   "line_end": 160,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "event_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 162,
+   "line_end": 211,
+   "type": "fit",
+   "title": "Fit and Cross Section Measurement"
+  },
+  {
+   "line_start": 213,
+   "line_end": 215,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "tracking_pid_isr_vp_luminosity_bf_background"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "alpha_binning_efficiency_modeling_background"
+    }
+   ]
+  },
+  {
+   "line_start": 217,
+   "line_end": 217,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 219,
+   "line_end": 219,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 194,
+   "title": "Born cross sections, alpha_Lambda_c, and form-factor ratios at each energy point",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 7.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

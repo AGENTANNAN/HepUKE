@@ -1,0 +1,154 @@
+{
+ "paper_id": "1804.05536v2",
+ "source_path": "arxiv_papers/1804.05536v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 402,
+ "n_lines_sent": 220,
+ "skipped_ranges": [
+  {
+   "from": 372,
+   "to": 402,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 190,
+   "type": "front_matter",
+   "title": "Observation of h1(1380) in J/psi eta' K Kbar pi"
+  },
+  {
+   "line_start": 192,
+   "line_end": 216,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 218,
+   "line_end": 222,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 224,
+   "line_end": 258,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 224,
+     "line_end": 234,
+     "label": "eta'_to_pi+pi-eta_selection"
+    },
+    {
+     "line_start": 236,
+     "line_end": 248,
+     "label": "background_study_eta'K+K-pi0"
+    },
+    {
+     "line_start": 250,
+     "line_end": 258,
+     "label": "eta'_to_pi+pi-eta_selection_KS0Kpi"
+    }
+   ]
+  },
+  {
+   "line_start": 260,
+   "line_end": 278,
+   "type": "fit",
+   "title": "IV. EXTRACTION OF BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 280,
+   "line_end": 310,
+   "type": "fit",
+   "title": "V. STUDY OF INTERMEDIATE STATES"
+  },
+  {
+   "line_start": 312,
+   "line_end": 324,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 312,
+     "line_end": 314,
+     "label": "resonance_parameters_systematics"
+    },
+    {
+     "line_start": 316,
+     "line_end": 318,
+     "label": "branching_fraction_systematics_intro"
+    },
+    {
+     "line_start": 320,
+     "line_end": 324,
+     "label": "branching_fraction_systematics_details"
+    }
+   ]
+  },
+  {
+   "line_start": 326,
+   "line_end": 360,
+   "type": "results",
+   "title": "VII. MIXING ANGLE BETWEEN h1(1170) AND h1(1380)",
+   "units": [
+    {
+     "line_start": 326,
+     "line_end": 350,
+     "label": "mixing_angle_calculation"
+    },
+    {
+     "line_start": 352,
+     "line_end": 360,
+     "label": "mixing_angle_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 362,
+   "line_end": 364,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 366,
+   "line_end": 370,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 322,
+   "title": "Systematic uncertainties for the h1(1380) resonance parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 342,
+   "title": "Systematic uncertainties in the branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 354,
+   "title": "Systematic uncertainties of the mixing angle",
+   "section_type": "results"
+  },
+  {
+   "line": 358,
+   "title": "Branching fractions of B(J/psi -> eta' h1(1380)) x B(h1(1380) -> K* Kbar + c.c.) and B(J/psi -> eta' K* Kbar + c.c.)",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

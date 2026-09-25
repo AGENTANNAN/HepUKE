@@ -1,0 +1,193 @@
+{
+ "paper_id": "1610.07044v2",
+ "source_path": "arxiv_papers/1610.07044v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 299,
+ "n_lines_sent": 159,
+ "skipped_ranges": [
+  {
+   "from": 208,
+   "to": 299,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 121,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and PACS"
+  },
+  {
+   "line_start": 123,
+   "line_end": 123,
+   "type": "abstract  ",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 125,
+   "line_end": 125,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 127,
+   "line_end": 135,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 137,
+   "line_end": 139,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 141,
+   "line_end": 145,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "signal_selection"
+    },
+    {
+     "line_start": 143,
+     "line_end": 145,
+     "label": "signal_yield_extraction"
+    }
+   ]
+  },
+  {
+   "line_start": 147,
+   "line_end": 148,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 150,
+   "line_end": 156,
+   "type": "results",
+   "title": "Born cross section measurement",
+   "units": [
+    {
+     "line_start": 150,
+     "line_end": 156,
+     "label": "born_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 158,
+   "line_end": 166,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "chi4c_requirement"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "eta_c_parameters"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "intermediate_states"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "fit"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 168,
+   "line_end": 194,
+   "type": "fit",
+   "title": "Fit to the cross section"
+  },
+  {
+   "line_start": 196,
+   "line_end": 198,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 200,
+   "line_end": 206,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 204,
+   "title": "Systematic uncertainty in resonance parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 257,
+   "title": "Cross sections from XYZ data sample",
+   "section_type": "results"
+  },
+  {
+   "line": 261,
+   "title": "Cross sections in R-scan data sample (continued)",
+   "section_type": "results"
+  },
+  {
+   "line": 265,
+   "title": "Cross sections in R-scan data sample (continued)",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 158-166 share boundary line 158",
+  "units of 158-166 share boundary line 158",
+  "units of 158-166 share boundary line 162",
+  "units of 158-166 share boundary line 162",
+  "units of 158-166 share boundary line 164"
+ ],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

@@ -1,0 +1,173 @@
+{
+ "paper_id": "1012.1117v2",
+ "source_path": "arxiv_papers/1012.1117v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 293,
+ "n_lines_sent": 147,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 72,
+   "to": 72,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 74,
+   "to": 74,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 265,
+   "to": 293,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 16,
+   "line_end": 76,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 78,
+   "line_end": 82,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 84,
+   "line_end": 88,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 90,
+   "line_end": 94,
+   "type": "detector",
+   "title": "II. BESIII AND BEPCII"
+  },
+  {
+   "line_start": 96,
+   "line_end": 104,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 96,
+     "line_end": 98,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "pid"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "kinematic_fit_and_eta_selection"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 106,
+   "line_end": 121,
+   "type": "dataset",
+   "title": "IV. NUMBER OF J/psi EVENTS"
+  },
+  {
+   "line_start": 123,
+   "line_end": 134,
+   "type": "fit",
+   "title": "V. BRANCHING FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 136,
+   "line_end": 215,
+   "type": "fit",
+   "title": "VI. MEASUREMENT OF THE MATRIX ELEMENT"
+  },
+  {
+   "line_start": 217,
+   "line_end": 229,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 217,
+     "line_end": 219,
+     "label": "branching_fraction_systematics"
+    },
+    {
+     "line_start": 221,
+     "line_end": 223,
+     "label": "branching_fraction_systematics_table"
+    },
+    {
+     "line_start": 225,
+     "line_end": 229,
+     "label": "matrix_element_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 231,
+   "line_end": 259,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 261,
+   "line_end": 263,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 223,
+   "title": "Relative systematic errors (%) for the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 229,
+   "title": "Relative errors of the parameters of the matrix element for the generalized and linear representations",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 259,
+   "title": "Experimental and theoretical values of the parameters of the matrix element squared for eta' -> eta pi+ pi-",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

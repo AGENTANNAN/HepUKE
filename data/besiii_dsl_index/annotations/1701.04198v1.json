@@ -1,0 +1,182 @@
+{
+ "paper_id": "1701.04198v1",
+ "source_path": "arxiv_papers/1701.04198v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 218,
+ "n_lines_sent": 119,
+ "skipped_ranges": [
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 62,
+   "to": 62,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 64,
+   "to": 64,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 66,
+   "to": 66,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 171,
+   "to": 218,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 75,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 77,
+   "line_end": 81,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 83,
+   "line_end": 89,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 91,
+   "line_end": 97,
+   "type": "detector",
+   "title": "2. BESIII detector and Monte-Carlo simulation"
+  },
+  {
+   "line_start": 99,
+   "line_end": 114,
+   "type": "event_selection",
+   "title": "3. Event selection",
+   "units": [
+    {
+     "line_start": 99,
+     "line_end": 101,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "kinematic_fit_pi0"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "dalitz_plots"
+    },
+    {
+     "line_start": 111,
+     "line_end": 114,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 122,
+   "type": "fit",
+   "title": "4. Study of intermediate structures by Partial Wave Analysis"
+  },
+  {
+   "line_start": 124,
+   "line_end": 142,
+   "type": "results",
+   "title": "5. Cross section for e+e- -> p pbar pi0",
+   "units": [
+    {
+     "line_start": 124,
+     "line_end": 132,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "uncorrelated_systematics"
+    },
+    {
+     "line_start": 136,
+     "line_end": 138,
+     "label": "cross_section_table"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "correlated_systematics"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "total_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 144,
+   "line_end": 159,
+   "type": "fit",
+   "title": "6. Upper limit on sigma(e+e- -> Y(4260) -> p pbar pi0)"
+  },
+  {
+   "line_start": 161,
+   "line_end": 161,
+   "type": "conclusion",
+   "title": "7. Summary"
+  },
+  {
+   "line_start": 163,
+   "line_end": 169,
+   "type": "acknowledgements",
+   "title": "8. Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 138,
+   "title": "Results on e+e- -> p pbar pi0 at each energy point",
+   "section_type": "results"
+  },
+  {
+   "line": 156,
+   "title": "Summary of systematic uncertainties on the Born cross section",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

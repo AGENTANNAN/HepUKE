@@ -1,0 +1,228 @@
+{
+ "paper_id": "2209.08464v3",
+ "source_path": "arxiv_papers/2209.08464v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 727,
+ "n_lines_sent": 339,
+ "skipped_ranges": [
+  {
+   "from": 551,
+   "to": 727,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 9,
+   "line_end": 17,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 19,
+   "line_end": 41,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 43,
+   "line_end": 64,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 66,
+   "line_end": 70,
+   "type": "detector",
+   "title": "2 BESIII experiment and Monte Carlo simulation"
+  },
+  {
+   "line_start": 72,
+   "line_end": 104,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 72,
+     "line_end": 74,
+     "label": "overview"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "tracking"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "sigma0_veto"
+    },
+    {
+     "line_start": 84,
+     "line_end": 96,
+     "label": "mbc_deltae"
+    },
+    {
+     "line_start": 98,
+     "line_end": 104,
+     "label": "yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 106,
+   "line_end": 393,
+   "type": "fit",
+   "title": "4 Partial wave analysis"
+  },
+  {
+   "line_start": 395,
+   "line_end": 439,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 395,
+     "line_end": 401,
+     "label": "overview"
+    },
+    {
+     "line_start": 403,
+     "line_end": 403,
+     "label": "fixed_parameters"
+    },
+    {
+     "line_start": 405,
+     "line_end": 405,
+     "label": "mass_dependent_width"
+    },
+    {
+     "line_start": 407,
+     "line_end": 407,
+     "label": "radius_parameter"
+    },
+    {
+     "line_start": 409,
+     "line_end": 415,
+     "label": "background_description"
+    },
+    {
+     "line_start": 417,
+     "line_end": 425,
+     "label": "data_mc_differences"
+    },
+    {
+     "line_start": 427,
+     "line_end": 427,
+     "label": "resonance_components"
+    },
+    {
+     "line_start": 429,
+     "line_end": 435,
+     "label": "polarization"
+    },
+    {
+     "line_start": 437,
+     "line_end": 437,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 439,
+     "line_end": 439,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 441,
+   "line_end": 489,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 491,
+   "line_end": 545,
+   "type": "other",
+   "title": "A Alignment Angle Calculation"
+  },
+  {
+   "line_start": 547,
+   "line_end": 549,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 58,
+   "title": "Theoretical predictions of BFs and decay asymmetry parameters",
+   "section_type": "introduction"
+  },
+  {
+   "line": 64,
+   "title": "Center-of-mass energies and integrated luminosities",
+   "section_type": "introduction"
+  },
+  {
+   "line": 113,
+   "title": "Signal and background yields in the M_BC signal region",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 299,
+   "title": "Total amplitudes, fit fractions and significances",
+   "section_type": "fit"
+  },
+  {
+   "line": 325,
+   "title": "Partial wave amplitudes for different resonances",
+   "section_type": "fit"
+  },
+  {
+   "line": 341,
+   "title": "Interference fractions between amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 345,
+   "title": "Branching fractions and decay asymmetry parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 397,
+   "title": "Systematic uncertainties on FFs and decay asymmetry parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 487,
+   "title": "Comparison with theoretical calculations and PDG",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

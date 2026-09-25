@@ -1,0 +1,272 @@
+{
+ "paper_id": "2402.01993v1",
+ "source_path": "arxiv_papers/2402.01993v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 571,
+ "n_lines_sent": 205,
+ "skipped_ranges": [
+  {
+   "from": 360,
+   "to": 571,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Measurement of the Electromagnetic Transition Form-factors in the decays eta' -> pi+ pi- l+ l-"
+  },
+  {
+   "line_start": 11,
+   "line_end": 27,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 29,
+   "line_end": 43,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 45,
+   "line_end": 49,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR"
+  },
+  {
+   "line_start": 51,
+   "line_end": 59,
+   "type": "dataset",
+   "title": "3 DATA SAMPLE AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 61,
+   "line_end": 96,
+   "type": "event_selection",
+   "title": "4 EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 67,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "pid_and_kinematic_fit"
+    },
+    {
+     "line_start": 71,
+     "line_end": 82,
+     "label": "photon_conversion_background"
+    },
+    {
+     "line_start": 84,
+     "line_end": 94,
+     "label": "muon_selection_and_background"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "background_summary_and_fit_range"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 121,
+   "type": "fit",
+   "title": "5 BRANCHING FRACTION MEASUREMENTS"
+  },
+  {
+   "line_start": 123,
+   "line_end": 213,
+   "type": "fit",
+   "title": "6 TRANSITION FORM FACTOR MEASUREMENTS"
+  },
+  {
+   "line_start": 215,
+   "line_end": 245,
+   "type": "fit",
+   "title": "7 CP-VIOLATING ASYMMETRY"
+  },
+  {
+   "line_start": 247,
+   "line_end": 318,
+   "type": "systematic_uncertainty",
+   "title": "8 SYSTEMATIC UNCERTAINTIES OF B, A_CP AND TFF",
+   "units": [
+    {
+     "line_start": 247,
+     "line_end": 249,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 251,
+     "line_end": 253,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 255,
+     "line_end": 257,
+     "label": "branching_fraction_jpsi_to_gamma_etaprime"
+    },
+    {
+     "line_start": 259,
+     "line_end": 268,
+     "label": "mdc_tracking"
+    },
+    {
+     "line_start": 270,
+     "line_end": 272,
+     "label": "pid"
+    },
+    {
+     "line_start": 274,
+     "line_end": 276,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 278,
+     "line_end": 280,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 282,
+     "line_end": 284,
+     "label": "combined_pid_and_kinematic_fit"
+    },
+    {
+     "line_start": 286,
+     "line_end": 288,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 290,
+     "line_end": 292,
+     "label": "generator_model"
+    },
+    {
+     "line_start": 294,
+     "line_end": 296,
+     "label": "etaprime_signal_range"
+    },
+    {
+     "line_start": 298,
+     "line_end": 300,
+     "label": "background_model"
+    },
+    {
+     "line_start": 302,
+     "line_end": 304,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 306,
+     "line_end": 310,
+     "label": "resolution"
+    },
+    {
+     "line_start": 312,
+     "line_end": 314,
+     "label": "width_of_rho_and_omega"
+    },
+    {
+     "line_start": 316,
+     "line_end": 318,
+     "label": "systematics_table"
+    }
+   ]
+  },
+  {
+   "line_start": 320,
+   "line_end": 337,
+   "type": "results",
+   "title": "9 UPPER LIMIT FOR ALPS IN DECAY OF eta' -> pi+ pi- a, a -> e+ e-",
+   "units": [
+    {
+     "line_start": 320,
+     "line_end": 322,
+     "label": "alp_simulation"
+    },
+    {
+     "line_start": 324,
+     "line_end": 326,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 328,
+     "line_end": 332,
+     "label": "upper_limit_calculation"
+    },
+    {
+     "line_start": 334,
+     "line_end": 337,
+     "label": "results_and_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 339,
+   "line_end": 352,
+   "type": "conclusion",
+   "title": "10 SUMMARY"
+  },
+  {
+   "line_start": 354,
+   "line_end": 358,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 35,
+   "title": "Different theoretical predictions and previous experimental results of B(eta' -> pi+ pi- l+ l-)",
+   "section_type": "introduction"
+  },
+  {
+   "line": 59,
+   "title": "Generator models used for MC simulations",
+   "section_type": "dataset"
+  },
+  {
+   "line": 110,
+   "title": "Main background processes and their corresponding normalized events",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 208,
+   "title": "The TFF fit results of the eta' -> pi+ pi- e+ e- decay",
+   "section_type": "fit"
+  },
+  {
+   "line": 213,
+   "title": "The TFF fit results of the eta' -> pi+ pi- mu+ mu- decay",
+   "section_type": "fit"
+  },
+  {
+   "line": 245,
+   "title": "The final results of A_CP for the eta' -> pi+ pi- e+ e- decay",
+   "section_type": "fit"
+  },
+  {
+   "line": 318,
+   "title": "The systematic uncertainties in the measurements of B, A_CP and m_V",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

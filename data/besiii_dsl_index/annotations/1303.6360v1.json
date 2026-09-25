@@ -1,0 +1,253 @@
+{
+ "paper_id": "1303.6360v1",
+ "source_path": "arxiv_papers/1303.6360v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 299,
+ "n_lines_sent": 146,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 271,
+   "to": 299,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 24,
+   "line_end": 56,
+   "type": "front_matter",
+   "title": "BESIII Collaboration"
+  },
+  {
+   "line_start": 58,
+   "line_end": 58,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 60,
+   "line_end": 72,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 74,
+   "line_end": 78,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR"
+  },
+  {
+   "line_start": 80,
+   "line_end": 90,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "final_state_reconstruction"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "kinematic_fit_and_mass_windows"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 92,
+   "line_end": 117,
+   "type": "fit",
+   "title": "Mass Spectrum Fit"
+  },
+  {
+   "line_start": 119,
+   "line_end": 159,
+   "type": "results",
+   "title": "B. Branching fractions of ψ(3686) → ωK*+K− + c.c. and ψ(3686) → ωK*0K0",
+   "units": [
+    {
+     "line_start": 119,
+     "line_end": 138,
+     "label": "kstar_fit"
+    },
+    {
+     "line_start": 140,
+     "line_end": 159,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 161,
+   "line_end": 187,
+   "type": "results",
+   "title": "V. ψ(3686) → ωK+K−π0",
+   "units": [
+    {
+     "line_start": 161,
+     "line_end": 167,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 169,
+     "line_end": 177,
+     "label": "mass_fit"
+    },
+    {
+     "line_start": 179,
+     "line_end": 187,
+     "label": "kstar_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 189,
+   "line_end": 216,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 189,
+     "line_end": 196,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "ks0_and_photon_reconstruction"
+    },
+    {
+     "line_start": 200,
+     "line_end": 202,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "background_shape_and_fit_range"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "kstar_fit_range_and_background"
+    },
+    {
+     "line_start": 212,
+     "line_end": 216,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 218,
+   "line_end": 245,
+   "type": "discussion",
+   "title": "VII. DISCUSSION"
+  },
+  {
+   "line_start": 247,
+   "line_end": 265,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 267,
+   "line_end": 269,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 214,
+   "title": "Systematic errors for B(ψ(3686) → ωX → ωKKπ)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 224,
+   "title": "Systematic errors for B(ψ(3686) → ωK*K)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 259,
+   "title": "Branching fractions and upper limits for ψ(3686) → ωX → ωKKπ",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 265,
+   "title": "Branching fractions of ψ(3686) → ωK*K",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

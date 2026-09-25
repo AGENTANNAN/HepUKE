@@ -1,0 +1,211 @@
+{
+ "paper_id": "2208.09221v2",
+ "source_path": "arxiv_papers/2208.09221v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 295,
+ "n_lines_sent": 143,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 91,
+   "to": 91,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 115,
+   "to": 115,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 117,
+   "to": 117,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 119,
+   "to": 119,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 255,
+   "to": 295,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 131,
+   "type": "front_matter",
+   "title": "Search for hyperon $\\Delta S = \\Delta Q$ violating decay $\\Xi^0 \\to \\Sigma^- e^+ \\nu_e$"
+  },
+  {
+   "line_start": 131,
+   "line_end": 131,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 133,
+   "line_end": 146,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 148,
+   "line_end": 154,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 156,
+   "line_end": 216,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 156,
+     "line_end": 164,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 166,
+     "line_end": 183,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 185,
+     "line_end": 216,
+     "label": "dt_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 218,
+   "line_end": 230,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 218,
+     "line_end": 222,
+     "label": "overview"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "tracking"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "pid"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "st_fit"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 224,
+     "line_end": 226,
+     "label": "multiplicative_table"
+    },
+    {
+     "line_start": 228,
+     "line_end": 230,
+     "label": "additive"
+    }
+   ]
+  },
+  {
+   "line_start": 232,
+   "line_end": 240,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 232,
+     "line_end": 240,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 242,
+   "line_end": 247,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 249,
+   "line_end": 253,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 226,
+   "title": "Multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 218-230 share boundary line 222",
+  "units of 218-230 share boundary line 222",
+  "units of 218-230 share boundary line 222",
+  "units of 218-230 share boundary line 222",
+  "units of 218-230 share boundary line 222",
+  "units of 218-230 share boundary line 222",
+  "nested spans 1-131 / 131-131"
+ ],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

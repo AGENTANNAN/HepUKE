@@ -1,0 +1,163 @@
+{
+ "paper_id": "2201.10796v2",
+ "source_path": "arxiv_papers/2201.10796v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 246,
+ "n_lines_sent": 139,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 208,
+   "to": 246,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 126,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 127,
+   "line_end": 128,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 130,
+   "line_end": 138,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 140,
+   "line_end": 140,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 142,
+   "line_end": 142,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 144,
+   "line_end": 163,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 144,
+     "line_end": 146,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "eta_prime_to_gamma_pi_pi_selection"
+    },
+    {
+     "line_start": 150,
+     "line_end": 163,
+     "label": "eta_prime_to_pi_pi_eta_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 165,
+   "line_end": 165,
+   "type": "background",
+   "title": "Background Study"
+  },
+  {
+   "line_start": 167,
+   "line_end": 173,
+   "type": "fit",
+   "title": "Simultaneous Fit"
+  },
+  {
+   "line_start": 175,
+   "line_end": 188,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 175,
+     "line_end": 186,
+     "label": "mass_and_width_systematics"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "branching_fraction_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 190,
+   "line_end": 202,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 204,
+   "line_end": 206,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 194,
+   "title": "Masses and widths of the f0(1500) and X(2600)",
+   "section_type": "results"
+  },
+  {
+   "line": 198,
+   "title": "Branching fractions for J/psi -> gamma X(2600), X(2600) -> f0(1500)/f2'(1525) eta', f0(1500)/f2'(1525) -> pi+ pi-",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

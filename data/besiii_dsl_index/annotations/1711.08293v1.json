@@ -1,0 +1,182 @@
+{
+ "paper_id": "1711.08293v1",
+ "source_path": "arxiv_papers/1711.08293v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 137,
+ "n_lines_sent": 63,
+ "skipped_ranges": [
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 107,
+   "to": 137,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 28,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 30,
+   "line_end": 30,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 32,
+   "line_end": 36,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 38,
+   "line_end": 38,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 40,
+   "line_end": 51,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 40,
+     "line_end": 40,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 42,
+     "line_end": 42,
+     "label": "invariant_mass_and_kinematic_fit"
+    },
+    {
+     "line_start": 44,
+     "line_end": 44,
+     "label": "recoil_mass_and_background"
+    },
+    {
+     "line_start": 46,
+     "line_end": 47,
+     "label": "figure1"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "optimization"
+    }
+   ]
+  },
+  {
+   "line_start": 53,
+   "line_end": 81,
+   "type": "fit",
+   "title": "Fit and branching fraction measurement"
+  },
+  {
+   "line_start": 83,
+   "line_end": 99,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "introduction"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "pi0_reconstruction_and_signal_background_shape"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "pi0_ds_selection"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "width_of_ds0"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "peaking_backgrounds"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "total_systematic_uncertainty"
+    },
+    {
+     "line_start": 95,
+     "line_end": 97,
+     "label": "table_i"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "mass_measurement_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 101,
+   "line_end": 101,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 103,
+   "line_end": 103,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 105,
+   "line_end": 105,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 97,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

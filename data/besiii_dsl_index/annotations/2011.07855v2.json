@@ -1,0 +1,210 @@
+{
+ "paper_id": "2011.07855v2",
+ "source_path": "arxiv_papers/2011.07855v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 220,
+ "n_lines_sent": 66,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 120,
+   "to": 220,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 46,
+   "type": "front_matter",
+   "title": "Observation of a Near-Threshold Structure in the K+ Recoil-Mass Spectra in e+e- -> K+(Ds- D*0 + Ds*- D0)"
+  },
+  {
+   "line_start": 48,
+   "line_end": 48,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 50,
+   "line_end": 56,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 58,
+   "line_end": 72,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 59,
+     "label": "figure1_ds_mass"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "monte_carlo_simulation"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "event_reconstruction"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "ds_mass_distribution"
+    },
+    {
+     "line_start": 67,
+     "line_end": 68,
+     "label": "figure2_recoil_mass"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "signal_region_definition"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "combinatorial_background"
+    }
+   ]
+  },
+  {
+   "line_start": 74,
+   "line_end": 84,
+   "type": "background",
+   "title": "Background Studies"
+  },
+  {
+   "line_start": 86,
+   "line_end": 96,
+   "type": "fit",
+   "title": "Fit to the K+ Recoil-Mass Spectrum"
+  },
+  {
+   "line_start": 98,
+   "line_end": 106,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 98,
+     "line_end": 100,
+     "label": "cross_section_table"
+    },
+    {
+     "line_start": 102,
+     "line_end": 104,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "born_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 108,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "systematic_sources"
+    }
+   ]
+  },
+  {
+   "line_start": 110,
+   "line_end": 116,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 118,
+   "line_end": 118,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 100,
+   "title": "Cross section measurement results at each energy point",
+   "section_type": "results"
+  },
+  {
+   "line": 104,
+   "title": "Systematic uncertainties on Zcs(3985)- resonance parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 172,
+   "title": "Estimated sizes of excited Ds**+ or D**0 contributions",
+   "section_type": "background"
+  },
+  {
+   "line": 202,
+   "title": "Systematic uncertainties on cross sections at different energy points",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 212,
+   "title": "Fit results of Zcs(3985)- resonance parameters from data subsets",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

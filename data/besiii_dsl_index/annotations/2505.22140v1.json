@@ -1,0 +1,176 @@
+{
+ "paper_id": "2505.22140v1",
+ "source_path": "arxiv_papers/2505.22140v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 302,
+ "n_lines_sent": 209,
+ "skipped_ranges": [
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 94,
+   "to": 94,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 96,
+   "to": 96,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 100,
+   "to": 100,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 130,
+   "to": 130,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 144,
+   "to": 144,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 263,
+   "to": 302,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 146,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 148,
+   "line_end": 152,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 154,
+   "line_end": 160,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 162,
+   "line_end": 166,
+   "type": "detector",
+   "title": "2. BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 168,
+   "line_end": 210,
+   "type": "event_selection",
+   "title": "3. Data analysis",
+   "units": [
+    {
+     "line_start": 168,
+     "line_end": 178,
+     "label": "analysis_method"
+    },
+    {
+     "line_start": 180,
+     "line_end": 195,
+     "label": "st_selection_and_yields"
+    },
+    {
+     "line_start": 197,
+     "line_end": 210,
+     "label": "dt_selection_and_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 212,
+   "line_end": 218,
+   "type": "systematic_uncertainty",
+   "title": "4. Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 212,
+     "line_end": 214,
+     "label": "overview"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "additive_uncertainties"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "multiplicative_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 220,
+   "line_end": 249,
+   "type": "results",
+   "title": "5. Result",
+   "units": [
+    {
+     "line_start": 220,
+     "line_end": 243,
+     "label": "upper_limits_and_wilson_coefficients"
+    },
+    {
+     "line_start": 245,
+     "line_end": 249,
+     "label": "figures"
+    }
+   ]
+  },
+  {
+   "line_start": 251,
+   "line_end": 253,
+   "type": "conclusion",
+   "title": "6. Summary"
+  },
+  {
+   "line_start": 255,
+   "line_end": 257,
+   "type": "systematic_uncertainty",
+   "title": "Table 1",
+   "units": [
+    {
+     "line_start": 255,
+     "line_end": 257,
+     "label": "multiplicative_systematics_table"
+    }
+   ]
+  },
+  {
+   "line_start": 259,
+   "line_end": 261,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 257,
+   "title": "Summary of multiplicative systematic uncertainties for different m_chi hypotheses",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 7.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

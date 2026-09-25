@@ -1,0 +1,179 @@
+{
+ "paper_id": "2312.17063v2",
+ "source_path": "arxiv_papers/2312.17063v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 350,
+ "n_lines_sent": 173,
+ "skipped_ranges": [
+  {
+   "from": 85,
+   "to": 85,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 87,
+   "to": 87,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 124,
+   "to": 124,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 136,
+   "to": 136,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 149,
+   "to": 149,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 151,
+   "to": 151,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 153,
+   "to": 153,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 155,
+   "to": 155,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 308,
+   "to": 350,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 165,
+   "type": "front_matter",
+   "title": "Search for a massless particle beyond the Standard Model in the Sigma+ -> p + invisible decay"
+  },
+  {
+   "line_start": 167,
+   "line_end": 171,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 173,
+   "line_end": 185,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 187,
+   "line_end": 193,
+   "type": "detector",
+   "title": "2. BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 195,
+   "line_end": 240,
+   "type": "event_selection",
+   "title": "3. Event selection",
+   "units": [
+    {
+     "line_start": 195,
+     "line_end": 205,
+     "label": "analysis_method"
+    },
+    {
+     "line_start": 207,
+     "line_end": 234,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 236,
+     "line_end": 240,
+     "label": "dt_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 242,
+   "line_end": 257,
+   "type": "fit",
+   "title": "4. DT signal extraction"
+  },
+  {
+   "line_start": 259,
+   "line_end": 282,
+   "type": "systematic_uncertainty",
+   "title": "5. Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 259,
+     "line_end": 263,
+     "label": "overview"
+    },
+    {
+     "line_start": 265,
+     "line_end": 276,
+     "label": "additive_uncertainties"
+    },
+    {
+     "line_start": 278,
+     "line_end": 282,
+     "label": "multiplicative_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 284,
+   "line_end": 291,
+   "type": "results",
+   "title": "6. Result",
+   "units": [
+    {
+     "line_start": 284,
+     "line_end": 289,
+     "label": "upper_limit"
+    },
+    {
+     "line_start": 291,
+     "line_end": 291,
+     "label": "interpretation"
+    }
+   ]
+  },
+  {
+   "line_start": 293,
+   "line_end": 300,
+   "type": "conclusion",
+   "title": "7. Summary"
+  },
+  {
+   "line_start": 302,
+   "line_end": 306,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 282,
+   "title": "The multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

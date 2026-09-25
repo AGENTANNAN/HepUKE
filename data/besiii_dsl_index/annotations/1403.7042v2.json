@@ -1,0 +1,297 @@
+{
+ "paper_id": "1403.7042v2",
+ "source_path": "arxiv_papers/1403.7042v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 203,
+ "n_lines_sent": 83,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 170,
+   "to": 203,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 11,
+   "line_end": 26,
+   "type": "front_matter",
+   "title": "Title, authors, abstract, PACS"
+  },
+  {
+   "line_start": 28,
+   "line_end": 46,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 48,
+   "line_end": 56,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 58,
+   "line_end": 96,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 60,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 66,
+     "line_end": 68,
+     "label": "signal_yields"
+    },
+    {
+     "line_start": 70,
+     "line_end": 72,
+     "label": "photon_conversion_background"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 76,
+     "line_end": 77,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "peaking_backgrounds"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "misidentified_pions"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "non_peaking_backgrounds"
+    },
+    {
+     "line_start": 85,
+     "line_end": 86,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 88,
+     "line_end": 90,
+     "label": "continuum_background"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "mass_spectra"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "maximum_likelihood_fit"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "signal_quality"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 144,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 98,
+     "line_end": 100,
+     "label": "overview"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "tracking"
+    },
+    {
+     "line_start": 104,
+     "line_end": 105,
+     "label": "figure_3"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 109,
+     "line_end": 110,
+     "label": "figure_4"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "electron_identification"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 116,
+     "line_end": 122,
+     "label": "form_factor"
+    },
+    {
+     "line_start": 124,
+     "line_end": 125,
+     "label": "figure_5"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "pole_mass"
+    },
+    {
+     "line_start": 131,
+     "line_end": 133,
+     "label": "table_iii"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "pole_mass_uncertainty"
+    },
+    {
+     "line_start": 137,
+     "line_end": 138,
+     "label": "figure_6"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "signal_and_background_shapes"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "branching_fractions_and_normalization"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 146,
+   "line_end": 160,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 146,
+     "line_end": 154,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 156,
+     "line_end": 158,
+     "label": "table_iv"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "combination"
+    }
+   ]
+  },
+  {
+   "line_start": 162,
+   "line_end": 164,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 166,
+   "line_end": 168,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 68,
+   "title": "Table I: Signal yields, peaking backgrounds, and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 72,
+   "title": "Table II: Photon-conversion background events and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 133,
+   "title": "Table III: Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 158,
+   "title": "Table IV: Branching fraction measurements and theoretical predictions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

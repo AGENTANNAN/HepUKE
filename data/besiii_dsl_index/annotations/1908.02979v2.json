@@ -1,0 +1,281 @@
+{
+ "paper_id": "1908.02979v2",
+ "source_path": "arxiv_papers/1908.02979v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 330,
+ "n_lines_sent": 196,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 308,
+   "to": 330,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 4,
+   "line_end": 120,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 122,
+   "line_end": 122,
+   "type": "front_matter",
+   "title": "Date"
+  },
+  {
+   "line_start": 124,
+   "line_end": 124,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 126,
+   "line_end": 132,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 134,
+   "line_end": 138,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 140,
+   "line_end": 140,
+   "type": "other",
+   "title": "III. ANALYSIS OF ψ(3686) → γχcJ → γ p̄ K*+ Λ"
+  },
+  {
+   "line_start": 142,
+   "line_end": 163,
+   "type": "event_selection",
+   "title": "A. Event selection",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 149,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "kstar_and_lambda_mass_windows"
+    },
+    {
+     "line_start": 157,
+     "line_end": 163,
+     "label": "chicj_signal_windows"
+    }
+   ]
+  },
+  {
+   "line_start": 165,
+   "line_end": 176,
+   "type": "background",
+   "title": "B. Background study"
+  },
+  {
+   "line_start": 178,
+   "line_end": 224,
+   "type": "fit",
+   "title": "C. Branching fraction measurement of χcJ → p̄ K*+ Λ"
+  },
+  {
+   "line_start": 226,
+   "line_end": 226,
+   "type": "other",
+   "title": "IV. STUDY OF ψ(3686) → p̄ K*+ Λ"
+  },
+  {
+   "line_start": 228,
+   "line_end": 232,
+   "type": "event_selection",
+   "title": "A. Event Selection",
+   "units": [
+    {
+     "line_start": 228,
+     "line_end": 230,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "mass_windows_and_spectra"
+    }
+   ]
+  },
+  {
+   "line_start": 234,
+   "line_end": 252,
+   "type": "background",
+   "title": "B. Background study"
+  },
+  {
+   "line_start": 254,
+   "line_end": 256,
+   "type": "fit",
+   "title": "C. Branching fraction measurement of ψ(3686) → p̄ K*+ Λ"
+  },
+  {
+   "line_start": 258,
+   "line_end": 290,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 258,
+     "line_end": 260,
+     "label": "introduction"
+    },
+    {
+     "line_start": 262,
+     "line_end": 263,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 265,
+     "line_end": 267,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "tracking"
+    },
+    {
+     "line_start": 271,
+     "line_end": 271,
+     "label": "pid"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "lambda_mass_window"
+    },
+    {
+     "line_start": 277,
+     "line_end": 278,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 282,
+     "line_end": 282,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 284,
+     "line_end": 284,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 286,
+     "line_end": 286,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 288,
+     "line_end": 288,
+     "label": "others"
+    },
+    {
+     "line_start": 290,
+     "line_end": 290,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 292,
+   "line_end": 298,
+   "type": "conclusion",
+   "title": "VI. RESULTS AND SUMMARY"
+  },
+  {
+   "line_start": 300,
+   "line_end": 306,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 267,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 296,
+   "title": "Branching fractions of ψ(3686) → γχcJ → γ p̄ K*+ Λ, χcJ → p̄ K*+ Λ, and ψ(3686) → p̄ K*+ Λ",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

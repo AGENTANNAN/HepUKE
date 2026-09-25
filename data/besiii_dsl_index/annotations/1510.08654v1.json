@@ -1,0 +1,165 @@
+{
+ "paper_id": "1510.08654v1",
+ "source_path": "arxiv_papers/1510.08654v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 175,
+ "n_lines_sent": 119,
+ "skipped_ranges": [
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 66,
+   "to": 66,
+   "reason": "author_affiliation"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 68,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and abstract"
+  },
+  {
+   "line_start": 70,
+   "line_end": 70,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 72,
+   "line_end": 90,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 92,
+   "line_end": 96,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 98,
+   "line_end": 100,
+   "type": "event_selection",
+   "title": "III. MUON MOMENTUM VALIDATION WITH J/ψ SIGNAL",
+   "units": [
+    {
+     "line_start": 98,
+     "line_end": 100,
+     "label": "muon_momentum_validation"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 123,
+   "type": "fit",
+   "title": "IV. THE MASS SHIFT ΔM_ISR/FSR"
+  },
+  {
+   "line_start": 125,
+   "line_end": 140,
+   "type": "event_selection",
+   "title": "V. THE MEASUREMENT OF E_cms",
+   "units": [
+    {
+     "line_start": 125,
+     "line_end": 129,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 131,
+     "line_end": 140,
+     "label": "fit_and_average"
+    }
+   ]
+  },
+  {
+   "line_start": 142,
+   "line_end": 147,
+   "type": "discussion",
+   "title": "VI. CROSS CHECK"
+  },
+  {
+   "line_start": 149,
+   "line_end": 167,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 149,
+     "line_end": 153,
+     "label": "momentum_measurement"
+    },
+    {
+     "line_start": 155,
+     "line_end": 161,
+     "label": "isr_fsr_correction"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "generator"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 169,
+   "line_end": 171,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 173,
+   "line_end": 175,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 108,
+   "title": "Summary of data sets",
+   "section_type": "dataset"
+  },
+  {
+   "line": 133,
+   "title": "Weighted average E_cms",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

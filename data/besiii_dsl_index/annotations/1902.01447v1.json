@@ -1,0 +1,206 @@
+{
+ "paper_id": "1902.01447v1",
+ "source_path": "arxiv_papers/1902.01447v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 137,
+ "n_lines_sent": 60,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 121,
+   "to": 137,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 13,
+   "type": "front_matter",
+   "title": "Title, author affiliations, and PACS numbers"
+  },
+  {
+   "line_start": 11,
+   "line_end": 11,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 15,
+   "line_end": 24,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 26,
+   "line_end": 32,
+   "type": "detector",
+   "title": "II. BESIII AND BEPCII"
+  },
+  {
+   "line_start": 34,
+   "line_end": 42,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 34,
+     "line_end": 36,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 38,
+     "line_end": 38,
+     "label": "pid"
+    },
+    {
+     "line_start": 40,
+     "line_end": 40,
+     "label": "pion_selection"
+    },
+    {
+     "line_start": 42,
+     "line_end": 42,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 44,
+   "line_end": 56,
+   "type": "fit",
+   "title": "IV. ANALYSIS"
+  },
+  {
+   "line_start": 58,
+   "line_end": 91,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 65,
+     "label": "introduction"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "normalization"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "tracking"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "pid"
+    },
+    {
+     "line_start": 73,
+     "line_end": 75,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "signal_region"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 87,
+     "line_end": 91,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 111,
+   "type": "results",
+   "title": "VI. RESULT",
+   "units": [
+    {
+     "line_start": 93,
+     "line_end": 95,
+     "label": "upper_limit_events"
+    },
+    {
+     "line_start": 97,
+     "line_end": 107,
+     "label": "branching_fraction_limit"
+    },
+    {
+     "line_start": 109,
+     "line_end": 111,
+     "label": "input_values"
+    }
+   ]
+  },
+  {
+   "line_start": 113,
+   "line_end": 115,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 117,
+   "line_end": 119,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 91,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 111,
+   "title": "Input values used to obtain the upper limit on the branching fraction",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 3-13 / 11-11"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

@@ -1,0 +1,260 @@
+{
+ "paper_id": "1901.03992v1",
+ "source_path": "arxiv_papers/1901.03992v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 224,
+ "n_lines_sent": 117,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 187,
+   "to": 224,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 111,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 113,
+   "line_end": 113,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 115,
+   "line_end": 115,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 117,
+   "line_end": 125,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 127,
+   "line_end": 127,
+   "type": "event_selection",
+   "title": "Search strategy and data samples",
+   "units": [
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "search_channels_and_data_samples"
+    }
+   ]
+  },
+  {
+   "line_start": 129,
+   "line_end": 131,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 133,
+   "line_end": 135,
+   "type": "dataset",
+   "title": "Monte Carlo samples and background estimation"
+  },
+  {
+   "line_start": 137,
+   "line_end": 152,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "charged_particle_and_photon_selection"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "jpsi_mass_window"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "radiative_bhabha_suppression"
+    },
+    {
+     "line_start": 145,
+     "line_end": 146,
+     "label": "figure1_caption"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "eta_and_etaprime_suppression"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "search_channel_background_suppression"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "normalization_channel_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 154,
+   "line_end": 155,
+   "type": "fit",
+   "title": "Figure 2 caption"
+  },
+  {
+   "line_start": 157,
+   "line_end": 173,
+   "type": "fit",
+   "title": "Mass spectrum fits and ratios"
+  },
+  {
+   "line_start": 175,
+   "line_end": 175,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "photon_and_track_efficiency"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "input_branching_fractions"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "efficiency_ratio_ecm_dependence"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "signal_mc_model"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "fitting_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 177,
+   "line_end": 179,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 181,
+   "line_end": 181,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 183,
+   "line_end": 186,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 195,
+   "title": "Final results for normalization and search channels",
+   "section_type": "results"
+  },
+  {
+   "line": 199,
+   "title": "Relative systematic uncertainties on branching fraction ratio",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 12.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 175-175 share boundary line 175",
+  "units of 175-175 share boundary line 175",
+  "units of 175-175 share boundary line 175",
+  "units of 175-175 share boundary line 175",
+  "units of 175-175 share boundary line 175"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

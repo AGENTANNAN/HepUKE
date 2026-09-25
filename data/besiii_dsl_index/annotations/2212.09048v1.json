@@ -1,0 +1,427 @@
+{
+ "paper_id": "2212.09048v1",
+ "source_path": "arxiv_papers/2212.09048v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 760,
+ "n_lines_sent": 440,
+ "skipped_ranges": [
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 69,
+   "to": 70,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 103,
+   "to": 104,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 107,
+   "to": 111,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 113,
+   "to": 116,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 712,
+   "to": 760,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 7,
+   "line_end": 7,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 9,
+   "line_end": 24,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 30,
+   "line_end": 122,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 124,
+   "line_end": 140,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 142,
+   "line_end": 332,
+   "type": "other",
+   "title": "2 Strong-phase and amplitude-analysis formalism"
+  },
+  {
+   "line_start": 334,
+   "line_end": 344,
+   "type": "detector",
+   "title": "3 BESIII detector and simulated sample"
+  },
+  {
+   "line_start": 346,
+   "line_end": 399,
+   "type": "event_selection",
+   "title": "4 Event selection",
+   "units": [
+    {
+     "line_start": 346,
+     "line_end": 348,
+     "label": "overview"
+    },
+    {
+     "line_start": 350,
+     "line_end": 350,
+     "label": "tracking"
+    },
+    {
+     "line_start": 352,
+     "line_end": 352,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 354,
+     "line_end": 360,
+     "label": "kinematic_variables"
+    },
+    {
+     "line_start": 362,
+     "line_end": 364,
+     "label": "ks_selection"
+    },
+    {
+     "line_start": 366,
+     "line_end": 366,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 368,
+     "line_end": 374,
+     "label": "kl_selection"
+    },
+    {
+     "line_start": 376,
+     "line_end": 376,
+     "label": "efficiency"
+    },
+    {
+     "line_start": 378,
+     "line_end": 399,
+     "label": "background"
+    }
+   ]
+  },
+  {
+   "line_start": 401,
+   "line_end": 525,
+   "type": "fit",
+   "title": "5 Amplitude analysis"
+  },
+  {
+   "line_start": 527,
+   "line_end": 568,
+   "type": "results",
+   "title": "6 Results",
+   "units": [
+    {
+     "line_start": 527,
+     "line_end": 531,
+     "label": "fit_results"
+    },
+    {
+     "line_start": 533,
+     "line_end": 535,
+     "label": "u_spin_parameters"
+    },
+    {
+     "line_start": 537,
+     "line_end": 544,
+     "label": "fit_fractions"
+    },
+    {
+     "line_start": 546,
+     "line_end": 551,
+     "label": "dp_projections"
+    },
+    {
+     "line_start": 553,
+     "line_end": 559,
+     "label": "strong_phase_parameters"
+    },
+    {
+     "line_start": 561,
+     "line_end": 568,
+     "label": "crosschecks"
+    }
+   ]
+  },
+  {
+   "line_start": 570,
+   "line_end": 582,
+   "type": "systematic_uncertainty",
+   "title": "7 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 570,
+     "line_end": 574,
+     "label": "fixed_parameters"
+    },
+    {
+     "line_start": 576,
+     "line_end": 578,
+     "label": "acceptance"
+    },
+    {
+     "line_start": 580,
+     "line_end": 580,
+     "label": "background"
+    },
+    {
+     "line_start": 582,
+     "line_end": 582,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 584,
+   "line_end": 594,
+   "type": "results",
+   "title": "8 CP content and BF ratio",
+   "units": [
+    {
+     "line_start": 584,
+     "line_end": 592,
+     "label": "cp_fraction"
+    },
+    {
+     "line_start": 594,
+     "line_end": 594,
+     "label": "bf_ratio"
+    }
+   ]
+  },
+  {
+   "line_start": 596,
+   "line_end": 603,
+   "type": "conclusion",
+   "title": "9 Conclusion"
+  },
+  {
+   "line_start": 605,
+   "line_end": 631,
+   "type": "other",
+   "title": "A Angular dependence of Breit-Wigner amplitude in D -> PV decays"
+  },
+  {
+   "line_start": 633,
+   "line_end": 647,
+   "type": "other",
+   "title": "B Fits performed on individual tag-mode event samples separately"
+  },
+  {
+   "line_start": 649,
+   "line_end": 659,
+   "type": "other",
+   "title": "C Standalone K_L^0 pi^+ pi^- fit"
+  },
+  {
+   "line_start": 661,
+   "line_end": 697,
+   "type": "other",
+   "title": "D Systematic source-wise break up"
+  },
+  {
+   "line_start": 699,
+   "line_end": 706,
+   "type": "other",
+   "title": "E Predicted and assumed Delta c_i, Delta s_i"
+  },
+  {
+   "line_start": 708,
+   "line_end": 710,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 203,
+   "title": "Normalized Blatt-Weisskopf barrier factors",
+   "section_type": "other"
+  },
+  {
+   "line": 261,
+   "title": "Poles and couplings in K-matrix",
+   "section_type": "other"
+  },
+  {
+   "line": 391,
+   "title": "Signal Delta E, M_BC and M_miss^2 selection bounds",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 395,
+   "title": "Average double-tag efficiencies and background contamination rates",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 478,
+   "title": "DCS to CF amplitude ratios and coherence parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 500,
+   "title": "Significance values of resonant components",
+   "section_type": "fit"
+  },
+  {
+   "line": 521,
+   "title": "Comparison of predicted fit fractions with Belle-BaBar results",
+   "section_type": "fit"
+  },
+  {
+   "line": 525,
+   "title": "Amplitude parameters from the simultaneous fit",
+   "section_type": "fit"
+  },
+  {
+   "line": 535,
+   "title": "Measured U-spin breaking parameters",
+   "section_type": "results"
+  },
+  {
+   "line": 557,
+   "title": "Fit fractions from the simultaneous amplitude fit",
+   "section_type": "results"
+  },
+  {
+   "line": 639,
+   "title": "U-spin breaking parameter values from K pi tag mode",
+   "section_type": "other"
+  },
+  {
+   "line": 643,
+   "title": "U-spin breaking parameter values from K pi pi pi tag mode",
+   "section_type": "other"
+  },
+  {
+   "line": 647,
+   "title": "U-spin breaking parameter values from K pi pi0 tag mode",
+   "section_type": "other"
+  },
+  {
+   "line": 655,
+   "title": "U-spin breaking parameter values from a standalone fit",
+   "section_type": "other"
+  },
+  {
+   "line": 659,
+   "title": "Fit fractions from a standalone fit",
+   "section_type": "other"
+  },
+  {
+   "line": 665,
+   "title": "Nomenclature for systematic sources",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 669,
+   "title": "Systematic uncertainties on U-spin breaking parameters r",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 673,
+   "title": "Systematic uncertainties on U-spin breaking parameters delta",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 677,
+   "title": "Systematic uncertainties on K_S^0 pi^+ pi^- fit fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 681,
+   "title": "Systematic uncertainties on K_L^0 pi^+ pi^- fit fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 685,
+   "title": "Systematic uncertainties on c_i",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 689,
+   "title": "Systematic uncertainties on s_i",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 693,
+   "title": "Systematic uncertainties on c_i'",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 697,
+   "title": "Systematic uncertainties on s_i'",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 702,
+   "title": "Model-predicted and previously assumed strong-phase parameter differences",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-7 / 7-7"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

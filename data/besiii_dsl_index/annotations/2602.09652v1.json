@@ -1,0 +1,261 @@
+{
+ "paper_id": "2602.09652v1",
+ "source_path": "arxiv_papers/2602.09652v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 399,
+ "n_lines_sent": 160,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 135,
+   "to": 135,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 165,
+   "to": 165,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 167,
+   "to": 167,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 169,
+   "to": 169,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 177,
+   "to": 177,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 179,
+   "to": 179,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 325,
+   "to": 399,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "First observation of the eta_c Xi0 Xibar0 decay"
+  },
+  {
+   "line_start": 11,
+   "line_end": 181,
+   "type": "front_matter",
+   "title": "Author affiliations and footnotes"
+  },
+  {
+   "line_start": 181,
+   "line_end": 181,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 183,
+   "line_end": 193,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 195,
+   "line_end": 199,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 201,
+   "line_end": 214,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 201,
+     "line_end": 203,
+     "label": "final_state"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "charged_tracks_lambda"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "photon_pi0"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "kinematic_fit_4c"
+    },
+    {
+     "line_start": 211,
+     "line_end": 214,
+     "label": "xi0_mass_window"
+    }
+   ]
+  },
+  {
+   "line_start": 216,
+   "line_end": 225,
+   "type": "background",
+   "title": "IV. BACKGROUND STUDIES"
+  },
+  {
+   "line_start": 227,
+   "line_end": 255,
+   "type": "fit",
+   "title": "V. SIGNAL EXTRACTIONS AND BRANCHING FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 257,
+   "line_end": 291,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 257,
+     "line_end": 261,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 263,
+     "line_end": 267,
+     "label": "xi0_reconstruction"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 271,
+     "line_end": 271,
+     "label": "damp_function"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "eta_c_width"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "polarization"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "detector_resolution"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "efficiency_curve"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "nonresonance_shape"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "jpsi_xi0xibar0_background"
+    },
+    {
+     "line_start": 285,
+     "line_end": 285,
+     "label": "jpsi_xi_star_background"
+    },
+    {
+     "line_start": 287,
+     "line_end": 287,
+     "label": "non_xi0xibar0_background"
+    },
+    {
+     "line_start": 289,
+     "line_end": 289,
+     "label": "branching_fraction_lambda"
+    },
+    {
+     "line_start": 291,
+     "line_end": 291,
+     "label": "number_of_jpsi_events"
+    }
+   ]
+  },
+  {
+   "line_start": 293,
+   "line_end": 315,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 317,
+   "line_end": 321,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 323,
+   "line_end": 323,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 255,
+   "title": "Summary of the fit results for the M(Xi0 Xibar0) distribution",
+   "section_type": "fit"
+  },
+  {
+   "line": 265,
+   "title": "Systematic uncertainties (%) in the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 11-181 / 181-181"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

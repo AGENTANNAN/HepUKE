@@ -1,0 +1,180 @@
+{
+ "paper_id": "1510.01641v4",
+ "source_path": "arxiv_papers/1510.01641v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 187,
+ "n_lines_sent": 98,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 63,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 159,
+   "to": 187,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 12,
+   "line_end": 61,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 65,
+   "line_end": 65,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 67,
+   "line_end": 81,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 83,
+   "line_end": 83,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 85,
+   "line_end": 85,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 87,
+   "line_end": 91,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "photon_and_track_selection"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "muon_identification_and_kinematic_fit"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "selected_event_yield_and_background_composition"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 128,
+   "type": "fit",
+   "title": "Maximum likelihood fit"
+  },
+  {
+   "line_start": 130,
+   "line_end": 130,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "peaking_background_pdf_parameters"
+    }
+   ]
+  },
+  {
+   "line_start": 132,
+   "line_end": 141,
+   "type": "fit",
+   "title": "Fit figures"
+  },
+  {
+   "line_start": 143,
+   "line_end": 148,
+   "type": "results",
+   "title": "Upper limits",
+   "units": [
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "upper_limits_on_branching_fraction"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "comparison_with_babar_and_combined_limits"
+    },
+    {
+     "line_start": 147,
+     "line_end": 148,
+     "label": "figure_5_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 150,
+   "line_end": 153,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 155,
+   "line_end": 157,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

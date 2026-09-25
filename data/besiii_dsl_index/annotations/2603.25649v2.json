@@ -1,0 +1,276 @@
+{
+ "paper_id": "2603.25649v2",
+ "source_path": "arxiv_papers/2603.25649v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 865,
+ "n_lines_sent": 283,
+ "skipped_ranges": [
+  {
+   "from": 457,
+   "to": 865,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 29,
+   "type": "front_matter",
+   "title": "Title, author list, abstract, keywords, contents"
+  },
+  {
+   "line_start": 31,
+   "line_end": 46,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 48,
+   "line_end": 54,
+   "type": "detector",
+   "title": "2 Detector and data"
+  },
+  {
+   "line_start": 56,
+   "line_end": 82,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 56,
+     "line_end": 60,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "pid"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 68,
+     "line_end": 74,
+     "label": "mbc_deltae"
+    },
+    {
+     "line_start": 76,
+     "line_end": 80,
+     "label": "deltae_requirements"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 84,
+   "line_end": 369,
+   "type": "fit",
+   "title": "4 Amplitude analysis"
+  },
+  {
+   "line_start": 370,
+   "line_end": 439,
+   "type": "results",
+   "title": "5 Branching fraction measurement",
+   "units": [
+    {
+     "line_start": 370,
+     "line_end": 372,
+     "label": "bf_measurement_intro"
+    },
+    {
+     "line_start": 374,
+     "line_end": 384,
+     "label": "dt_equations"
+    },
+    {
+     "line_start": 386,
+     "line_end": 388,
+     "label": "systematic_table_6"
+    },
+    {
+     "line_start": 390,
+     "line_end": 392,
+     "label": "bf_formula"
+    },
+    {
+     "line_start": 394,
+     "line_end": 394,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 396,
+     "line_end": 398,
+     "label": "quantum_correlation_params"
+    },
+    {
+     "line_start": 400,
+     "line_end": 400,
+     "label": "dt_yield_efficiency"
+    },
+    {
+     "line_start": 402,
+     "line_end": 407,
+     "label": "st_fit_figures"
+    },
+    {
+     "line_start": 409,
+     "line_end": 409,
+     "label": "systematic_uncertainties_intro"
+    },
+    {
+     "line_start": 411,
+     "line_end": 413,
+     "label": "st_dt_efficiency_table"
+    },
+    {
+     "line_start": 415,
+     "line_end": 415,
+     "label": "st_candidates"
+    },
+    {
+     "line_start": 417,
+     "line_end": 417,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 419,
+     "line_end": 419,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 421,
+     "line_end": 421,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 423,
+     "line_end": 423,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 425,
+     "line_end": 425,
+     "label": "quoted_bf_pi0"
+    },
+    {
+     "line_start": 427,
+     "line_end": 427,
+     "label": "2d_fit"
+    },
+    {
+     "line_start": 429,
+     "line_end": 429,
+     "label": "opening_angle"
+    },
+    {
+     "line_start": 431,
+     "line_end": 431,
+     "label": "deltae_sig"
+    },
+    {
+     "line_start": 433,
+     "line_end": 433,
+     "label": "quantum_correlation_correction"
+    },
+    {
+     "line_start": 435,
+     "line_end": 435,
+     "label": "bf_result"
+    },
+    {
+     "line_start": 437,
+     "line_end": 439,
+     "label": "systematic_table_9"
+    }
+   ]
+  },
+  {
+   "line_start": 441,
+   "line_end": 449,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 451,
+   "line_end": 455,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 40,
+   "title": "Theoretical predictions for B(D0 -> K*(892)+ K*(892)-)",
+   "section_type": "introduction"
+  },
+  {
+   "line": 78,
+   "title": "Requirements of Delta E for signal and tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 205,
+   "title": "K pi S-wave parameters from BABAR and Belle",
+   "section_type": "fit"
+  },
+  {
+   "line": 345,
+   "title": "Magnitude, phases, FFs, and significances for amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 388,
+   "title": "Systematic uncertainties on phases, FFs, Fp and F+",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 396,
+   "title": "Input values of r, R and delta for tag modes",
+   "section_type": "results"
+  },
+  {
+   "line": 411,
+   "title": "ST yields, ST efficiency and DT efficiency",
+   "section_type": "results"
+  },
+  {
+   "line": 437,
+   "title": "Relative systematic uncertainties in the BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 447,
+   "title": "BFs of intermediate processes in D0 -> K- K+ pi0 pi0",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 605,
+   "title": "Tested amplitudes not included in nominal fit",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 14.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

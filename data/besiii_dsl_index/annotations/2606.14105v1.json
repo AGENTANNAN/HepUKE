@@ -1,0 +1,158 @@
+{
+ "paper_id": "2606.14105v1",
+ "source_path": "arxiv_papers/2606.14105v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 354,
+ "n_lines_sent": 141,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 278,
+   "to": 354,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 183,
+   "type": "front_matter",
+   "title": "Evidence of ψ(3770) → π0J/ψ (title, authors, affiliations)"
+  },
+  {
+   "line_start": 185,
+   "line_end": 185,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 187,
+   "line_end": 191,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 193,
+   "line_end": 195,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 197,
+   "line_end": 201,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "muon_identification_and_kinematic_fit"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 203,
+   "line_end": 213,
+   "type": "other",
+   "title": "Figures 1 and 2"
+  },
+  {
+   "line_start": 215,
+   "line_end": 243,
+   "type": "fit",
+   "title": "Cross section and branching fraction determination"
+  },
+  {
+   "line_start": 245,
+   "line_end": 255,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 245,
+     "line_end": 245,
+     "label": "luminosity_tracking_photon_dep_veto_kinematic_fit"
+    },
+    {
+     "line_start": 247,
+     "line_end": 249,
+     "label": "signal_yield_extraction"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "input_line_shape_and_pdg_inputs"
+    },
+    {
+     "line_start": 253,
+     "line_end": 255,
+     "label": "interference"
+    }
+   ]
+  },
+  {
+   "line_start": 257,
+   "line_end": 261,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 263,
+   "line_end": 268,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 270,
+   "line_end": 276,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 249,
+   "title": "Table I. Luminosity, detection efficiency, ISR factor, B0, signal yield, and dressed cross section at √s = 3.773 GeV",
+   "section_type": "fit"
+  },
+  {
+   "line": 255,
+   "title": "Table II. Systematic uncertainties (in %) for the dressed cross section and branching fraction",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

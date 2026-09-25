@@ -1,0 +1,319 @@
+{
+ "paper_id": "2212.07071v2",
+ "source_path": "arxiv_papers/2212.07071v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 420,
+ "n_lines_sent": 160,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 232,
+   "to": 420,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 111,
+   "type": "front_matter",
+   "title": "Measurements of the electric and magnetic form factors of the neutron for time-like momentum transfer"
+  },
+  {
+   "line_start": 113,
+   "line_end": 113,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 115,
+   "line_end": 124,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 126,
+   "line_end": 132,
+   "type": "fit",
+   "title": "Formalism"
+  },
+  {
+   "line_start": 134,
+   "line_end": 138,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "charged_track_rejection"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "event_categories"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "angular_binning"
+    }
+   ]
+  },
+  {
+   "line_start": 140,
+   "line_end": 170,
+   "type": "fit",
+   "title": "Signal Extraction and Fit"
+  },
+  {
+   "line_start": 172,
+   "line_end": 183,
+   "type": "results",
+   "title": "Fit Results",
+   "units": [
+    {
+     "line_start": 172,
+     "line_end": 183,
+     "label": "differential_cross_section_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 185,
+   "line_end": 191,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "signal_event_selection"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "born_cross_section_input"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "trigger_efficiency"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 187,
+     "line_end": 191,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 193,
+   "line_end": 193,
+   "type": "conclusion",
+   "title": "Conclusion"
+  },
+  {
+   "line_start": 195,
+   "line_end": 209,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 211,
+   "line_end": 213,
+   "type": "results",
+   "title": "Table II",
+   "units": [
+    {
+     "line_start": 211,
+     "line_end": 213,
+     "label": "table_ii"
+    }
+   ]
+  },
+  {
+   "line_start": 215,
+   "line_end": 224,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 226,
+   "line_end": 228,
+   "type": "results",
+   "title": "Table III",
+   "units": [
+    {
+     "line_start": 226,
+     "line_end": 228,
+     "label": "table_iii"
+    }
+   ]
+  },
+  {
+   "line_start": 230,
+   "line_end": 230,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 189,
+   "title": "Form factor ratios and form factors",
+   "section_type": "results"
+  },
+  {
+   "line": 213,
+   "title": "Fitting results corresponding to Fig. 5",
+   "section_type": "results"
+  },
+  {
+   "line": 228,
+   "title": "Fitting results corresponding to Fig. 6",
+   "section_type": "results"
+  },
+  {
+   "line": 356,
+   "title": "Systematic uncertainty sources Category A",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 360,
+   "title": "Systematic uncertainty sources Category B",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 364,
+   "title": "Systematic uncertainty sources Category C",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 368,
+   "title": "Form factor ratios and form factors from angular fit",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 372,
+   "title": "Differential cross-sections for category A",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 376,
+   "title": "Differential cross-sections for category B",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 380,
+   "title": "Differential cross-sections for category C",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 384,
+   "title": "DATA: Nsignal @CatA",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 388,
+   "title": "DATA: Nsignal @CatB",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 392,
+   "title": "DATA: Nsignal @CatC",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 394,
+   "title": "DATA: EMC @CatA",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 398,
+   "title": "DATA: EMC @CatB",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 402,
+   "title": "DATA: EMC @CatC",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 407,
+   "title": "DATA: Cdm @CatA",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 412,
+   "title": "DATA: Cdm @CatB",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 416,
+   "title": "DATA: Cdm @CatC",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 420,
+   "title": "DATA: (1+delta) @all categories",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 185-191 share boundary line 185",
+  "units of 185-191 share boundary line 185",
+  "units of 185-191 share boundary line 185",
+  "units of 185-191 share boundary line 185",
+  "units of 185-191 share boundary line 185"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

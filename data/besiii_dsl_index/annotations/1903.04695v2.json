@@ -1,0 +1,180 @@
+{
+ "paper_id": "1903.04695v2",
+ "source_path": "arxiv_papers/1903.04695v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 201,
+ "n_lines_sent": 123,
+ "skipped_ranges": [
+  {
+   "from": 15,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 164,
+   "to": 201,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 85,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and PACS"
+  },
+  {
+   "line_start": 87,
+   "line_end": 89,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 91,
+   "line_end": 101,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 103,
+   "line_end": 103,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 105,
+   "line_end": 113,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "mass_windows"
+    }
+   ]
+  },
+  {
+   "line_start": 115,
+   "line_end": 118,
+   "type": "event_selection",
+   "title": "Mass windows and sidebands",
+   "units": [
+    {
+     "line_start": 115,
+     "line_end": 118,
+     "label": "omega_mass_window"
+    }
+   ]
+  },
+  {
+   "line_start": 120,
+   "line_end": 131,
+   "type": "fit",
+   "title": "Fit to the M(omega J/psi) mass distribution"
+  },
+  {
+   "line_start": 133,
+   "line_end": 138,
+   "type": "fit",
+   "title": "Cross section measurement and simultaneous fit"
+  },
+  {
+   "line_start": 140,
+   "line_end": 154,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "mass_width_systematics"
+    },
+    {
+     "line_start": 142,
+     "line_end": 144,
+     "label": "systematic_budget_table"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "cross_section_systematics"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "signal_extraction_systematics"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "radiative_correction_and_branching_fractions"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "total_cross_section_uncertainty"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "y4200_parameter_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 156,
+   "line_end": 160,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 162,
+   "line_end": 162,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 129,
+   "title": "Masses and widths of X(3872), X(3915), and X(3960) from the fit",
+   "section_type": "fit"
+  },
+  {
+   "line": 144,
+   "title": "Summary of systematic uncertainties for X(3872)/X(3915)/X(3960) mass and width measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

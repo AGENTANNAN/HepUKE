@@ -1,0 +1,151 @@
+{
+ "paper_id": "2012.11106v2",
+ "source_path": "arxiv_papers/2012.11106v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 190,
+ "n_lines_sent": 114,
+ "skipped_ranges": [
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 158,
+   "to": 190,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 76,
+   "type": "front_matter",
+   "title": "Measurement of the absolute branching fraction of Lambda_c+ -> p K_S^0 eta decays"
+  },
+  {
+   "line_start": 78,
+   "line_end": 82,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 84,
+   "line_end": 90,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 92,
+   "line_end": 96,
+   "type": "detector",
+   "title": "2. BESIII Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 98,
+   "line_end": 106,
+   "type": "event_selection",
+   "title": "3. Event selection",
+   "units": [
+    {
+     "line_start": 98,
+     "line_end": 100,
+     "label": "charged_track_and_proton_pid"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "eta_reconstruction"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "lambda_c_candidate_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 121,
+   "type": "fit",
+   "title": "4. Signal yield and BF"
+  },
+  {
+   "line_start": 123,
+   "line_end": 148,
+   "type": "systematic_uncertainty",
+   "title": "5. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "overview"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "proton_pid_tracking_ks0_eta_reconstruction"
+    },
+    {
+     "line_start": 129,
+     "line_end": 138,
+     "label": "two_dimensional_fit"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "n_lambda_c_and_intermediate_branching_fractions"
+    },
+    {
+     "line_start": 144,
+     "line_end": 148,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 150,
+   "line_end": 152,
+   "type": "conclusion",
+   "title": "6. Summary"
+  },
+  {
+   "line_start": 154,
+   "line_end": 156,
+   "type": "acknowledgements",
+   "title": "7. Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 148,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

@@ -1,0 +1,224 @@
+{
+ "paper_id": "2309.04215v3",
+ "source_path": "arxiv_papers/2309.04215v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 353,
+ "n_lines_sent": 176,
+ "skipped_ranges": [
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 278,
+   "to": 353,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 11,
+   "line_end": 60,
+   "type": "front_matter",
+   "title": "Affiliations and contact"
+  },
+  {
+   "line_start": 62,
+   "line_end": 62,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 64,
+   "line_end": 91,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 93,
+   "line_end": 101,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 103,
+   "line_end": 107,
+   "type": "detector",
+   "title": "2 BESIII Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 109,
+   "line_end": 123,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 109,
+     "line_end": 111,
+     "label": "partial_reconstruction_strategy"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "lambda_and_xi_reconstruction"
+    },
+    {
+     "line_start": 117,
+     "line_end": 123,
+     "label": "recoil_mass_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 125,
+   "line_end": 152,
+   "type": "fit",
+   "title": "4 Born cross section measurement"
+  },
+  {
+   "line_start": 154,
+   "line_end": 192,
+   "type": "results",
+   "title": "5 Determination of the effective form factor",
+   "units": [
+    {
+     "line_start": 154,
+     "line_end": 192,
+     "label": "effective_form_factor"
+    }
+   ]
+  },
+  {
+   "line_start": 194,
+   "line_end": 231,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 194,
+     "line_end": 196,
+     "label": "overview"
+    },
+    {
+     "line_start": 198,
+     "line_end": 203,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 205,
+     "line_end": 207,
+     "label": "xi_reconstruction"
+    },
+    {
+     "line_start": 209,
+     "line_end": 215,
+     "label": "background"
+    },
+    {
+     "line_start": 217,
+     "line_end": 219,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 221,
+     "line_end": 223,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 225,
+     "line_end": 227,
+     "label": "input_line_shape"
+    },
+    {
+     "line_start": 229,
+     "line_end": 231,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 233,
+   "line_end": 259,
+   "type": "fit",
+   "title": "7 Fit to the dressed cross section"
+  },
+  {
+   "line_start": 261,
+   "line_end": 266,
+   "type": "conclusion",
+   "title": "8 Summary"
+  },
+  {
+   "line_start": 268,
+   "line_end": 270,
+   "type": "other",
+   "title": "Table 4 caption and table"
+  },
+  {
+   "line_start": 272,
+   "line_end": 276,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 152,
+   "title": "Number of signal and background events for each energy point",
+   "section_type": "fit"
+  },
+  {
+   "line": 211,
+   "title": "CM energy, luminosity, correction factors, signal yields, Born cross section, effective form factor and significance",
+   "section_type": "results"
+  },
+  {
+   "line": 251,
+   "title": "Systematic uncertainties and their sources for each energy point",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 270,
+   "title": "Fitted resonance parameters to the dressed cross section",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

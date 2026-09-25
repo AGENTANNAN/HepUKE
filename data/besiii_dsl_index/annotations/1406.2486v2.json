@@ -1,0 +1,162 @@
+{
+ "paper_id": "1406.2486v2",
+ "source_path": "arxiv_papers/1406.2486v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 236,
+ "n_lines_sent": 114,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 211,
+   "to": 236,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 31,
+   "line_end": 101,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, PACS"
+  },
+  {
+   "line_start": 103,
+   "line_end": 117,
+   "type": "introduction",
+   "title": "INTRODUCTION"
+  },
+  {
+   "line_start": 119,
+   "line_end": 127,
+   "type": "detector",
+   "title": "EXPERIMENT AND DATA SAMPLES"
+  },
+  {
+   "line_start": 129,
+   "line_end": 140,
+   "type": "event_selection",
+   "title": "EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 129,
+     "line_end": 131,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 133,
+     "line_end": 138,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 142,
+   "line_end": 144,
+   "type": "background",
+   "title": "BACKGROUND ESTIMATION"
+  },
+  {
+   "line_start": 146,
+   "line_end": 156,
+   "type": "fit",
+   "title": "CALCULATION OF THE CROSS SECTIONS"
+  },
+  {
+   "line_start": 158,
+   "line_end": 170,
+   "type": "systematic_uncertainty",
+   "title": "SYSTEMATIC ERRORS",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "uncorrelated_systematics"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "dalitz_acceptance"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "kinematic_fit_tracking_pid_photon_luminosity"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "fit_binning"
+    }
+   ]
+  },
+  {
+   "line_start": 172,
+   "line_end": 195,
+   "type": "fit",
+   "title": "FIT TO THE BORN CROSS SECTIONS"
+  },
+  {
+   "line_start": 197,
+   "line_end": 205,
+   "type": "conclusion",
+   "title": "SUMMARY"
+  },
+  {
+   "line_start": 207,
+   "line_end": 209,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 154,
+   "title": "Summary of measurements of reconstructed events, luminosities, efficiencies, observed and Born cross sections",
+   "section_type": "fit"
+  },
+  {
+   "line": 203,
+   "title": "Summary of extracted fit results and upper limits",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

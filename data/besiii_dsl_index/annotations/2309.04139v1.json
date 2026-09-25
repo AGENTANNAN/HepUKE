@@ -1,0 +1,264 @@
+{
+ "paper_id": "2309.04139v1",
+ "source_path": "arxiv_papers/2309.04139v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 287,
+ "n_lines_sent": 132,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 67,
+   "to": 71,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 73,
+   "to": 74,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 240,
+   "to": 287,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 78,
+   "type": "front_matter",
+   "title": "Novel method to extract the femtometer structure of strange baryons using the vacuum polarization effect"
+  },
+  {
+   "line_start": 80,
+   "line_end": 80,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 82,
+   "line_end": 91,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 93,
+   "line_end": 115,
+   "type": "detector",
+   "title": "II. ANALYSIS"
+  },
+  {
+   "line_start": 117,
+   "line_end": 130,
+   "type": "results",
+   "title": "III. RESULTS",
+   "units": [
+    {
+     "line_start": 117,
+     "line_end": 119,
+     "label": "polarization_and_correlation"
+    },
+    {
+     "line_start": 121,
+     "line_end": 130,
+     "label": "fit_results"
+    }
+   ]
+  },
+  {
+   "line_start": 132,
+   "line_end": 136,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 138,
+   "line_end": 138,
+   "type": "other",
+   "title": "Appendix A"
+  },
+  {
+   "line_start": 140,
+   "line_end": 146,
+   "type": "event_selection",
+   "title": "2. Initial Selection Criteria",
+   "units": [
+    {
+     "line_start": 140,
+     "line_end": 142,
+     "label": "event_topology"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "lambda_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 148,
+   "line_end": 148,
+   "type": "other",
+   "title": "Appendix A"
+  },
+  {
+   "line_start": 150,
+   "line_end": 152,
+   "type": "dataset",
+   "title": "1. Monte Carlo simulation"
+  },
+  {
+   "line_start": 154,
+   "line_end": 154,
+   "type": "event_selection",
+   "title": "Photon selection",
+   "units": [
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "photon_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 156,
+   "line_end": 156,
+   "type": "event_selection",
+   "title": "Kinematic fit",
+   "units": [
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 158,
+   "line_end": 160,
+   "type": "event_selection",
+   "title": "3. Final Selection Criteria",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "final_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 162,
+   "line_end": 172,
+   "type": "background",
+   "title": "4. Background Analysis"
+  },
+  {
+   "line_start": 174,
+   "line_end": 176,
+   "type": "fit",
+   "title": "5. Signal Extraction"
+  },
+  {
+   "line_start": 178,
+   "line_end": 204,
+   "type": "fit",
+   "title": "6. Helicity Amplitude"
+  },
+  {
+   "line_start": 206,
+   "line_end": 228,
+   "type": "fit",
+   "title": "7. Global Fit of Parameters"
+  },
+  {
+   "line_start": 230,
+   "line_end": 234,
+   "type": "systematic_uncertainty",
+   "title": "8. Systematic Uncertainty",
+   "units": [
+    {
+     "line_start": 230,
+     "line_end": 232,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "background_estimate"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "alpha_lambda"
+    },
+    {
+     "line_start": 234,
+     "line_end": 234,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 236,
+   "line_end": 238,
+   "type": "systematic_uncertainty",
+   "title": "Table I"
+  }
+ ],
+ "tables": [
+  {
+   "line": 238,
+   "title": "Relative systematic uncertainties for the parameters measurement (%)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 230-234 share boundary line 232",
+  "units of 230-234 share boundary line 232",
+  "units of 230-234 share boundary line 232",
+  "short section 236-238 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

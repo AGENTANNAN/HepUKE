@@ -1,0 +1,225 @@
+{
+ "paper_id": "1903.04164v2",
+ "source_path": "arxiv_papers/1903.04164v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 415,
+ "n_lines_sent": 242,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 144,
+   "to": 144,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 388,
+   "to": 415,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 152,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 154,
+   "line_end": 156,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 158,
+   "line_end": 180,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 182,
+   "line_end": 188,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 190,
+   "line_end": 344,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 190,
+     "line_end": 226,
+     "label": "overview_and_dt_method"
+    },
+    {
+     "line_start": 228,
+     "line_end": 252,
+     "label": "st_event_selection"
+    },
+    {
+     "line_start": 254,
+     "line_end": 277,
+     "label": "ks0_k_plus_branching_fraction"
+    },
+    {
+     "line_start": 279,
+     "line_end": 318,
+     "label": "kl0_k_plus_branching_fraction"
+    },
+    {
+     "line_start": 320,
+     "line_end": 344,
+     "label": "asymmetry_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 346,
+   "line_end": 374,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 346,
+     "line_end": 350,
+     "label": "overview"
+    },
+    {
+     "line_start": 352,
+     "line_end": 352,
+     "label": "tracking"
+    },
+    {
+     "line_start": 354,
+     "line_end": 354,
+     "label": "pid"
+    },
+    {
+     "line_start": 356,
+     "line_end": 356,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 358,
+     "line_end": 360,
+     "label": "systematics_table"
+    },
+    {
+     "line_start": 362,
+     "line_end": 362,
+     "label": "photon_selection_kinematic_fit"
+    },
+    {
+     "line_start": 364,
+     "line_end": 364,
+     "label": "extra_photon_charged_track"
+    },
+    {
+     "line_start": 366,
+     "line_end": 366,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 368,
+     "line_end": 368,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 370,
+     "line_end": 372,
+     "label": "background_processes"
+    },
+    {
+     "line_start": 374,
+     "line_end": 374,
+     "label": "tag_side_bias"
+    }
+   ]
+  },
+  {
+   "line_start": 376,
+   "line_end": 380,
+   "type": "conclusion",
+   "title": "V. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 382,
+   "line_end": 386,
+   "type": "acknowledgements",
+   "title": "VI. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 178,
+   "title": "Predictions for K_S^0-K_L^0 asymmetries in charmed-meson decays from different phenomenological models and the CLEO measurements",
+   "section_type": "introduction"
+  },
+  {
+   "line": 206,
+   "title": "Summary of the D_s^- ST yields, along with the ST and DT detection efficiencies for that decay mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 360,
+   "title": "Summary of relative systematic uncertainties of the branching fraction measurements and the absolute systematic uncertainties of the A_CP and R(D_s^+) measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

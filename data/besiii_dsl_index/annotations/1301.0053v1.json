@@ -1,0 +1,244 @@
+{
+ "paper_id": "1301.0053v1",
+ "source_path": "arxiv_papers/1301.0053v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 374,
+ "n_lines_sent": 211,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 339,
+   "to": 374,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 63,
+   "type": "front_matter",
+   "title": "Partial wave analysis of J/psi -> gamma eta eta (title, authors, affiliations)"
+  },
+  {
+   "line_start": 65,
+   "line_end": 67,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 69,
+   "line_end": 73,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 75,
+   "line_end": 81,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 83,
+   "line_end": 107,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 83,
+     "line_end": 85,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "pi0_veto_and_kinematic_fit"
+    },
+    {
+     "line_start": 89,
+     "line_end": 91,
+     "label": "eta_mass_window"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "miscombination_veto"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "phi_eta_veto_and_spectrum"
+    },
+    {
+     "line_start": 97,
+     "line_end": 107,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 109,
+   "line_end": 201,
+   "type": "fit",
+   "title": "IV. PARTIAL WAVE ANALYSIS - A. Analysis method"
+  },
+  {
+   "line_start": 203,
+   "line_end": 284,
+   "type": "results",
+   "title": "IV. PARTIAL WAVE ANALYSIS - B. PWA results",
+   "units": [
+    {
+     "line_start": 203,
+     "line_end": 213,
+     "label": "basic_solution_and_table"
+    },
+    {
+     "line_start": 215,
+     "line_end": 233,
+     "label": "scalar_components"
+    },
+    {
+     "line_start": 234,
+     "line_end": 281,
+     "label": "tensor_components"
+    },
+    {
+     "line_start": 282,
+     "line_end": 284,
+     "label": "non_resonant_and_phi_eta"
+    }
+   ]
+  },
+  {
+   "line_start": 286,
+   "line_end": 313,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC ERROR",
+   "units": [
+    {
+     "line_start": 286,
+     "line_end": 290,
+     "label": "background_uncertainty"
+    },
+    {
+     "line_start": 291,
+     "line_end": 291,
+     "label": "extra_components"
+    },
+    {
+     "line_start": 292,
+     "line_end": 295,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 296,
+     "line_end": 296,
+     "label": "jpsi_phi_eta"
+    },
+    {
+     "line_start": 297,
+     "line_end": 297,
+     "label": "mass_resolution"
+    },
+    {
+     "line_start": 298,
+     "line_end": 298,
+     "label": "phase_space_description"
+    },
+    {
+     "line_start": 299,
+     "line_end": 299,
+     "label": "breit_wigner_formula"
+    },
+    {
+     "line_start": 301,
+     "line_end": 303,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 305,
+     "line_end": 309,
+     "label": "trigger_efficiency"
+    },
+    {
+     "line_start": 310,
+     "line_end": 310,
+     "label": "kinematic_fit_and_eta_selection"
+    },
+    {
+     "line_start": 311,
+     "line_end": 311,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 313,
+     "line_end": 313,
+     "label": "summary_of_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 315,
+   "line_end": 333,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 335,
+   "line_end": 337,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 211,
+   "title": "Summary of the PWA results: masses, widths, branching ratios and significances",
+   "section_type": "results"
+  },
+  {
+   "line": 307,
+   "title": "Summary of systematic errors from event selection",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 321,
+   "title": "Systematic error contributions to masses and widths",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 325,
+   "title": "Systematic error contributions to branching fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 5.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

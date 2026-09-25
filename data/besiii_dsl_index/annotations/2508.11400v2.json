@@ -1,0 +1,243 @@
+{
+ "paper_id": "2508.11400v2",
+ "source_path": "arxiv_papers/2508.11400v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 506,
+ "n_lines_sent": 154,
+ "skipped_ranges": [
+  {
+   "from": 281,
+   "to": 506,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "The Production and Decay Dynamics of the Charmed Baryon Λc+ in e+e- Annihilations near Threshold"
+  },
+  {
+   "line_start": 9,
+   "line_end": 44,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 46,
+   "line_end": 50,
+   "type": "detector",
+   "title": "II. EXPERIMENTAL APPARATUS AND DATA SETS"
+  },
+  {
+   "line_start": 52,
+   "line_end": 72,
+   "type": "event_selection",
+   "title": "III. MEASUREMENT METHOD",
+   "units": [
+    {
+     "line_start": 52,
+     "line_end": 56,
+     "label": "single_tag_approach"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "pid"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "photon_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 64,
+     "line_end": 66,
+     "label": "ks_and_lambda_reconstruction"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "mbc_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 74,
+   "line_end": 118,
+   "type": "fit",
+   "title": "B. Helicity system and angular distribution definitions"
+  },
+  {
+   "line_start": 120,
+   "line_end": 139,
+   "type": "fit",
+   "title": "C. Fit of the joint angular distributions"
+  },
+  {
+   "line_start": 141,
+   "line_end": 157,
+   "type": "systematic_uncertainty",
+   "title": "D. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 145,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "truth_matching"
+    },
+    {
+     "line_start": 147,
+     "line_end": 149,
+     "label": "signal_components"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "background_components"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "fixed_parameters"
+    },
+    {
+     "line_start": 155,
+     "line_end": 157,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 159,
+   "line_end": 171,
+   "type": "results",
+   "title": "IV. RESULTS",
+   "units": [
+    {
+     "line_start": 159,
+     "line_end": 163,
+     "label": "transverse_polarization"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "form_factor_ratio"
+    },
+    {
+     "line_start": 167,
+     "line_end": 169,
+     "label": "results_table"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "polarization_moment"
+    }
+   ]
+  },
+  {
+   "line_start": 173,
+   "line_end": 187,
+   "type": "results",
+   "title": "B. Decay asymmetry and SM test",
+   "units": [
+    {
+     "line_start": 173,
+     "line_end": 175,
+     "label": "decay_asymmetry"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "cp_test"
+    },
+    {
+     "line_start": 179,
+     "line_end": 180,
+     "label": "figure_5"
+    },
+    {
+     "line_start": 182,
+     "line_end": 184,
+     "label": "results_table_iv"
+    },
+    {
+     "line_start": 186,
+     "line_end": 187,
+     "label": "figure_6"
+    }
+   ]
+  },
+  {
+   "line_start": 189,
+   "line_end": 269,
+   "type": "discussion",
+   "title": "V. DISCUSSION"
+  },
+  {
+   "line_start": 271,
+   "line_end": 273,
+   "type": "other",
+   "title": "DATA AVAILABILITY"
+  },
+  {
+   "line_start": 275,
+   "line_end": 279,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 36,
+   "title": "Theoretical calculations and experimental measurements of the decay asymmetry parameters",
+   "section_type": "introduction"
+  },
+  {
+   "line": 157,
+   "title": "Absolute systematic uncertainties in transverse polarization and decay asymmetry parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 169,
+   "title": "Results for α0, ΔΦ, and transverse polarization of Λc+ at 13 energy points",
+   "section_type": "results"
+  },
+  {
+   "line": 184,
+   "title": "Results of decay observables",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 9.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

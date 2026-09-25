@@ -1,0 +1,220 @@
+{
+ "paper_id": "2108.02405v3",
+ "source_path": "arxiv_papers/2108.02405v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 165,
+ "n_lines_sent": 43,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 89,
+   "to": 89,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 91,
+   "to": 165,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 18,
+   "type": "front_matter",
+   "title": "First measurement of polarizations in the decay D0 -> omega phi"
+  },
+  {
+   "line_start": 19,
+   "line_end": 19,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 20,
+   "line_end": 28,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 29,
+   "line_end": 49,
+   "type": "other",
+   "title": "Formalism"
+  },
+  {
+   "line_start": 50,
+   "line_end": 50,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 51,
+   "line_end": 51,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 52,
+   "line_end": 58,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "tracking"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "pid"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "delta_e"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "ks_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 59,
+   "line_end": 75,
+   "type": "fit",
+   "title": "Fit to the M_BC distribution"
+  },
+  {
+   "line_start": 76,
+   "line_end": 80,
+   "type": "results",
+   "title": "Polarization results",
+   "units": [
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "polarization_fit"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "figure_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 81,
+   "line_end": 84,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "tracking"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "pid"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 85,
+   "line_end": 86,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 87,
+   "line_end": 88,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

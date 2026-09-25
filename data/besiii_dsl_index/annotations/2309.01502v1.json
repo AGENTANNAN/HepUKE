@@ -1,0 +1,241 @@
+{
+ "paper_id": "2309.01502v1",
+ "source_path": "arxiv_papers/2309.01502v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 358,
+ "n_lines_sent": 165,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 120,
+   "to": 120,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 251,
+   "to": 251,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 253,
+   "to": 358,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 8,
+   "line_end": 139,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 141,
+   "line_end": 141,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 143,
+   "line_end": 149,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 151,
+   "line_end": 173,
+   "type": "fit",
+   "title": "Parameterization and fit setup"
+  },
+  {
+   "line_start": 175,
+   "line_end": 185,
+   "type": "fit",
+   "title": "Fit results"
+  },
+  {
+   "line_start": 187,
+   "line_end": 209,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 187,
+     "line_end": 189,
+     "label": "alpha_beta"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "dstar_width"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "efficiency"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "resolution"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "background"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "d0_mass"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "ecms"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "simulation"
+    },
+    {
+     "line_start": 205,
+     "line_end": 209,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 211,
+   "line_end": 247,
+   "type": "results",
+   "title": "Pole locations and effective range expansion",
+   "units": [
+    {
+     "line_start": 211,
+     "line_end": 215,
+     "label": "riemann_sheets"
+    },
+    {
+     "line_start": 217,
+     "line_end": 218,
+     "label": "figure1"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "pole_locations"
+    },
+    {
+     "line_start": 222,
+     "line_end": 228,
+     "label": "k_plane"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "uncertainties"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "branching_ratio"
+    },
+    {
+     "line_start": 234,
+     "line_end": 234,
+     "label": "ere_parameters"
+    },
+    {
+     "line_start": 236,
+     "line_end": 239,
+     "label": "deuteron_comparison"
+    },
+    {
+     "line_start": 241,
+     "line_end": 247,
+     "label": "compositeness"
+    }
+   ]
+  },
+  {
+   "line_start": 249,
+   "line_end": 249,
+   "type": "conclusion",
+   "title": "Summary"
+  }
+ ],
+ "tables": [
+  {
+   "line": 177,
+   "title": "Summary of the X(3872) lineshape fit parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 185,
+   "title": "Fit results of lineshape parameters and correlation matrix",
+   "section_type": "fit"
+  },
+  {
+   "line": 209,
+   "title": "Systematic uncertainties of the lineshape parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 346,
+   "title": "Covariance matrix of pole locations on Riemann sheets",
+   "section_type": "results"
+  },
+  {
+   "line": 350,
+   "title": "Covariance matrix of pole locations on k-plane",
+   "section_type": "results"
+  },
+  {
+   "line": 354,
+   "title": "Upper and lower uncertainties on pole locations on Riemann sheets",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 358,
+   "title": "Upper and lower uncertainties on pole locations on k-plane",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

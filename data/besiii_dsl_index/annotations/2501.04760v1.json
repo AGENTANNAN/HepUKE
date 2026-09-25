@@ -1,0 +1,267 @@
+{
+ "paper_id": "2501.04760v1",
+ "source_path": "arxiv_papers/2501.04760v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 248,
+ "n_lines_sent": 142,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 69,
+   "to": 69,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 76,
+   "to": 76,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 90,
+   "to": 90,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 221,
+   "to": 248,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 90,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 92,
+   "line_end": 92,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 94,
+   "line_end": 94,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 96,
+   "line_end": 96,
+   "type": "detector",
+   "title": "II. DESCRIPTION OF BEPCII AND THE BESIII DETECTOR"
+  },
+  {
+   "line_start": 98,
+   "line_end": 117,
+   "type": "introduction",
+   "title": "Introduction (continued)"
+  },
+  {
+   "line_start": 119,
+   "line_end": 121,
+   "type": "dataset",
+   "title": "III. MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 123,
+   "line_end": 142,
+   "type": "event_selection",
+   "title": "IV. ANALYSIS METHOD",
+   "units": [
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "double_tag_technique"
+    },
+    {
+     "line_start": 127,
+     "line_end": 142,
+     "label": "branching_fraction_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 144,
+   "line_end": 154,
+   "type": "event_selection",
+   "title": "V. PARTICLE RECONSTRUCTION",
+   "units": [
+    {
+     "line_start": 144,
+     "line_end": 148,
+     "label": "charged_track_and_pid"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "pi0_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 156,
+   "line_end": 158,
+   "type": "event_selection",
+   "title": "Table 1",
+   "units": [
+    {
+     "line_start": 156,
+     "line_end": 158,
+     "label": "st_yields_and_efficiencies"
+    }
+   ]
+  },
+  {
+   "line_start": 160,
+   "line_end": 171,
+   "type": "event_selection",
+   "title": "VI. THE SINGLE-TAG SELECTION AND YIELDS",
+   "units": [
+    {
+     "line_start": 160,
+     "line_end": 169,
+     "label": "st_selection_criteria"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "st_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 173,
+   "line_end": 183,
+   "type": "event_selection",
+   "title": "VII. THE DOUBLE-TAG SELECTION AND YIELDS",
+   "units": [
+    {
+     "line_start": 173,
+     "line_end": 181,
+     "label": "dt_selection_criteria"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "dt_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 185,
+   "line_end": 191,
+   "type": "systematic_uncertainty",
+   "title": "VIII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 185,
+     "line_end": 187,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 189,
+     "line_end": 191,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 193,
+   "line_end": 207,
+   "type": "results",
+   "title": "IX. UPPER LIMIT OF THE BRANCHING FRACTION",
+   "units": [
+    {
+     "line_start": 193,
+     "line_end": 201,
+     "label": "upper_limit_calculation"
+    },
+    {
+     "line_start": 203,
+     "line_end": 207,
+     "label": "fit_and_likelihood_figures"
+    }
+   ]
+  },
+  {
+   "line_start": 209,
+   "line_end": 211,
+   "type": "conclusion",
+   "title": "X. SUMMARY"
+  },
+  {
+   "line_start": 213,
+   "line_end": 219,
+   "type": "acknowledgements",
+   "title": "XI. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 158,
+   "title": "Requirements on Delta E, ST yields, ST efficiencies, and DT efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 191,
+   "title": "Systematic uncertainties on the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

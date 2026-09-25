@@ -1,0 +1,249 @@
+{
+ "paper_id": "2506.08576v1",
+ "source_path": "arxiv_papers/2506.08576v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 292,
+ "n_lines_sent": 143,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 258,
+   "to": 292,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 16,
+   "line_end": 16,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 18,
+   "line_end": 44,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 46,
+   "line_end": 52,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 54,
+   "line_end": 56,
+   "type": "dataset",
+   "title": "Generator models"
+  },
+  {
+   "line_start": 58,
+   "line_end": 82,
+   "type": "event_selection",
+   "title": "III. STUDY OF SAMPLE I",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 60,
+     "label": "overview"
+    },
+    {
+     "line_start": 62,
+     "line_end": 64,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "pid"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "mass_distributions"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 76,
+     "line_end": 82,
+     "label": "background_tables"
+    }
+   ]
+  },
+  {
+   "line_start": 84,
+   "line_end": 133,
+   "type": "fit",
+   "title": "B. Measurement of Form Factor"
+  },
+  {
+   "line_start": 135,
+   "line_end": 146,
+   "type": "results",
+   "title": "C. Measurements of Branching Fractions",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 146,
+     "label": "branching_fraction_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 148,
+   "line_end": 158,
+   "type": "systematic_uncertainty",
+   "title": "D. Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 148,
+     "line_end": 150,
+     "label": "overview"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "photon_detection_tracking_pid"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "photon_conversion_veto_background"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 160,
+   "line_end": 209,
+   "type": "fit",
+   "title": "IV. COMBINATION OF SAMPLES I AND II"
+  },
+  {
+   "line_start": 211,
+   "line_end": 236,
+   "type": "results",
+   "title": "V. SEARCH FOR THE DARK PHOTON",
+   "units": [
+    {
+     "line_start": 211,
+     "line_end": 236,
+     "label": "dark_photon_search"
+    }
+   ]
+  },
+  {
+   "line_start": 238,
+   "line_end": 252,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 254,
+   "line_end": 256,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 56,
+   "title": "Generator models used for MC simulations",
+   "section_type": "dataset"
+  },
+  {
+   "line": 78,
+   "title": "Estimated background events for eta -> gamma mu+ mu-",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 82,
+   "title": "Estimated background events for eta -> gamma e+ e-",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 166,
+   "title": "Relative systematic uncertainties for Lambda^-2 measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 170,
+   "title": "Relative systematic uncertainties for BF measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 182,
+   "title": "Relative systematic uncertainties for combined Lambda^-2 measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 209,
+   "title": "Relative systematic uncertainties for combined B(eta -> gamma e+ e-)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

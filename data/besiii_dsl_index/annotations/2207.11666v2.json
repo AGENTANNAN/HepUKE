@@ -1,0 +1,206 @@
+{
+ "paper_id": "2207.11666v2",
+ "source_path": "arxiv_papers/2207.11666v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 172,
+ "n_lines_sent": 77,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 144,
+   "to": 172,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 7,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 9,
+   "line_end": 17,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 19,
+   "line_end": 23,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 25,
+   "line_end": 38,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 25,
+     "line_end": 27,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 29,
+     "line_end": 29,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 31,
+     "line_end": 32,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 34,
+     "line_end": 34,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 36,
+     "line_end": 36,
+     "label": "lambda_and_jpsi_veto"
+    },
+    {
+     "line_start": 38,
+     "line_end": 38,
+     "label": "background_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 40,
+   "line_end": 51,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTION MEASUREMENT OF ψ(3686) → ΛΛω"
+  },
+  {
+   "line_start": 53,
+   "line_end": 102,
+   "type": "fit",
+   "title": "V. STUDY OF INTERMEDIATE STATES"
+  },
+  {
+   "line_start": 104,
+   "line_end": 134,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 104,
+     "line_end": 106,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "number_of_psi3686_events"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "pid_efficiency"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "photon_detection_efficiency"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "lambda_reconstruction_efficiency"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 120,
+     "line_end": 122,
+     "label": "table_i"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "intermediate_decays"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 136,
+   "line_end": 138,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 140,
+   "line_end": 142,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 122,
+   "title": "Systematic uncertainties in %",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

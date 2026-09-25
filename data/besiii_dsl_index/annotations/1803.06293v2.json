@@ -1,0 +1,251 @@
+{
+ "paper_id": "1803.06293v2",
+ "source_path": "arxiv_papers/1803.06293v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 256,
+ "n_lines_sent": 146,
+ "skipped_ranges": [
+  {
+   "from": 23,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 254,
+   "to": 256,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 36,
+   "type": "front_matter",
+   "title": "Measurement of e+e- -> DDbar Cross Sections at the psi(3770) Resonance"
+  },
+  {
+   "line_start": 32,
+   "line_end": 32,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 38,
+   "line_end": 42,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 44,
+   "line_end": 50,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR"
+  },
+  {
+   "line_start": 52,
+   "line_end": 80,
+   "type": "event_selection",
+   "title": "3 TECHNIQUE",
+   "units": [
+    {
+     "line_start": 52,
+     "line_end": 54,
+     "label": "tag_mode_selection"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "double_tag_selection"
+    },
+    {
+     "line_start": 58,
+     "line_end": 80,
+     "label": "yield_equations"
+    }
+   ]
+  },
+  {
+   "line_start": 82,
+   "line_end": 88,
+   "type": "detector",
+   "title": "4 PARTICLE RECONSTRUCTION"
+  },
+  {
+   "line_start": 90,
+   "line_end": 107,
+   "type": "event_selection",
+   "title": "5 EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 90,
+     "line_end": 94,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 96,
+     "line_end": 99,
+     "label": "delta_e_table_figure"
+    },
+    {
+     "line_start": 101,
+     "line_end": 107,
+     "label": "mbc_requirement"
+    }
+   ]
+  },
+  {
+   "line_start": 109,
+   "line_end": 144,
+   "type": "fit",
+   "title": "6 YIELDS AND EFFICIENCIES"
+  },
+  {
+   "line_start": 146,
+   "line_end": 175,
+   "type": "fit",
+   "title": "7 EFFECTS OF QUANTUM CORRELATIONS"
+  },
+  {
+   "line_start": 177,
+   "line_end": 207,
+   "type": "systematic_uncertainty",
+   "title": "8 SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 177,
+     "line_end": 181,
+     "label": "overview"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "event_dependent_effects"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "multiplicity_dependent_efficiency"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "other_side_multiplicity"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "best_candidate_selection"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "fit_procedure_variations"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "background_and_signal_shape"
+    },
+    {
+     "line_start": 195,
+     "line_end": 197,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "cosmic_lepton_veto"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "psi3770_line_shape"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "fsr_modeling"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "quantum_correlations"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "luminosity"
+    }
+   ]
+  },
+  {
+   "line_start": 209,
+   "line_end": 209,
+   "type": "conclusion",
+   "title": "untitled summary paragraph"
+  },
+  {
+   "line_start": 211,
+   "line_end": 211,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 213,
+   "line_end": 223,
+   "type": "conclusion",
+   "title": "9 RESULTS AND CONCLUSIONS"
+  },
+  {
+   "line_start": 225,
+   "line_end": 252,
+   "type": "other",
+   "title": "Appendix"
+  }
+ ],
+ "tables": [
+  {
+   "line": 96,
+   "title": "Delta E resolutions and means for each tag mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 127,
+   "title": "Single-tag yields and efficiencies",
+   "section_type": "fit"
+  },
+  {
+   "line": 142,
+   "title": "D0D0bar double-tag yields and efficiencies",
+   "section_type": "fit"
+  },
+  {
+   "line": 166,
+   "title": "Input parameters for quantum correlation corrections",
+   "section_type": "fit"
+  },
+  {
+   "line": 172,
+   "title": "D+D- double-tag yields and efficiencies",
+   "section_type": "fit"
+  },
+  {
+   "line": 197,
+   "title": "Systematic uncertainties in the cross section measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-36 / 32-32"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": [],
+ "units_repaired": true
+}

@@ -1,0 +1,225 @@
+{
+ "paper_id": "2211.10755v2",
+ "source_path": "arxiv_papers/2211.10755v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 314,
+ "n_lines_sent": 124,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 233,
+   "to": 314,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 15,
+   "type": "front_matter",
+   "title": "Title and PACS"
+  },
+  {
+   "line_start": 13,
+   "line_end": 13,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 17,
+   "line_end": 23,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 25,
+   "line_end": 29,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 31,
+   "line_end": 37,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 31,
+     "line_end": 31,
+     "label": "partial_reconstruction"
+    },
+    {
+     "line_start": 33,
+     "line_end": 33,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 35,
+     "line_end": 35,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 37,
+     "line_end": 37,
+     "label": "kinematic_fit_and_background_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 39,
+   "line_end": 81,
+   "type": "fit",
+   "title": "IV. CROSS SECTION MEASUREMENT"
+  },
+  {
+   "line_start": 83,
+   "line_end": 133,
+   "type": "fit",
+   "title": "V. STUDY OF ΛΛ MASS THRESHOLD ENHANCEMENT"
+  },
+  {
+   "line_start": 135,
+   "line_end": 219,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 139,
+     "label": "overview"
+    },
+    {
+     "line_start": 141,
+     "line_end": 146,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 150,
+     "line_end": 159,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "pid_pion"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "shower_requirements"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "sigma0_mass_window"
+    },
+    {
+     "line_start": 169,
+     "line_end": 180,
+     "label": "weighting_procedure"
+    },
+    {
+     "line_start": 182,
+     "line_end": 193,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "vacuum_polarization"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "summary_table"
+    },
+    {
+     "line_start": 201,
+     "line_end": 219,
+     "label": "mass_width_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 221,
+   "line_end": 221,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 223,
+   "line_end": 227,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 229,
+   "line_end": 231,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 107,
+   "title": "Born cross sections at the thirty-one energy points",
+   "section_type": "results"
+  },
+  {
+   "line": 117,
+   "title": "Possible quantum numbers of X",
+   "section_type": "fit"
+  },
+  {
+   "line": 189,
+   "title": "Relative uncertainties from ISR correction",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 217,
+   "title": "Systematic uncertainties in the measurement of the Born cross section",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-15 / 13-13"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

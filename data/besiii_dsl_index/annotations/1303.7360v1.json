@@ -1,0 +1,268 @@
+{
+ "paper_id": "1303.7360v1",
+ "source_path": "arxiv_papers/1303.7360v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 216,
+ "n_lines_sent": 145,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 26,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 26,
+   "line_end": 26,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 28,
+   "line_end": 45,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 47,
+   "line_end": 51,
+   "type": "detector",
+   "title": "II. THE EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 51,
+   "line_end": 51,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 53,
+   "line_end": 139,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 57,
+     "line_end": 61,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "photons"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "pid"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "background_study"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "fit"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "background_study"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "fit"
+    },
+    {
+     "line_start": 86,
+     "line_end": 94,
+     "label": "fit"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "photons"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 108,
+     "line_end": 115,
+     "label": "pi0_veto"
+    },
+    {
+     "line_start": 116,
+     "line_end": 135,
+     "label": "fit"
+    }
+   ]
+  },
+  {
+   "line_start": 140,
+   "line_end": 159,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC ERRORS",
+   "units": [
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "form_factor"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "tracking"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "pid"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 150,
+     "line_end": 157,
+     "label": "normalization"
+    },
+    {
+     "line_start": 159,
+     "line_end": 159,
+     "label": "mc_statistics"
+    }
+   ]
+  },
+  {
+   "line_start": 161,
+   "line_end": 169,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 163,
+     "line_end": 169,
+     "label": "branching_fraction_ratio"
+    }
+   ]
+  },
+  {
+   "line_start": 171,
+   "line_end": 185,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 187,
+   "line_end": 195,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENT"
+  },
+  {
+   "line_start": 196,
+   "line_end": 216,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 106,
+   "title": "Numbers used in the branching fraction calculations",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 155,
+   "title": "Impact of systematic uncertainties on measured branching fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 53-139 before line 57",
+  "units of 53-139 share boundary line 63",
+  "units of 53-139 share boundary line 63",
+  "gap in 53-139 before line 68",
+  "gap in 53-139 before line 73",
+  "gap in 53-139 before line 80",
+  "gap in 53-139 before line 86",
+  "gap in 53-139 before line 99",
+  "units of 53-139 share boundary line 99",
+  "units of 53-139 share boundary line 99",
+  "gap in 53-139 before line 108",
+  "units of 53-139 stop at 135, not 139",
+  "gap in 140-159 before line 144",
+  "units of 140-159 share boundary line 146",
+  "units of 140-159 share boundary line 148",
+  "units of 140-159 share boundary line 148",
+  "units of 140-159 share boundary line 148",
+  "gap in 161-169 before line 163",
+  "nested spans 2-26 / 26-26",
+  "nested spans 47-51 / 51-51"
+ ],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

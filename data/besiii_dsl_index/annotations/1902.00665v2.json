@@ -1,0 +1,214 @@
+{
+ "paper_id": "1902.00665v2",
+ "source_path": "arxiv_papers/1902.00665v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 406,
+ "n_lines_sent": 208,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 63,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 67,
+   "to": 67,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 354,
+   "to": 406,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 74,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and PACS"
+  },
+  {
+   "line_start": 76,
+   "line_end": 117,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 119,
+   "line_end": 125,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND EVENT SAMPLES"
+  },
+  {
+   "line_start": 127,
+   "line_end": 175,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 127,
+     "line_end": 129,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 131,
+     "line_end": 143,
+     "label": "missing_momentum_theta_miss"
+    },
+    {
+     "line_start": 145,
+     "line_end": 166,
+     "label": "missing_mass_squared"
+    },
+    {
+     "line_start": 168,
+     "line_end": 175,
+     "label": "proton_polar_angle_and_mass_intervals"
+    }
+   ]
+  },
+  {
+   "line_start": 177,
+   "line_end": 223,
+   "type": "background",
+   "title": "IV. BACKGROUND ESTIMATION AND SUBTRACTION"
+  },
+  {
+   "line_start": 225,
+   "line_end": 233,
+   "type": "other",
+   "title": "V. SIGNAL EFFICIENCY"
+  },
+  {
+   "line_start": 235,
+   "line_end": 297,
+   "type": "fit",
+   "title": "VI. CROSS SECTION FOR THE PROCESS e+e- -> p pbar AND THE PROTON EFFECTIVE FF"
+  },
+  {
+   "line_start": 299,
+   "line_end": 325,
+   "type": "fit",
+   "title": "VII. PROTON FF RATIO"
+  },
+  {
+   "line_start": 327,
+   "line_end": 338,
+   "type": "results",
+   "title": "VIII. BRANCHING FRACTIONS OF J/psi, psi(3686) -> p pbar",
+   "units": [
+    {
+     "line_start": 327,
+     "line_end": 338,
+     "label": "branching_fraction_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 340,
+   "line_end": 342,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 344,
+   "line_end": 346,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 348,
+   "line_end": 352,
+   "type": "other",
+   "title": "Figure captions"
+  }
+ ],
+ "tables": [
+  {
+   "line": 91,
+   "title": "Integrated luminosities of the data samples",
+   "section_type": "detector"
+  },
+  {
+   "line": 190,
+   "title": "Numbers of events for J/psi -> p pbar and psi(3686) -> p pbar decays",
+   "section_type": "background"
+  },
+  {
+   "line": 219,
+   "title": "Differential luminosity, background events, and selected events after background subtraction",
+   "section_type": "background"
+  },
+  {
+   "line": 305,
+   "title": "Born cross section and effective FF in each M_pp interval",
+   "section_type": "fit"
+  },
+  {
+   "line": 322,
+   "title": "Measured R = |G_E|/|G_M| in each M_pp interval",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

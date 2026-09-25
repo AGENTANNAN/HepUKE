@@ -1,0 +1,213 @@
+{
+ "paper_id": "2108.09948v2",
+ "source_path": "arxiv_papers/2108.09948v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 310,
+ "n_lines_sent": 173,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 82,
+   "to": 82,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 84,
+   "to": 84,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 137,
+   "to": 137,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 159,
+   "to": 159,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 167,
+   "to": 167,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 171,
+   "to": 171,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 278,
+   "to": 310,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 177,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 179,
+   "line_end": 179,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 181,
+   "line_end": 193,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 195,
+   "line_end": 199,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 201,
+   "line_end": 234,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 201,
+     "line_end": 211,
+     "label": "analysis_method"
+    },
+    {
+     "line_start": 213,
+     "line_end": 224,
+     "label": "st_event_selection"
+    },
+    {
+     "line_start": 226,
+     "line_end": 234,
+     "label": "dt_event_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 236,
+   "line_end": 253,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 236,
+     "line_end": 243,
+     "label": "overview"
+    },
+    {
+     "line_start": 245,
+     "line_end": 245,
+     "label": "tracking_pid_vertex_pi0"
+    },
+    {
+     "line_start": 247,
+     "line_end": 247,
+     "label": "tag_efficiency_mass_window_fit_range"
+    },
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "branching_fractions_signal_model"
+    },
+    {
+     "line_start": 251,
+     "line_end": 253,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 255,
+   "line_end": 261,
+   "type": "results",
+   "title": "V. RESULT",
+   "units": [
+    {
+     "line_start": 255,
+     "line_end": 261,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 263,
+   "line_end": 270,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 272,
+   "line_end": 276,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 253,
+   "title": "Relative systematic uncertainties for the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

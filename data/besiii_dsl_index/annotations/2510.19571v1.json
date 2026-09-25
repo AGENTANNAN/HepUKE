@@ -1,0 +1,159 @@
+{
+ "paper_id": "2510.19571v1",
+ "source_path": "arxiv_papers/2510.19571v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 239,
+ "n_lines_sent": 61,
+ "skipped_ranges": [
+  {
+   "from": 106,
+   "to": 239,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 7,
+   "line_end": 13,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 15,
+   "line_end": 44,
+   "type": "other",
+   "title": "Theoretical framework"
+  },
+  {
+   "line_start": 46,
+   "line_end": 65,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 46,
+     "line_end": 46,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "xi_reconstruction"
+    },
+    {
+     "line_start": 56,
+     "line_end": 65,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 67,
+   "line_end": 84,
+   "type": "fit",
+   "title": "Fit"
+  },
+  {
+   "line_start": 86,
+   "line_end": 94,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "xi_reconstruction"
+    },
+    {
+     "line_start": 88,
+     "line_end": 90,
+     "label": "table_i"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "background_and_fit_method"
+    }
+   ]
+  },
+  {
+   "line_start": 96,
+   "line_end": 98,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 100,
+   "line_end": 102,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties table",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 102,
+     "label": "table_ii"
+    }
+   ]
+  },
+  {
+   "line_start": 104,
+   "line_end": 104,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 90,
+   "title": "Numerical results for measured parameters",
+   "section_type": "results"
+  },
+  {
+   "line": 102,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

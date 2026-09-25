@@ -1,0 +1,221 @@
+{
+ "paper_id": "2006.02800v1",
+ "source_path": "arxiv_papers/2006.02800v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 630,
+ "n_lines_sent": 350,
+ "skipped_ranges": [
+  {
+   "from": 6,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 74,
+   "to": 74,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 85,
+   "to": 85,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 87,
+   "to": 87,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 89,
+   "to": 92,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 584,
+   "to": 630,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 92,
+   "type": "front_matter",
+   "title": "Analysis of the decay D0 -> KS0 K+ K-"
+  },
+  {
+   "line_start": 94,
+   "line_end": 94,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 96,
+   "line_end": 104,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 106,
+   "line_end": 110,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 112,
+   "line_end": 183,
+   "type": "event_selection",
+   "title": "III. DATA PREPARATION",
+   "units": [
+    {
+     "line_start": 112,
+     "line_end": 138,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 140,
+     "line_end": 183,
+     "label": "signal_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 184,
+   "line_end": 475,
+   "type": "fit",
+   "title": "IV. DALITZ PLOT ANALYSIS"
+  },
+  {
+   "line_start": 477,
+   "line_end": 566,
+   "type": "results",
+   "title": "V. BRANCHING FRACTION MEASUREMENT",
+   "units": [
+    {
+     "line_start": 477,
+     "line_end": 493,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 495,
+     "line_end": 534,
+     "label": "quantum_entanglement"
+    },
+    {
+     "line_start": 536,
+     "line_end": 554,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 556,
+     "line_end": 566,
+     "label": "result"
+    }
+   ]
+  },
+  {
+   "line_start": 568,
+   "line_end": 578,
+   "type": "conclusion",
+   "title": "VI. CONCLUSION"
+  },
+  {
+   "line_start": 580,
+   "line_end": 582,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 136,
+   "title": "Yields of the tagged sample for various tag channels",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 236,
+   "title": "Hadronic parameters of tag channels",
+   "section_type": "fit"
+  },
+  {
+   "line": 382,
+   "title": "Overview of resonances that could appear as intermediate states",
+   "section_type": "fit"
+  },
+  {
+   "line": 441,
+   "title": "Overview of uncertainties for the Dalitz plot amplitude model",
+   "section_type": "fit"
+  },
+  {
+   "line": 465,
+   "title": "Result from the Dalitz plot analysis",
+   "section_type": "fit"
+  },
+  {
+   "line": 469,
+   "title": "Fractions of interference terms in percent of the nominal amplitude model",
+   "section_type": "fit"
+  },
+  {
+   "line": 473,
+   "title": "Result from the Dalitz plot analysis using a model with resonant contributions from a0(980)0, a0(980)+ and phi(1020)",
+   "section_type": "fit"
+  },
+  {
+   "line": 554,
+   "title": "Overview of systematic uncertainties",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

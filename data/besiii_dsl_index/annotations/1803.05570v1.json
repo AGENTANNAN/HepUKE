@@ -1,0 +1,185 @@
+{
+ "paper_id": "1803.05570v1",
+ "source_path": "arxiv_papers/1803.05570v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 209,
+ "n_lines_sent": 96,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 192,
+   "to": 209,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 34,
+   "type": "front_matter",
+   "title": "Title, authors, abstract, keywords"
+  },
+  {
+   "line_start": 36,
+   "line_end": 48,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 50,
+   "line_end": 52,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR"
+  },
+  {
+   "line_start": 54,
+   "line_end": 56,
+   "type": "dataset",
+   "title": "III. MC SIMULATION"
+  },
+  {
+   "line_start": 58,
+   "line_end": 144,
+   "type": "event_selection",
+   "title": "IV. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 68,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 69,
+     "line_end": 98,
+     "label": "hadronic_tag_reconstruction"
+    },
+    {
+     "line_start": 99,
+     "line_end": 144,
+     "label": "sl_signal_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 146,
+   "line_end": 174,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 146,
+     "line_end": 148,
+     "label": "overview"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 154,
+     "line_end": 164,
+     "label": "radiative_gamma_selection"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "fit_modeling"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "deltaE_MBC_requirements"
+    },
+    {
+     "line_start": 170,
+     "line_end": 174,
+     "label": "partial_width_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 176,
+   "line_end": 184,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 186,
+   "line_end": 190,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 95,
+   "title": "Requirements on Delta E, detection efficiencies and signal yields for the different ST modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 114,
+   "title": "SL signal detection efficiencies for the different ST tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 122,
+   "title": "Correlation matrix including statistical and systematic contributions in the fit",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 159,
+   "title": "Fit results of the form-factor parameters",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 172,
+   "title": "Relative systematic uncertainties in the BF measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 182,
+   "title": "Relative systematic uncertainties of the measured partial decay widths of D+ to eta e+ nu_e",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

@@ -1,0 +1,295 @@
+{
+ "paper_id": "2203.06688v1",
+ "source_path": "arxiv_papers/2203.06688v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 478,
+ "n_lines_sent": 207,
+ "skipped_ranges": [
+  {
+   "from": 352,
+   "to": 478,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Title, collaboration, abstract, keywords"
+  },
+  {
+   "line_start": 11,
+   "line_end": 33,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 35,
+   "line_end": 48,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 50,
+   "line_end": 66,
+   "type": "detector",
+   "title": "2 Detector and data sets"
+  },
+  {
+   "line_start": 68,
+   "line_end": 82,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "pid"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "ks0_selection"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 76,
+     "line_end": 82,
+     "label": "tag_modes_and_mrec"
+    }
+   ]
+  },
+  {
+   "line_start": 84,
+   "line_end": 99,
+   "type": "event_selection",
+   "title": "4.1 Further selection criteria",
+   "units": [
+    {
+     "line_start": 90,
+     "line_end": 92,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "signal_region_and_vetoes"
+    },
+    {
+     "line_start": 96,
+     "line_end": 99,
+     "label": "mass_fit_and_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 101,
+   "line_end": 239,
+   "type": "fit",
+   "title": "4.2 Fit method"
+  },
+  {
+   "line_start": 241,
+   "line_end": 262,
+   "type": "results",
+   "title": "4.3 Fit results",
+   "units": [
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "reference_amplitude"
+    },
+    {
+     "line_start": 245,
+     "line_end": 245,
+     "label": "amplitude_selection"
+    },
+    {
+     "line_start": 247,
+     "line_end": 253,
+     "label": "fit_fraction_definition"
+    },
+    {
+     "line_start": 255,
+     "line_end": 262,
+     "label": "fit_results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 264,
+   "line_end": 284,
+   "type": "systematic_uncertainty",
+   "title": "4.4 Systematic uncertainties for amplitude analysis",
+   "units": [
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 270,
+     "line_end": 270,
+     "label": "r_values"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 274,
+     "line_end": 274,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 276,
+     "line_end": 276,
+     "label": "rho_lineshape"
+    },
+    {
+     "line_start": 278,
+     "line_end": 284,
+     "label": "experimental_effects"
+    }
+   ]
+  },
+  {
+   "line_start": 286,
+   "line_end": 336,
+   "type": "results",
+   "title": "5 Branching fraction measurement",
+   "units": [
+    {
+     "line_start": 288,
+     "line_end": 288,
+     "label": "additional_selection_and_tag_modes"
+    },
+    {
+     "line_start": 290,
+     "line_end": 290,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 299,
+     "line_end": 323,
+     "label": "branching_fraction_formalism"
+    },
+    {
+     "line_start": 325,
+     "line_end": 325,
+     "label": "dt_yield_and_bf"
+    },
+    {
+     "line_start": 330,
+     "line_end": 330,
+     "label": "tracking_and_pid_systematics"
+    },
+    {
+     "line_start": 332,
+     "line_end": 336,
+     "label": "other_systematics_and_total"
+    }
+   ]
+  },
+  {
+   "line_start": 338,
+   "line_end": 344,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 346,
+   "line_end": 350,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 48,
+   "title": "Previous measurements by E687 and FOCUS",
+   "section_type": "introduction"
+  },
+  {
+   "line": 58,
+   "title": "Integrated luminosities and Mrec requirements",
+   "section_type": "detector"
+  },
+  {
+   "line": 66,
+   "title": "Requirements on Mtag for tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 239,
+   "title": "Spin factor for each decay chain",
+   "section_type": "fit"
+  },
+  {
+   "line": 262,
+   "title": "Phases, FFs, and significances for amplitudes",
+   "section_type": "results"
+  },
+  {
+   "line": 282,
+   "title": "Systematic uncertainties on phases and FFs",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 297,
+   "title": "ST yields for samples at various energies",
+   "section_type": "results"
+  },
+  {
+   "line": 336,
+   "title": "Systematic uncertainties in the BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 344,
+   "title": "BFs for intermediate processes vs PDG",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 387,
+   "title": "Tested amplitudes not in nominal fit",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 68-82 share boundary line 68",
+  "gap in 84-99 before line 90",
+  "gap in 241-262 before line 243",
+  "gap in 264-284 before line 268",
+  "gap in 286-336 before line 288",
+  "gap in 286-336 before line 299",
+  "gap in 286-336 before line 330"
+ ],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

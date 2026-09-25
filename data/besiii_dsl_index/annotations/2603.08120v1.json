@@ -1,0 +1,249 @@
+{
+ "paper_id": "2603.08120v1",
+ "source_path": "arxiv_papers/2603.08120v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 443,
+ "n_lines_sent": 196,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 149,
+   "to": 149,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 177,
+   "to": 177,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 179,
+   "to": 179,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 181,
+   "to": 181,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 183,
+   "to": 183,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 189,
+   "to": 189,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 191,
+   "to": 191,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 387,
+   "to": 443,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "An improved measurement of η′ → e+e−ω"
+  },
+  {
+   "line_start": 11,
+   "line_end": 193,
+   "type": "front_matter",
+   "title": "Affiliations and abstract"
+  },
+  {
+   "line_start": 195,
+   "line_end": 205,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 207,
+   "line_end": 211,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 213,
+   "line_end": 235,
+   "type": "dataset",
+   "title": "Monte Carlo simulation and TFF parametrization"
+  },
+  {
+   "line_start": 237,
+   "line_end": 267,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 237,
+     "line_end": 241,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 242,
+     "line_end": 243,
+     "label": "event_topology_and_pid"
+    },
+    {
+     "line_start": 244,
+     "line_end": 247,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 248,
+     "line_end": 254,
+     "label": "pi0_eta_background_veto"
+    },
+    {
+     "line_start": 255,
+     "line_end": 267,
+     "label": "background_studies"
+    }
+   ]
+  },
+  {
+   "line_start": 269,
+   "line_end": 294,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 296,
+   "line_end": 340,
+   "type": "fit",
+   "title": "V. TRANSITION FORM FACTOR MEASUREMENT"
+  },
+  {
+   "line_start": 342,
+   "line_end": 370,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 342,
+     "line_end": 344,
+     "label": "overview"
+    },
+    {
+     "line_start": 345,
+     "line_end": 346,
+     "label": "mdc_tracking_and_pid"
+    },
+    {
+     "line_start": 347,
+     "line_end": 348,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 349,
+     "line_end": 350,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 351,
+     "line_end": 352,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 353,
+     "line_end": 354,
+     "label": "pi0_eta_mass_window"
+    },
+    {
+     "line_start": 355,
+     "line_end": 356,
+     "label": "m_gamma_e_e_range"
+    },
+    {
+     "line_start": 357,
+     "line_end": 358,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 359,
+     "line_end": 360,
+     "label": "non_peaking_background"
+    },
+    {
+     "line_start": 361,
+     "line_end": 362,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 363,
+     "line_end": 364,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 365,
+     "line_end": 370,
+     "label": "intermediate_decays"
+    }
+   ]
+  },
+  {
+   "line_start": 372,
+   "line_end": 379,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 381,
+   "line_end": 383,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 385,
+   "line_end": 385,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 335,
+   "title": "Estimated numbers of background events for different background components",
+   "section_type": "fit"
+  },
+  {
+   "line": 370,
+   "title": "Summary of systematic uncertainties for BF and TFF measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 11.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

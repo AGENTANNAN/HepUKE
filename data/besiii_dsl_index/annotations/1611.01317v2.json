@@ -1,0 +1,267 @@
+{
+ "paper_id": "1611.01317v2",
+ "source_path": "arxiv_papers/1611.01317v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 196,
+ "n_lines_sent": 117,
+ "skipped_ranges": [
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 153,
+   "to": 196,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 84,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 86,
+   "line_end": 86,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 88,
+   "line_end": 88,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 90,
+   "line_end": 96,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 98,
+   "line_end": 98,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 100,
+   "line_end": 106,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "track_and_lepton_selection"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "radiative_background_suppression"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "jpsi_signal_and_sideband"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 110,
+   "type": "fit",
+   "title": "Signal yield determination"
+  },
+  {
+   "line_start": 112,
+   "line_end": 116,
+   "type": "fit",
+   "title": "Cross section calculation"
+  },
+  {
+   "line_start": 118,
+   "line_end": 126,
+   "type": "fit",
+   "title": "Fit to the cross section"
+  },
+  {
+   "line_start": 128,
+   "line_end": 130,
+   "type": "results",
+   "title": "Table I: measured masses and widths",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 130,
+     "label": "resonance_masses_widths"
+    }
+   ]
+  },
+  {
+   "line_start": 132,
+   "line_end": 134,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty for the cross section measurement",
+   "units": [
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "tracking"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "decay_model"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "other_selection_criteria"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "jpsi_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 136,
+   "line_end": 137,
+   "type": "results",
+   "title": "Figure 1: measured cross section and fit",
+   "units": [
+    {
+     "line_start": 136,
+     "line_end": 137,
+     "label": "cross_section_fit_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 139,
+   "line_end": 143,
+   "type": "results",
+   "title": "Table II: electronic widths and phases",
+   "units": [
+    {
+     "line_start": 139,
+     "line_end": 143,
+     "label": "electronic_widths_phases"
+    }
+   ]
+  },
+  {
+   "line_start": 145,
+   "line_end": 145,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty for the resonant parameters",
+   "units": [
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "fit_model_difference"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "cms_energy"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "psi3770_interference"
+    }
+   ]
+  },
+  {
+   "line_start": 147,
+   "line_end": 147,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 149,
+   "line_end": 151,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 130,
+   "title": "TABLE I: measured masses and widths of resonances",
+   "section_type": "results"
+  },
+  {
+   "line": 141,
+   "title": "TABLE II: electronic widths and phases",
+   "section_type": "results"
+  },
+  {
+   "line": 192,
+   "title": "TABLE III: c.m. energy, luminosity, signal events, efficiency",
+   "section_type": "dataset"
+  },
+  {
+   "line": 196,
+   "title": "TABLE IV: c.m. energy and measured cross section of Scan data",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 132-134 share boundary line 132",
+  "units of 132-134 share boundary line 132",
+  "units of 132-134 share boundary line 132",
+  "units of 132-134 share boundary line 134",
+  "units of 132-134 share boundary line 134",
+  "units of 132-134 share boundary line 134",
+  "units of 145-145 share boundary line 145",
+  "units of 145-145 share boundary line 145"
+ ],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

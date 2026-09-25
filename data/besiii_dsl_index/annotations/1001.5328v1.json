@@ -1,0 +1,109 @@
+{
+ "paper_id": "1001.5328v1",
+ "source_path": "arxiv_papers/1001.5328v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 443,
+ "n_lines_sent": 77,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 343,
+   "to": 443,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 249,
+   "type": "front_matter",
+   "title": "Observation of a pp¯ mass threshold enhancement in ψ′ → π+π−J/ψ(J/ψ → γpp¯) decay"
+  },
+  {
+   "line_start": 255,
+   "line_end": 259,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 261,
+   "line_end": 265,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 267,
+   "line_end": 269,
+   "type": "detector",
+   "title": "BEPCII/BESIII detector"
+  },
+  {
+   "line_start": 271,
+   "line_end": 275,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 271,
+     "line_end": 271,
+     "label": "charged_track_and_pid"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "jpsi_and_background_suppression"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "kinematic_fit_and_momentum_cut"
+    }
+   ]
+  },
+  {
+   "line_start": 277,
+   "line_end": 292,
+   "type": "background",
+   "title": "Background studies"
+  },
+  {
+   "line_start": 311,
+   "line_end": 321,
+   "type": "fit",
+   "title": "Fit to the pp¯ mass spectrum"
+  },
+  {
+   "line_start": 323,
+   "line_end": 323,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 325,
+   "line_end": 329,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 333,
+   "line_end": 339,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

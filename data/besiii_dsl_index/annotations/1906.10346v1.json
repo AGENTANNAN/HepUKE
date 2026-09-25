@@ -1,0 +1,214 @@
+{
+ "paper_id": "1906.10346v1",
+ "source_path": "arxiv_papers/1906.10346v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 244,
+ "n_lines_sent": 135,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 76,
+   "to": 76,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 102,
+   "to": 102,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 104,
+   "to": 104,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 213,
+   "to": 244,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 106,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and PACS"
+  },
+  {
+   "line_start": 107,
+   "line_end": 107,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 109,
+   "line_end": 119,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 121,
+   "line_end": 129,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 131,
+   "line_end": 144,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ESTIMATION",
+   "units": [
+    {
+     "line_start": 131,
+     "line_end": 133,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "kinematic_fit_4c"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "kinematic_fit_5c"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "eta_decay_angle"
+    },
+    {
+     "line_start": 141,
+     "line_end": 144,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 146,
+   "line_end": 162,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELD AND BRANCHING FRACTION"
+  },
+  {
+   "line_start": 164,
+   "line_end": 191,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 164,
+     "line_end": 166,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 168,
+     "line_end": 171,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "eta_veto"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "class_i_background"
+    },
+    {
+     "line_start": 179,
+     "line_end": 181,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "fit_range_and_background_shape"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "cited_branching_fractions"
+    },
+    {
+     "line_start": 187,
+     "line_end": 191,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 193,
+   "line_end": 203,
+   "type": "results",
+   "title": "VI. η′ → γγη UPPER LIMIT RESULTS",
+   "units": [
+    {
+     "line_start": 193,
+     "line_end": 203,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 205,
+   "line_end": 207,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 209,
+   "line_end": 211,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 191,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

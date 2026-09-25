@@ -1,0 +1,240 @@
+{
+ "paper_id": "2503.11383v3",
+ "source_path": "arxiv_papers/2503.11383v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 166,
+ "n_lines_sent": 58,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 118,
+   "to": 166,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 5,
+   "line_end": 25,
+   "type": "front_matter",
+   "title": "Author list and collaboration"
+  },
+  {
+   "line_start": 34,
+   "line_end": 34,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 36,
+   "line_end": 44,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 46,
+   "line_end": 46,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 48,
+   "line_end": 48,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 50,
+   "line_end": 60,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "tag_reconstruction"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "signal_reconstruction"
+    },
+    {
+     "line_start": 54,
+     "line_end": 60,
+     "label": "purity_and_missing_mass"
+    }
+   ]
+  },
+  {
+   "line_start": 62,
+   "line_end": 80,
+   "type": "fit",
+   "title": "Amplitude analysis"
+  },
+  {
+   "line_start": 82,
+   "line_end": 82,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "model_parameters_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 84,
+   "line_end": 86,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 84,
+     "line_end": 86,
+     "label": "phases_ffs_bfs_significances"
+    }
+   ]
+  },
+  {
+   "line_start": 88,
+   "line_end": 99,
+   "type": "fit",
+   "title": "Branching fraction measurement"
+  },
+  {
+   "line_start": 101,
+   "line_end": 101,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "st_normalization"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "pid"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "tracking"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "signal_mc_model"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "mc_sample_size"
+    }
+   ]
+  },
+  {
+   "line_start": 103,
+   "line_end": 108,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 110,
+   "line_end": 116,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 86,
+   "title": "Phases, FFs, BFs, and statistical significances of intermediate processes",
+   "section_type": "results"
+  },
+  {
+   "line": 114,
+   "title": "Predictions for K_S^0-K_L^0 asymmetries from different models",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 101-101 share boundary line 101",
+  "units of 101-101 share boundary line 101",
+  "units of 101-101 share boundary line 101",
+  "units of 101-101 share boundary line 101",
+  "units of 101-101 share boundary line 101",
+  "units of 101-101 share boundary line 101",
+  "units of 101-101 share boundary line 101",
+  "units of 101-101 share boundary line 101"
+ ],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": [],
+ "units_repaired": true
+}

@@ -1,0 +1,262 @@
+{
+ "paper_id": "2405.09066v1",
+ "source_path": "arxiv_papers/2405.09066v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 347,
+ "n_lines_sent": 202,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 66,
+   "to": 66,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 103,
+   "to": 103,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 319,
+   "to": 347,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 138,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 140,
+   "line_end": 140,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 142,
+   "line_end": 161,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 163,
+   "line_end": 173,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 175,
+   "line_end": 240,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 175,
+     "line_end": 183,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 185,
+     "line_end": 200,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 202,
+     "line_end": 207,
+     "label": "st_fit_and_yields"
+    },
+    {
+     "line_start": 209,
+     "line_end": 213,
+     "label": "double_tag_selection"
+    },
+    {
+     "line_start": 215,
+     "line_end": 221,
+     "label": "st_selection_tables"
+    },
+    {
+     "line_start": 223,
+     "line_end": 225,
+     "label": "umiss_signal_region"
+    },
+    {
+     "line_start": 227,
+     "line_end": 232,
+     "label": "muon_pid_requirements"
+    },
+    {
+     "line_start": 234,
+     "line_end": 240,
+     "label": "dt_efficiency_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 242,
+   "line_end": 256,
+   "type": "fit",
+   "title": "IV. UPPER LIMITS OF BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 258,
+   "line_end": 274,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 258,
+     "line_end": 260,
+     "label": "overview"
+    },
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 264,
+     "line_end": 264,
+     "label": "n_st"
+    },
+    {
+     "line_start": 266,
+     "line_end": 266,
+     "label": "extra_photon_and_track"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 270,
+     "line_end": 274,
+     "label": "f_factor_and_mc_statistics"
+    }
+   ]
+  },
+  {
+   "line_start": 276,
+   "line_end": 278,
+   "type": "conclusion",
+   "title": "VI. CONCLUSION"
+  },
+  {
+   "line_start": 280,
+   "line_end": 284,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 286,
+   "line_end": 317,
+   "type": "other",
+   "title": "Appendix A and B: ST yields, efficiencies, and fits"
+  }
+ ],
+ "tables": [
+  {
+   "line": 171,
+   "title": "Integrated luminosities of data samples at different energies",
+   "section_type": "detector"
+  },
+  {
+   "line": 217,
+   "title": "ST selection requirements on Delta E, M_D, and M_BC for each tag mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 221,
+   "title": "ST yields and efficiencies for each tag mode at 4.178 GeV",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 229,
+   "title": "Requirements of the hit depth in the MUC for muon candidates",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 238,
+   "title": "DT efficiencies of D*+ -> l+ nu_l at 4.178 GeV",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 256,
+   "title": "Summary of quantities used for branching fraction calculation",
+   "section_type": "fit"
+  },
+  {
+   "line": 274,
+   "title": "Relative systematic uncertainties from each source",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 302,
+   "title": "ST efficiencies at sqrt(s) = 4.189-4.226 GeV",
+   "section_type": "other"
+  },
+  {
+   "line": 306,
+   "title": "ST yields in data at sqrt(s) = 4.189-4.226 GeV",
+   "section_type": "other"
+  },
+  {
+   "line": 310,
+   "title": "DT efficiencies of D*+ -> e+ nu_e and D*+ -> mu+ nu_mu at sqrt(s) = 4.189-4.226 GeV",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

@@ -1,0 +1,220 @@
+{
+ "paper_id": "2505.19907v1",
+ "source_path": "arxiv_papers/2505.19907v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 179,
+ "n_lines_sent": 47,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 120,
+   "to": 179,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "First measurement of $\\Sigma^+ n \\to \\Lambda p$ and $\\Sigma^+ n \\to \\Sigma^0 p$ cross-sections via $\\Sigma^+$-nucleus scattering at an electron-positron collider"
+  },
+  {
+   "line_start": 6,
+   "line_end": 48,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 52,
+   "line_end": 52,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 54,
+   "line_end": 56,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 58,
+   "line_end": 58,
+   "type": "detector",
+   "title": "BESIII detector and beam pipe"
+  },
+  {
+   "line_start": 62,
+   "line_end": 64,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 66,
+   "line_end": 70,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "final_state_and_signal_regions"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "recoil_mass_and_background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 72,
+   "line_end": 75,
+   "type": "fit",
+   "title": "Fit to the $R_{xy}$ distribution"
+  },
+  {
+   "line_start": 77,
+   "line_end": 77,
+   "type": "fit",
+   "title": "Separation of $\\Sigma^+ n \\to \\Lambda p$ and $\\Sigma^+ n \\to \\Sigma^0 p$"
+  },
+  {
+   "line_start": 79,
+   "line_end": 94,
+   "type": "results",
+   "title": "Cross-section determination",
+   "units": [
+    {
+     "line_start": 79,
+     "line_end": 85,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 87,
+     "line_end": 88,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 90,
+     "line_end": 94,
+     "label": "effective_luminosity_and_results"
+    }
+   ]
+  },
+  {
+   "line_start": 96,
+   "line_end": 108,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 96,
+     "line_end": 100,
+     "label": "tracking_pid_photon_and_track_number"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "fermi_momentum_and_angular_distribution"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "fit_procedure_and_normalization"
+    },
+    {
+     "line_start": 106,
+     "line_end": 108,
+     "label": "cross_section_ratios_and_negligible_sources"
+    }
+   ]
+  },
+  {
+   "line_start": 110,
+   "line_end": 112,
+   "type": "systematic_uncertainty",
+   "title": "Table I: Summary of systematic uncertainties"
+  },
+  {
+   "line_start": 114,
+   "line_end": 114,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 116,
+   "line_end": 118,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 112,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 110-112 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

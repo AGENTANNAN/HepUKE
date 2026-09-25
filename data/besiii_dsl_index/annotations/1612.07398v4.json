@@ -1,0 +1,247 @@
+{
+ "paper_id": "1612.07398v4",
+ "source_path": "arxiv_papers/1612.07398v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 162,
+ "n_lines_sent": 81,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 141,
+   "to": 162,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 74,
+   "type": "front_matter",
+   "title": "Observation of the helicity-selection-rule suppressed decay of the chi_c2 charmonium state"
+  },
+  {
+   "line_start": 76,
+   "line_end": 78,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 80,
+   "line_end": 84,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 86,
+   "line_end": 92,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "tracking"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "pid"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "background_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 94,
+   "line_end": 94,
+   "type": "background",
+   "title": "Background estimation"
+  },
+  {
+   "line_start": 96,
+   "line_end": 102,
+   "type": "fit",
+   "title": "Partial wave analysis"
+  },
+  {
+   "line_start": 104,
+   "line_end": 105,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 107,
+   "line_end": 109,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "resonances"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 111,
+   "line_end": 112,
+   "type": "other",
+   "title": "Figure 2"
+  },
+  {
+   "line_start": 114,
+   "line_end": 116,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 114,
+     "line_end": 116,
+     "label": "branching_fractions_table"
+    }
+   ]
+  },
+  {
+   "line_start": 118,
+   "line_end": 118,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 120,
+   "line_end": 121,
+   "type": "other",
+   "title": "Figure 3"
+  },
+  {
+   "line_start": 123,
+   "line_end": 125,
+   "type": "results",
+   "title": "Table II",
+   "units": [
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "helicity_amplitude_ratios"
+    }
+   ]
+  },
+  {
+   "line_start": 127,
+   "line_end": 127,
+   "type": "results",
+   "title": "Results for chi_c2 to pi+pi-pi0",
+   "units": [
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "rho_pi_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 129,
+   "line_end": 133,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "tracking_pid_emc_kinematic_fit_ks_pi0"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "fit_range_background_shape"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "pwa_model_background"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 135,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 137,
+   "line_end": 139,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 116,
+   "title": "Measured branching fractions for chi_c2 to (K pi) Kbar and chi_c2 to (K Kbar) pi",
+   "section_type": "results"
+  },
+  {
+   "line": 125,
+   "title": "Measured ratios of helicity amplitude squared",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

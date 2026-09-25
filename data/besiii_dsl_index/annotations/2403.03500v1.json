@@ -1,0 +1,304 @@
+{
+ "paper_id": "2403.03500v1",
+ "source_path": "arxiv_papers/2403.03500v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 198,
+ "n_lines_sent": 78,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 160,
+   "to": 198,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 13,
+   "line_end": 15,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 17,
+   "line_end": 17,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 19,
+   "line_end": 19,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 21,
+   "line_end": 25,
+   "type": "introduction",
+   "title": "Introduction (continued)"
+  },
+  {
+   "line_start": 27,
+   "line_end": 27,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 29,
+   "line_end": 29,
+   "type": "introduction",
+   "title": "Motivation and channels"
+  },
+  {
+   "line_start": 31,
+   "line_end": 33,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 35,
+   "line_end": 60,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 35,
+     "line_end": 35,
+     "label": "tracking"
+    },
+    {
+     "line_start": 37,
+     "line_end": 37,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 39,
+     "line_end": 39,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 41,
+     "line_end": 41,
+     "label": "photon_multiplicity_veto"
+    },
+    {
+     "line_start": 43,
+     "line_end": 45,
+     "label": "jpsi_background_veto"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "omega_signal_sideband"
+    },
+    {
+     "line_start": 49,
+     "line_end": 51,
+     "label": "selection_table"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 55,
+     "line_end": 56,
+     "label": "figure_omega_mass"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "continuum_background"
+    }
+   ]
+  },
+  {
+   "line_start": 62,
+   "line_end": 74,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELDS"
+  },
+  {
+   "line_start": 76,
+   "line_end": 139,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 76,
+     "line_end": 78,
+     "label": "introduction"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "tracking"
+    },
+    {
+     "line_start": 82,
+     "line_end": 85,
+     "label": "tracking_proton"
+    },
+    {
+     "line_start": 87,
+     "line_end": 89,
+     "label": "results_table"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "tracking_uncertainty"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "signal_yield_extraction"
+    },
+    {
+     "line_start": 101,
+     "line_end": 107,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "eta_c_peaking_background"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "wrong_combination_background"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "normalization_factor"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "omega_sideband"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "theoretical_model"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "input_branching_fractions"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "n_psi_3686"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "summary"
+    },
+    {
+     "line_start": 133,
+     "line_end": 139,
+     "label": "upper_limit_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 141,
+   "line_end": 143,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 145,
+   "line_end": 158,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 51,
+   "title": "Requirements on chi2, mass windows and cos(theta) for different signal decays",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 89,
+   "title": "Observed signal events, detection efficiency, product BF and absolute BF",
+   "section_type": "results"
+  },
+  {
+   "line": 154,
+   "title": "Relative systematic uncertainties for each h_c decay channel",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

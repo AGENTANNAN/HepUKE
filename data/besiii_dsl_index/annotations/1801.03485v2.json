@@ -1,0 +1,169 @@
+{
+ "paper_id": "1801.03485v2",
+ "source_path": "arxiv_papers/1801.03485v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 157,
+ "n_lines_sent": 85,
+ "skipped_ranges": [
+  {
+   "from": 132,
+   "to": 157,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 38,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 40,
+   "line_end": 40,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 42,
+   "line_end": 54,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 56,
+   "line_end": 65,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 67,
+   "line_end": 88,
+   "type": "event_selection",
+   "title": "III. METHODOLOGY AND EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 67,
+     "line_end": 75,
+     "label": "relative_measurement_strategy"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "event_topology_and_particle_id"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "kinematic_fit_and_jpsi_selection"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "background_study"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "validation_with_eta_jpsi"
+    },
+    {
+     "line_start": 87,
+     "line_end": 88,
+     "label": "figure_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 90,
+   "line_end": 92,
+   "type": "results",
+   "title": "TABLE I. Summary table",
+   "units": [
+    {
+     "line_start": 90,
+     "line_end": 92,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 94,
+   "line_end": 100,
+   "type": "fit",
+   "title": "IV. UPPER LIMIT ON"
+  },
+  {
+   "line_start": 102,
+   "line_end": 118,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 104,
+     "label": "cancelling_uncertainties"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 108,
+     "line_end": 112,
+     "label": "figures"
+    },
+    {
+     "line_start": 114,
+     "line_end": 116,
+     "label": "systematic_table"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "branching_fraction_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 120,
+   "line_end": 122,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 124,
+   "line_end": 130,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 92,
+   "title": "Summary table",
+   "section_type": "results"
+  },
+  {
+   "line": 116,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

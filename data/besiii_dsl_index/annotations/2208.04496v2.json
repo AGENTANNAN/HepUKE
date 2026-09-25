@@ -1,0 +1,239 @@
+{
+ "paper_id": "2208.04496v2",
+ "source_path": "arxiv_papers/2208.04496v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 180,
+ "n_lines_sent": 67,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 147,
+   "to": 180,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 11,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 13,
+   "line_end": 13,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 25,
+   "line_end": 25,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 27,
+   "line_end": 44,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 46,
+   "line_end": 50,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 52,
+   "line_end": 60,
+   "type": "event_selection",
+   "title": "III. METHODOLOGY",
+   "units": [
+    {
+     "line_start": 52,
+     "line_end": 60,
+     "label": "double_tag_method"
+    }
+   ]
+  },
+  {
+   "line_start": 62,
+   "line_end": 83,
+   "type": "event_selection",
+   "title": "IV. ST EVENT SELECTIONS",
+   "units": [
+    {
+     "line_start": 62,
+     "line_end": 64,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 68,
+     "line_end": 70,
+     "label": "ks_and_lambda_selection"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "st_candidate_selection"
+    },
+    {
+     "line_start": 74,
+     "line_end": 78,
+     "label": "st_yield_and_efficiency"
+    },
+    {
+     "line_start": 80,
+     "line_end": 83,
+     "label": "mbc_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 85,
+   "line_end": 89,
+   "type": "event_selection",
+   "title": "V. RECONSTRUCTION OF p gamma' CANDIDATES",
+   "units": [
+    {
+     "line_start": 85,
+     "line_end": 89,
+     "label": "signal_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 91,
+   "line_end": 93,
+   "type": "background",
+   "title": "VI. BACKGROUND ANALYSIS"
+  },
+  {
+   "line_start": 95,
+   "line_end": 115,
+   "type": "fit",
+   "title": "VII. UPPER LIMIT SETTING"
+  },
+  {
+   "line_start": 117,
+   "line_end": 137,
+   "type": "systematic_uncertainty",
+   "title": "VIII. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 117,
+     "line_end": 119,
+     "label": "overview"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "emax_esum"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "qq_background"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "lambda_c_background"
+    },
+    {
+     "line_start": 133,
+     "line_end": 137,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 139,
+   "line_end": 141,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 143,
+   "line_end": 145,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 37,
+   "title": "CM energies and integrated luminosities",
+   "section_type": "dataset"
+  },
+  {
+   "line": 76,
+   "title": "Delta E requirement, ST yield, and ST detection efficiency",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 104,
+   "title": "DT detection efficiencies",
+   "section_type": "fit"
+  },
+  {
+   "line": 137,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

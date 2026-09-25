@@ -1,0 +1,181 @@
+{
+ "paper_id": "2601.01817v2",
+ "source_path": "arxiv_papers/2601.01817v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 310,
+ "n_lines_sent": 118,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 234,
+   "to": 310,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 153,
+   "type": "front_matter",
+   "title": "First Observation of D0(+) → K̄ωe+νe and Determination of the Branching Fraction of K̄1(1270) → Kω"
+  },
+  {
+   "line_start": 155,
+   "line_end": 155,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 157,
+   "line_end": 161,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 163,
+   "line_end": 163,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 165,
+   "line_end": 181,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 165,
+     "line_end": 171,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 173,
+     "line_end": 175,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "signal_side_selection"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "missing_momentum"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 183,
+   "line_end": 187,
+   "type": "fit",
+   "title": "Signal Yield Extraction"
+  },
+  {
+   "line_start": 189,
+   "line_end": 201,
+   "type": "fit",
+   "title": "K̄1(1270) Mass Pole Determination"
+  },
+  {
+   "line_start": 203,
+   "line_end": 219,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 203,
+     "line_end": 209,
+     "label": "st_yield_mc_statistics_omega_bf"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "tracking_pid_reconstruction"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "kinematic_requirements"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "two_dimensional_fit"
+    },
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "k1_lineshape"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "signal_decay_model"
+    }
+   ]
+  },
+  {
+   "line_start": 221,
+   "line_end": 221,
+   "type": "results",
+   "title": "Branching Ratio Results",
+   "units": [
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "branching_ratios_and_k1_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 223,
+   "line_end": 226,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 228,
+   "line_end": 230,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 232,
+   "line_end": 232,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 187,
+   "title": "Fitted signal yields, averaged signal efficiencies, and obtained branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 207,
+   "title": "Relative systematic uncertainties for the BF measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

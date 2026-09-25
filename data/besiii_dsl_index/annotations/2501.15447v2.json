@@ -1,0 +1,286 @@
+{
+ "paper_id": "2501.15447v2",
+ "source_path": "arxiv_papers/2501.15447v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 149,
+ "n_lines_sent": 47,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 116,
+   "to": 149,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Observation of Charmonium h_c Radiative Decays to Multiple Light Hadrons and the Tensor state f_2(1270)"
+  },
+  {
+   "line_start": 4,
+   "line_end": 4,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 8,
+   "line_end": 8,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 11,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 13,
+   "line_end": 13,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 30,
+   "line_end": 30,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 40,
+   "line_end": 40,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 42,
+   "line_end": 48,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 50,
+   "line_end": 50,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 52,
+   "line_end": 58,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "photon_number_suppression"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "peaking_background_rejection"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "non_peaking_background_rejection"
+    }
+   ]
+  },
+  {
+   "line_start": 60,
+   "line_end": 64,
+   "type": "fit",
+   "title": "Signal Yield Determination"
+  },
+  {
+   "line_start": 66,
+   "line_end": 69,
+   "type": "fit",
+   "title": "Figure 1 and Sideband Fit"
+  },
+  {
+   "line_start": 71,
+   "line_end": 82,
+   "type": "results",
+   "title": "Branching Fraction Results",
+   "units": [
+    {
+     "line_start": 71,
+     "line_end": 77,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 79,
+     "line_end": 80,
+     "label": "figure_2_caption"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "intermediate_state_results"
+    }
+   ]
+  },
+  {
+   "line_start": 84,
+   "line_end": 110,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "overview"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "table_i_caption"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "table_i"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "table_ii_caption"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "photon_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "intermediate_states"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "fitting_procedure"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "fitting_procedure_f2"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "branching_fractions_and_normalization"
+    }
+   ]
+  },
+  {
+   "line_start": 112,
+   "line_end": 112,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 114,
+   "line_end": 114,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 90,
+   "title": "Numerical results for four h_c decay channels",
+   "section_type": "results"
+  },
+  {
+   "line": 94,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

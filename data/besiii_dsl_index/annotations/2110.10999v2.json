@@ -1,0 +1,267 @@
+{
+ "paper_id": "2110.10999v2",
+ "source_path": "arxiv_papers/2110.10999v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 270,
+ "n_lines_sent": 143,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 63,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 71,
+   "to": 71,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 78,
+   "to": 78,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 85,
+   "to": 85,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 89,
+   "to": 92,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 229,
+   "to": 270,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 94,
+   "type": "front_matter",
+   "title": "Observation of the Doubly Cabibbo-Suppressed Decays D+ -> K+ pi0 pi0 and D+ -> K+ pi0 eta"
+  },
+  {
+   "line_start": 96,
+   "line_end": 96,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 98,
+   "line_end": 112,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 114,
+   "line_end": 120,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 122,
+   "line_end": 126,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 128,
+   "line_end": 140,
+   "type": "event_selection",
+   "title": "3 MEASUREMENT METHOD AND SINGLE TAG YIELDS",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 130,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 132,
+     "line_end": 136,
+     "label": "bf_formula"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "candidate_reconstruction"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "st_selection_and_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 142,
+   "line_end": 189,
+   "type": "fit",
+   "title": "4 YIELDS OF DOUBLE-TAG EVENTS"
+  },
+  {
+   "line_start": 191,
+   "line_end": 213,
+   "type": "systematic_uncertainty",
+   "title": "5 SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 191,
+     "line_end": 193,
+     "label": "st_yields"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 196,
+     "line_end": 196,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "two_dimensional_fit"
+    },
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "opening_angle"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "ks0_rejection"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "kstar_signal_region"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "kstar_sideband_scale_factor"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "multiplicities"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 215,
+   "line_end": 221,
+   "type": "conclusion",
+   "title": "6 SUMMARY"
+  },
+  {
+   "line_start": 223,
+   "line_end": 227,
+   "type": "acknowledgements",
+   "title": "7 ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 170,
+   "title": "ST yields, ST efficiencies, DT efficiencies, and signal efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 183,
+   "title": "DT yields, signal efficiencies, and branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 221,
+   "title": "Systematic uncertainties in the measurements of the BFs",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

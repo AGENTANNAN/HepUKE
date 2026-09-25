@@ -1,0 +1,256 @@
+{
+ "paper_id": "1204.0246v3",
+ "source_path": "arxiv_papers/1204.0246v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 127,
+ "n_lines_sent": 60,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 108,
+   "to": 127,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 11,
+   "line_end": 47,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 51,
+   "line_end": 51,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 53,
+   "line_end": 53,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 55,
+   "line_end": 59,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 61,
+   "line_end": 62,
+   "type": "detector",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 64,
+   "line_end": 64,
+   "type": "detector",
+   "title": "BEPCII and BESIII detector"
+  },
+  {
+   "line_start": 66,
+   "line_end": 72,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 74,
+   "line_end": 74,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 76,
+   "line_end": 77,
+   "type": "fit",
+   "title": "Figure 2"
+  },
+  {
+   "line_start": 79,
+   "line_end": 79,
+   "type": "fit",
+   "title": "Global fit"
+  },
+  {
+   "line_start": 81,
+   "line_end": 83,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "table_content"
+    }
+   ]
+  },
+  {
+   "line_start": 85,
+   "line_end": 87,
+   "type": "fit",
+   "title": "Cross-check and interference correction"
+  },
+  {
+   "line_start": 89,
+   "line_end": 89,
+   "type": "results",
+   "title": "Decay plane angle measurement",
+   "units": [
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "decay_plane_angle"
+    }
+   ]
+  },
+  {
+   "line_start": 91,
+   "line_end": 93,
+   "type": "systematic_uncertainty",
+   "title": "Table II",
+   "units": [
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "table_content"
+    }
+   ]
+  },
+  {
+   "line_start": 95,
+   "line_end": 96,
+   "type": "results",
+   "title": "Figure 3",
+   "units": [
+    {
+     "line_start": 95,
+     "line_end": 96,
+     "label": "figure_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 98,
+   "type": "results",
+   "title": "J/psi polarization measurement",
+   "units": [
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "polarization_parameter"
+    }
+   ]
+  },
+  {
+   "line_start": 100,
+   "line_end": 102,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "tracking_pid_photon"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "angular_parameters"
+    }
+   ]
+  },
+  {
+   "line_start": 104,
+   "line_end": 104,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 106,
+   "line_end": 106,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 83,
+   "title": "Signal yields, efficiencies, and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 93,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 10.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

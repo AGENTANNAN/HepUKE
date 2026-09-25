@@ -1,0 +1,157 @@
+{
+ "paper_id": "1505.00539v2",
+ "source_path": "arxiv_papers/1505.00539v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 145,
+ "n_lines_sent": 52,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 114,
+   "to": 145,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 9,
+   "line_end": 26,
+   "type": "front_matter",
+   "title": "Title, authors, and PACS"
+  },
+  {
+   "line_start": 28,
+   "line_end": 40,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 42,
+   "line_end": 48,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 50,
+   "line_end": 72,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 50,
+     "line_end": 52,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "pi0pi0_jpsi_background_rejection"
+    },
+    {
+     "line_start": 60,
+     "line_end": 61,
+     "label": "figure1"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "eta_pi0_combination_selection"
+    },
+    {
+     "line_start": 65,
+     "line_end": 67,
+     "label": "figure2"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 71,
+     "line_end": 72,
+     "label": "figure3"
+    }
+   ]
+  },
+  {
+   "line_start": 74,
+   "line_end": 102,
+   "type": "fit",
+   "title": "IV. CROSS SECTION UPPER LIMITS"
+  },
+  {
+   "line_start": 104,
+   "line_end": 108,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 110,
+   "line_end": 112,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 94,
+   "title": "Results on e+e- -> J/psi eta pi0",
+   "section_type": "fit"
+  },
+  {
+   "line": 98,
+   "title": "Systematic uncertainties in the J/psi eta pi0 cross section measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

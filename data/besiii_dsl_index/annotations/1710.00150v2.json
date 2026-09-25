@@ -1,0 +1,212 @@
+{
+ "paper_id": "1710.00150v2",
+ "source_path": "arxiv_papers/1710.00150v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 149,
+ "n_lines_sent": 53,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 122,
+   "to": 149,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 22,
+   "line_end": 22,
+   "type": "front_matter",
+   "title": "BESIII Collaboration"
+  },
+  {
+   "line_start": 31,
+   "line_end": 31,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 33,
+   "line_end": 43,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 45,
+   "line_end": 45,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 47,
+   "line_end": 49,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 51,
+   "line_end": 60,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 51,
+     "line_end": 53,
+     "label": "track_and_intermediate_state_selection"
+    },
+    {
+     "line_start": 55,
+     "line_end": 56,
+     "label": "mbc_fit_figure"
+    },
+    {
+     "line_start": 58,
+     "line_end": 60,
+     "label": "delta_e_and_mbc_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 62,
+   "line_end": 68,
+   "type": "fit",
+   "title": "Cross Section Determination"
+  },
+  {
+   "line_start": 70,
+   "line_end": 80,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 70,
+     "line_end": 74,
+     "label": "reconstruction_related"
+    },
+    {
+     "line_start": 76,
+     "line_end": 80,
+     "label": "general_contributions"
+    }
+   ]
+  },
+  {
+   "line_start": 82,
+   "line_end": 94,
+   "type": "results",
+   "title": "Combined Cross Sections",
+   "units": [
+    {
+     "line_start": 82,
+     "line_end": 94,
+     "label": "combined_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 96,
+   "line_end": 100,
+   "type": "results",
+   "title": "Angular Distribution and Form Factor Ratio",
+   "units": [
+    {
+     "line_start": 96,
+     "line_end": 100,
+     "label": "angular_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 106,
+   "type": "results",
+   "title": "Figures",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 106,
+     "label": "figures"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 114,
+   "type": "results",
+   "title": "Form Factor Ratio Results",
+   "units": [
+    {
+     "line_start": 108,
+     "line_end": 114,
+     "label": "form_factor_ratio"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 116,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties of Alpha",
+   "units": [
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "fit_range_and_bin_size"
+    }
+   ]
+  },
+  {
+   "line_start": 118,
+   "line_end": 118,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 120,
+   "line_end": 120,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 72,
+   "title": "Reconstruction related systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 78,
+   "title": "General systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 98,
+   "title": "Average cross sections",
+   "section_type": "results"
+  },
+  {
+   "line": 114,
+   "title": "Shape parameters and form factor ratios",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

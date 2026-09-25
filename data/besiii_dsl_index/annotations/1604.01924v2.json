@@ -1,0 +1,239 @@
+{
+ "paper_id": "1604.01924v2",
+ "source_path": "arxiv_papers/1604.01924v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 254,
+ "n_lines_sent": 140,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 230,
+   "to": 254,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 90,
+   "type": "front_matter",
+   "title": "Measurement of the leptonic decay width of J/psi using initial state radiation"
+  },
+  {
+   "line_start": 92,
+   "line_end": 96,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 98,
+   "line_end": 142,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 144,
+   "line_end": 146,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 148,
+   "line_end": 150,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 148,
+     "line_end": 150,
+     "label": "event_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 160,
+   "type": "background",
+   "title": "Background"
+  },
+  {
+   "line_start": 162,
+   "line_end": 184,
+   "type": "fit",
+   "title": "Fit"
+  },
+  {
+   "line_start": 186,
+   "line_end": 187,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 189,
+   "line_end": 201,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 189,
+     "line_end": 191,
+     "label": "integral_interference"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "background_subtraction"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "efficiency"
+    },
+    {
+     "line_start": 194,
+     "line_end": 196,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "radiator_function"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "angular_acceptance"
+    }
+   ]
+  },
+  {
+   "line_start": 203,
+   "line_end": 205,
+   "type": "systematic_uncertainty",
+   "title": "Table 2"
+  },
+  {
+   "line_start": 207,
+   "line_end": 213,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 207,
+     "line_end": 211,
+     "label": "electronic_width"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 215,
+   "line_end": 217,
+   "type": "results",
+   "title": "Table 3"
+  },
+  {
+   "line_start": 219,
+   "line_end": 219,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 221,
+   "line_end": 221,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 223,
+   "line_end": 224,
+   "type": "other",
+   "title": "Figure 2"
+  },
+  {
+   "line_start": 226,
+   "line_end": 228,
+   "type": "results",
+   "title": "Table 4"
+  }
+ ],
+ "tables": [
+  {
+   "line": 158,
+   "title": "Total number of non-muon background events",
+   "section_type": "background"
+  },
+  {
+   "line": 205,
+   "title": "Summary of the systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 217,
+   "title": "Results of the iteration steps",
+   "section_type": "fit"
+  },
+  {
+   "line": 228,
+   "title": "Results of the BaBar, CLEO-c and KEDR measurements compared to this work",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 203-205 typed systematic_uncertainty has no units",
+  "short section 215-217 typed results has no units",
+  "short section 226-228 typed results has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

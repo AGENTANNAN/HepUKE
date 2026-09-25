@@ -1,0 +1,284 @@
+{
+ "paper_id": "2212.12165v1",
+ "source_path": "arxiv_papers/2212.12165v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 165,
+ "n_lines_sent": 65,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 127,
+   "to": 165,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 14,
+   "line_end": 56,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 58,
+   "line_end": 58,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 60,
+   "line_end": 64,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 66,
+   "line_end": 66,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 68,
+   "line_end": 68,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 70,
+   "line_end": 77,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "muon_identification_and_kinematic_fit"
+    },
+    {
+     "line_start": 74,
+     "line_end": 77,
+     "label": "mass_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 79,
+   "line_end": 87,
+   "type": "fit",
+   "title": "Signal yield and Born cross section"
+  },
+  {
+   "line_start": 89,
+   "line_end": 89,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on the cross section",
+   "units": [
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "reconstruction_efficiency"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "jpsi_mass_window"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "fit_procedure"
+    }
+   ]
+  },
+  {
+   "line_start": 91,
+   "line_end": 96,
+   "type": "results",
+   "title": "Cross section result",
+   "units": [
+    {
+     "line_start": 91,
+     "line_end": 96,
+     "label": "born_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 110,
+   "type": "fit",
+   "title": "Branching fraction fit"
+  },
+  {
+   "line_start": 112,
+   "line_end": 112,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on the branching fraction",
+   "units": [
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "center_of_mass_energy"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "energy_spread"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "continuum_parameterization"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "cross_section_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 114,
+   "line_end": 119,
+   "type": "results",
+   "title": "Branching fraction results",
+   "units": [
+    {
+     "line_start": 114,
+     "line_end": 119,
+     "label": "branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 121,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 123,
+   "line_end": 125,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 96,
+   "title": "Born cross section and parameters",
+   "section_type": "results"
+  },
+  {
+   "line": 119,
+   "title": "Branching fractions from coherent and incoherent fits",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 89-89 share boundary line 89",
+  "units of 89-89 share boundary line 89",
+  "units of 89-89 share boundary line 89",
+  "units of 89-89 share boundary line 89",
+  "units of 89-89 share boundary line 89",
+  "units of 89-89 share boundary line 89",
+  "units of 89-89 share boundary line 89",
+  "units of 112-112 share boundary line 112",
+  "units of 112-112 share boundary line 112",
+  "units of 112-112 share boundary line 112",
+  "units of 112-112 share boundary line 112"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

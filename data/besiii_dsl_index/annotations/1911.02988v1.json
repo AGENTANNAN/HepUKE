@@ -1,0 +1,247 @@
+{
+ "paper_id": "1911.02988v1",
+ "source_path": "arxiv_papers/1911.02988v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 316,
+ "n_lines_sent": 177,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 85,
+   "to": 85,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 98,
+   "to": 98,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 124,
+   "to": 124,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 134,
+   "to": 134,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 290,
+   "to": 316,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 138,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, PACS"
+  },
+  {
+   "line_start": 136,
+   "line_end": 138,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 140,
+   "line_end": 146,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 148,
+   "line_end": 156,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 158,
+   "line_end": 177,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 162,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "eta_phi_reconstruction"
+    },
+    {
+     "line_start": 168,
+     "line_end": 177,
+     "label": "background_suppression_and_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 179,
+   "line_end": 202,
+   "type": "background",
+   "title": "IV. BACKGROUND AND SIGNAL YIELDS"
+  },
+  {
+   "line_start": 204,
+   "line_end": 229,
+   "type": "fit",
+   "title": "V. BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 231,
+   "line_end": 263,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 231,
+     "line_end": 235,
+     "label": "normalization"
+    },
+    {
+     "line_start": 237,
+     "line_end": 239,
+     "label": "tracking_pid_photon"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "mass_requirements"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 245,
+     "line_end": 251,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 253,
+     "line_end": 255,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 257,
+     "line_end": 263,
+     "label": "cited_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 265,
+   "line_end": 278,
+   "type": "results",
+   "title": "VII. RESULTS AND DISCUSSION",
+   "units": [
+    {
+     "line_start": 265,
+     "line_end": 267,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 269,
+     "line_end": 278,
+     "label": "intermediate_states"
+    }
+   ]
+  },
+  {
+   "line_start": 280,
+   "line_end": 284,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 286,
+   "line_end": 288,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 214,
+   "title": "Numbers of observed events in different regions and significances",
+   "section_type": "background"
+  },
+  {
+   "line": 263,
+   "title": "Relative systematic uncertainties on branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 273,
+   "title": "Summary of resulting branching fractions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 2-138 / 136-138"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

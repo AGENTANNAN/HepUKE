@@ -1,0 +1,197 @@
+{
+ "paper_id": "2212.07291v2",
+ "source_path": "arxiv_papers/2212.07291v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 142,
+ "n_lines_sent": 69,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 113,
+   "to": 142,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 49,
+   "type": "front_matter",
+   "title": "Author affiliations and dated note"
+  },
+  {
+   "line_start": 51,
+   "line_end": 51,
+   "type": "front_matter",
+   "title": "Dated note"
+  },
+  {
+   "line_start": 53,
+   "line_end": 53,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 55,
+   "line_end": 63,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 65,
+   "line_end": 65,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 67,
+   "line_end": 67,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 69,
+   "line_end": 80,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "charged_track_and_lepton_selection"
+    },
+    {
+     "line_start": 71,
+     "line_end": 73,
+     "label": "six_track_kinematic_fit_and_jpsi_window"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "five_track_kinematic_fit"
+    },
+    {
+     "line_start": 77,
+     "line_end": 80,
+     "label": "signal_regions_and_sidebands"
+    }
+   ]
+  },
+  {
+   "line_start": 82,
+   "line_end": 87,
+   "type": "fit",
+   "title": "Signal yield and mass fit"
+  },
+  {
+   "line_start": 89,
+   "line_end": 97,
+   "type": "results",
+   "title": "Born cross section measurement",
+   "units": [
+    {
+     "line_start": 89,
+     "line_end": 95,
+     "label": "born_cross_section_formula"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "signal_yield_and_upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 99,
+   "line_end": 99,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 101,
+   "line_end": 101,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 103,
+   "line_end": 109,
+   "type": "other",
+   "title": "Tables"
+  },
+  {
+   "line_start": 111,
+   "line_end": 111,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 105,
+   "title": "Summary of luminosities, signal yields, efficiencies, Born cross sections and significances",
+   "section_type": "results"
+  },
+  {
+   "line": 109,
+   "title": "Relative systematic uncertainties in the Born cross section measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

@@ -1,0 +1,157 @@
+{
+ "paper_id": "2503.17165v1",
+ "source_path": "arxiv_papers/2503.17165v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 365,
+ "n_lines_sent": 213,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 307,
+   "to": 365,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": "0003",
+   "line_end": "0210",
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": "0212",
+   "line_end": "0212",
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": "0214",
+   "line_end": "0255",
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": "0257",
+   "line_end": "0261",
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": "0257",
+     "line_end": "0257",
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": "0259",
+     "line_end": "0261",
+     "label": "photon_and_pi0_selection"
+    }
+   ]
+  },
+  {
+   "line_start": "0263",
+   "line_end": "0266",
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": "0268",
+   "line_end": "0288",
+   "type": "fit",
+   "title": "Fit and results"
+  },
+  {
+   "line_start": "0290",
+   "line_end": "0298",
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": "0290",
+     "line_end": "0290",
+     "label": "overview"
+    },
+    {
+     "line_start": "0292",
+     "line_end": "0292",
+     "label": "efficiency_correction"
+    },
+    {
+     "line_start": "0294",
+     "line_end": "0294",
+     "label": "table_caption"
+    },
+    {
+     "line_start": "0296",
+     "line_end": "0296",
+     "label": "table_content"
+    },
+    {
+     "line_start": "0298",
+     "line_end": "0298",
+     "label": "systematic_sources"
+    }
+   ]
+  },
+  {
+   "line_start": "0300",
+   "line_end": "0302",
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": "0304",
+   "line_end": "0304",
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": "0306",
+   "line_end": "0306",
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": "0283",
+   "title": "Decay parameters of Ψ → Σ+Σ− → pπ0p̄π0",
+   "section_type": "fit"
+  },
+  {
+   "line": "0296",
+   "title": "Systematic uncertainties of the parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

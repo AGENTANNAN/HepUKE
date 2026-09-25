@@ -1,0 +1,277 @@
+{
+ "paper_id": "2105.13597v1",
+ "source_path": "arxiv_papers/2105.13597v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 218,
+ "n_lines_sent": 86,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 188,
+   "to": 218,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 6,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 7,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 12,
+   "line_end": 12,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 14,
+   "line_end": 14,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 21,
+   "line_end": 21,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 24,
+   "line_end": 24,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 29,
+   "line_end": 29,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 31,
+   "line_end": 32,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 34,
+   "line_end": 35,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 51,
+   "line_end": 51,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 53,
+   "line_end": 53,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 55,
+   "line_end": 63,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 65,
+   "line_end": 73,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 75,
+   "line_end": 91,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 75,
+     "line_end": 77,
+     "label": "event_selection_intro"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "track_and_vertex_selection"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "e_over_p_rejection"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "momentum_window"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 87,
+     "line_end": 91,
+     "label": "control_distributions"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 114,
+   "type": "fit",
+   "title": "IV. CROSS SECTION"
+  },
+  {
+   "line_start": 116,
+   "line_end": 169,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES AND LINE SHAPE",
+   "units": [
+    {
+     "line_start": 116,
+     "line_end": 120,
+     "label": "systematics_intro"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "ks_selection_efficiency"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "efficiency_correction_factor"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 130,
+     "line_end": 169,
+     "label": "line_shape_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 171,
+   "line_end": 177,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 179,
+   "line_end": 181,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 183,
+   "line_end": 184,
+   "type": "other",
+   "title": "Figure 5"
+  },
+  {
+   "line_start": 186,
+   "line_end": 186,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 111,
+   "title": "Born cross sections of the e+e- -> KS0 KL0 process",
+   "section_type": "fit"
+  },
+  {
+   "line": 157,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 9.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

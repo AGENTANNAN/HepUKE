@@ -1,0 +1,294 @@
+{
+ "paper_id": "2408.16279v2",
+ "source_path": "arxiv_papers/2408.16279v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 520,
+ "n_lines_sent": 261,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 92,
+   "to": 92,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 152,
+   "to": 152,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 441,
+   "to": 520,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 150,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 154,
+   "line_end": 154,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 156,
+   "line_end": 162,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 164,
+   "line_end": 261,
+   "type": "other",
+   "title": "II. FORMALISM AND MEASUREMENT STRATEGY"
+  },
+  {
+   "line_start": 263,
+   "line_end": 271,
+   "type": "detector",
+   "title": "III. DETECTOR"
+  },
+  {
+   "line_start": 273,
+   "line_end": 311,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "tag_categories"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "charged_tracks_pid"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "ks0_veto_delta_e"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 283,
+     "line_end": 299,
+     "label": "effective_st_yield"
+    },
+    {
+     "line_start": 300,
+     "line_end": 300,
+     "label": "dt_selection_fit"
+    },
+    {
+     "line_start": 302,
+     "line_end": 311,
+     "label": "partial_reconstruction_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 313,
+   "line_end": 401,
+   "type": "fit",
+   "title": "V. DETERMINATION OF THE HADRONIC PARAMETERS"
+  },
+  {
+   "line_start": 403,
+   "line_end": 420,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 405,
+     "line_end": 405,
+     "label": "methodology"
+    },
+    {
+     "line_start": 407,
+     "line_end": 407,
+     "label": "ki_parameters"
+    },
+    {
+     "line_start": 412,
+     "line_end": 412,
+     "label": "external_inputs"
+    },
+    {
+     "line_start": 414,
+     "line_end": 414,
+     "label": "efficiency_matrices"
+    },
+    {
+     "line_start": 416,
+     "line_end": 416,
+     "label": "st_yields"
+    },
+    {
+     "line_start": 418,
+     "line_end": 418,
+     "label": "dt_yields"
+    },
+    {
+     "line_start": 420,
+     "line_end": 420,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 422,
+   "line_end": 431,
+   "type": "results",
+   "title": "VII. IMPACT ON THE γ DETERMINATION",
+   "units": [
+    {
+     "line_start": 424,
+     "line_end": 424,
+     "label": "gamma_determination_study"
+    },
+    {
+     "line_start": 426,
+     "line_end": 426,
+     "label": "pseudoexperiments"
+    },
+    {
+     "line_start": 431,
+     "line_end": 431,
+     "label": "gamma_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 433,
+   "line_end": 435,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 437,
+   "line_end": 439,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 293,
+   "title": "Summary of tag channels",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 309,
+   "title": "ST and DT yields for tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 333,
+   "title": "Input parameters for DCS correction factors",
+   "section_type": "fit"
+  },
+  {
+   "line": 492,
+   "title": "Measured T_i and K_i^S values",
+   "section_type": "fit"
+  },
+  {
+   "line": 496,
+   "title": "Summary of c_i and s_i results",
+   "section_type": "fit"
+  },
+  {
+   "line": 500,
+   "title": "Systematic uncertainties for equal-binning scheme",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 504,
+   "title": "Systematic uncertainties for optimal-binning scheme",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 508,
+   "title": "Statistical correlation matrix equal-binning",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 512,
+   "title": "Statistical correlation matrix optimal-binning",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 516,
+   "title": "Systematic correlation matrix equal-binning",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 520,
+   "title": "Systematic correlation matrix optimal-binning",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 6.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 273-311 before line 275",
+  "gap in 403-420 before line 405",
+  "gap in 403-420 before line 412",
+  "gap in 422-431 before line 424",
+  "gap in 422-431 before line 431"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

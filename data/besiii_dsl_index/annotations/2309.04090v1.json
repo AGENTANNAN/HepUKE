@@ -1,0 +1,284 @@
+{
+ "paper_id": "2309.04090v1",
+ "source_path": "arxiv_papers/2309.04090v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 338,
+ "n_lines_sent": 181,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 117,
+   "to": 119,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 299,
+   "to": 338,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 121,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 123,
+   "line_end": 123,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 125,
+   "line_end": 136,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 138,
+   "line_end": 142,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 144,
+   "line_end": 152,
+   "type": "event_selection",
+   "title": "III. ANALYSIS METHOD",
+   "units": [
+    {
+     "line_start": 144,
+     "line_end": 152,
+     "label": "double_tag_method"
+    }
+   ]
+  },
+  {
+   "line_start": 154,
+   "line_end": 195,
+   "type": "event_selection",
+   "title": "IV. ST SELECTION",
+   "units": [
+    {
+     "line_start": 154,
+     "line_end": 156,
+     "label": "st_decay_modes"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "pid"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "low_momentum_pion_suppression"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "peaking_background_rejection"
+    },
+    {
+     "line_start": 172,
+     "line_end": 178,
+     "label": "mbc_selection"
+    },
+    {
+     "line_start": 180,
+     "line_end": 190,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 192,
+     "line_end": 195,
+     "label": "isr_subtraction"
+    }
+   ]
+  },
+  {
+   "line_start": 197,
+   "line_end": 221,
+   "type": "event_selection",
+   "title": "V. DT SELECTION",
+   "units": [
+    {
+     "line_start": 197,
+     "line_end": 205,
+     "label": "transition_gamma_pi0_selection"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "electron_pid"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 215,
+     "line_end": 221,
+     "label": "umiss_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 223,
+   "line_end": 255,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 223,
+     "line_end": 229,
+     "label": "efficiency_independent"
+    },
+    {
+     "line_start": 231,
+     "line_end": 235,
+     "label": "st_yield_and_tracking_pid_pi0"
+    },
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "transition_gamma_and_extra_tracks"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "mass_windows_and_mc_statistics"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 245,
+     "line_end": 255,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 257,
+   "line_end": 287,
+   "type": "results",
+   "title": "VII. RESULTS",
+   "units": [
+    {
+     "line_start": 257,
+     "line_end": 265,
+     "label": "likelihood_with_systematics"
+    },
+    {
+     "line_start": 267,
+     "line_end": 287,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 289,
+   "line_end": 291,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 293,
+   "line_end": 297,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 182,
+   "title": "Integrated luminosities and M_BC requirements for various energy points",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 203,
+   "title": "Yields of ST D_s^- mesons and average ST efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 219,
+   "title": "DT efficiencies and effective signal efficiencies for various ST modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 247,
+   "title": "Efficiency dependent systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 12.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

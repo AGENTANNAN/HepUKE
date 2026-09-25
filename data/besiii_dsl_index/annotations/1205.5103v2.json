@@ -1,0 +1,233 @@
+{
+ "paper_id": "1205.5103v2",
+ "source_path": "arxiv_papers/1205.5103v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 172,
+ "n_lines_sent": 86,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 144,
+   "to": 172,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 77,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": 79,
+   "line_end": 81,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 83,
+   "line_end": 89,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 91,
+   "line_end": 91,
+   "type": "detector",
+   "title": "The BESIII detector"
+  },
+  {
+   "line_start": 93,
+   "line_end": 95,
+   "type": "event_selection",
+   "title": "Track and photon selection",
+   "units": [
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "photon_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 97,
+   "line_end": 105,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 97,
+     "line_end": 101,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "monte_carlo_simulation"
+    }
+   ]
+  },
+  {
+   "line_start": 107,
+   "line_end": 115,
+   "type": "background",
+   "title": "Background studies"
+  },
+  {
+   "line_start": 117,
+   "line_end": 123,
+   "type": "fit",
+   "title": "Mass spectrum fit"
+  },
+  {
+   "line_start": 125,
+   "line_end": 127,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "damping_function"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "mass_shift"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "tracking"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "pid"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "decay_dynamics"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "normalization"
+    }
+   ]
+  },
+  {
+   "line_start": 129,
+   "line_end": 138,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 129,
+     "line_end": 130,
+     "label": "mass_spectrum_figure"
+    },
+    {
+     "line_start": 132,
+     "line_end": 134,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 136,
+     "line_end": 138,
+     "label": "branching_fraction_result"
+    }
+   ]
+  },
+  {
+   "line_start": 140,
+   "line_end": 140,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 142,
+   "line_end": 142,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 134,
+   "title": "Systematic uncertainties in mass, width and product branching fraction",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 125-127 share boundary line 125",
+  "units of 125-127 share boundary line 125",
+  "units of 125-127 share boundary line 125",
+  "units of 125-127 share boundary line 127",
+  "units of 125-127 share boundary line 127",
+  "units of 125-127 share boundary line 127",
+  "units of 125-127 share boundary line 127",
+  "units of 125-127 share boundary line 127",
+  "units of 125-127 share boundary line 127"
+ ],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

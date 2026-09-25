@@ -1,0 +1,261 @@
+{
+ "paper_id": "1703.00077v2",
+ "source_path": "arxiv_papers/1703.00077v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 366,
+ "n_lines_sent": 185,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 69,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 334,
+   "to": 366,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 19,
+   "line_end": 70,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 72,
+   "line_end": 72,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 74,
+   "line_end": 94,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 96,
+   "line_end": 102,
+   "type": "detector",
+   "title": "II. BESIII AND INCLUSIVE ψ(3686) MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 104,
+   "line_end": 144,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 104,
+     "line_end": 116,
+     "label": "inclusive_event_selection"
+    },
+    {
+     "line_start": 118,
+     "line_end": 128,
+     "label": "non_psi3686_background"
+    },
+    {
+     "line_start": 130,
+     "line_end": 136,
+     "label": "pi0_candidate_selection"
+    },
+    {
+     "line_start": 138,
+     "line_end": 144,
+     "label": "data_mc_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 146,
+   "line_end": 173,
+   "type": "fit",
+   "title": "IV. INCLUSIVE PHOTON ENERGY DISTRIBUTIONS"
+  },
+  {
+   "line_start": 175,
+   "line_end": 191,
+   "type": "event_selection",
+   "title": "V. ψ(3686) → γχcJ EXCLUSIVE EVENT SELECTION AND PHOTON ENERGY DISTRIBUTIONS",
+   "units": [
+    {
+     "line_start": 175,
+     "line_end": 187,
+     "label": "exclusive_event_selection"
+    },
+    {
+     "line_start": 189,
+     "line_end": 191,
+     "label": "exclusive_mc_sample"
+    }
+   ]
+  },
+  {
+   "line_start": 193,
+   "line_end": 210,
+   "type": "fit",
+   "title": "VI. FITTING THE INCLUSIVE PHOTON ENERGY DISTRIBUTION"
+  },
+  {
+   "line_start": 212,
+   "line_end": 234,
+   "type": "results",
+   "title": "VII. BRANCHING FRACTION DETERMINATIONS",
+   "units": [
+    {
+     "line_start": 212,
+     "line_end": 232,
+     "label": "branching_fraction_calculation"
+    },
+    {
+     "line_start": 234,
+     "line_end": 234,
+     "label": "systematic_uncertainty_overview"
+    }
+   ]
+  },
+  {
+   "line_start": 236,
+   "line_end": 304,
+   "type": "systematic_uncertainty",
+   "title": "VIII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 236,
+     "line_end": 244,
+     "label": "initial_event_selection"
+    },
+    {
+     "line_start": 246,
+     "line_end": 264,
+     "label": "inclusive_photon_selection"
+    },
+    {
+     "line_start": 266,
+     "line_end": 278,
+     "label": "fitting"
+    },
+    {
+     "line_start": 280,
+     "line_end": 282,
+     "label": "mc_signal_shape"
+    },
+    {
+     "line_start": 284,
+     "line_end": 286,
+     "label": "multipole_correction"
+    },
+    {
+     "line_start": 288,
+     "line_end": 290,
+     "label": "cos_theta_requirement"
+    },
+    {
+     "line_start": 292,
+     "line_end": 294,
+     "label": "event_weighting"
+    },
+    {
+     "line_start": 296,
+     "line_end": 298,
+     "label": "continuum_energy_difference"
+    },
+    {
+     "line_start": 300,
+     "line_end": 304,
+     "label": "other_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 306,
+   "line_end": 314,
+   "type": "results",
+   "title": "IX. RESULTS",
+   "units": [
+    {
+     "line_start": 306,
+     "line_end": 312,
+     "label": "branching_fraction_ratios"
+    },
+    {
+     "line_start": 314,
+     "line_end": 314,
+     "label": "partial_widths"
+    }
+   ]
+  },
+  {
+   "line_start": 316,
+   "line_end": 328,
+   "type": "conclusion",
+   "title": "X. SUMMARY"
+  },
+  {
+   "line_start": 330,
+   "line_end": 332,
+   "type": "acknowledgements",
+   "title": "XI. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 86,
+   "title": "Crystal Ball, CLEO and PDG ψ(3686) → γχcJ branching fractions",
+   "section_type": "introduction"
+  },
+  {
+   "line": 207,
+   "title": "Branching fraction results",
+   "section_type": "results"
+  },
+  {
+   "line": 268,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 322,
+   "title": "Comparison of branching fraction results with other measurements and PDG",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 326,
+   "title": "Partial widths of radiative transitions and theoretical predictions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

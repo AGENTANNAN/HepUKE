@@ -1,0 +1,283 @@
+{
+ "paper_id": "2204.09614v1",
+ "source_path": "arxiv_papers/2204.09614v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 325,
+ "n_lines_sent": 170,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 280,
+   "to": 325,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 187,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and PACS"
+  },
+  {
+   "line_start": 188,
+   "line_end": 188,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 189,
+   "line_end": 201,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 203,
+   "line_end": 203,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 205,
+   "line_end": 205,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 207,
+   "line_end": 209,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "st_dt_selection"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 211,
+   "line_end": 236,
+   "type": "fit",
+   "title": "Amplitude analysis"
+  },
+  {
+   "line_start": 238,
+   "line_end": 251,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties for the amplitude analysis",
+   "units": [
+    {
+     "line_start": 238,
+     "line_end": 238,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 240,
+     "line_end": 240,
+     "label": "background_model"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "additional_resonances"
+    },
+    {
+     "line_start": 244,
+     "line_end": 244,
+     "label": "detector_acceptance"
+    },
+    {
+     "line_start": 245,
+     "line_end": 245,
+     "label": "pid_tracking"
+    },
+    {
+     "line_start": 247,
+     "line_end": 247,
+     "label": "total_uncertainty"
+    },
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "table_i"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "total_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 253,
+   "line_end": 261,
+   "type": "results",
+   "title": "Branching fraction measurement",
+   "units": [
+    {
+     "line_start": 253,
+     "line_end": 253,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 255,
+     "line_end": 255,
+     "label": "bf_formula"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "bf_formula"
+    },
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "bf_formula"
+    },
+    {
+     "line_start": 259,
+     "line_end": 259,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 261,
+     "line_end": 261,
+     "label": "dt_yield"
+    }
+   ]
+  },
+  {
+   "line_start": 263,
+   "line_end": 268,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on the branching fraction",
+   "units": [
+    {
+     "line_start": 263,
+     "line_end": 263,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 265,
+     "line_end": 265,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 266,
+     "line_end": 266,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "pid_tracking"
+    }
+   ]
+  },
+  {
+   "line_start": 270,
+   "line_end": 276,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 278,
+   "line_end": 278,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 249,
+   "title": "Phases, fit fractions, branching fractions, and significances of intermediate processes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 9.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

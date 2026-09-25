@@ -1,0 +1,281 @@
+{
+ "paper_id": "2501.04344v2",
+ "source_path": "arxiv_papers/2501.04344v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 253,
+ "n_lines_sent": 96,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 62,
+   "to": 62,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 140,
+   "to": 140,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 143,
+   "to": 253,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 72,
+   "type": "front_matter",
+   "title": "BESIII Collaboration and affiliations"
+  },
+  {
+   "line_start": 74,
+   "line_end": 74,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 76,
+   "line_end": 82,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 84,
+   "line_end": 84,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 86,
+   "line_end": 96,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "radiative_bhabha_background"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "gamma_conversion_background"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "two_photon_background"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 99,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 101,
+   "line_end": 101,
+   "type": "background",
+   "title": "Background estimation"
+  },
+  {
+   "line_start": 103,
+   "line_end": 109,
+   "type": "fit",
+   "title": "Signal yield and branching fraction"
+  },
+  {
+   "line_start": 111,
+   "line_end": 111,
+   "type": "results",
+   "title": "Branching fraction for m_{e+e-} < 0.3 GeV/c^2",
+   "units": [
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "low_mass_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 113,
+   "line_end": 113,
+   "type": "results",
+   "title": "Differential branching fraction and TFF",
+   "units": [
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "differential_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 115,
+   "line_end": 116,
+   "type": "other",
+   "title": "Figure 2"
+  },
+  {
+   "line_start": 118,
+   "line_end": 118,
+   "type": "results",
+   "title": "TFF extraction",
+   "units": [
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "tff_extraction"
+    }
+   ]
+  },
+  {
+   "line_start": 120,
+   "line_end": 131,
+   "type": "fit",
+   "title": "TFF fit and rho-omega interference"
+  },
+  {
+   "line_start": 133,
+   "line_end": 133,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "non_peaking_background_pdf"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "pid"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "e_over_p"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 136,
+   "type": "other",
+   "title": "Figure 4"
+  },
+  {
+   "line_start": 138,
+   "line_end": 138,
+   "type": "conclusion",
+   "title": "Summary"
+  }
+ ],
+ "tables": [
+  {
+   "line": 223,
+   "title": "Systematic uncertainties and their sources",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 235,
+   "title": "Background subtracted Nsig, measured and QED predicted differential branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 239,
+   "title": "Fit parameters and statistical errors of the Gounaris-Sakurai fit of the TFF",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 133-133 share boundary line 133",
+  "units of 133-133 share boundary line 133",
+  "units of 133-133 share boundary line 133",
+  "units of 133-133 share boundary line 133",
+  "units of 133-133 share boundary line 133"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

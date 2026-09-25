@@ -1,0 +1,266 @@
+{
+ "paper_id": "2504.04420v2",
+ "source_path": "arxiv_papers/2504.04420v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 252,
+ "n_lines_sent": 146,
+ "skipped_ranges": [
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 87,
+   "to": 87,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 92,
+   "to": 92,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 100,
+   "to": 100,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 103,
+   "to": 106,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 110,
+   "to": 110,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 234,
+   "to": 252,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 110,
+   "type": "front_matter",
+   "title": "Observation of psi(3686) -> Xi- KS0 Omega+ + c.c."
+  },
+  {
+   "line_start": 112,
+   "line_end": 114,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 116,
+   "line_end": 132,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 134,
+   "line_end": 142,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 144,
+   "line_end": 148,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 150,
+   "line_end": 170,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 150,
+     "line_end": 152,
+     "label": "partial_reconstruction_strategy"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "xi_reconstruction"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 160,
+     "line_end": 170,
+     "label": "recoil_mass_and_dalitz"
+    }
+   ]
+  },
+  {
+   "line_start": 172,
+   "line_end": 179,
+   "type": "background",
+   "title": "5 Background study"
+  },
+  {
+   "line_start": 181,
+   "line_end": 194,
+   "type": "fit",
+   "title": "6 Signal yield and BF"
+  },
+  {
+   "line_start": 196,
+   "line_end": 220,
+   "type": "systematic_uncertainty",
+   "title": "7 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 196,
+     "line_end": 198,
+     "label": "overview"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "pion_tracking_pid"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "xi_mass_window_decay_length"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "psi3686_to_pi_pi_jpsi_veto"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 210,
+     "line_end": 212,
+     "label": "fit_bias_signal_background_shape"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "mc_generator"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "mc_sample_size_and_input_bfs"
+    },
+    {
+     "line_start": 218,
+     "line_end": 220,
+     "label": "total_systematic_and_significance"
+    }
+   ]
+  },
+  {
+   "line_start": 222,
+   "line_end": 224,
+   "type": "conclusion",
+   "title": "8 Summary"
+  },
+  {
+   "line_start": 226,
+   "line_end": 228,
+   "type": "systematic_uncertainty",
+   "title": "Table 1"
+  },
+  {
+   "line_start": 230,
+   "line_end": 232,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 228,
+   "title": "Relative systematic uncertainties in the BF measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 226-228 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

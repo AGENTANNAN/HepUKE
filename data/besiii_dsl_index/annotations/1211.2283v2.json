@@ -1,0 +1,224 @@
+{
+ "paper_id": "1211.2283v2",
+ "source_path": "arxiv_papers/1211.2283v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 349,
+ "n_lines_sent": 296,
+ "skipped_ranges": [
+  {
+   "from": 99,
+   "to": 99,
+   "reason": "author_affiliation"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 97,
+   "type": "front_matter",
+   "title": "Measurements of baryon pair decays of chi_cJ mesons"
+  },
+  {
+   "line_start": 101,
+   "line_end": 105,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 107,
+   "line_end": 124,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 126,
+   "line_end": 138,
+   "type": "detector",
+   "title": "BESIII Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 140,
+   "line_end": 193,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 140,
+     "line_end": 151,
+     "label": "common_selection_criteria"
+    },
+    {
+     "line_start": 153,
+     "line_end": 174,
+     "label": "lambda_lambdabar_selection"
+    },
+    {
+     "line_start": 176,
+     "line_end": 189,
+     "label": "sigma0_sigma0bar_selection"
+    },
+    {
+     "line_start": 191,
+     "line_end": 193,
+     "label": "sigma_plus_sigma_minus_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 195,
+   "line_end": 211,
+   "type": "background",
+   "title": "Background Study"
+  },
+  {
+   "line_start": 216,
+   "line_end": 238,
+   "type": "fit",
+   "title": "Fit to the Signal of chi_cJ"
+  },
+  {
+   "line_start": 247,
+   "line_end": 277,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Error",
+   "units": [
+    {
+     "line_start": 247,
+     "line_end": 252,
+     "label": "introduction"
+    },
+    {
+     "line_start": 254,
+     "line_end": 254,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "tracking"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 264,
+     "line_end": 264,
+     "label": "chi_cJ_width"
+    },
+    {
+     "line_start": 266,
+     "line_end": 266,
+     "label": "signal_line_shape"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "mc_resolution"
+    },
+    {
+     "line_start": 270,
+     "line_end": 270,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 274,
+     "line_end": 274,
+     "label": "normalization"
+    },
+    {
+     "line_start": 276,
+     "line_end": 277,
+     "label": "total_systematic_error"
+    }
+   ]
+  },
+  {
+   "line_start": 283,
+   "line_end": 300,
+   "type": "results",
+   "title": "Branching Fraction Calculation",
+   "units": [
+    {
+     "line_start": 283,
+     "line_end": 300,
+     "label": "branching_fraction_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 301,
+   "line_end": 307,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 308,
+   "line_end": 320,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 321,
+   "line_end": 345,
+   "type": "references",
+   "title": "References"
+  },
+  {
+   "line_start": 347,
+   "line_end": 349,
+   "type": "results",
+   "title": "Branching Fractions Table",
+   "units": [
+    {
+     "line_start": 347,
+     "line_end": 349,
+     "label": "branching_fractions_table"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "line": 245,
+   "title": "Efficiencies and signal yields",
+   "section_type": "fit"
+  },
+  {
+   "line": 281,
+   "title": "Systematic errors in branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 349,
+   "title": "Branching fractions or upper limits",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

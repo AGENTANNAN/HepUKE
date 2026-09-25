@@ -1,0 +1,194 @@
+{
+ "paper_id": "1608.06732v2",
+ "source_path": "arxiv_papers/1608.06732v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 323,
+ "n_lines_sent": 180,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 66,
+   "to": 66,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 74,
+   "to": 74,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 91,
+   "to": 91,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 302,
+   "to": 323,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 89,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 93,
+   "line_end": 93,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 95,
+   "line_end": 110,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 112,
+   "line_end": 118,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO"
+  },
+  {
+   "line_start": 120,
+   "line_end": 142,
+   "type": "event_selection",
+   "title": "III. SELECTION OF D_s^- SINGLE TAG",
+   "units": [
+    {
+     "line_start": 120,
+     "line_end": 122,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "pi0_eta_etaprime_reconstruction"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 130,
+     "line_end": 142,
+     "label": "kinematic_variables_and_tag_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 144,
+   "line_end": 259,
+   "type": "fit",
+   "title": "IV. ANALYSIS OF D_s^+ LEPTONIC SIGNAL"
+  },
+  {
+   "line_start": 261,
+   "line_end": 293,
+   "type": "conclusion",
+   "title": "V. CONCLUSION"
+  },
+  {
+   "line_start": 295,
+   "line_end": 299,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 301,
+   "line_end": 301,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 157,
+   "title": "Requirements on ΔE and M_BC, detection efficiencies and event yields for the different single-tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 223,
+   "title": "Relative signal fractions in the three subsamples",
+   "section_type": "fit"
+  },
+  {
+   "line": 279,
+   "title": "Systematic uncertainties for the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

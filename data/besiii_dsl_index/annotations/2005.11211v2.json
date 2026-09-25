@@ -1,0 +1,167 @@
+{
+ "paper_id": "2005.11211v2",
+ "source_path": "arxiv_papers/2005.11211v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 211,
+ "n_lines_sent": 115,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 184,
+   "to": 211,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 112,
+   "type": "front_matter",
+   "title": "Measurement of the absolute branching fraction of the inclusive decay Λc+ → KS0X"
+  },
+  {
+   "line_start": 114,
+   "line_end": 116,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 118,
+   "line_end": 126,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 128,
+   "line_end": 130,
+   "type": "introduction",
+   "title": "Table I"
+  },
+  {
+   "line_start": 132,
+   "line_end": 136,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 138,
+   "line_end": 150,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "tracking"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "ks0_lambda_reconstruction"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 148,
+     "line_end": 150,
+     "label": "st_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 165,
+   "type": "fit",
+   "title": "Signal Yield and Branching Fraction"
+  },
+  {
+   "line_start": 167,
+   "line_end": 178,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "introduction"
+    },
+    {
+     "line_start": 169,
+     "line_end": 172,
+     "label": "figures"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "st_related"
+    },
+    {
+     "line_start": 176,
+     "line_end": 178,
+     "label": "table_iii"
+    }
+   ]
+  },
+  {
+   "line_start": 180,
+   "line_end": 180,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 182,
+   "line_end": 182,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 130,
+   "title": "Observed and extrapolated BFs for exclusive K0/K0 decays of Λc+ CF decays",
+   "section_type": "introduction"
+  },
+  {
+   "line": 150,
+   "title": "Requirements on ΔE, ST yields, ST and DT efficiencies for the tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 178,
+   "title": "Systematic uncertainties in the measurement of the BF of Λc+ → KS0X",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

@@ -1,0 +1,136 @@
+{
+ "paper_id": "2207.14149v2",
+ "source_path": "arxiv_papers/2207.14149v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 189,
+ "n_lines_sent": 86,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 141,
+   "to": 189,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 30,
+   "type": "front_matter",
+   "title": "Author affiliations"
+  },
+  {
+   "line_start": 35,
+   "line_end": 35,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 37,
+   "line_end": 41,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 43,
+   "line_end": 43,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 45,
+   "line_end": 66,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 45,
+     "line_end": 51,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "double_tag_selection"
+    },
+    {
+     "line_start": 55,
+     "line_end": 66,
+     "label": "branching_fraction_determination"
+    }
+   ]
+  },
+  {
+   "line_start": 68,
+   "line_end": 68,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 70,
+   "line_end": 129,
+   "type": "fit",
+   "title": "Form factor fit"
+  },
+  {
+   "line_start": 131,
+   "line_end": 137,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 139,
+   "line_end": 139,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 120,
+   "title": "Measured form-factor parameters and correlation coefficients",
+   "section_type": "fit"
+  },
+  {
+   "line": 124,
+   "title": "Systematic uncertainties of the fitted parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 135,
+   "title": "Comparison of branching fraction with theoretical calculations",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

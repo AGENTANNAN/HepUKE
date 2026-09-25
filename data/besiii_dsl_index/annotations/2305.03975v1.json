@@ -1,0 +1,263 @@
+{
+ "paper_id": "2305.03975v1",
+ "source_path": "arxiv_papers/2305.03975v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 493,
+ "n_lines_sent": 263,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 64,
+   "to": 64,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 88,
+   "to": 88,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 92,
+   "to": 92,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 108,
+   "to": 108,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 124,
+   "to": 124,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 128,
+   "to": 128,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 130,
+   "to": 130,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 134,
+   "to": 134,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 461,
+   "to": 493,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 140,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 142,
+   "line_end": 142,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 144,
+   "line_end": 152,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 154,
+   "line_end": 218,
+   "type": "other",
+   "title": "II. FORMALISM"
+  },
+  {
+   "line_start": 220,
+   "line_end": 229,
+   "type": "detector",
+   "title": "III. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 231,
+   "line_end": 243,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 231,
+     "line_end": 233,
+     "label": "track_selection_and_pid"
+    },
+    {
+     "line_start": 235,
+     "line_end": 237,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "pi0_eta_omega_etaprime_reconstruction"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 245,
+   "line_end": 280,
+   "type": "fit",
+   "title": "V. DETERMINATION OF THE ST YIELD"
+  },
+  {
+   "line_start": 282,
+   "line_end": 301,
+   "type": "fit",
+   "title": "VI. DETERMINATION OF THE DT YIELD"
+  },
+  {
+   "line_start": 303,
+   "line_end": 328,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES ON THE YIELD DETERMINATIONS",
+   "units": [
+    {
+     "line_start": 303,
+     "line_end": 309,
+     "label": "st_yield_systematics"
+    },
+    {
+     "line_start": 311,
+     "line_end": 328,
+     "label": "dt_yield_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 330,
+   "line_end": 349,
+   "type": "other",
+   "title": "Tables and figures for yield determinations"
+  },
+  {
+   "line_start": 351,
+   "line_end": 432,
+   "type": "results",
+   "title": "VIII. THE F+ MEASUREMENT",
+   "units": [
+    {
+     "line_start": 351,
+     "line_end": 365,
+     "label": "cp_tag_measurement"
+    },
+    {
+     "line_start": 367,
+     "line_end": 380,
+     "label": "quasi_cp_and_self_tag_measurement"
+    },
+    {
+     "line_start": 382,
+     "line_end": 423,
+     "label": "ks_pi_pi_and_kl_pi_pi_tag_measurement"
+    },
+    {
+     "line_start": 425,
+     "line_end": 432,
+     "label": "combination_of_results"
+    }
+   ]
+  },
+  {
+   "line_start": 434,
+   "line_end": 441,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 443,
+   "line_end": 445,
+   "type": "other",
+   "title": "Table III"
+  },
+  {
+   "line_start": 447,
+   "line_end": 459,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 204,
+   "title": "Tag modes used in this analysis",
+   "section_type": "other"
+  },
+  {
+   "line": 332,
+   "title": "DT and ST yields for each tag mode",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 445,
+   "title": "Results of F+ from different tag modes and combination",
+   "section_type": "results"
+  },
+  {
+   "line": 455,
+   "title": "Correlation coefficients between results from different tag modes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

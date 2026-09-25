@@ -1,0 +1,221 @@
+{
+ "paper_id": "1410.6538v2",
+ "source_path": "arxiv_papers/1410.6538v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 120,
+ "n_lines_sent": 40,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 94,
+   "to": 120,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 16,
+   "line_end": 20,
+   "type": "front_matter",
+   "title": "Author list and collaboration"
+  },
+  {
+   "line_start": 27,
+   "line_end": 27,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 29,
+   "line_end": 33,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 35,
+   "line_end": 37,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 35,
+     "line_end": 35,
+     "label": "track_photon_pi0_selection"
+    },
+    {
+     "line_start": 37,
+     "line_end": 37,
+     "label": "chi2_requirement_omega_chic12"
+    }
+   ]
+  },
+  {
+   "line_start": 39,
+   "line_end": 39,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 41,
+   "line_end": 42,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 44,
+   "line_end": 44,
+   "type": "fit",
+   "title": "Signal extraction fit"
+  },
+  {
+   "line_start": 46,
+   "line_end": 47,
+   "type": "other",
+   "title": "Figure 2"
+  },
+  {
+   "line_start": 49,
+   "line_end": 51,
+   "type": "background",
+   "title": "Backgrounds for omega chi_c1,2"
+  },
+  {
+   "line_start": 53,
+   "line_end": 59,
+   "type": "results",
+   "title": "Born cross section calculation",
+   "units": [
+    {
+     "line_start": 53,
+     "line_end": 59,
+     "label": "born_cross_section_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 61,
+   "line_end": 69,
+   "type": "fit",
+   "title": "Fit to the energy-dependent cross section"
+  },
+  {
+   "line_start": 71,
+   "line_end": 71,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on the Born cross section",
+   "units": [
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "radiative_correction"
+    }
+   ]
+  },
+  {
+   "line_start": 73,
+   "line_end": 75,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 73,
+     "line_end": 75,
+     "label": "omega_chic0_results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 77,
+   "line_end": 79,
+   "type": "results",
+   "title": "Table II",
+   "units": [
+    {
+     "line_start": 77,
+     "line_end": 79,
+     "label": "omega_chic12_results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 81,
+   "line_end": 81,
+   "type": "systematic_uncertainty",
+   "title": "Additional systematic uncertainties for omega chi_c0",
+   "units": [
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "cross_feed_fitting_range_background_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 83,
+   "line_end": 84,
+   "type": "other",
+   "title": "Figure 3"
+  },
+  {
+   "line_start": 86,
+   "line_end": 88,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on the resonant parameters",
+   "units": [
+    {
+     "line_start": 86,
+     "line_end": 88,
+     "label": "resonant_parameter_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 90,
+   "line_end": 90,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 92,
+   "line_end": 92,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 75,
+   "title": "Results on e+e- -> omega chi_c0",
+   "section_type": "results"
+  },
+  {
+   "line": 79,
+   "title": "Results on e+e- -> omega chi_c1,2",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

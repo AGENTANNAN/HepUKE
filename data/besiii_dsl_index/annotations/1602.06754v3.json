@@ -1,0 +1,238 @@
+{
+ "paper_id": "1602.06754v3",
+ "source_path": "arxiv_papers/1602.06754v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 230,
+ "n_lines_sent": 127,
+ "skipped_ranges": [
+  {
+   "from": 44,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 205,
+   "to": 230,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 54,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, PACS"
+  },
+  {
+   "line_start": 50,
+   "line_end": 52,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 56,
+   "line_end": 74,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 76,
+   "line_end": 80,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 82,
+   "line_end": 96,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 82,
+     "line_end": 84,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 86,
+     "line_end": 96,
+     "label": "reconstruction_and_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 107,
+   "type": "background",
+   "title": "IV. BACKGROUND STUDY"
+  },
+  {
+   "line_start": 109,
+   "line_end": 134,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 109,
+     "line_end": 121,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 123,
+     "line_end": 134,
+     "label": "angular_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 136,
+   "line_end": 177,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 136,
+     "line_end": 140,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "xi_reconstruction"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 159,
+     "line_end": 159,
+     "label": "mass_shift"
+    },
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "branching_fraction_intermediate"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "total_number_of_psi"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "summary_of_systematics"
+    },
+    {
+     "line_start": 167,
+     "line_end": 169,
+     "label": "angular_systematics_overview"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "signal_yield_systematics"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "cos_theta_fit_procedure"
+    },
+    {
+     "line_start": 175,
+     "line_end": 177,
+     "label": "efficiency_correction"
+    }
+   ]
+  },
+  {
+   "line_start": 179,
+   "line_end": 183,
+   "type": "conclusion",
+   "title": "VII. CONCLUSION AND DISCUSSION"
+  },
+  {
+   "line_start": 185,
+   "line_end": 187,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENTS"
+  },
+  {
+   "line_start": 189,
+   "line_end": 203,
+   "type": "other",
+   "title": "Tables"
+  }
+ ],
+ "tables": [
+  {
+   "line": 134,
+   "title": "Observed events, efficiencies, alpha values, and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 191,
+   "title": "Systematic uncertainties on branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 195,
+   "title": "Systematic uncertainties on alpha value measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 199,
+   "title": "Comparison of branching fractions with previous experiments",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 203,
+   "title": "Comparison of alpha values with previous experiments and theory",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 136-177 before line 151",
+  "nested spans 1-54 / 50-52"
+ ],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

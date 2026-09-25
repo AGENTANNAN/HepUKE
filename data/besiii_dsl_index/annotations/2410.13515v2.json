@@ -1,0 +1,189 @@
+{
+ "paper_id": "2410.13515v2",
+ "source_path": "arxiv_papers/2410.13515v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 376,
+ "n_lines_sent": 77,
+ "skipped_ranges": [
+  {
+   "from": 145,
+   "to": 376,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "The BESIII Collaboration"
+  },
+  {
+   "line_start": 7,
+   "line_end": 9,
+   "type": "abstract",
+   "title": "ABSTRACT"
+  },
+  {
+   "line_start": 11,
+   "line_end": 26,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 28,
+   "line_end": 38,
+   "type": "event_selection",
+   "title": "Results / Candidates selection",
+   "units": [
+    {
+     "line_start": 28,
+     "line_end": 30,
+     "label": "section_heading"
+    },
+    {
+     "line_start": 32,
+     "line_end": 38,
+     "label": "double_tag_method"
+    }
+   ]
+  },
+  {
+   "line_start": 40,
+   "line_end": 62,
+   "type": "fit",
+   "title": "Signal extraction via Graph Neural Network"
+  },
+  {
+   "line_start": 64,
+   "line_end": 66,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 64,
+     "line_end": 66,
+     "label": "domain_shift_and_network_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 68,
+   "line_end": 87,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 89,
+   "line_end": 93,
+   "type": "detector",
+   "title": "Methods / Experimental apparatus"
+  },
+  {
+   "line_start": 95,
+   "line_end": 97,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 99,
+   "line_end": 119,
+   "type": "event_selection",
+   "title": "Event selection criteria",
+   "units": [
+    {
+     "line_start": 99,
+     "line_end": 103,
+     "label": "single_tag_reconstruction"
+    },
+    {
+     "line_start": 105,
+     "line_end": 117,
+     "label": "st_yields_and_efficiencies_tables"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "neutron_shower_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 133,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 121,
+     "line_end": 123,
+     "label": "st_yields_tracking_pid_extra_track_shower_mc_model_mc_statistics"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "domain_shift"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "gnn_model"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "simultaneous_yield_fit"
+    },
+    {
+     "line_start": 131,
+     "line_end": 133,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 139,
+   "type": "other",
+   "title": "Data availability"
+  },
+  {
+   "line_start": 141,
+   "line_end": 143,
+   "type": "other",
+   "title": "Code availability"
+  }
+ ],
+ "tables": [
+  {
+   "line": 107,
+   "title": "ST yields N_ST^{i,j} in the i-th ST mode at the j-th energy point",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 113,
+   "title": "ST detection efficiencies epsilon_ST^{i,j} (%) in the i-th ST mode at the j-th energy point",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 117,
+   "title": "DT detection efficiencies epsilon_DT^{i,j} (%) in the i-th ST mode at the j-th energy point",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 133,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

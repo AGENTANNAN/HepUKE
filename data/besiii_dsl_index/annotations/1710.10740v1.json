@@ -1,0 +1,139 @@
+{
+ "paper_id": "1710.10740v1",
+ "source_path": "arxiv_papers/1710.10740v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 271,
+ "n_lines_sent": 122,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 232,
+   "to": 271,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 117,
+   "type": "front_matter",
+   "title": "Measurement of e+e- -> pi0 pi0 psi(3686) at sqrt(s) from 4.009 to 4.600 GeV and observation of a neutral charmoniumlike structure"
+  },
+  {
+   "line_start": 119,
+   "line_end": 123,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 125,
+   "line_end": 129,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 131,
+   "line_end": 133,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 135,
+   "line_end": 139,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "charged_track_and_photon_selection"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "kinematic_fit_and_pi0_jpsi_selection"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "recoil_mass_and_mass_spectra"
+    }
+   ]
+  },
+  {
+   "line_start": 141,
+   "line_end": 173,
+   "type": "fit",
+   "title": "Background Study and Signal Yield Fit"
+  },
+  {
+   "line_start": 175,
+   "line_end": 177,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "tracking_photon_muon_kinematic_fit_pi0_jpsi_mass_fit_procedure_dalitz_weighting_isr_vacuum_polarization"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "luminosity_branching_fractions_total"
+    }
+   ]
+  },
+  {
+   "line_start": 179,
+   "line_end": 181,
+   "type": "results",
+   "title": "Dalitz Plot Analysis",
+   "units": [
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "dalitz_plot_extraction"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "structure_observation"
+    }
+   ]
+  },
+  {
+   "line_start": 183,
+   "line_end": 220,
+   "type": "fit",
+   "title": "Dalitz Plot Fit"
+  },
+  {
+   "line_start": 222,
+   "line_end": 224,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 226,
+   "line_end": 230,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

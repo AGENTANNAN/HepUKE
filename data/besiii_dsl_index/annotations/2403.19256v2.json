@@ -1,0 +1,250 @@
+{
+ "paper_id": "2403.19256v2",
+ "source_path": "arxiv_papers/2403.19256v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 435,
+ "n_lines_sent": 156,
+ "skipped_ranges": [
+  {
+   "from": 276,
+   "to": 435,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Measurement of absolute branching fractions of D_s^+ hadronic decays"
+  },
+  {
+   "line_start": 11,
+   "line_end": 29,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 31,
+   "line_end": 57,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 59,
+   "line_end": 69,
+   "type": "detector",
+   "title": "3 Detector and data sets"
+  },
+  {
+   "line_start": 71,
+   "line_end": 95,
+   "type": "event_selection",
+   "title": "4 Event selection",
+   "units": [
+    {
+     "line_start": 71,
+     "line_end": 73,
+     "label": "final_state_reconstruction"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "eta_prime_reconstruction"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 87,
+     "line_end": 95,
+     "label": "recoil_mass_and_dt_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 97,
+   "line_end": 126,
+   "type": "fit",
+   "title": "5 Single-tag and double-tag yields"
+  },
+  {
+   "line_start": 128,
+   "line_end": 172,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 130,
+     "label": "overview"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 138,
+     "line_end": 140,
+     "label": "efficiency_ratio_table"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 144,
+     "line_end": 152,
+     "label": "intermediate_resonance_decays"
+    },
+    {
+     "line_start": 154,
+     "line_end": 158,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "crossfeed_probabilities"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "dt_background_scale_factor"
+    },
+    {
+     "line_start": 168,
+     "line_end": 172,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 174,
+   "line_end": 238,
+   "type": "fit",
+   "title": "7 Branching fraction measurement"
+  },
+  {
+   "line_start": 240,
+   "line_end": 248,
+   "type": "results",
+   "title": "8 CP asymmetries measurement",
+   "units": [
+    {
+     "line_start": 240,
+     "line_end": 248,
+     "label": "cp_asymmetry_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 250,
+   "line_end": 270,
+   "type": "conclusion",
+   "title": "9 Summary"
+  },
+  {
+   "line_start": 272,
+   "line_end": 274,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 65,
+   "title": "Integrated luminosities and M_rec requirements for each center-of-mass energy",
+   "section_type": "dataset"
+  },
+  {
+   "line": 111,
+   "title": "ST yields in data at sqrt(s)=4.178 GeV",
+   "section_type": "fit"
+  },
+  {
+   "line": 138,
+   "title": "Data-MC efficiency ratios for tracking, PID, K_S^0, and pi^0/eta reconstruction",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 158,
+   "title": "Systematic uncertainties from gamma reconstruction, intermediate resonance decays and amplitude model",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 170,
+   "title": "Total systematic uncertainties from MC statistics, background shape, crossfeed probabilities and DT background scale factor",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 226,
+   "title": "Results of the BF fit and comparison to PDG values",
+   "section_type": "fit"
+  },
+  {
+   "line": 230,
+   "title": "Numbers of produced D_s^+ D_s^- pairs for the seven data samples",
+   "section_type": "fit"
+  },
+  {
+   "line": 268,
+   "title": "Results of the A_CP calculation and comparison to PDG",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

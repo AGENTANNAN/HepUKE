@@ -1,0 +1,156 @@
+{
+ "paper_id": "2607.19948v1",
+ "source_path": "arxiv_papers/2607.19948v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 289,
+ "n_lines_sent": 89,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 171,
+   "to": 289,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 69,
+   "type": "front_matter",
+   "title": "First Measurement of the Relative Phase between Proton Psionic Form Factors"
+  },
+  {
+   "line_start": 71,
+   "line_end": 71,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 73,
+   "line_end": 98,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 100,
+   "line_end": 102,
+   "type": "detector",
+   "title": "BESIII Detector"
+  },
+  {
+   "line_start": 104,
+   "line_end": 108,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "vertex_and_target_proton"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "mc_simulation_and_recoil_mass"
+    }
+   ]
+  },
+  {
+   "line_start": 110,
+   "line_end": 146,
+   "type": "fit",
+   "title": "Likelihood Fit"
+  },
+  {
+   "line_start": 148,
+   "line_end": 152,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "overview"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "fit_and_analyzing_power"
+    }
+   ]
+  },
+  {
+   "line_start": 154,
+   "line_end": 154,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 156,
+   "line_end": 158,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainty Table"
+  },
+  {
+   "line_start": 160,
+   "line_end": 163,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 165,
+   "line_end": 167,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 169,
+   "line_end": 169,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 156,
+   "title": "Systematic uncertainties in the proton polarization measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 156-158 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

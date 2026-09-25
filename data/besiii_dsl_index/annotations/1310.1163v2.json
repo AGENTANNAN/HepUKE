@@ -1,0 +1,237 @@
+{
+ "paper_id": "1310.1163v2",
+ "source_path": "arxiv_papers/1310.1163v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 151,
+ "n_lines_sent": 79,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 131,
+   "to": 151,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "BESIII Collaboration"
+  },
+  {
+   "line_start": 5,
+   "line_end": 37,
+   "type": "front_matter",
+   "title": "Affiliations"
+  },
+  {
+   "line_start": 41,
+   "line_end": 41,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 43,
+   "line_end": 43,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 45,
+   "line_end": 51,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 53,
+   "line_end": 53,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 55,
+   "line_end": 55,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 57,
+   "line_end": 64,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "recoil_mass"
+    },
+    {
+     "line_start": 61,
+     "line_end": 62,
+     "label": "figure1"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 66,
+   "line_end": 77,
+   "type": "fit",
+   "title": "Fit"
+  },
+  {
+   "line_start": 79,
+   "line_end": 88,
+   "type": "background",
+   "title": "Background Studies"
+  },
+  {
+   "line_start": 90,
+   "line_end": 104,
+   "type": "results",
+   "title": "Cross Section Measurement",
+   "units": [
+    {
+     "line_start": 90,
+     "line_end": 96,
+     "label": "pi+_tag_cross_section"
+    },
+    {
+     "line_start": 98,
+     "line_end": 104,
+     "label": "pi-_tag_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 106,
+   "line_end": 114,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 108,
+     "line_end": 110,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 120,
+   "type": "results",
+   "title": "Final Results",
+   "units": [
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "weighted_average"
+    },
+    {
+     "line_start": 118,
+     "line_end": 120,
+     "label": "table_iii"
+    }
+   ]
+  },
+  {
+   "line_start": 122,
+   "line_end": 126,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 128,
+   "line_end": 128,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 130,
+   "line_end": 130,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 77,
+   "title": "Pole mass, width, signal yields and fit quality for the two tag samples",
+   "section_type": "fit"
+  },
+  {
+   "line": 110,
+   "title": "Contributions to systematic errors on the pole mass, pole width and signal yield",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 120,
+   "title": "Parameters for the Zc(3885) -> DD* and Zc(3900) -> pi J/psi",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

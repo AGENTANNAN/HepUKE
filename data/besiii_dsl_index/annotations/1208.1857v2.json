@@ -1,0 +1,184 @@
+{
+ "paper_id": "1208.1857v2",
+ "source_path": "arxiv_papers/1208.1857v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 168,
+ "n_lines_sent": 119,
+ "skipped_ranges": [
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 157,
+   "to": 168,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 84,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 86,
+   "line_end": 86,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 88,
+   "line_end": 94,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 96,
+   "line_end": 96,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 98,
+   "line_end": 106,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "background_studies"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "mass_windows_and_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 108,
+   "type": "fit",
+   "title": "Mass spectrum fit"
+  },
+  {
+   "line_start": 110,
+   "line_end": 124,
+   "type": "results",
+   "title": "Cross section measurement",
+   "units": [
+    {
+     "line_start": 110,
+     "line_end": 116,
+     "label": "born_cross_section_formula"
+    },
+    {
+     "line_start": 118,
+     "line_end": 124,
+     "label": "combined_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 126,
+   "line_end": 147,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "overview"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "luminosity_tracking_photon_resolution_kinematic_fit"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "background_shape_fit_function_psi4040_parameters_branching_fractions"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "other_sources"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "total_systematic_error"
+    }
+   ]
+  },
+  {
+   "line_start": 149,
+   "line_end": 151,
+   "type": "results",
+   "title": "Upper limit and fractional transition rate",
+   "units": [
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "upper_limit_pi0_jpsi"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "fractional_transition_rate"
+    }
+   ]
+  },
+  {
+   "line_start": 153,
+   "line_end": 153,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 155,
+   "line_end": 155,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 139,
+   "title": "Summary of systematic errors in the cross section measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 126-147 before line 141"
+ ],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

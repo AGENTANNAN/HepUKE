@@ -1,0 +1,302 @@
+{
+ "paper_id": "2607.23945v1",
+ "source_path": "arxiv_papers/2607.23945v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 870,
+ "n_lines_sent": 385,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 119,
+   "to": 119,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 672,
+   "to": 870,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 121,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 125,
+   "line_end": 125,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 127,
+   "line_end": 139,
+   "type": "introduction",
+   "title": "I. MOTIVATION"
+  },
+  {
+   "line_start": 141,
+   "line_end": 145,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 147,
+   "line_end": 167,
+   "type": "event_selection",
+   "title": "III. DOUBLE TAG METHOD",
+   "units": [
+    {
+     "line_start": 147,
+     "line_end": 149,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 151,
+     "line_end": 167,
+     "label": "branching_fraction_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 169,
+   "line_end": 185,
+   "type": "event_selection",
+   "title": "IV. SINGLE-TAG D̄ CANDIDATES",
+   "units": [
+    {
+     "line_start": 169,
+     "line_end": 171,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 179,
+     "line_end": 185,
+     "label": "st_yield_extraction"
+    }
+   ]
+  },
+  {
+   "line_start": 187,
+   "line_end": 193,
+   "type": "event_selection",
+   "title": "V. DOUBLE-TAG EVENTS",
+   "units": [
+    {
+     "line_start": 187,
+     "line_end": 189,
+     "label": "lepton_identification"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "hadronic_background_suppression"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "missing_mass"
+    }
+   ]
+  },
+  {
+   "line_start": 195,
+   "line_end": 260,
+   "type": "fit",
+   "title": "VI. BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 262,
+   "line_end": 474,
+   "type": "fit",
+   "title": "VII. HADRONIC TRANSITION FORM FACTORS"
+  },
+  {
+   "line_start": 476,
+   "line_end": 543,
+   "type": "results",
+   "title": "VIII. FORWARD AND BACKWARD ASYMMETRIES",
+   "units": [
+    {
+     "line_start": 476,
+     "line_end": 507,
+     "label": "theoretical_formula"
+    },
+    {
+     "line_start": 509,
+     "line_end": 543,
+     "label": "q2_binned_afb"
+    }
+   ]
+  },
+  {
+   "line_start": 545,
+   "line_end": 561,
+   "type": "fit",
+   "title": "IX. CONSTRAINT ON SCALAR CURRENT IN c → d ℓ⁺νℓ TRANSITION"
+  },
+  {
+   "line_start": 563,
+   "line_end": 647,
+   "type": "conclusion",
+   "title": "X. SUMMARY"
+  },
+  {
+   "line_start": 649,
+   "line_end": 668,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 670,
+   "line_end": 870,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 205,
+   "title": "ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 214,
+   "title": "Muon identification criteria",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 242,
+   "title": "Signal yields and branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 324,
+   "title": "Relative systematic uncertainties on branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 349,
+   "title": "Measured partial decay rates",
+   "section_type": "fit"
+  },
+  {
+   "line": 456,
+   "title": "Hadronic transition form factor parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 633,
+   "title": "Forward/backward event numbers and asymmetries",
+   "section_type": "results"
+  },
+  {
+   "line": 645,
+   "title": "Fit results with and without scalar current",
+   "section_type": "fit"
+  },
+  {
+   "line": 813,
+   "title": "Weighted efficiency matrix",
+   "section_type": "other"
+  },
+  {
+   "line": 817,
+   "title": "Statistical covariance density matrix",
+   "section_type": "other"
+  },
+  {
+   "line": 821,
+   "title": "Systematic uncertainties of measured decay rates",
+   "section_type": "other"
+  },
+  {
+   "line": 825,
+   "title": "Systematic covariance density matrix",
+   "section_type": "other"
+  },
+  {
+   "line": 829,
+   "title": "Statistical covariance density matrix for simultaneous fit",
+   "section_type": "other"
+  },
+  {
+   "line": 833,
+   "title": "Systematic covariance density matrix for simultaneous fit",
+   "section_type": "other"
+  },
+  {
+   "line": 840,
+   "title": "Efficiency matrix for AFB in D0->pi-e+nu_e",
+   "section_type": "other"
+  },
+  {
+   "line": 847,
+   "title": "Efficiency matrix for AFB in D0->pi-mu+nu_mu",
+   "section_type": "other"
+  },
+  {
+   "line": 854,
+   "title": "Efficiency matrix for AFB in D+->pi0e+nu_e",
+   "section_type": "other"
+  },
+  {
+   "line": 858,
+   "title": "Efficiency matrix for AFB in D+->pi0mu+nu_mu",
+   "section_type": "other"
+  },
+  {
+   "line": 866,
+   "title": "Statistical covariance density matrix of AFB",
+   "section_type": "other"
+  },
+  {
+   "line": 870,
+   "title": "Systematic covariance density matrix of AFB",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:23",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

@@ -1,0 +1,311 @@
+{
+ "paper_id": "2503.11015v1",
+ "source_path": "arxiv_papers/2503.11015v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 366,
+ "n_lines_sent": 172,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 91,
+   "to": 91,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 136,
+   "to": 136,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 138,
+   "to": 139,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 141,
+   "to": 141,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 309,
+   "to": 366,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 143,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and abstract"
+  },
+  {
+   "line_start": 145,
+   "line_end": 153,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 155,
+   "line_end": 161,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 163,
+   "line_end": 175,
+   "type": "event_selection",
+   "title": "III. PRIMARY EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 163,
+     "line_end": 165,
+     "label": "partial_reconstruction"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "ds_reconstruction"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "recoil_mass_and_optimization"
+    }
+   ]
+  },
+  {
+   "line_start": 177,
+   "line_end": 190,
+   "type": "background",
+   "title": "IV. BACKGROUND ANALYSIS AND SUPPRESSION"
+  },
+  {
+   "line_start": 192,
+   "line_end": 214,
+   "type": "fit",
+   "title": "V. SIGNAL YIELDS AND CROSS SECTIONS"
+  },
+  {
+   "line_start": 216,
+   "line_end": 297,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 216,
+     "line_end": 222,
+     "label": "overview"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "tracking"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "pid"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 230,
+     "line_end": 237,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 239,
+     "line_end": 241,
+     "label": "mass_window_requirements"
+    },
+    {
+     "line_start": 243,
+     "line_end": 245,
+     "label": "rm_range_requirement"
+    },
+    {
+     "line_start": 247,
+     "line_end": 249,
+     "label": "vp_factor"
+    },
+    {
+     "line_start": 251,
+     "line_end": 252,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 254,
+     "line_end": 256,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "physical_model"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 262,
+     "line_end": 264,
+     "label": "isr_efficiency"
+    },
+    {
+     "line_start": 266,
+     "line_end": 266,
+     "label": "multiplicative_summary"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "additive_overview"
+    },
+    {
+     "line_start": 270,
+     "line_end": 270,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "correlation_coefficient"
+    },
+    {
+     "line_start": 274,
+     "line_end": 274,
+     "label": "additive_summary"
+    },
+    {
+     "line_start": 276,
+     "line_end": 278,
+     "label": "final_results"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "additive_systematics"
+    },
+    {
+     "line_start": 282,
+     "line_end": 282,
+     "label": "background_shape_additive"
+    },
+    {
+     "line_start": 284,
+     "line_end": 286,
+     "label": "correlation_coefficient_additive"
+    },
+    {
+     "line_start": 288,
+     "line_end": 288,
+     "label": "final_upper_limits"
+    },
+    {
+     "line_start": 290,
+     "line_end": 290,
+     "label": "figure5"
+    },
+    {
+     "line_start": 292,
+     "line_end": 293,
+     "label": "table5"
+    },
+    {
+     "line_start": 295,
+     "line_end": 297,
+     "label": "table5_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 299,
+   "line_end": 301,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 303,
+   "line_end": 307,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 241,
+   "title": "Values used to determine σ(e+e− → γX)·B(X → Ds+Ds1−(2536))",
+   "section_type": "fit"
+  },
+  {
+   "line": 245,
+   "title": "Requirements on modified recoiling mass and χ² of 2C kinematic fit",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 249,
+   "title": "Multiplicative systematic uncertainties for KKπ mode",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 256,
+   "title": "Uncertainties of correlation coefficient Δ(fsig)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 297,
+   "title": "Upper limits of σ(e+e− → γX)·B(X → Ds+Ds1−(2536)+c.c.) for different widths",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

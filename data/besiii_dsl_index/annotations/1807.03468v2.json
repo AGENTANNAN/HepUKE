@@ -1,0 +1,226 @@
+{
+ "paper_id": "1807.03468v2",
+ "source_path": "arxiv_papers/1807.03468v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 263,
+ "n_lines_sent": 118,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 250,
+   "to": 263,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 9,
+   "line_end": 42,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, abstract, PACS"
+  },
+  {
+   "line_start": 44,
+   "line_end": 52,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 54,
+   "line_end": 60,
+   "type": "detector",
+   "title": "II. EXPERIMENTAL DATA AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 62,
+   "line_end": 85,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 62,
+     "line_end": 70,
+     "label": "common_selection"
+    },
+    {
+     "line_start": 72,
+     "line_end": 85,
+     "label": "pks0nbar_k_minus_mode"
+    }
+   ]
+  },
+  {
+   "line_start": 87,
+   "line_end": 136,
+   "type": "fit",
+   "title": "B. Λ(1520) modes"
+  },
+  {
+   "line_start": 138,
+   "line_end": 160,
+   "type": "results",
+   "title": "IV. CROSS SECTION MEASUREMENT",
+   "units": [
+    {
+     "line_start": 138,
+     "line_end": 151,
+     "label": "born_cross_section_pks0nbar_k_minus"
+    },
+    {
+     "line_start": 153,
+     "line_end": 160,
+     "label": "born_cross_section_lambda1520_modes"
+    }
+   ]
+  },
+  {
+   "line_start": 162,
+   "line_end": 232,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES FOR BORN CROSS SECTIONS",
+   "units": [
+    {
+     "line_start": 162,
+     "line_end": 164,
+     "label": "overview"
+    },
+    {
+     "line_start": 166,
+     "line_end": 168,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "tracking"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "pid"
+    },
+    {
+     "line_start": 174,
+     "line_end": 176,
+     "label": "table_iii"
+    },
+    {
+     "line_start": 178,
+     "line_end": 180,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "ks0_mass_window"
+    },
+    {
+     "line_start": 184,
+     "line_end": 188,
+     "label": "mc_generator"
+    },
+    {
+     "line_start": 190,
+     "line_end": 192,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 194,
+     "line_end": 206,
+     "label": "fit_procedure_pks0nbar_k_minus"
+    },
+    {
+     "line_start": 208,
+     "line_end": 224,
+     "label": "fit_procedure_lambda1520_modes"
+    },
+    {
+     "line_start": 226,
+     "line_end": 228,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "vacuum_polarization"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "intermediate_decays"
+    }
+   ]
+  },
+  {
+   "line_start": 234,
+   "line_end": 236,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES FOR FITS TO THE CROSS-SECTION DISTRIBUTIONS",
+   "units": [
+    {
+     "line_start": 234,
+     "line_end": 236,
+     "label": "cross_section_fit_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 238,
+   "line_end": 244,
+   "type": "conclusion",
+   "title": "VII. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 246,
+   "line_end": 248,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 85,
+   "title": "Table I. c.m. energy, luminosity, efficiency, vacuum polarization, radiative correction, signal yields, and Born cross sections for e+e- -> p K_S^0 nbar K^-",
+   "section_type": "results"
+  },
+  {
+   "line": 157,
+   "title": "Table II. c.m. energy, luminosity, efficiency, vacuum polarization, radiative correction, signal yields, significance, and Born cross sections for Lambda(1520) modes",
+   "section_type": "results"
+  },
+  {
+   "line": 176,
+   "title": "Table III. Systematic uncertainties (%) for the cross-section measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

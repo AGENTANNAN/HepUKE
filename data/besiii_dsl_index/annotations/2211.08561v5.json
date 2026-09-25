@@ -1,0 +1,249 @@
+{
+ "paper_id": "2211.08561v5",
+ "source_path": "arxiv_papers/2211.08561v5.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 313,
+ "n_lines_sent": 185,
+ "skipped_ranges": [
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 70,
+   "to": 70,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 101,
+   "to": 101,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 114,
+   "to": 114,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 126,
+   "to": 129,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 251,
+   "to": 313,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 131,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 133,
+   "line_end": 133,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 135,
+   "line_end": 135,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 137,
+   "line_end": 145,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 147,
+   "line_end": 151,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 153,
+   "line_end": 154,
+   "type": "detector",
+   "title": "FIG. 1"
+  },
+  {
+   "line_start": 156,
+   "line_end": 168,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 156,
+     "line_end": 158,
+     "label": "reconstruction_methods"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "lepton_selection"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "signal_yield"
+    }
+   ]
+  },
+  {
+   "line_start": 170,
+   "line_end": 201,
+   "type": "fit",
+   "title": "IV. CROSS SECTION"
+  },
+  {
+   "line_start": 203,
+   "line_end": 233,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 203,
+     "line_end": 205,
+     "label": "overview"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 215,
+     "line_end": 216,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "mass_window_luminosity_bf"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 224,
+     "line_end": 225,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "table_content"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "table_content"
+    }
+   ]
+  },
+  {
+   "line_start": 235,
+   "line_end": 243,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 245,
+   "line_end": 249,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 185,
+   "title": "CM energies, luminosities, signal yields, efficiencies, and Born cross sections",
+   "section_type": "fit"
+  },
+  {
+   "line": 199,
+   "title": "Fitted parameters of the measured cross sections",
+   "section_type": "fit"
+  },
+  {
+   "line": 229,
+   "title": "Relative systematic uncertainties for the cross sections",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 233,
+   "title": "Systematic uncertainties in the measurement of resonance parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

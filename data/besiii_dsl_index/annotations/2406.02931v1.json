@@ -1,0 +1,254 @@
+{
+ "paper_id": "2406.02931v1",
+ "source_path": "arxiv_papers/2406.02931v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 225,
+ "n_lines_sent": 107,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 66,
+   "to": 66,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 79,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 82,
+   "to": 82,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 190,
+   "to": 225,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Measurements of the branching fractions of the P-wave charmonium spin-singlet state"
+  },
+  {
+   "line_start": 7,
+   "line_end": 80,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 84,
+   "line_end": 84,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 86,
+   "line_end": 90,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 92,
+   "line_end": 98,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 100,
+   "line_end": 116,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 102,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 112,
+     "line_end": 116,
+     "label": "table_and_background_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 118,
+   "line_end": 141,
+   "type": "fit",
+   "title": "IV. EXTRACTION OF SIGNAL YIELDS"
+  },
+  {
+   "line_start": 143,
+   "line_end": 178,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 143,
+     "line_end": 145,
+     "label": "overview"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 149,
+     "line_end": 150,
+     "label": "figure2"
+    },
+    {
+     "line_start": 152,
+     "line_end": 154,
+     "label": "table2"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 160,
+     "line_end": 166,
+     "label": "mass_window_barlow_test"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "psi3686_number_and_quoted_branching_fractions"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "fit_range_signal_shape_background_shape"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "upper_limit_systematics"
+    },
+    {
+     "line_start": 174,
+     "line_end": 178,
+     "label": "total_systematic_uncertainty_and_table3"
+    }
+   ]
+  },
+  {
+   "line_start": 180,
+   "line_end": 180,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 182,
+   "line_end": 182,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 184,
+   "line_end": 186,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 188,
+   "line_end": 188,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 114,
+   "title": "Applied requirements on the chi2_6C, invariant mass windows, and recoil mass windows used as vetoes in each decay",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 154,
+   "title": "The branching fractions (or their upper limit at 90% confidence level) for each h_c decay together with the corrected detection efficiencies, the fitted signal yields, and the signal significances with systematic uncertainties included",
+   "section_type": "results"
+  },
+  {
+   "line": 178,
+   "title": "The relative systematic uncertainties (%) on the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

@@ -1,0 +1,200 @@
+{
+ "paper_id": "1404.0096v2",
+ "source_path": "arxiv_papers/1404.0096v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 76,
+ "n_lines_sent": 34,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 69,
+   "to": 76,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Title, collaboration, abstract and PACS"
+  },
+  {
+   "line_start": 11,
+   "line_end": 13,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 15,
+   "line_end": 17,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 19,
+   "line_end": 33,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 19,
+     "line_end": 19,
+     "label": "charged_track_and_pid_selection"
+    },
+    {
+     "line_start": 21,
+     "line_end": 21,
+     "label": "kinematic_fit_4c"
+    },
+    {
+     "line_start": 23,
+     "line_end": 24,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 26,
+     "line_end": 26,
+     "label": "background_study_charged_mode"
+    },
+    {
+     "line_start": 28,
+     "line_end": 28,
+     "label": "neutral_mode_selection"
+    },
+    {
+     "line_start": 30,
+     "line_end": 31,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 33,
+     "line_end": 33,
+     "label": "background_study_neutral_mode"
+    }
+   ]
+  },
+  {
+   "line_start": 35,
+   "line_end": 39,
+   "type": "fit",
+   "title": "Signal yield extraction and efficiency"
+  },
+  {
+   "line_start": 41,
+   "line_end": 41,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 41,
+     "line_end": 41,
+     "label": "tracking_photon_pid_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 43,
+   "line_end": 45,
+   "type": "results",
+   "title": "Table I: signal yields and branching fractions",
+   "units": [
+    {
+     "line_start": 43,
+     "line_end": 45,
+     "label": "table_i_yields_efficiencies"
+    }
+   ]
+  },
+  {
+   "line_start": 47,
+   "line_end": 51,
+   "type": "fit",
+   "title": "Fit projections and model comparison"
+  },
+  {
+   "line_start": 53,
+   "line_end": 59,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties (continued)",
+   "units": [
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "background_shape_fit_range_mc_model"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "normalization_branching_fractions"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 61,
+   "line_end": 63,
+   "type": "systematic_uncertainty",
+   "title": "Table II: summary of systematic uncertainties",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 63,
+     "label": "table_ii_systematic_budget"
+    }
+   ]
+  },
+  {
+   "line_start": 65,
+   "line_end": 65,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 67,
+   "line_end": 67,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 45,
+   "title": "Table I: Signal yields, detection efficiencies and product branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 63,
+   "title": "Table II: Summary of systematic uncertainties in the branching fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

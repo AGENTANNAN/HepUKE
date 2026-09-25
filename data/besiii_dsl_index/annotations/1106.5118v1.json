@@ -1,0 +1,204 @@
+{
+ "paper_id": "1106.5118v1",
+ "source_path": "arxiv_papers/1106.5118v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 181,
+ "n_lines_sent": 89,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 162,
+   "to": 181,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 10,
+   "line_end": 72,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, abstract, PACS"
+  },
+  {
+   "line_start": 74,
+   "line_end": 80,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 82,
+   "line_end": 88,
+   "type": "detector",
+   "title": "II. BESIII AND BEPCII"
+  },
+  {
+   "line_start": 90,
+   "line_end": 118,
+   "type": "event_selection",
+   "title": "III. SEARCH FOR eta, eta' AND eta_c DECAYS INTO pi+ pi-",
+   "units": [
+    {
+     "line_start": 90,
+     "line_end": 92,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "pid"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "pi0_veto"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "electron_muon_suppression"
+    },
+    {
+     "line_start": 102,
+     "line_end": 104,
+     "label": "background_study"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "mass_fit"
+    },
+    {
+     "line_start": 108,
+     "line_end": 110,
+     "label": "figure1"
+    },
+    {
+     "line_start": 112,
+     "line_end": 118,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 120,
+   "line_end": 132,
+   "type": "event_selection",
+   "title": "IV. SEARCH FOR eta, eta' AND eta_c DECAYS INTO pi0 pi0",
+   "units": [
+    {
+     "line_start": 120,
+     "line_end": 122,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "background_study"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "mass_fit"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "f0_980_discussion"
+    },
+    {
+     "line_start": 130,
+     "line_end": 132,
+     "label": "figure2"
+    }
+   ]
+  },
+  {
+   "line_start": 134,
+   "line_end": 140,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 136,
+     "label": "systematic_sources"
+    },
+    {
+     "line_start": 138,
+     "line_end": 140,
+     "label": "table1"
+    }
+   ]
+  },
+  {
+   "line_start": 142,
+   "line_end": 150,
+   "type": "results",
+   "title": "VI. RESULTS",
+   "units": [
+    {
+     "line_start": 142,
+     "line_end": 148,
+     "label": "upper_limit_formula"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "results_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 160,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 140,
+   "title": "Relative systematic errors (%) of the decay branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 158,
+   "title": "Summary of the limits on eta/eta'/eta_c decays to pi+pi- and pi0pi0 states",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

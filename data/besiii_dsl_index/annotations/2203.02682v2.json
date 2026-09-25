@@ -1,0 +1,186 @@
+{
+ "paper_id": "2203.02682v2",
+ "source_path": "arxiv_papers/2203.02682v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 298,
+ "n_lines_sent": 89,
+ "skipped_ranges": [
+  {
+   "from": 167,
+   "to": 298,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Cross section measurements of the processes e+e- -> omega pi0 and omega eta at center-of-mass energies between 3.773 and 4.701 GeV"
+  },
+  {
+   "line_start": 13,
+   "line_end": 30,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 32,
+   "line_end": 38,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 40,
+   "line_end": 46,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 48,
+   "line_end": 57,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "omega_and_pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 54,
+     "line_end": 57,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 59,
+   "line_end": 121,
+   "type": "fit",
+   "title": "4 Born cross section measurement"
+  },
+  {
+   "line_start": 123,
+   "line_end": 149,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "overview"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "tracking_and_photon_detection"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "pid"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "omega_mass_window"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "mgg_fitting_procedure"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "combined_omega_eta_uncertainties"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "theta_gamma_gamma_requirement"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 151,
+   "line_end": 153,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 155,
+   "line_end": 165,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 85,
+   "title": "Born cross sections for e+e- -> omega pi0 and omega eta",
+   "section_type": "fit"
+  },
+  {
+   "line": 102,
+   "title": "Fit results for dressed cross section",
+   "section_type": "fit"
+  },
+  {
+   "line": 161,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

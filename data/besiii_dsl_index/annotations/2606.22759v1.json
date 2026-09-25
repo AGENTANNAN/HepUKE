@@ -1,0 +1,143 @@
+{
+ "paper_id": "2606.22759v1",
+ "source_path": "arxiv_papers/2606.22759v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 316,
+ "n_lines_sent": 50,
+ "skipped_ranges": [
+  {
+   "from": 86,
+   "to": 86,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 92,
+   "to": 316,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Observation of psi(3770) -> p pbar and Measurement of Electromagnetic Form Factors of Proton at sqrt(s) = 3.510-4.946 GeV"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 7,
+   "line_end": 15,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 17,
+   "line_end": 17,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 17,
+     "line_end": 17,
+     "label": "event_selection_criteria"
+    }
+   ]
+  },
+  {
+   "line_start": 19,
+   "line_end": 19,
+   "type": "fit",
+   "title": "Signal Yield Extraction"
+  },
+  {
+   "line_start": 21,
+   "line_end": 49,
+   "type": "fit",
+   "title": "Resonance Line-Shape Fit"
+  },
+  {
+   "line_start": 51,
+   "line_end": 51,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties on Resonance Parameters",
+   "units": [
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "resonance_parameter_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 53,
+   "line_end": 53,
+   "type": "results",
+   "title": "Proton Electromagnetic Form Factors",
+   "units": [
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "emff_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 55,
+   "line_end": 69,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties on Form Factors",
+   "units": [
+    {
+     "line_start": 55,
+     "line_end": 67,
+     "label": "figures"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "emff_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 71,
+   "line_end": 82,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 84,
+   "line_end": 88,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 90,
+   "line_end": 90,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 77,
+   "title": "Numerical results of resonance parameters from fits to dressed cross sections",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

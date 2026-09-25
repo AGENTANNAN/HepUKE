@@ -1,0 +1,232 @@
+{
+ "paper_id": "2506.02969v2",
+ "source_path": "arxiv_papers/2506.02969v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 221,
+ "n_lines_sent": 90,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 176,
+   "to": 221,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 4,
+   "line_end": 54,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 57,
+   "line_end": 57,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 59,
+   "line_end": 69,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 71,
+   "line_end": 91,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 93,
+   "line_end": 99,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 93,
+     "line_end": 95,
+     "label": "st_reconstruction"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "ks0_selection"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "charged_particle_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 101,
+   "line_end": 136,
+   "type": "fit",
+   "title": "IV. DATA ANALYSIS"
+  },
+  {
+   "line_start": 138,
+   "line_end": 164,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 138,
+     "line_end": 140,
+     "label": "overview"
+    },
+    {
+     "line_start": 142,
+     "line_end": 144,
+     "label": "table_vii"
+    },
+    {
+     "line_start": 146,
+     "line_end": 148,
+     "label": "table_viii"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 152,
+     "line_end": 156,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 158,
+     "line_end": 162,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 166,
+   "line_end": 170,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 172,
+   "line_end": 174,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 77,
+   "title": "Theoretical predictions and experimental results for the BFs",
+   "section_type": "introduction"
+  },
+  {
+   "line": 87,
+   "title": "Center-of-mass energies and luminosities of the data samples",
+   "section_type": "detector"
+  },
+  {
+   "line": 109,
+   "title": "ST yields of 12 modes",
+   "section_type": "fit"
+  },
+  {
+   "line": 113,
+   "title": "ST detection efficiencies of 12 modes",
+   "section_type": "fit"
+  },
+  {
+   "line": 126,
+   "title": "DT efficiencies of Lambda_c+ -> Lambda K_S^0 K+",
+   "section_type": "fit"
+  },
+  {
+   "line": 130,
+   "title": "DT efficiencies of Lambda_c+ -> Sigma^0 K_S^0 K+",
+   "section_type": "fit"
+  },
+  {
+   "line": 144,
+   "title": "DT efficiencies of Lambda_c+ -> Xi^0 K_S^0 pi+",
+   "section_type": "fit"
+  },
+  {
+   "line": 148,
+   "title": "Relative systematic uncertainties for the BF measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

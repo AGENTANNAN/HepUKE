@@ -1,0 +1,189 @@
+{
+ "paper_id": "1308.2760v2",
+ "source_path": "arxiv_papers/1308.2760v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 120,
+ "n_lines_sent": 47,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 100,
+   "to": 120,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 30,
+   "type": "front_matter",
+   "title": "Observation of a charged charmoniumlike structure in e+e- -> (D*D*)±π∓ at √s = 4.26 GeV"
+  },
+  {
+   "line_start": 32,
+   "line_end": 40,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 42,
+   "line_end": 42,
+   "type": "detector",
+   "title": "The BESIII detector"
+  },
+  {
+   "line_start": 44,
+   "line_end": 44,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 46,
+   "line_end": 63,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 46,
+     "line_end": 47,
+     "label": "figure1_caption"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "dplus_reconstruction"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "dplus_mass_window"
+    },
+    {
+     "line_start": 53,
+     "line_end": 54,
+     "label": "figure2_caption"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "pi0_selection"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 60,
+     "line_end": 61,
+     "label": "figure3_caption"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "signal_region"
+    }
+   ]
+  },
+  {
+   "line_start": 65,
+   "line_end": 84,
+   "type": "fit",
+   "title": "Fit to the π- recoil mass spectrum"
+  },
+  {
+   "line_start": 86,
+   "line_end": 86,
+   "type": "results",
+   "title": "Born cross section and ratio R",
+   "units": [
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "cross_section_and_ratio"
+    }
+   ]
+  },
+  {
+   "line_start": 88,
+   "line_end": 94,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 88,
+     "line_end": 90,
+     "label": "table_i_summary"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "mass_scale_signal_shape_backgrounds_dstar"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "efficiencies_luminosity_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 96,
+   "line_end": 96,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 98,
+   "line_end": 98,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 90,
+   "title": "Systematic uncertainties on Zc(4025) parameters and cross sections",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

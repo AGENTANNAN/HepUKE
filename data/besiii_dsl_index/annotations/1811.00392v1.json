@@ -1,0 +1,217 @@
+{
+ "paper_id": "1811.00392v1",
+ "source_path": "arxiv_papers/1811.00392v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 162,
+ "n_lines_sent": 88,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 147,
+   "to": 162,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 10,
+   "line_end": 69,
+   "type": "front_matter",
+   "title": "Author list, affiliations, and date"
+  },
+  {
+   "line_start": 71,
+   "line_end": 73,
+   "type": "abstract",
+   "title": "Abstract and PACS numbers"
+  },
+  {
+   "line_start": 75,
+   "line_end": 89,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 91,
+   "line_end": 91,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 93,
+   "line_end": 112,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "photon_and_pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 99,
+     "line_end": 101,
+     "label": "st_selection_and_recoil_mass"
+    },
+    {
+     "line_start": 103,
+     "line_end": 106,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 108,
+     "line_end": 110,
+     "label": "dt_selection"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "ks0_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 114,
+   "line_end": 121,
+   "type": "fit",
+   "title": "Two-dimensional extended unbinned likelihood fit"
+  },
+  {
+   "line_start": 123,
+   "line_end": 127,
+   "type": "results",
+   "title": "Branching fraction results",
+   "units": [
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "branching_fraction_measurement"
+    },
+    {
+     "line_start": 125,
+     "line_end": 127,
+     "label": "efficiency_table"
+    }
+   ]
+  },
+  {
+   "line_start": 129,
+   "line_end": 137,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 129,
+     "line_end": 131,
+     "label": "overview"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "mrec_and_pion_momentum_and_ks0_veto"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "tracking_pid_pi0_and_mc_statistics"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "signal_shape_background_shape_st_yield_fit_procedure_and_bf_inputs"
+    }
+   ]
+  },
+  {
+   "line_start": 139,
+   "line_end": 139,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 141,
+   "line_end": 143,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty table",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 143,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 145,
+   "line_end": 145,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 127,
+   "title": "ST and DT efficiencies",
+   "section_type": "results"
+  },
+  {
+   "line": 143,
+   "title": "Relative systematic uncertainties in the BF measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

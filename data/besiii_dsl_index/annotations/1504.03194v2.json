@@ -1,0 +1,198 @@
+{
+ "paper_id": "1504.03194v2",
+ "source_path": "arxiv_papers/1504.03194v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 140,
+ "n_lines_sent": 57,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 122,
+   "to": 140,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Author list (continued)"
+  },
+  {
+   "line_start": 18,
+   "line_end": 21,
+   "type": "front_matter",
+   "title": "Author list (continued)"
+  },
+  {
+   "line_start": 31,
+   "line_end": 31,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 33,
+   "line_end": 33,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 35,
+   "line_end": 39,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 41,
+   "line_end": 41,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 43,
+   "line_end": 45,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "photon_and_kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 47,
+   "line_end": 48,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 50,
+   "line_end": 50,
+   "type": "event_selection",
+   "title": "Event Selection (continued)",
+   "units": [
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "mass_windows"
+    }
+   ]
+  },
+  {
+   "line_start": 52,
+   "line_end": 58,
+   "type": "background",
+   "title": "Background Analysis"
+  },
+  {
+   "line_start": 60,
+   "line_end": 99,
+   "type": "fit",
+   "title": "Fit to the M(K+K-) Spectrum"
+  },
+  {
+   "line_start": 101,
+   "line_end": 104,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "tracking_photon_pid_pi0_kinematic_fit"
+    },
+    {
+     "line_start": 103,
+     "line_end": 104,
+     "label": "fit_parameterization_resolution_qed_phi_parameters"
+    }
+   ]
+  },
+  {
+   "line_start": 106,
+   "line_end": 108,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 110,
+   "line_end": 112,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainty Table",
+   "units": [
+    {
+     "line_start": 110,
+     "line_end": 112,
+     "label": "systematic_budget_table"
+    }
+   ]
+  },
+  {
+   "line_start": 114,
+   "line_end": 115,
+   "type": "other",
+   "title": "Figure 3"
+  },
+  {
+   "line_start": 117,
+   "line_end": 117,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 119,
+   "line_end": 121,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 56,
+   "title": "Background analysis for J/psi -> phi pi0",
+   "section_type": "background"
+  },
+  {
+   "line": 97,
+   "title": "Fit results",
+   "section_type": "fit"
+  },
+  {
+   "line": 112,
+   "title": "Summary of branching fraction systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

@@ -1,0 +1,159 @@
+{
+ "paper_id": "2302.09767v2",
+ "source_path": "arxiv_papers/2302.09767v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 263,
+ "n_lines_sent": 176,
+ "skipped_ranges": [
+  {
+   "from": 215,
+   "to": 263,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 138,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 140,
+   "line_end": 140,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 142,
+   "line_end": 177,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 179,
+   "line_end": 186,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 181,
+     "line_end": 186,
+     "label": "kinematic_fit_and_background_rejection"
+    }
+   ]
+  },
+  {
+   "line_start": 188,
+   "line_end": 200,
+   "type": "fit",
+   "title": "Maximum likelihood fit"
+  },
+  {
+   "line_start": 202,
+   "line_end": 206,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "tracking"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "xi0_reconstruction"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "sideband_subtraction"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "continuum_process"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "lambda_decay_parameter"
+    },
+    {
+     "line_start": 202,
+     "line_end": 202,
+     "label": "fit_method"
+    },
+    {
+     "line_start": 204,
+     "line_end": 206,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 208,
+   "line_end": 211,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 213,
+   "line_end": 213,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 200,
+   "title": "Numerical results of parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 206,
+   "title": "Systematic uncertainties of the measured parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 202-206 share boundary line 202",
+  "units of 202-206 share boundary line 202",
+  "units of 202-206 share boundary line 202",
+  "units of 202-206 share boundary line 202",
+  "units of 202-206 share boundary line 202",
+  "units of 202-206 share boundary line 202",
+  "units of 202-206 share boundary line 202",
+  "units of 202-206 share boundary line 202"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

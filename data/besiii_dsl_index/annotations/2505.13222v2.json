@@ -1,0 +1,229 @@
+{
+ "paper_id": "2505.13222v2",
+ "source_path": "arxiv_papers/2505.13222v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 399,
+ "n_lines_sent": 200,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 65,
+   "to": 68,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 88,
+   "to": 88,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 294,
+   "to": 399,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 124,
+   "type": "front_matter",
+   "title": "Partial wave analysis of e+e- -> pi+pi- J/psi and cross section measurement of e+e- -> pi± Zc(3900)∓ from 4.1271 to 4.3583 GeV"
+  },
+  {
+   "line_start": 126,
+   "line_end": 128,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 130,
+   "line_end": 136,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 138,
+   "line_end": 144,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND THE DATASETS"
+  },
+  {
+   "line_start": 146,
+   "line_end": 150,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 146,
+     "line_end": 148,
+     "label": "preliminary_selection"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "muc_hit_and_signal_region"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 210,
+   "type": "fit",
+   "title": "IV. AMPLITUDE CONSTRUCTION AND THE PWA RESULT"
+  },
+  {
+   "line_start": 212,
+   "line_end": 220,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 212,
+     "line_end": 214,
+     "label": "zc_parameters_and_total_cross_section"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "amplitude_modeling"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "s_wave_parametrization"
+    }
+   ]
+  },
+  {
+   "line_start": 222,
+   "line_end": 262,
+   "type": "fit",
+   "title": "VI. FIT THE CROSS SECTION"
+  },
+  {
+   "line_start": 264,
+   "line_end": 270,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 272,
+   "line_end": 288,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 290,
+   "line_end": 292,
+   "type": "other",
+   "title": "VIII. DATA AVAILABILITY"
+  }
+ ],
+ "tables": [
+  {
+   "line": 239,
+   "title": "Mass and width of Zc(3900) from simultaneous fit",
+   "section_type": "fit"
+  },
+  {
+   "line": 246,
+   "title": "Mass and width correction values of Zc(3900)",
+   "section_type": "fit"
+  },
+  {
+   "line": 278,
+   "title": "Mass and width of Y(4220) and significance of Y(4320)",
+   "section_type": "fit"
+  },
+  {
+   "line": 285,
+   "title": "Ratios of Gamma_ee B between Y(4220) and Y(4320)",
+   "section_type": "fit"
+  },
+  {
+   "line": 355,
+   "title": "Fractions of subprocesses at different energies",
+   "section_type": "fit"
+  },
+  {
+   "line": 359,
+   "title": "Fit fractions of subprocesses in PWA",
+   "section_type": "fit"
+  },
+  {
+   "line": 363,
+   "title": "Fit fractions with Breit-Wigner and K-matrix",
+   "section_type": "fit"
+  },
+  {
+   "line": 367,
+   "title": "Interference magnitudes between subprocesses",
+   "section_type": "fit"
+  },
+  {
+   "line": 371,
+   "title": "Interference magnitudes at 4.2263 GeV",
+   "section_type": "fit"
+  },
+  {
+   "line": 375,
+   "title": "Chi2/ndf for mass and Dalitz distributions",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

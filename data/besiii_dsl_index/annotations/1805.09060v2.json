@@ -1,0 +1,256 @@
+{
+ "paper_id": "1805.09060v2",
+ "source_path": "arxiv_papers/1805.09060v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 144,
+ "n_lines_sent": 50,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 119,
+   "to": 144,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 20,
+   "line_end": 32,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 30,
+   "line_end": 30,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 34,
+   "line_end": 36,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 38,
+   "line_end": 38,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 40,
+   "line_end": 52,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 40,
+     "line_end": 40,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 42,
+     "line_end": 42,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 44,
+     "line_end": 46,
+     "label": "table_i"
+    },
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "positron_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 54,
+   "line_end": 55,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 57,
+   "line_end": 74,
+   "type": "event_selection",
+   "title": "Positron identification and background subtraction",
+   "units": [
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "pid_selection"
+    },
+    {
+     "line_start": 59,
+     "line_end": 65,
+     "label": "pid_unfolding"
+    },
+    {
+     "line_start": 67,
+     "line_end": 68,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "pid_efficiency"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "sideband_subtraction"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "ws_subtraction"
+    }
+   ]
+  },
+  {
+   "line_start": 76,
+   "line_end": 94,
+   "type": "fit",
+   "title": "Tracking efficiency correction and branching fraction fit"
+  },
+  {
+   "line_start": 96,
+   "line_end": 101,
+   "type": "fit",
+   "title": "Extrapolation of positron momentum spectrum"
+  },
+  {
+   "line_start": 103,
+   "line_end": 107,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "tag_yield"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "tracking"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "pid"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "sideband_subtraction"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "extrapolation"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "data_mc_statistics"
+    },
+    {
+     "line_start": 105,
+     "line_end": 107,
+     "label": "table_iv"
+    }
+   ]
+  },
+  {
+   "line_start": 109,
+   "line_end": 109,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 111,
+   "line_end": 115,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 117,
+   "line_end": 117,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 46,
+   "title": "Summary of ΔE requirements, detection efficiencies and ST yields for the different tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 80,
+   "title": "Positron yields in data after each procedure",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 98,
+   "title": "Λc+ semileptonic decays used to extrapolate the positron momentum spectrum",
+   "section_type": "fit"
+  },
+  {
+   "line": 107,
+   "title": "Sources of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 115,
+   "title": "Comparison of the branching fraction and ratio of the semileptonic decay width between experimental measurements and theoretical predictions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 103-107 share boundary line 103",
+  "units of 103-107 share boundary line 103",
+  "units of 103-107 share boundary line 103",
+  "units of 103-107 share boundary line 103",
+  "units of 103-107 share boundary line 103",
+  "nested spans 20-32 / 30-30"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

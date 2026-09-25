@@ -1,0 +1,273 @@
+{
+ "paper_id": "2208.09402v2",
+ "source_path": "arxiv_papers/2208.09402v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 431,
+ "n_lines_sent": 242,
+ "skipped_ranges": [
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 63,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 397,
+   "to": 431,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 67,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 69,
+   "line_end": 69,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 71,
+   "line_end": 101,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 103,
+   "line_end": 107,
+   "type": "detector",
+   "title": "2 Detector, data sets, and simulation samples"
+  },
+  {
+   "line_start": 109,
+   "line_end": 178,
+   "type": "results",
+   "title": "3 Measurement of D0 -> KL0 X branching fractions with CP-eigenstate tags",
+   "units": [
+    {
+     "line_start": 109,
+     "line_end": 113,
+     "label": "introduction_and_motivation"
+    },
+    {
+     "line_start": 115,
+     "line_end": 137,
+     "label": "method_and_formalism"
+    },
+    {
+     "line_start": 139,
+     "line_end": 143,
+     "label": "track_and_ks0_selection"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "delta_e_selection"
+    },
+    {
+     "line_start": 147,
+     "line_end": 153,
+     "label": "missing_mass_selection"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "mass_distributions"
+    },
+    {
+     "line_start": 159,
+     "line_end": 161,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 163,
+     "line_end": 169,
+     "label": "branching_fraction_results"
+    },
+    {
+     "line_start": 171,
+     "line_end": 178,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 180,
+   "line_end": 280,
+   "type": "results",
+   "title": "4 Measurement of A_Kpi and A_Kpi^pipipi0",
+   "units": [
+    {
+     "line_start": 180,
+     "line_end": 194,
+     "label": "formalism_and_branching_fractions"
+    },
+    {
+     "line_start": 196,
+     "line_end": 212,
+     "label": "asymmetry_definition"
+    },
+    {
+     "line_start": 214,
+     "line_end": 230,
+     "label": "tag_modes_and_second_asymmetry"
+    },
+    {
+     "line_start": 232,
+     "line_end": 234,
+     "label": "tag_summary_table"
+    },
+    {
+     "line_start": 236,
+     "line_end": 245,
+     "label": "single_tag_yields"
+    },
+    {
+     "line_start": 247,
+     "line_end": 255,
+     "label": "double_tag_yields"
+    },
+    {
+     "line_start": 257,
+     "line_end": 265,
+     "label": "asymmetry_results"
+    },
+    {
+     "line_start": 267,
+     "line_end": 280,
+     "label": "systematic_uncertainties_and_combination"
+    }
+   ]
+  },
+  {
+   "line_start": 282,
+   "line_end": 347,
+   "type": "fit",
+   "title": "5 Measurement of r_D^Kpi cos delta_D^Kpi and r_D^Kpi sin delta_D^Kpi with D -> K_S,L^0 pi+ pi- tags"
+  },
+  {
+   "line_start": 349,
+   "line_end": 369,
+   "type": "fit",
+   "title": "6 Determination of delta_D^Kpi"
+  },
+  {
+   "line_start": 371,
+   "line_end": 391,
+   "type": "conclusion",
+   "title": "7 Summary and outlook"
+  },
+  {
+   "line_start": 393,
+   "line_end": 395,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 210,
+   "title": "Systematic uncertainties for the D -> K_L^0 X branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 234,
+   "title": "Summary of CP-eigenstate tag modes used in the determination of A_Kpi and A_Kpi^pipipi0",
+   "section_type": "results"
+  },
+  {
+   "line": 251,
+   "title": "Summary of single-tag yields and efficiencies",
+   "section_type": "results"
+  },
+  {
+   "line": 255,
+   "title": "Summary of double-tag yields and efficiencies",
+   "section_type": "results"
+  },
+  {
+   "line": 271,
+   "title": "Systematic uncertainties for A_Kpi and A_Kpi^pipipi0",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 355,
+   "title": "Normalised yields of D -> K- pi+ versus D -> K_S,L^0 pi+ pi- double tags and K_i parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 359,
+   "title": "Values of c_i and s_i for D -> K_S,L^0 pi+ pi-",
+   "section_type": "fit"
+  },
+  {
+   "line": 363,
+   "title": "Fit results for D -> K- pi+ decays tagged with D -> K_S^0 pi+ pi-, D -> K_L^0 pi+ pi- and both tags",
+   "section_type": "fit"
+  },
+  {
+   "line": 369,
+   "title": "Results for delta_D^Kpi for different fit configurations",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 13.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

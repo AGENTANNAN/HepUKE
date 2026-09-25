@@ -1,0 +1,235 @@
+{
+ "paper_id": "2103.11855v1",
+ "source_path": "arxiv_papers/2103.11855v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 167,
+ "n_lines_sent": 80,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 4,
+   "line_end": 22,
+   "type": "front_matter",
+   "title": "Author list and collaboration"
+  },
+  {
+   "line_start": 33,
+   "line_end": 33,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 35,
+   "line_end": 41,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 43,
+   "line_end": 45,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 47,
+   "line_end": 53,
+   "type": "dataset",
+   "title": "Data samples and Monte Carlo simulation"
+  },
+  {
+   "line_start": 55,
+   "line_end": 124,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 55,
+     "line_end": 81,
+     "label": "tag_technique_formalism"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "tag_mode_selection"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "photon_and_pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "charged_track_and_pid"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "ks0_rho_etap_reconstruction"
+    },
+    {
+     "line_start": 91,
+     "line_end": 99,
+     "label": "recoil_mass_requirement"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "signal_side_selection"
+    },
+    {
+     "line_start": 105,
+     "line_end": 121,
+     "label": "missing_mass_and_likelihood_fit"
+    },
+    {
+     "line_start": 123,
+     "line_end": 124,
+     "label": "mm2_distribution_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 126,
+   "line_end": 150,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 126,
+     "line_end": 130,
+     "label": "overview_and_multiplicative_sources"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "additive_background_shape"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "dt_efficiency_table"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "dt_efficiency_table_content"
+    },
+    {
+     "line_start": 138,
+     "line_end": 140,
+     "label": "multiplicative_uncertainty_table"
+    },
+    {
+     "line_start": 142,
+     "line_end": 146,
+     "label": "likelihood_smearing_formula"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "upper_limit_result"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "alternative_background_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 157,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 152,
+     "line_end": 154,
+     "label": "conservative_upper_limit"
+    },
+    {
+     "line_start": 156,
+     "line_end": 157,
+     "label": "likelihood_distribution_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 159,
+   "line_end": 161,
+   "type": "conclusion",
+   "title": "VI. CONCLUSION"
+  },
+  {
+   "line_start": 163,
+   "line_end": 167,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 51,
+   "title": "Integrated luminosity and recoil mass requirements for various energies",
+   "section_type": "dataset"
+  },
+  {
+   "line": 112,
+   "title": "Requirements on M_tag, ST yields and ST efficiencies for tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 136,
+   "title": "DT efficiencies for tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 140,
+   "title": "Multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

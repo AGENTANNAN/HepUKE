@@ -1,0 +1,163 @@
+{
+ "paper_id": "2601.16938v1",
+ "source_path": "arxiv_papers/2601.16938v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 433,
+ "n_lines_sent": 108,
+ "skipped_ranges": [
+  {
+   "from": 201,
+   "to": 433,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "First evidence for D_s^+ -> f_1(1420) e^+ nu_e and search for D_s^+ -> f_1(1285) e^+ nu_e"
+  },
+  {
+   "line_start": 7,
+   "line_end": 18,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 20,
+   "line_end": 28,
+   "type": "detector",
+   "title": "II. EXPERIMENT AND DATA SAMPLE"
+  },
+  {
+   "line_start": 30,
+   "line_end": 138,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 30,
+     "line_end": 38,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 40,
+     "line_end": 70,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 72,
+     "line_end": 74,
+     "label": "luminosity_table"
+    },
+    {
+     "line_start": 76,
+     "line_end": 138,
+     "label": "dt_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 140,
+   "line_end": 154,
+   "type": "results",
+   "title": "IV. RESULTS",
+   "units": [
+    {
+     "line_start": 140,
+     "line_end": 154,
+     "label": "fit_results_and_upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 156,
+   "line_end": 189,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 156,
+     "line_end": 169,
+     "label": "overview"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 173,
+     "line_end": 175,
+     "label": "systematics_table"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 181,
+     "line_end": 185,
+     "label": "additive_systematics"
+    },
+    {
+     "line_start": 187,
+     "line_end": 189,
+     "label": "comparison_table"
+    }
+   ]
+  },
+  {
+   "line_start": 191,
+   "line_end": 193,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 195,
+   "line_end": 197,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 199,
+   "line_end": 199,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 74,
+   "title": "Integrated luminosities and m_rec requirements for each data set",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 175,
+   "title": "Relative systematic uncertainties on the BF measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 189,
+   "title": "Comparison between our measurement and theoretical predictions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

@@ -1,0 +1,217 @@
+{
+ "paper_id": "1207.5646v4",
+ "source_path": "arxiv_papers/1207.5646v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 242,
+ "n_lines_sent": 133,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 83,
+   "to": 83,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 237,
+   "to": 242,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 13,
+   "line_end": 81,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 85,
+   "line_end": 87,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 89,
+   "line_end": 93,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 95,
+   "line_end": 97,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR"
+  },
+  {
+   "line_start": 99,
+   "line_end": 103,
+   "type": "dataset",
+   "title": "III. MONTE-CARLO SIMULATION"
+  },
+  {
+   "line_start": 105,
+   "line_end": 119,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 105,
+     "line_end": 107,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "charged_track_acceptance"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "track_vertex"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "lambda_vertex_constraint"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "background_rejection"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 213,
+   "type": "fit",
+   "title": "V. SIGNAL ESTIMATION"
+  },
+  {
+   "line_start": 215,
+   "line_end": 227,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 215,
+     "line_end": 217,
+     "label": "overview"
+    },
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "background_rejection_fit_method_normalization"
+    }
+   ]
+  },
+  {
+   "line_start": 229,
+   "line_end": 231,
+   "type": "results",
+   "title": "VII. RESULTS AND DISCUSSION",
+   "units": [
+    {
+     "line_start": 229,
+     "line_end": 231,
+     "label": "branching_ratio_results"
+    }
+   ]
+  },
+  {
+   "line_start": 233,
+   "line_end": 235,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 166,
+   "title": "Number of fitted chi_cJ events in each data set",
+   "section_type": "fit"
+  },
+  {
+   "line": 209,
+   "title": "Branching ratios for different decay modes",
+   "section_type": "results"
+  },
+  {
+   "line": 221,
+   "title": "Sources of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 215-227 before line 223"
+ ],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

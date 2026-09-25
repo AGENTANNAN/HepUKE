@@ -1,0 +1,268 @@
+{
+ "paper_id": "1909.12478v2",
+ "source_path": "arxiv_papers/1909.12478v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 190,
+ "n_lines_sent": 101,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 167,
+   "to": 190,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": "0003",
+   "line_end": "0058",
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": "0056",
+   "line_end": "0056",
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": "0060",
+   "line_end": "0066",
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": "0068",
+   "line_end": "0074",
+   "type": "detector",
+   "title": "II. THE EXPERIMENT AND DATA SETS"
+  },
+  {
+   "line_start": "0076",
+   "line_end": "0082",
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "pid"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "vertex"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "additional_pions"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "recoil_mass"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "signal_region"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "sideband_background"
+    }
+   ]
+  },
+  {
+   "line_start": "0084",
+   "line_end": "0099",
+   "type": "fit",
+   "title": "B. Signal extraction"
+  },
+  {
+   "line_start": "0101",
+   "line_end": "0111",
+   "type": "results",
+   "title": "C. Cross section measurement",
+   "units": [
+    {
+     "line_start": 103,
+     "line_end": 111,
+     "label": "born_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": "0113",
+   "line_end": "0132",
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "tracking"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "pid"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "mass_scale"
+    },
+    {
+     "line_start": 120,
+     "line_end": 122,
+     "label": "detector_resolution"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "vacuum_polarization"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": "0134",
+   "line_end": "0149",
+   "type": "conclusion",
+   "title": "V. DISCUSSION AND SUMMARY"
+  },
+  {
+   "line_start": "0151",
+   "line_end": "0165",
+   "type": "acknowledgements",
+   "title": "VI. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": "0140",
+   "title": "Born cross section measurements for process 1",
+   "section_type": "results"
+  },
+  {
+   "line": "0142",
+   "title": "Born cross section measurements for process 2",
+   "section_type": "results"
+  },
+  {
+   "line": "0157",
+   "title": "Systematic uncertainties for high luminosity points",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": "0161",
+   "title": "Systematic uncertainties for low luminosity points",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 76-82 before line 80",
+  "units of 76-82 share boundary line 80",
+  "units of 76-82 share boundary line 80",
+  "units of 76-82 share boundary line 80",
+  "units of 76-82 share boundary line 80",
+  "units of 76-82 share boundary line 80",
+  "units of 76-82 share boundary line 82",
+  "gap in 101-111 before line 103",
+  "gap in 113-132 before line 117",
+  "units of 113-132 share boundary line 117",
+  "units of 113-132 stop at 130, not 132",
+  "nested spans 3-58 / 56-56"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": [],
+ "units_repaired": true
+}

@@ -1,0 +1,350 @@
+{
+ "paper_id": "2103.05988v3",
+ "source_path": "arxiv_papers/2103.05988v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 729,
+ "n_lines_sent": 347,
+ "skipped_ranges": [
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 64,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 593,
+   "to": 729,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 150,
+   "type": "front_matter",
+   "title": "Measurement of the D -> K- pi+ pi+ pi- and D -> K- pi+ pi0 coherence factors and average strong-phase differences in quantum-correlated DD decays"
+  },
+  {
+   "line_start": 152,
+   "line_end": 152,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 154,
+   "line_end": 185,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 187,
+   "line_end": 205,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 207,
+   "line_end": 356,
+   "type": "other",
+   "title": "2 Formalism and measurement strategy"
+  },
+  {
+   "line_start": 358,
+   "line_end": 362,
+   "type": "detector",
+   "title": "3 Detector and simulation samples"
+  },
+  {
+   "line_start": 364,
+   "line_end": 450,
+   "type": "event_selection",
+   "title": "4 Event selection and yield determination",
+   "units": [
+    {
+     "line_start": 364,
+     "line_end": 370,
+     "label": "tag_modes_and_selection_overview"
+    },
+    {
+     "line_start": 372,
+     "line_end": 372,
+     "label": "table1_tag_modes"
+    },
+    {
+     "line_start": 374,
+     "line_end": 384,
+     "label": "track_and_particle_id_selection"
+    },
+    {
+     "line_start": 386,
+     "line_end": 394,
+     "label": "mbc_and_signal_distributions"
+    },
+    {
+     "line_start": 396,
+     "line_end": 410,
+     "label": "kl_missing_mass_selection"
+    },
+    {
+     "line_start": 412,
+     "line_end": 428,
+     "label": "signal_yield_fits_and_peaking_backgrounds"
+    },
+    {
+     "line_start": 430,
+     "line_end": 434,
+     "label": "flavour_tagged_yields"
+    },
+    {
+     "line_start": 436,
+     "line_end": 450,
+     "label": "efficiency_corrected_binned_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 452,
+   "line_end": 510,
+   "type": "systematic_uncertainty",
+   "title": "5.1.2 Assignment of systematic uncertainties",
+   "units": [
+    {
+     "line_start": 452,
+     "line_end": 478,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 480,
+     "line_end": 488,
+     "label": "cp_tagged_ktpi_samples"
+    },
+    {
+     "line_start": 490,
+     "line_end": 498,
+     "label": "selection_efficiency"
+    },
+    {
+     "line_start": 500,
+     "line_end": 502,
+     "label": "fit_method"
+    },
+    {
+     "line_start": 504,
+     "line_end": 504,
+     "label": "kskpi_background"
+    },
+    {
+     "line_start": 506,
+     "line_end": 506,
+     "label": "external_inputs"
+    },
+    {
+     "line_start": 508,
+     "line_end": 510,
+     "label": "kspipi_tagged_parameters"
+    }
+   ]
+  },
+  {
+   "line_start": 512,
+   "line_end": 555,
+   "type": "fit",
+   "title": "5.1.3 Fit to the hadronic parameters"
+  },
+  {
+   "line_start": 557,
+   "line_end": 574,
+   "type": "results",
+   "title": "6 Impact of the results on the measurement of gamma",
+   "units": [
+    {
+     "line_start": 557,
+     "line_end": 567,
+     "label": "gamma_sensitivity_formalism"
+    },
+    {
+     "line_start": 569,
+     "line_end": 574,
+     "label": "simulated_gamma_precision"
+    }
+   ]
+  },
+  {
+   "line_start": 576,
+   "line_end": 586,
+   "type": "conclusion",
+   "title": "7 Conclusion"
+  },
+  {
+   "line_start": 588,
+   "line_end": 590,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  },
+  {
+   "line_start": 592,
+   "line_end": 592,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 372,
+   "title": "Tag modes selected against signal decays",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 432,
+   "title": "Signal yields for flavour-tagged and KS pi+ pi- tagged events",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 442,
+   "title": "Signal yields for CP-tagged events with efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 446,
+   "title": "Efficiency corrected signal yields in bins of phase space",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 450,
+   "title": "Efficiency corrected signal yields in bins of phase space",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 458,
+   "title": "Input parameters used in determination of observables",
+   "section_type": "fit"
+  },
+  {
+   "line": 464,
+   "title": "Ki parameters from model of Ref. [45]",
+   "section_type": "fit"
+  },
+  {
+   "line": 482,
+   "title": "Results for rho_CP+- K3pi for individual tags",
+   "section_type": "results"
+  },
+  {
+   "line": 486,
+   "title": "Results for rho_CP+- Kpipi0 for individual tags",
+   "section_type": "results"
+  },
+  {
+   "line": 495,
+   "title": "Measured CP-tagged and like-sign global observables",
+   "section_type": "results"
+  },
+  {
+   "line": 531,
+   "title": "Fitted central values for hadronic parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 548,
+   "title": "Indicative sizes of systematic uncertainties on global hadronic parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 552,
+   "title": "Measured binned observables for D to K- pi+ pi+ pi-",
+   "section_type": "results"
+  },
+  {
+   "line": 682,
+   "title": "Correlation matrix for observables in global analysis",
+   "section_type": "results"
+  },
+  {
+   "line": 686,
+   "title": "Correlation matrix for hadronic parameters in global fit",
+   "section_type": "results"
+  },
+  {
+   "line": 690,
+   "title": "Correlation matrix for observables in binned analysis",
+   "section_type": "results"
+  },
+  {
+   "line": 694,
+   "title": "Correlation matrix for hadronic parameters in binned fit",
+   "section_type": "results"
+  },
+  {
+   "line": 702,
+   "title": "Results for global fit to BESIII and CLEO-c and LHCb data",
+   "section_type": "results"
+  },
+  {
+   "line": 706,
+   "title": "Correlation matrix for hadronic parameters from BESIII and CLEO-c",
+   "section_type": "results"
+  },
+  {
+   "line": 715,
+   "title": "Correlation matrix for hadronic parameters from BESIII, CLEO-c and LHCb",
+   "section_type": "results"
+  },
+  {
+   "line": 722,
+   "title": "Results for binned fit to BESIII and CLEO-c data",
+   "section_type": "results"
+  },
+  {
+   "line": 729,
+   "title": "Correlation matrix for hadronic parameters from binned fit",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 12.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 452-510 before line 500"
+ ],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

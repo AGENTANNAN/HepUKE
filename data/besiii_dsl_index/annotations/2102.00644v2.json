@@ -1,0 +1,246 @@
+{
+ "paper_id": "2102.00644v2",
+ "source_path": "arxiv_papers/2102.00644v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 283,
+ "n_lines_sent": 145,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 62,
+   "to": 62,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 64,
+   "to": 64,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 70,
+   "to": 70,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 72,
+   "to": 72,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 92,
+   "to": 92,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 109,
+   "to": 109,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 248,
+   "to": 283,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 109,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 111,
+   "line_end": 111,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 113,
+   "line_end": 125,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 127,
+   "line_end": 135,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 137,
+   "line_end": 143,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 137,
+     "line_end": 139,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "final_state_and_particle_id"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 145,
+   "line_end": 202,
+   "type": "fit",
+   "title": "IV. BORN CROSS SECTION MEASUREMENT"
+  },
+  {
+   "line_start": 204,
+   "line_end": 234,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY ESTIMATION",
+   "units": [
+    {
+     "line_start": 204,
+     "line_end": 206,
+     "label": "overview"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "tracking_and_photon_detection"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "jpsi_mass_window"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "x3872_mass_window"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "zc4020_parameters"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "line_shape"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "generator_model_x3872"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "generator_model_zc4020"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 230,
+     "line_end": 234,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 236,
+   "line_end": 242,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 244,
+   "line_end": 246,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 180,
+   "title": "Upper limits on cross sections times branching fractions at 90% C.L. for each energy point",
+   "section_type": "results"
+  },
+  {
+   "line": 234,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

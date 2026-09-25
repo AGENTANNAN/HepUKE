@@ -1,0 +1,303 @@
+{
+ "paper_id": "2102.11734v2",
+ "source_path": "arxiv_papers/2102.11734v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 562,
+ "n_lines_sent": 275,
+ "skipped_ranges": [
+  {
+   "from": 90,
+   "to": 90,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 124,
+   "to": 124,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 126,
+   "to": 126,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 131,
+   "to": 134,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 136,
+   "to": 137,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 140,
+   "to": 141,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 148,
+   "to": 148,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 152,
+   "to": 153,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 156,
+   "to": 156,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 158,
+   "to": 158,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 490,
+   "to": 562,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 158,
+   "type": "front_matter",
+   "title": "Measurement of the absolute branching fractions for purely leptonic D_s^+ decays"
+  },
+  {
+   "line_start": 160,
+   "line_end": 162,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 164,
+   "line_end": 186,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 188,
+   "line_end": 196,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND DATA SETS"
+  },
+  {
+   "line_start": 198,
+   "line_end": 216,
+   "type": "event_selection",
+   "title": "III. ANALYSIS METHOD",
+   "units": [
+    {
+     "line_start": 198,
+     "line_end": 216,
+     "label": "double_tag_method"
+    }
+   ]
+  },
+  {
+   "line_start": 218,
+   "line_end": 241,
+   "type": "event_selection",
+   "title": "A. Selection of tagged D_s^- candidates",
+   "units": [
+    {
+     "line_start": 218,
+     "line_end": 241,
+     "label": "tag_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 243,
+   "line_end": 253,
+   "type": "event_selection",
+   "title": "B. Selection of D_s^+ -> l^+ nu_l events",
+   "units": [
+    {
+     "line_start": 243,
+     "line_end": 253,
+     "label": "signal_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 255,
+   "line_end": 365,
+   "type": "fit",
+   "title": "C. Fit"
+  },
+  {
+   "line_start": 367,
+   "line_end": 436,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 367,
+     "line_end": 378,
+     "label": "input_branching_fractions"
+    },
+    {
+     "line_start": 380,
+     "line_end": 380,
+     "label": "tracking"
+    },
+    {
+     "line_start": 382,
+     "line_end": 387,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 389,
+     "line_end": 389,
+     "label": "ntk_requirement"
+    },
+    {
+     "line_start": 391,
+     "line_end": 391,
+     "label": "best_photon_selection"
+    },
+    {
+     "line_start": 393,
+     "line_end": 395,
+     "label": "unreconstructed_particle_suppression"
+    },
+    {
+     "line_start": 397,
+     "line_end": 397,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 399,
+     "line_end": 403,
+     "label": "st_fit_shapes"
+    },
+    {
+     "line_start": 405,
+     "line_end": 405,
+     "label": "radiative_decay"
+    },
+    {
+     "line_start": 407,
+     "line_end": 407,
+     "label": "pi_pi0_background"
+    },
+    {
+     "line_start": 409,
+     "line_end": 416,
+     "label": "pid"
+    },
+    {
+     "line_start": 418,
+     "line_end": 418,
+     "label": "gaussian_sharing"
+    },
+    {
+     "line_start": 420,
+     "line_end": 422,
+     "label": "wrong_tag_background"
+    },
+    {
+     "line_start": 424,
+     "line_end": 424,
+     "label": "wrong_photon_background"
+    },
+    {
+     "line_start": 426,
+     "line_end": 426,
+     "label": "wrong_track_background"
+    },
+    {
+     "line_start": 428,
+     "line_end": 430,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 432,
+     "line_end": 432,
+     "label": "other_tau_decays"
+    },
+    {
+     "line_start": 434,
+     "line_end": 434,
+     "label": "mu_pi_like_separation"
+    },
+    {
+     "line_start": 436,
+     "line_end": 436,
+     "label": "sm_constraint"
+    }
+   ]
+  },
+  {
+   "line_start": 438,
+   "line_end": 484,
+   "type": "conclusion",
+   "title": "V. SUMMARY AND COMPARISONS TO OTHER EXPERIMENTAL RESULTS"
+  },
+  {
+   "line_start": 486,
+   "line_end": 488,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 274,
+   "title": "ST reconstruction efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 278,
+   "title": "Measured ST yields",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 307,
+   "title": "DT reconstruction efficiencies for mu nu",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 311,
+   "title": "DT reconstruction efficiencies for tau nu",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 361,
+   "title": "Relative difference in signal yields",
+   "section_type": "fit"
+  },
+  {
+   "line": 365,
+   "title": "Charge-dependent branching fractions and ACP",
+   "section_type": "results"
+  },
+  {
+   "line": 448,
+   "title": "Systematic uncertainties on branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 504,
+   "title": "Measured branching fractions and fDs|Vcs|",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 12.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

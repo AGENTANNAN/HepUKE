@@ -1,0 +1,127 @@
+{
+ "paper_id": "2408.16654v4",
+ "source_path": "arxiv_papers/2408.16654v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 167,
+ "n_lines_sent": 28,
+ "skipped_ranges": [
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 167,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 5,
+   "line_end": 13,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 15,
+   "line_end": 17,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 19,
+   "line_end": 31,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 19,
+     "line_end": 19,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 21,
+     "line_end": 23,
+     "label": "st_yield_extraction"
+    },
+    {
+     "line_start": 25,
+     "line_end": 25,
+     "label": "dt_selection_kinematic_fit"
+    },
+    {
+     "line_start": 27,
+     "line_end": 27,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 29,
+     "line_end": 31,
+     "label": "dt_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 33,
+   "line_end": 33,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 33,
+     "line_end": 33,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 35,
+   "line_end": 41,
+   "type": "results",
+   "title": "CP asymmetry",
+   "units": [
+    {
+     "line_start": 35,
+     "line_end": 41,
+     "label": "cp_asymmetry"
+    }
+   ]
+  },
+  {
+   "line_start": 43,
+   "line_end": 43,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 45,
+   "line_end": 52,
+   "type": "other",
+   "title": "Table and figure captions"
+  }
+ ],
+ "tables": [
+  {
+   "line": 47,
+   "title": "Individual and c.c. combined BFs and alpha_gamma measurement results",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

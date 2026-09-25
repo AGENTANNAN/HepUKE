@@ -1,0 +1,158 @@
+{
+ "paper_id": "2601.11236v1",
+ "source_path": "arxiv_papers/2601.11236v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 312,
+ "n_lines_sent": 110,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 212,
+   "to": 312,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 113,
+   "type": "front_matter",
+   "title": "First Measurement of the Absolute Branching Fraction of ηc → γγ"
+  },
+  {
+   "line_start": 115,
+   "line_end": 115,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 117,
+   "line_end": 129,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 131,
+   "line_end": 131,
+   "type": "detector",
+   "title": "BESIII Detector"
+  },
+  {
+   "line_start": 133,
+   "line_end": 139,
+   "type": "dataset",
+   "title": "Tag-and-Probe Method and Monte Carlo Samples"
+  },
+  {
+   "line_start": 141,
+   "line_end": 149,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "e1_photon_selection"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "e1_photon_energy"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "background_vetoes"
+    }
+   ]
+  },
+  {
+   "line_start": 151,
+   "line_end": 181,
+   "type": "fit",
+   "title": "Signal Extraction and Branching Fraction"
+  },
+  {
+   "line_start": 183,
+   "line_end": 191,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "background_shape_tag_side"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "eta_c_mass_window"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "signal_extraction"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 193,
+   "line_end": 204,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 206,
+   "line_end": 208,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 210,
+   "line_end": 210,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 197,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

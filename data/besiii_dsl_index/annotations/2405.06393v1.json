@@ -1,0 +1,201 @@
+{
+ "paper_id": "2405.06393v1",
+ "source_path": "arxiv_papers/2405.06393v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 326,
+ "n_lines_sent": 199,
+ "skipped_ranges": [
+  {
+   "from": 115,
+   "to": 115,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 117,
+   "to": 117,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 125,
+   "to": 125,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 295,
+   "to": 326,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 141,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 143,
+   "line_end": 143,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 145,
+   "line_end": 153,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 155,
+   "line_end": 161,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 163,
+   "line_end": 196,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 163,
+     "line_end": 171,
+     "label": "overview_and_common_criteria"
+    },
+    {
+     "line_start": 173,
+     "line_end": 179,
+     "label": "partial_reconstruction_mode_i"
+    },
+    {
+     "line_start": 181,
+     "line_end": 190,
+     "label": "partial_reconstruction_mode_ii"
+    },
+    {
+     "line_start": 192,
+     "line_end": 196,
+     "label": "full_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 198,
+   "line_end": 210,
+   "type": "fit",
+   "title": "IV. BORN CROSS SECTIONS OF e+e- -> p pbar pi0"
+  },
+  {
+   "line_start": 212,
+   "line_end": 273,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 212,
+     "line_end": 214,
+     "label": "luminosity_tracking_pid_photon"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "angular_requirements_kinematic_fit_pi0_reconstruction"
+    },
+    {
+     "line_start": 218,
+     "line_end": 223,
+     "label": "figures"
+    },
+    {
+     "line_start": 225,
+     "line_end": 227,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "isr_vp_correction"
+    },
+    {
+     "line_start": 231,
+     "line_end": 233,
+     "label": "fit_procedure_background_shape_signal_mc_model"
+    },
+    {
+     "line_start": 235,
+     "line_end": 247,
+     "label": "weighted_average_of_partial_reconstruction_methods"
+    },
+    {
+     "line_start": 249,
+     "line_end": 251,
+     "label": "table_iii"
+    },
+    {
+     "line_start": 253,
+     "line_end": 264,
+     "label": "figures"
+    },
+    {
+     "line_start": 266,
+     "line_end": 267,
+     "label": "figure_3"
+    },
+    {
+     "line_start": 269,
+     "line_end": 273,
+     "label": "correlation_and_combination"
+    }
+   ]
+  },
+  {
+   "line_start": 275,
+   "line_end": 287,
+   "type": "conclusion",
+   "title": "VI. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 289,
+   "line_end": 293,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 183,
+   "title": "Signal yields for partial reconstruction modes and combined results",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 227,
+   "title": "Measured Born cross sections for e+e- -> p pbar pi0",
+   "section_type": "fit"
+  },
+  {
+   "line": 251,
+   "title": "Selected components at each energy point",
+   "section_type": "fit"
+  },
+  {
+   "line": 281,
+   "title": "Relative systematic uncertainties for partial reconstruction",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 285,
+   "title": "Relative systematic uncertainties for full reconstruction",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

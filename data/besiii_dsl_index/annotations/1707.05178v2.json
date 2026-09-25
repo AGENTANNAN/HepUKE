@@ -1,0 +1,187 @@
+{
+ "paper_id": "1707.05178v2",
+ "source_path": "arxiv_papers/1707.05178v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 230,
+ "n_lines_sent": 125,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 91,
+   "to": 91,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 200,
+   "to": 230,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 95,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and PACS"
+  },
+  {
+   "line_start": 93,
+   "line_end": 93,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 97,
+   "line_end": 111,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 113,
+   "line_end": 120,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 122,
+   "line_end": 152,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 122,
+     "line_end": 140,
+     "label": "eta_c_to_3pi_selection_and_fit"
+    },
+    {
+     "line_start": 142,
+     "line_end": 152,
+     "label": "eta1405_to_f0pi0_search"
+    }
+   ]
+  },
+  {
+   "line_start": 154,
+   "line_end": 174,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 154,
+     "line_end": 156,
+     "label": "overview"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "tracking"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "pid"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "f0_width"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "pi0_mass_window"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "branching_fraction_and_normalization"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "fit_related"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 176,
+   "line_end": 186,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 176,
+     "line_end": 186,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 188,
+   "line_end": 190,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 192,
+   "line_end": 194,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 196,
+   "line_end": 198,
+   "type": "systematic_uncertainty",
+   "title": "Table I"
+  }
+ ],
+ "tables": [
+  {
+   "line": 198,
+   "title": "Summary of systematic uncertainty sources and their contributions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 196-198 typed systematic_uncertainty has no units",
+  "nested spans 1-95 / 93-93"
+ ],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

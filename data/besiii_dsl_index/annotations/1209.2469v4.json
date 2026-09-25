@@ -1,0 +1,229 @@
+{
+ "paper_id": "1209.2469v4",
+ "source_path": "arxiv_papers/1209.2469v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 260,
+ "n_lines_sent": 143,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 222,
+   "to": 260,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": "7",
+   "line_end": "95",
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": "97",
+   "line_end": "99",
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": "101",
+   "line_end": "111",
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": "113",
+   "line_end": "117",
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": "119",
+   "line_end": "150",
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": "119",
+     "line_end": "123",
+     "label": "analysis_overview"
+    },
+    {
+     "line_start": "125",
+     "line_end": "125",
+     "label": "track_selection"
+    },
+    {
+     "line_start": "127",
+     "line_end": "127",
+     "label": "photon_selection"
+    },
+    {
+     "line_start": "129",
+     "line_end": "134",
+     "label": "figures"
+    },
+    {
+     "line_start": "136",
+     "line_end": "136",
+     "label": "invisible_selection"
+    },
+    {
+     "line_start": "138",
+     "line_end": "138",
+     "label": "background_study"
+    },
+    {
+     "line_start": "140",
+     "line_end": "140",
+     "label": "eta_upper_limit"
+    },
+    {
+     "line_start": "142",
+     "line_end": "150",
+     "label": "etap_fit"
+    }
+   ]
+  },
+  {
+   "line_start": "152",
+   "line_end": "182",
+   "type": "fit",
+   "title": "B. Analyses for eta and eta' -> gamma gamma"
+  },
+  {
+   "line_start": "184",
+   "line_end": "192",
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": "184",
+     "line_end": "186",
+     "label": "shower_and_phi_mass_window"
+    },
+    {
+     "line_start": "188",
+     "line_end": "188",
+     "label": "eta_background_dalitz"
+    },
+    {
+     "line_start": "190",
+     "line_end": "190",
+     "label": "etap_fit_background_shape"
+    },
+    {
+     "line_start": "192",
+     "line_end": "192",
+     "label": "gamma_gamma_selection_and_fit"
+    }
+   ]
+  },
+  {
+   "line_start": "194",
+   "line_end": "212",
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": "194",
+     "line_end": "200",
+     "label": "upper_limit_formula"
+    },
+    {
+     "line_start": "202",
+     "line_end": "204",
+     "label": "systematic_error_table"
+    },
+    {
+     "line_start": "206",
+     "line_end": "206",
+     "label": "invisible_decay_rates"
+    },
+    {
+     "line_start": "208",
+     "line_end": "208",
+     "label": "comparison_with_previous"
+    },
+    {
+     "line_start": "210",
+     "line_end": "212",
+     "label": "limit_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": "214",
+   "line_end": "216",
+   "type": "conclusion",
+   "title": "VI. CONCLUSION"
+  },
+  {
+   "line_start": "218",
+   "line_end": "220",
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": "180",
+   "title": "Fitted signal and background yields for J/psi -> phi eta(eta'), eta(eta') -> gamma gamma",
+   "section_type": "fit"
+  },
+  {
+   "line": "204",
+   "title": "Summary of systematic and statistical errors",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

@@ -1,0 +1,285 @@
+{
+ "paper_id": "1608.06484v2",
+ "source_path": "arxiv_papers/1608.06484v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 346,
+ "n_lines_sent": 178,
+ "skipped_ranges": [
+  {
+   "from": 74,
+   "to": 74,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 76,
+   "to": 76,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 88,
+   "to": 88,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 90,
+   "to": 90,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 98,
+   "to": 98,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 106,
+   "to": 106,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 122,
+   "to": 122,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 130,
+   "to": 130,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 319,
+   "to": 346,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 148,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 150,
+   "line_end": 150,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 152,
+   "line_end": 156,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 158,
+   "line_end": 166,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO"
+  },
+  {
+   "line_start": 168,
+   "line_end": 199,
+   "type": "event_selection",
+   "title": "III. SINGLY TAGGED D_s^- EVENTS",
+   "units": [
+    {
+     "line_start": 168,
+     "line_end": 170,
+     "label": "st_event_overview"
+    },
+    {
+     "line_start": 172,
+     "line_end": 174,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "phi_rho_etaprime_reconstruction"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "deltaE_MBC_selection"
+    },
+    {
+     "line_start": 186,
+     "line_end": 199,
+     "label": "mbc_fit_and_st_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 201,
+   "line_end": 238,
+   "type": "event_selection",
+   "title": "IV. DOUBLE TAGGED D_s^+ EVENTS",
+   "units": [
+    {
+     "line_start": 201,
+     "line_end": 203,
+     "label": "dt_overview"
+    },
+    {
+     "line_start": 205,
+     "line_end": 211,
+     "label": "dt_candidate_selection"
+    },
+    {
+     "line_start": 213,
+     "line_end": 221,
+     "label": "background_estimate"
+    },
+    {
+     "line_start": 223,
+     "line_end": 238,
+     "label": "net_signal_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 240,
+   "line_end": 262,
+   "type": "fit",
+   "title": "V. BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 264,
+   "line_end": 307,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 264,
+     "line_end": 275,
+     "label": "overview"
+    },
+    {
+     "line_start": 277,
+     "line_end": 281,
+     "label": "st_number"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "tracking_pid_electron"
+    },
+    {
+     "line_start": 285,
+     "line_end": 285,
+     "label": "eta_etaprime_reconstruction"
+    },
+    {
+     "line_start": 287,
+     "line_end": 287,
+     "label": "extra_photon_energy"
+    },
+    {
+     "line_start": 289,
+     "line_end": 289,
+     "label": "extra_track_pi0_veto"
+    },
+    {
+     "line_start": 291,
+     "line_end": 291,
+     "label": "background"
+    },
+    {
+     "line_start": 293,
+     "line_end": 295,
+     "label": "weighted_efficiency"
+    },
+    {
+     "line_start": 297,
+     "line_end": 297,
+     "label": "form_factor_model"
+    },
+    {
+     "line_start": 299,
+     "line_end": 299,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 301,
+     "line_end": 301,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 303,
+     "line_end": 303,
+     "label": "umiss_requirement"
+    },
+    {
+     "line_start": 305,
+     "line_end": 307,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 309,
+   "line_end": 313,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 315,
+   "line_end": 317,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 199,
+   "title": "ST requirements and yields",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 238,
+   "title": "Observed and background yields",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 270,
+   "title": "Efficiencies",
+   "section_type": "fit"
+  },
+  {
+   "line": 279,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 328,
+   "title": "Comparison of branching fractions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

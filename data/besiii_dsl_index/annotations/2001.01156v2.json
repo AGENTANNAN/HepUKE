@@ -1,0 +1,163 @@
+{
+ "paper_id": "2001.01156v2",
+ "source_path": "arxiv_papers/2001.01156v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 338,
+ "n_lines_sent": 178,
+ "skipped_ranges": [
+  {
+   "from": 306,
+   "to": 338,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 224,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and PACS"
+  },
+  {
+   "line_start": 226,
+   "line_end": 226,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 228,
+   "line_end": 232,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 234,
+   "line_end": 234,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 236,
+   "line_end": 242,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 236,
+     "line_end": 238,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 240,
+     "line_end": 240,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 244,
+   "line_end": 261,
+   "type": "fit",
+   "title": "Fit and results for X(3872) -> gamma J/psi and gamma psi'"
+  },
+  {
+   "line_start": 263,
+   "line_end": 271,
+   "type": "fit",
+   "title": "Fit and results for X(3872) -> D*0 Dbar0 and gamma D+ D-"
+  },
+  {
+   "line_start": 273,
+   "line_end": 284,
+   "type": "results",
+   "title": "Relative branching ratios",
+   "units": [
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "normalization_mode"
+    },
+    {
+     "line_start": 275,
+     "line_end": 284,
+     "label": "relative_ratios"
+    }
+   ]
+  },
+  {
+   "line_start": 286,
+   "line_end": 288,
+   "type": "results",
+   "title": "Table I"
+  },
+  {
+   "line_start": 290,
+   "line_end": 298,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 290,
+     "line_end": 290,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 292,
+     "line_end": 292,
+     "label": "sub_decay_branching_fractions"
+    },
+    {
+     "line_start": 294,
+     "line_end": 294,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 296,
+     "line_end": 296,
+     "label": "generator_model_and_background_shape"
+    },
+    {
+     "line_start": 298,
+     "line_end": 298,
+     "label": "kinematic_fit_isr_background"
+    }
+   ]
+  },
+  {
+   "line_start": 300,
+   "line_end": 302,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 304,
+   "line_end": 304,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 288,
+   "title": "Relative branching ratios and upper limits compared with X(3872) -> pi+ pi- J/psi",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 286-288 typed results has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

@@ -1,0 +1,310 @@
+{
+ "paper_id": "1402.2023v2",
+ "source_path": "arxiv_papers/1402.2023v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 601,
+ "n_lines_sent": 349,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 71,
+   "to": 71,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 578,
+   "to": 601,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 105,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 106,
+   "line_end": 110,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 112,
+   "line_end": 122,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 124,
+   "line_end": 130,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE-CARLO SIMULATION"
+  },
+  {
+   "line_start": 132,
+   "line_end": 146,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 132,
+     "line_end": 134,
+     "label": "final_state_topology"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 142,
+     "line_end": 146,
+     "label": "eta_prime_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 148,
+   "line_end": 164,
+   "type": "background",
+   "title": "IV. BACKGROUND STUDIES"
+  },
+  {
+   "line_start": 166,
+   "line_end": 194,
+   "type": "fit",
+   "title": "V. SIGNAL DETERMINATION"
+  },
+  {
+   "line_start": 196,
+   "line_end": 218,
+   "type": "results",
+   "title": "VI. BRANCHING FRACTION",
+   "units": [
+    {
+     "line_start": 196,
+     "line_end": 202,
+     "label": "branching_fraction_formula_mode_I"
+    },
+    {
+     "line_start": 204,
+     "line_end": 214,
+     "label": "figures"
+    },
+    {
+     "line_start": 215,
+     "line_end": 218,
+     "label": "branching_fraction_formula_mode_II"
+    }
+   ]
+  },
+  {
+   "line_start": 220,
+   "line_end": 277,
+   "type": "systematic_uncertainty",
+   "title": "VII. ESTIMATION OF SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 220,
+     "line_end": 222,
+     "label": "introduction"
+    },
+    {
+     "line_start": 224,
+     "line_end": 235,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 238,
+     "line_end": 238,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 239,
+     "line_end": 241,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 243,
+     "line_end": 245,
+     "label": "fitting_procedure"
+    },
+    {
+     "line_start": 247,
+     "line_end": 247,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "other_systematics"
+    },
+    {
+     "line_start": 251,
+     "line_end": 277,
+     "label": "combination_and_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 279,
+   "line_end": 537,
+   "type": "fit",
+   "title": "VIII. PARTIAL WAVE ANALYSIS OF χc1 → η′K+K−"
+  },
+  {
+   "line_start": 539,
+   "line_end": 545,
+   "type": "fit",
+   "title": "IX. PWA FOR χc2"
+  },
+  {
+   "line_start": 547,
+   "line_end": 549,
+   "type": "conclusion",
+   "title": "X. SUMMARY"
+  },
+  {
+   "line_start": 551,
+   "line_end": 562,
+   "type": "results",
+   "title": "Tables and figures",
+   "units": [
+    {
+     "line_start": 551,
+     "line_end": 553,
+     "label": "table_VIII"
+    },
+    {
+     "line_start": 555,
+     "line_end": 562,
+     "label": "figure_12"
+    }
+   ]
+  },
+  {
+   "line_start": 564,
+   "line_end": 576,
+   "type": "acknowledgements",
+   "title": "XI. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 233,
+   "title": "Summary for the fit results, detection efficiencies and branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 300,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 450,
+   "title": "Goodness of fit check for the invariant mass and angular distributions",
+   "section_type": "fit"
+  },
+  {
+   "line": 496,
+   "title": "The fitted magnitudes, phases, fractions and partial branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 500,
+   "title": "Change in the log likelihood value, degrees of freedom, and statistical significance",
+   "section_type": "fit"
+  },
+  {
+   "line": 525,
+   "title": "Change in log likelihood value, degrees of freedom, and significance with additional processes on K+K-",
+   "section_type": "fit"
+  },
+  {
+   "line": 529,
+   "title": "Change in log likelihood value, degrees of freedom, and significance with additional processes on η′K",
+   "section_type": "fit"
+  },
+  {
+   "line": 553,
+   "title": "Summary for systematic uncertainties of partial branching fraction",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 572,
+   "title": "The branching fractions of χc1,2 → η′K+K− and partial branching fractions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 6.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

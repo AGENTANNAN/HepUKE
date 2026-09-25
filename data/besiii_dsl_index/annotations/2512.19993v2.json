@@ -1,0 +1,216 @@
+{
+ "paper_id": "2512.19993v2",
+ "source_path": "arxiv_papers/2512.19993v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 340,
+ "n_lines_sent": 140,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 143,
+   "to": 143,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 147,
+   "to": 147,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 280,
+   "to": 340,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 149,
+   "type": "front_matter",
+   "title": "Observation and branching fraction measurements of chi_cJ p pbar K_S^0 K_S^0"
+  },
+  {
+   "line_start": 151,
+   "line_end": 159,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 161,
+   "line_end": 169,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 171,
+   "line_end": 204,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 171,
+     "line_end": 173,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "photon_and_track_selection"
+    },
+    {
+     "line_start": 177,
+     "line_end": 179,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "lambda_veto"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 185,
+     "line_end": 190,
+     "label": "sideband_background"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "other_background"
+    },
+    {
+     "line_start": 194,
+     "line_end": 200,
+     "label": "signal_yield_extraction"
+    },
+    {
+     "line_start": 202,
+     "line_end": 204,
+     "label": "fit_results_and_mass_spectra"
+    }
+   ]
+  },
+  {
+   "line_start": 206,
+   "line_end": 218,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTION"
+  },
+  {
+   "line_start": 220,
+   "line_end": 258,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 220,
+     "line_end": 222,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "n_psi3686"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 234,
+     "line_end": 234,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 236,
+     "line_end": 236,
+     "label": "fit_to_mass_distribution"
+    },
+    {
+     "line_start": 238,
+     "line_end": 252,
+     "label": "figures"
+    },
+    {
+     "line_start": 254,
+     "line_end": 254,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "branching_fractions_pdg"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 260,
+   "line_end": 262,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 264,
+   "line_end": 276,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 278,
+   "line_end": 278,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 270,
+   "title": "Quantities used for determining the branching fractions of chi_cJ -> p pbar K_S^0 K_S^0",
+   "section_type": "fit"
+  },
+  {
+   "line": 274,
+   "title": "Relative systematic uncertainties in the measurements of the branching fractions of chi_cJ -> p pbar K_S^0 K_S^0",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

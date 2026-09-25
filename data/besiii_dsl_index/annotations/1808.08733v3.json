@@ -1,0 +1,263 @@
+{
+ "paper_id": "1808.08733v3",
+ "source_path": "arxiv_papers/1808.08733v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 204,
+ "n_lines_sent": 81,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 170,
+   "to": 204,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 39,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, PACS"
+  },
+  {
+   "line_start": 37,
+   "line_end": 37,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 41,
+   "line_end": 45,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 47,
+   "line_end": 51,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE-CARLO SIMULATION"
+  },
+  {
+   "line_start": 53,
+   "line_end": 55,
+   "type": "dataset",
+   "title": "Data samples and Table I"
+  },
+  {
+   "line_start": 57,
+   "line_end": 125,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 57,
+     "line_end": 59,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 61,
+     "line_end": 63,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 71,
+     "line_end": 72,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 74,
+     "line_end": 75,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 77,
+     "line_end": 83,
+     "label": "pwa_amplitude"
+    },
+    {
+     "line_start": 85,
+     "line_end": 89,
+     "label": "efficiency_calculation"
+    },
+    {
+     "line_start": 91,
+     "line_end": 97,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 99,
+     "line_end": 100,
+     "label": "figure_3"
+    },
+    {
+     "line_start": 102,
+     "line_end": 106,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 108,
+     "line_end": 114,
+     "label": "fit_1_over_sn"
+    },
+    {
+     "line_start": 116,
+     "line_end": 117,
+     "label": "figure_4"
+    },
+    {
+     "line_start": 119,
+     "line_end": 125,
+     "label": "resonance_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 127,
+   "line_end": 156,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 127,
+     "line_end": 129,
+     "label": "overview"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "signal_yield"
+    },
+    {
+     "line_start": 141,
+     "line_end": 143,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 145,
+     "line_end": 146,
+     "label": "figure_5"
+    },
+    {
+     "line_start": 148,
+     "line_end": 150,
+     "label": "table_iii"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "isr_factor"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "luminosity_and_bf"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 158,
+   "line_end": 162,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 164,
+   "line_end": 168,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 55,
+   "title": "Measured Born cross sections and related quantities",
+   "section_type": "dataset"
+  },
+  {
+   "line": 143,
+   "title": "Fit results for the Born cross section",
+   "section_type": "fit"
+  },
+  {
+   "line": 150,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-39 / 37-37"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

@@ -1,0 +1,306 @@
+{
+ "paper_id": "2007.07959v1",
+ "source_path": "arxiv_papers/2007.07959v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 542,
+ "n_lines_sent": 266,
+ "skipped_ranges": [
+  {
+   "from": 30,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 452,
+   "to": 542,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 28,
+   "type": "front_matter",
+   "title": "Title and author list"
+  },
+  {
+   "line_start": 37,
+   "line_end": 37,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 39,
+   "line_end": 69,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 71,
+   "line_end": 157,
+   "type": "other",
+   "title": "II. FORMALISM"
+  },
+  {
+   "line_start": 159,
+   "line_end": 171,
+   "type": "other",
+   "title": "III. BINNING OF THE D0 -> KS0 K+ K- DALITZ PLOT"
+  },
+  {
+   "line_start": 173,
+   "line_end": 180,
+   "type": "detector",
+   "title": "IV. BESIII DETECTOR AND EVENT GENERATION"
+  },
+  {
+   "line_start": 182,
+   "line_end": 234,
+   "type": "event_selection",
+   "title": "V. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 198,
+     "label": "particle_selection"
+    },
+    {
+     "line_start": 200,
+     "line_end": 216,
+     "label": "fully_reconstructed_tags"
+    },
+    {
+     "line_start": 218,
+     "line_end": 234,
+     "label": "partially_reconstructed_tags"
+    }
+   ]
+  },
+  {
+   "line_start": 236,
+   "line_end": 273,
+   "type": "event_selection",
+   "title": "VI. ESTIMATION OF ST AND DT YIELDS",
+   "units": [
+    {
+     "line_start": 236,
+     "line_end": 259,
+     "label": "st_yields"
+    },
+    {
+     "line_start": 261,
+     "line_end": 273,
+     "label": "dt_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 275,
+   "line_end": 358,
+   "type": "other",
+   "title": "VII. D -> KS,L0 K+ K- DALITZ PLOTS"
+  },
+  {
+   "line_start": 360,
+   "line_end": 394,
+   "type": "fit",
+   "title": "VIII. EXTRACTION OF ci AND si"
+  },
+  {
+   "line_start": 396,
+   "line_end": 417,
+   "type": "systematic_uncertainty",
+   "title": "IX. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 396,
+     "line_end": 400,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 402,
+     "line_end": 402,
+     "label": "flavor_tag_yields"
+    },
+    {
+     "line_start": 404,
+     "line_end": 404,
+     "label": "ks_pi_pi_inputs"
+    },
+    {
+     "line_start": 406,
+     "line_end": 406,
+     "label": "ndd_normalization"
+    },
+    {
+     "line_start": 408,
+     "line_end": 408,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 410,
+     "line_end": 410,
+     "label": "background_parametrization"
+    },
+    {
+     "line_start": 412,
+     "line_end": 412,
+     "label": "dcs_correction"
+    },
+    {
+     "line_start": 414,
+     "line_end": 417,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 419,
+   "line_end": 433,
+   "type": "results",
+   "title": "X. IMPACT OF ci, si ON MEASUREMENT OF gamma",
+   "units": [
+    {
+     "line_start": 419,
+     "line_end": 431,
+     "label": "gamma_uncertainty"
+    },
+    {
+     "line_start": 433,
+     "line_end": 433,
+     "label": "bias_study"
+    }
+   ]
+  },
+  {
+   "line_start": 435,
+   "line_end": 444,
+   "type": "conclusion",
+   "title": "XI. SUMMARY"
+  },
+  {
+   "line_start": 446,
+   "line_end": 450,
+   "type": "acknowledgements",
+   "title": "XII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 190,
+   "title": "D0 decays used in this analysis",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 286,
+   "title": "ST and DT yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 330,
+   "title": "Migration matrix for KS0 K+ K- vs K+ K- events",
+   "section_type": "other"
+  },
+  {
+   "line": 344,
+   "title": "Parameters used to calculate DCS correction factors",
+   "section_type": "other"
+  },
+  {
+   "line": 348,
+   "title": "Values of F(-)i and F'(-)i",
+   "section_type": "other"
+  },
+  {
+   "line": 366,
+   "title": "Model-predicted values of Delta ci and Delta si",
+   "section_type": "fit"
+  },
+  {
+   "line": 370,
+   "title": "Fit results for ci and si for different N",
+   "section_type": "fit"
+  },
+  {
+   "line": 427,
+   "title": "Systematic uncertainty contributions for N=3 binning",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 498,
+   "title": "Systematic uncertainty contributions for N=2 binning",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 502,
+   "title": "Systematic uncertainty contributions for N=4 binning",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 506,
+   "title": "Statistical correlation matrix for N=2 binning",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 510,
+   "title": "Systematic correlation matrix for N=2 binning",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 514,
+   "title": "Statistical correlation matrix for N=3 binning",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 518,
+   "title": "Systematic correlation matrix for N=3 binning",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 522,
+   "title": "Statistical correlation matrix for N=4 binning",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 526,
+   "title": "Systematic correlation matrix for N=4 binning",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 530,
+   "title": "Results for ci and si from BESIII and CLEO average",
+   "section_type": "results"
+  },
+  {
+   "line": 534,
+   "title": "Correlation matrix of combined results for N=2 binning",
+   "section_type": "results"
+  },
+  {
+   "line": 538,
+   "title": "Correlation matrix of combined results for N=3 binning",
+   "section_type": "results"
+  },
+  {
+   "line": 542,
+   "title": "Correlation matrix of combined results for N=4 binning",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

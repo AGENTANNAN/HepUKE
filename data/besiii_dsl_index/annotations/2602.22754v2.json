@@ -1,0 +1,201 @@
+{
+ "paper_id": "2602.22754v2",
+ "source_path": "arxiv_papers/2602.22754v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 501,
+ "n_lines_sent": 93,
+ "skipped_ranges": [
+  {
+   "from": 171,
+   "to": 501,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Measurements of branching fractions of Lambda_c+ -> Sigma0 KS0 pi+ and Lambda_c+ -> Sigma0 KS0 K+"
+  },
+  {
+   "line_start": 11,
+   "line_end": 18,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 20,
+   "line_end": 51,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 53,
+   "line_end": 63,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 65,
+   "line_end": 86,
+   "type": "event_selection",
+   "title": "3 EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 65,
+     "line_end": 67,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "pid"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "sigma0_reconstruction"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "lambda_ks0_reconstruction"
+    },
+    {
+     "line_start": 77,
+     "line_end": 79,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 81,
+     "line_end": 86,
+     "label": "mbc_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 88,
+   "line_end": 123,
+   "type": "fit",
+   "title": "4 DETERMINATION OF THE BRANCHING FRACTION"
+  },
+  {
+   "line_start": 125,
+   "line_end": 155,
+   "type": "systematic_uncertainty",
+   "title": "5 SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 125,
+     "line_end": 129,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 131,
+     "line_end": 135,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "bf_intermediate"
+    },
+    {
+     "line_start": 143,
+     "line_end": 145,
+     "label": "chi4c_requirement"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "mbc_fit"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "unmatched_background"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "n_lambdac_events"
+    }
+   ]
+  },
+  {
+   "line_start": 157,
+   "line_end": 165,
+   "type": "conclusion",
+   "title": "6 SUMMARY"
+  },
+  {
+   "line_start": 167,
+   "line_end": 169,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 51,
+   "title": "Theoretical results for nonresonant decays based on SU(3)_F",
+   "section_type": "introduction"
+  },
+  {
+   "line": 102,
+   "title": "Detection efficiencies and number of Lambda_c+ Lambda_c- events",
+   "section_type": "fit"
+  },
+  {
+   "line": 117,
+   "title": "Signal yield, BF and significance for each decay mode",
+   "section_type": "fit"
+  },
+  {
+   "line": 133,
+   "title": "Systematic uncertainties (%)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 165,
+   "title": "Comparison of branching fractions between experimental results and theoretical predictions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

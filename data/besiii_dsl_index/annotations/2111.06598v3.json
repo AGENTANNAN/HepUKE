@@ -1,0 +1,149 @@
+{
+ "paper_id": "2111.06598v3",
+ "source_path": "arxiv_papers/2111.06598v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 175,
+ "n_lines_sent": 71,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 153,
+   "to": 175,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 17,
+   "line_end": 41,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, date"
+  },
+  {
+   "line_start": 43,
+   "line_end": 43,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 45,
+   "line_end": 68,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 70,
+   "line_end": 72,
+   "type": "detector",
+   "title": "II. DESCRIPTION OF THE BEPCII AND THE BESIII DETECTOR"
+  },
+  {
+   "line_start": 74,
+   "line_end": 88,
+   "type": "dataset",
+   "title": "III. MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 90,
+   "line_end": 123,
+   "type": "fit",
+   "title": "V. DETERMINATION OF THE BRANCHING FRACTION"
+  },
+  {
+   "line_start": 125,
+   "line_end": 141,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 125,
+     "line_end": 127,
+     "label": "overview"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "tracking"
+    },
+    {
+     "line_start": 131,
+     "line_end": 133,
+     "label": "pid"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "signal_generator"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "photon_conversion_rejection"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "delta_e_and_fit_shapes"
+    }
+   ]
+  },
+  {
+   "line_start": 143,
+   "line_end": 145,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 147,
+   "line_end": 151,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 120,
+   "title": "Yields and efficiencies of the three D0 tag decay modes and the obtained branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 133,
+   "title": "Systematic uncertainties in measuring R_ee",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 8.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

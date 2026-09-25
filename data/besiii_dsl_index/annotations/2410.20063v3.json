@@ -1,0 +1,136 @@
+{
+ "paper_id": "2410.20063v3",
+ "source_path": "arxiv_papers/2410.20063v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 255,
+ "n_lines_sent": 67,
+ "skipped_ranges": [
+  {
+   "from": 124,
+   "to": 255,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Measurement of the branching fraction of ... (title, authors, abstract header)"
+  },
+  {
+   "line_start": 11,
+   "line_end": 23,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 25,
+   "line_end": 48,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 50,
+   "line_end": 54,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 56,
+   "line_end": 71,
+   "type": "event_selection",
+   "title": "3 EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 56,
+     "line_end": 60,
+     "label": "st_reconstruction_and_mbc_fit"
+    },
+    {
+     "line_start": 62,
+     "line_end": 67,
+     "label": "st_yields_and_efficiencies"
+    },
+    {
+     "line_start": 69,
+     "line_end": 71,
+     "label": "signal_side_pion_selection_and_background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 73,
+   "line_end": 98,
+   "type": "fit",
+   "title": "4 DETERMINATION OF THE BRANCHING FRACTION"
+  },
+  {
+   "line_start": 100,
+   "line_end": 108,
+   "type": "systematic_uncertainty",
+   "title": "5 SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 102,
+     "label": "overview"
+    },
+    {
+     "line_start": 104,
+     "line_end": 106,
+     "label": "systematics_budget_table"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "individual_sources"
+    }
+   ]
+  },
+  {
+   "line_start": 110,
+   "line_end": 118,
+   "type": "conclusion",
+   "title": "6 SUMMARY"
+  },
+  {
+   "line_start": 120,
+   "line_end": 122,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 67,
+   "title": "The Delta E requirements, ST yield and ST efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 96,
+   "title": "The signal efficiencies for the pi(mu)-like selection",
+   "section_type": "fit"
+  },
+  {
+   "line": 106,
+   "title": "Systematic uncertainties for the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 116,
+   "title": "External input parameters with uncertainties",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

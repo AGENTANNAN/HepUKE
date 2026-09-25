@@ -1,0 +1,189 @@
+{
+ "paper_id": "1809.00635v2",
+ "source_path": "arxiv_papers/1809.00635v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 198,
+ "n_lines_sent": 89,
+ "skipped_ranges": [
+  {
+   "from": 154,
+   "to": 198,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 23,
+   "type": "front_matter",
+   "title": "Title, authors, collaboration, abstract, PACS"
+  },
+  {
+   "line_start": 25,
+   "line_end": 25,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 27,
+   "line_end": 39,
+   "type": "detector",
+   "title": "II. APPARATUS AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 41,
+   "line_end": 49,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 41,
+     "line_end": 43,
+     "label": "signal_modes"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "photon_and_eta_reconstruction"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 51,
+   "line_end": 77,
+   "type": "fit",
+   "title": "A. Measurement of B(J/psi -> eta' e+ e-)"
+  },
+  {
+   "line_start": 79,
+   "line_end": 90,
+   "type": "fit",
+   "title": "B. Search for the dark photon through J/psi -> eta' e+ e-"
+  },
+  {
+   "line_start": 92,
+   "line_end": 115,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 92,
+     "line_end": 94,
+     "label": "overview"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "kinematic_fit_and_gamma_conversion_veto"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "eta_reconstruction"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "form_factor"
+    },
+    {
+     "line_start": 106,
+     "line_end": 111,
+     "label": "signal_shape_fit_range_background"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "normalization_and_eta_prime_bfs"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "dark_photon_search_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 140,
+   "type": "results",
+   "title": "V. DARK PHOTON SEARCH RESULT",
+   "units": [
+    {
+     "line_start": 117,
+     "line_end": 119,
+     "label": "upper_limit_method"
+    },
+    {
+     "line_start": 121,
+     "line_end": 125,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "likelihood_and_upper_limits"
+    },
+    {
+     "line_start": 129,
+     "line_end": 140,
+     "label": "mixing_strength_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 142,
+   "line_end": 146,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 148,
+   "line_end": 152,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 66,
+   "title": "Number of nonconversion peaking background events",
+   "section_type": "background"
+  },
+  {
+   "line": 123,
+   "title": "Sources of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

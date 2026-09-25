@@ -1,0 +1,226 @@
+{
+ "paper_id": "1110.1742v2",
+ "source_path": "arxiv_papers/1110.1742v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 289,
+ "n_lines_sent": 158,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 88,
+   "to": 88,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 90,
+   "to": 90,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 270,
+   "to": 289,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 96,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and PACS"
+  },
+  {
+   "line_start": 92,
+   "line_end": 94,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 98,
+   "line_end": 110,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 112,
+   "line_end": 124,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND DATA SET"
+  },
+  {
+   "line_start": 126,
+   "line_end": 126,
+   "type": "dataset",
+   "title": "Monte Carlo samples"
+  },
+  {
+   "line_start": 128,
+   "line_end": 141,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "pid"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "electron_background_rejection"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "muon_background_rejection"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "final_selection_and_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 143,
+   "line_end": 197,
+   "type": "fit",
+   "title": "IV. FIT TO THE ANGULAR DISTRIBUTIONS"
+  },
+  {
+   "line_start": 199,
+   "line_end": 231,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC ERRORS",
+   "units": [
+    {
+     "line_start": 201,
+     "line_end": 205,
+     "label": "mc_simulation_detector_response"
+    },
+    {
+     "line_start": 210,
+     "line_end": 212,
+     "label": "muon_background"
+    },
+    {
+     "line_start": 217,
+     "line_end": 219,
+     "label": "cross_contamination"
+    },
+    {
+     "line_start": 225,
+     "line_end": 227,
+     "label": "chi_c0_contamination"
+    },
+    {
+     "line_start": 229,
+     "line_end": 231,
+     "label": "total_systematic_error"
+    }
+   ]
+  },
+  {
+   "line_start": 233,
+   "line_end": 264,
+   "type": "conclusion",
+   "title": "VI. CONCLUSION AND DISCUSSION"
+  },
+  {
+   "line_start": 266,
+   "line_end": 268,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 108,
+   "title": "Current experimental measurements of the normalized M2 contributions in the decays chi_c1 -> gamma J/psi and psi' -> gamma chi_c1",
+   "section_type": "introduction"
+  },
+  {
+   "line": 118,
+   "title": "Current experimental measurements of the normalized M2 contributions in the decays chi_c2 -> gamma J/psi and psi' -> gamma chi_c2",
+   "section_type": "introduction"
+  },
+  {
+   "line": 223,
+   "title": "Summary of the systematic errors and correlations",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 128-141 share boundary line 128",
+  "units of 128-141 stop at 138, not 141",
+  "gap in 199-231 before line 201",
+  "gap in 199-231 before line 210",
+  "gap in 199-231 before line 217",
+  "gap in 199-231 before line 225",
+  "nested spans 1-96 / 92-94"
+ ],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": [],
+ "units_repaired": true
+}

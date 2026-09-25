@@ -1,0 +1,201 @@
+{
+ "paper_id": "1811.00752v3",
+ "source_path": "arxiv_papers/1811.00752v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 125,
+ "n_lines_sent": 51,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 114,
+   "to": 125,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 13,
+   "line_end": 28,
+   "type": "front_matter",
+   "title": "Title, authors, and PACS"
+  },
+  {
+   "line_start": 30,
+   "line_end": 32,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 34,
+   "line_end": 36,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 38,
+   "line_end": 50,
+   "type": "event_selection",
+   "title": "Event selection and ST/DT method",
+   "units": [
+    {
+     "line_start": 38,
+     "line_end": 38,
+     "label": "st_dt_method"
+    },
+    {
+     "line_start": 40,
+     "line_end": 50,
+     "label": "st_dt_equations"
+    }
+   ]
+  },
+  {
+   "line_start": 52,
+   "line_end": 62,
+   "type": "event_selection",
+   "title": "Track, photon, and particle reconstruction",
+   "units": [
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "photon_pi0_eta"
+    },
+    {
+     "line_start": 56,
+     "line_end": 58,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "eta_prime_rho"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "veto_double_counting"
+    }
+   ]
+  },
+  {
+   "line_start": 64,
+   "line_end": 77,
+   "type": "event_selection",
+   "title": "ST Ds- reconstruction and yields",
+   "units": [
+    {
+     "line_start": 64,
+     "line_end": 70,
+     "label": "mrec_selection"
+    },
+    {
+     "line_start": 72,
+     "line_end": 77,
+     "label": "st_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 79,
+   "line_end": 92,
+   "type": "fit",
+   "title": "DT signal reconstruction and fit"
+  },
+  {
+   "line_start": 94,
+   "line_end": 108,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "overview"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "photon_detection_kinematic_fit"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "neutron_interaction"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "fit_background_shape_range"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "isr_background"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "bf_and_mc_statistics"
+    }
+   ]
+  },
+  {
+   "line_start": 110,
+   "line_end": 110,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 112,
+   "line_end": 112,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 85,
+   "title": "ST yields and efficiencies for individual ST modes",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

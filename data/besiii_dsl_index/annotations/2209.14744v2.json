@@ -1,0 +1,210 @@
+{
+ "paper_id": "2209.14744v2",
+ "source_path": "arxiv_papers/2209.14744v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 205,
+ "n_lines_sent": 112,
+ "skipped_ranges": [
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 175,
+   "to": 205,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 58,
+   "type": "front_matter",
+   "title": "Observation of e+e- -> pi0 pi0 psi2(3823)"
+  },
+  {
+   "line_start": 60,
+   "line_end": 60,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 62,
+   "line_end": 76,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 78,
+   "line_end": 84,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 86,
+   "line_end": 92,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 94,
+   "line_end": 104,
+   "type": "event_selection",
+   "title": "3 Event selection and background study",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 96,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "chi_c1_reconstruction"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 106,
+   "line_end": 127,
+   "type": "fit",
+   "title": "4 Measurements of the mass and width of the psi2(3823)"
+  },
+  {
+   "line_start": 129,
+   "line_end": 143,
+   "type": "results",
+   "title": "5 Measurement of the ratio of average cross sections",
+   "units": [
+    {
+     "line_start": 129,
+     "line_end": 137,
+     "label": "average_cross_section_formula"
+    },
+    {
+     "line_start": 139,
+     "line_end": 143,
+     "label": "ratio_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 145,
+   "line_end": 163,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 145,
+     "line_end": 147,
+     "label": "mass_measurement_systematics"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "ratio_systematics_intro"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "table1_caption"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "table1"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "table2_caption"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "table2"
+    },
+    {
+     "line_start": 159,
+     "line_end": 159,
+     "label": "table3_caption"
+    },
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "table3"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "ratio_systematics_details"
+    }
+   ]
+  },
+  {
+   "line_start": 165,
+   "line_end": 169,
+   "type": "conclusion",
+   "title": "7 Summary and discussion"
+  },
+  {
+   "line_start": 171,
+   "line_end": 173,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 153,
+   "title": "Luminosity, radiative correction factor and efficiency at each CM energy",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 157,
+   "title": "Systematic uncertainties for the psi2(3823) mass measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 161,
+   "title": "Systematic uncertainties for the measurement of the ratio R",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

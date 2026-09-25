@@ -1,0 +1,177 @@
+{
+ "paper_id": "2209.14564v2",
+ "source_path": "arxiv_papers/2209.14564v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 257,
+ "n_lines_sent": 67,
+ "skipped_ranges": [
+  {
+   "from": 131,
+   "to": 257,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Observation of the decay psi(3686) -> Sigma- Sigma+ and measurement of its angular distribution"
+  },
+  {
+   "line_start": 13,
+   "line_end": 29,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 31,
+   "line_end": 39,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 41,
+   "line_end": 45,
+   "type": "detector",
+   "title": "2 The BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 47,
+   "line_end": 57,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 49,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "anti_neutron_identification"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "peaking_background_study"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "non_psi3686_background"
+    }
+   ]
+  },
+  {
+   "line_start": 59,
+   "line_end": 72,
+   "type": "fit",
+   "title": "4 Measurement of the branching fraction"
+  },
+  {
+   "line_start": 74,
+   "line_end": 83,
+   "type": "fit",
+   "title": "5 Measurement of the angular distribution parameter"
+  },
+  {
+   "line_start": 85,
+   "line_end": 115,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 85,
+     "line_end": 89,
+     "label": "mc_efficiency_correction"
+    },
+    {
+     "line_start": 91,
+     "line_end": 95,
+     "label": "decay_parameter"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "recoil_mass_requirement"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "non_peaking_background"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "qed_peaking_background"
+    },
+    {
+     "line_start": 103,
+     "line_end": 105,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "kinematic_fitting_and_total_number"
+    },
+    {
+     "line_start": 109,
+     "line_end": 115,
+     "label": "angular_distribution_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 123,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 125,
+   "line_end": 129,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 80,
+   "title": "Numbers of selected events, backgrounds and detection efficiency",
+   "section_type": "fit"
+  },
+  {
+   "line": 93,
+   "title": "Systematic uncertainties on the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 113,
+   "title": "Systematic uncertainties of angular-distribution measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 123,
+   "title": "Summary of measured angular parameters and branching fractions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

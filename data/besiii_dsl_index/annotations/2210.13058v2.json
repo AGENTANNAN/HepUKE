@@ -1,0 +1,526 @@
+{
+ "paper_id": "2210.13058v2",
+ "source_path": "arxiv_papers/2210.13058v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 426,
+ "n_lines_sent": 209,
+ "skipped_ranges": [
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 69,
+   "to": 69,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 360,
+   "to": 426,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 73,
+   "type": "front_matter",
+   "title": "Study of e+e- to gamma phi J/psi from sqrt(s) = 4.600 to 4.951 GeV"
+  },
+  {
+   "line_start": 75,
+   "line_end": 75,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 77,
+   "line_end": 100,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 102,
+   "line_end": 112,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 114,
+   "line_end": 118,
+   "type": "detector",
+   "title": "2 BESIII detector and MC sample"
+  },
+  {
+   "line_start": 120,
+   "line_end": 122,
+   "type": "event_selection",
+   "title": "3 Study of e+e- to phi chi_c1,c2 with chi_c1,c2 to gamma J/psi",
+   "units": [
+    {
+     "line_start": 120,
+     "line_end": 122,
+     "label": "section_intro"
+    }
+   ]
+  },
+  {
+   "line_start": 124,
+   "line_end": 130,
+   "type": "event_selection",
+   "title": "3.1 Event Selection",
+   "units": [
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "event_topology"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "pid"
+    }
+   ]
+  },
+  {
+   "line_start": 132,
+   "line_end": 143,
+   "type": "event_selection",
+   "title": "3.1.1 3-track events with phi to K+K-",
+   "units": [
+    {
+     "line_start": 132,
+     "line_end": 134,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "muon_identification"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 142,
+     "line_end": 143,
+     "label": "figure"
+    }
+   ]
+  },
+  {
+   "line_start": 145,
+   "line_end": 152,
+   "type": "event_selection",
+   "title": "3.1.2 4-track events with phi to K+K-",
+   "units": [
+    {
+     "line_start": 145,
+     "line_end": 147,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 151,
+     "line_end": 152,
+     "label": "figure"
+    }
+   ]
+  },
+  {
+   "line_start": 154,
+   "line_end": 163,
+   "type": "event_selection",
+   "title": "3.1.3 Events with phi to K_S^0 K_L^0",
+   "units": [
+    {
+     "line_start": 154,
+     "line_end": 156,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 162,
+     "line_end": 163,
+     "label": "figure"
+    }
+   ]
+  },
+  {
+   "line_start": 165,
+   "line_end": 252,
+   "type": "fit",
+   "title": "3.2 Cross section measurement"
+  },
+  {
+   "line_start": 254,
+   "line_end": 256,
+   "type": "systematic_uncertainty",
+   "title": "3.3 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 254,
+     "line_end": 256,
+     "label": "section_intro"
+    }
+   ]
+  },
+  {
+   "line_start": 258,
+   "line_end": 280,
+   "type": "systematic_uncertainty",
+   "title": "3.3.1 Systematic uncertainty for cross section measurement",
+   "units": [
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "source_list"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "luminosity_tracking_ks_reconstruction_photon"
+    },
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "kinematic_fit_radiative_correction_mc_model"
+    },
+    {
+     "line_start": 264,
+     "line_end": 264,
+     "label": "muc_response_branching_ratios_fit"
+    },
+    {
+     "line_start": 266,
+     "line_end": 276,
+     "label": "weighted_average"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "total_uncertainty"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "table"
+    }
+   ]
+  },
+  {
+   "line_start": 282,
+   "line_end": 302,
+   "type": "systematic_uncertainty",
+   "title": "3.3.2 Systematic uncertainties for the resonance parameters",
+   "units": [
+    {
+     "line_start": 282,
+     "line_end": 284,
+     "label": "source_list"
+    },
+    {
+     "line_start": 286,
+     "line_end": 286,
+     "label": "cm_energy_calibration"
+    },
+    {
+     "line_start": 288,
+     "line_end": 288,
+     "label": "bw_parameterization"
+    },
+    {
+     "line_start": 290,
+     "line_end": 290,
+     "label": "continuum_amplitude"
+    },
+    {
+     "line_start": 292,
+     "line_end": 292,
+     "label": "cross_section_uncertainty"
+    },
+    {
+     "line_start": 294,
+     "line_end": 294,
+     "label": "total_uncertainty"
+    },
+    {
+     "line_start": 296,
+     "line_end": 298,
+     "label": "table"
+    },
+    {
+     "line_start": 300,
+     "line_end": 302,
+     "label": "table"
+    }
+   ]
+  },
+  {
+   "line_start": 304,
+   "line_end": 309,
+   "type": "results",
+   "title": "4 Study of e+e- to gamma X with X to phi J/psi",
+   "units": [
+    {
+     "line_start": 304,
+     "line_end": 306,
+     "label": "mass_distribution"
+    },
+    {
+     "line_start": 308,
+     "line_end": 309,
+     "label": "figure"
+    }
+   ]
+  },
+  {
+   "line_start": 311,
+   "line_end": 336,
+   "type": "results",
+   "title": "4.1 Upper limit of e+e- to gamma X cross section",
+   "units": [
+    {
+     "line_start": 311,
+     "line_end": 319,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 321,
+     "line_end": 321,
+     "label": "upper_limit_fit"
+    },
+    {
+     "line_start": 323,
+     "line_end": 324,
+     "label": "figure"
+    },
+    {
+     "line_start": 326,
+     "line_end": 328,
+     "label": "table"
+    },
+    {
+     "line_start": 330,
+     "line_end": 332,
+     "label": "table"
+    },
+    {
+     "line_start": 334,
+     "line_end": 336,
+     "label": "table"
+    }
+   ]
+  },
+  {
+   "line_start": 338,
+   "line_end": 346,
+   "type": "systematic_uncertainty",
+   "title": "4.2 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 338,
+     "line_end": 340,
+     "label": "shared_uncertainties"
+    },
+    {
+     "line_start": 342,
+     "line_end": 342,
+     "label": "signal_shape_background_fit_range"
+    },
+    {
+     "line_start": 344,
+     "line_end": 346,
+     "label": "table"
+    }
+   ]
+  },
+  {
+   "line_start": 348,
+   "line_end": 354,
+   "type": "conclusion",
+   "title": "5 Summary"
+  },
+  {
+   "line_start": 356,
+   "line_end": 358,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 182,
+   "title": "Born cross section for e+e- to phi chi_c1",
+   "section_type": "fit"
+  },
+  {
+   "line": 186,
+   "title": "Born cross section for e+e- to phi chi_c2",
+   "section_type": "fit"
+  },
+  {
+   "line": 209,
+   "title": "Fit results for phi chi_c1 cross section",
+   "section_type": "fit"
+  },
+  {
+   "line": 244,
+   "title": "Fit results for phi chi_c2 cross section",
+   "section_type": "fit"
+  },
+  {
+   "line": 250,
+   "title": "Upper limit of Gamma_ee B(Y to phi chi_c1)",
+   "section_type": "fit"
+  },
+  {
+   "line": 280,
+   "title": "Systematic uncertainty sources for cross section",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 298,
+   "title": "Systematic uncertainties for resonance parameters, single BW",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 302,
+   "title": "Systematic uncertainties for resonance parameters, BW+continuum",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 326,
+   "title": "Upper limit of Born cross section for gamma X(4140)",
+   "section_type": "results"
+  },
+  {
+   "line": 330,
+   "title": "Upper limit of Born cross section for gamma X(4274)",
+   "section_type": "results"
+  },
+  {
+   "line": 334,
+   "title": "Upper limit of Born cross section for gamma X(4500)",
+   "section_type": "results"
+  },
+  {
+   "line": 346,
+   "title": "Systematic uncertainty for gamma X cross section",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 422,
+   "title": "Systematic uncertainties for phi chi_c1 cross sections",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 426,
+   "title": "Systematic uncertainties for phi chi_c2 cross sections",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

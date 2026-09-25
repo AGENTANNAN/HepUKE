@@ -1,0 +1,149 @@
+{
+ "paper_id": "2012.04186v1",
+ "source_path": "arxiv_papers/2012.04186v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 166,
+ "n_lines_sent": 98,
+ "skipped_ranges": [
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 142,
+   "to": 166,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 52,
+   "type": "front_matter",
+   "title": "Title, author list, and collaboration"
+  },
+  {
+   "line_start": 56,
+   "line_end": 56,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 58,
+   "line_end": 62,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 64,
+   "line_end": 66,
+   "type": "detector",
+   "title": "BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 68,
+   "line_end": 85,
+   "type": "event_selection",
+   "title": "Event selection and cross section determination",
+   "units": [
+    {
+     "line_start": 68,
+     "line_end": 74,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 78,
+     "line_end": 81,
+     "label": "mass_spectrum_fit"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "efficiency_determination"
+    }
+   ]
+  },
+  {
+   "line_start": 87,
+   "line_end": 87,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 89,
+   "line_end": 89,
+   "type": "results",
+   "title": "Observed cross sections",
+   "units": [
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "observed_cross_sections"
+    }
+   ]
+  },
+  {
+   "line_start": 91,
+   "line_end": 136,
+   "type": "fit",
+   "title": "Fit to the cross sections"
+  },
+  {
+   "line_start": 138,
+   "line_end": 138,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 140,
+   "line_end": 140,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 110,
+   "title": "Observed cross section of e+e- -> J/psi X at energies from 3.6451 to 3.891 GeV",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 116,
+   "title": "Results of fits as described in the text",
+   "section_type": "fit"
+  },
+  {
+   "line": 132,
+   "title": "The fitted results",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

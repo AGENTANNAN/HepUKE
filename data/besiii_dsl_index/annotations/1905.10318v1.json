@@ -1,0 +1,237 @@
+{
+ "paper_id": "1905.10318v1",
+ "source_path": "arxiv_papers/1905.10318v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 327,
+ "n_lines_sent": 161,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 300,
+   "to": 327,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 15,
+   "line_end": 38,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, abstract, PACS"
+  },
+  {
+   "line_start": 40,
+   "line_end": 44,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 46,
+   "line_end": 50,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 52,
+   "line_end": 76,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 52,
+     "line_end": 54,
+     "label": "final_state_and_preliminary_requirements"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "track_reconstruction"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "pion_identification"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 62,
+     "line_end": 68,
+     "label": "kinematic_fit_and_omega_assignment"
+    },
+    {
+     "line_start": 70,
+     "line_end": 76,
+     "label": "background_and_signal_region"
+    }
+   ]
+  },
+  {
+   "line_start": 78,
+   "line_end": 104,
+   "type": "background",
+   "title": "IV. BACKGROUND SUBTRACTION"
+  },
+  {
+   "line_start": 106,
+   "line_end": 228,
+   "type": "fit",
+   "title": "V. DATA ANALYSIS"
+  },
+  {
+   "line_start": 230,
+   "line_end": 264,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 230,
+     "line_end": 234,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 236,
+     "line_end": 236,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 238,
+     "line_end": 241,
+     "label": "track_reconstruction"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "external_branching_fractions"
+    },
+    {
+     "line_start": 245,
+     "line_end": 249,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "q_factor_method"
+    },
+    {
+     "line_start": 253,
+     "line_end": 253,
+     "label": "eta_c_damping_factor"
+    },
+    {
+     "line_start": 255,
+     "line_end": 258,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "eta_c_resonance_parameters"
+    },
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "selection_of_fit_hypothesis"
+    },
+    {
+     "line_start": 264,
+     "line_end": 264,
+     "label": "detector_resolution"
+    }
+   ]
+  },
+  {
+   "line_start": 266,
+   "line_end": 280,
+   "type": "results",
+   "title": "VII. BRANCHING FRACTION",
+   "units": [
+    {
+     "line_start": 266,
+     "line_end": 280,
+     "label": "branching_fraction_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 282,
+   "line_end": 290,
+   "type": "results",
+   "title": "VIII. MASS AND WIDTH OF THE eta_c",
+   "units": [
+    {
+     "line_start": 282,
+     "line_end": 290,
+     "label": "mass_and_width_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 292,
+   "line_end": 294,
+   "type": "conclusion",
+   "title": "IX. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 296,
+   "line_end": 298,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 204,
+   "title": "Results of PWA fits for the best five hypotheses",
+   "section_type": "fit"
+  },
+  {
+   "line": 208,
+   "title": "Yields and fit fractions of single components for the best fit",
+   "section_type": "fit"
+  },
+  {
+   "line": 247,
+   "title": "Summary of all systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

@@ -1,0 +1,283 @@
+{
+ "paper_id": "2103.16779v3",
+ "source_path": "arxiv_papers/2103.16779v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 270,
+ "n_lines_sent": 125,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 73,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 234,
+   "to": 270,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 76,
+   "type": "front_matter",
+   "title": "Measurements of the branching fractions of ψ(3686) → Σ̄⁰Λ + c.c. and χcJ(J=0,1,2) → ΛΛ̄"
+  },
+  {
+   "line_start": 78,
+   "line_end": 78,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 80,
+   "line_end": 88,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 90,
+   "line_end": 92,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 94,
+   "line_end": 102,
+   "type": "event_selection",
+   "title": "A. Event selection",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 96,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "lambda_reconstruction_and_kinematic_fit"
+    },
+    {
+     "line_start": 100,
+     "line_end": 102,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 104,
+   "line_end": 119,
+   "type": "fit",
+   "title": "B. Signal yields and branching fraction calculation"
+  },
+  {
+   "line_start": 121,
+   "line_end": 148,
+   "type": "systematic_uncertainty",
+   "title": "C. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 121,
+     "line_end": 123,
+     "label": "overview"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 129,
+     "line_end": 134,
+     "label": "angle_requirement"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "chi_cJ_background"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "other_background_shape"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "normalization_and_lambda_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 150,
+   "line_end": 160,
+   "type": "discussion",
+   "title": "D. Discussion and result"
+  },
+  {
+   "line_start": 164,
+   "line_end": 166,
+   "type": "other",
+   "title": "V. χcJ → ΛΛ̄"
+  },
+  {
+   "line_start": 168,
+   "line_end": 172,
+   "type": "event_selection",
+   "title": "A. Event selection and background study",
+   "units": [
+    {
+     "line_start": 168,
+     "line_end": 170,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 174,
+   "line_end": 192,
+   "type": "fit",
+   "title": "B. Signal yields and branching fractions"
+  },
+  {
+   "line_start": 194,
+   "line_end": 212,
+   "type": "systematic_uncertainty",
+   "title": "C. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 194,
+     "line_end": 198,
+     "label": "overview_and_common_sources"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "signal_and_background_shapes"
+    },
+    {
+     "line_start": 206,
+     "line_end": 208,
+     "label": "fitting_range"
+    },
+    {
+     "line_start": 210,
+     "line_end": 212,
+     "label": "angular_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 214,
+   "line_end": 216,
+   "type": "results",
+   "title": "D. Result",
+   "units": [
+    {
+     "line_start": 214,
+     "line_end": 216,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 218,
+   "line_end": 222,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 224,
+   "line_end": 226,
+   "type": "results",
+   "title": "TABLE III",
+   "units": [
+    {
+     "line_start": 224,
+     "line_end": 226,
+     "label": "branching_fraction_table"
+    }
+   ]
+  },
+  {
+   "line_start": 228,
+   "line_end": 232,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 162,
+   "title": "Systematic uncertainties for the branching fraction of ψ(3686) → Σ̄⁰Λ + c.c.",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 204,
+   "title": "Systematic uncertainties of the branching fractions for χcJ → ΛΛ̄ decays",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 226,
+   "title": "Number of observed events, efficiencies, product branching fractions, and branching fractions of χcJ → ΛΛ̄ decays compared with world average values",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 5.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 194-212 before line 206"
+ ],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

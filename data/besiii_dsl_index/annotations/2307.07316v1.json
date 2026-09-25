@@ -1,0 +1,206 @@
+{
+ "paper_id": "2307.07316v1",
+ "source_path": "arxiv_papers/2307.07316v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 211,
+ "n_lines_sent": 71,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 149,
+   "to": 211,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 46,
+   "type": "front_matter",
+   "title": "Measurement of the Energy-Dependent Electromagnetic Form Factors of a Charmed Baryon"
+  },
+  {
+   "line_start": 48,
+   "line_end": 48,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 50,
+   "line_end": 54,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 56,
+   "line_end": 56,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 58,
+   "line_end": 89,
+   "type": "event_selection",
+   "title": "Event Selection and Cross Section Determination",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 61,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 63,
+     "line_end": 83,
+     "label": "born_cross_section_formula"
+    },
+    {
+     "line_start": 85,
+     "line_end": 89,
+     "label": "double_tag_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 91,
+   "line_end": 99,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "tracking_pid_efficiency"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "double_tag_analysis"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "delta_e_mbc_requirements"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "isr_vp_luminosity"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "correlations"
+    }
+   ]
+  },
+  {
+   "line_start": 101,
+   "line_end": 104,
+   "type": "results",
+   "title": "Cross Section Results",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 104,
+     "label": "cross_section_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 106,
+   "line_end": 112,
+   "type": "fit",
+   "title": "Effective Form Factor"
+  },
+  {
+   "line_start": 114,
+   "line_end": 124,
+   "type": "fit",
+   "title": "Polar Angle Distribution and Form Factor Ratio"
+  },
+  {
+   "line_start": 126,
+   "line_end": 126,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainty of alpha_Lambda_c",
+   "units": [
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "alpha_lambda_c_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 128,
+   "line_end": 137,
+   "type": "results",
+   "title": "Form Factor Ratio Results",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 137,
+     "label": "ge_gm_ratio_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 139,
+   "line_end": 139,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 141,
+   "line_end": 147,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 145,
+   "title": "Summary of measured cross sections, form factors, and polar angle parameters at each energy point",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

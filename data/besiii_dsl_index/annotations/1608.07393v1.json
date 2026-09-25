@@ -1,0 +1,186 @@
+{
+ "paper_id": "1608.07393v1",
+ "source_path": "arxiv_papers/1608.07393v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 176,
+ "n_lines_sent": 71,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 156,
+   "to": 176,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 12,
+   "line_end": 34,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 36,
+   "line_end": 42,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 44,
+   "line_end": 46,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 48,
+   "line_end": 48,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 50,
+   "line_end": 56,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 50,
+     "line_end": 52,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "kinematic_fit_and_pi0_veto"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "omega_background_rejection"
+    }
+   ]
+  },
+  {
+   "line_start": 58,
+   "line_end": 114,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTION AND YIELD MEASUREMENTS"
+  },
+  {
+   "line_start": 116,
+   "line_end": 140,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 116,
+     "line_end": 118,
+     "label": "overview"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "photon_energy_scale"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "photon_energy_resolution"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "photon_position_reconstruction"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "fitting_region"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "background_subtraction"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "external_inputs"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 142,
+   "line_end": 150,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 152,
+   "line_end": 154,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 148,
+   "title": "Summary of systematic uncertainties (%)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

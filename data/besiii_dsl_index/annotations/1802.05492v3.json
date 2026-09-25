@@ -1,0 +1,264 @@
+{
+ "paper_id": "1802.05492v3",
+ "source_path": "arxiv_papers/1802.05492v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 222,
+ "n_lines_sent": 92,
+ "skipped_ranges": [
+  {
+   "from": 5,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 166,
+   "to": 222,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 89,
+   "type": "front_matter",
+   "title": "Measurement of the Branching Fraction For the Semi-Leptonic Decays D0(+) -> pi-(0) mu+ nu_mu and Test of Lepton Flavor Universality"
+  },
+  {
+   "line_start": 90,
+   "line_end": 91,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 93,
+   "line_end": 97,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 99,
+   "line_end": 99,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 101,
+   "line_end": 109,
+   "type": "dataset",
+   "title": "Data Sample and Analysis Method"
+  },
+  {
+   "line_start": 111,
+   "line_end": 128,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 111,
+     "line_end": 113,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 117,
+     "line_end": 122,
+     "label": "st_fit_and_signal_region"
+    },
+    {
+     "line_start": 124,
+     "line_end": 128,
+     "label": "dt_selection_and_background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 130,
+   "line_end": 137,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "tracking_pid_pi0_reconstruction"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "extra_gamma_requirement"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "m_pi_mu_requirement"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "ks_veto"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "m2_miss_fit"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 135,
+     "line_end": 137,
+     "label": "mc_generator_and_fsr"
+    }
+   ]
+  },
+  {
+   "line_start": 139,
+   "line_end": 145,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 139,
+     "line_end": 141,
+     "label": "st_dt_yields_and_bfs"
+    },
+    {
+     "line_start": 143,
+     "line_end": 145,
+     "label": "systematic_uncertainty_budget"
+    }
+   ]
+  },
+  {
+   "line_start": 147,
+   "line_end": 158,
+   "type": "discussion",
+   "title": "Discussion of Lepton Flavor Universality"
+  },
+  {
+   "line_start": 160,
+   "line_end": 160,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 162,
+   "line_end": 164,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 141,
+   "title": "ST and DT yields, signal efficiencies, and BFs",
+   "section_type": "results"
+  },
+  {
+   "line": 145,
+   "title": "Relative systematic uncertainties in BF measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 214,
+   "title": "Summary of tag dependent ST yields and efficiencies",
+   "section_type": "results"
+  },
+  {
+   "line": 218,
+   "title": "Efficiency matrix, q2 bins, observed DT events",
+   "section_type": "fit"
+  },
+  {
+   "line": 222,
+   "title": "Efficiency matrix, q2 bins, observed DT events",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 130-137 before line 135",
+  "units of 130-137 share boundary line 135",
+  "units of 130-137 share boundary line 135",
+  "units of 130-137 share boundary line 135",
+  "units of 130-137 share boundary line 135",
+  "units of 130-137 share boundary line 135",
+  "units of 130-137 share boundary line 135"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

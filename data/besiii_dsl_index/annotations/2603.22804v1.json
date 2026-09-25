@@ -1,0 +1,260 @@
+{
+ "paper_id": "2603.22804v1",
+ "source_path": "arxiv_papers/2603.22804v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 436,
+ "n_lines_sent": 178,
+ "skipped_ranges": [
+  {
+   "from": 71,
+   "to": 71,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 103,
+   "to": 103,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 211,
+   "to": 211,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 219,
+   "to": 219,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 223,
+   "to": 223,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 356,
+   "to": 436,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 223,
+   "type": "front_matter",
+   "title": "Search for the radiative decays D0 -> gamma K1(1270)0 and D+ -> gamma K1(1270)+"
+  },
+  {
+   "line_start": 225,
+   "line_end": 225,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 227,
+   "line_end": 236,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 238,
+   "line_end": 248,
+   "type": "detector",
+   "title": "II. DATA AND MONTE CARLO"
+  },
+  {
+   "line_start": 250,
+   "line_end": 250,
+   "type": "event_selection",
+   "title": "III. METHOD",
+   "units": [
+    {
+     "line_start": 250,
+     "line_end": 250,
+     "label": "method_overview"
+    }
+   ]
+  },
+  {
+   "line_start": 252,
+   "line_end": 266,
+   "type": "event_selection",
+   "title": "III. METHOD",
+   "units": [
+    {
+     "line_start": 252,
+     "line_end": 252,
+     "label": "tag_technique_overview"
+    },
+    {
+     "line_start": 254,
+     "line_end": 266,
+     "label": "bf_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 268,
+   "line_end": 290,
+   "type": "event_selection",
+   "title": "A. Tag Selection",
+   "units": [
+    {
+     "line_start": 270,
+     "line_end": 270,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 274,
+     "line_end": 274,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 276,
+     "line_end": 276,
+     "label": "shower_exclusion"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 280,
+     "line_end": 286,
+     "label": "mbc_deltae_variables"
+    },
+    {
+     "line_start": 288,
+     "line_end": 290,
+     "label": "st_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 292,
+   "line_end": 309,
+   "type": "event_selection",
+   "title": "B. Signal Selection",
+   "units": [
+    {
+     "line_start": 294,
+     "line_end": 294,
+     "label": "signal_reconstruction"
+    },
+    {
+     "line_start": 295,
+     "line_end": 295,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 307,
+     "line_end": 307,
+     "label": "veto_requirements"
+    },
+    {
+     "line_start": 309,
+     "line_end": 309,
+     "label": "mbc_sig_requirement"
+    }
+   ]
+  },
+  {
+   "line_start": 311,
+   "line_end": 320,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTIONS"
+  },
+  {
+   "line_start": 322,
+   "line_end": 344,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 324,
+     "line_end": 324,
+     "label": "uncertainty_classification"
+    },
+    {
+     "line_start": 326,
+     "line_end": 326,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 333,
+     "line_end": 333,
+     "label": "multiplicative_uncertainties"
+    },
+    {
+     "line_start": 340,
+     "line_end": 340,
+     "label": "total_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 346,
+   "line_end": 348,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 350,
+   "line_end": 352,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 354,
+   "line_end": 354,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 244,
+   "title": "Signal decays and their subsequent decays",
+   "section_type": "detector"
+  },
+  {
+   "line": 301,
+   "title": "Delta E_tag requirements, M_BC_tag requirements, ST yields, ST efficiencies, and DT efficiencies for each tag mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 305,
+   "title": "Dominant backgrounds for the D0 -> gamma K1(1270)0 and D+ -> gamma K1(1270)+ decay channels",
+   "section_type": "fit"
+  },
+  {
+   "line": 344,
+   "title": "Relative multiplicative systematic uncertainties (%) in the BF measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 268-290 before line 270",
+  "gap in 292-309 before line 294",
+  "gap in 292-309 before line 307",
+  "gap in 322-344 before line 324",
+  "gap in 322-344 before line 333",
+  "gap in 322-344 before line 340",
+  "units of 322-344 stop at 340, not 344"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": [],
+ "units_repaired": true
+}

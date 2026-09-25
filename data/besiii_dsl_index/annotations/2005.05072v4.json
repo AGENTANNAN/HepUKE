@@ -1,0 +1,218 @@
+{
+ "paper_id": "2005.05072v4",
+ "source_path": "arxiv_papers/2005.05072v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 290,
+ "n_lines_sent": 176,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 257,
+   "to": 290,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 97,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 99,
+   "line_end": 105,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 107,
+   "line_end": 121,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 123,
+   "line_end": 135,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 137,
+   "line_end": 141,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 143,
+   "line_end": 169,
+   "type": "fit",
+   "title": "3 MEASUREMENT METHOD"
+  },
+  {
+   "line_start": 171,
+   "line_end": 202,
+   "type": "event_selection",
+   "title": "4 EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 171,
+     "line_end": 173,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 181,
+     "line_end": 195,
+     "label": "delta_e_and_kinematic_fit"
+    },
+    {
+     "line_start": 197,
+     "line_end": 202,
+     "label": "mass_windows_and_bands"
+    }
+   ]
+  },
+  {
+   "line_start": 204,
+   "line_end": 210,
+   "type": "fit",
+   "title": "5 SIGNAL YIELD AND BRANCHING FRACTION"
+  },
+  {
+   "line_start": 212,
+   "line_end": 243,
+   "type": "systematic_uncertainty",
+   "title": "6 SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 212,
+     "line_end": 214,
+     "label": "overview"
+    },
+    {
+     "line_start": 216,
+     "line_end": 221,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "lineshape"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "delta_e_and_mass_requirements"
+    },
+    {
+     "line_start": 235,
+     "line_end": 235,
+     "label": "reconstruction_efficiency"
+    },
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "quoted_bfs"
+    },
+    {
+     "line_start": 239,
+     "line_end": 243,
+     "label": "results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 245,
+   "line_end": 249,
+   "type": "conclusion",
+   "title": "7 SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 251,
+   "line_end": 255,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 135,
+   "title": "Comparisons of D_s^+ decay branching fractions between PDG and theoretical models",
+   "section_type": "introduction"
+  },
+  {
+   "line": 199,
+   "title": "Summary of Delta E, M_rec(D_s^+) and M(D_s^+ gamma) requirements for each decay mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 210,
+   "title": "Summary of signal yields, efficiencies, relative and absolute branching fractions",
+   "section_type": "fit"
+  },
+  {
+   "line": 221,
+   "title": "Summary of systematic uncertainties for relative branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 243,
+   "title": "Results of obtained relative branching fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

@@ -1,0 +1,181 @@
+{
+ "paper_id": "1710.02278v1",
+ "source_path": "arxiv_papers/1710.02278v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 211,
+ "n_lines_sent": 113,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 178,
+   "to": 211,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 85,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 87,
+   "line_end": 98,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 100,
+   "line_end": 100,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 102,
+   "line_end": 104,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 106,
+   "line_end": 135,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "d0_decay_modes"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "tracking"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 114,
+     "line_end": 116,
+     "label": "gamma_conversion_veto"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 120,
+     "line_end": 135,
+     "label": "mass_distributions"
+    }
+   ]
+  },
+  {
+   "line_start": 137,
+   "line_end": 153,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "overview"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "tracking"
+    },
+    {
+     "line_start": 140,
+     "line_end": 142,
+     "label": "pid"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "gamma_conversion_veto"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "total_psi_events"
+    },
+    {
+     "line_start": 151,
+     "line_end": 153,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 155,
+   "line_end": 157,
+   "type": "fit",
+   "title": "Fit and upper limits"
+  },
+  {
+   "line_start": 159,
+   "line_end": 166,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 168,
+   "line_end": 176,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 172,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

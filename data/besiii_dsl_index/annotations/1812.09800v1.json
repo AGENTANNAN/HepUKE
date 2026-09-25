@@ -1,0 +1,214 @@
+{
+ "paper_id": "1812.09800v1",
+ "source_path": "arxiv_papers/1812.09800v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 270,
+ "n_lines_sent": 149,
+ "skipped_ranges": [
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 219,
+   "to": 270,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 85,
+   "type": "front_matter",
+   "title": "Observation of e+e- -> Ds+ Dbar(*)0 K- and study of the P-wave Ds mesons"
+  },
+  {
+   "line_start": 81,
+   "line_end": 85,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 87,
+   "line_end": 93,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 95,
+   "line_end": 99,
+   "type": "detector",
+   "title": "2 BESIII Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 99,
+   "line_end": 99,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 101,
+   "line_end": 109,
+   "type": "event_selection",
+   "title": "3 Basic event selections",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 103,
+     "label": "partial_reconstruction"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "ds_reconstruction"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "recoil_mass_variables"
+    }
+   ]
+  },
+  {
+   "line_start": 111,
+   "line_end": 157,
+   "type": "fit",
+   "title": "4 Studies of data at 4.600 GeV"
+  },
+  {
+   "line_start": 159,
+   "line_end": 165,
+   "type": "results",
+   "title": "5 Studies at the other energy points",
+   "units": [
+    {
+     "line_start": 159,
+     "line_end": 161,
+     "label": "other_energy_points"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "dominant_intermediate_states"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 167,
+   "line_end": 207,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 167,
+     "line_end": 169,
+     "label": "overview"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "tracking"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "pid"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "mass_shift_resolution"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "center_of_mass_energy"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "line_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 209,
+   "line_end": 211,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 213,
+   "line_end": 217,
+   "type": "acknowledgements",
+   "title": "8 Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 180,
+   "title": "Cross section measurements at different energy points",
+   "section_type": "results"
+  },
+  {
+   "line": 184,
+   "title": "Summary of systematic uncertainties on resonance parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 188,
+   "title": "Relative systematic uncertainties on the cross section measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 167-207 before line 193",
+  "nested spans 1-85 / 81-85",
+  "nested spans 95-99 / 99-99"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

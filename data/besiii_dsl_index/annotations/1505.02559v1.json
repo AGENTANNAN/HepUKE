@@ -1,0 +1,224 @@
+{
+ "paper_id": "1505.02559v1",
+ "source_path": "arxiv_papers/1505.02559v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 334,
+ "n_lines_sent": 227,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 318,
+   "to": 334,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 100,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 102,
+   "line_end": 106,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 108,
+   "line_end": 138,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 140,
+   "line_end": 162,
+   "type": "detector",
+   "title": "2. BESIII Detector, Data and Monte Carlo"
+  },
+  {
+   "line_start": 164,
+   "line_end": 192,
+   "type": "event_selection",
+   "title": "3. Event Selection",
+   "units": [
+    {
+     "line_start": 164,
+     "line_end": 166,
+     "label": "track_requirements"
+    },
+    {
+     "line_start": 168,
+     "line_end": 174,
+     "label": "lepton_pion_identification"
+    },
+    {
+     "line_start": 175,
+     "line_end": 177,
+     "label": "jpsi_mass_window"
+    },
+    {
+     "line_start": 178,
+     "line_end": 180,
+     "label": "pion_opening_angle"
+    },
+    {
+     "line_start": 181,
+     "line_end": 188,
+     "label": "isr_photon_angle"
+    },
+    {
+     "line_start": 189,
+     "line_end": 192,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 194,
+   "line_end": 198,
+   "type": "fit",
+   "title": "4. π+π−J/ψ Mass Spectrum"
+  },
+  {
+   "line_start": 200,
+   "line_end": 256,
+   "type": "fit",
+   "title": "5. Calculation of Γee"
+  },
+  {
+   "line_start": 258,
+   "line_end": 284,
+   "type": "systematic_uncertainty",
+   "title": "6. Estimation of Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 258,
+     "line_end": 260,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "tracking"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "jpsi_selection"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 260,
+     "line_end": 260,
+     "label": "integrals"
+    },
+    {
+     "line_start": 262,
+     "line_end": 266,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 267,
+     "line_end": 269,
+     "label": "x3872_width"
+    },
+    {
+     "line_start": 269,
+     "line_end": 276,
+     "label": "isr_simulation"
+    },
+    {
+     "line_start": 282,
+     "line_end": 284,
+     "label": "fit_model"
+    }
+   ]
+  },
+  {
+   "line_start": 286,
+   "line_end": 304,
+   "type": "conclusion",
+   "title": "7. Summary"
+  },
+  {
+   "line_start": 306,
+   "line_end": 316,
+   "type": "acknowledgements",
+   "title": "8. Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 237,
+   "title": "Values for the integrals, efficiencies, event yields, and electronic widths",
+   "section_type": "fit"
+  },
+  {
+   "line": 280,
+   "title": "Sources of systematic uncertainties and their contributions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 258-284 share boundary line 260",
+  "units of 258-284 share boundary line 260",
+  "units of 258-284 share boundary line 260",
+  "units of 258-284 share boundary line 260",
+  "units of 258-284 share boundary line 269",
+  "gap in 258-284 before line 282"
+ ],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

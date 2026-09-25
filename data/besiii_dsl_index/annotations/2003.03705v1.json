@@ -1,0 +1,178 @@
+{
+ "paper_id": "2003.03705v1",
+ "source_path": "arxiv_papers/2003.03705v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 125,
+ "n_lines_sent": 44,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 91,
+   "to": 125,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 14,
+   "line_end": 14,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 16,
+   "line_end": 20,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 22,
+   "line_end": 22,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 24,
+   "line_end": 28,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 24,
+     "line_end": 24,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 26,
+     "line_end": 26,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 28,
+     "line_end": 28,
+     "label": "mass_windows_and_sidebands"
+    }
+   ]
+  },
+  {
+   "line_start": 30,
+   "line_end": 43,
+   "type": "fit",
+   "title": "Cross Section Measurement"
+  },
+  {
+   "line_start": 45,
+   "line_end": 48,
+   "type": "results",
+   "title": "Born Cross Sections",
+   "units": [
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "born_cross_sections"
+    },
+    {
+     "line_start": 47,
+     "line_end": 48,
+     "label": "cross_section_fit_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 50,
+   "line_end": 50,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "cross_section_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 52,
+   "line_end": 74,
+   "type": "fit",
+   "title": "Resonant Parameter Fit"
+  },
+  {
+   "line_start": 76,
+   "line_end": 78,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties of Resonant Parameters",
+   "units": [
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "resonant_parameter_systematics"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "significance"
+    }
+   ]
+  },
+  {
+   "line_start": 80,
+   "line_end": 80,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 82,
+   "line_end": 87,
+   "type": "other",
+   "title": "Tables and Figures"
+  },
+  {
+   "line_start": 89,
+   "line_end": 89,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 74,
+   "title": "Fitting results of the e+e- -> eta J/psi decay",
+   "section_type": "fit"
+  },
+  {
+   "line": 84,
+   "title": "Systematic uncertainties of the resonant parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

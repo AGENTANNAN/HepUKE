@@ -1,0 +1,277 @@
+{
+ "paper_id": "1605.00208v1",
+ "source_path": "arxiv_papers/1605.00208v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 260,
+ "n_lines_sent": 155,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 242,
+   "to": 260,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 92,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 94,
+   "line_end": 96,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 98,
+   "line_end": 104,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 106,
+   "line_end": 106,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO"
+  },
+  {
+   "line_start": 108,
+   "line_end": 108,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 110,
+   "line_end": 133,
+   "type": "event_selection",
+   "title": "III. MEASUREMENT",
+   "units": [
+    {
+     "line_start": 110,
+     "line_end": 114,
+     "label": "single_tag_overview"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "st_decay_modes"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "delta_e_selection"
+    },
+    {
+     "line_start": 126,
+     "line_end": 133,
+     "label": "mbc_fit_and_st_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 172,
+   "type": "event_selection",
+   "title": "B. Double tag events",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 137,
+     "label": "dt_selection"
+    },
+    {
+     "line_start": 139,
+     "line_end": 163,
+     "label": "u_miss_definition"
+    },
+    {
+     "line_start": 165,
+     "line_end": 172,
+     "label": "u_miss_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 174,
+   "line_end": 198,
+   "type": "fit",
+   "title": "C. Branching fraction"
+  },
+  {
+   "line_start": 200,
+   "line_end": 204,
+   "type": "systematic_uncertainty",
+   "title": "D. Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 200,
+     "line_end": 202,
+     "label": "overview"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "mbc_fit"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "mbc_requirement"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "k0_mass_requirement"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "electron_tracking"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "electron_pid"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "extra_photon_requirement"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "u_miss_fit"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "chi2_selection"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "bkg_br"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "mc_generator"
+    }
+   ]
+  },
+  {
+   "line_start": 206,
+   "line_end": 219,
+   "type": "results",
+   "title": "E. Validation",
+   "units": [
+    {
+     "line_start": 206,
+     "line_end": 210,
+     "label": "input_output_check"
+    },
+    {
+     "line_start": 212,
+     "line_end": 219,
+     "label": "mc_validation"
+    }
+   ]
+  },
+  {
+   "line_start": 221,
+   "line_end": 234,
+   "type": "conclusion",
+   "title": "IV. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 236,
+   "line_end": 240,
+   "type": "acknowledgements",
+   "title": "V. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 133,
+   "title": "Summary of ST yields, ST and DT efficiencies, and reconstruction efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 214,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 200-204 share boundary line 204",
+  "units of 200-204 share boundary line 204",
+  "units of 200-204 share boundary line 204",
+  "units of 200-204 share boundary line 204",
+  "units of 200-204 share boundary line 204",
+  "units of 200-204 share boundary line 204",
+  "units of 200-204 share boundary line 204",
+  "units of 200-204 share boundary line 204",
+  "units of 200-204 share boundary line 204",
+  "units of 200-204 share boundary line 204",
+  "units of 200-204 share boundary line 204",
+  "units of 200-204 share boundary line 204",
+  "units of 200-204 share boundary line 204"
+ ],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

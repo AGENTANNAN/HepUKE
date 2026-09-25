@@ -1,0 +1,189 @@
+{
+ "paper_id": "1403.6011v2",
+ "source_path": "arxiv_papers/1403.6011v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 314,
+ "n_lines_sent": 144,
+ "skipped_ranges": [
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 93,
+   "to": 93,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 111,
+   "to": 111,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 271,
+   "to": 314,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 143,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, abstract, keywords, PACS"
+  },
+  {
+   "line_start": 145,
+   "line_end": 151,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 153,
+   "line_end": 159,
+   "type": "detector",
+   "title": "2. BESIII detector"
+  },
+  {
+   "line_start": 161,
+   "line_end": 178,
+   "type": "event_selection",
+   "title": "3. Event selection",
+   "units": [
+    {
+     "line_start": 161,
+     "line_end": 163,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "pid"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "kinematic_cuts"
+    },
+    {
+     "line_start": 169,
+     "line_end": 178,
+     "label": "data_mc_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 180,
+   "line_end": 190,
+   "type": "background",
+   "title": "4. Background estimation"
+  },
+  {
+   "line_start": 192,
+   "line_end": 196,
+   "type": "results",
+   "title": "5. Determination of cross sections",
+   "units": [
+    {
+     "line_start": 192,
+     "line_end": 194,
+     "label": "observed_cross_section"
+    },
+    {
+     "line_start": 196,
+     "line_end": 196,
+     "label": "radiative_correction"
+    }
+   ]
+  },
+  {
+   "line_start": 198,
+   "line_end": 226,
+   "type": "fit",
+   "title": "6. Fit to the cross section"
+  },
+  {
+   "line_start": 228,
+   "line_end": 247,
+   "type": "systematic_uncertainty",
+   "title": "7. Systematic uncertainty study",
+   "units": [
+    {
+     "line_start": 228,
+     "line_end": 230,
+     "label": "overview"
+    },
+    {
+     "line_start": 232,
+     "line_end": 239,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 245,
+     "line_end": 245,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 247,
+     "line_end": 247,
+     "label": "fit_parameters"
+    }
+   ]
+  },
+  {
+   "line_start": 249,
+   "line_end": 265,
+   "type": "conclusion",
+   "title": "8. Summary and Discussion"
+  },
+  {
+   "line_start": 267,
+   "line_end": 269,
+   "type": "acknowledgements",
+   "title": "9. Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 186,
+   "title": "Summary of results at center-of-mass energies from 3.65 to 3.90 GeV",
+   "section_type": "results"
+  },
+  {
+   "line": 237,
+   "title": "Summary of the extracted results for different solutions of the fit",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

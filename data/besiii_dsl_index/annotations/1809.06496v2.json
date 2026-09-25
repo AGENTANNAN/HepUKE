@@ -1,0 +1,168 @@
+{
+ "paper_id": "1809.06496v2",
+ "source_path": "arxiv_papers/1809.06496v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 195,
+ "n_lines_sent": 115,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 173,
+   "to": 195,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 19,
+   "line_end": 95,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": 97,
+   "line_end": 97,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 99,
+   "line_end": 103,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 105,
+   "line_end": 105,
+   "type": "dataset",
+   "title": "Monte Carlo samples"
+  },
+  {
+   "line_start": 107,
+   "line_end": 123,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 107,
+     "line_end": 119,
+     "label": "tag_reconstruction"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "sl_reconstruction"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "u_miss_variable"
+    }
+   ]
+  },
+  {
+   "line_start": 125,
+   "line_end": 128,
+   "type": "fit",
+   "title": "Background and U_miss fit"
+  },
+  {
+   "line_start": 130,
+   "line_end": 151,
+   "type": "fit",
+   "title": "Partial wave analysis"
+  },
+  {
+   "line_start": 153,
+   "line_end": 157,
+   "type": "results",
+   "title": "Branching fraction results",
+   "units": [
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "bf_calculation"
+    },
+    {
+     "line_start": 155,
+     "line_end": 157,
+     "label": "bf_table"
+    }
+   ]
+  },
+  {
+   "line_start": 159,
+   "line_end": 159,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on branching fractions",
+   "units": [
+    {
+     "line_start": 159,
+     "line_end": 159,
+     "label": "bf_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 161,
+   "line_end": 165,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on PWA",
+   "units": [
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "pwa_systematics"
+    },
+    {
+     "line_start": 163,
+     "line_end": 165,
+     "label": "pwa_systematics_table"
+    }
+   ]
+  },
+  {
+   "line_start": 167,
+   "line_end": 169,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 171,
+   "line_end": 171,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 157,
+   "title": "Measured absolute BFs and upper limit of the BF at 90% CL",
+   "section_type": "results"
+  },
+  {
+   "line": 165,
+   "title": "Absolute systematic uncertainties on the FF ratios and the fractions of different components in D+ decays",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

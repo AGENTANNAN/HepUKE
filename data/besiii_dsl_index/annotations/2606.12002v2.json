@@ -1,0 +1,160 @@
+{
+ "paper_id": "2606.12002v2",
+ "source_path": "arxiv_papers/2606.12002v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 398,
+ "n_lines_sent": 143,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 278,
+   "to": 398,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 183,
+   "type": "front_matter",
+   "title": "Unexpected large relative strong phase and search for isospin breaking and CP asymmetries in J/psi -> K*(892)Kbar"
+  },
+  {
+   "line_start": 185,
+   "line_end": 185,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 187,
+   "line_end": 191,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 193,
+   "line_end": 211,
+   "type": "fit",
+   "title": "Formalism and lineshape fit"
+  },
+  {
+   "line_start": 213,
+   "line_end": 213,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 215,
+   "line_end": 219,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "background_study"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 221,
+   "line_end": 249,
+   "type": "fit",
+   "title": "Partial wave analysis"
+  },
+  {
+   "line_start": 251,
+   "line_end": 251,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 253,
+   "line_end": 263,
+   "type": "fit",
+   "title": "Lineshape fit and results"
+  },
+  {
+   "line_start": 265,
+   "line_end": 265,
+   "type": "results",
+   "title": "Isospin breaking and CP asymmetries",
+   "units": [
+    {
+     "line_start": 265,
+     "line_end": 265,
+     "label": "isospin_breaking_and_cp_asymmetries"
+    }
+   ]
+  },
+  {
+   "line_start": 267,
+   "line_end": 268,
+   "type": "results",
+   "title": "Figure 3",
+   "units": [
+    {
+     "line_start": 267,
+     "line_end": 268,
+     "label": "asymmetry_observables"
+    }
+   ]
+  },
+  {
+   "line_start": 270,
+   "line_end": 270,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 272,
+   "line_end": 274,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 276,
+   "line_end": 276,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 259,
+   "title": "Best fit results to the observed cross sections",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 9.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

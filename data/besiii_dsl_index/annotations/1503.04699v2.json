@@ -1,0 +1,300 @@
+{
+ "paper_id": "1503.04699v2",
+ "source_path": "arxiv_papers/1503.04699v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 315,
+ "n_lines_sent": 163,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 29,
+   "reason": "author_affiliation"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 20,
+   "line_end": 31,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 31,
+   "line_end": 31,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 33,
+   "line_end": 37,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 39,
+   "line_end": 43,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR"
+  },
+  {
+   "line_start": 45,
+   "line_end": 69,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 45,
+     "line_end": 47,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "event_topology"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "jpsi_veto"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "phi_reconstruction"
+    },
+    {
+     "line_start": 63,
+     "line_end": 69,
+     "label": "mass_distributions"
+    }
+   ]
+  },
+  {
+   "line_start": 71,
+   "line_end": 84,
+   "type": "background",
+   "title": "IV. BACKGROUND ANALYSIS"
+  },
+  {
+   "line_start": 86,
+   "line_end": 94,
+   "type": "fit",
+   "title": "V. SIGNAL EXTRACTION"
+  },
+  {
+   "line_start": 96,
+   "line_end": 144,
+   "type": "results",
+   "title": "VI. BRANCHING FRACTIONS",
+   "units": [
+    {
+     "line_start": 96,
+     "line_end": 100,
+     "label": "branching_fraction_calculation"
+    },
+    {
+     "line_start": 102,
+     "line_end": 120,
+     "label": "yield_equations"
+    },
+    {
+     "line_start": 122,
+     "line_end": 132,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 134,
+     "line_end": 136,
+     "label": "detection_efficiencies"
+    },
+    {
+     "line_start": 138,
+     "line_end": 144,
+     "label": "charged_mode_branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 146,
+   "line_end": 174,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 146,
+     "line_end": 148,
+     "label": "introduction"
+    },
+    {
+     "line_start": 150,
+     "line_end": 152,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "pi0_selection"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "fitting_process"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "peaking_backgrounds"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "weighting_method"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "kstar_polarization"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "other_uncertainties"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 176,
+   "line_end": 218,
+   "type": "fit",
+   "title": "VIII. THE KKπ INVARIANT MASS AND h1(1380) STATE"
+  },
+  {
+   "line_start": 220,
+   "line_end": 224,
+   "type": "conclusion",
+   "title": "IX. SUMMARY AND CONCLUSIONS"
+  },
+  {
+   "line_start": 226,
+   "line_end": 238,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 240,
+   "line_end": 309,
+   "type": "other",
+   "title": "Appendix A: Lineshape of h1(1380)"
+  },
+  {
+   "line_start": 311,
+   "line_end": 315,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 107,
+   "title": "χcJ yields in different regions from fitting the K+K-KS0K±π∓ final state",
+   "section_type": "fit"
+  },
+  {
+   "line": 111,
+   "title": "χcJ yields in different regions and detection efficiency from MC samples with K+K-K+K-π0 final state",
+   "section_type": "fit"
+  },
+  {
+   "line": 136,
+   "title": "Detection efficiencies from MC samples",
+   "section_type": "results"
+  },
+  {
+   "line": 188,
+   "title": "Systematic uncertainties on the branching fraction for the χcJ → φKS0K±π∓ final states",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 192,
+   "title": "Systematic uncertainties on the branching fraction for the χcJ → φK+K-π0 final states",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 232,
+   "title": "Systematic uncertainties on mass and width for the h1(1380)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 236,
+   "title": "Branching fractions measured in φKKπ final states",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 6.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 20-31 / 31-31"
+ ],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

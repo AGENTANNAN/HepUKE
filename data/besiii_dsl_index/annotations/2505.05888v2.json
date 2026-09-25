@@ -1,0 +1,219 @@
+{
+ "paper_id": "2505.05888v2",
+ "source_path": "arxiv_papers/2505.05888v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 333,
+ "n_lines_sent": 107,
+ "skipped_ranges": [
+  {
+   "from": 188,
+   "to": 333,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Measurement of the phase between strong and electromagnetic amplitudes in the decay J/psi -> phi eta"
+  },
+  {
+   "line_start": 13,
+   "line_end": 28,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 30,
+   "line_end": 49,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 51,
+   "line_end": 59,
+   "type": "detector",
+   "title": "2 BESIII experiment and data sets"
+  },
+  {
+   "line_start": 61,
+   "line_end": 71,
+   "type": "event_selection",
+   "title": "3 Event selection and background analysis",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 63,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 73,
+   "line_end": 96,
+   "type": "results",
+   "title": "4 Observed cross section of e+e- -> phi eta",
+   "units": [
+    {
+     "line_start": 73,
+     "line_end": 81,
+     "label": "observed_cross_section_formula"
+    },
+    {
+     "line_start": 83,
+     "line_end": 85,
+     "label": "signal_yield"
+    },
+    {
+     "line_start": 87,
+     "line_end": 96,
+     "label": "efficiency_determination"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 126,
+   "type": "systematic_uncertainty",
+   "title": "4.3 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 98,
+     "line_end": 100,
+     "label": "overview"
+    },
+    {
+     "line_start": 102,
+     "line_end": 103,
+     "label": "figure3"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "iteration_procedure"
+    },
+    {
+     "line_start": 112,
+     "line_end": 114,
+     "label": "table1"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "input_lineshape"
+    },
+    {
+     "line_start": 118,
+     "line_end": 120,
+     "label": "table2"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 128,
+   "line_end": 178,
+   "type": "fit",
+   "title": "5 Cross section lineshape of e+e- -> phi eta"
+  },
+  {
+   "line_start": 180,
+   "line_end": 182,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 184,
+   "line_end": 186,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 114,
+   "title": "Summary of CM energy, luminosity, signal yield, efficiency, and observed cross section",
+   "section_type": "results"
+  },
+  {
+   "line": 120,
+   "title": "Relative systematic uncertainties on the observed cross section",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 178,
+   "title": "Fit results of the lineshape e+e- -> phi eta",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

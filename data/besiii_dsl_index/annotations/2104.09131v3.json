@@ -1,0 +1,259 @@
+{
+ "paper_id": "2104.09131v3",
+ "source_path": "arxiv_papers/2104.09131v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 513,
+ "n_lines_sent": 301,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 84,
+   "to": 84,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 144,
+   "to": 145,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 148,
+   "to": 148,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 478,
+   "to": 513,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 152,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": 154,
+   "line_end": 156,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 158,
+   "line_end": 172,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 174,
+   "line_end": 180,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 182,
+   "line_end": 250,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 188,
+     "label": "tagged_candidate_selection"
+    },
+    {
+     "line_start": 190,
+     "line_end": 224,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 226,
+     "line_end": 250,
+     "label": "signal_candidate_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 252,
+   "line_end": 392,
+   "type": "fit",
+   "title": "IV. AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 393,
+   "line_end": 414,
+   "type": "results",
+   "title": "V. FIT RESULTS",
+   "units": [
+    {
+     "line_start": 393,
+     "line_end": 397,
+     "label": "nominal_fit_components"
+    },
+    {
+     "line_start": 399,
+     "line_end": 414,
+     "label": "fit_results_tables"
+    }
+   ]
+  },
+  {
+   "line_start": 416,
+   "line_end": 458,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 416,
+     "line_end": 422,
+     "label": "amplitude_components"
+    },
+    {
+     "line_start": 424,
+     "line_end": 443,
+     "label": "input_parameters"
+    },
+    {
+     "line_start": 444,
+     "line_end": 446,
+     "label": "radii_of_mesons"
+    },
+    {
+     "line_start": 448,
+     "line_end": 454,
+     "label": "background"
+    },
+    {
+     "line_start": 456,
+     "line_end": 456,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 458,
+     "line_end": 458,
+     "label": "efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 460,
+   "line_end": 464,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 466,
+   "line_end": 476,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 172,
+   "title": "Predicted BFs of D+ -> K*(892)+ KS0 from various models",
+   "section_type": "introduction"
+  },
+  {
+   "line": 232,
+   "title": "Delta E_tag requirements for different D- tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 321,
+   "title": "Expressions for Blatt-Weisskopf barrier factors",
+   "section_type": "fit"
+  },
+  {
+   "line": 359,
+   "title": "Parameters of the K pi S-wave component",
+   "section_type": "fit"
+  },
+  {
+   "line": 410,
+   "title": "Nominal fit results of magnitudes, phases and FFs",
+   "section_type": "results"
+  },
+  {
+   "line": 414,
+   "title": "Interference fractions between amplitudes",
+   "section_type": "results"
+  },
+  {
+   "line": 437,
+   "title": "Systematic uncertainties on phases and FFs",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 472,
+   "title": "Obtained results based on the amplitude analysis",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

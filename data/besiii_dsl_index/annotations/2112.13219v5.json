@@ -1,0 +1,271 @@
+{
+ "paper_id": "2112.13219v5",
+ "source_path": "arxiv_papers/2112.13219v5.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 415,
+ "n_lines_sent": 201,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 80,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 156,
+   "to": 156,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 159,
+   "to": 160,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 354,
+   "to": 415,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 5,
+   "line_end": 179,
+   "type": "front_matter",
+   "title": "Author list, affiliations and date"
+  },
+  {
+   "line_start": 181,
+   "line_end": 181,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 183,
+   "line_end": 193,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 195,
+   "line_end": 203,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 205,
+   "line_end": 221,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 205,
+     "line_end": 207,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "vertex_and_kinematic_fit"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "data_distributions"
+    },
+    {
+     "line_start": 213,
+     "line_end": 215,
+     "label": "figure_captions"
+    },
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "signal_and_sideband_regions"
+    },
+    {
+     "line_start": 219,
+     "line_end": 221,
+     "label": "background_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 223,
+   "line_end": 247,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELDS"
+  },
+  {
+   "line_start": 249,
+   "line_end": 266,
+   "type": "results",
+   "title": "V. CROSS SECTION CALCULATION",
+   "units": [
+    {
+     "line_start": 249,
+     "line_end": 257,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 259,
+     "line_end": 259,
+     "label": "amplitude_analysis"
+    },
+    {
+     "line_start": 261,
+     "line_end": 261,
+     "label": "mc_data_comparison"
+    },
+    {
+     "line_start": 263,
+     "line_end": 264,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 266,
+     "line_end": 266,
+     "label": "iterative_efficiency_and_isr"
+    }
+   ]
+  },
+  {
+   "line_start": 268,
+   "line_end": 297,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 268,
+     "line_end": 272,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "tracking"
+    },
+    {
+     "line_start": 274,
+     "line_end": 283,
+     "label": "pid"
+    },
+    {
+     "line_start": 285,
+     "line_end": 285,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 287,
+     "line_end": 287,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 289,
+     "line_end": 289,
+     "label": "signal_background_shape_and_fit_range"
+    },
+    {
+     "line_start": 291,
+     "line_end": 291,
+     "label": "phi_shape"
+    },
+    {
+     "line_start": 293,
+     "line_end": 293,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 295,
+     "line_end": 295,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 297,
+     "line_end": 297,
+     "label": "correlation_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 299,
+   "line_end": 338,
+   "type": "fit",
+   "title": "VII. LINE-SHAPE FITTING"
+  },
+  {
+   "line_start": 340,
+   "line_end": 346,
+   "type": "conclusion",
+   "title": "VIII. CONCLUSION"
+  },
+  {
+   "line_start": 348,
+   "line_end": 352,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 278,
+   "title": "Cross sections of e+e- -> phi pi+ pi- at different center-of-mass energies",
+   "section_type": "results"
+  },
+  {
+   "line": 329,
+   "title": "Results of the fits to the cross sections of e+e- -> phi pi+ pi-",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

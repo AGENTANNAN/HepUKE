@@ -1,0 +1,182 @@
+{
+ "paper_id": "1902.04862v1",
+ "source_path": "arxiv_papers/1902.04862v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 216,
+ "n_lines_sent": 125,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 190,
+   "to": 216,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 115,
+   "type": "front_matter",
+   "title": "Measurement of the branching fraction of J/psi -> omega eta' pi+ pi- and search for J/psi -> omega X(1835), X(1835) -> eta' pi+ pi- decay"
+  },
+  {
+   "line_start": 116,
+   "line_end": 118,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 120,
+   "line_end": 124,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 126,
+   "line_end": 128,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 130,
+   "line_end": 142,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 130,
+     "line_end": 131,
+     "label": "figure_1_eta_prime_pi_pi_mass"
+    },
+    {
+     "line_start": 133,
+     "line_end": 135,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 137,
+     "line_end": 138,
+     "label": "figure_2_scatter_plot"
+    },
+    {
+     "line_start": 140,
+     "line_end": 142,
+     "label": "omega_eta_prime_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 144,
+   "line_end": 150,
+   "type": "fit",
+   "title": "Branching fraction measurement"
+  },
+  {
+   "line_start": 152,
+   "line_end": 159,
+   "type": "fit",
+   "title": "Upper limit on X(1835) signal"
+  },
+  {
+   "line_start": 161,
+   "line_end": 182,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "introduction"
+    },
+    {
+     "line_start": 163,
+     "line_end": 165,
+     "label": "upper_limit_formula"
+    },
+    {
+     "line_start": 167,
+     "line_end": 168,
+     "label": "figure_4_chi2_fit"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "tracking_and_photon_detection"
+    },
+    {
+     "line_start": 172,
+     "line_end": 174,
+     "label": "table_i_systematic_summary"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "selection_efficiency_and_angular_distribution"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "signal_and_background_functions_fit_range"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 184,
+   "line_end": 184,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 186,
+   "line_end": 188,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 174,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

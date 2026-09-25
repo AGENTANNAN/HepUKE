@@ -1,0 +1,158 @@
+{
+ "paper_id": "2007.07674v2",
+ "source_path": "arxiv_papers/2007.07674v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 249,
+ "n_lines_sent": 142,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 207,
+   "to": 249,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 110,
+   "type": "front_matter",
+   "title": "Observation of the Doubly Cabibbo-Suppressed Decay D+ -> K+ pi+ pi- pi0 and Evidence for D+ -> K+ omega"
+  },
+  {
+   "line_start": 112,
+   "line_end": 114,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 116,
+   "line_end": 122,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 124,
+   "line_end": 126,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 128,
+   "line_end": 173,
+   "type": "event_selection",
+   "title": "Event Selection and Data Analysis",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 134,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 136,
+     "line_end": 151,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 153,
+     "line_end": 155,
+     "label": "signal_selection"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "background_categories"
+    },
+    {
+     "line_start": 159,
+     "line_end": 167,
+     "label": "two_dimensional_fit"
+    },
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "omega_simultaneous_fit"
+    },
+    {
+     "line_start": 171,
+     "line_end": 173,
+     "label": "signal_yield_and_significance"
+    }
+   ]
+  },
+  {
+   "line_start": 175,
+   "line_end": 189,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 177,
+     "line_end": 179,
+     "label": "tracking_pid_pi0_reconstruction"
+    },
+    {
+     "line_start": 181,
+     "line_end": 184,
+     "label": "fit_and_selection_requirements"
+    },
+    {
+     "line_start": 186,
+     "line_end": 189,
+     "label": "mc_modeling_and_total"
+    }
+   ]
+  },
+  {
+   "line_start": 191,
+   "line_end": 197,
+   "type": "results",
+   "title": "CP Asymmetry Results",
+   "units": [
+    {
+     "line_start": 191,
+     "line_end": 197,
+     "label": "cp_asymmetry"
+    }
+   ]
+  },
+  {
+   "line_start": 199,
+   "line_end": 203,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 205,
+   "line_end": 205,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 179,
+   "title": "ST and DT yields, signal efficiencies, and branching fractions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 8.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

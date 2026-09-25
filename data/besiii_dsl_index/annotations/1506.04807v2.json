@@ -1,0 +1,171 @@
+{
+ "paper_id": "1506.04807v2",
+ "source_path": "arxiv_papers/1506.04807v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 128,
+ "n_lines_sent": 59,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 104,
+   "to": 128,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 12,
+   "line_end": 58,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 62,
+   "line_end": 62,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 64,
+   "line_end": 66,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 68,
+   "line_end": 68,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 70,
+   "line_end": 74,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 70,
+     "line_end": 72,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "ks0_eta_reconstruction_and_kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 76,
+   "line_end": 79,
+   "type": "results",
+   "title": "Mass spectra",
+   "units": [
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "ks0ks0eta_mass_spectrum"
+    },
+    {
+     "line_start": 78,
+     "line_end": 79,
+     "label": "figure1"
+    }
+   ]
+  },
+  {
+   "line_start": 81,
+   "line_end": 81,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 83,
+   "line_end": 89,
+   "type": "fit",
+   "title": "Partial wave analysis"
+  },
+  {
+   "line_start": 91,
+   "line_end": 92,
+   "type": "fit",
+   "title": "Figure 2"
+  },
+  {
+   "line_start": 94,
+   "line_end": 94,
+   "type": "fit",
+   "title": "Additional resonances"
+  },
+  {
+   "line_start": 96,
+   "line_end": 96,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 100,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 102,
+   "line_end": 102,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

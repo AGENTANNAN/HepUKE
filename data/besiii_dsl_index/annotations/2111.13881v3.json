@@ -1,0 +1,197 @@
+{
+ "paper_id": "2111.13881v3",
+ "source_path": "arxiv_papers/2111.13881v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 242,
+ "n_lines_sent": 127,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 186,
+   "to": 242,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 13,
+   "line_end": 115,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and PACS"
+  },
+  {
+   "line_start": 117,
+   "line_end": 117,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 119,
+   "line_end": 127,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 129,
+   "line_end": 129,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 131,
+   "line_end": 139,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "pi_pi_jpsi_recoil_mass_and_4c_fit"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "background_suppression_kinematic_fits"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "background_studies"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "photon_conversion_rejection"
+    }
+   ]
+  },
+  {
+   "line_start": 141,
+   "line_end": 150,
+   "type": "fit",
+   "title": "Signal yield determination"
+  },
+  {
+   "line_start": 152,
+   "line_end": 164,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "overview"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "tracking_and_pid_electrons"
+    },
+    {
+     "line_start": 156,
+     "line_end": 158,
+     "label": "table1"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "tracking_and_pid_muons_pions_normalization"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "fit_related_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 166,
+   "line_end": 166,
+   "type": "results",
+   "title": "Upper limit on branching fraction",
+   "units": [
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 168,
+   "line_end": 174,
+   "type": "results",
+   "title": "CP asymmetry measurement",
+   "units": [
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "cp_observable_definition"
+    },
+    {
+     "line_start": 170,
+     "line_end": 172,
+     "label": "asymmetry_formula"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "simultaneous_fit_results"
+    }
+   ]
+  },
+  {
+   "line_start": 176,
+   "line_end": 182,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 184,
+   "line_end": 184,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 158,
+   "title": "Observed signal yields, detection efficiencies, measured branching fractions and A_T values",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

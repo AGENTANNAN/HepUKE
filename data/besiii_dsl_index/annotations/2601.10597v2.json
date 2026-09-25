@@ -1,0 +1,200 @@
+{
+ "paper_id": "2601.10597v2",
+ "source_path": "arxiv_papers/2601.10597v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 383,
+ "n_lines_sent": 129,
+ "skipped_ranges": [
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 243,
+   "to": 383,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 141,
+   "type": "front_matter",
+   "title": "Search for sub-GeV dark particles in eta pi0 + invisible decay"
+  },
+  {
+   "line_start": 143,
+   "line_end": 143,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 145,
+   "line_end": 153,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 154,
+   "line_end": 154,
+   "type": "introduction",
+   "title": "Figure 1 caption"
+  },
+  {
+   "line_start": 156,
+   "line_end": 164,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 166,
+   "line_end": 175,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "idt_selection"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "idt_yield_fit"
+    },
+    {
+     "line_start": 170,
+     "line_end": 171,
+     "label": "figure2_caption"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "signal_selection"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 177,
+   "line_end": 185,
+   "type": "fit",
+   "title": "Signal extraction"
+  },
+  {
+   "line_start": 187,
+   "line_end": 189,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "idt_yield_uncertainty"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "signal_selection_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 191,
+   "line_end": 193,
+   "type": "results",
+   "title": "Upper limits on branching fractions",
+   "units": [
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "upper_limits"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "flavor_specific_model"
+    }
+   ]
+  },
+  {
+   "line_start": 195,
+   "line_end": 203,
+   "type": "results",
+   "title": "Figure 3 caption",
+   "units": [
+    {
+     "line_start": 195,
+     "line_end": 203,
+     "label": "mass_fit_distributions"
+    }
+   ]
+  },
+  {
+   "line_start": 205,
+   "line_end": 217,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 219,
+   "line_end": 225,
+   "type": "discussion",
+   "title": "DM-nucleon scattering cross section"
+  },
+  {
+   "line_start": 227,
+   "line_end": 228,
+   "type": "discussion",
+   "title": "Figure 4 caption"
+  },
+  {
+   "line_start": 230,
+   "line_end": 230,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 232,
+   "line_end": 233,
+   "type": "conclusion",
+   "title": "Figure 5 caption"
+  },
+  {
+   "line_start": 235,
+   "line_end": 239,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 241,
+   "line_end": 241,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 383,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 10.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

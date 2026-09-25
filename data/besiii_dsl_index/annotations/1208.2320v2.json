@@ -1,0 +1,276 @@
+{
+ "paper_id": "1208.2320v2",
+ "source_path": "arxiv_papers/1208.2320v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 533,
+ "n_lines_sent": 297,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 75,
+   "to": 75,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 499,
+   "to": 533,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 90,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 92,
+   "line_end": 96,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 98,
+   "line_end": 122,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 124,
+   "line_end": 132,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND DATA SET"
+  },
+  {
+   "line_start": 134,
+   "line_end": 168,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 136,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 138,
+     "line_end": 142,
+     "label": "photon_identification"
+    },
+    {
+     "line_start": 144,
+     "line_end": 146,
+     "label": "charged_particle_identification"
+    },
+    {
+     "line_start": 148,
+     "line_end": 150,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 152,
+     "line_end": 161,
+     "label": "final_selection_pi0"
+    },
+    {
+     "line_start": 163,
+     "line_end": 168,
+     "label": "final_selection_eta"
+    }
+   ]
+  },
+  {
+   "line_start": 170,
+   "line_end": 334,
+   "type": "fit",
+   "title": "IV. PARTIAL WAVE ANALYSIS OF ψ′ → K+ K− π0"
+  },
+  {
+   "line_start": 336,
+   "line_end": 350,
+   "type": "results",
+   "title": "V. ψ′ → π0 φ",
+   "units": [
+    {
+     "line_start": 336,
+     "line_end": 350,
+     "label": "pi0_phi_upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 352,
+   "line_end": 385,
+   "type": "fit",
+   "title": "VI. ψ′ → η K+ K−"
+  },
+  {
+   "line_start": 387,
+   "line_end": 470,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC ERRORS",
+   "units": [
+    {
+     "line_start": 387,
+     "line_end": 396,
+     "label": "photon_efficiency"
+    },
+    {
+     "line_start": 398,
+     "line_end": 402,
+     "label": "kaon_tracking_pid"
+    },
+    {
+     "line_start": 404,
+     "line_end": 406,
+     "label": "number_of_psi_prime_events"
+    },
+    {
+     "line_start": 408,
+     "line_end": 412,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 414,
+     "line_end": 416,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 418,
+     "line_end": 420,
+     "label": "pi0_mass_window"
+    },
+    {
+     "line_start": 422,
+     "line_end": 424,
+     "label": "fit_uncertainty"
+    },
+    {
+     "line_start": 426,
+     "line_end": 428,
+     "label": "qed_backgrounds"
+    },
+    {
+     "line_start": 430,
+     "line_end": 434,
+     "label": "additional_resonances_etaKK"
+    },
+    {
+     "line_start": 436,
+     "line_end": 446,
+     "label": "breit_wigner_form"
+    },
+    {
+     "line_start": 448,
+     "line_end": 450,
+     "label": "additional_resonances_pwa"
+    },
+    {
+     "line_start": 452,
+     "line_end": 454,
+     "label": "non_kkpi_background"
+    },
+    {
+     "line_start": 456,
+     "line_end": 458,
+     "label": "qed_background_pwa"
+    },
+    {
+     "line_start": 460,
+     "line_end": 462,
+     "label": "k1680_rho1700_widths"
+    },
+    {
+     "line_start": 464,
+     "line_end": 470,
+     "label": "k892_k1430_mass_width"
+    }
+   ]
+  },
+  {
+   "line_start": 472,
+   "line_end": 476,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 478,
+   "line_end": 494,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  },
+  {
+   "line_start": 496,
+   "line_end": 498,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 257,
+   "title": "Significance and number of events of each resonance under the best solution",
+   "section_type": "fit"
+  },
+  {
+   "line": 261,
+   "title": "Significance for additional resonance",
+   "section_type": "fit"
+  },
+  {
+   "line": 480,
+   "title": "Summary of all systematic errors",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 484,
+   "title": "Summary of systematic uncertainties from the PWA",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 492,
+   "title": "Summary of the measured branching fractions compared with PDG, CLEO and BESII measurements",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

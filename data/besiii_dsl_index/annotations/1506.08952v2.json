@@ -1,0 +1,261 @@
+{
+ "paper_id": "1506.08952v2",
+ "source_path": "arxiv_papers/1506.08952v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 228,
+ "n_lines_sent": 98,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 203,
+   "to": 228,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 55,
+   "type": "front_matter",
+   "title": "Measurement of the branching fractions of D_s^+ -> eta' X and D_s^+ -> eta' rho^+"
+  },
+  {
+   "line_start": 57,
+   "line_end": 61,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 63,
+   "line_end": 67,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 69,
+   "line_end": 75,
+   "type": "detector",
+   "title": "2. Data Sample And Detector"
+  },
+  {
+   "line_start": 77,
+   "line_end": 141,
+   "type": "event_selection",
+   "title": "3. Data Analysis",
+   "units": [
+    {
+     "line_start": 77,
+     "line_end": 79,
+     "label": "introduction"
+    },
+    {
+     "line_start": 81,
+     "line_end": 107,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 109,
+     "line_end": 111,
+     "label": "delta_e_requirements"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "ks0_selection"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "pi0_eta_etaprime_selection"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "delta_e_cut"
+    },
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "mbc_fit_st"
+    },
+    {
+     "line_start": 127,
+     "line_end": 130,
+     "label": "figure1_st_fits"
+    },
+    {
+     "line_start": 132,
+     "line_end": 134,
+     "label": "dt_selection_and_fit"
+    },
+    {
+     "line_start": 136,
+     "line_end": 141,
+     "label": "figure2_table2"
+    }
+   ]
+  },
+  {
+   "line_start": 143,
+   "line_end": 174,
+   "type": "fit",
+   "title": "3.2. Measurement of B(D_s^+ -> eta' rho^+)"
+  },
+  {
+   "line_start": 176,
+   "line_end": 193,
+   "type": "systematic_uncertainty",
+   "title": "3.3. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 176,
+     "line_end": 178,
+     "label": "introduction"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "mdc_tracking"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "pid"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "pi0_eta_detection"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "eta_prime_mass_requirement"
+    },
+    {
+     "line_start": 185,
+     "line_end": 185,
+     "label": "eta_prime_background"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "peaking_background_st"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "mbc_signal_shape"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "mbc_fit_range"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "cos_theta_background"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "efficiency_uncertainty"
+    },
+    {
+     "line_start": 191,
+     "line_end": 193,
+     "label": "quoted_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 195,
+   "line_end": 197,
+   "type": "conclusion",
+   "title": "4. Summary and Discussion"
+  },
+  {
+   "line_start": 199,
+   "line_end": 201,
+   "type": "acknowledgements",
+   "title": "5. Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 111,
+   "title": "Requirements on Delta E' for ST D_s^- candidates",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 141,
+   "title": "Detection efficiencies and data yields of ST and DT events",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 172,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

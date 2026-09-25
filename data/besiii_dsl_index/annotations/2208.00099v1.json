@@ -1,0 +1,354 @@
+{
+ "paper_id": "2208.00099v1",
+ "source_path": "arxiv_papers/2208.00099v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 492,
+ "n_lines_sent": 321,
+ "skipped_ranges": [
+  {
+   "from": 152,
+   "to": 152,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 450,
+   "to": 492,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 177,
+   "type": "front_matter",
+   "title": "Measurement of e+e- -> pi+pi-D+D- cross sections at center-of-mass energies from 4.190 to 4.946 GeV"
+  },
+  {
+   "line_start": 179,
+   "line_end": 181,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 183,
+   "line_end": 195,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 197,
+   "line_end": 213,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 215,
+   "line_end": 265,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 215,
+     "line_end": 219,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "pid_and_proton_veto"
+    },
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "dplus_reconstruction"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "signal_and_sideband_regions"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 229,
+     "line_end": 231,
+     "label": "d0_background_veto"
+    },
+    {
+     "line_start": 233,
+     "line_end": 239,
+     "label": "b_sample_definition"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "ks0_veto"
+    },
+    {
+     "line_start": 243,
+     "line_end": 264,
+     "label": "figures"
+    },
+    {
+     "line_start": 265,
+     "line_end": 265,
+     "label": "vertex_requirements"
+    }
+   ]
+  },
+  {
+   "line_start": 267,
+   "line_end": 293,
+   "type": "fit",
+   "title": "IV. CROSS SECTIONS OF THE e+e- -> pi+pi-D+D- PROCESS"
+  },
+  {
+   "line_start": 295,
+   "line_end": 319,
+   "type": "fit",
+   "title": "V. RESONANCES IN THE e+e- -> pi+pi-D+D- CROSS SECTION LINE SHAPE"
+  },
+  {
+   "line_start": 321,
+   "line_end": 340,
+   "type": "results",
+   "title": "VI. EVIDENCE FOR e+e- -> pi+pi-X(3842)",
+   "units": [
+    {
+     "line_start": 321,
+     "line_end": 323,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 325,
+     "line_end": 331,
+     "label": "tables"
+    },
+    {
+     "line_start": 333,
+     "line_end": 333,
+     "label": "signal_search"
+    },
+    {
+     "line_start": 335,
+     "line_end": 335,
+     "label": "fit_setup"
+    },
+    {
+     "line_start": 337,
+     "line_end": 337,
+     "label": "fit_results"
+    },
+    {
+     "line_start": 339,
+     "line_end": 340,
+     "label": "figure"
+    }
+   ]
+  },
+  {
+   "line_start": 342,
+   "line_end": 350,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 342,
+     "line_end": 350,
+     "label": "introduction"
+    }
+   ]
+  },
+  {
+   "line_start": 352,
+   "line_end": 406,
+   "type": "systematic_uncertainty",
+   "title": "A. Systematic uncertainties for the e+e- -> pi+pi-D+D- cross sections",
+   "units": [
+    {
+     "line_start": 352,
+     "line_end": 356,
+     "label": "tracking_pid_luminosity_vacuum_polarization"
+    },
+    {
+     "line_start": 358,
+     "line_end": 380,
+     "label": "efficiency_correction_factors"
+    },
+    {
+     "line_start": 382,
+     "line_end": 384,
+     "label": "mass_window_requirements"
+    },
+    {
+     "line_start": 386,
+     "line_end": 386,
+     "label": "fit_range_and_background_shape"
+    },
+    {
+     "line_start": 388,
+     "line_end": 388,
+     "label": "proton_veto_and_vertex_requirements"
+    },
+    {
+     "line_start": 390,
+     "line_end": 390,
+     "label": "psi3770_and_d1_2420_shapes"
+    },
+    {
+     "line_start": 392,
+     "line_end": 392,
+     "label": "angular_distribution_modeling"
+    },
+    {
+     "line_start": 394,
+     "line_end": 394,
+     "label": "normalization_factors"
+    },
+    {
+     "line_start": 396,
+     "line_end": 398,
+     "label": "table_v"
+    },
+    {
+     "line_start": 400,
+     "line_end": 400,
+     "label": "omega_i_uncertainty"
+    },
+    {
+     "line_start": 402,
+     "line_end": 404,
+     "label": "radiative_correction_and_input_line_shapes"
+    },
+    {
+     "line_start": 406,
+     "line_end": 406,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 408,
+   "line_end": 420,
+   "type": "systematic_uncertainty",
+   "title": "B. Systematic uncertainties in resonance parameters",
+   "units": [
+    {
+     "line_start": 408,
+     "line_end": 410,
+     "label": "introduction"
+    },
+    {
+     "line_start": 412,
+     "line_end": 412,
+     "label": "absolute_sqrt_s"
+    },
+    {
+     "line_start": 414,
+     "line_end": 414,
+     "label": "sqrt_s_spread"
+    },
+    {
+     "line_start": 416,
+     "line_end": 416,
+     "label": "sqrt_s_global_shift"
+    },
+    {
+     "line_start": 418,
+     "line_end": 418,
+     "label": "cross_section_measurement"
+    },
+    {
+     "line_start": 420,
+     "line_end": 420,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 422,
+   "line_end": 430,
+   "type": "systematic_uncertainty",
+   "title": "C. Systematic uncertainties in X(3842) measurement",
+   "units": [
+    {
+     "line_start": 422,
+     "line_end": 424,
+     "label": "introduction"
+    },
+    {
+     "line_start": 426,
+     "line_end": 426,
+     "label": "fit_range_and_background_shape"
+    },
+    {
+     "line_start": 428,
+     "line_end": 428,
+     "label": "mass_window_requirements"
+    },
+    {
+     "line_start": 430,
+     "line_end": 430,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 432,
+   "line_end": 444,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 446,
+   "line_end": 448,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 211,
+   "title": "Yields and cross sections results for the e+e- -> pi+pi-D+D- process at different center-of-mass energies",
+   "section_type": "results"
+  },
+  {
+   "line": 327,
+   "title": "Fitted parameters of the cross sections with the coherent sum of two Breit-Wigner functions and a phase space term",
+   "section_type": "fit"
+  },
+  {
+   "line": 331,
+   "title": "Fitted parameters of the cross sections with the coherent sum of two Breit-Wigner functions",
+   "section_type": "fit"
+  },
+  {
+   "line": 378,
+   "title": "Results for the e+e- -> pi+pi-X(3842) -> pi+pi-D+D- process",
+   "section_type": "results"
+  },
+  {
+   "line": 398,
+   "title": "Systematic uncertainties (%) from various sources",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 442,
+   "title": "Systematic uncertainties in the measurement of the resonances parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 16.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

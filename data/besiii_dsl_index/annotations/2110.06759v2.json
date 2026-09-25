@@ -1,0 +1,185 @@
+{
+ "paper_id": "2110.06759v2",
+ "source_path": "arxiv_papers/2110.06759v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 178,
+ "n_lines_sent": 70,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 126,
+   "to": 178,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": "0006",
+   "line_end": "0049",
+   "type": "front_matter",
+   "title": "Author list, affiliations, and date"
+  },
+  {
+   "line_start": "0051",
+   "line_end": "0051",
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": "0053",
+   "line_end": "0059",
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": "0061",
+   "line_end": "0061",
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": "0063",
+   "line_end": "0063",
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": "0065",
+   "line_end": "0071",
+   "type": "event_selection",
+   "title": "Analysis strategy",
+   "units": [
+    {
+     "line_start": "0065",
+     "line_end": "0071",
+     "label": "analysis_strategy"
+    }
+   ]
+  },
+  {
+   "line_start": "0073",
+   "line_end": "0075",
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": "0073",
+     "line_end": "0073",
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": "0075",
+     "line_end": "0075",
+     "label": "lambda_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": "0077",
+   "line_end": "0080",
+   "type": "fit",
+   "title": "Single tag yield"
+  },
+  {
+   "line_start": "0082",
+   "line_end": "0082",
+   "type": "event_selection",
+   "title": "Signal selection",
+   "units": [
+    {
+     "line_start": "0082",
+     "line_end": "0082",
+     "label": "signal_selection"
+    }
+   ]
+  },
+  {
+   "line_start": "0084",
+   "line_end": "0105",
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": "0107",
+   "line_end": "0113",
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": "0107",
+     "line_end": "0107",
+     "label": "overview"
+    },
+    {
+     "line_start": "0109",
+     "line_end": "0109",
+     "label": "shower_separation_angle"
+    },
+    {
+     "line_start": "0111",
+     "line_end": "0113",
+     "label": "bin_width_and_charged_track"
+    }
+   ]
+  },
+  {
+   "line_start": "0115",
+   "line_end": "0115",
+   "type": "fit",
+   "title": "Upper limit determination"
+  },
+  {
+   "line_start": "0117",
+   "line_end": "0120",
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": "0122",
+   "line_end": "0124",
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": "0113",
+   "title": "Sources of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

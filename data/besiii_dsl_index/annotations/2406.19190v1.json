@@ -1,0 +1,230 @@
+{
+ "paper_id": "2406.19190v1",
+ "source_path": "arxiv_papers/2406.19190v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 361,
+ "n_lines_sent": 204,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 108,
+   "to": 108,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 332,
+   "to": 361,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 106,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 110,
+   "line_end": 110,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 112,
+   "line_end": 120,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 122,
+   "line_end": 126,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 128,
+   "line_end": 136,
+   "type": "event_selection",
+   "title": "III. ANALYSIS METHOD",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 136,
+     "label": "double_tag_method"
+    }
+   ]
+  },
+  {
+   "line_start": 138,
+   "line_end": 173,
+   "type": "event_selection",
+   "title": "IV. SINGLE-TAG D_s^- CANDIDATES",
+   "units": [
+    {
+     "line_start": 138,
+     "line_end": 142,
+     "label": "st_selection_criteria"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "transition_pion_suppression"
+    },
+    {
+     "line_start": 152,
+     "line_end": 158,
+     "label": "mbc_requirement"
+    },
+    {
+     "line_start": 160,
+     "line_end": 162,
+     "label": "mbc_table"
+    },
+    {
+     "line_start": 164,
+     "line_end": 173,
+     "label": "multiple_candidates_and_fits"
+    }
+   ]
+  },
+  {
+   "line_start": 175,
+   "line_end": 198,
+   "type": "event_selection",
+   "title": "V. SELECTION OF D_s^+ -> K^0 e^+ nu_e",
+   "units": [
+    {
+     "line_start": 175,
+     "line_end": 179,
+     "label": "positron_identification_and_vetoes"
+    },
+    {
+     "line_start": 181,
+     "line_end": 181,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 183,
+     "line_end": 189,
+     "label": "missing_mass"
+    },
+    {
+     "line_start": 191,
+     "line_end": 198,
+     "label": "signal_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 200,
+   "line_end": 219,
+   "type": "fit",
+   "title": "VI. BRANCHING FRACTION"
+  },
+  {
+   "line_start": 221,
+   "line_end": 315,
+   "type": "fit",
+   "title": "VII. HADRONIC FORM FACTOR"
+  },
+  {
+   "line_start": 317,
+   "line_end": 326,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 328,
+   "line_end": 330,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 162,
+   "title": "Requirements on M_BC for various energy points",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 193,
+   "title": "Fitted yields of single-tag D_s^- mesons and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 219,
+   "title": "Sources of systematic uncertainties in the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 227,
+   "title": "Efficiency matrix for D_s^+ -> K^0 e^+ nu_e",
+   "section_type": "fit"
+  },
+  {
+   "line": 283,
+   "title": "Partial decay rates of D_s^+ -> K^0 e^+ nu_e in q^2 intervals",
+   "section_type": "fit"
+  },
+  {
+   "line": 309,
+   "title": "Statistical correlation coefficients of the measured partial decay rate",
+   "section_type": "fit"
+  },
+  {
+   "line": 315,
+   "title": "Systematic correlation coefficients of the measured partial decay rate",
+   "section_type": "fit"
+  },
+  {
+   "line": 323,
+   "title": "Hadronic form factors of D_s^+ -> K^0 e^+ nu_e",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

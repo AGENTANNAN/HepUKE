@@ -1,0 +1,114 @@
+version: 1
+
+# ---------------------------------------------------------------------------
+# Copy to config.yaml and fill in your own endpoints. Every `${VAR}` is read
+# from the process environment or from a local .env file (see .env.example).
+#
+# Nothing in this release points at a hosted service. You need to supply:
+#   * a Milvus 2.x instance you control,
+#   * an OpenAI-compatible chat endpoint,
+#   * an embedding backend (local BGE-M3 weights, or a remote gateway).
+# ---------------------------------------------------------------------------
+
+milvus:
+  uri: "${MILVUS_URI}"                 # e.g. http://127.0.0.1:19530
+  token: "${MILVUS_TOKEN}"             # "user:password", or empty for anonymous
+  database: "default"
+  default_collection: "memos"
+
+# ---------------------------------------------------------------------------
+# Embedding. The experiments in the paper used the *local* BGE-M3 backend
+# (dense 1024d + sparse) so that sparse vectors are reproducible offline.
+#   provider: bge_m3_local  -> needs `pip install .[gpu]` and BAAI/bge-m3 weights
+#   provider: bge_m3_api    -> needs `pip install .[gateway]` and a remote gateway
+# ---------------------------------------------------------------------------
+embedding:
+  provider: bge_m3_local
+  local_model_path: "${BGE_M3_PATH}"   # local directory holding BAAI/bge-m3
+  base_url: "${LLM_BASE_URL}"          # only used by the bge_m3_api provider
+  api_key: "${LLM_API_KEY}"
+  model: "bge-m3"
+  dim: 1024
+  enable_sparse: true
+
+reranker:
+  enabled: true
+  provider: http
+  base_url: "${RERANK_BASE_URL}"
+  api_key: "${LLM_API_KEY}"
+  model: "bge-reranker-v2-m3"
+  top_n: 5
+
+# ---------------------------------------------------------------------------
+# LLM. Any OpenAI-compatible endpoint. The reported runs used a hosted
+# `deepseek-v4.1-flash` snapshot reached through an OpenAI-compatible gateway;
+# that identifier is frozen in the paper and is not guaranteed to resolve on
+# any particular provider today. Substitute a model of your choice and report
+# it — absolute numbers are model-dependent.
+# ---------------------------------------------------------------------------
+llm:
+  provider: openai_compatible
+  base_url: "${LLM_BASE_URL}"
+  api_key: "${LLM_API_KEY}"
+  model: "${LLM_MODEL}"
+  temperature: 0.1
+  max_tokens: 1024
+
+retrieval:
+  chunk_size: 500
+  chunk_overlap: 0
+  similarity_top_k: 5
+  with_reranker: true
+  text_search_mode: like               # `bm25` requires Milvus 2.5+
+  query_rewrite_llm_enabled: true
+  query_rewrite_n_candidates: 4
+  query_rewrite_llm_model: "${LLM_MODEL}"
+  query_rewrite_keep_original: true
+  query_rewrite_prompt_style: "generic"
+
+service:
+  host: "127.0.0.1"
+  port: 42796
+  route_prefix: "/apiv2"
+  api_key: ""                          # empty disables auth on the local service
+  persist_dir: "./storage"
+
+agent:
+  enabled: true
+  max_steps: 4
+  tool_timeout_s: 30
+  use_subagents: true
+  hypernews_db_path: ""                # internal mailing-list mirror; not released
+  parallel_tool_calls: true
+  max_parallel: 8
+  route: true
+  decompose_max_parallel: 4
+
+trace:
+  enabled: true
+  backend: sqlite
+  console: true
+  db_path: "./storage/traces.db"
+
+# ---------------------------------------------------------------------------
+# Adaptive early-stopping controller.
+#
+# `enabled: false` here on purpose: the fitted predictor/fusion checkpoints are
+# NOT part of this release. Train your own with
+#   scripts/collect_hotpotqa_trajectories.py -> scripts/train_predictor.py
+#   -> scripts/grid_search_fusion.py
+# and point the two paths below at the resulting files. The thresholds kept
+# here are the values reported in the paper, not defaults that will transfer to
+# a freshly fitted checkpoint.
+# ---------------------------------------------------------------------------
+confidence:
+  enabled: false
+  predictor_ckpt: "./storage/predictor.pkl"
+  fusion_ckpt: "./storage/fusion.pkl"
+  bocpd_hazard: 0.1
+  r_min: 2
+  top_b: 8
+  z_star: 0.70
+  epsilon: 0.01
+  delta: 0.8
+  expected_docs_per_round: 5

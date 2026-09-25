@@ -1,0 +1,162 @@
+{
+ "paper_id": "2311.01076v2",
+ "source_path": "arxiv_papers/2311.01076v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 251,
+ "n_lines_sent": 144,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 215,
+   "to": 251,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 170,
+   "type": "front_matter",
+   "title": "Search for a muonphilic scalar X0 or vector X1 via J/psi -> mu+ mu- + invisible decays at BESIII"
+  },
+  {
+   "line_start": 172,
+   "line_end": 172,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 174,
+   "line_end": 184,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 186,
+   "line_end": 186,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 188,
+   "line_end": 194,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "track_and_muon_pid"
+    },
+    {
+     "line_start": 190,
+     "line_end": 192,
+     "label": "mass_regions"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "common_selection_criteria"
+    }
+   ]
+  },
+  {
+   "line_start": 196,
+   "line_end": 202,
+   "type": "fit",
+   "title": "Fit and Signal Extraction"
+  },
+  {
+   "line_start": 204,
+   "line_end": 204,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 206,
+   "line_end": 211,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "upper_limits"
+    },
+    {
+     "line_start": 208,
+     "line_end": 211,
+     "label": "summary_and_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 213,
+   "line_end": 213,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

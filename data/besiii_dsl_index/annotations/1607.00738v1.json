@@ -1,0 +1,211 @@
+{
+ "paper_id": "1607.00738v1",
+ "source_path": "arxiv_papers/1607.00738v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 230,
+ "n_lines_sent": 130,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 55,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 215,
+   "to": 230,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 63,
+   "type": "front_matter",
+   "title": "Determination of the number of J/psi events with inclusive J/psi decays"
+  },
+  {
+   "line_start": 59,
+   "line_end": 59,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 65,
+   "line_end": 87,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 89,
+   "line_end": 112,
+   "type": "event_selection",
+   "title": "2 Inclusive J/psi selection criteria",
+   "units": [
+    {
+     "line_start": 89,
+     "line_end": 91,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 93,
+     "line_end": 96,
+     "label": "visible_energy_requirement"
+    },
+    {
+     "line_start": 98,
+     "line_end": 104,
+     "label": "bhabha_and_dimuon_rejection"
+    },
+    {
+     "line_start": 106,
+     "line_end": 112,
+     "label": "selected_event_yield_and_data_mc_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 114,
+   "line_end": 128,
+   "type": "background",
+   "title": "3 Background analysis"
+  },
+  {
+   "line_start": 130,
+   "line_end": 147,
+   "type": "fit",
+   "title": "4 Determination of the detection efficiency and correction factor"
+  },
+  {
+   "line_start": 149,
+   "line_end": 157,
+   "type": "results",
+   "title": "5 The number of J/psi events",
+   "units": [
+    {
+     "line_start": 149,
+     "line_end": 153,
+     "label": "number_of_jpsi_events_2012_and_2009"
+    },
+    {
+     "line_start": 155,
+     "line_end": 157,
+     "label": "summary_table_of_inputs"
+    }
+   ]
+  },
+  {
+   "line_start": 159,
+   "line_end": 205,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 159,
+     "line_end": 161,
+     "label": "overview"
+    },
+    {
+     "line_start": 163,
+     "line_end": 165,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 167,
+     "line_end": 173,
+     "label": "tracking"
+    },
+    {
+     "line_start": 175,
+     "line_end": 179,
+     "label": "fit_to_jpsi_peak"
+    },
+    {
+     "line_start": 181,
+     "line_end": 189,
+     "label": "background"
+    },
+    {
+     "line_start": 191,
+     "line_end": 195,
+     "label": "noise_mixing"
+    },
+    {
+     "line_start": 197,
+     "line_end": 199,
+     "label": "soft_pion_selection_efficiency"
+    },
+    {
+     "line_start": 201,
+     "line_end": 205,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 207,
+   "line_end": 211,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 213,
+   "line_end": 213,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 87,
+   "title": "Data samples used in the determination of the number of J/psi events collected in 2009 and 2012",
+   "section_type": "introduction"
+  },
+  {
+   "line": 157,
+   "title": "Summary of the values used in the calculation and the resulting number of J/psi events",
+   "section_type": "results"
+  },
+  {
+   "line": 205,
+   "title": "Summary of systematic sources and the corresponding contributions on the number of J/psi events",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-63 / 59-59"
+ ],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

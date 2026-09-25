@@ -1,0 +1,309 @@
+{
+ "paper_id": "1610.02479v3",
+ "source_path": "arxiv_papers/1610.02479v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 480,
+ "n_lines_sent": 265,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 107,
+   "to": 107,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 122,
+   "to": 122,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 448,
+   "to": 480,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 123,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 124,
+   "line_end": 125,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 127,
+   "line_end": 141,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 143,
+   "line_end": 202,
+   "type": "event_selection",
+   "title": "II. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 143,
+     "line_end": 147,
+     "label": "data_and_mc_samples"
+    },
+    {
+     "line_start": 149,
+     "line_end": 153,
+     "label": "detector_and_reconstruction"
+    },
+    {
+     "line_start": 155,
+     "line_end": 169,
+     "label": "chi_c1_eta_pi_pi_selection"
+    },
+    {
+     "line_start": 171,
+     "line_end": 177,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 179,
+     "line_end": 185,
+     "label": "background_subtraction"
+    },
+    {
+     "line_start": 187,
+     "line_end": 202,
+     "label": "two_body_structures"
+    }
+   ]
+  },
+  {
+   "line_start": 204,
+   "line_end": 205,
+   "type": "other",
+   "title": "Figure 2 caption"
+  },
+  {
+   "line_start": 207,
+   "line_end": 291,
+   "type": "fit",
+   "title": "III. AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 293,
+   "line_end": 398,
+   "type": "results",
+   "title": "IV. RESULTS",
+   "units": [
+    {
+     "line_start": 293,
+     "line_end": 299,
+     "label": "baseline_fit"
+    },
+    {
+     "line_start": 301,
+     "line_end": 309,
+     "label": "pi_pi_s_wave_model"
+    },
+    {
+     "line_start": 311,
+     "line_end": 314,
+     "label": "figure_5_caption"
+    },
+    {
+     "line_start": 316,
+     "line_end": 318,
+     "label": "table_ii_caption"
+    },
+    {
+     "line_start": 320,
+     "line_end": 335,
+     "label": "a2_1700_signature"
+    },
+    {
+     "line_start": 337,
+     "line_end": 355,
+     "label": "a0_980_parameters"
+    },
+    {
+     "line_start": 357,
+     "line_end": 370,
+     "label": "exotic_eta_pi_states"
+    },
+    {
+     "line_start": 372,
+     "line_end": 398,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 400,
+   "line_end": 424,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 400,
+     "line_end": 408,
+     "label": "overview"
+    },
+    {
+     "line_start": 410,
+     "line_end": 410,
+     "label": "tracking_and_photon_detection"
+    },
+    {
+     "line_start": 412,
+     "line_end": 412,
+     "label": "m2_e1_transition"
+    },
+    {
+     "line_start": 414,
+     "line_end": 416,
+     "label": "amplitude_modeling"
+    },
+    {
+     "line_start": 418,
+     "line_end": 420,
+     "label": "background_and_selection"
+    },
+    {
+     "line_start": 422,
+     "line_end": 424,
+     "label": "table_vi_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 426,
+   "line_end": 438,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 440,
+   "line_end": 446,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 167,
+   "title": "Characteristics of the eta decay channels",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 318,
+   "title": "Fractional intensities and significances of amplitudes",
+   "section_type": "results"
+  },
+  {
+   "line": 366,
+   "title": "Mass and width of the a2(1700)",
+   "section_type": "results"
+  },
+  {
+   "line": 392,
+   "title": "Parameters of the a0(980)",
+   "section_type": "results"
+  },
+  {
+   "line": 406,
+   "title": "Comparison of branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 424,
+   "title": "Systematic uncertainties in branching fraction",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 432,
+   "title": "Systematic uncertainties in fractional contributions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

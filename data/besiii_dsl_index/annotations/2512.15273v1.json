@@ -1,0 +1,146 @@
+{
+ "paper_id": "2512.15273v1",
+ "source_path": "arxiv_papers/2512.15273v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 285,
+ "n_lines_sent": 124,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 231,
+   "to": 285,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 111,
+   "type": "front_matter",
+   "title": "Measurements of the Absolute Branching Fraction of the Semileptonic Decay Ξ− → Λe−ν̄e and the Axial Charge of the Ξ−"
+  },
+  {
+   "line_start": 113,
+   "line_end": 113,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 115,
+   "line_end": 123,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 125,
+   "line_end": 125,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 127,
+   "line_end": 211,
+   "type": "event_selection",
+   "title": "Event Selection and Analysis",
+   "units": [
+    {
+     "line_start": 127,
+     "line_end": 133,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 135,
+     "line_end": 141,
+     "label": "angular_analysis_formalism"
+    },
+    {
+     "line_start": 143,
+     "line_end": 151,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 153,
+     "line_end": 160,
+     "label": "st_fit_and_yields"
+    },
+    {
+     "line_start": 162,
+     "line_end": 166,
+     "label": "dt_selection_and_background_suppression"
+    },
+    {
+     "line_start": 168,
+     "line_end": 193,
+     "label": "u_miss_fit"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "bf_calculation"
+    },
+    {
+     "line_start": 197,
+     "line_end": 211,
+     "label": "g_av_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 213,
+   "line_end": 220,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "bf_systematics"
+    },
+    {
+     "line_start": 215,
+     "line_end": 220,
+     "label": "g_av_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 222,
+   "line_end": 225,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 227,
+   "line_end": 227,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 229,
+   "line_end": 229,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 160,
+   "title": "ST and DT yields, efficiencies, BF and g_av results",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 12.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

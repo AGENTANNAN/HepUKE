@@ -1,0 +1,195 @@
+{
+ "paper_id": "2407.20009v1",
+ "source_path": "arxiv_papers/2407.20009v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 144,
+ "n_lines_sent": 45,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 110,
+   "to": 144,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 7,
+   "line_end": 21,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 36,
+   "line_end": 36,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 38,
+   "line_end": 44,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 46,
+   "line_end": 46,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 48,
+   "line_end": 61,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "partial_reconstruction_overview"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "approach_i"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "approach_ii"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "approach_iii"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "approach_iv"
+    },
+    {
+     "line_start": 58,
+     "line_end": 61,
+     "label": "signal_yield_extraction"
+    }
+   ]
+  },
+  {
+   "line_start": 63,
+   "line_end": 86,
+   "type": "fit",
+   "title": "Cross Section and Fit"
+  },
+  {
+   "line_start": 88,
+   "line_end": 90,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 88,
+     "line_end": 90,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 92,
+   "line_end": 96,
+   "type": "results",
+   "title": "Search for Z_cs",
+   "units": [
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "zcs_search_intro"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "simultaneous_fit"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "fit_results"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 98,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 100,
+   "line_end": 104,
+   "type": "other",
+   "title": "Figure captions"
+  },
+  {
+   "line_start": 106,
+   "line_end": 108,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 3.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

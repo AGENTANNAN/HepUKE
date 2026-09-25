@@ -1,0 +1,171 @@
+{
+ "paper_id": "2507.10331v2",
+ "source_path": "arxiv_papers/2507.10331v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 303,
+ "n_lines_sent": 67,
+ "skipped_ranges": [
+  {
+   "from": 119,
+   "to": 303,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Search for the charged lepton flavor violating decay ψ(3686) → e±μ∓"
+  },
+  {
+   "line_start": 5,
+   "line_end": 9,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 11,
+   "line_end": 19,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 21,
+   "line_end": 25,
+   "type": "detector",
+   "title": "2. BESIII Detector and data samples"
+  },
+  {
+   "line_start": 27,
+   "line_end": 56,
+   "type": "event_selection",
+   "title": "3. Event Selection",
+   "units": [
+    {
+     "line_start": 27,
+     "line_end": 29,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 31,
+     "line_end": 31,
+     "label": "pid"
+    },
+    {
+     "line_start": 33,
+     "line_end": 37,
+     "label": "pid_figures"
+    },
+    {
+     "line_start": 39,
+     "line_end": 39,
+     "label": "bhabha_veto"
+    },
+    {
+     "line_start": 41,
+     "line_end": 41,
+     "label": "opening_angle"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "photon_veto"
+    },
+    {
+     "line_start": 45,
+     "line_end": 51,
+     "label": "signal_region_fom"
+    },
+    {
+     "line_start": 53,
+     "line_end": 56,
+     "label": "efficiency_and_yield"
+    }
+   ]
+  },
+  {
+   "line_start": 58,
+   "line_end": 70,
+   "type": "background",
+   "title": "4. Background study"
+  },
+  {
+   "line_start": 72,
+   "line_end": 74,
+   "type": "systematic_uncertainty",
+   "title": "5. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 72,
+     "line_end": 74,
+     "label": "systematic_sources"
+    }
+   ]
+  },
+  {
+   "line_start": 76,
+   "line_end": 100,
+   "type": "results",
+   "title": "6. Results",
+   "units": [
+    {
+     "line_start": 76,
+     "line_end": 78,
+     "label": "observed_events"
+    },
+    {
+     "line_start": 80,
+     "line_end": 82,
+     "label": "systematic_table"
+    },
+    {
+     "line_start": 84,
+     "line_end": 96,
+     "label": "likelihood_fit"
+    },
+    {
+     "line_start": 98,
+     "line_end": 100,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 113,
+   "type": "conclusion",
+   "title": "7. Summary"
+  },
+  {
+   "line_start": 115,
+   "line_end": 117,
+   "type": "acknowledgements",
+   "title": "8. Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 82,
+   "title": "Summary of systematic uncertainties from all considered sources",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 108,
+   "title": "The values of the parameters for the likelihood function in Eq. (3)",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-9 / 5-9"
+ ],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

@@ -1,0 +1,160 @@
+{
+ "paper_id": "2204.07800v3",
+ "source_path": "arxiv_papers/2204.07800v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 233,
+ "n_lines_sent": 86,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 183,
+   "to": 233,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 18,
+   "line_end": 39,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 41,
+   "line_end": 49,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 51,
+   "line_end": 59,
+   "type": "event_selection",
+   "title": "II. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 51,
+     "line_end": 53,
+     "label": "detector_and_mc"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "signal_extraction"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "intermediate_states"
+    }
+   ]
+  },
+  {
+   "line_start": 61,
+   "line_end": 102,
+   "type": "fit",
+   "title": "III. BORN CROSS SECTION AND RESONANT PARAMETER"
+  },
+  {
+   "line_start": 104,
+   "line_end": 110,
+   "type": "conclusion",
+   "title": "IV. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 112,
+   "line_end": 114,
+   "type": "results",
+   "title": "TABLE II",
+   "units": [
+    {
+     "line_start": 112,
+     "line_end": 114,
+     "label": "branching_fraction_ratios"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 120,
+   "type": "acknowledgements",
+   "title": "V. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 122,
+   "line_end": 181,
+   "type": "other",
+   "title": "APPENDIX"
+  }
+ ],
+ "tables": [
+  {
+   "line": 96,
+   "title": "Fitted parameters of the two resonant structures",
+   "section_type": "fit"
+  },
+  {
+   "line": 114,
+   "title": "Ratios between branching fractions of Y(4230) decaying into KKJ/psi and pi pi J/psi",
+   "section_type": "results"
+  },
+  {
+   "line": 170,
+   "title": "Born cross sections and related quantities",
+   "section_type": "other"
+  },
+  {
+   "line": 174,
+   "title": "Systematic uncertainties in the measurement of Born cross sections",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 178,
+   "title": "Systematic uncertainty in the measurement of resonance parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

@@ -1,0 +1,335 @@
+{
+ "paper_id": "1907.06015v1",
+ "source_path": "arxiv_papers/1907.06015v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 322,
+ "n_lines_sent": 194,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 304,
+   "to": 322,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 113,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 115,
+   "line_end": 117,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 119,
+   "line_end": 133,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 135,
+   "line_end": 139,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 141,
+   "line_end": 155,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "momentum_suppression"
+    },
+    {
+     "line_start": 145,
+     "line_end": 146,
+     "label": "figure1_momentum_spectrum"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "phi_kk_selection"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "invariant_mass_distribution"
+    },
+    {
+     "line_start": 154,
+     "line_end": 155,
+     "label": "figure2_invariant_mass"
+    }
+   ]
+  },
+  {
+   "line_start": 157,
+   "line_end": 186,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELDS"
+  },
+  {
+   "line_start": 188,
+   "line_end": 212,
+   "type": "event_selection",
+   "title": "V. SELECTION EFFICIENCY",
+   "units": [
+    {
+     "line_start": 188,
+     "line_end": 194,
+     "label": "phi_kk_efficiency"
+    },
+    {
+     "line_start": 196,
+     "line_end": 197,
+     "label": "figure4_fit"
+    },
+    {
+     "line_start": 199,
+     "line_end": 203,
+     "label": "kkkk_efficiency"
+    },
+    {
+     "line_start": 205,
+     "line_end": 206,
+     "label": "combined_efficiency_formula"
+    },
+    {
+     "line_start": 209,
+     "line_end": 210,
+     "label": "figure5_invariant_mass"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "efficiency_definition"
+    }
+   ]
+  },
+  {
+   "line_start": 214,
+   "line_end": 243,
+   "type": "results",
+   "title": "VI. DETERMINATION OF THE BORN CROSS SECTION",
+   "units": [
+    {
+     "line_start": 214,
+     "line_end": 217,
+     "label": "figure6_momentum_spectra"
+    },
+    {
+     "line_start": 219,
+     "line_end": 223,
+     "label": "born_cross_section_formula"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "cross_section_parameters"
+    },
+    {
+     "line_start": 227,
+     "line_end": 233,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 235,
+     "line_end": 235,
+     "label": "cross_section_results"
+    },
+    {
+     "line_start": 237,
+     "line_end": 239,
+     "label": "table1_kkkk_cross_sections"
+    },
+    {
+     "line_start": 241,
+     "line_end": 243,
+     "label": "table2_phi_kk_cross_sections"
+    }
+   ]
+  },
+  {
+   "line_start": 245,
+   "line_end": 287,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 245,
+     "line_end": 247,
+     "label": "introduction"
+    },
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "tracking"
+    },
+    {
+     "line_start": 253,
+     "line_end": 253,
+     "label": "pid"
+    },
+    {
+     "line_start": 255,
+     "line_end": 255,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "fit_procedure_intro"
+    },
+    {
+     "line_start": 259,
+     "line_end": 259,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 261,
+     "line_end": 261,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 263,
+     "line_end": 265,
+     "label": "table3_systematics_kkkk"
+    },
+    {
+     "line_start": 267,
+     "line_end": 269,
+     "label": "table4_systematics_phi_kk"
+    },
+    {
+     "line_start": 271,
+     "line_end": 271,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 273,
+     "line_end": 273,
+     "label": "isr_factor"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "vp_factor"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 279,
+     "line_end": 281,
+     "label": "weighted_detection_efficiency"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 285,
+     "line_end": 285,
+     "label": "other_systematics"
+    },
+    {
+     "line_start": 287,
+     "line_end": 287,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 289,
+   "line_end": 295,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 297,
+   "line_end": 299,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 301,
+   "line_end": 302,
+   "type": "other",
+   "title": "Figure 7"
+  }
+ ],
+ "tables": [
+  {
+   "line": 239,
+   "title": "Born cross sections of e+e- -> K+K-K+K-",
+   "section_type": "results"
+  },
+  {
+   "line": 243,
+   "title": "Born cross sections of e+e- -> phi K+K-",
+   "section_type": "results"
+  },
+  {
+   "line": 265,
+   "title": "Relative systematic uncertainties for K+K-K+K-",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 269,
+   "title": "Relative systematic uncertainties for phi K+K-",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 188-212 before line 209"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

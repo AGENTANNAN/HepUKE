@@ -1,0 +1,183 @@
+{
+ "paper_id": "2205.04809v2",
+ "source_path": "arxiv_papers/2205.04809v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 271,
+ "n_lines_sent": 191,
+ "skipped_ranges": [
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 107,
+   "to": 107,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 125,
+   "to": 125,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 249,
+   "to": 271,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": "0001",
+   "line_end": "0132",
+   "type": "front_matter",
+   "title": "Luminosities and energies of e+e- collision data taken between sqrt(s)=4.61 GeV and 4.95 GeV at BESIII"
+  },
+  {
+   "line_start": "0134",
+   "line_end": "0136",
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": "0138",
+   "line_end": "0144",
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": "0146",
+   "line_end": "0150",
+   "type": "detector",
+   "title": "2 The BESIII detector and MC simulations"
+  },
+  {
+   "line_start": "0152",
+   "line_end": "0186",
+   "type": "fit",
+   "title": "3 Measurement of center-of-mass energies"
+  },
+  {
+   "line_start": "0188",
+   "line_end": "0241",
+   "type": "event_selection",
+   "title": "4 Measurement of integrated luminosities",
+   "units": [
+    {
+     "line_start": "0188",
+     "line_end": "0196",
+     "label": "luminosity_formula_and_generator"
+    },
+    {
+     "line_start": "0198",
+     "line_end": "0200",
+     "label": "bhabha_event_selection"
+    },
+    {
+     "line_start": "0202",
+     "line_end": "0204",
+     "label": "table1_results"
+    },
+    {
+     "line_start": "0206",
+     "line_end": "0208",
+     "label": "table2_systematics_ecms"
+    },
+    {
+     "line_start": "0210",
+     "line_end": "0214",
+     "label": "figures3_4_data_mc_comparison"
+    },
+    {
+     "line_start": "0216",
+     "line_end": "0218",
+     "label": "signal_yield_extraction"
+    },
+    {
+     "line_start": "0220",
+     "line_end": "0224",
+     "label": "table3_generator_config"
+    },
+    {
+     "line_start": "0226",
+     "line_end": "0226",
+     "label": "tracking_and_selection_efficiency"
+    },
+    {
+     "line_start": "0228",
+     "line_end": "0230",
+     "label": "table4_systematics_luminosity"
+    },
+    {
+     "line_start": "0232",
+     "line_end": "0232",
+     "label": "saturation_sample_systematic"
+    },
+    {
+     "line_start": "0234",
+     "line_end": "0235",
+     "label": "figure5_phnorm_fit"
+    },
+    {
+     "line_start": "0237",
+     "line_end": "0237",
+     "label": "generator_and_mc_statistics"
+    },
+    {
+     "line_start": "0239",
+     "line_end": "0239",
+     "label": "ecms_uncertainty_on_cross_section"
+    },
+    {
+     "line_start": "0241",
+     "line_end": "0241",
+     "label": "di_photon_cross_check"
+    }
+   ]
+  },
+  {
+   "line_start": "0243",
+   "line_end": "0245",
+   "type": "conclusion",
+   "title": "5 Summary"
+  },
+  {
+   "line_start": "0247",
+   "line_end": "0247",
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": "0204",
+   "title": "Numerical results for Ecms, integrated luminosities and their ratio",
+   "section_type": "results"
+  },
+  {
+   "line": "0208",
+   "title": "Systematic uncertainties for the Ecms measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": "0224",
+   "title": "Configuration of the BabaYaga@NLO generator",
+   "section_type": "event_selection"
+  },
+  {
+   "line": "0230",
+   "title": "Systematic uncertainties on the luminosity measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

@@ -1,0 +1,246 @@
+{
+ "paper_id": "2408.17071v2",
+ "source_path": "arxiv_papers/2408.17071v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 421,
+ "n_lines_sent": 210,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 115,
+   "to": 115,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 119,
+   "to": 119,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 201,
+   "to": 201,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 219,
+   "to": 219,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 225,
+   "to": 225,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 377,
+   "to": 421,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 245,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 247,
+   "line_end": 249,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 251,
+   "line_end": 268,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 270,
+   "line_end": 278,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 280,
+   "line_end": 294,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 280,
+     "line_end": 282,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 284,
+     "line_end": 284,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 286,
+     "line_end": 286,
+     "label": "particle_identification"
+    },
+    {
+     "line_start": 288,
+     "line_end": 290,
+     "label": "jpsi_reconstruction"
+    },
+    {
+     "line_start": 292,
+     "line_end": 292,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 294,
+     "line_end": 294,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 296,
+   "line_end": 315,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELDS"
+  },
+  {
+   "line_start": 317,
+   "line_end": 352,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 317,
+     "line_end": 319,
+     "label": "overview"
+    },
+    {
+     "line_start": 321,
+     "line_end": 321,
+     "label": "number_of_psi3686_events"
+    },
+    {
+     "line_start": 322,
+     "line_end": 322,
+     "label": "tracking"
+    },
+    {
+     "line_start": 324,
+     "line_end": 324,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 325,
+     "line_end": 325,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 326,
+     "line_end": 326,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 327,
+     "line_end": 327,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 328,
+     "line_end": 334,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 336,
+     "line_end": 336,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 338,
+     "line_end": 338,
+     "label": "multiplicative_summary"
+    },
+    {
+     "line_start": 340,
+     "line_end": 340,
+     "label": "additive_overview"
+    },
+    {
+     "line_start": 342,
+     "line_end": 342,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 343,
+     "line_end": 343,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 344,
+     "line_end": 344,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 346,
+     "line_end": 352,
+     "label": "upper_limit_incorporation"
+    }
+   ]
+  },
+  {
+   "line_start": 354,
+   "line_end": 369,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 371,
+   "line_end": 375,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 362,
+   "title": "Multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

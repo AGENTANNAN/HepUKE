@@ -1,0 +1,209 @@
+{
+ "paper_id": "1811.02911v2",
+ "source_path": "arxiv_papers/1811.02911v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 157,
+ "n_lines_sent": 84,
+ "skipped_ranges": [
+  {
+   "from": 127,
+   "to": 157,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 32,
+   "type": "front_matter",
+   "title": "Title, authors, collaboration, abstract, PACS"
+  },
+  {
+   "line_start": 34,
+   "line_end": 36,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 38,
+   "line_end": 38,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 40,
+   "line_end": 54,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 40,
+     "line_end": 40,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 42,
+     "line_end": 52,
+     "label": "yield_equations"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "selection_criteria"
+    }
+   ]
+  },
+  {
+   "line_start": 56,
+   "line_end": 58,
+   "type": "event_selection",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 56,
+     "line_end": 58,
+     "label": "st_yields_table"
+    }
+   ]
+  },
+  {
+   "line_start": 60,
+   "line_end": 88,
+   "type": "fit",
+   "title": "ST and DT yield extraction"
+  },
+  {
+   "line_start": 90,
+   "line_end": 90,
+   "type": "results",
+   "title": "Branching fraction results",
+   "units": [
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "branching_fraction_results"
+    }
+   ]
+  },
+  {
+   "line_start": 92,
+   "line_end": 98,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "k_reconstruction"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "mm2_fit"
+    },
+    {
+     "line_start": 92,
+     "line_end": 98,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "e_gamma_max"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "m_k_e_requirement"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "mc_signal_modeling"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "n_st"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "tag_dependence"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "s_wave_component"
+    }
+   ]
+  },
+  {
+   "line_start": 100,
+   "line_end": 113,
+   "type": "fit",
+   "title": "Form factor fits"
+  },
+  {
+   "line_start": 115,
+   "line_end": 117,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 119,
+   "line_end": 125,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 58,
+   "title": "ST yields and mass windows",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 96,
+   "title": "Form factor fit results",
+   "section_type": "fit"
+  },
+  {
+   "line": 123,
+   "title": "Ratios of form factors",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 6.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 92-98 share boundary line 92",
+  "units of 92-98 share boundary line 92",
+  "units of 92-98 share boundary line 92",
+  "units of 92-98 share boundary line 98",
+  "units of 92-98 share boundary line 98",
+  "units of 92-98 share boundary line 98",
+  "units of 92-98 share boundary line 98",
+  "units of 92-98 share boundary line 98",
+  "units of 92-98 share boundary line 98",
+  "units of 92-98 share boundary line 98"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": [],
+ "units_repaired": true
+}

@@ -1,0 +1,232 @@
+{
+ "paper_id": "2307.14633v1",
+ "source_path": "arxiv_papers/2307.14633v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 220,
+ "n_lines_sent": 99,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 171,
+   "to": 220,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 44,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 46,
+   "line_end": 46,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 48,
+   "line_end": 62,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 64,
+   "line_end": 72,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND DATA SET"
+  },
+  {
+   "line_start": 74,
+   "line_end": 91,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 74,
+     "line_end": 76,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 84,
+     "line_end": 87,
+     "label": "f0_980_mass_window"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "background_studies"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 106,
+   "type": "fit",
+   "title": "IV. BRANCHING-FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 108,
+   "line_end": 148,
+   "type": "systematic_uncertainty",
+   "title": "V. BRANCHING-FRACTION SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 108,
+     "line_end": 110,
+     "label": "overview"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "electron_tracking_and_pid"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "e_over_p_requirement"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "pion_tracking_and_photon_detection"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "ntrack_requirement"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "photon_conversion_veto"
+    },
+    {
+     "line_start": 122,
+     "line_end": 122,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 124,
+     "line_end": 130,
+     "label": "interference_effects"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "f0_980_mass_window"
+    },
+    {
+     "line_start": 134,
+     "line_end": 136,
+     "label": "fit_range_and_sideband"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "pi0_mass_window"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "custom_generator_and_tff"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "normalization"
+    },
+    {
+     "line_start": 144,
+     "line_end": 148,
+     "label": "summary_and_table"
+    }
+   ]
+  },
+  {
+   "line_start": 150,
+   "line_end": 161,
+   "type": "fit",
+   "title": "VI. TRANSITION FORM FACTOR MEASUREMENT"
+  },
+  {
+   "line_start": 163,
+   "line_end": 165,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 167,
+   "line_end": 169,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 148,
+   "title": "Relative systematic uncertainties in the branching-fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

@@ -1,0 +1,255 @@
+{
+ "paper_id": "2208.04507v3",
+ "source_path": "arxiv_papers/2208.04507v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 651,
+ "n_lines_sent": 277,
+ "skipped_ranges": [
+  {
+   "from": 470,
+   "to": 651,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Title and abstract"
+  },
+  {
+   "line_start": 5,
+   "line_end": 38,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 42,
+   "line_end": 48,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 50,
+   "line_end": 56,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 58,
+   "line_end": 74,
+   "type": "event_selection",
+   "title": "3 Event selection and background analysis",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 60,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 62,
+     "line_end": 74,
+     "label": "kinematic_fit_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 76,
+   "line_end": 242,
+   "type": "fit",
+   "title": "4 Amplitude analysis"
+  },
+  {
+   "line_start": 244,
+   "line_end": 310,
+   "type": "results",
+   "title": "5 Born cross section",
+   "units": [
+    {
+     "line_start": 244,
+     "line_end": 284,
+     "label": "isr_correction_factor"
+    },
+    {
+     "line_start": 286,
+     "line_end": 294,
+     "label": "born_cross_section_omega_pi_pi"
+    },
+    {
+     "line_start": 296,
+     "line_end": 310,
+     "label": "intermediate_subprocess_cross_sections"
+    }
+   ]
+  },
+  {
+   "line_start": 312,
+   "line_end": 363,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 312,
+     "line_end": 318,
+     "label": "f0_500_parameterization"
+    },
+    {
+     "line_start": 320,
+     "line_end": 323,
+     "label": "f0_980_parameters"
+    },
+    {
+     "line_start": 325,
+     "line_end": 325,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 327,
+     "line_end": 327,
+     "label": "insignificant_resonances"
+    },
+    {
+     "line_start": 329,
+     "line_end": 329,
+     "label": "background_contamination"
+    },
+    {
+     "line_start": 331,
+     "line_end": 335,
+     "label": "total_systematic_intermediate"
+    },
+    {
+     "line_start": 337,
+     "line_end": 341,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 343,
+     "line_end": 343,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 345,
+     "line_end": 349,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 351,
+     "line_end": 351,
+     "label": "pi0_mass_window"
+    },
+    {
+     "line_start": 353,
+     "line_end": 353,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 355,
+     "line_end": 355,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 357,
+     "line_end": 357,
+     "label": "luminosity_and_branching_fraction"
+    },
+    {
+     "line_start": 359,
+     "line_end": 359,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 361,
+     "line_end": 361,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 363,
+     "line_end": 363,
+     "label": "total_systematic_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 365,
+   "line_end": 455,
+   "type": "fit",
+   "title": "7 Fit to the line shapes"
+  },
+  {
+   "line_start": 457,
+   "line_end": 459,
+   "type": "conclusion",
+   "title": "8 Conclusion and discussion"
+  },
+  {
+   "line_start": 461,
+   "line_end": 468,
+   "type": "acknowledgements",
+   "title": "9 Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 92,
+   "title": "Definitions of helicity angles and amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 232,
+   "title": "Masses, widths and significances of intermediate states",
+   "section_type": "fit"
+  },
+  {
+   "line": 240,
+   "title": "Signal yields of subprocesses",
+   "section_type": "fit"
+  },
+  {
+   "line": 302,
+   "title": "Summary of signal yields, luminosities, ISR factors, efficiencies and Born cross sections",
+   "section_type": "results"
+  },
+  {
+   "line": 333,
+   "title": "Born cross sections for subprocesses",
+   "section_type": "results"
+  },
+  {
+   "line": 347,
+   "title": "Systematic uncertainties for cross section measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 397,
+   "title": "Resonance parameters from fit to omega pi+ pi- cross section",
+   "section_type": "fit"
+  },
+  {
+   "line": 416,
+   "title": "Cross sections of e+ e- -> omega pi pi",
+   "section_type": "results"
+  },
+  {
+   "line": 420,
+   "title": "Resonance parameters from fit to omega pi pi cross section",
+   "section_type": "fit"
+  },
+  {
+   "line": 455,
+   "title": "Gamma_ee * Br values from simultaneous fit",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

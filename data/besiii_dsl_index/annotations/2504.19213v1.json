@@ -1,0 +1,290 @@
+{
+ "paper_id": "2504.19213v1",
+ "source_path": "arxiv_papers/2504.19213v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 285,
+ "n_lines_sent": 138,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 85,
+   "to": 85,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 87,
+   "to": 87,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 97,
+   "to": 97,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 257,
+   "to": 285,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 4,
+   "line_end": 95,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 99,
+   "line_end": 99,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 101,
+   "line_end": 101,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 103,
+   "line_end": 103,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 105,
+   "line_end": 109,
+   "type": "introduction",
+   "title": "Introduction (continued)"
+  },
+  {
+   "line_start": 111,
+   "line_end": 111,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 113,
+   "line_end": 113,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 115,
+   "line_end": 129,
+   "type": "fit",
+   "title": "III. MEASUREMENT METHOD"
+  },
+  {
+   "line_start": 131,
+   "line_end": 139,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 131,
+     "line_end": 133,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "d0_to_kpi_background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 141,
+   "line_end": 166,
+   "type": "fit",
+   "title": "V. YIELDS OF SINGLE-TAG D MESONS"
+  },
+  {
+   "line_start": 168,
+   "line_end": 194,
+   "type": "fit",
+   "title": "VI. YIELDS OF DOUBLE-TAG EVENTS"
+  },
+  {
+   "line_start": 196,
+   "line_end": 237,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 196,
+     "line_end": 200,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 202,
+     "line_end": 211,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "delta_e_sig_requirement"
+    },
+    {
+     "line_start": 217,
+     "line_end": 220,
+     "label": "ks0_rejection"
+    },
+    {
+     "line_start": 222,
+     "line_end": 222,
+     "label": "mixing_mc_model"
+    },
+    {
+     "line_start": 224,
+     "line_end": 226,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "pi0_bf"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "2d_fit"
+    },
+    {
+     "line_start": 232,
+     "line_end": 237,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 239,
+   "line_end": 241,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 243,
+   "line_end": 249,
+   "type": "results",
+   "title": "Results tables",
+   "units": [
+    {
+     "line_start": 243,
+     "line_end": 245,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 247,
+     "line_end": 249,
+     "label": "bf_comparison_table"
+    }
+   ]
+  },
+  {
+   "line_start": 251,
+   "line_end": 255,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 161,
+   "title": "ST yields and efficiencies for each tag mode",
+   "section_type": "fit"
+  },
+  {
+   "line": 209,
+   "title": "DT yields, efficiencies, and branching fractions for each signal decay",
+   "section_type": "fit"
+  },
+  {
+   "line": 245,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 249,
+   "title": "Comparison of measured branching fractions with previous result",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

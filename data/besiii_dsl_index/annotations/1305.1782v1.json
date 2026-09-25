@@ -1,0 +1,218 @@
+{
+ "paper_id": "1305.1782v1",
+ "source_path": "arxiv_papers/1305.1782v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 204,
+ "n_lines_sent": 112,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 185,
+   "to": 204,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 57,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 59,
+   "line_end": 59,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 61,
+   "line_end": 61,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 63,
+   "line_end": 75,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 77,
+   "line_end": 83,
+   "type": "detector",
+   "title": "II. EXPERIMENT AND DATA SAMPLES"
+  },
+  {
+   "line_start": 85,
+   "line_end": 106,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "track_and_pid"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "intermediate_state_reconstruction"
+    },
+    {
+     "line_start": 91,
+     "line_end": 92,
+     "label": "figure1"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "pi0_and_baryon_pair_selection"
+    },
+    {
+     "line_start": 98,
+     "line_end": 99,
+     "label": "figure2"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "signal_regions"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "sideband_subtraction"
+    },
+    {
+     "line_start": 105,
+     "line_end": 106,
+     "label": "figure3"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 138,
+   "type": "background",
+   "title": "IV. BACKGROUND ESTIMATION"
+  },
+  {
+   "line_start": 140,
+   "line_end": 172,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 140,
+     "line_end": 148,
+     "label": "signal_yield_extraction"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "table1_caption"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "table1"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "table2_caption"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "table2"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "upper_limits_and_systematics"
+    },
+    {
+     "line_start": 160,
+     "line_end": 172,
+     "label": "branching_fraction_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 174,
+   "line_end": 178,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 180,
+   "line_end": 182,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 184,
+   "line_end": 184,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 152,
+   "title": "Table I: Observed events, backgrounds, scale factors, signal yields, upper limits, efficiencies, systematic errors, branching fractions and upper limits for psi(3770) baryonic decays",
+   "section_type": "results"
+  },
+  {
+   "line": 156,
+   "title": "Table II: Observed events, backgrounds, scale factors, signal yields, upper limits, efficiencies, systematic errors, branching fractions and upper limits for psi(4040) baryonic decays",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

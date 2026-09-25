@@ -1,0 +1,261 @@
+{
+ "paper_id": "2410.12620v1",
+ "source_path": "arxiv_papers/2410.12620v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 390,
+ "n_lines_sent": 199,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 46,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 87,
+   "to": 87,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 323,
+   "to": 390,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 167,
+   "type": "front_matter",
+   "title": "Search for e+e- -> phi chi_c0 and phi eta_c2(1D) at center-of-mass energies from 4.47 to 4.95 GeV"
+  },
+  {
+   "line_start": 169,
+   "line_end": 169,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 171,
+   "line_end": 181,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 183,
+   "line_end": 187,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO"
+  },
+  {
+   "line_start": 189,
+   "line_end": 237,
+   "type": "event_selection",
+   "title": "III. e+e- -> phi chi_c0",
+   "units": [
+    {
+     "line_start": 189,
+     "line_end": 193,
+     "label": "reconstruction_strategies"
+    },
+    {
+     "line_start": 195,
+     "line_end": 197,
+     "label": "table1_required_particles"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "full_reconstruction_kinematic_fit"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "partial_reconstruction_kinematic_fit"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "background_study"
+    },
+    {
+     "line_start": 209,
+     "line_end": 211,
+     "label": "signal_yield_extraction"
+    },
+    {
+     "line_start": 213,
+     "line_end": 219,
+     "label": "born_cross_section_formula"
+    },
+    {
+     "line_start": 221,
+     "line_end": 223,
+     "label": "systematic_uncertainty_overview"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "multiplicative_systematics"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "additive_systematics"
+    },
+    {
+     "line_start": 229,
+     "line_end": 230,
+     "label": "figure1"
+    },
+    {
+     "line_start": 232,
+     "line_end": 234,
+     "label": "table2_cross_sections"
+    },
+    {
+     "line_start": 236,
+     "line_end": 237,
+     "label": "background_shape_and_fit_range"
+    }
+   ]
+  },
+  {
+   "line_start": 238,
+   "line_end": 273,
+   "type": "fit",
+   "title": "IV. SEARCH FOR e+e- -> Y(4660) -> phi chi_c0"
+  },
+  {
+   "line_start": 275,
+   "line_end": 303,
+   "type": "event_selection",
+   "title": "V. e+e- -> phi eta_c2(1D)",
+   "units": [
+    {
+     "line_start": 275,
+     "line_end": 279,
+     "label": "analysis_strategy"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "fit_results"
+    },
+    {
+     "line_start": 285,
+     "line_end": 286,
+     "label": "figure5"
+    },
+    {
+     "line_start": 288,
+     "line_end": 299,
+     "label": "upper_limit_formula"
+    },
+    {
+     "line_start": 301,
+     "line_end": 301,
+     "label": "multiplicative_systematics"
+    },
+    {
+     "line_start": 303,
+     "line_end": 303,
+     "label": "additive_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 305,
+   "line_end": 307,
+   "type": "conclusion",
+   "title": "VI. CONCLUSION AND DISCUSSION"
+  },
+  {
+   "line_start": 309,
+   "line_end": 321,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 197,
+   "title": "Required numbers of daughter particles for different reconstruction methods in the five chi_c0 decay channels",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 234,
+   "title": "Measured cross sections and upper limits at each energy point",
+   "section_type": "results"
+  },
+  {
+   "line": 250,
+   "title": "Multiplicative systematic uncertainties for e+e- -> phi chi_c0",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 273,
+   "title": "Parameters from the two fits to the Born cross sections",
+   "section_type": "fit"
+  },
+  {
+   "line": 317,
+   "title": "Upper limits on the product of cross section and branching fractions for e+e- -> phi eta_c2(1D)",
+   "section_type": "results"
+  },
+  {
+   "line": 319,
+   "title": "Multiplicative systematic uncertainties for e+e- -> phi eta_c2(1D)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

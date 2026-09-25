@@ -1,0 +1,174 @@
+{
+ "paper_id": "1907.11258v2",
+ "source_path": "arxiv_papers/1907.11258v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 229,
+ "n_lines_sent": 137,
+ "skipped_ranges": [
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 201,
+   "to": 229,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 70,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 72,
+   "line_end": 76,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 78,
+   "line_end": 94,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 96,
+   "line_end": 100,
+   "type": "detector",
+   "title": "2. BESIII Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 102,
+   "line_end": 113,
+   "type": "event_selection",
+   "title": "3. Event Selection",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 106,
+     "label": "track_selection_and_pid"
+    },
+    {
+     "line_start": 108,
+     "line_end": 109,
+     "label": "feynman_diagrams"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "pi0_eta_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 115,
+   "line_end": 143,
+   "type": "fit",
+   "title": "4. Data Analysis"
+  },
+  {
+   "line_start": 145,
+   "line_end": 167,
+   "type": "results",
+   "title": "5. Branching Fraction",
+   "units": [
+    {
+     "line_start": 145,
+     "line_end": 153,
+     "label": "branching_fraction_calculation"
+    },
+    {
+     "line_start": 155,
+     "line_end": 157,
+     "label": "upper_limit_likelihood_curve"
+    },
+    {
+     "line_start": 159,
+     "line_end": 167,
+     "label": "significance_and_upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 169,
+   "line_end": 189,
+   "type": "systematic_uncertainty",
+   "title": "6. Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 169,
+     "line_end": 173,
+     "label": "tracking_pid_pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "two_dimensional_fit"
+    },
+    {
+     "line_start": 177,
+     "line_end": 179,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 181,
+     "line_end": 187,
+     "label": "nddbar_and_quantum_coherence"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "ratio_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 191,
+   "line_end": 195,
+   "type": "conclusion",
+   "title": "7. Summary"
+  },
+  {
+   "line_start": 197,
+   "line_end": 199,
+   "type": "acknowledgements",
+   "title": "8. Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 94,
+   "title": "Current result of the ratio of B(D0->phi pi0) to B(D+->phi pi+)",
+   "section_type": "introduction"
+  },
+  {
+   "line": 133,
+   "title": "Signal yields, efficiencies, and branching fractions for each decay mode",
+   "section_type": "results"
+  },
+  {
+   "line": 179,
+   "title": "Summary of systematic uncertainties in percentage",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

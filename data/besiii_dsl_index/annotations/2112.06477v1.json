@@ -1,0 +1,262 @@
+{
+ "paper_id": "2112.06477v1",
+ "source_path": "arxiv_papers/2112.06477v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 271,
+ "n_lines_sent": 126,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 218,
+   "to": 271,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 11,
+   "line_end": 63,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 65,
+   "line_end": 67,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 69,
+   "line_end": 83,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 85,
+   "line_end": 91,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 93,
+   "line_end": 101,
+   "type": "detector",
+   "title": "2 BESIII detector and data samples"
+  },
+  {
+   "line_start": 103,
+   "line_end": 119,
+   "type": "dataset",
+   "title": "Data samples and Monte Carlo simulation"
+  },
+  {
+   "line_start": 121,
+   "line_end": 129,
+   "type": "event_selection",
+   "title": "3 Event selection and background analysis",
+   "units": [
+    {
+     "line_start": 121,
+     "line_end": 123,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "kinematic_fit_and_d0_window"
+    },
+    {
+     "line_start": 127,
+     "line_end": 129,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 131,
+   "line_end": 151,
+   "type": "fit",
+   "title": "4 Signal yield determination"
+  },
+  {
+   "line_start": 153,
+   "line_end": 176,
+   "type": "results",
+   "title": "5 Cross section measurements",
+   "units": [
+    {
+     "line_start": 153,
+     "line_end": 166,
+     "label": "born_cross_section_formula"
+    },
+    {
+     "line_start": 168,
+     "line_end": 170,
+     "label": "dst_dst_cross_section"
+    },
+    {
+     "line_start": 172,
+     "line_end": 176,
+     "label": "dst_d_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 178,
+   "line_end": 198,
+   "type": "systematic_uncertainty",
+   "title": "6 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 178,
+     "line_end": 180,
+     "label": "overview"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "luminosity_tracking_pid"
+    },
+    {
+     "line_start": 184,
+     "line_end": 186,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 194,
+     "line_end": 194,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 196,
+     "line_end": 198,
+     "label": "signal_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 200,
+   "line_end": 202,
+   "type": "conclusion",
+   "title": "7 Summary"
+  },
+  {
+   "line_start": 204,
+   "line_end": 216,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 103,
+   "title": "Born cross section of e+e- -> D*+D*-",
+   "section_type": "results"
+  },
+  {
+   "line": 107,
+   "title": "Born cross sections of e+e- -> D*+D- and e+e- -> D*-D+",
+   "section_type": "results"
+  },
+  {
+   "line": 117,
+   "title": "Decay chains of exclusively generated MC samples",
+   "section_type": "dataset"
+  },
+  {
+   "line": 208,
+   "title": "Uncommon systematic uncertainties for D*+ candidates",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 212,
+   "title": "Uncommon systematic uncertainties for D*- candidates",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

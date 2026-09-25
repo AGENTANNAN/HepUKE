@@ -1,0 +1,274 @@
+{
+ "paper_id": "2105.07178v2",
+ "source_path": "arxiv_papers/2105.07178v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 635,
+ "n_lines_sent": 470,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 612,
+   "to": 635,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 149,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 151,
+   "line_end": 153,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 155,
+   "line_end": 189,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 191,
+   "line_end": 217,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 219,
+   "line_end": 317,
+   "type": "event_selection",
+   "title": "IV. SINGLE-TAG D_s^- CANDIDATES",
+   "units": [
+    {
+     "line_start": 219,
+     "line_end": 225,
+     "label": "tag_mode_reconstruction"
+    },
+    {
+     "line_start": 227,
+     "line_end": 255,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 257,
+     "line_end": 263,
+     "label": "eta_rho_reconstruction"
+    },
+    {
+     "line_start": 265,
+     "line_end": 271,
+     "label": "beam_constrained_mass"
+    },
+    {
+     "line_start": 273,
+     "line_end": 309,
+     "label": "single_tag_yield_fit"
+    },
+    {
+     "line_start": 311,
+     "line_end": 317,
+     "label": "tables"
+    }
+   ]
+  },
+  {
+   "line_start": 319,
+   "line_end": 362,
+   "type": "event_selection",
+   "title": "V. SELECTION OF D_s^+ -> tau^+ nu_tau",
+   "units": [
+    {
+     "line_start": 319,
+     "line_end": 335,
+     "label": "kinematic_variables"
+    },
+    {
+     "line_start": 338,
+     "line_end": 359,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 361,
+     "line_end": 362,
+     "label": "figure_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 364,
+   "line_end": 401,
+   "type": "fit",
+   "title": "VI. BRANCHING FRACTION"
+  },
+  {
+   "line_start": 403,
+   "line_end": 513,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 403,
+     "line_end": 409,
+     "label": "single_tag_yield"
+    },
+    {
+     "line_start": 411,
+     "line_end": 413,
+     "label": "pion_tracking_pid"
+    },
+    {
+     "line_start": 415,
+     "line_end": 425,
+     "label": "gamma_pi0_reconstruction"
+    },
+    {
+     "line_start": 428,
+     "line_end": 436,
+     "label": "extra_energy_charge_requirements"
+    },
+    {
+     "line_start": 440,
+     "line_end": 459,
+     "label": "mm_star2_requirement"
+    },
+    {
+     "line_start": 461,
+     "line_end": 463,
+     "label": "mm2_fit"
+    },
+    {
+     "line_start": 465,
+     "line_end": 467,
+     "label": "least_delta_e_selection"
+    },
+    {
+     "line_start": 469,
+     "line_end": 471,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 475,
+     "line_end": 487,
+     "label": "tau_decay"
+    },
+    {
+     "line_start": 489,
+     "line_end": 491,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 493,
+     "line_end": 507,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 511,
+     "line_end": 513,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 515,
+   "line_end": 545,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 515,
+     "line_end": 543,
+     "label": "f_ds_plus_vcs"
+    },
+    {
+     "line_start": 545,
+     "line_end": 545,
+     "label": "r_tau_mu"
+    }
+   ]
+  },
+  {
+   "line_start": 547,
+   "line_end": 553,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 555,
+   "line_end": 557,
+   "type": "acknowledgements",
+   "title": "X. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 559,
+   "line_end": 610,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 313,
+   "title": "Single-tag yields and efficiencies at sqrt(s)=4.178 GeV",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 317,
+   "title": "Total single-tag yields and averaged signal efficiencies at various energy points",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 405,
+   "title": "Systematic uncertainties in the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 319-362 before line 338",
+  "gap in 403-513 before line 428",
+  "gap in 403-513 before line 440",
+  "gap in 403-513 before line 475",
+  "gap in 403-513 before line 511"
+ ],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

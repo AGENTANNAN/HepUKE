@@ -1,0 +1,206 @@
+{
+ "paper_id": "2303.12927v1",
+ "source_path": "arxiv_papers/2303.12927v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 246,
+ "n_lines_sent": 139,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 201,
+   "to": 246,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 9,
+   "line_end": 111,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 113,
+   "line_end": 113,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 115,
+   "line_end": 119,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 121,
+   "line_end": 123,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 125,
+   "line_end": 139,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "tag_reconstruction"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "signal_reconstruction"
+    },
+    {
+     "line_start": 129,
+     "line_end": 137,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "signal_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 141,
+   "line_end": 141,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "bf_dsstar"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "tag_yield"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "signal_mc_model"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "background_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 143,
+   "line_end": 144,
+   "type": "results",
+   "title": "Figure 1",
+   "units": [
+    {
+     "line_start": 143,
+     "line_end": 144,
+     "label": "figure1"
+    }
+   ]
+  },
+  {
+   "line_start": 146,
+   "line_end": 180,
+   "type": "fit",
+   "title": "Form factor fit"
+  },
+  {
+   "line_start": 182,
+   "line_end": 185,
+   "type": "results",
+   "title": "Fit results",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "ff_vcs_result"
+    },
+    {
+     "line_start": 184,
+     "line_end": 185,
+     "label": "figure2"
+    }
+   ]
+  },
+  {
+   "line_start": 187,
+   "line_end": 191,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 193,
+   "line_end": 195,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 197,
+   "line_end": 199,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 197,
+     "line_end": 199,
+     "label": "table1"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "line": 199,
+   "title": "Comparison of the FF at q^2=0 between our measurement and various theoretical predictions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 141-141 share boundary line 141",
+  "units of 141-141 share boundary line 141",
+  "units of 141-141 share boundary line 141",
+  "units of 141-141 share boundary line 141",
+  "units of 141-141 share boundary line 141"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

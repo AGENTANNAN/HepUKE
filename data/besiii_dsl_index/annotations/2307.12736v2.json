@@ -1,0 +1,264 @@
+{
+ "paper_id": "2307.12736v2",
+ "source_path": "arxiv_papers/2307.12736v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 420,
+ "n_lines_sent": 200,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 66,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 68,
+   "to": 72,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 74,
+   "to": 75,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 77,
+   "to": 81,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 162,
+   "to": 162,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 357,
+   "to": 420,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 164,
+   "type": "front_matter",
+   "title": "Measurement of e+e- -> phi eta' cross sections ..."
+  },
+  {
+   "line_start": 166,
+   "line_end": 166,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 168,
+   "line_end": 180,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 182,
+   "line_end": 190,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 192,
+   "line_end": 206,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 192,
+     "line_end": 194,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "phi_eta_prime_reconstruction"
+    },
+    {
+     "line_start": 196,
+     "line_end": 197,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "kinematic_fit_and_signal_region"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "data_scatter_plots"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 205,
+     "line_end": 206,
+     "label": "figure_2"
+    }
+   ]
+  },
+  {
+   "line_start": 208,
+   "line_end": 272,
+   "type": "fit",
+   "title": "IV. CROSS SECTION MEASUREMENT OF THE e+e- -> phi eta' PROCESS"
+  },
+  {
+   "line_start": 274,
+   "line_end": 312,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 274,
+     "line_end": 276,
+     "label": "overview"
+    },
+    {
+     "line_start": 278,
+     "line_end": 278,
+     "label": "luminosity_tracking_photon_branching_eta_reconstruction"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 282,
+     "line_end": 296,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 298,
+     "line_end": 298,
+     "label": "signal_and_background_shape"
+    },
+    {
+     "line_start": 300,
+     "line_end": 306,
+     "label": "combination"
+    },
+    {
+     "line_start": 308,
+     "line_end": 310,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 312,
+     "line_end": 312,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 314,
+   "line_end": 341,
+   "type": "results",
+   "title": "VI. UPPER LIMIT ON THE BRANCHING FRACTION OF psi(3770) -> phi eta'",
+   "units": [
+    {
+     "line_start": 314,
+     "line_end": 316,
+     "label": "introduction"
+    },
+    {
+     "line_start": 318,
+     "line_end": 322,
+     "label": "q_squared_estimator"
+    },
+    {
+     "line_start": 324,
+     "line_end": 330,
+     "label": "likelihood_construction"
+    },
+    {
+     "line_start": 332,
+     "line_end": 338,
+     "label": "upper_limit_determination"
+    },
+    {
+     "line_start": 340,
+     "line_end": 341,
+     "label": "figure_5"
+    }
+   ]
+  },
+  {
+   "line_start": 343,
+   "line_end": 347,
+   "type": "conclusion",
+   "title": "VII. SUMMARY AND DISCUSSIONS"
+  },
+  {
+   "line_start": 349,
+   "line_end": 355,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 236,
+   "title": "Signal yields and cross sections for e+e- -> phi eta'",
+   "section_type": "fit"
+  },
+  {
+   "line": 310,
+   "title": "Systematic uncertainties for cross section measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

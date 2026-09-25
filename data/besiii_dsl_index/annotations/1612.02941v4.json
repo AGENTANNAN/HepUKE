@@ -1,0 +1,229 @@
+{
+ "paper_id": "1612.02941v4",
+ "source_path": "arxiv_papers/1612.02941v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 467,
+ "n_lines_sent": 263,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 79,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 81,
+   "to": 81,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 438,
+   "to": 467,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 21,
+   "line_end": 85,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 87,
+   "line_end": 93,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 95,
+   "line_end": 99,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 101,
+   "line_end": 113,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 103,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "phi_selection"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "omega_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 115,
+   "line_end": 196,
+   "type": "fit",
+   "title": "IV. DATA ANALYSIS"
+  },
+  {
+   "line_start": 198,
+   "line_end": 256,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 198,
+     "line_end": 204,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 206,
+     "line_end": 208,
+     "label": "photon_detection_efficiency"
+    },
+    {
+     "line_start": 210,
+     "line_end": 212,
+     "label": "tracking_and_pid_efficiency"
+    },
+    {
+     "line_start": 214,
+     "line_end": 216,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 218,
+     "line_end": 222,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 224,
+     "line_end": 226,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 228,
+     "line_end": 232,
+     "label": "background"
+    },
+    {
+     "line_start": 234,
+     "line_end": 236,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 238,
+     "line_end": 240,
+     "label": "eta_c_mass_and_width"
+    },
+    {
+     "line_start": 242,
+     "line_end": 254,
+     "label": "amplitude_analysis"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 258,
+   "line_end": 290,
+   "type": "results",
+   "title": "VI. BRANCHING FRACTIONS",
+   "units": [
+    {
+     "line_start": 258,
+     "line_end": 278,
+     "label": "eta_c_to_phi_phi"
+    },
+    {
+     "line_start": 280,
+     "line_end": 290,
+     "label": "eta_c_to_omega_phi"
+    }
+   ]
+  },
+  {
+   "line_start": 292,
+   "line_end": 300,
+   "type": "conclusion",
+   "title": "VII. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 302,
+   "line_end": 304,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENT"
+  },
+  {
+   "line_start": 306,
+   "line_end": 436,
+   "type": "other",
+   "title": "Appendix"
+  }
+ ],
+ "tables": [
+  {
+   "line": 250,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 300,
+   "title": "Comparison of BESIII measured Br(eta_c -> phi phi) with previous results and theoretical predictions",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 432,
+   "title": "Definition of reduced parameters for decays in the nominal fit",
+   "section_type": "other"
+  },
+  {
+   "line": 436,
+   "title": "The values of reduced parameters determined in the nominal fit",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

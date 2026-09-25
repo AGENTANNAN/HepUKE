@@ -1,0 +1,194 @@
+{
+ "paper_id": "1503.08203v2",
+ "source_path": "arxiv_papers/1503.08203v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 167,
+ "n_lines_sent": 107,
+ "skipped_ranges": [
+  {
+   "from": 138,
+   "to": 167,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 77,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and PACS"
+  },
+  {
+   "line_start": 79,
+   "line_end": 79,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 81,
+   "line_end": 81,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 83,
+   "line_end": 87,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 89,
+   "line_end": 93,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "background_rejection"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "jpsi_mass_window"
+    }
+   ]
+  },
+  {
+   "line_start": 95,
+   "line_end": 97,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 99,
+   "line_end": 100,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 102,
+   "line_end": 104,
+   "type": "fit",
+   "title": "Mass fit"
+  },
+  {
+   "line_start": 106,
+   "line_end": 110,
+   "type": "other",
+   "title": "Figures 2 and 3"
+  },
+  {
+   "line_start": 112,
+   "line_end": 112,
+   "type": "results",
+   "title": "Angular distribution",
+   "units": [
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "angular_distribution"
+    }
+   ]
+  },
+  {
+   "line_start": 114,
+   "line_end": 116,
+   "type": "results",
+   "title": "Cross section and lineshape",
+   "units": [
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "born_cross_section"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "lineshape_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 118,
+   "line_end": 118,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on mass",
+   "units": [
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "mass_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 120,
+   "line_end": 122,
+   "type": "other",
+   "title": "Table I"
+  },
+  {
+   "line_start": 124,
+   "line_end": 130,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on cross section",
+   "units": [
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "luminosity_tracking_photon"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "signal_background_decay_model"
+    },
+    {
+     "line_start": 128,
+     "line_end": 128,
+     "label": "kinematic_fit_branching_ratios"
+    },
+    {
+     "line_start": 130,
+     "line_end": 130,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 132,
+   "line_end": 134,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 136,
+   "line_end": 136,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 122,
+   "title": "Number of observed events, integrated luminosities, detection efficiency, radiative correction factor, vacuum polarization factor, measured Born cross sections and ratios at different energies",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

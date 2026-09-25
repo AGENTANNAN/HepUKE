@@ -1,0 +1,188 @@
+{
+ "paper_id": "2205.14031v2",
+ "source_path": "arxiv_papers/2205.14031v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 325,
+ "n_lines_sent": 192,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 296,
+   "to": 325,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 121,
+   "type": "front_matter",
+   "title": "Measurements of the absolute branching fractions of hadronic D-meson decays"
+  },
+  {
+   "line_start": 123,
+   "line_end": 131,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 133,
+   "line_end": 137,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 139,
+   "line_end": 143,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 145,
+   "line_end": 161,
+   "type": "fit",
+   "title": "III. MEASUREMENT METHOD"
+  },
+  {
+   "line_start": 163,
+   "line_end": 169,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 163,
+     "line_end": 165,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "pid"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 168,
+     "line_end": 169,
+     "label": "pi0_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 171,
+   "line_end": 192,
+   "type": "fit",
+   "title": "V. YIELDS OF SINGLE-TAG D MESONS"
+  },
+  {
+   "line_start": 194,
+   "line_end": 240,
+   "type": "fit",
+   "title": "VI. YIELDS OF DOUBLE-TAG EVENTS"
+  },
+  {
+   "line_start": 242,
+   "line_end": 274,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 242,
+     "line_end": 244,
+     "label": "single_tag_yield"
+    },
+    {
+     "line_start": 246,
+     "line_end": 248,
+     "label": "table1"
+    },
+    {
+     "line_start": 250,
+     "line_end": 254,
+     "label": "figures"
+    },
+    {
+     "line_start": 256,
+     "line_end": 264,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 266,
+     "line_end": 266,
+     "label": "ks0_pi0_reconstruction_and_2d_fit"
+    },
+    {
+     "line_start": 268,
+     "line_end": 268,
+     "label": "delta_e_and_mc_modeling"
+    },
+    {
+     "line_start": 270,
+     "line_end": 270,
+     "label": "quantum_correlation"
+    },
+    {
+     "line_start": 272,
+     "line_end": 274,
+     "label": "mc_statistics_and_quoted_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 276,
+   "line_end": 278,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 280,
+   "line_end": 294,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 248,
+   "title": "Requirements of Delta E_sig, fitted and net yields of double-tag candidates, background yield, signal efficiencies, and obtained branching fractions for various signal decays",
+   "section_type": "fit"
+  },
+  {
+   "line": 286,
+   "title": "Relative systematic uncertainties (%) in the branching fraction measurements of the signal decays",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 290,
+   "title": "Obtained B_sig, B_prd, and B_non-eta,omega for various signal decays",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

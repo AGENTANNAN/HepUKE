@@ -1,0 +1,313 @@
+{
+ "paper_id": "1703.09084v1",
+ "source_path": "arxiv_papers/1703.09084v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 434,
+ "n_lines_sent": 245,
+ "skipped_ranges": [
+  {
+   "from": 25,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 412,
+   "to": 434,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 30,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 32,
+   "line_end": 32,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 34,
+   "line_end": 48,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 50,
+   "line_end": 54,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR"
+  },
+  {
+   "line_start": 56,
+   "line_end": 78,
+   "type": "event_selection",
+   "title": "III. EVENT RECONSTRUCTION",
+   "units": [
+    {
+     "line_start": 56,
+     "line_end": 58,
+     "label": "overview"
+    },
+    {
+     "line_start": 60,
+     "line_end": 64,
+     "label": "d_minus_tag_selection"
+    },
+    {
+     "line_start": 66,
+     "line_end": 78,
+     "label": "semileptonic_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 80,
+   "line_end": 91,
+   "type": "other",
+   "title": "Tables and figures"
+  },
+  {
+   "line_start": 93,
+   "line_end": 126,
+   "type": "results",
+   "title": "IV. BRANCHING FRACTION MEASUREMENTS",
+   "units": [
+    {
+     "line_start": 93,
+     "line_end": 126,
+     "label": "branching_fraction_determination"
+    }
+   ]
+  },
+  {
+   "line_start": 128,
+   "line_end": 158,
+   "type": "systematic_uncertainty",
+   "title": "B. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 132,
+     "label": "number_of_d_minus_tags"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "positron_tracking"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "positron_identification"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "ks0_pi0_reconstruction"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "egammamax_requirement"
+    },
+    {
+     "line_start": 142,
+     "line_end": 148,
+     "label": "umiss_fit"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "form_factor"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "fsr_recovery"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 156,
+     "line_end": 158,
+     "label": "ks0_pi0_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 160,
+   "line_end": 183,
+   "type": "results",
+   "title": "C. Comparison",
+   "units": [
+    {
+     "line_start": 160,
+     "line_end": 183,
+     "label": "comparison_with_previous_measurements"
+    }
+   ]
+  },
+  {
+   "line_start": 185,
+   "line_end": 211,
+   "type": "results",
+   "title": "V. PARTIAL DECAY RATE MEASUREMENTS",
+   "units": [
+    {
+     "line_start": 185,
+     "line_end": 211,
+     "label": "partial_decay_rate_determination"
+    }
+   ]
+  },
+  {
+   "line_start": 213,
+   "line_end": 263,
+   "type": "systematic_uncertainty",
+   "title": "B. Systematic covariance matrices",
+   "units": [
+    {
+     "line_start": 213,
+     "line_end": 217,
+     "label": "d_plus_lifetime"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "number_of_d_minus_tags"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "positron_ks0_pi0_reconstruction"
+    },
+    {
+     "line_start": 223,
+     "line_end": 229,
+     "label": "efficiency_matrices"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "egammamax_requirement"
+    },
+    {
+     "line_start": 233,
+     "line_end": 239,
+     "label": "umiss_fit"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "form_factor"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "fsr_recovery"
+    },
+    {
+     "line_start": 245,
+     "line_end": 259,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 261,
+     "line_end": 263,
+     "label": "ks0_pi0_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 265,
+   "line_end": 321,
+   "type": "fit",
+   "title": "VI. FORM FACTORS"
+  },
+  {
+   "line_start": 323,
+   "line_end": 379,
+   "type": "fit",
+   "title": "B. Fitting partial decay rates to extract form factors"
+  },
+  {
+   "line_start": 381,
+   "line_end": 398,
+   "type": "results",
+   "title": "VII. DETERMINATIONS OF |Vcs| AND |Vcd|",
+   "units": [
+    {
+     "line_start": 381,
+     "line_end": 398,
+     "label": "ckm_matrix_elements"
+    }
+   ]
+  },
+  {
+   "line_start": 400,
+   "line_end": 404,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 406,
+   "line_end": 410,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 82,
+   "title": "D- tag selection requirements and yields",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 146,
+   "title": "Reconstruction efficiencies for D+ semileptonic decays",
+   "section_type": "results"
+  },
+  {
+   "line": 166,
+   "title": "Systematic uncertainties in branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 225,
+   "title": "q2 bin ranges and observed signal yields",
+   "section_type": "results"
+  },
+  {
+   "line": 229,
+   "title": "Efficiency matrices for D+ semileptonic decays",
+   "section_type": "results"
+  },
+  {
+   "line": 249,
+   "title": "Partial decay rates, uncertainties, and correlation matrices",
+   "section_type": "results"
+  },
+  {
+   "line": 355,
+   "title": "Form factor fit results",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

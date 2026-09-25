@@ -1,0 +1,131 @@
+{
+ "paper_id": "2111.11742v3",
+ "source_path": "arxiv_papers/2111.11742v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 303,
+ "n_lines_sent": 208,
+ "skipped_ranges": [
+  {
+   "from": 268,
+   "to": 303,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 146,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 148,
+   "line_end": 148,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 150,
+   "line_end": 156,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 158,
+   "line_end": 181,
+   "type": "other",
+   "title": "Theoretical formalism and angular distribution"
+  },
+  {
+   "line_start": 183,
+   "line_end": 200,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 183,
+     "line_end": 185,
+     "label": "monte_carlo_simulation"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 191,
+     "line_end": 200,
+     "label": "kinematic_fit_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 202,
+   "line_end": 248,
+   "type": "fit",
+   "title": "Likelihood fit and results"
+  },
+  {
+   "line_start": 250,
+   "line_end": 256,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 250,
+     "line_end": 250,
+     "label": "fit_method"
+    },
+    {
+     "line_start": 252,
+     "line_end": 252,
+     "label": "decay_parameter"
+    },
+    {
+     "line_start": 254,
+     "line_end": 256,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 258,
+   "line_end": 262,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 264,
+   "line_end": 266,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 256,
+   "title": "Systematic uncertainties on the measurements of the Lambda baryon polarization parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 262,
+   "title": "Measured parameters compared with other measurements",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 8.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

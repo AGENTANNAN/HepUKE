@@ -1,0 +1,243 @@
+{
+ "paper_id": "2212.06489v2",
+ "source_path": "arxiv_papers/2212.06489v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 310,
+ "n_lines_sent": 164,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 67,
+   "to": 69,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 71,
+   "to": 71,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 277,
+   "to": 310,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 74,
+   "type": "front_matter",
+   "title": "BESIII Collaboration"
+  },
+  {
+   "line_start": 76,
+   "line_end": 76,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 78,
+   "line_end": 86,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 88,
+   "line_end": 134,
+   "type": "other",
+   "title": "II. MEASUREMENT STRATEGY"
+  },
+  {
+   "line_start": 136,
+   "line_end": 144,
+   "type": "detector",
+   "title": "III. BEPCII AND THE BESIII DETECTOR"
+  },
+  {
+   "line_start": 146,
+   "line_end": 166,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 146,
+     "line_end": 148,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "pid"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "pi0_eta_etaprime_reconstruction"
+    },
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "delta_e_and_kl0_partial_reconstruction"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "missing_kaon_reconstruction"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 168,
+   "line_end": 196,
+   "type": "fit",
+   "title": "V. SINGLE- AND DOUBLE-TAG YIELD DETERMINATION"
+  },
+  {
+   "line_start": 198,
+   "line_end": 218,
+   "type": "fit",
+   "title": "VI. CP-EVEN FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 220,
+   "line_end": 263,
+   "type": "systematic_uncertainty",
+   "title": "VII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 220,
+     "line_end": 222,
+     "label": "overview"
+    },
+    {
+     "line_start": 224,
+     "line_end": 226,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 228,
+     "line_end": 240,
+     "label": "kl0pi0_st_yield"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "efficiency_factorisation"
+    },
+    {
+     "line_start": 244,
+     "line_end": 246,
+     "label": "external_inputs"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "st_dt_yields"
+    },
+    {
+     "line_start": 250,
+     "line_end": 257,
+     "label": "ks0_veto"
+    },
+    {
+     "line_start": 259,
+     "line_end": 263,
+     "label": "efficiency_reweighting"
+    }
+   ]
+  },
+  {
+   "line_start": 265,
+   "line_end": 269,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY AND OUTLOOK"
+  },
+  {
+   "line_start": 271,
+   "line_end": 275,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 98,
+   "title": "Tag modes used in this analysis",
+   "section_type": "other"
+  },
+  {
+   "line": 180,
+   "title": "ST yields and efficiencies for CP tags",
+   "section_type": "fit"
+  },
+  {
+   "line": 192,
+   "title": "DT yields and efficiencies for CP tags",
+   "section_type": "fit"
+  },
+  {
+   "line": 196,
+   "title": "DT yields for K0S,L pi+ pi- tags in bins of phase space",
+   "section_type": "fit"
+  },
+  {
+   "line": 261,
+   "title": "Summary of sources of systematic uncertainty in F+",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

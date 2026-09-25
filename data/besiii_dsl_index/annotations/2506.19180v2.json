@@ -1,0 +1,150 @@
+{
+ "paper_id": "2506.19180v2",
+ "source_path": "arxiv_papers/2506.19180v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 390,
+ "n_lines_sent": 55,
+ "skipped_ranges": [
+  {
+   "from": 97,
+   "to": 390,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "Precise Measurement of the Λ Electric Dipole Moment through the Entangled Strange Baryon-Antibaryon System"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 7,
+   "line_end": 11,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 13,
+   "line_end": 31,
+   "type": "event_selection",
+   "title": "Experimental overview",
+   "units": [
+    {
+     "line_start": 13,
+     "line_end": 15,
+     "label": "spin_precession_edm"
+    },
+    {
+     "line_start": 17,
+     "line_end": 25,
+     "label": "entangled_lambda_antilambda_formalism"
+    },
+    {
+     "line_start": 27,
+     "line_end": 27,
+     "label": "event_selection_and_likelihood"
+    },
+    {
+     "line_start": 29,
+     "line_end": 31,
+     "label": "fitted_parameters_table"
+    }
+   ]
+  },
+  {
+   "line_start": 33,
+   "line_end": 37,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty evaluation",
+   "units": [
+    {
+     "line_start": 33,
+     "line_end": 35,
+     "label": "background_and_reconstruction"
+    },
+    {
+     "line_start": 37,
+     "line_end": 37,
+     "label": "estimator_and_fsr"
+    }
+   ]
+  },
+  {
+   "line_start": 39,
+   "line_end": 65,
+   "type": "results",
+   "title": "EDM results",
+   "units": [
+    {
+     "line_start": 39,
+     "line_end": 41,
+     "label": "fitted_parameters"
+    },
+    {
+     "line_start": 43,
+     "line_end": 45,
+     "label": "edm_values"
+    },
+    {
+     "line_start": 47,
+     "line_end": 57,
+     "label": "upper_limit"
+    },
+    {
+     "line_start": 59,
+     "line_end": 65,
+     "label": "tpa_visualization"
+    }
+   ]
+  },
+  {
+   "line_start": 67,
+   "line_end": 93,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 95,
+   "line_end": 95,
+   "type": "conclusion",
+   "title": "Conclusion"
+  }
+ ],
+ "tables": [
+  {
+   "line": 31,
+   "title": "Summary of fitted parameters",
+   "section_type": "results"
+  },
+  {
+   "line": 386,
+   "title": "Absolute systematic uncertainties on the fitted parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 390,
+   "title": "Correlation matrix of the fitted parameters",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-5 / 5-5"
+ ],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

@@ -1,0 +1,260 @@
+{
+ "paper_id": "2109.12751v2",
+ "source_path": "arxiv_papers/2109.12751v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 432,
+ "n_lines_sent": 218,
+ "skipped_ranges": [
+  {
+   "from": 7,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 99,
+   "to": 99,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 101,
+   "to": 102,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 114,
+   "to": 115,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 118,
+   "to": 118,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 120,
+   "to": 120,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 372,
+   "to": 432,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 121,
+   "type": "front_matter",
+   "title": "Authors, Affiliations, and Date"
+  },
+  {
+   "line_start": 123,
+   "line_end": 123,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 125,
+   "line_end": 137,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 139,
+   "line_end": 141,
+   "type": "detector",
+   "title": "II. DETECTOR"
+  },
+  {
+   "line_start": 143,
+   "line_end": 151,
+   "type": "dataset",
+   "title": "III. DATA AND MONTE CARLO SAMPLES"
+  },
+  {
+   "line_start": 153,
+   "line_end": 175,
+   "type": "event_selection",
+   "title": "IV. MEASUREMENTS OF CROSS SECTIONS",
+   "units": [
+    {
+     "line_start": 153,
+     "line_end": 161,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 163,
+     "line_end": 175,
+     "label": "signal_event_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 177,
+   "line_end": 187,
+   "type": "background",
+   "title": "B. Background Study"
+  },
+  {
+   "line_start": 189,
+   "line_end": 195,
+   "type": "fit",
+   "title": "C. Reconstruction Efficiency"
+  },
+  {
+   "line_start": 197,
+   "line_end": 207,
+   "type": "fit",
+   "title": "D. ISR Corrections"
+  },
+  {
+   "line_start": 209,
+   "line_end": 211,
+   "type": "results",
+   "title": "E. Dressed Cross Section",
+   "units": [
+    {
+     "line_start": 209,
+     "line_end": 211,
+     "label": "dressed_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 213,
+   "line_end": 339,
+   "type": "fit",
+   "title": "F. Analysis of Dressed Cross Section"
+  },
+  {
+   "line_start": 341,
+   "line_end": 359,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 341,
+     "line_end": 343,
+     "label": "overview"
+    },
+    {
+     "line_start": 345,
+     "line_end": 345,
+     "label": "tracking_pi0_luminosity_pid"
+    },
+    {
+     "line_start": 347,
+     "line_end": 347,
+     "label": "background_fit_shape"
+    },
+    {
+     "line_start": 349,
+     "line_end": 355,
+     "label": "efficiency"
+    },
+    {
+     "line_start": 357,
+     "line_end": 357,
+     "label": "isr_kappa"
+    },
+    {
+     "line_start": 359,
+     "line_end": 359,
+     "label": "fit_parameters"
+    }
+   ]
+  },
+  {
+   "line_start": 361,
+   "line_end": 365,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 367,
+   "line_end": 369,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 371,
+   "line_end": 371,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 183,
+   "title": "Summary of the cuts applied to the two-body and three-body invariant mass distributions",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 254,
+   "title": "Summary of the c.m. energies and luminosities of data sets, together with the dressed cross sections",
+   "section_type": "results"
+  },
+  {
+   "line": 260,
+   "title": "Summary of fit results considering only the contribution from the continuum process",
+   "section_type": "fit"
+  },
+  {
+   "line": 299,
+   "title": "Summary of fit results for the pi+pi-pi+pi-pi0 final state including continuum, psi(4040) decay, and interference",
+   "section_type": "fit"
+  },
+  {
+   "line": 339,
+   "title": "Summary of upper limits of Y(4230) decays at 90% confidence level",
+   "section_type": "fit"
+  },
+  {
+   "line": 353,
+   "title": "Summary of systematic uncertainties of the cross sections",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

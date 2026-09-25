@@ -1,0 +1,216 @@
+{
+ "paper_id": "2406.18083v2",
+ "source_path": "arxiv_papers/2406.18083v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 354,
+ "n_lines_sent": 93,
+ "skipped_ranges": [
+  {
+   "from": 170,
+   "to": 354,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Title, collaboration, abstract metadata and keywords"
+  },
+  {
+   "line_start": 13,
+   "line_end": 25,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 27,
+   "line_end": 51,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 53,
+   "line_end": 57,
+   "type": "detector",
+   "title": "2 BESIII experiment and Monte Carlo simulation"
+  },
+  {
+   "line_start": 59,
+   "line_end": 121,
+   "type": "event_selection",
+   "title": "3 Data analysis",
+   "units": [
+    {
+     "line_start": 59,
+     "line_end": 61,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "photon_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 67,
+     "line_end": 79,
+     "label": "kl_missing_mass_reconstruction"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 85,
+     "line_end": 100,
+     "label": "peaking_background_estimation"
+    },
+    {
+     "line_start": 102,
+     "line_end": 121,
+     "label": "simultaneous_fit_and_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 123,
+   "line_end": 153,
+   "type": "systematic_uncertainty",
+   "title": "4 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 123,
+     "line_end": 125,
+     "label": "introduction"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "no_extra_charged_track"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "angle_gamma_pbar"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "truth_match_method"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 149,
+     "line_end": 153,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 155,
+   "line_end": 163,
+   "type": "conclusion",
+   "title": "5 Summary"
+  },
+  {
+   "line_start": 165,
+   "line_end": 167,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  },
+  {
+   "line_start": 169,
+   "line_end": 169,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 51,
+   "title": "Integrated luminosities at each c.m. energy",
+   "section_type": "introduction"
+  },
+  {
+   "line": 106,
+   "title": "Estimated yields of peaking backgrounds at each c.m. energy",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 118,
+   "title": "ST events, average detection efficiencies and DT signal yields at each c.m. energy",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 153,
+   "title": "Relative systematic uncertainties in the BF measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 163,
+   "title": "BFs and K_S^0-K_L^0 asymmetries",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

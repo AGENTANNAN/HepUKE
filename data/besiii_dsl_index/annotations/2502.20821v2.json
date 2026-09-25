@@ -1,0 +1,191 @@
+{
+ "paper_id": "2502.20821v2",
+ "source_path": "arxiv_papers/2502.20821v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 328,
+ "n_lines_sent": 88,
+ "skipped_ranges": [
+  {
+   "from": 163,
+   "to": 328,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Improved measurement of absolute branching fraction of the inclusive decay Λc+ → KS0 X"
+  },
+  {
+   "line_start": 11,
+   "line_end": 23,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 25,
+   "line_end": 41,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 43,
+   "line_end": 47,
+   "type": "detector",
+   "title": "2 BESIII Experiment and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 49,
+   "line_end": 73,
+   "type": "event_selection",
+   "title": "3 Event Selection",
+   "units": [
+    {
+     "line_start": 49,
+     "line_end": 53,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "photon_and_pi0_reconstruction"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "ks0_lambda_sigma_reconstruction"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 61,
+     "line_end": 67,
+     "label": "st_yield_extraction"
+    },
+    {
+     "line_start": 69,
+     "line_end": 73,
+     "label": "dt_ks0_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 75,
+   "line_end": 131,
+   "type": "fit",
+   "title": "4 Measurement for Branching Fraction"
+  },
+  {
+   "line_start": 133,
+   "line_end": 151,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic Uncertainty",
+   "units": [
+    {
+     "line_start": 133,
+     "line_end": 139,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "2d_fitting"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "intermediate_bf"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "st_lambdac_yield"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "rdp_requirement"
+    },
+    {
+     "line_start": 147,
+     "line_end": 151,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 153,
+   "line_end": 155,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 157,
+   "line_end": 161,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 35,
+   "title": "Observed and predicted BFs of CF exclusive Λc+ decays containing K0/K0",
+   "section_type": "introduction"
+  },
+  {
+   "line": 39,
+   "title": "Center-of-mass energies and luminosities",
+   "section_type": "introduction"
+  },
+  {
+   "line": 71,
+   "title": "ΔE requirements for each tag mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 119,
+   "title": "DT efficiencies of matched events for each tag mode at various energy points",
+   "section_type": "fit"
+  },
+  {
+   "line": 123,
+   "title": "Fitted DT yields at various energy points",
+   "section_type": "fit"
+  },
+  {
+   "line": 127,
+   "title": "BFs at various energy points",
+   "section_type": "fit"
+  },
+  {
+   "line": 131,
+   "title": "BFs at various tag modes",
+   "section_type": "fit"
+  },
+  {
+   "line": 151,
+   "title": "Relative systematic uncertainties for the measured BF",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

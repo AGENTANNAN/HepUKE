@@ -1,0 +1,240 @@
+{
+ "paper_id": "1211.4682v2",
+ "source_path": "arxiv_papers/1211.4682v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 292,
+ "n_lines_sent": 189,
+ "skipped_ranges": [
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 279,
+   "to": 292,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 85,
+   "type": "front_matter",
+   "title": "Measurements of the branching fractions for J/psi and psi' to Lambda Lambdabar pi0 and Lambda Lambdabar eta"
+  },
+  {
+   "line_start": 87,
+   "line_end": 89,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 91,
+   "line_end": 97,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 99,
+   "line_end": 103,
+   "type": "detector",
+   "title": "II. EXPERIMENTAL DETAILS"
+  },
+  {
+   "line_start": 105,
+   "line_end": 127,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 105,
+     "line_end": 107,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "charged_track_multiplicity"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "proton_transverse_momentum"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "photon_identification"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 121,
+     "line_end": 127,
+     "label": "figures"
+    }
+   ]
+  },
+  {
+   "line_start": 129,
+   "line_end": 145,
+   "type": "background",
+   "title": "IV. BACKGROUND STUDY"
+  },
+  {
+   "line_start": 147,
+   "line_end": 177,
+   "type": "fit",
+   "title": "V. SIGNAL YIELDS AND DALITZ ANALYSES"
+  },
+  {
+   "line_start": 179,
+   "line_end": 207,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC ERRORS",
+   "units": [
+    {
+     "line_start": 179,
+     "line_end": 181,
+     "label": "overview"
+    },
+    {
+     "line_start": 183,
+     "line_end": 185,
+     "label": "tracking"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "vertex_fit"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 191,
+     "line_end": 193,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 195,
+     "line_end": 196,
+     "label": "figure"
+    },
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "signal_sideband_regions"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "normalization"
+    },
+    {
+     "line_start": 203,
+     "line_end": 207,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 209,
+   "line_end": 263,
+   "type": "results",
+   "title": "VII. RESULTS",
+   "units": [
+    {
+     "line_start": 209,
+     "line_end": 223,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 225,
+     "line_end": 227,
+     "label": "input_numbers_table"
+    },
+    {
+     "line_start": 229,
+     "line_end": 249,
+     "label": "branching_fraction_results"
+    },
+    {
+     "line_start": 251,
+     "line_end": 263,
+     "label": "twelve_percent_rule_test"
+    }
+   ]
+  },
+  {
+   "line_start": 265,
+   "line_end": 271,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 273,
+   "line_end": 277,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 207,
+   "title": "Systematic errors in the measurements of the branching fractions (%)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 227,
+   "title": "Numbers used in the calculations of the branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 271,
+   "title": "A comparison of the branching fractions of this work with the results of previous experiments",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

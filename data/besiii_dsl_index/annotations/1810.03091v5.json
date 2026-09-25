@@ -1,0 +1,286 @@
+{
+ "paper_id": "1810.03091v5",
+ "source_path": "arxiv_papers/1810.03091v5.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 305,
+ "n_lines_sent": 138,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 70,
+   "to": 85,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 87,
+   "to": 87,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 92,
+   "to": 93,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 96,
+   "to": 96,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 98,
+   "to": 98,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 267,
+   "to": 305,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 6,
+   "line_end": 26,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 28,
+   "line_end": 59,
+   "type": "abstract",
+   "title": "Erratum abstract and introduction"
+  },
+  {
+   "line_start": 61,
+   "line_end": 67,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 69,
+   "line_end": 102,
+   "type": "front_matter",
+   "title": "Author list and abstract"
+  },
+  {
+   "line_start": 104,
+   "line_end": 130,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 132,
+   "line_end": 138,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 140,
+   "line_end": 158,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 140,
+     "line_end": 142,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "gamma_conversion_veto"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "qed_background_suppression"
+    },
+    {
+     "line_start": 152,
+     "line_end": 158,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 160,
+   "line_end": 195,
+   "type": "fit",
+   "title": "A. Branching fraction measurement for the EM Dalitz decays J/ψ → e+e−η"
+  },
+  {
+   "line_start": 197,
+   "line_end": 208,
+   "type": "fit",
+   "title": "C. The dark photon search in J/ψ → γ′η decays"
+  },
+  {
+   "line_start": 210,
+   "line_end": 214,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties (part 1)",
+   "units": [
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "multiplicative_systematics_overview"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "fit_model_systematics"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "tracking_pid_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 216,
+   "line_end": 236,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 216,
+     "line_end": 218,
+     "label": "systematics_overview"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "photon_pi0_eta_systematics"
+    },
+    {
+     "line_start": 222,
+     "line_end": 224,
+     "label": "systematics_table"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "kinematic_fit_systematics"
+    },
+    {
+     "line_start": 228,
+     "line_end": 230,
+     "label": "gamma_conversion_veto_systematics"
+    },
+    {
+     "line_start": 232,
+     "line_end": 232,
+     "label": "cos_theta_hel_systematics"
+    },
+    {
+     "line_start": 234,
+     "line_end": 234,
+     "label": "tff_systematics"
+    },
+    {
+     "line_start": 236,
+     "line_end": 236,
+     "label": "branching_fraction_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 238,
+   "line_end": 256,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 238,
+     "line_end": 240,
+     "label": "branching_fraction_results"
+    },
+    {
+     "line_start": 242,
+     "line_end": 251,
+     "label": "tff_fit_results"
+    },
+    {
+     "line_start": 253,
+     "line_end": 256,
+     "label": "dark_photon_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 258,
+   "line_end": 260,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 262,
+   "line_end": 264,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 266,
+   "line_end": 266,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 38,
+   "title": "Fitted values of Nsig, differential branching fraction and TFF for all 20 bins",
+   "section_type": "fit"
+  },
+  {
+   "line": 170,
+   "title": "Remaining number of peaking background events in both η decay modes",
+   "section_type": "fit"
+  },
+  {
+   "line": 203,
+   "title": "Fitted Nsig, differential branching fraction and TFF for all 20 bins",
+   "section_type": "fit"
+  },
+  {
+   "line": 224,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

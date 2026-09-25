@@ -1,0 +1,193 @@
+{
+ "paper_id": "2301.07321v2",
+ "source_path": "arxiv_papers/2301.07321v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 246,
+ "n_lines_sent": 69,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 119,
+   "to": 246,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 10,
+   "line_end": 38,
+   "type": "front_matter",
+   "title": "Author affiliations"
+  },
+  {
+   "line_start": 44,
+   "line_end": 44,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 46,
+   "line_end": 54,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 56,
+   "line_end": 56,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 58,
+   "line_end": 63,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "partial_reconstruction"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 62,
+     "line_end": 63,
+     "label": "figure_1"
+    }
+   ]
+  },
+  {
+   "line_start": 65,
+   "line_end": 68,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 70,
+   "line_end": 76,
+   "type": "fit",
+   "title": "Fit to recoil mass distributions"
+  },
+  {
+   "line_start": 78,
+   "line_end": 78,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 80,
+   "line_end": 101,
+   "type": "fit",
+   "title": "Fit to dressed cross section line shape"
+  },
+  {
+   "line_start": 103,
+   "line_end": 103,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties of resonance parameters",
+   "units": [
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "resonance_parameter_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 105,
+   "line_end": 105,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 107,
+   "line_end": 113,
+   "type": "other",
+   "title": "Tables"
+  },
+  {
+   "line_start": 115,
+   "line_end": 117,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 109,
+   "title": "Fit results of dressed cross section line shape with eight solutions",
+   "section_type": "fit"
+  },
+  {
+   "line": 113,
+   "title": "Systematic uncertainties in psi-state parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 207,
+   "title": "Born cross section for XYZ data sets",
+   "section_type": "results"
+  },
+  {
+   "line": 211,
+   "title": "Born cross section for Scan data sets",
+   "section_type": "results"
+  },
+  {
+   "line": 246,
+   "title": "Summary of systematic uncertainties in Born cross section",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

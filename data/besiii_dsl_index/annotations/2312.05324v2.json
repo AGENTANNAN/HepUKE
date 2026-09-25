@@ -1,0 +1,175 @@
+{
+ "paper_id": "2312.05324v2",
+ "source_path": "arxiv_papers/2312.05324v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 236,
+ "n_lines_sent": 119,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 198,
+   "to": 236,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 142,
+   "type": "front_matter",
+   "title": "Determination of spin-parity quantum numbers of X(2370) as 0^{-+}"
+  },
+  {
+   "line_start": 144,
+   "line_end": 144,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 146,
+   "line_end": 152,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 154,
+   "line_end": 154,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 156,
+   "line_end": 166,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "track_and_ks_selection"
+    },
+    {
+     "line_start": 158,
+     "line_end": 160,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "eta_prime_to_gamma_pi_pi_selection"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "eta_prime_to_pi_pi_eta_selection"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "selection_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 168,
+   "line_end": 173,
+   "type": "background",
+   "title": "Background Estimation and Mass Distributions"
+  },
+  {
+   "line_start": 175,
+   "line_end": 182,
+   "type": "fit",
+   "title": "Partial Wave Analysis"
+  },
+  {
+   "line_start": 184,
+   "line_end": 186,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainty",
+   "units": [
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "pwa_model_uncertainties"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "event_selection_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 188,
+   "line_end": 188,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 190,
+   "line_end": 192,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainty Table",
+   "units": [
+    {
+     "line_start": 190,
+     "line_end": 192,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 194,
+   "line_end": 196,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 192,
+   "title": "Systematic uncertainties on the measurements of mass, width and product branching fraction of the X(2370)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 8.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

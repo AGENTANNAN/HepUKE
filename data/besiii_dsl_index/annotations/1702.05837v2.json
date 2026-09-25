@@ -1,0 +1,193 @@
+{
+ "paper_id": "1702.05837v2",
+ "source_path": "arxiv_papers/1702.05837v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 289,
+ "n_lines_sent": 157,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 261,
+   "to": 289,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 128,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 130,
+   "line_end": 132,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 134,
+   "line_end": 140,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 142,
+   "line_end": 146,
+   "type": "detector",
+   "title": "II. THE BESIII DETECTOR AND DATA SET"
+  },
+  {
+   "line_start": 148,
+   "line_end": 228,
+   "type": "event_selection",
+   "title": "III. D+ -> gamma e+ nu_e DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 148,
+     "line_end": 156,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 158,
+     "line_end": 178,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 180,
+     "line_end": 185,
+     "label": "single_tag_yields"
+    },
+    {
+     "line_start": 187,
+     "line_end": 220,
+     "label": "double_tag_selection"
+    },
+    {
+     "line_start": 222,
+     "line_end": 228,
+     "label": "double_tag_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 230,
+   "line_end": 242,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 230,
+     "line_end": 232,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 234,
+     "line_end": 234,
+     "label": "background_normalization"
+    },
+    {
+     "line_start": 236,
+     "line_end": 242,
+     "label": "fit_procedure"
+    }
+   ]
+  },
+  {
+   "line_start": 244,
+   "line_end": 246,
+   "type": "results",
+   "title": "V. THE UPPER LIMIT ON BRANCHING FRACTION",
+   "units": [
+    {
+     "line_start": 244,
+     "line_end": 246,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 248,
+   "line_end": 253,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 255,
+   "line_end": 259,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 182,
+   "title": "Summary of Delta E requirements, ST yields and detection efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 224,
+   "title": "DT efficiencies and misidentification rates",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 240,
+   "title": "Systematic uncertainties related to detection efficiencies",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

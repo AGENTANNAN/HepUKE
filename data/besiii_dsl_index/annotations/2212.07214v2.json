@@ -1,0 +1,239 @@
+{
+ "paper_id": "2212.07214v2",
+ "source_path": "arxiv_papers/2212.07214v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 328,
+ "n_lines_sent": 195,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 133,
+   "to": 133,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 295,
+   "to": 328,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 135,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 137,
+   "line_end": 139,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 141,
+   "line_end": 191,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 193,
+   "line_end": 195,
+   "type": "introduction",
+   "title": "Table 1"
+  },
+  {
+   "line_start": 197,
+   "line_end": 199,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 201,
+   "line_end": 203,
+   "type": "event_selection",
+   "title": "III. METHODOLOGY",
+   "units": [
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "event_topology_and_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 205,
+   "line_end": 236,
+   "type": "event_selection",
+   "title": "IV. ST EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "pid"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "ks0_lambda_reconstruction"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 217,
+     "line_end": 227,
+     "label": "delta_e_mbc_selection"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 231,
+     "line_end": 232,
+     "label": "figure_mbc_distributions"
+    },
+    {
+     "line_start": 234,
+     "line_end": 236,
+     "label": "table_st_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 238,
+   "line_end": 242,
+   "type": "event_selection",
+   "title": "V. DT EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 240,
+     "line_end": 240,
+     "label": "dt_event_selection"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "dt_efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 244,
+   "line_end": 254,
+   "type": "background",
+   "title": "VI. BACKGROUND ANALYSIS"
+  },
+  {
+   "line_start": 256,
+   "line_end": 277,
+   "type": "fit",
+   "title": "VII. UPPER LIMIT CALCULATION"
+  },
+  {
+   "line_start": 279,
+   "line_end": 283,
+   "type": "systematic_uncertainty",
+   "title": "VIII. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 281,
+     "line_end": 283,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 285,
+   "line_end": 289,
+   "type": "acknowledgements",
+   "title": "X. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 291,
+   "line_end": 293,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  }
+ ],
+ "tables": [
+  {
+   "line": 195,
+   "title": "Center-of-mass energy and integrated luminosity for each energy point",
+   "section_type": "introduction"
+  },
+  {
+   "line": 236,
+   "title": "Delta E requirement, ST yield, and ST detection efficiency for each tag mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 252,
+   "title": "DT detection efficiency for each tag mode and energy point",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 283,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 201-203 before line 203",
+  "gap in 205-236 before line 207",
+  "gap in 238-242 before line 240"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": [],
+ "units_repaired": true
+}

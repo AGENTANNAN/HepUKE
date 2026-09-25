@@ -1,0 +1,309 @@
+{
+ "paper_id": "2601.16476v1",
+ "source_path": "arxiv_papers/2601.16476v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 553,
+ "n_lines_sent": 110,
+ "skipped_ranges": [
+  {
+   "from": 199,
+   "to": 553,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Title and abstract header"
+  },
+  {
+   "line_start": 11,
+   "line_end": 18,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 20,
+   "line_end": 31,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 33,
+   "line_end": 35,
+   "type": "detector",
+   "title": "2 Detector and data sets"
+  },
+  {
+   "line_start": 37,
+   "line_end": 45,
+   "type": "dataset",
+   "title": "2 Detector and data sets"
+  },
+  {
+   "line_start": 47,
+   "line_end": 57,
+   "type": "event_selection",
+   "title": "3 Analysis strategy",
+   "units": [
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "analysis_strategy"
+    },
+    {
+     "line_start": 51,
+     "line_end": 57,
+     "label": "bf_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 59,
+   "line_end": 98,
+   "type": "event_selection",
+   "title": "4 Single tag selection",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 69,
+     "line_end": 71,
+     "label": "mass_window_table"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "veto_soft_pions"
+    },
+    {
+     "line_start": 75,
+     "line_end": 81,
+     "label": "recoiling_mass"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 85,
+     "line_end": 87,
+     "label": "st_yield_table"
+    },
+    {
+     "line_start": 89,
+     "line_end": 94,
+     "label": "st_fit_figure"
+    },
+    {
+     "line_start": 96,
+     "line_end": 98,
+     "label": "st_efficiency_table"
+    }
+   ]
+  },
+  {
+   "line_start": 100,
+   "line_end": 108,
+   "type": "event_selection",
+   "title": "5 Double tag selection",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "dt_selection"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "kstar_selection"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "veto_pi0_eta_kpi0"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "veto_pi0_eta_kspi"
+    }
+   ]
+  },
+  {
+   "line_start": 110,
+   "line_end": 144,
+   "type": "fit",
+   "title": "6 Result"
+  },
+  {
+   "line_start": 146,
+   "line_end": 179,
+   "type": "systematic_uncertainty",
+   "title": "7 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "additive_systematics"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "multiplicative_intro"
+    },
+    {
+     "line_start": 152,
+     "line_end": 153,
+     "label": "likelihood_figure"
+    },
+    {
+     "line_start": 155,
+     "line_end": 155,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 159,
+     "line_end": 159,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 161,
+     "line_end": 161,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 163,
+     "line_end": 163,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 165,
+     "line_end": 165,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 167,
+     "line_end": 167,
+     "label": "mgammagamma_requirements"
+    },
+    {
+     "line_start": 169,
+     "line_end": 171,
+     "label": "systematic_table"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "mkstar_requirement"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "egamma_requirement"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "quoted_bfs"
+    },
+    {
+     "line_start": 179,
+     "line_end": 179,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 181,
+   "line_end": 193,
+   "type": "conclusion",
+   "title": "8 Summary"
+  },
+  {
+   "line_start": 195,
+   "line_end": 197,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 39,
+   "title": "Integrated luminosities and recoil mass requirements",
+   "section_type": "dataset"
+  },
+  {
+   "line": 69,
+   "title": "Mass windows for tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 85,
+   "title": "ST yields for data samples",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 96,
+   "title": "ST efficiencies for data samples",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 121,
+   "title": "DT efficiencies for data samples",
+   "section_type": "fit"
+  },
+  {
+   "line": 169,
+   "title": "Systematic uncertainties in BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 189,
+   "title": "Predicted BFs from theories and upper limit",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 7.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 47-57 before line 49",
+  "gap in 59-98 before line 61",
+  "gap in 100-108 before line 102",
+  "gap in 146-179 before line 148"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": [],
+ "units_repaired": true
+}

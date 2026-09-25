@@ -1,0 +1,311 @@
+{
+ "paper_id": "2604.05701v1",
+ "source_path": "arxiv_papers/2604.05701v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 1187,
+ "n_lines_sent": 344,
+ "skipped_ranges": [
+  {
+   "from": 591,
+   "to": 1187,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Title and author list"
+  },
+  {
+   "line_start": 13,
+   "line_end": 25,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 27,
+   "line_end": 169,
+   "type": "other",
+   "title": "2 Analysis strategy"
+  },
+  {
+   "line_start": 171,
+   "line_end": 183,
+   "type": "detector",
+   "title": "3 Detectors and simulation"
+  },
+  {
+   "line_start": 185,
+   "line_end": 211,
+   "type": "event_selection",
+   "title": "4 Event selection and signal extraction",
+   "units": [
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "signal_and_tag_modes"
+    },
+    {
+     "line_start": 189,
+     "line_end": 189,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "kinematic_fit_and_fit_variables"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "background_and_signal_extraction"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "lhc_b_candidate_reconstruction"
+    },
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "lhc_fit_model"
+    }
+   ]
+  },
+  {
+   "line_start": 212,
+   "line_end": 311,
+   "type": "other",
+   "title": "5 Observables from data"
+  },
+  {
+   "line_start": 313,
+   "line_end": 394,
+   "type": "fit",
+   "title": "6 Fit to observables from data"
+  },
+  {
+   "line_start": 396,
+   "line_end": 446,
+   "type": "systematic_uncertainty",
+   "title": "7 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 398,
+     "line_end": 398,
+     "label": "overview"
+    },
+    {
+     "line_start": 400,
+     "line_end": 400,
+     "label": "besiii_sources_overview"
+    },
+    {
+     "line_start": 402,
+     "line_end": 402,
+     "label": "pseudoexperiments"
+    },
+    {
+     "line_start": 404,
+     "line_end": 404,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 406,
+     "line_end": 406,
+     "label": "tracking_of_pions_from_ks"
+    },
+    {
+     "line_start": 408,
+     "line_end": 408,
+     "label": "resolution_differences"
+    },
+    {
+     "line_start": 410,
+     "line_end": 410,
+     "label": "besiii_impact_study"
+    },
+    {
+     "line_start": 412,
+     "line_end": 412,
+     "label": "splot_correlation"
+    },
+    {
+     "line_start": 414,
+     "line_end": 414,
+     "label": "efficiency_profiles"
+    },
+    {
+     "line_start": 432,
+     "line_end": 432,
+     "label": "detector_resolution"
+    },
+    {
+     "line_start": 434,
+     "line_end": 436,
+     "label": "global_fit"
+    },
+    {
+     "line_start": 438,
+     "line_end": 438,
+     "label": "cp_violation_in_ks_and_d_mixing"
+    },
+    {
+     "line_start": 440,
+     "line_end": 440,
+     "label": "fourier_order_bias"
+    },
+    {
+     "line_start": 442,
+     "line_end": 442,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 448,
+   "line_end": 522,
+   "type": "results",
+   "title": "8 Results of γ",
+   "units": [
+    {
+     "line_start": 450,
+     "line_end": 474,
+     "label": "cp_observables"
+    },
+    {
+     "line_start": 476,
+     "line_end": 476,
+     "label": "uncertainty_breakdown"
+    },
+    {
+     "line_start": 478,
+     "line_end": 498,
+     "label": "physics_parameters"
+    },
+    {
+     "line_start": 503,
+     "line_end": 503,
+     "label": "comparison_with_world_average"
+    },
+    {
+     "line_start": 505,
+     "line_end": 505,
+     "label": "additional_studies"
+    }
+   ]
+  },
+  {
+   "line_start": 524,
+   "line_end": 528,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 530,
+   "line_end": 589,
+   "type": "other",
+   "title": "Appendices"
+  }
+ ],
+ "tables": [
+  {
+   "line": 193,
+   "title": "Summary of tag modes selected against D → K_S/L^0 h'^+ h'^-",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 254,
+   "title": "Parameters of the flavor tags used to correct flavor observables",
+   "section_type": "other"
+  },
+  {
+   "line": 394,
+   "title": "Results of the strong-phase parameters C_n, S_n from BESIII-only data",
+   "section_type": "fit"
+  },
+  {
+   "line": 418,
+   "title": "Summary of all uncertainties on the strong-phase parameters of D^0 → K_S^0 π^+ π^- decays",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 422,
+   "title": "Summary of all uncertainties on the strong-phase parameters of D^0 → K_L^0 π^+ π^- decays",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 426,
+   "title": "Summary of all uncertainties on the strong-phase parameters of D^0 → K_S^0 K^+ K^- decays",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 430,
+   "title": "Summary of all uncertainties on the strong-phase parameters of D^0 → K_L^0 K^+ K^- decays",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 446,
+   "title": "Summary of all uncertainties on the CP observables from BESIII and LHCb data",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 522,
+   "title": "Results of the extracted parameters (γ, r_B^DK, δ_B^DK, r_B^Dπ, δ_B^Dπ)",
+   "section_type": "results"
+  },
+  {
+   "line": 538,
+   "title": "Signal yields and DT efficiencies of the D → K_S/L^0 K^+ K^- channel in BESIII",
+   "section_type": "other"
+  },
+  {
+   "line": 573,
+   "title": "Strong-phase parameters of the D → K_S^0 π^+ π^- decay with different setups",
+   "section_type": "other"
+  },
+  {
+   "line": 577,
+   "title": "Statistical uncertainties and correlation matrix of the CP observables from LHCb",
+   "section_type": "other"
+  },
+  {
+   "line": 581,
+   "title": "Statistical uncertainties and correlation matrix of the CP observables from BESIII",
+   "section_type": "other"
+  },
+  {
+   "line": 585,
+   "title": "Systematic uncertainties and correlation matrix of the CP observables from LHCb",
+   "section_type": "other"
+  },
+  {
+   "line": 589,
+   "title": "Systematic uncertainties and correlation matrix of the CP observables from BESIII",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 185-211 before line 187",
+  "gap in 185-211 before line 195",
+  "gap in 185-211 before line 210",
+  "gap in 396-446 before line 398",
+  "gap in 396-446 before line 432",
+  "units of 396-446 stop at 442, not 446",
+  "gap in 448-522 before line 450",
+  "gap in 448-522 before line 503",
+  "units of 448-522 stop at 505, not 522"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": [],
+ "units_repaired": true
+}

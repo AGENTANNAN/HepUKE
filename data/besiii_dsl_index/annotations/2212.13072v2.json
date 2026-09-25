@@ -1,0 +1,303 @@
+{
+ "paper_id": "2212.13072v2",
+ "source_path": "arxiv_papers/2212.13072v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 304,
+ "n_lines_sent": 152,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 283,
+   "to": 304,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 15,
+   "type": "front_matter",
+   "title": "Measurement of the absolute branching fraction of the inclusive decay"
+  },
+  {
+   "line_start": 15,
+   "line_end": 15,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 17,
+   "line_end": 23,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 25,
+   "line_end": 29,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SETS"
+  },
+  {
+   "line_start": 31,
+   "line_end": 104,
+   "type": "fit",
+   "title": "III. ANALYSIS TECHNIQUE"
+  },
+  {
+   "line_start": 106,
+   "line_end": 135,
+   "type": "event_selection",
+   "title": "IV. SINGLE TAG ANALYSIS",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 108,
+     "label": "tag_mode_selection"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "track_requirements"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "pid"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 116,
+     "line_end": 122,
+     "label": "ds_mass_window"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "d0_veto"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "single_candidate"
+    },
+    {
+     "line_start": 128,
+     "line_end": 135,
+     "label": "st_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 137,
+   "line_end": 181,
+   "type": "event_selection",
+   "title": "V. DOUBLE TAG ANALYSIS",
+   "units": [
+    {
+     "line_start": 137,
+     "line_end": 139,
+     "label": "signal_side_selection"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "background_overview"
+    },
+    {
+     "line_start": 143,
+     "line_end": 145,
+     "label": "ks0_background"
+    },
+    {
+     "line_start": 147,
+     "line_end": 159,
+     "label": "misid_background"
+    },
+    {
+     "line_start": 161,
+     "line_end": 181,
+     "label": "partial_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 183,
+   "line_end": 258,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 183,
+     "line_end": 189,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 191,
+     "line_end": 202,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 204,
+     "line_end": 206,
+     "label": "tracking"
+    },
+    {
+     "line_start": 208,
+     "line_end": 212,
+     "label": "pid"
+    },
+    {
+     "line_start": 214,
+     "line_end": 218,
+     "label": "ks0_background"
+    },
+    {
+     "line_start": 220,
+     "line_end": 224,
+     "label": "misid_background"
+    },
+    {
+     "line_start": 226,
+     "line_end": 228,
+     "label": "pion_multiplicity"
+    },
+    {
+     "line_start": 230,
+     "line_end": 234,
+     "label": "pion_momenta"
+    },
+    {
+     "line_start": 236,
+     "line_end": 238,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 240,
+     "line_end": 242,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 244,
+     "line_end": 246,
+     "label": "signal_mc_model"
+    },
+    {
+     "line_start": 248,
+     "line_end": 250,
+     "label": "single_candidate"
+    },
+    {
+     "line_start": 252,
+     "line_end": 258,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 260,
+   "line_end": 273,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 275,
+   "line_end": 279,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 281,
+   "line_end": 281,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 37,
+   "title": "Major exclusive decay modes contributing to inclusive Ds+ decay",
+   "section_type": "fit"
+  },
+  {
+   "line": 135,
+   "title": "ST yields and efficiencies for the two tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 173,
+   "title": "Raw signal yields and background for Ds- to Ks0 K- versus Ds+ to pi+pi+pi-X",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 177,
+   "title": "Raw signal yields and background for Ds- to K-K+pi- versus Ds+ to pi+pi+pi-X",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 181,
+   "title": "Efficiency matrix for Ds- to Ks0 K- versus Ds+ to pi+pi+pi-X",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 193,
+   "title": "Efficiency matrix for Ds- to K-K+pi- versus Ds+ to pi+pi+pi-X",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 200,
+   "title": "Partial branching fractions of Ds+ to pi+pi+pi-X",
+   "section_type": "results"
+  },
+  {
+   "line": 258,
+   "title": "Sources of systematic uncertainties in B(Ds+ to pi+pi+pi-X)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 295,
+   "title": "Systematic uncertainties for partial branching fractions by interval",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 6.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-15 / 15-15"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

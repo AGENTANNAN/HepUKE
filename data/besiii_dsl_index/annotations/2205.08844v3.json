@@ -1,0 +1,305 @@
+{
+ "paper_id": "2205.08844v3",
+ "source_path": "arxiv_papers/2205.08844v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 602,
+ "n_lines_sent": 267,
+ "skipped_ranges": [
+  {
+   "from": 446,
+   "to": 602,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 7,
+   "line_end": 7,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 11,
+   "line_end": 31,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 33,
+   "line_end": 43,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 45,
+   "line_end": 55,
+   "type": "detector",
+   "title": "2 Detector and data sets"
+  },
+  {
+   "line_start": 57,
+   "line_end": 79,
+   "type": "event_selection",
+   "title": "3 Event selection",
+   "units": [
+    {
+     "line_start": 57,
+     "line_end": 59,
+     "label": "tag_method"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "tracking"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 65,
+     "line_end": 67,
+     "label": "tag_mass_windows"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 73,
+     "line_end": 79,
+     "label": "mrec_definition"
+    }
+   ]
+  },
+  {
+   "line_start": 81,
+   "line_end": 83,
+   "type": "fit",
+   "title": "4 Amplitude analysis"
+  },
+  {
+   "line_start": 85,
+   "line_end": 91,
+   "type": "event_selection",
+   "title": "4.1 Event selection",
+   "units": [
+    {
+     "line_start": 85,
+     "line_end": 87,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "ks0_veto"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "mass_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 159,
+   "type": "fit",
+   "title": "4.2 Fit method"
+  },
+  {
+   "line_start": 160,
+   "line_end": 275,
+   "type": "fit",
+   "title": "4.2.1 Propagator"
+  },
+  {
+   "line_start": 276,
+   "line_end": 297,
+   "type": "fit",
+   "title": "4.2.2 Spin factors"
+  },
+  {
+   "line_start": 298,
+   "line_end": 309,
+   "type": "fit",
+   "title": "4.2.3 Blatt-Weisskopf barriers"
+  },
+  {
+   "line_start": 310,
+   "line_end": 341,
+   "type": "fit",
+   "title": "4.3 Fit results"
+  },
+  {
+   "line_start": 343,
+   "line_end": 373,
+   "type": "systematic_uncertainty",
+   "title": "4.4 Systematic uncertainties for the amplitude analysis",
+   "units": [
+    {
+     "line_start": 343,
+     "line_end": 347,
+     "label": "fixed_parameters"
+    },
+    {
+     "line_start": 349,
+     "line_end": 357,
+     "label": "r_values"
+    },
+    {
+     "line_start": 359,
+     "line_end": 359,
+     "label": "fit_bias"
+    },
+    {
+     "line_start": 361,
+     "line_end": 361,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 363,
+     "line_end": 366,
+     "label": "experimental_effects"
+    },
+    {
+     "line_start": 368,
+     "line_end": 373,
+     "label": "insignificant_amplitudes"
+    }
+   ]
+  },
+  {
+   "line_start": 374,
+   "line_end": 431,
+   "type": "results",
+   "title": "5 BF measurement",
+   "units": [
+    {
+     "line_start": 374,
+     "line_end": 399,
+     "label": "bf_formalism"
+    },
+    {
+     "line_start": 400,
+     "line_end": 404,
+     "label": "st_yields"
+    },
+    {
+     "line_start": 406,
+     "line_end": 409,
+     "label": "dt_selection"
+    },
+    {
+     "line_start": 411,
+     "line_end": 416,
+     "label": "dt_yield_and_bf"
+    },
+    {
+     "line_start": 418,
+     "line_end": 426,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 428,
+     "line_end": 431,
+     "label": "systematic_summary"
+    }
+   ]
+  },
+  {
+   "line_start": 432,
+   "line_end": 440,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 442,
+   "line_end": 444,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 43,
+   "title": "Experimental measurements and theoretical predictions of BFs",
+   "section_type": "introduction"
+  },
+  {
+   "line": 55,
+   "title": "Integrated luminosities and Mrec requirements",
+   "section_type": "detector"
+  },
+  {
+   "line": 67,
+   "title": "Mass windows for tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 272,
+   "title": "K pi S-wave parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 337,
+   "title": "Phases, FFs and significances of amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 351,
+   "title": "Interference between amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 355,
+   "title": "Significances of tested amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 372,
+   "title": "Systematic uncertainties on phases and FFs",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 402,
+   "title": "ST yields for data samples",
+   "section_type": "results"
+  },
+  {
+   "line": 430,
+   "title": "Systematic uncertainties in BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 438,
+   "title": "BFs for intermediate processes",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 13.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-9 / 7-7"
+ ],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

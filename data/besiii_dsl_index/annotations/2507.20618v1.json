@@ -1,0 +1,155 @@
+{
+ "paper_id": "2507.20618v1",
+ "source_path": "arxiv_papers/2507.20618v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 176,
+ "n_lines_sent": 44,
+ "skipped_ranges": [
+  {
+   "from": 78,
+   "to": 176,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "Precise Measurement of Chromo-Electric Dipole Moment of the Charm Quark"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 7,
+   "line_end": 32,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 34,
+   "line_end": 34,
+   "type": "dataset",
+   "title": "Monte Carlo Simulation"
+  },
+  {
+   "line_start": 36,
+   "line_end": 40,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 36,
+     "line_end": 36,
+     "label": "tracking"
+    },
+    {
+     "line_start": 38,
+     "line_end": 38,
+     "label": "pid"
+    },
+    {
+     "line_start": 40,
+     "line_end": 40,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 42,
+   "line_end": 57,
+   "type": "fit",
+   "title": "CP Asymmetry Measurement"
+  },
+  {
+   "line_start": 59,
+   "line_end": 59,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "tracking"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "jpsi_mass_window"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "background"
+    }
+   ]
+  },
+  {
+   "line_start": 61,
+   "line_end": 65,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 63,
+     "label": "table_i"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "cedm_results"
+    }
+   ]
+  },
+  {
+   "line_start": 67,
+   "line_end": 69,
+   "type": "conclusion",
+   "title": "Conclusion"
+  },
+  {
+   "line_start": 71,
+   "line_end": 72,
+   "type": "other",
+   "title": "Figure 3"
+  },
+  {
+   "line_start": 74,
+   "line_end": 76,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 63,
+   "title": "Measured CP observables and CEDM results",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 59-59 share boundary line 59",
+  "units of 59-59 share boundary line 59",
+  "units of 59-59 share boundary line 59",
+  "nested spans 1-5 / 5-5"
+ ],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

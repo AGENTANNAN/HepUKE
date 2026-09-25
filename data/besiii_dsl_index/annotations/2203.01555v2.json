@@ -1,0 +1,224 @@
+{
+ "paper_id": "2203.01555v2",
+ "source_path": "arxiv_papers/2203.01555v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 278,
+ "n_lines_sent": 161,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 122,
+   "to": 122,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 253,
+   "to": 278,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 124,
+   "type": "front_matter",
+   "title": "Measurement of the branching fraction of the doubly Cabibbo-suppressed decay D0 -> K+ pi- pi0 and search for D0 -> K+ pi- pi0 pi0"
+  },
+  {
+   "line_start": 126,
+   "line_end": 128,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 130,
+   "line_end": 134,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 136,
+   "line_end": 142,
+   "type": "detector",
+   "title": "II. DATA AND MONTE CARLO"
+  },
+  {
+   "line_start": 144,
+   "line_end": 152,
+   "type": "fit",
+   "title": "III. MEASUREMENT METHOD"
+  },
+  {
+   "line_start": 154,
+   "line_end": 213,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 154,
+     "line_end": 158,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 160,
+     "line_end": 172,
+     "label": "pi0_and_ks0_veto"
+    },
+    {
+     "line_start": 174,
+     "line_end": 176,
+     "label": "semileptonic_selection"
+    },
+    {
+     "line_start": 178,
+     "line_end": 184,
+     "label": "umiss_variable"
+    },
+    {
+     "line_start": 186,
+     "line_end": 189,
+     "label": "mbc_signal_region"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "background_components"
+    },
+    {
+     "line_start": 195,
+     "line_end": 205,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 207,
+     "line_end": 213,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 215,
+   "line_end": 215,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties (tracking and PID)",
+   "units": [
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "tracking_and_pid"
+    }
+   ]
+  },
+  {
+   "line_start": 217,
+   "line_end": 241,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 217,
+     "line_end": 219,
+     "label": "electron_tracking_pid"
+    },
+    {
+     "line_start": 221,
+     "line_end": 223,
+     "label": "kaon_pion_tracking_pid"
+    },
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "umiss_fit"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "kinematic_requirements"
+    },
+    {
+     "line_start": 231,
+     "line_end": 231,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "extra_particle_veto"
+    },
+    {
+     "line_start": 235,
+     "line_end": 235,
+     "label": "mc_statistics_fsr_normalization"
+    },
+    {
+     "line_start": 237,
+     "line_end": 241,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 243,
+   "line_end": 245,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 247,
+   "line_end": 251,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 223,
+   "title": "Ratios of efficiencies of K+ tracking, K+ PID, pi- tracking, and pi- PID between data and MC simulation",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 241,
+   "title": "Systematic uncertainties (in %) in the determination of the branching fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

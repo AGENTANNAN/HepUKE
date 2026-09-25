@@ -1,0 +1,174 @@
+{
+ "paper_id": "1412.1867v2",
+ "source_path": "arxiv_papers/1412.1867v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 214,
+ "n_lines_sent": 103,
+ "skipped_ranges": [
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 176,
+   "to": 214,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 29,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, date, PACS"
+  },
+  {
+   "line_start": 31,
+   "line_end": 37,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 39,
+   "line_end": 43,
+   "type": "detector",
+   "title": "Detector and data samples"
+  },
+  {
+   "line_start": 45,
+   "line_end": 49,
+   "type": "dataset",
+   "title": "II. DATA AND MONTE CARLO SAMPLES"
+  },
+  {
+   "line_start": 51,
+   "line_end": 93,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 51,
+     "line_end": 53,
+     "label": "common_track_and_photon_selection"
+    },
+    {
+     "line_start": 55,
+     "line_end": 71,
+     "label": "phi_to_K+K-_selection"
+    },
+    {
+     "line_start": 73,
+     "line_end": 84,
+     "label": "phi_to_KS0KL0_selection"
+    },
+    {
+     "line_start": 86,
+     "line_end": 93,
+     "label": "phi_to_pi+pi-pi0_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 95,
+   "line_end": 120,
+   "type": "fit",
+   "title": "IV. CROSS SECTIONS"
+  },
+  {
+   "line_start": 122,
+   "line_end": 127,
+   "type": "results",
+   "title": "Upper limits",
+   "units": [
+    {
+     "line_start": 122,
+     "line_end": 127,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 129,
+   "line_end": 160,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 129,
+     "line_end": 133,
+     "label": "luminosity_tracking_photon"
+    },
+    {
+     "line_start": 135,
+     "line_end": 139,
+     "label": "pid_ks0_reconstruction"
+    },
+    {
+     "line_start": 141,
+     "line_end": 147,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 149,
+     "line_end": 149,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 151,
+     "line_end": 151,
+     "label": "radiative_decay_distribution"
+    },
+    {
+     "line_start": 153,
+     "line_end": 158,
+     "label": "mass_windows_kinematic_fit"
+    },
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 162,
+   "line_end": 170,
+   "type": "conclusion",
+   "title": "VI. RESULTS AND DISCUSSIONS"
+  },
+  {
+   "line_start": 172,
+   "line_end": 174,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 57,
+   "title": "Mass windows for J/psi and phi",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 127,
+   "title": "Upper limits on cross section times branching fraction",
+   "section_type": "results"
+  },
+  {
+   "line": 137,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

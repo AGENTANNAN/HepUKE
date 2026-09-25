@@ -1,0 +1,258 @@
+{
+ "paper_id": "1902.09756v1",
+ "source_path": "arxiv_papers/1902.09756v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 331,
+ "n_lines_sent": 163,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 79,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 106,
+   "to": 106,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 158,
+   "to": 158,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 162,
+   "to": 162,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 297,
+   "to": 331,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 166,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": 168,
+   "line_end": 170,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 172,
+   "line_end": 186,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 188,
+   "line_end": 194,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 196,
+   "line_end": 231,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 196,
+     "line_end": 202,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "background_analysis"
+    },
+    {
+     "line_start": 206,
+     "line_end": 231,
+     "label": "branching_fraction_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 233,
+   "line_end": 257,
+   "type": "systematic_uncertainty",
+   "title": "C. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 233,
+     "line_end": 235,
+     "label": "overview"
+    },
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "tracking"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "pid"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "lambda_veto"
+    },
+    {
+     "line_start": 245,
+     "line_end": 247,
+     "label": "mass_spectrum_fit"
+    },
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "weighting_procedure"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "branching_fraction_and_event_count"
+    },
+    {
+     "line_start": 253,
+     "line_end": 257,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 259,
+   "line_end": 285,
+   "type": "results",
+   "title": "D. Upper limit of pp mass threshold enhancement",
+   "units": [
+    {
+     "line_start": 259,
+     "line_end": 261,
+     "label": "pp_mass_spectrum"
+    },
+    {
+     "line_start": 263,
+     "line_end": 264,
+     "label": "figure_4"
+    },
+    {
+     "line_start": 266,
+     "line_end": 272,
+     "label": "signal_modeling"
+    },
+    {
+     "line_start": 274,
+     "line_end": 277,
+     "label": "fit_scenarios"
+    },
+    {
+     "line_start": 279,
+     "line_end": 285,
+     "label": "upper_limit_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 287,
+   "line_end": 291,
+   "type": "conclusion",
+   "title": "IV. SUMMARY"
+  },
+  {
+   "line_start": 293,
+   "line_end": 295,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 257,
+   "title": "Sources of relative systematic uncertainties and their contributions to the branching fractions and upper limits",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

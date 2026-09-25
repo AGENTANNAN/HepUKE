@@ -1,0 +1,401 @@
+{
+ "paper_id": "2209.05787v2",
+ "source_path": "arxiv_papers/2209.05787v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 337,
+ "n_lines_sent": 184,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 65,
+   "to": 65,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 74,
+   "to": 74,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 90,
+   "to": 90,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 92,
+   "to": 92,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 125,
+   "to": 125,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 128,
+   "to": 128,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 131,
+   "to": 132,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 143,
+   "to": 145,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 147,
+   "to": 147,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 299,
+   "to": 337,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 150,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 151,
+   "line_end": 151,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 153,
+   "line_end": 171,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 173,
+   "line_end": 179,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 181,
+   "line_end": 195,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS - A. Analysis Method",
+   "units": [
+    {
+     "line_start": 181,
+     "line_end": 187,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 189,
+     "line_end": 193,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "blind_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 197,
+   "line_end": 205,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS - B. Event Selection",
+   "units": [
+    {
+     "line_start": 197,
+     "line_end": 199,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "ks0_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 207,
+   "line_end": 213,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS - C. Single-Tag Events",
+   "units": [
+    {
+     "line_start": 207,
+     "line_end": 209,
+     "label": "st_selection_variables"
+    },
+    {
+     "line_start": 211,
+     "line_end": 213,
+     "label": "st_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 215,
+   "line_end": 220,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS - C. Single-Tag Events (figures and table)",
+   "units": [
+    {
+     "line_start": 215,
+     "line_end": 218,
+     "label": "st_fit_figure_and_table_caption"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "st_yields_table"
+    }
+   ]
+  },
+  {
+   "line_start": 222,
+   "line_end": 233,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS - D. Double-Tag Events",
+   "units": [
+    {
+     "line_start": 222,
+     "line_end": 226,
+     "label": "dt_selection_kinematic_fit"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "mva_gbdt_selection"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "efficiency_from_control_sample"
+    },
+    {
+     "line_start": 232,
+     "line_end": 233,
+     "label": "gbdt_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 235,
+   "line_end": 248,
+   "type": "fit",
+   "title": "III. DATA ANALYSIS - E. Signal Extraction and Fitting"
+  },
+  {
+   "line_start": 250,
+   "line_end": 274,
+   "type": "systematic_uncertainty",
+   "title": "III. DATA ANALYSIS - F. Assignment of Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 250,
+     "line_end": 252,
+     "label": "overview"
+    },
+    {
+     "line_start": 254,
+     "line_end": 254,
+     "label": "dt_side_selection"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 260,
+     "line_end": 262,
+     "label": "shower_and_angle"
+    },
+    {
+     "line_start": 264,
+     "line_end": 264,
+     "label": "gbdt_cut"
+    },
+    {
+     "line_start": 266,
+     "line_end": 270,
+     "label": "summary_table"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 274,
+     "line_end": 274,
+     "label": "fit_range_and_background_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 276,
+   "line_end": 280,
+   "type": "results",
+   "title": "III. DATA ANALYSIS - G. Determination of the Upper Limits",
+   "units": [
+    {
+     "line_start": 276,
+     "line_end": 278,
+     "label": "upper_limit_method"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "upper_limit_results"
+    }
+   ]
+  },
+  {
+   "line_start": 282,
+   "line_end": 284,
+   "type": "conclusion",
+   "title": "IV. SUMMARY"
+  },
+  {
+   "line_start": 286,
+   "line_end": 297,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 220,
+   "title": "Summary of ST yields, ST efficiencies, and DT efficiencies for different ST decay modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 270,
+   "title": "Summary of the systematic uncertainties on the DT efficiencies",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 12.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

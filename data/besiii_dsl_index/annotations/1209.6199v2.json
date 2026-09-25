@@ -1,0 +1,343 @@
+{
+ "paper_id": "1209.6199v2",
+ "source_path": "arxiv_papers/1209.6199v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 402,
+ "n_lines_sent": 212,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 63,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 77,
+   "to": 77,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 79,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 110,
+   "to": 110,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 135,
+   "to": 135,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 394,
+   "to": 402,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 144,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 146,
+   "line_end": 146,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 148,
+   "line_end": 160,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 162,
+   "line_end": 194,
+   "type": "event_selection",
+   "title": "II. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 162,
+     "line_end": 164,
+     "label": "event_types_overview"
+    },
+    {
+     "line_start": 166,
+     "line_end": 168,
+     "label": "track_level_selection"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "event_level_selection_ngood_gt_2"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "event_level_selection_ngood_eq_1"
+    },
+    {
+     "line_start": 174,
+     "line_end": 194,
+     "label": "vertex_z_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 196,
+   "line_end": 255,
+   "type": "background",
+   "title": "III. BACKGROUND SUBTRACTION"
+  },
+  {
+   "line_start": 257,
+   "line_end": 284,
+   "type": "results",
+   "title": "IV. NUMERICAL RESULT",
+   "units": [
+    {
+     "line_start": 257,
+     "line_end": 265,
+     "label": "formula_for_N_psi_prime"
+    },
+    {
+     "line_start": 267,
+     "line_end": 269,
+     "label": "table_I_observed_events_and_efficiency"
+    },
+    {
+     "line_start": 271,
+     "line_end": 278,
+     "label": "figures_12_13_14_distributions"
+    },
+    {
+     "line_start": 280,
+     "line_end": 284,
+     "label": "table_II_N_psi_prime_results"
+    }
+   ]
+  },
+  {
+   "line_start": 286,
+   "line_end": 382,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 286,
+     "line_end": 288,
+     "label": "overview"
+    },
+    {
+     "line_start": 290,
+     "line_end": 292,
+     "label": "tracking"
+    },
+    {
+     "line_start": 294,
+     "line_end": 307,
+     "label": "charged_track_multiplicity"
+    },
+    {
+     "line_start": 309,
+     "line_end": 311,
+     "label": "momentum_and_opening_angle"
+    },
+    {
+     "line_start": 313,
+     "line_end": 320,
+     "label": "leb_background_contamination"
+    },
+    {
+     "line_start": 322,
+     "line_end": 324,
+     "label": "nobs_determination"
+    },
+    {
+     "line_start": 326,
+     "line_end": 328,
+     "label": "vertex_limit"
+    },
+    {
+     "line_start": 330,
+     "line_end": 332,
+     "label": "scaling_factor"
+    },
+    {
+     "line_start": 334,
+     "line_end": 336,
+     "label": "choice_of_sideband_region"
+    },
+    {
+     "line_start": 338,
+     "line_end": 340,
+     "label": "pi0_mass_requirement"
+    },
+    {
+     "line_start": 342,
+     "line_end": 344,
+     "label": "cross_section_tau_tau"
+    },
+    {
+     "line_start": 346,
+     "line_end": 350,
+     "label": "branching_fraction_psi_prime_to_X_J_psi"
+    },
+    {
+     "line_start": 352,
+     "line_end": 356,
+     "label": "event_start_time_determination"
+    },
+    {
+     "line_start": 358,
+     "line_end": 360,
+     "label": "trigger_efficiency"
+    },
+    {
+     "line_start": 362,
+     "line_end": 364,
+     "label": "missing_0_prong_hadronic_events"
+    },
+    {
+     "line_start": 366,
+     "line_end": 368,
+     "label": "branching_fraction_psi_prime_to_hadrons"
+    },
+    {
+     "line_start": 370,
+     "line_end": 382,
+     "label": "total_error"
+    }
+   ]
+  },
+  {
+   "line_start": 384,
+   "line_end": 386,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 388,
+   "line_end": 392,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 269,
+   "title": "N_obs for peak and off-resonance data and detection efficiency",
+   "section_type": "results"
+  },
+  {
+   "line": 282,
+   "title": "N_psi_prime for different charged-track multiplicity requirements",
+   "section_type": "results"
+  },
+  {
+   "line": 382,
+   "title": "Systematic errors",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 5.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

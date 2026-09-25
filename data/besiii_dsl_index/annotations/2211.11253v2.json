@@ -1,0 +1,190 @@
+{
+ "paper_id": "2211.11253v2",
+ "source_path": "arxiv_papers/2211.11253v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 166,
+ "n_lines_sent": 72,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 136,
+   "to": 166,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 63,
+   "type": "front_matter",
+   "title": "Measurements of Normalized Differential Cross Sections of Inclusive pi0 and KS0 Production in e+e- Annihilation at Energies from 2.2324 to 3.6710 GeV"
+  },
+  {
+   "line_start": 65,
+   "line_end": 65,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 67,
+   "line_end": 77,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 79,
+   "line_end": 79,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 81,
+   "line_end": 91,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "inclusive_hadronic_event_selection"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 85,
+     "line_end": 87,
+     "label": "data_sample_summary"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "residual_background"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 96,
+   "type": "fit",
+   "title": "Mass Spectrum Fits"
+  },
+  {
+   "line_start": 98,
+   "line_end": 112,
+   "type": "fit",
+   "title": "Normalized Differential Cross Section"
+  },
+  {
+   "line_start": 114,
+   "line_end": 118,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "fit_shapes"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "mc_model"
+    }
+   ]
+  },
+  {
+   "line_start": 120,
+   "line_end": 126,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 120,
+     "line_end": 121,
+     "label": "pi0_cross_section"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "theory_comparison"
+    },
+    {
+     "line_start": 125,
+     "line_end": 126,
+     "label": "ks0_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 128,
+   "line_end": 128,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 130,
+   "line_end": 134,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 87,
+   "title": "Integrated luminosities and observed hadronic and residual background events at various c.m. energy points",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

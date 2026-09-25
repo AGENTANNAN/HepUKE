@@ -1,0 +1,202 @@
+{
+ "paper_id": "2107.02977v3",
+ "source_path": "arxiv_papers/2107.02977v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 327,
+ "n_lines_sent": 209,
+ "skipped_ranges": [
+  {
+   "from": 71,
+   "to": 72,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 102,
+   "to": 102,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 115,
+   "to": 115,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 125,
+   "to": 126,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 128,
+   "to": 128,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 130,
+   "to": 130,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 298,
+   "to": 327,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 131,
+   "type": "front_matter",
+   "title": "Measurement of Branching Fractions of J/psi and psi(3686) decays to Sigma+ and Sigma-"
+  },
+  {
+   "line_start": 133,
+   "line_end": 133,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 135,
+   "line_end": 153,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 155,
+   "line_end": 173,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 175,
+   "line_end": 181,
+   "type": "detector",
+   "title": "2 BESIII Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 183,
+   "line_end": 197,
+   "type": "event_selection",
+   "title": "3 Selection criteria",
+   "units": [
+    {
+     "line_start": 183,
+     "line_end": 189,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "kinematic_fit_and_sigma_reconstruction"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "background_study"
+    },
+    {
+     "line_start": 195,
+     "line_end": 197,
+     "label": "qed_continuum_contribution"
+    }
+   ]
+  },
+  {
+   "line_start": 199,
+   "line_end": 244,
+   "type": "fit",
+   "title": "4 Branching fraction measurements"
+  },
+  {
+   "line_start": 246,
+   "line_end": 282,
+   "type": "systematic_uncertainty",
+   "title": "5 Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 246,
+     "line_end": 250,
+     "label": "overview"
+    },
+    {
+     "line_start": 252,
+     "line_end": 254,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 256,
+     "line_end": 258,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 260,
+     "line_end": 262,
+     "label": "decay_parameters"
+    },
+    {
+     "line_start": 264,
+     "line_end": 266,
+     "label": "fitting_function"
+    },
+    {
+     "line_start": 268,
+     "line_end": 270,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 272,
+     "line_end": 274,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 276,
+     "line_end": 278,
+     "label": "kinematic_fitting"
+    },
+    {
+     "line_start": 280,
+     "line_end": 282,
+     "label": "branching_fractions_and_event_numbers"
+    }
+   ]
+  },
+  {
+   "line_start": 284,
+   "line_end": 292,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 294,
+   "line_end": 296,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 163,
+   "title": "Comparison of experimental measurements and phenomenological calculations for J/psi decays to baryon octet final states",
+   "section_type": "introduction"
+  },
+  {
+   "line": 244,
+   "title": "Numbers of signal events, detection efficiencies and branching fractions of Psi to Sigma+ Sigma-",
+   "section_type": "fit"
+  },
+  {
+   "line": 290,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

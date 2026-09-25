@@ -1,0 +1,300 @@
+{
+ "paper_id": "2605.09694v2",
+ "source_path": "arxiv_papers/2605.09694v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 374,
+ "n_lines_sent": 161,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 121,
+   "to": 121,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 147,
+   "to": 147,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 151,
+   "to": 151,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 153,
+   "to": 153,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 163,
+   "to": 163,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 324,
+   "to": 374,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 165,
+   "type": "front_matter",
+   "title": "Measurement of branching fractions of D_s^+ to K_S^0 K_S^0 pi^+ pi^0 and D_s^+ to K_S^0 K^+ pi^0 pi^0"
+  },
+  {
+   "line_start": 166,
+   "line_end": 166,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 167,
+   "line_end": 170,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 171,
+   "line_end": 178,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 179,
+   "line_end": 200,
+   "type": "fit",
+   "title": "III. MEASUREMENT METHOD"
+  },
+  {
+   "line_start": 201,
+   "line_end": 237,
+   "type": "event_selection",
+   "title": "IV. SINGLE-TAG CANDIDATES",
+   "units": [
+    {
+     "line_start": 201,
+     "line_end": 203,
+     "label": "st_mode_list"
+    },
+    {
+     "line_start": 204,
+     "line_end": 206,
+     "label": "track_selection_pid"
+    },
+    {
+     "line_start": 207,
+     "line_end": 208,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 209,
+     "line_end": 210,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 211,
+     "line_end": 212,
+     "label": "pi0_eta_rho_reconstruction"
+    },
+    {
+     "line_start": 213,
+     "line_end": 216,
+     "label": "luminosity_table"
+    },
+    {
+     "line_start": 217,
+     "line_end": 218,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 219,
+     "line_end": 226,
+     "label": "mbc_selection"
+    },
+    {
+     "line_start": 227,
+     "line_end": 237,
+     "label": "st_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 238,
+   "line_end": 249,
+   "type": "event_selection",
+   "title": "V. DOUBLE-TAG CANDIDATES",
+   "units": [
+    {
+     "line_start": 238,
+     "line_end": 241,
+     "label": "delta_e_selection"
+    },
+    {
+     "line_start": 242,
+     "line_end": 243,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 244,
+     "line_end": 245,
+     "label": "msig_fit"
+    },
+    {
+     "line_start": 246,
+     "line_end": 247,
+     "label": "efficiency_and_data_mc"
+    },
+    {
+     "line_start": 248,
+     "line_end": 249,
+     "label": "branching_fraction_result"
+    }
+   ]
+  },
+  {
+   "line_start": 250,
+   "line_end": 307,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 250,
+     "line_end": 250,
+     "label": "n_st_tot"
+    },
+    {
+     "line_start": 250,
+     "line_end": 250,
+     "label": "tracking_pid_pi_k"
+    },
+    {
+     "line_start": 250,
+     "line_end": 250,
+     "label": "photon_pi0_reconstruction"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "best_transition_gamma_pi0_selection"
+    },
+    {
+     "line_start": 252,
+     "line_end": 252,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 253,
+     "line_end": 253,
+     "label": "msig_fit"
+    },
+    {
+     "line_start": 254,
+     "line_end": 254,
+     "label": "mc_generator"
+    },
+    {
+     "line_start": 255,
+     "line_end": 255,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 259,
+     "line_end": 307,
+     "label": "tables_and_figures"
+    }
+   ]
+  },
+  {
+   "line_start": 308,
+   "line_end": 313,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 314,
+   "line_end": 317,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 318,
+   "line_end": 321,
+   "type": "systematic_uncertainty",
+   "title": "Table 4"
+  },
+  {
+   "line_start": 322,
+   "line_end": 322,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 215,
+   "title": "Integrated luminosity and M_BC requirement for each energy point",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 302,
+   "title": "Requirements of M_tag, fitted yields of ST D_s^- mesons, and efficiencies for various tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 306,
+   "title": "DT yields, signal efficiencies, and obtained branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 320,
+   "title": "Systematic uncertainties in the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 6.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 250-307 share boundary line 250",
+  "units of 250-307 share boundary line 250",
+  "short section 318-321 typed systematic_uncertainty has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

@@ -1,0 +1,237 @@
+{
+ "paper_id": "2404.05973v1",
+ "source_path": "arxiv_papers/2404.05973v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 283,
+ "n_lines_sent": 153,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 60,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 239,
+   "to": 283,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 166,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 169,
+   "line_end": 169,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 171,
+   "line_end": 181,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 183,
+   "line_end": 183,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 185,
+   "line_end": 189,
+   "type": "dataset",
+   "title": "Dataset and branching fraction formula"
+  },
+  {
+   "line_start": 191,
+   "line_end": 205,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 191,
+     "line_end": 191,
+     "label": "tracking"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "pid"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 199,
+     "line_end": 199,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 201,
+     "line_end": 201,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "phi_veto"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 207,
+   "line_end": 213,
+   "type": "fit",
+   "title": "Signal yield determination"
+  },
+  {
+   "line_start": 215,
+   "line_end": 223,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "normalization"
+    },
+    {
+     "line_start": 217,
+     "line_end": 217,
+     "label": "tracking"
+    },
+    {
+     "line_start": 219,
+     "line_end": 219,
+     "label": "pid"
+    },
+    {
+     "line_start": 221,
+     "line_end": 221,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "pi0_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 225,
+   "line_end": 229,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 225,
+     "line_end": 225,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 227,
+     "line_end": 227,
+     "label": "upper_limits"
+    },
+    {
+     "line_start": 229,
+     "line_end": 229,
+     "label": "table"
+    }
+   ]
+  },
+  {
+   "line_start": 231,
+   "line_end": 231,
+   "type": "conclusion",
+   "title": "Conclusion"
+  },
+  {
+   "line_start": 233,
+   "line_end": 237,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 229,
+   "title": "Signal yields, efficiencies, branching fractions, and upper limits",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 191-205 before line 199"
+ ],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

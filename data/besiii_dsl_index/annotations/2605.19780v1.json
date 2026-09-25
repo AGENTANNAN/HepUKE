@@ -1,0 +1,194 @@
+{
+ "paper_id": "2605.19780v1",
+ "source_path": "arxiv_papers/2605.19780v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 339,
+ "n_lines_sent": 46,
+ "skipped_ranges": [
+  {
+   "from": 82,
+   "to": 339,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 3,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 7,
+   "line_end": 11,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 13,
+   "line_end": 13,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 15,
+   "line_end": 27,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 15,
+     "line_end": 15,
+     "label": "partial_reconstruction"
+    },
+    {
+     "line_start": 17,
+     "line_end": 17,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 19,
+     "line_end": 19,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 21,
+     "line_end": 27,
+     "label": "pi0_lambda_xi0_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 29,
+   "line_end": 30,
+   "type": "fit",
+   "title": "Fit to recoil mass spectrum"
+  },
+  {
+   "line_start": 32,
+   "line_end": 38,
+   "type": "fit",
+   "title": "Signal yield and Born cross section"
+  },
+  {
+   "line_start": 40,
+   "line_end": 42,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 40,
+     "line_end": 40,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 40,
+     "line_end": 40,
+     "label": "kaon_tracking_pid"
+    },
+    {
+     "line_start": 40,
+     "line_end": 40,
+     "label": "xi0_reconstruction"
+    },
+    {
+     "line_start": 40,
+     "line_end": 40,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 40,
+     "line_end": 40,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 40,
+     "line_end": 40,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 40,
+     "line_end": 40,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 42,
+     "line_end": 42,
+     "label": "input_line_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 44,
+   "line_end": 61,
+   "type": "fit",
+   "title": "Fit to dressed cross sections"
+  },
+  {
+   "line_start": 63,
+   "line_end": 63,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 65,
+   "line_end": 67,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  },
+  {
+   "line_start": 69,
+   "line_end": 74,
+   "type": "other",
+   "title": "Table and figure captions"
+  },
+  {
+   "line_start": 76,
+   "line_end": 78,
+   "type": "acknowledgements",
+   "title": "Funding and author list note"
+  },
+  {
+   "line_start": 80,
+   "line_end": 80,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 71,
+   "title": "Fitted resonance parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 194,
+   "title": "Born cross sections for e+e- to K+ Xi0 Sigma-",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 40-42 share boundary line 40",
+  "units of 40-42 share boundary line 40",
+  "units of 40-42 share boundary line 40",
+  "units of 40-42 share boundary line 40",
+  "units of 40-42 share boundary line 40",
+  "units of 40-42 share boundary line 40"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

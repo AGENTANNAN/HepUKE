@@ -1,0 +1,211 @@
+{
+ "paper_id": "1512.08627v2",
+ "source_path": "arxiv_papers/1512.08627v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 776,
+ "n_lines_sent": 467,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 43,
+   "to": 43,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 750,
+   "to": 776,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 140,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, PACS"
+  },
+  {
+   "line_start": 142,
+   "line_end": 155,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 157,
+   "line_end": 213,
+   "type": "detector",
+   "title": "II. EXPERIMENTAL AND ANALYSIS DETAILS"
+  },
+  {
+   "line_start": 215,
+   "line_end": 251,
+   "type": "results",
+   "title": "III. DETERMINATION OF THE BRANCHING FRACTION",
+   "units": [
+    {
+     "line_start": 215,
+     "line_end": 239,
+     "label": "branching_fraction_measurement"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 245,
+     "line_end": 245,
+     "label": "fit_range_and_pwa_model"
+    },
+    {
+     "line_start": 247,
+     "line_end": 251,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 253,
+   "line_end": 598,
+   "type": "fit",
+   "title": "IV. PWA OF D+ -> K- pi+ e+ nu_e DECAY"
+  },
+  {
+   "line_start": 600,
+   "line_end": 710,
+   "type": "results",
+   "title": "V. DETERMINATION OF HELICITY BASIS FORM FACTORS",
+   "units": [
+    {
+     "line_start": 600,
+     "line_end": 698,
+     "label": "form_factor_measurement"
+    },
+    {
+     "line_start": 700,
+     "line_end": 710,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 712,
+   "line_end": 724,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 726,
+   "line_end": 745,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENTS"
+  },
+  {
+   "line_start": 747,
+   "line_end": 749,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 251,
+   "title": "Summary of event selection for different tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 594,
+   "title": "PWA solutions with different combinations of S, P, P' and D components",
+   "section_type": "fit"
+  },
+  {
+   "line": 598,
+   "title": "Systematic uncertainties of the PWA nominal solution",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 608,
+   "title": "S-wave phase measured in 12 m_Kpi bins",
+   "section_type": "fit"
+  },
+  {
+   "line": 704,
+   "title": "Average form-factor products in the K*-dominated region",
+   "section_type": "results"
+  },
+  {
+   "line": 708,
+   "title": "Systematic uncertainties of the form-factor products",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 743,
+   "title": "Form factor parameter results with m_V allowed to vary or fixed",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

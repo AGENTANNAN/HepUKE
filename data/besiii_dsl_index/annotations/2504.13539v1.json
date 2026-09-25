@@ -1,0 +1,293 @@
+{
+ "paper_id": "2504.13539v1",
+ "source_path": "arxiv_papers/2504.13539v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 243,
+ "n_lines_sent": 115,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 210,
+   "to": 243,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 44,
+   "type": "front_matter",
+   "title": "Title and author list"
+  },
+  {
+   "line_start": 44,
+   "line_end": 44,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 46,
+   "line_end": 54,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 56,
+   "line_end": 60,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 62,
+   "line_end": 80,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND STUDY OF BACKGROUND",
+   "units": [
+    {
+     "line_start": 62,
+     "line_end": 64,
+     "label": "final_state_reconstruction"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "tracking"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "ks_pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "eta_eta_c_selection"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "eta_prime_eta_c_selection"
+    },
+    {
+     "line_start": 78,
+     "line_end": 80,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 82,
+   "line_end": 92,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELD EXTRACTION"
+  },
+  {
+   "line_start": 94,
+   "line_end": 119,
+   "type": "results",
+   "title": "V. UPPER LIMIT ON BORN CROSS SECTIONS",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 108,
+     "label": "born_cross_section_formula"
+    },
+    {
+     "line_start": 110,
+     "line_end": 111,
+     "label": "fit_figures"
+    },
+    {
+     "line_start": 113,
+     "line_end": 119,
+     "label": "upper_limit_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 144,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 121,
+     "line_end": 123,
+     "label": "overview"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "mass_resolution"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "multiplicative_overview"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "ks_reconstruction"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 142,
+     "line_end": 144,
+     "label": "contamination"
+    }
+   ]
+  },
+  {
+   "line_start": 146,
+   "line_end": 148,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 150,
+   "line_end": 152,
+   "type": "other",
+   "title": "VIII. APPENDIX"
+  },
+  {
+   "line_start": 154,
+   "line_end": 156,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGMENT"
+  },
+  {
+   "line_start": 158,
+   "line_end": 208,
+   "type": "other",
+   "title": "Tables and figures"
+  }
+ ],
+ "tables": [
+  {
+   "line": 162,
+   "title": "Data sets and results of the upper limits on Born cross sections",
+   "section_type": "results"
+  },
+  {
+   "line": 164,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 12.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-44 / 44-44"
+ ],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

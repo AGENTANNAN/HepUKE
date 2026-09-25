@@ -1,0 +1,192 @@
+{
+ "paper_id": "1110.0949v2",
+ "source_path": "arxiv_papers/1110.0949v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 147,
+ "n_lines_sent": 70,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 125,
+   "to": 147,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 21,
+   "line_end": 57,
+   "type": "front_matter",
+   "title": "BESIII Collaboration and affiliations"
+  },
+  {
+   "line_start": 59,
+   "line_end": 61,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 63,
+   "line_end": 65,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 67,
+   "line_end": 69,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 71,
+   "line_end": 77,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "final_state_and_track_selection"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "invariant_mass_requirements"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "background_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 79,
+   "line_end": 92,
+   "type": "background",
+   "title": "Background study"
+  },
+  {
+   "line_start": 94,
+   "line_end": 94,
+   "type": "fit",
+   "title": "Signal extraction"
+  },
+  {
+   "line_start": 96,
+   "line_end": 96,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 102,
+   "type": "other",
+   "title": "Figures 2 and 3"
+  },
+  {
+   "line_start": 104,
+   "line_end": 106,
+   "type": "systematic_uncertainty",
+   "title": "Table I: Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 104,
+     "line_end": 106,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 108,
+   "line_end": 115,
+   "type": "results",
+   "title": "Upper limits",
+   "units": [
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "upper_limit_method"
+    },
+    {
+     "line_start": 110,
+     "line_end": 111,
+     "label": "figure_4"
+    },
+    {
+     "line_start": 113,
+     "line_end": 113,
+     "label": "pdf_construction"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "upper_limit_results"
+    }
+   ]
+  },
+  {
+   "line_start": 117,
+   "line_end": 117,
+   "type": "conclusion",
+   "title": "Conclusion"
+  },
+  {
+   "line_start": 119,
+   "line_end": 119,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 121,
+   "line_end": 123,
+   "type": "results",
+   "title": "Table II: Upper limits and theoretical predictions",
+   "units": [
+    {
+     "line_start": 121,
+     "line_end": 123,
+     "label": "upper_limit_table"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "line": 106,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 123,
+   "title": "Upper limits and theoretical predictions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

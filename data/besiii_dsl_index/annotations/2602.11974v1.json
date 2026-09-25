@@ -1,0 +1,223 @@
+{
+ "paper_id": "2602.11974v1",
+ "source_path": "arxiv_papers/2602.11974v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 515,
+ "n_lines_sent": 92,
+ "skipped_ranges": [
+  {
+   "from": 165,
+   "to": 515,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 11,
+   "type": "front_matter",
+   "title": "Measurement of the singly Cabibbo-suppressed decay Λc+ → pη′ with Deep Learning"
+  },
+  {
+   "line_start": 13,
+   "line_end": 20,
+   "type": "front_matter",
+   "title": "Contents"
+  },
+  {
+   "line_start": 22,
+   "line_end": 37,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 39,
+   "line_end": 45,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 47,
+   "line_end": 57,
+   "type": "other",
+   "title": "3 Analysis method"
+  },
+  {
+   "line_start": 59,
+   "line_end": 79,
+   "type": "event_selection",
+   "title": "4 Initial event selection",
+   "units": [
+    {
+     "line_start": 59,
+     "line_end": 61,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "eta_prime_reconstruction"
+    },
+    {
+     "line_start": 69,
+     "line_end": 75,
+     "label": "mbc_deltae_selection"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "p_omega_reference_selection"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "background_composition"
+    }
+   ]
+  },
+  {
+   "line_start": 81,
+   "line_end": 102,
+   "type": "other",
+   "title": "5 Deep-learning-based signal identification"
+  },
+  {
+   "line_start": 104,
+   "line_end": 106,
+   "type": "fit",
+   "title": "6 Signal extraction"
+  },
+  {
+   "line_start": 108,
+   "line_end": 150,
+   "type": "systematic_uncertainty",
+   "title": "7 Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 108,
+     "line_end": 110,
+     "label": "overview"
+    },
+    {
+     "line_start": 112,
+     "line_end": 118,
+     "label": "figure3"
+    },
+    {
+     "line_start": 120,
+     "line_end": 122,
+     "label": "table1"
+    },
+    {
+     "line_start": 124,
+     "line_end": 126,
+     "label": "table2"
+    },
+    {
+     "line_start": 128,
+     "line_end": 130,
+     "label": "table3"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "non_omega"
+    },
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "dnn_classifier"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "fit_model"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "input_bfs"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 157,
+   "type": "conclusion",
+   "title": "8 Summary"
+  },
+  {
+   "line_start": 159,
+   "line_end": 163,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 120,
+   "title": "Signal efficiencies for each c.m. energy after implementing the DNN",
+   "section_type": "fit"
+  },
+  {
+   "line": 124,
+   "title": "Simultaneous fit results",
+   "section_type": "fit"
+  },
+  {
+   "line": 128,
+   "title": "Relative systematic uncertainties in the BF measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

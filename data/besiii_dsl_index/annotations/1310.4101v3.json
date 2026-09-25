@@ -1,0 +1,175 @@
+{
+ "paper_id": "1310.4101v3",
+ "source_path": "arxiv_papers/1310.4101v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 169,
+ "n_lines_sent": 100,
+ "skipped_ranges": [
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 141,
+   "to": 169,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 68,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 69,
+   "line_end": 69,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 71,
+   "line_end": 75,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 77,
+   "line_end": 79,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "jpsi_mass_window"
+    }
+   ]
+  },
+  {
+   "line_start": 81,
+   "line_end": 81,
+   "type": "background",
+   "title": "Backgrounds"
+  },
+  {
+   "line_start": 83,
+   "line_end": 94,
+   "type": "fit",
+   "title": "Mass and yield fit"
+  },
+  {
+   "line_start": 96,
+   "line_end": 96,
+   "type": "results",
+   "title": "Angular distributions",
+   "units": [
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "angular_distributions"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 108,
+   "type": "results",
+   "title": "Cross section measurement",
+   "units": [
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "cross_section_results"
+    }
+   ]
+  },
+  {
+   "line_start": 110,
+   "line_end": 119,
+   "type": "fit",
+   "title": "Energy-dependent cross section fit"
+  },
+  {
+   "line_start": 121,
+   "line_end": 129,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "mass_scale"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "signal_parametrization"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "tracking"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "photon_detection"
+    }
+   ]
+  },
+  {
+   "line_start": 131,
+   "line_end": 137,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 139,
+   "line_end": 139,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 114,
+   "title": "Measured cross sections and event yields",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 98-108 before line 108"
+ ],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

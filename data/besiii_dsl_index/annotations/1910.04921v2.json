@@ -1,0 +1,234 @@
+{
+ "paper_id": "1910.04921v2",
+ "source_path": "arxiv_papers/1910.04921v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 239,
+ "n_lines_sent": 163,
+ "skipped_ranges": [
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 203,
+   "to": 239,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 117,
+   "type": "front_matter",
+   "title": "Measurement of the cross section for e+e- -> Xi- Xi+ and observation of an excited Xi baryon"
+  },
+  {
+   "line_start": 119,
+   "line_end": 119,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 121,
+   "line_end": 127,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 129,
+   "line_end": 129,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 131,
+   "line_end": 147,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "xi_reconstruction"
+    },
+    {
+     "line_start": 137,
+     "line_end": 147,
+     "label": "anti_xi_recoil_mass"
+    }
+   ]
+  },
+  {
+   "line_start": 148,
+   "line_end": 148,
+   "type": "fit",
+   "title": "Signal Yield Determination"
+  },
+  {
+   "line_start": 150,
+   "line_end": 161,
+   "type": "results",
+   "title": "Born Cross Section",
+   "units": [
+    {
+     "line_start": 150,
+     "line_end": 161,
+     "label": "born_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 163,
+   "line_end": 175,
+   "type": "fit",
+   "title": "Dressed Cross Section Fit"
+  },
+  {
+   "line_start": 177,
+   "line_end": 183,
+   "type": "results",
+   "title": "Effective Form Factor",
+   "units": [
+    {
+     "line_start": 177,
+     "line_end": 183,
+     "label": "effective_form_factor"
+    }
+   ]
+  },
+  {
+   "line_start": 185,
+   "line_end": 185,
+   "type": "fit",
+   "title": "Excited Xi Baryon Fit"
+  },
+  {
+   "line_start": 187,
+   "line_end": 187,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties on Cross Section",
+   "units": [
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "detection_efficiency"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "line_shape"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "angular_distribution"
+    },
+    {
+     "line_start": 187,
+     "line_end": 187,
+     "label": "fit_procedure"
+    }
+   ]
+  },
+  {
+   "line_start": 189,
+   "line_end": 193,
+   "type": "results",
+   "title": "Figures",
+   "units": [
+    {
+     "line_start": 189,
+     "line_end": 193,
+     "label": "figures"
+    }
+   ]
+  },
+  {
+   "line_start": 195,
+   "line_end": 195,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties on Mass and Width",
+   "units": [
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "mass_resolution"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "signal_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 197,
+   "line_end": 197,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 199,
+   "line_end": 201,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 187-187 share boundary line 187",
+  "units of 187-187 share boundary line 187",
+  "units of 187-187 share boundary line 187",
+  "units of 187-187 share boundary line 187",
+  "units of 187-187 share boundary line 187",
+  "units of 187-187 share boundary line 187",
+  "units of 195-195 share boundary line 195",
+  "units of 195-195 share boundary line 195",
+  "units of 195-195 share boundary line 195"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

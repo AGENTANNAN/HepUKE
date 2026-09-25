@@ -1,0 +1,260 @@
+{
+ "paper_id": "2508.18601v1",
+ "source_path": "arxiv_papers/2508.18601v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 194,
+ "n_lines_sent": 86,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 174,
+   "to": 194,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 9,
+   "line_end": 21,
+   "type": "front_matter",
+   "title": "Title, authors, and date"
+  },
+  {
+   "line_start": 23,
+   "line_end": 23,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 25,
+   "line_end": 35,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 27,
+   "line_end": 41,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 43,
+   "line_end": 70,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 43,
+     "line_end": 45,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 47,
+     "line_end": 49,
+     "label": "eta_c_decay_channels"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 55,
+     "line_end": 55,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 57,
+     "line_end": 57,
+     "label": "eta_c_reconstruction"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "channel_categories"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 65,
+     "line_end": 70,
+     "label": "rm_distributions"
+    }
+   ]
+  },
+  {
+   "line_start": 72,
+   "line_end": 81,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELDS"
+  },
+  {
+   "line_start": 83,
+   "line_end": 160,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 83,
+     "line_end": 87,
+     "label": "psi3686_events"
+    },
+    {
+     "line_start": 89,
+     "line_end": 97,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 99,
+     "line_end": 101,
+     "label": "tracking"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 105,
+     "line_end": 105,
+     "label": "pid"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 113,
+     "line_end": 119,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "eta_c_mc_models"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 125,
+     "line_end": 133,
+     "label": "combined_efficiency_uncertainty"
+    },
+    {
+     "line_start": 135,
+     "line_end": 137,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 139,
+     "line_end": 141,
+     "label": "efficiency_table"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 147,
+     "line_end": 160,
+     "label": "upper_limit_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 162,
+   "line_end": 166,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 168,
+   "line_end": 172,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 49,
+   "title": "BFs and selection efficiencies for the 16 eta_c decay channels",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 141,
+   "title": "Relative systematic uncertainties related to efficiency of the eta_c exclusive decay channels",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 157,
+   "title": "Summary of multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.6,
+ "status": "invalid",
+ "errors": [
+  "[sections] crossing spans 25-35 / 27-41"
+ ],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": [
+  "sections"
+ ]
+}

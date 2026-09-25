@@ -1,0 +1,215 @@
+{
+ "paper_id": "2606.29141v1",
+ "source_path": "arxiv_papers/2606.29141v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 541,
+ "n_lines_sent": 226,
+ "skipped_ranges": [
+  {
+   "from": 269,
+   "to": 269,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 279,
+   "to": 279,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 281,
+   "to": 281,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 283,
+   "to": 283,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 437,
+   "to": 541,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 285,
+   "type": "front_matter",
+   "title": "Study of the e+e- -> pi+pi-Ds+Ds- process from sqrt(s)=4.42 to 4.95 GeV at BESIII"
+  },
+  {
+   "line_start": 287,
+   "line_end": 295,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 297,
+   "line_end": 303,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 305,
+   "line_end": 313,
+   "type": "detector",
+   "title": "2 Detector and Data Samples"
+  },
+  {
+   "line_start": 315,
+   "line_end": 325,
+   "type": "event_selection",
+   "title": "3 Event Selections and Analysis Techniques",
+   "units": [
+    {
+     "line_start": 315,
+     "line_end": 317,
+     "label": "full_reconstruction_and_track_selection"
+    },
+    {
+     "line_start": 319,
+     "line_end": 319,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 321,
+     "line_end": 321,
+     "label": "ds_candidate_reconstruction"
+    },
+    {
+     "line_start": 323,
+     "line_end": 323,
+     "label": "phi_and_kstar_mass_windows"
+    },
+    {
+     "line_start": 325,
+     "line_end": 325,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 327,
+   "line_end": 341,
+   "type": "fit",
+   "title": "4 Signal Extraction"
+  },
+  {
+   "line_start": 343,
+   "line_end": 350,
+   "type": "results",
+   "title": "5 Search for the Charmonium-like States in the Ds+Ds- System",
+   "units": [
+    {
+     "line_start": 343,
+     "line_end": 350,
+     "label": "dsds_invariant_mass_spectrum"
+    }
+   ]
+  },
+  {
+   "line_start": 352,
+   "line_end": 369,
+   "type": "results",
+   "title": "6 Born Cross Section Measurement",
+   "units": [
+    {
+     "line_start": 352,
+     "line_end": 369,
+     "label": "born_cross_section_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 371,
+   "line_end": 398,
+   "type": "systematic_uncertainty",
+   "title": "7 Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 371,
+     "line_end": 381,
+     "label": "overview_and_average_cross_section"
+    },
+    {
+     "line_start": 383,
+     "line_end": 383,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 385,
+     "line_end": 385,
+     "label": "tracking_pid_ks0"
+    },
+    {
+     "line_start": 387,
+     "line_end": 387,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 389,
+     "line_end": 389,
+     "label": "isr_line_shape"
+    },
+    {
+     "line_start": 391,
+     "line_end": 391,
+     "label": "ds_mass_window"
+    },
+    {
+     "line_start": 393,
+     "line_end": 398,
+     "label": "fit_method"
+    }
+   ]
+  },
+  {
+   "line_start": 400,
+   "line_end": 421,
+   "type": "results",
+   "title": "8 Upper Limit With Systematic Uncertainty",
+   "units": [
+    {
+     "line_start": 400,
+     "line_end": 421,
+     "label": "bayesian_upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 423,
+   "line_end": 429,
+   "type": "conclusion",
+   "title": "9 Summary"
+  },
+  {
+   "line_start": 431,
+   "line_end": 435,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 412,
+   "title": "Systematic uncertainties for the Born cross section (%)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 429,
+   "title": "Born cross sections and upper limits for e+e- -> pi+pi-Ds+Ds-",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

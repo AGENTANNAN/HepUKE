@@ -1,0 +1,195 @@
+{
+ "paper_id": "2304.12159v1",
+ "source_path": "arxiv_papers/2304.12159v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 283,
+ "n_lines_sent": 142,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 230,
+   "to": 283,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": "6",
+   "line_end": "137",
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": "139",
+   "line_end": "139",
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": "141",
+   "line_end": "151",
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": "153",
+   "line_end": "153",
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": "155",
+   "line_end": "181",
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": "155",
+     "line_end": "155",
+     "label": "st_ds_reconstruction"
+    },
+    {
+     "line_start": "157",
+     "line_end": "157",
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": "159",
+     "line_end": "159",
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": "161",
+     "line_end": "161",
+     "label": "photon_pi0_eta_reconstruction"
+    },
+    {
+     "line_start": "163",
+     "line_end": "163",
+     "label": "eta_prime_rho_reconstruction"
+    },
+    {
+     "line_start": "165",
+     "line_end": "165",
+     "label": "background_suppression"
+    },
+    {
+     "line_start": "167",
+     "line_end": "173",
+     "label": "st_selection_and_mrec_fit"
+    },
+    {
+     "line_start": "175",
+     "line_end": "181",
+     "label": "dt_selection"
+    }
+   ]
+  },
+  {
+   "line_start": "183",
+   "line_end": "195",
+   "type": "other",
+   "title": "Tables and figures"
+  },
+  {
+   "line_start": "197",
+   "line_end": "207",
+   "type": "fit",
+   "title": "Fit and branching fraction"
+  },
+  {
+   "line_start": "209",
+   "line_end": "215",
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty",
+   "units": [
+    {
+     "line_start": "209",
+     "line_end": "209",
+     "label": "total_systematic"
+    },
+    {
+     "line_start": "211",
+     "line_end": "211",
+     "label": "tracking_pid_st_yield_mc_fsr"
+    },
+    {
+     "line_start": "213",
+     "line_end": "213",
+     "label": "extra_gamma_e_energy"
+    },
+    {
+     "line_start": "215",
+     "line_end": "215",
+     "label": "signal_background_shape"
+    }
+   ]
+  },
+  {
+   "line_start": "217",
+   "line_end": "219",
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": "217",
+     "line_end": "217",
+     "label": "total_width"
+    },
+    {
+     "line_start": "219",
+     "line_end": "219",
+     "label": "decay_constant"
+    }
+   ]
+  },
+  {
+   "line_start": "221",
+   "line_end": "221",
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": "223",
+   "line_end": "228",
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": "185",
+   "title": "Requirements for M_Ds and ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": "189",
+   "title": "Total ST yields and signal efficiencies at different energy points",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

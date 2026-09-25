@@ -1,0 +1,237 @@
+{
+ "paper_id": "2012.06177v3",
+ "source_path": "arxiv_papers/2012.06177v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 215,
+ "n_lines_sent": 109,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 79,
+   "to": 79,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 96,
+   "to": 100,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 204,
+   "to": 215,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 100,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 102,
+   "line_end": 102,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 104,
+   "line_end": 110,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 112,
+   "line_end": 116,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 118,
+   "line_end": 118,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 120,
+   "line_end": 133,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 120,
+     "line_end": 122,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 124,
+     "line_end": 124,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 126,
+     "line_end": 128,
+     "label": "eta_prime_to_gamma_pi_pi_selection"
+    },
+    {
+     "line_start": 130,
+     "line_end": 133,
+     "label": "eta_prime_to_pi_pi_eta_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 150,
+   "type": "fit",
+   "title": "IV. SIGNAL EXTRACTION"
+  },
+  {
+   "line_start": 152,
+   "line_end": 184,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 152,
+     "line_end": 154,
+     "label": "overview"
+    },
+    {
+     "line_start": 156,
+     "line_end": 158,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 160,
+     "line_end": 162,
+     "label": "tracking_and_photon_detection"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 166,
+     "line_end": 168,
+     "label": "table_iii"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "mass_window_requirements"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "efficiency_calculation_and_quantum_numbers"
+    },
+    {
+     "line_start": 174,
+     "line_end": 176,
+     "label": "fit_to_signal"
+    },
+    {
+     "line_start": 178,
+     "line_end": 180,
+     "label": "other_uncertainties"
+    },
+    {
+     "line_start": 182,
+     "line_end": 184,
+     "label": "summary_and_combination"
+    }
+   ]
+  },
+  {
+   "line_start": 186,
+   "line_end": 198,
+   "type": "conclusion",
+   "title": "VI. RESULTS AND SUMMARY"
+  },
+  {
+   "line_start": 200,
+   "line_end": 202,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 148,
+   "title": "Fit results of the signal yields for J/psi -> gamma X(2370) -> gamma eta eta eta' and J/psi -> gamma eta_c -> gamma eta eta eta'",
+   "section_type": "fit"
+  },
+  {
+   "line": 158,
+   "title": "Systematic uncertainties for determination of the upper limit of branching fraction of J/psi -> gamma X(2370) -> gamma eta eta eta'",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 168,
+   "title": "Systematic uncertainties for the determination of the branching fraction of J/psi -> gamma eta_c -> gamma eta eta eta'",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

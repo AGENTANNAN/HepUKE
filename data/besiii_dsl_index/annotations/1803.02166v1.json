@@ -1,0 +1,201 @@
+{
+ "paper_id": "1803.02166v1",
+ "source_path": "arxiv_papers/1803.02166v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 121,
+ "n_lines_sent": 65,
+ "skipped_ranges": [
+  {
+   "from": 103,
+   "to": 121,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 27,
+   "type": "front_matter",
+   "title": "Observation of the Semileptonic Decay D0 → a0(980)- e+ νe and Evidence for D+ → a0(980)0 e+ νe"
+  },
+  {
+   "line_start": 29,
+   "line_end": 31,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 33,
+   "line_end": 35,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 37,
+   "line_end": 69,
+   "type": "event_selection",
+   "title": "Event Selection and Data Analysis",
+   "units": [
+    {
+     "line_start": 37,
+     "line_end": 43,
+     "label": "double_tag_technique"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "st_reconstruction"
+    },
+    {
+     "line_start": 47,
+     "line_end": 52,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 54,
+     "line_end": 56,
+     "label": "signal_selection"
+    },
+    {
+     "line_start": 58,
+     "line_end": 60,
+     "label": "st_yields_table"
+    },
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "u_variable"
+    },
+    {
+     "line_start": 64,
+     "line_end": 65,
+     "label": "fit_projection_figure"
+    },
+    {
+     "line_start": 67,
+     "line_end": 69,
+     "label": "2d_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 71,
+   "line_end": 75,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "tracking_pid_pion"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "positron_tracking_pid"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "best_combination_selection"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "lateral_moment"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "form_factor_model"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 73,
+     "line_end": 75,
+     "label": "systematic_table"
+    }
+   ]
+  },
+  {
+   "line_start": 77,
+   "line_end": 89,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "upper_limit"
+    },
+    {
+     "line_start": 79,
+     "line_end": 89,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 91,
+   "line_end": 97,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 99,
+   "line_end": 101,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 60,
+   "title": "ST yields, ST efficiencies, and DT efficiencies for each tag mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 75,
+   "title": "Relative systematic uncertainties on the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 71-75 share boundary line 71",
+  "units of 71-75 share boundary line 71",
+  "units of 71-75 share boundary line 71",
+  "units of 71-75 share boundary line 71",
+  "units of 71-75 share boundary line 71",
+  "units of 71-75 share boundary line 71",
+  "units of 71-75 share boundary line 71",
+  "units of 71-75 share boundary line 71"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

@@ -1,0 +1,279 @@
+{
+ "paper_id": "1409.6577v2",
+ "source_path": "arxiv_papers/1409.6577v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 207,
+ "n_lines_sent": 124,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 186,
+   "to": 207,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 97,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 98,
+   "line_end": 99,
+   "type": "abstract",
+   "title": "Abstract and PACS numbers"
+  },
+  {
+   "line_start": 100,
+   "line_end": 104,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 106,
+   "line_end": 106,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 108,
+   "line_end": 112,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "charged_track_and_pi0_selection"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "kinematic_fit_and_pid"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "signal_extraction_and_mass_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 114,
+   "line_end": 133,
+   "type": "results",
+   "title": "Born cross section measurement",
+   "units": [
+    {
+     "line_start": 114,
+     "line_end": 120,
+     "label": "cross_section_formula"
+    },
+    {
+     "line_start": 122,
+     "line_end": 124,
+     "label": "table_i_cross_sections"
+    },
+    {
+     "line_start": 126,
+     "line_end": 127,
+     "label": "figure_1_mass_spectrum"
+    },
+    {
+     "line_start": 129,
+     "line_end": 131,
+     "label": "born_cross_section_results"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "ratio_and_isospin"
+    }
+   ]
+  },
+  {
+   "line_start": 135,
+   "line_end": 137,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties in cross section measurement",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "luminosity_and_branching_fractions"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 139,
+   "line_end": 158,
+   "type": "fit",
+   "title": "Fit to the pi0 hc mass spectrum",
+   "units": [
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "intermediate_state_selection"
+    },
+    {
+     "line_start": 141,
+     "line_end": 143,
+     "label": "table_ii_systematics"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "mass_distribution"
+    },
+    {
+     "line_start": 147,
+     "line_end": 148,
+     "label": "figure_2_fit"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "unbinned_maximum_likelihood_fit"
+    },
+    {
+     "line_start": 152,
+     "line_end": 154,
+     "label": "background_modeling"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "fit_results_and_significance"
+    },
+    {
+     "line_start": 158,
+     "line_end": 158,
+     "label": "born_cross_section_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 160,
+   "line_end": 176,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on Zc(4020)0 mass and cross section",
+   "units": [
+    {
+     "line_start": 160,
+     "line_end": 160,
+     "label": "mass_calibration_and_energy_scale"
+    },
+    {
+     "line_start": 162,
+     "line_end": 164,
+     "label": "table_iii_zc_events"
+    },
+    {
+     "line_start": 166,
+     "line_end": 168,
+     "label": "table_iv_systematics"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "jp_and_background_shape"
+    },
+    {
+     "line_start": 172,
+     "line_end": 174,
+     "label": "cross_section_systematics"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "ratio_and_isospin"
+    }
+   ]
+  },
+  {
+   "line_start": 178,
+   "line_end": 178,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 180,
+   "line_end": 184,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 124,
+   "title": "Energies, luminosities, event numbers, efficiencies, correction factors, Born cross sections and ratios for e+e- -> pi0 pi0 hc",
+   "section_type": "results"
+  },
+  {
+   "line": 143,
+   "title": "Systematic uncertainties in sigma(e+e- -> pi0 pi0 hc)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 164,
+   "title": "Energies, event numbers, correction factors, efficiencies, Born cross sections and ratios for e+e- -> pi0 Zc(4020)0 -> pi0 pi0 hc",
+   "section_type": "fit"
+  },
+  {
+   "line": 168,
+   "title": "Systematic uncertainties in sigma(e+e- -> pi0 Zc(4020)0 -> pi0 pi0 hc)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 13.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

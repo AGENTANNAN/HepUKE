@@ -1,0 +1,257 @@
+{
+ "paper_id": "2407.02899v3",
+ "source_path": "arxiv_papers/2407.02899v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 198,
+ "n_lines_sent": 92,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 182,
+   "to": 198,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 17,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 19,
+   "line_end": 25,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 27,
+   "line_end": 29,
+   "type": "detector",
+   "title": "II. BESIII EXPERIMENT"
+  },
+  {
+   "line_start": 31,
+   "line_end": 37,
+   "type": "dataset",
+   "title": "III. DATA SETS"
+  },
+  {
+   "line_start": 39,
+   "line_end": 49,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 39,
+     "line_end": 41,
+     "label": "final_state_and_track_requirements"
+    },
+    {
+     "line_start": 43,
+     "line_end": 43,
+     "label": "track_selection_and_pid"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "eta_pi0_mass_windows"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "vertex_and_kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 51,
+   "line_end": 61,
+   "type": "background",
+   "title": "V. BACKGROUND STUDIES"
+  },
+  {
+   "line_start": 63,
+   "line_end": 69,
+   "type": "fit",
+   "title": "VI. EFFICIENCY DETERMINATION"
+  },
+  {
+   "line_start": 71,
+   "line_end": 101,
+   "type": "fit",
+   "title": "VII. BRANCHING FRACTION"
+  },
+  {
+   "line_start": 103,
+   "line_end": 105,
+   "type": "results",
+   "title": "VIII. STUDY OF THRESHOLD ENHANCEMENT",
+   "units": [
+    {
+     "line_start": 103,
+     "line_end": 105,
+     "label": "threshold_enhancement_search"
+    }
+   ]
+  },
+  {
+   "line_start": 107,
+   "line_end": 109,
+   "type": "other",
+   "title": "Table I"
+  },
+  {
+   "line_start": 111,
+   "line_end": 154,
+   "type": "systematic_uncertainty",
+   "title": "IX. SYSTEMATIC UNCERTAINTY ESTIMATION",
+   "units": [
+    {
+     "line_start": 111,
+     "line_end": 113,
+     "label": "introduction"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "tracking"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "pid"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "delta_alpha_veto"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "efficiency_statistical"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "fit_range_and_signal_window"
+    },
+    {
+     "line_start": 129,
+     "line_end": 130,
+     "label": "figure3"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "qed_background"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "external_parameters"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 142,
+     "line_end": 154,
+     "label": "combination"
+    }
+   ]
+  },
+  {
+   "line_start": 156,
+   "line_end": 174,
+   "type": "conclusion",
+   "title": "X. SUMMARY"
+  },
+  {
+   "line_start": 176,
+   "line_end": 180,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 109,
+   "title": "Parameters used for the branching fraction measurements",
+   "section_type": "fit"
+  },
+  {
+   "line": 152,
+   "title": "Systematic uncertainties by source and total systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

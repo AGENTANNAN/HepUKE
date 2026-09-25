@@ -1,0 +1,166 @@
+{
+ "paper_id": "1911.00885v2",
+ "source_path": "arxiv_papers/1911.00885v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 157,
+ "n_lines_sent": 60,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 134,
+   "to": 157,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 14,
+   "line_end": 27,
+   "type": "front_matter",
+   "title": "Title, authors, abstract, PACS"
+  },
+  {
+   "line_start": 29,
+   "line_end": 33,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 35,
+   "line_end": 39,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 41,
+   "line_end": 47,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 41,
+     "line_end": 43,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "final_state_and_kinematic_fit"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 49,
+   "line_end": 67,
+   "type": "fit",
+   "title": "IV. BORN CROSS SECTION MEASUREMENT"
+  },
+  {
+   "line_start": 69,
+   "line_end": 91,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 69,
+     "line_end": 71,
+     "label": "overview"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "luminosity_and_tracking"
+    },
+    {
+     "line_start": 75,
+     "line_end": 81,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "jpsi_mass_window"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "radiative_correction"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "fit_range_signal_background_shape"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 115,
+   "type": "discussion",
+   "title": "VI. DISCUSSION"
+  },
+  {
+   "line_start": 118,
+   "line_end": 126,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 128,
+   "line_end": 132,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 79,
+   "title": "Born cross sections and related quantities at each energy point",
+   "section_type": "fit"
+  },
+  {
+   "line": 105,
+   "title": "Relative systematic uncertainties from different sources",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 124,
+   "title": "Fitted parameters of the cross section using a coherent sum of psi(4160) and psi(4260)",
+   "section_type": "discussion"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

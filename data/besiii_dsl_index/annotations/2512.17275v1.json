@@ -1,0 +1,183 @@
+{
+ "paper_id": "2512.17275v1",
+ "source_path": "arxiv_papers/2512.17275v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 376,
+ "n_lines_sent": 129,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 251,
+   "to": 376,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 159,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 161,
+   "line_end": 161,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 163,
+   "line_end": 167,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 169,
+   "line_end": 169,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 171,
+   "line_end": 194,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 173,
+     "line_end": 174,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 178,
+     "line_end": 184,
+     "label": "counting_method"
+    },
+    {
+     "line_start": 186,
+     "line_end": 194,
+     "label": "figure_2"
+    }
+   ]
+  },
+  {
+   "line_start": 196,
+   "line_end": 218,
+   "type": "fit",
+   "title": "Cross section and fit"
+  },
+  {
+   "line_start": 220,
+   "line_end": 243,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 220,
+     "line_end": 222,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 224,
+     "line_end": 235,
+     "label": "tracking_pid_and_reconstruction"
+    },
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "scale_factors_and_wrong_combination"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "input_cross_section_line_shape"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "total_systematic_uncertainty"
+    }
+   ]
+  },
+  {
+   "line_start": 245,
+   "line_end": 245,
+   "type": "conclusion",
+   "title": "Conclusion"
+  },
+  {
+   "line_start": 247,
+   "line_end": 247,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 249,
+   "line_end": 249,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 233,
+   "title": "Fitted resonance parameters for Gamma_ee B and phi",
+   "section_type": "fit"
+  },
+  {
+   "line": 357,
+   "title": "Born cross sections at different energy points",
+   "section_type": "results"
+  },
+  {
+   "line": 364,
+   "title": "Systematic uncertainties per energy point",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 368,
+   "title": "Luminosity per energy point",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 9.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

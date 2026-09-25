@@ -1,0 +1,226 @@
+{
+ "paper_id": "2004.13788v2",
+ "source_path": "arxiv_papers/2004.13788v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 342,
+ "n_lines_sent": 196,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 67,
+   "to": 67,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 92,
+   "to": 92,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 304,
+   "to": 342,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 105,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, abstract, PACS"
+  },
+  {
+   "line_start": 107,
+   "line_end": 117,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 119,
+   "line_end": 123,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND THE DATA SETS"
+  },
+  {
+   "line_start": 125,
+   "line_end": 131,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 125,
+     "line_end": 127,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "pi0_reconstruction_and_kinematic_fit"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "background_and_signal_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 133,
+   "line_end": 168,
+   "type": "fit",
+   "title": "IV. STUDY OF THE e+e- -> pi0 pi0 J/psi LINE SHAPE"
+  },
+  {
+   "line_start": 170,
+   "line_end": 192,
+   "type": "systematic_uncertainty",
+   "title": "C. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 170,
+     "line_end": 172,
+     "label": "tracking_and_photon_detection"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "pi0_reconstruction_and_kinematic_fit"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "mc_modeling"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "radiative_correction_and_vacuum_polarization"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "fit_procedure_and_branching_fractions"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "y4220_resonant_parameters"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "y4220_resonant_parameters"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "y4220_resonant_parameters_table"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "y4220_resonant_parameters_table"
+    }
+   ]
+  },
+  {
+   "line_start": 194,
+   "line_end": 280,
+   "type": "fit",
+   "title": "V. STUDY OF THE NEUTRAL Zc(3900)0 STATE"
+  },
+  {
+   "line_start": 282,
+   "line_end": 286,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 288,
+   "line_end": 302,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 166,
+   "title": "Summary of center-of-mass energies, luminosities, efficiencies, signal yields, correction factors, Born cross sections and cross-section ratios",
+   "section_type": "fit"
+  },
+  {
+   "line": 178,
+   "title": "Summary of fit results to the measured cross sections of e+e- -> pi0 pi0 J/psi",
+   "section_type": "fit"
+  },
+  {
+   "line": 184,
+   "title": "Summary of systematic uncertainties of the e+e- -> pi0 pi0 J/psi cross section measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 192,
+   "title": "Summary of systematic uncertainties of the Y(4220) resonant parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 255,
+   "title": "Summary of Born cross sections of e+e- -> pi0 Zc0 -> pi0 pi0 J/psi",
+   "section_type": "fit"
+  },
+  {
+   "line": 263,
+   "title": "Summary of fit results to the measured cross sections of e+e- -> pi0 Zc(3900)0 -> pi0 pi0 J/psi",
+   "section_type": "fit"
+  },
+  {
+   "line": 294,
+   "title": "Summary of systematic uncertainties of the Zc(3900)0 parameters and cross sections",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 298,
+   "title": "Summary of systematic uncertainties of the structure parameters observed in the sigma(e+e- -> pi0 Zc(3900)0 -> pi0 pi0 J/psi) line shape",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 12.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

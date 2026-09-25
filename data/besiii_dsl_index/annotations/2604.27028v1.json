@@ -1,0 +1,178 @@
+{
+ "paper_id": "2604.27028v1",
+ "source_path": "arxiv_papers/2604.27028v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 276,
+ "n_lines_sent": 124,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 236,
+   "to": 276,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 119,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 121,
+   "line_end": 121,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 123,
+   "line_end": 123,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 125,
+   "line_end": 133,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 135,
+   "line_end": 139,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "partial_reconstruction"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "candidate_selection"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "sigma0_signal_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 141,
+   "line_end": 147,
+   "type": "other",
+   "title": "Figures 1 and 2"
+  },
+  {
+   "line_start": 149,
+   "line_end": 187,
+   "type": "fit",
+   "title": "Partial wave analysis"
+  },
+  {
+   "line_start": 189,
+   "line_end": 195,
+   "type": "results",
+   "title": "Branching fraction measurement",
+   "units": [
+    {
+     "line_start": 189,
+     "line_end": 193,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "branching_fraction_values"
+    }
+   ]
+  },
+  {
+   "line_start": 197,
+   "line_end": 208,
+   "type": "other",
+   "title": "Figure 3"
+  },
+  {
+   "line_start": 210,
+   "line_end": 220,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "tracking_pid_xi_reconstruction"
+    },
+    {
+     "line_start": 212,
+     "line_end": 214,
+     "label": "table_i_systematics"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "pwa_systematics"
+    },
+    {
+     "line_start": 218,
+     "line_end": 220,
+     "label": "table_ii_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 222,
+   "line_end": 226,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 228,
+   "line_end": 228,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 230,
+   "line_end": 234,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 214,
+   "title": "Systematic uncertainties for branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 220,
+   "title": "Systematic uncertainties for masses and widths",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

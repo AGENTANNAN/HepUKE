@@ -1,0 +1,196 @@
+{
+ "paper_id": "2009.11566v1",
+ "source_path": "arxiv_papers/2009.11566v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 372,
+ "n_lines_sent": 212,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 49,
+   "to": 49,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 106,
+   "to": 106,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 181,
+   "to": 181,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 193,
+   "to": 193,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 198,
+   "to": 198,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 355,
+   "to": 372,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 199,
+   "type": "front_matter",
+   "title": "Study of BESIII Trigger Efficiencies with the 2018 J/ψ Data"
+  },
+  {
+   "line_start": 166,
+   "line_end": 168,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 201,
+   "line_end": 223,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 225,
+   "line_end": 241,
+   "type": "dataset",
+   "title": "2 Data Set"
+  },
+  {
+   "line_start": 243,
+   "line_end": 265,
+   "type": "event_selection",
+   "title": "3 Control Sample Selection",
+   "units": [
+    {
+     "line_start": 243,
+     "line_end": 247,
+     "label": "general_selection"
+    },
+    {
+     "line_start": 249,
+     "line_end": 255,
+     "label": "bhabha_selection"
+    },
+    {
+     "line_start": 257,
+     "line_end": 261,
+     "label": "dimuon_selection"
+    },
+    {
+     "line_start": 263,
+     "line_end": 265,
+     "label": "hadronic_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 267,
+   "line_end": 343,
+   "type": "fit",
+   "title": "4 Trigger Efficiency Determination"
+  },
+  {
+   "line_start": 345,
+   "line_end": 353,
+   "type": "conclusion",
+   "title": "5 Summary"
+  },
+  {
+   "line_start": 349,
+   "line_end": 353,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 213,
+   "title": "Trigger conditions",
+   "section_type": "introduction"
+  },
+  {
+   "line": 221,
+   "title": "Trigger channels",
+   "section_type": "introduction"
+  },
+  {
+   "line": 233,
+   "title": "Trigger menu for 2018 J/ψ data taking",
+   "section_type": "dataset"
+  },
+  {
+   "line": 241,
+   "title": "Trigger menu for the 2018 J/ψ test runs",
+   "section_type": "dataset"
+  },
+  {
+   "line": 293,
+   "title": "Trigger condition efficiencies",
+   "section_type": "fit"
+  },
+  {
+   "line": 339,
+   "title": "Global trigger efficiencies",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-199 / 166-168",
+  "nested spans 345-353 / 349-353"
+ ],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

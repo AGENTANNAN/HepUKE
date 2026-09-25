@@ -1,0 +1,300 @@
+{
+ "paper_id": "1209.4963v2",
+ "source_path": "arxiv_papers/1209.4963v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 335,
+ "n_lines_sent": 163,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 310,
+   "to": 335,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, abstract, PACS"
+  },
+  {
+   "line_start": 43,
+   "line_end": 53,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 55,
+   "line_end": 63,
+   "type": "detector",
+   "title": "II. EXPERIMENT AND DATA SAMPLE"
+  },
+  {
+   "line_start": 65,
+   "line_end": 113,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 65,
+     "line_end": 67,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "tracking"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "pid"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 77,
+     "line_end": 77,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 79,
+     "line_end": 81,
+     "label": "eta_c_selection"
+    },
+    {
+     "line_start": 83,
+     "line_end": 103,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 105,
+     "line_end": 107,
+     "label": "optimization"
+    },
+    {
+     "line_start": 109,
+     "line_end": 113,
+     "label": "table_i"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 147,
+   "type": "fit",
+   "title": "IV. EXTRACTION OF YIELDS AND RESONANCE PARAMETERS"
+  },
+  {
+   "line_start": 149,
+   "line_end": 258,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 149,
+     "line_end": 153,
+     "label": "overview"
+    },
+    {
+     "line_start": 155,
+     "line_end": 163,
+     "label": "energy_calibration"
+    },
+    {
+     "line_start": 165,
+     "line_end": 167,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 169,
+     "line_end": 175,
+     "label": "fitting_range_binning"
+    },
+    {
+     "line_start": 177,
+     "line_end": 179,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 181,
+     "line_end": 183,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 185,
+     "line_end": 189,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 191,
+     "line_end": 193,
+     "label": "eta_c_branching_overview"
+    },
+    {
+     "line_start": 195,
+     "line_end": 201,
+     "label": "tracking_photon"
+    },
+    {
+     "line_start": 203,
+     "line_end": 205,
+     "label": "pid_ks0"
+    },
+    {
+     "line_start": 207,
+     "line_end": 211,
+     "label": "kinematic_fitting"
+    },
+    {
+     "line_start": 213,
+     "line_end": 215,
+     "label": "cross_feed"
+    },
+    {
+     "line_start": 217,
+     "line_end": 219,
+     "label": "eta_c_decay_models"
+    },
+    {
+     "line_start": 221,
+     "line_end": 226,
+     "label": "eta_c_line_shape"
+    },
+    {
+     "line_start": 228,
+     "line_end": 230,
+     "label": "eta_c_parameter_overview"
+    },
+    {
+     "line_start": 232,
+     "line_end": 238,
+     "label": "background_shape_eta_c"
+    },
+    {
+     "line_start": 240,
+     "line_end": 242,
+     "label": "fitting_range_eta_c"
+    },
+    {
+     "line_start": 244,
+     "line_end": 246,
+     "label": "resolution_description"
+    },
+    {
+     "line_start": 248,
+     "line_end": 250,
+     "label": "mass_dependent_efficiency_resolution"
+    },
+    {
+     "line_start": 252,
+     "line_end": 254,
+     "label": "kinematic_fitting_eta_c"
+    },
+    {
+     "line_start": 256,
+     "line_end": 258,
+     "label": "fitting_method"
+    }
+   ]
+  },
+  {
+   "line_start": 260,
+   "line_end": 304,
+   "type": "conclusion",
+   "title": "Summary and conclusions"
+  },
+  {
+   "line_start": 306,
+   "line_end": 308,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 111,
+   "title": "Event-selection requirements for each exclusive channel",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 143,
+   "title": "MC-determined efficiencies and yields for each eta_c decay mode",
+   "section_type": "fit"
+  },
+  {
+   "line": 171,
+   "title": "Systematic errors for the h_c mass and width measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 197,
+   "title": "Systematic errors in the eta_c branching ratio measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 207,
+   "title": "Systematic errors in the eta_c branching ratio measurements (continued)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 234,
+   "title": "Systematic errors for eta_c parameter measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 278,
+   "title": "Branching-ratio results for the 16 eta_c decay modes",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 6.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

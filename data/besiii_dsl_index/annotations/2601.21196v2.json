@@ -1,0 +1,739 @@
+{
+ "paper_id": "2601.21196v2",
+ "source_path": "arxiv_papers/2601.21196v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 867,
+ "n_lines_sent": 335,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 582,
+   "to": 867,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Precise measurements of D0 -> K- l+ nu_l and D+ -> Kbar0 l+ nu_l decays"
+  },
+  {
+   "line_start": 3,
+   "line_end": 23,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 25,
+   "line_end": 25,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 27,
+   "line_end": 37,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 39,
+   "line_end": 43,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 45,
+   "line_end": 59,
+   "type": "event_selection",
+   "title": "III. DOUBLE TAG METHOD",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 49,
+     "line_end": 51,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "yields_definition"
+    },
+    {
+     "line_start": 55,
+     "line_end": 57,
+     "label": "weighted_efficiency_formula"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "sub_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 61,
+   "line_end": 79,
+   "type": "event_selection",
+   "title": "IV. SELECTION OF SINGLE TAG Dbar MESONS",
+   "units": [
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 67,
+     "line_end": 67,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 69,
+     "line_end": 69,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "kinematic_variables"
+    },
+    {
+     "line_start": 73,
+     "line_end": 73,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 75,
+     "line_end": 77,
+     "label": "table1"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "total_st_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 81,
+   "line_end": 87,
+   "type": "event_selection",
+   "title": "V. SELECTION OF DOUBLE TAG EVENTS",
+   "units": [
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "dt_selection_and_pid"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "u_miss_definition"
+    }
+   ]
+  },
+  {
+   "line_start": 89,
+   "line_end": 99,
+   "type": "results",
+   "title": "VI. BRANCHING FRACTIONS",
+   "units": [
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "branching_fraction_results_heading"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "u_miss_distributions"
+    },
+    {
+     "line_start": 95,
+     "line_end": 95,
+     "label": "dt_yield_fit"
+    },
+    {
+     "line_start": 97,
+     "line_end": 97,
+     "label": "dt_efficiencies"
+    },
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "branching_fraction_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 101,
+   "line_end": 143,
+   "type": "systematic_uncertainty",
+   "title": "VI B. Systematic uncertainties on branching fractions",
+   "units": [
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "systematic_uncertainties_overview"
+    },
+    {
+     "line_start": 105,
+     "line_end": 106,
+     "label": "figure1"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "correlated_uncertainties"
+    },
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "st_yields"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "k_tracking_pid"
+    },
+    {
+     "line_start": 114,
+     "line_end": 115,
+     "label": "figure2"
+    },
+    {
+     "line_start": 117,
+     "line_end": 119,
+     "label": "table2"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "lepton_tracking_pid"
+    },
+    {
+     "line_start": 125,
+     "line_end": 127,
+     "label": "table3"
+    },
+    {
+     "line_start": 129,
+     "line_end": 131,
+     "label": "table4"
+    },
+    {
+     "line_start": 133,
+     "line_end": 133,
+     "label": "systematic_uncertainty_continuation"
+    },
+    {
+     "line_start": 135,
+     "line_end": 135,
+     "label": "mc_model_and_mkell_requirement"
+    },
+    {
+     "line_start": 137,
+     "line_end": 137,
+     "label": "extra_photon_track_requirements"
+    },
+    {
+     "line_start": 139,
+     "line_end": 139,
+     "label": "u_miss_fit"
+    },
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "quoted_branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 145,
+   "line_end": 243,
+   "type": "fit",
+   "title": "VII. HADRONIC TRANSITION FORM FACTORS"
+  },
+  {
+   "line_start": 245,
+   "line_end": 265,
+   "type": "fit",
+   "title": "VII C. Fit to the partial decay rates"
+  },
+  {
+   "line_start": 267,
+   "line_end": 333,
+   "type": "systematic_uncertainty",
+   "title": "VII D. Systematic uncertainties on partial decay rates",
+   "units": [
+    {
+     "line_start": 267,
+     "line_end": 267,
+     "label": "systematic_uncertainties_overview"
+    },
+    {
+     "line_start": 269,
+     "line_end": 270,
+     "label": "figure3"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "table7_summary"
+    },
+    {
+     "line_start": 274,
+     "line_end": 280,
+     "label": "st_yields"
+    },
+    {
+     "line_start": 282,
+     "line_end": 288,
+     "label": "d_lifetime"
+    },
+    {
+     "line_start": 290,
+     "line_end": 300,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 302,
+     "line_end": 308,
+     "label": "mc_model"
+    },
+    {
+     "line_start": 310,
+     "line_end": 316,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 318,
+     "line_end": 324,
+     "label": "u_miss_fit"
+    },
+    {
+     "line_start": 326,
+     "line_end": 332,
+     "label": "remaining_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 334,
+   "line_end": 358,
+   "type": "results",
+   "title": "VII E. Results based on individual fits",
+   "units": [
+    {
+     "line_start": 336,
+     "line_end": 336,
+     "label": "individual_fits"
+    },
+    {
+     "line_start": 338,
+     "line_end": 342,
+     "label": "form_factor_projection"
+    },
+    {
+     "line_start": 344,
+     "line_end": 348,
+     "label": "integral_a"
+    },
+    {
+     "line_start": 350,
+     "line_end": 356,
+     "label": "integral_b"
+    }
+   ]
+  },
+  {
+   "line_start": 360,
+   "line_end": 397,
+   "type": "fit",
+   "title": "VII F. Results based on a simultaneous fit"
+  },
+  {
+   "line_start": 399,
+   "line_end": 437,
+   "type": "fit",
+   "title": "VIII. FORWARD-BACKWARD ASYMMETRIES"
+  },
+  {
+   "line_start": 439,
+   "line_end": 487,
+   "type": "results",
+   "title": "VIII B. Average forward-backward asymmetries",
+   "units": [
+    {
+     "line_start": 440,
+     "line_end": 444,
+     "label": "overall_asymmetry_definition"
+    },
+    {
+     "line_start": 446,
+     "line_end": 450,
+     "label": "asymmetry_measurement"
+    },
+    {
+     "line_start": 452,
+     "line_end": 458,
+     "label": "produced_events_and_covariance"
+    },
+    {
+     "line_start": 460,
+     "line_end": 461,
+     "label": "figure6"
+    },
+    {
+     "line_start": 463,
+     "line_end": 465,
+     "label": "table10"
+    },
+    {
+     "line_start": 467,
+     "line_end": 467,
+     "label": "table12"
+    },
+    {
+     "line_start": 469,
+     "line_end": 471,
+     "label": "table11"
+    },
+    {
+     "line_start": 473,
+     "line_end": 475,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 477,
+     "line_end": 483,
+     "label": "asymmetry_uncertainties"
+    },
+    {
+     "line_start": 485,
+     "line_end": 487,
+     "label": "table13"
+    }
+   ]
+  },
+  {
+   "line_start": 489,
+   "line_end": 505,
+   "type": "results",
+   "title": "VIII C. q2-binned forward-backward asymmetries",
+   "units": [
+    {
+     "line_start": 491,
+     "line_end": 495,
+     "label": "q2_binned_asymmetry_definition"
+    },
+    {
+     "line_start": 497,
+     "line_end": 501,
+     "label": "produced_events_definition"
+    },
+    {
+     "line_start": 503,
+     "line_end": 503,
+     "label": "fit_results"
+    },
+    {
+     "line_start": 505,
+     "line_end": 505,
+     "label": "asymmetry_results"
+    }
+   ]
+  },
+  {
+   "line_start": 507,
+   "line_end": 563,
+   "type": "fit",
+   "title": "IX. CONSTRAINT ON SCALAR CURRENT IN c -> s l+ nu_l TRANSITION"
+  },
+  {
+   "line_start": 565,
+   "line_end": 575,
+   "type": "conclusion",
+   "title": "X. SUMMARY"
+  },
+  {
+   "line_start": 576,
+   "line_end": 579,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 580,
+   "line_end": 580,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 77,
+   "title": "ST yields and efficiencies per tag mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 119,
+   "title": "Main background sources per signal decay",
+   "section_type": "background"
+  },
+  {
+   "line": 127,
+   "title": "DT and signal efficiencies per tag mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 131,
+   "title": "Signal yields and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 159,
+   "title": "Relative systematic uncertainties on branching fractions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 249,
+   "title": "q2-binned DT yields and partial decay rates",
+   "section_type": "fit"
+  },
+  {
+   "line": 366,
+   "title": "Systematic uncertainties of decay rates in q2 bins",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 370,
+   "title": "f+(q2) values in q2 bins",
+   "section_type": "fit"
+  },
+  {
+   "line": 374,
+   "title": "Fitted form factor parameters",
+   "section_type": "fit"
+  },
+  {
+   "line": 465,
+   "title": "Weighted efficiency matrix for asymmetry",
+   "section_type": "results"
+  },
+  {
+   "line": 471,
+   "title": "Statistical covariance matrix of Nprd",
+   "section_type": "results"
+  },
+  {
+   "line": 475,
+   "title": "Systematic uncertainties of AFB",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 487,
+   "title": "Fitted signal yields and overall AFB",
+   "section_type": "results"
+  },
+  {
+   "line": 513,
+   "title": "q2-binned forward-backward asymmetries",
+   "section_type": "results"
+  },
+  {
+   "line": 545,
+   "title": "Fitted parameters with and without scalar current",
+   "section_type": "fit"
+  },
+  {
+   "line": 744,
+   "title": "Weighted efficiency matrix D0->K-e+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 748,
+   "title": "Weighted efficiency matrix D0->K-mu+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 752,
+   "title": "Weighted efficiency matrix D+->Kbar0e+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 756,
+   "title": "Weighted efficiency matrix D+->Kbar0mu+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 760,
+   "title": "q2-binned DT yields and decay rates D0->K-e+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 777,
+   "title": "q2-binned DT yields and decay rates D+->Kbar0e+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 781,
+   "title": "q2-binned DT yields and decay rates D+->Kbar0mu+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 785,
+   "title": "Statistical covariance matrix D0->K-e+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 789,
+   "title": "Statistical covariance matrix D0->K-mu+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 793,
+   "title": "Statistical covariance matrix D+->Kbar0e+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 797,
+   "title": "Statistical covariance matrix D+->Kbar0mu+nu",
+   "section_type": "fit"
+  },
+  {
+   "line": 801,
+   "title": "Systematic uncertainties of decay rates D0->K-mu+nu",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 805,
+   "title": "Systematic uncertainties of decay rates D+->Kbar0e+nu",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 809,
+   "title": "Systematic uncertainties of decay rates D+->Kbar0mu+nu",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 813,
+   "title": "Systematic covariance matrix D0->K-e+nu",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 817,
+   "title": "Systematic covariance matrix D0->K-mu+nu",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 821,
+   "title": "Systematic covariance matrix D+->Kbar0e+nu",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 825,
+   "title": "Systematic covariance matrix D+->Kbar0mu+nu",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 829,
+   "title": "Covariance matrix block i in [1,36], j in [1,36]",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 833,
+   "title": "Covariance matrix block i in [1,36], j in [37,72]",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 837,
+   "title": "Covariance matrix block i in [37,72], j in [1,36]",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 842,
+   "title": "Covariance matrix block i in [37,72], j in [37,72]",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 859,
+   "title": "q2-binned forward/backward yields and AFB D0->K-e+nu",
+   "section_type": "results"
+  },
+  {
+   "line": 863,
+   "title": "q2-binned forward/backward yields and AFB D+->Kbar0e+nu",
+   "section_type": "results"
+  },
+  {
+   "line": 867,
+   "title": "q2-binned forward/backward yields and AFB D+->Kbar0mu+nu",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 14.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 45-59 before line 47",
+  "gap in 61-79 before line 63",
+  "gap in 81-87 before line 83",
+  "gap in 89-99 before line 91",
+  "gap in 101-143 before line 103",
+  "gap in 334-358 before line 336",
+  "units of 334-358 stop at 356, not 358",
+  "gap in 489-505 before line 491"
+ ],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

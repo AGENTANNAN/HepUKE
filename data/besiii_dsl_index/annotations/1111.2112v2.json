@@ -1,0 +1,241 @@
+{
+ "paper_id": "1111.2112v2",
+ "source_path": "arxiv_papers/1111.2112v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 157,
+ "n_lines_sent": 88,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 143,
+   "to": 157,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 67,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 69,
+   "line_end": 69,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 71,
+   "line_end": 71,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 73,
+   "line_end": 77,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 79,
+   "line_end": 79,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 81,
+   "line_end": 81,
+   "type": "dataset",
+   "title": "Dataset and Monte Carlo simulation"
+  },
+  {
+   "line_start": 83,
+   "line_end": 93,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "overview"
+    },
+    {
+     "line_start": 85,
+     "line_end": 85,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 87,
+     "line_end": 87,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "muon_identification"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "pi0_veto_and_kinematic_fit"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "efficiency"
+    }
+   ]
+  },
+  {
+   "line_start": 95,
+   "line_end": 97,
+   "type": "fit",
+   "title": "Mass spectrum and fit"
+  },
+  {
+   "line_start": 99,
+   "line_end": 99,
+   "type": "systematic_uncertainty",
+   "title": "Fit-related systematic uncertainty",
+   "units": [
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "fit_variation"
+    }
+   ]
+  },
+  {
+   "line_start": 101,
+   "line_end": 127,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "overview"
+    },
+    {
+     "line_start": 103,
+     "line_end": 103,
+     "label": "tracking"
+    },
+    {
+     "line_start": 105,
+     "line_end": 106,
+     "label": "figure1"
+    },
+    {
+     "line_start": 108,
+     "line_end": 109,
+     "label": "figure2"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 113,
+     "line_end": 115,
+     "label": "pid"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 119,
+     "line_end": 121,
+     "label": "table1"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "pi0_veto"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "recoil_mass"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 129,
+   "line_end": 131,
+   "type": "results",
+   "title": "Upper limits on branching fractions",
+   "units": [
+    {
+     "line_start": 129,
+     "line_end": 131,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 133,
+   "line_end": 133,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 135,
+   "line_end": 135,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 137,
+   "line_end": 139,
+   "type": "other",
+   "title": "Equation"
+  },
+  {
+   "line_start": 141,
+   "line_end": 141,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 121,
+   "title": "Systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:08",
+ "failed_aspects": []
+}

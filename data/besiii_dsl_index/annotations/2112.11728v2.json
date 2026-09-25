@@ -1,0 +1,256 @@
+{
+ "paper_id": "2112.11728v2",
+ "source_path": "arxiv_papers/2112.11728v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 131,
+ "n_lines_sent": 45,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 108,
+   "to": 131,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 40,
+   "type": "front_matter",
+   "title": "Measurement of the Cross Section for e+e− → Hadrons at Energies from 2.2324 to 3.6710 GeV"
+  },
+  {
+   "line_start": 42,
+   "line_end": 42,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 44,
+   "line_end": 46,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 48,
+   "line_end": 54,
+   "type": "event_selection",
+   "title": "R value determination",
+   "units": [
+    {
+     "line_start": 48,
+     "line_end": 54,
+     "label": "r_value_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 56,
+   "line_end": 60,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "qed_background_rejection"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 60,
+     "line_end": 60,
+     "label": "hadronic_event_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 62,
+   "line_end": 68,
+   "type": "background",
+   "title": "Background estimation"
+  },
+  {
+   "line_start": 70,
+   "line_end": 71,
+   "type": "dataset",
+   "title": "FIG. 1"
+  },
+  {
+   "line_start": 73,
+   "line_end": 79,
+   "type": "fit",
+   "title": "ISR correction"
+  },
+  {
+   "line_start": 81,
+   "line_end": 83,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "qed_background"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "beam_background"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "trigger_efficiency"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 83,
+     "line_end": 83,
+     "label": "isr_correction"
+    }
+   ]
+  },
+  {
+   "line_start": 85,
+   "line_end": 87,
+   "type": "systematic_uncertainty",
+   "title": "TABLE I"
+  },
+  {
+   "line_start": 89,
+   "line_end": 89,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "primary_quantities"
+    }
+   ]
+  },
+  {
+   "line_start": 91,
+   "line_end": 91,
+   "type": "systematic_uncertainty",
+   "title": "Additional checks",
+   "units": [
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "additional_checks"
+    }
+   ]
+  },
+  {
+   "line_start": 93,
+   "line_end": 93,
+   "type": "results",
+   "title": "R value results",
+   "units": [
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "r_value_comparison"
+    }
+   ]
+  },
+  {
+   "line_start": 95,
+   "line_end": 97,
+   "type": "results",
+   "title": "TABLE II"
+  },
+  {
+   "line_start": 99,
+   "line_end": 100,
+   "type": "results",
+   "title": "FIG. 2"
+  },
+  {
+   "line_start": 102,
+   "line_end": 102,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 104,
+   "line_end": 106,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 87,
+   "title": "Summary of systematic uncertainties at each c.m. energy",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 97,
+   "title": "Summary of primary quantities and measured R values",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 81-83 share boundary line 81",
+  "units of 81-83 share boundary line 81",
+  "units of 81-83 share boundary line 81",
+  "units of 81-83 share boundary line 81",
+  "units of 81-83 share boundary line 83",
+  "short section 85-87 typed systematic_uncertainty has no units",
+  "short section 95-97 typed results has no units",
+  "short section 99-100 typed results has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

@@ -1,0 +1,422 @@
+{
+ "paper_id": "2409.07197v1",
+ "source_path": "arxiv_papers/2409.07197v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 438,
+ "n_lines_sent": 224,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 36,
+   "to": 36,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 394,
+   "to": 438,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 6,
+   "line_end": 6,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 15,
+   "line_end": 15,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 19,
+   "line_end": 19,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 20,
+   "line_end": 20,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 22,
+   "line_end": 22,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 23,
+   "line_end": 23,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 25,
+   "line_end": 25,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 26,
+   "line_end": 26,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 27,
+   "line_end": 27,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 31,
+   "line_end": 31,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 40,
+   "line_end": 40,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 42,
+   "line_end": 48,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 50,
+   "line_end": 152,
+   "type": "other",
+   "title": "II. MEASUREMENT METHOD"
+  },
+  {
+   "line_start": 154,
+   "line_end": 162,
+   "type": "detector",
+   "title": "III. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 164,
+   "line_end": 184,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 164,
+     "line_end": 166,
+     "label": "overview"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "tracking"
+    },
+    {
+     "line_start": 170,
+     "line_end": 170,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 176,
+     "line_end": 176,
+     "label": "st_selection"
+    },
+    {
+     "line_start": 178,
+     "line_end": 178,
+     "label": "delta_e"
+    },
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "mbc_fit"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "st_yields"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "peaking_backgrounds"
+    }
+   ]
+  },
+  {
+   "line_start": 186,
+   "line_end": 192,
+   "type": "results",
+   "title": "V. DETERMINATION OF THE ST YIELDS",
+   "units": [
+    {
+     "line_start": 186,
+     "line_end": 192,
+     "label": "st_yields"
+    }
+   ]
+  },
+  {
+   "line_start": 194,
+   "line_end": 239,
+   "type": "results",
+   "title": "VI. DETERMINATION OF THE DT YIELDS",
+   "units": [
+    {
+     "line_start": 194,
+     "line_end": 219,
+     "label": "fully_reconstructed_dt"
+    },
+    {
+     "line_start": 221,
+     "line_end": 237,
+     "label": "partially_reconstructed_dt"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "binned_dt"
+    }
+   ]
+  },
+  {
+   "line_start": 241,
+   "line_end": 311,
+   "type": "fit",
+   "title": "VII. CP-EVEN FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 313,
+   "line_end": 348,
+   "type": "systematic_uncertainty",
+   "title": "VIII. SYSTEMATIC UNCERTAINTIES ON THE CP-EVEN FRACTION",
+   "units": [
+    {
+     "line_start": 313,
+     "line_end": 315,
+     "label": "overview"
+    },
+    {
+     "line_start": 317,
+     "line_end": 317,
+     "label": "cp_eigen_fully_reconstructed"
+    },
+    {
+     "line_start": 319,
+     "line_end": 319,
+     "label": "cp_eigen_partially_reconstructed"
+    },
+    {
+     "line_start": 321,
+     "line_end": 321,
+     "label": "combination"
+    },
+    {
+     "line_start": 323,
+     "line_end": 323,
+     "label": "global_cp_mixed"
+    },
+    {
+     "line_start": 325,
+     "line_end": 328,
+     "label": "binned_cp_mixed"
+    },
+    {
+     "line_start": 330,
+     "line_end": 336,
+     "label": "input_parameters"
+    },
+    {
+     "line_start": 338,
+     "line_end": 348,
+     "label": "mc_modeling"
+    }
+   ]
+  },
+  {
+   "line_start": 350,
+   "line_end": 364,
+   "type": "results",
+   "title": "IX. COMBINATION OF RESULTS",
+   "units": [
+    {
+     "line_start": 350,
+     "line_end": 364,
+     "label": "combination"
+    }
+   ]
+  },
+  {
+   "line_start": 366,
+   "line_end": 370,
+   "type": "conclusion",
+   "title": "X. SUMMARY"
+  },
+  {
+   "line_start": 372,
+   "line_end": 382,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainty tables",
+   "units": [
+    {
+     "line_start": 372,
+     "line_end": 374,
+     "label": "systematic_uncertainty_table"
+    },
+    {
+     "line_start": 376,
+     "line_end": 378,
+     "label": "results_table"
+    },
+    {
+     "line_start": 380,
+     "line_end": 382,
+     "label": "correlation_table"
+    }
+   ]
+  },
+  {
+   "line_start": 384,
+   "line_end": 384,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 386,
+   "line_end": 386,
+   "type": "acknowledgements",
+   "title": "XI. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 388,
+   "line_end": 392,
+   "type": "other",
+   "title": "XII. APPENDIX: EFFICIENCY MATRICES"
+  }
+ ],
+ "tables": [
+  {
+   "line": 56,
+   "title": "Tag modes categorized by CP content",
+   "section_type": "other"
+  },
+  {
+   "line": 192,
+   "title": "Summary of ST yields and efficiencies",
+   "section_type": "results"
+  },
+  {
+   "line": 231,
+   "title": "Summary of DT yields and efficiencies",
+   "section_type": "results"
+  },
+  {
+   "line": 262,
+   "title": "DT yields for KS,L pi+ pi- in each bin",
+   "section_type": "results"
+  },
+  {
+   "line": 279,
+   "title": "Summary of N+, Nf/g and F+ in global CP-mixed ST modes",
+   "section_type": "fit"
+  },
+  {
+   "line": 311,
+   "title": "Summary of F+ for KS,L pi+ pi- tag modes",
+   "section_type": "fit"
+  },
+  {
+   "line": 374,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 378,
+   "title": "Results of F+ from different tag modes and combination",
+   "section_type": "results"
+  },
+  {
+   "line": 382,
+   "title": "Correlation coefficients of F+ uncertainties",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 15.2,
+ "status": "invalid",
+ "errors": [
+  "[sections] 26 sections — sections were used where units belong",
+  "[tables] unannotated tables at [438]"
+ ],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": [
+  "sections",
+  "tables"
+ ]
+}

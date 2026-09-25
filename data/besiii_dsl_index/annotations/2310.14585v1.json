@@ -1,0 +1,300 @@
+{
+ "paper_id": "2310.14585v1",
+ "source_path": "arxiv_papers/2310.14585v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 220,
+ "n_lines_sent": 85,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 184,
+   "to": 220,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 46,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, date"
+  },
+  {
+   "line_start": 48,
+   "line_end": 48,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 50,
+   "line_end": 60,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 62,
+   "line_end": 64,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 66,
+   "line_end": 68,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 70,
+   "line_end": 93,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 70,
+     "line_end": 72,
+     "label": "reconstruction_channels"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 82,
+     "line_end": 84,
+     "label": "mass_windows_table"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "signal_and_sideband_regions"
+    },
+    {
+     "line_start": 88,
+     "line_end": 89,
+     "label": "figure_1"
+    },
+    {
+     "line_start": 91,
+     "line_end": 91,
+     "label": "background_study"
+    },
+    {
+     "line_start": 93,
+     "line_end": 93,
+     "label": "qed_background"
+    }
+   ]
+  },
+  {
+   "line_start": 95,
+   "line_end": 112,
+   "type": "fit",
+   "title": "IV. SIGNAL YIELDS"
+  },
+  {
+   "line_start": 114,
+   "line_end": 122,
+   "type": "results",
+   "title": "V. RESULTS FOR BRANCHING FRACTIONS",
+   "units": [
+    {
+     "line_start": 114,
+     "line_end": 122,
+     "label": "branching_fraction_calculation"
+    }
+   ]
+  },
+  {
+   "line_start": 124,
+   "line_end": 174,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 124,
+     "line_end": 126,
+     "label": "introduction"
+    },
+    {
+     "line_start": 128,
+     "line_end": 130,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 138,
+     "line_end": 140,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 142,
+     "line_end": 144,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "fitting_range"
+    },
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "non_peaking_background"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "delta_related_background"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "sideband_background"
+    },
+    {
+     "line_start": 156,
+     "line_end": 162,
+     "label": "interference"
+    },
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "mc_simulation"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "n_psi3686"
+    },
+    {
+     "line_start": 170,
+     "line_end": 172,
+     "label": "table_iii"
+    },
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 176,
+   "line_end": 178,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 180,
+   "line_end": 182,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 84,
+   "title": "Mass selection windows for each mode",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 144,
+   "title": "Signal yields, efficiencies, branching fractions and significances",
+   "section_type": "results"
+  },
+  {
+   "line": 172,
+   "title": "Systematic uncertainties for the two decay channels",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

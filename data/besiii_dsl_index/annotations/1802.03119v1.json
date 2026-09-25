@@ -1,0 +1,228 @@
+{
+ "paper_id": "1802.03119v1",
+ "source_path": "arxiv_papers/1802.03119v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 200,
+ "n_lines_sent": 83,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 172,
+   "to": 200,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 39,
+   "type": "front_matter",
+   "title": "Measurements of absolute branching fractions for D mesons decays into two pseudoscalar mesons"
+  },
+  {
+   "line_start": 37,
+   "line_end": 37,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 41,
+   "line_end": 45,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 47,
+   "line_end": 53,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 55,
+   "line_end": 99,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 55,
+     "line_end": 57,
+     "label": "candidate_selection_overview"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 63,
+     "line_end": 63,
+     "label": "photon_pi0_eta_etap_selection"
+    },
+    {
+     "line_start": 65,
+     "line_end": 65,
+     "label": "cosmic_bhabha_rejection"
+    },
+    {
+     "line_start": 67,
+     "line_end": 69,
+     "label": "delta_e_requirement"
+    },
+    {
+     "line_start": 71,
+     "line_end": 71,
+     "label": "mbc_fit"
+    },
+    {
+     "line_start": 73,
+     "line_end": 75,
+     "label": "peaking_background_estimation"
+    },
+    {
+     "line_start": 77,
+     "line_end": 99,
+     "label": "signal_yield_extraction"
+    }
+   ]
+  },
+  {
+   "line_start": 101,
+   "line_end": 126,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTION"
+  },
+  {
+   "line_start": 128,
+   "line_end": 156,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 128,
+     "line_end": 134,
+     "label": "nddbar_total"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 140,
+     "line_end": 140,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 142,
+     "line_end": 142,
+     "label": "delta_e_and_mbc_fit"
+    },
+    {
+     "line_start": 144,
+     "line_end": 148,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 152,
+     "line_end": 152,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "quantum_coherence"
+    },
+    {
+     "line_start": 156,
+     "line_end": 156,
+     "label": "total_systematic"
+    }
+   ]
+  },
+  {
+   "line_start": 158,
+   "line_end": 160,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 162,
+   "line_end": 170,
+   "type": "acknowledgements",
+   "title": "VII. ACKNOWLEDGEMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 119,
+   "title": "Background-subtracted signal yields, efficiencies, branching fractions and world average values",
+   "section_type": "results"
+  },
+  {
+   "line": 168,
+   "title": "Relative systematic uncertainties in the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-39 / 37-37"
+ ],
+ "revalidated_at": "2026-09-19T03:21:11",
+ "failed_aspects": []
+}

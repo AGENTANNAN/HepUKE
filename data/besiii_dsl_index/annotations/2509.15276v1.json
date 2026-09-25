@@ -1,0 +1,208 @@
+{
+ "paper_id": "2509.15276v1",
+ "source_path": "arxiv_papers/2509.15276v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 348,
+ "n_lines_sent": 203,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 306,
+   "to": 348,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 215,
+   "type": "front_matter",
+   "title": "Title, authors, and affiliations"
+  },
+  {
+   "line_start": 217,
+   "line_end": 217,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 219,
+   "line_end": 229,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 231,
+   "line_end": 251,
+   "type": "fit",
+   "title": "Angular formalism and differential cross section"
+  },
+  {
+   "line_start": 252,
+   "line_end": 260,
+   "type": "event_selection",
+   "title": "Event selection and background estimation",
+   "units": [
+    {
+     "line_start": 252,
+     "line_end": 256,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 258,
+     "line_end": 260,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 262,
+   "line_end": 274,
+   "type": "fit",
+   "title": "Unbinned maximum likelihood fit"
+  },
+  {
+   "line_start": 276,
+   "line_end": 276,
+   "type": "results",
+   "title": "Fit results",
+   "units": [
+    {
+     "line_start": 276,
+     "line_end": 276,
+     "label": "fit_results"
+    }
+   ]
+  },
+  {
+   "line_start": 278,
+   "line_end": 291,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 278,
+     "line_end": 285,
+     "label": "tracking"
+    },
+    {
+     "line_start": 286,
+     "line_end": 286,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 287,
+     "line_end": 287,
+     "label": "decay_length"
+    },
+    {
+     "line_start": 289,
+     "line_end": 289,
+     "label": "signal_mass_window"
+    },
+    {
+     "line_start": 291,
+     "line_end": 291,
+     "label": "fit_method"
+    }
+   ]
+  },
+  {
+   "line_start": 293,
+   "line_end": 297,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 299,
+   "line_end": 301,
+   "type": "results",
+   "title": "L-S scheme parameters",
+   "units": [
+    {
+     "line_start": 299,
+     "line_end": 301,
+     "label": "ls_parameters"
+    }
+   ]
+  },
+  {
+   "line_start": 303,
+   "line_end": 303,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 305,
+   "line_end": 305,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 289,
+   "title": "Systematic uncertainties of the fit parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 301,
+   "title": "Parameters of the psi -> Lambda Lambda and psi -> Sigma0 Sigma0 processes",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:21",
+ "failed_aspects": []
+}

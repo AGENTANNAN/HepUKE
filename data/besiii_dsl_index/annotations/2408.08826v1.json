@@ -1,0 +1,185 @@
+{
+ "paper_id": "2408.08826v1",
+ "source_path": "arxiv_papers/2408.08826v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 291,
+ "n_lines_sent": 192,
+ "skipped_ranges": [
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 125,
+   "to": 125,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 245,
+   "to": 291,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 149,
+   "type": "front_matter",
+   "title": "Search for the rare decay J/psi -> gamma D0 + c.c. at BESIII"
+  },
+  {
+   "line_start": 151,
+   "line_end": 151,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 153,
+   "line_end": 166,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 168,
+   "line_end": 168,
+   "type": "other",
+   "title": "III. DATA ANALYSIS (heading)"
+  },
+  {
+   "line_start": 170,
+   "line_end": 180,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 182,
+   "line_end": 193,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "common_selection"
+    },
+    {
+     "line_start": 184,
+     "line_end": 184,
+     "label": "further_selection_heading"
+    },
+    {
+     "line_start": 186,
+     "line_end": 186,
+     "label": "mode_i_background_suppression"
+    },
+    {
+     "line_start": 188,
+     "line_end": 191,
+     "label": "mode_ii_background_suppression"
+    },
+    {
+     "line_start": 193,
+     "line_end": 193,
+     "label": "mode_iii_background_suppression"
+    }
+   ]
+  },
+  {
+   "line_start": 195,
+   "line_end": 208,
+   "type": "fit",
+   "title": "C. Signal extraction and branching fraction calculation"
+  },
+  {
+   "line_start": 210,
+   "line_end": 220,
+   "type": "systematic_uncertainty",
+   "title": "D. Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 210,
+     "line_end": 212,
+     "label": "overview"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "category_a_uncertainties"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "category_b_overview"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "tracking_pid_photon_pi0_ep"
+    },
+    {
+     "line_start": 220,
+     "line_end": 220,
+     "label": "extra_tracks_mva_kinematic_fit_bfs_njpsi"
+    }
+   ]
+  },
+  {
+   "line_start": 222,
+   "line_end": 235,
+   "type": "results",
+   "title": "E. Upper limit on branching fraction",
+   "units": [
+    {
+     "line_start": 222,
+     "line_end": 224,
+     "label": "bayesian_upper_limit"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "systematic_incorporation"
+    },
+    {
+     "line_start": 228,
+     "line_end": 230,
+     "label": "systematics_table"
+    },
+    {
+     "line_start": 232,
+     "line_end": 235,
+     "label": "upper_limit_result"
+    }
+   ]
+  },
+  {
+   "line_start": 237,
+   "line_end": 239,
+   "type": "conclusion",
+   "title": "IV. SUMMARY"
+  },
+  {
+   "line_start": 241,
+   "line_end": 243,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 230,
+   "title": "Sources of systematic uncertainties and the corresponding uncertainties to the BF",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

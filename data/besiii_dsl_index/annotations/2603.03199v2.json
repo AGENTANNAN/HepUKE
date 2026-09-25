@@ -1,0 +1,225 @@
+{
+ "paper_id": "2603.03199v2",
+ "source_path": "arxiv_papers/2603.03199v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 511,
+ "n_lines_sent": 96,
+ "skipped_ranges": [
+  {
+   "from": 165,
+   "to": 511,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 20,
+   "type": "front_matter",
+   "title": "Search for a massless particle beyond the Standard Model in the Xi0 -> Lambda + invisible decay"
+  },
+  {
+   "line_start": 7,
+   "line_end": 7,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 22,
+   "line_end": 34,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 36,
+   "line_end": 40,
+   "type": "detector",
+   "title": "2 BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 42,
+   "line_end": 68,
+   "type": "event_selection",
+   "title": "3 SINGLE TAG EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 42,
+     "line_end": 50,
+     "label": "st_selection_intro"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "pid"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "photon_pi0_reconstruction"
+    },
+    {
+     "line_start": 58,
+     "line_end": 58,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 60,
+     "line_end": 68,
+     "label": "xi0_reconstruction_and_st_yield"
+    }
+   ]
+  },
+  {
+   "line_start": 70,
+   "line_end": 81,
+   "type": "event_selection",
+   "title": "4 DOUBLE TAG EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 70,
+     "line_end": 74,
+     "label": "dt_selection_intro"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "figure2"
+    },
+    {
+     "line_start": 79,
+     "line_end": 79,
+     "label": "extra_photon_suppression"
+    },
+    {
+     "line_start": 81,
+     "line_end": 81,
+     "label": "optimization"
+    }
+   ]
+  },
+  {
+   "line_start": 83,
+   "line_end": 99,
+   "type": "fit",
+   "title": "5 SIGNAL EXTRACTION"
+  },
+  {
+   "line_start": 101,
+   "line_end": 119,
+   "type": "systematic_uncertainty",
+   "title": "6 SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 101,
+     "line_end": 105,
+     "label": "systematics_intro"
+    },
+    {
+     "line_start": 107,
+     "line_end": 107,
+     "label": "mc_generator"
+    },
+    {
+     "line_start": 109,
+     "line_end": 109,
+     "label": "intermediate_bf"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 113,
+     "line_end": 115,
+     "label": "table1"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "selection_requirements"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "additive_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 153,
+   "type": "results",
+   "title": "7 RESULT",
+   "units": [
+    {
+     "line_start": 121,
+     "line_end": 123,
+     "label": "ul_method_intro"
+    },
+    {
+     "line_start": 125,
+     "line_end": 129,
+     "label": "relative_likelihood"
+    },
+    {
+     "line_start": 131,
+     "line_end": 135,
+     "label": "gaussian_fit"
+    },
+    {
+     "line_start": 137,
+     "line_end": 143,
+     "label": "smearing_systematics"
+    },
+    {
+     "line_start": 145,
+     "line_end": 150,
+     "label": "ul_result"
+    },
+    {
+     "line_start": 152,
+     "line_end": 153,
+     "label": "figure6"
+    }
+   ]
+  },
+  {
+   "line_start": 155,
+   "line_end": 157,
+   "type": "conclusion",
+   "title": "8 SUMMARY"
+  },
+  {
+   "line_start": 159,
+   "line_end": 163,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 115,
+   "title": "Summary of multiplicative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 70-81 before line 79",
+  "nested spans 1-20 / 7-7"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

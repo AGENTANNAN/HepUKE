@@ -1,0 +1,321 @@
+{
+ "paper_id": "1906.00831v3",
+ "source_path": "arxiv_papers/1906.00831v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 208,
+ "n_lines_sent": 149,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 193,
+   "to": 208,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 105,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 107,
+   "line_end": 107,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 109,
+   "line_end": 109,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 111,
+   "line_end": 115,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 117,
+   "line_end": 117,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 119,
+   "line_end": 131,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "tracking"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "eta_c_reconstruction"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "background_classification"
+    },
+    {
+     "line_start": 127,
+     "line_end": 127,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 129,
+     "line_end": 129,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 131,
+     "line_end": 131,
+     "label": "fom_optimization"
+    }
+   ]
+  },
+  {
+   "line_start": 133,
+   "line_end": 144,
+   "type": "fit",
+   "title": "Fit and cross section"
+  },
+  {
+   "line_start": 146,
+   "line_end": 146,
+   "type": "results",
+   "title": "Zc signals",
+   "units": [
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "zc_signal_search"
+    }
+   ]
+  },
+  {
+   "line_start": 148,
+   "line_end": 148,
+   "type": "results",
+   "title": "Table I caption",
+   "units": [
+    {
+     "line_start": 148,
+     "line_end": 148,
+     "label": "table_i_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 150,
+   "line_end": 150,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 150,
+     "line_end": 150,
+     "label": "table_i"
+    }
+   ]
+  },
+  {
+   "line_start": 152,
+   "line_end": 153,
+   "type": "results",
+   "title": "Figure 2",
+   "units": [
+    {
+     "line_start": 152,
+     "line_end": 153,
+     "label": "figure_2"
+    }
+   ]
+  },
+  {
+   "line_start": 155,
+   "line_end": 157,
+   "type": "fit",
+   "title": "Zc fit"
+  },
+  {
+   "line_start": 159,
+   "line_end": 160,
+   "type": "results",
+   "title": "Figure 3",
+   "units": [
+    {
+     "line_start": 159,
+     "line_end": 160,
+     "label": "figure_3"
+    }
+   ]
+  },
+  {
+   "line_start": 162,
+   "line_end": 162,
+   "type": "results",
+   "title": "Zc cross section",
+   "units": [
+    {
+     "line_start": 162,
+     "line_end": 162,
+     "label": "zc_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 164,
+   "line_end": 168,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 164,
+     "line_end": 164,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 166,
+     "line_end": 166,
+     "label": "rho_eta_c_selection"
+    },
+    {
+     "line_start": 168,
+     "line_end": 168,
+     "label": "signal_shape"
+    }
+   ]
+  },
+  {
+   "line_start": 170,
+   "line_end": 170,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 172,
+   "line_end": 172,
+   "type": "results",
+   "title": "Table II caption",
+   "units": [
+    {
+     "line_start": 172,
+     "line_end": 172,
+     "label": "table_ii_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 174,
+   "line_end": 174,
+   "type": "results",
+   "title": "Table II",
+   "units": [
+    {
+     "line_start": 174,
+     "line_end": 174,
+     "label": "table_ii"
+    }
+   ]
+  },
+  {
+   "line_start": 176,
+   "line_end": 178,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 180,
+   "line_end": 180,
+   "type": "results",
+   "title": "Table III caption",
+   "units": [
+    {
+     "line_start": 180,
+     "line_end": 180,
+     "label": "table_iii_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 182,
+   "line_end": 182,
+   "type": "results",
+   "title": "Table III",
+   "units": [
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "table_iii"
+    }
+   ]
+  },
+  {
+   "line_start": 184,
+   "line_end": 184,
+   "type": "discussion",
+   "title": "Discussion"
+  },
+  {
+   "line_start": 186,
+   "line_end": 186,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  },
+  {
+   "line_start": 188,
+   "line_end": 192,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 150,
+   "title": "Born cross section for e+e- -> pi+pi-pi0eta_c",
+   "section_type": "results"
+  },
+  {
+   "line": 174,
+   "title": "Born cross sections for Zc(3900) and Zc(4020)",
+   "section_type": "results"
+  },
+  {
+   "line": 182,
+   "title": "Comparison of R_Zc with theoretical predictions",
+   "section_type": "discussion"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 6.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

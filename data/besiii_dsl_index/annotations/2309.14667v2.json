@@ -1,0 +1,184 @@
+{
+ "paper_id": "2309.14667v2",
+ "source_path": "arxiv_papers/2309.14667v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 270,
+ "n_lines_sent": 135,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 231,
+   "to": 270,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 141,
+   "type": "front_matter",
+   "title": "Investigation of the ΔI = 1/2 rule and test of CP symmetry through the measurement of decay asymmetry parameters in Ξ− decays"
+  },
+  {
+   "line_start": 143,
+   "line_end": 143,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 145,
+   "line_end": 165,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 167,
+   "line_end": 167,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 169,
+   "line_end": 175,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 169,
+     "line_end": 169,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 171,
+     "line_end": 171,
+     "label": "photon_and_pi0_selection"
+    },
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "background_study"
+    }
+   ]
+  },
+  {
+   "line_start": 177,
+   "line_end": 178,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 180,
+   "line_end": 180,
+   "type": "fit",
+   "title": "Signal Yield Fit"
+  },
+  {
+   "line_start": 182,
+   "line_end": 208,
+   "type": "fit",
+   "title": "Angular Distribution Fit"
+  },
+  {
+   "line_start": 210,
+   "line_end": 214,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 210,
+     "line_end": 210,
+     "label": "fit_results"
+    },
+    {
+     "line_start": 212,
+     "line_end": 214,
+     "label": "table_i"
+    }
+   ]
+  },
+  {
+   "line_start": 216,
+   "line_end": 221,
+   "type": "results",
+   "title": "CP and ΔI = 1/2 Tests",
+   "units": [
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "cp_and_delta_i_tests"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "ratio_distributions"
+    },
+    {
+     "line_start": 220,
+     "line_end": 221,
+     "label": "figure_2"
+    }
+   ]
+  },
+  {
+   "line_start": 223,
+   "line_end": 223,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 223,
+     "line_end": 223,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 225,
+   "line_end": 227,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 229,
+   "line_end": 229,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 214,
+   "title": "Production and decay asymmetry parameters, CP tests, and ratios",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.9,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

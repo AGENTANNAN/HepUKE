@@ -1,0 +1,194 @@
+{
+ "paper_id": "1702.05279v3",
+ "source_path": "arxiv_papers/1702.05279v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 218,
+ "n_lines_sent": 121,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 29,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 31,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 191,
+   "to": 218,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 125,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": 127,
+   "line_end": 127,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 129,
+   "line_end": 129,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 131,
+   "line_end": 135,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 137,
+   "line_end": 137,
+   "type": "detector",
+   "title": "BESIII detector"
+  },
+  {
+   "line_start": 139,
+   "line_end": 139,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 141,
+   "line_end": 147,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 141,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "eta_pi0_reconstruction"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "lambda_c_reconstruction"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "mbc_distributions"
+    }
+   ]
+  },
+  {
+   "line_start": 149,
+   "line_end": 155,
+   "type": "other",
+   "title": "Figures 1 and 2"
+  },
+  {
+   "line_start": 157,
+   "line_end": 171,
+   "type": "fit",
+   "title": "Fit and branching fraction determination"
+  },
+  {
+   "line_start": 173,
+   "line_end": 177,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 173,
+     "line_end": 173,
+     "label": "tracking_pid_vr_pi0_eta_fit_mc"
+    },
+    {
+     "line_start": 175,
+     "line_end": 175,
+     "label": "table_caption"
+    },
+    {
+     "line_start": 177,
+     "line_end": 177,
+     "label": "table_content"
+    }
+   ]
+  },
+  {
+   "line_start": 179,
+   "line_end": 187,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 189,
+   "line_end": 189,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 169,
+   "title": "Summary of Delta E signal regions, signal yields, significances, efficiencies and BFs",
+   "section_type": "fit"
+  },
+  {
+   "line": 177,
+   "title": "Summary of relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 185,
+   "title": "Comparison of measured BFs and ratio to theoretical predictions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

@@ -1,0 +1,194 @@
+{
+ "paper_id": "2404.04917v2",
+ "source_path": "arxiv_papers/2404.04917v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 283,
+ "n_lines_sent": 81,
+ "skipped_ranges": [
+  {
+   "from": 152,
+   "to": 283,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Title, authors, and DOI"
+  },
+  {
+   "line_start": 7,
+   "line_end": 7,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 11,
+   "line_end": 19,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 21,
+   "line_end": 25,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 27,
+   "line_end": 35,
+   "type": "event_selection",
+   "title": "III. SELECTION CRITERIA",
+   "units": [
+    {
+     "line_start": 27,
+     "line_end": 29,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 31,
+     "line_end": 31,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 33,
+     "line_end": 33,
+     "label": "pid_and_kinematic_fit"
+    },
+    {
+     "line_start": 35,
+     "line_end": 35,
+     "label": "background_vetoes"
+    }
+   ]
+  },
+  {
+   "line_start": 37,
+   "line_end": 71,
+   "type": "background",
+   "title": "IV. BACKGROUND ESTIMATION"
+  },
+  {
+   "line_start": 73,
+   "line_end": 104,
+   "type": "fit",
+   "title": "V. SIGNAL DETERMINATION"
+  },
+  {
+   "line_start": 106,
+   "line_end": 140,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 108,
+     "label": "overview"
+    },
+    {
+     "line_start": 110,
+     "line_end": 112,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "intermediate_state"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 120,
+     "line_end": 120,
+     "label": "normalization"
+    },
+    {
+     "line_start": 122,
+     "line_end": 124,
+     "label": "veto_requirements"
+    },
+    {
+     "line_start": 126,
+     "line_end": 126,
+     "label": "damping_function_and_mass_resolution"
+    },
+    {
+     "line_start": 128,
+     "line_end": 130,
+     "label": "table_ii"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "bin_width_and_interference"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "upper_limit_procedure"
+    },
+    {
+     "line_start": 138,
+     "line_end": 140,
+     "label": "table_iii"
+    }
+   ]
+  },
+  {
+   "line_start": 142,
+   "line_end": 144,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 146,
+   "line_end": 150,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 98,
+   "title": "Signal yields, efficiencies, and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 130,
+   "title": "Relative systematic uncertainties for chi_cJ decays",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 140,
+   "title": "Multiplicative systematic uncertainties for eta_c(2S)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-9 / 7-7"
+ ],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

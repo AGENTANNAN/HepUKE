@@ -1,0 +1,283 @@
+{
+ "paper_id": "2308.13725v1",
+ "source_path": "arxiv_papers/2308.13725v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 434,
+ "n_lines_sent": 248,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 25,
+   "to": 46,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 61,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 144,
+   "to": 144,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 398,
+   "to": 434,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 163,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": 165,
+   "line_end": 165,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 167,
+   "line_end": 181,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 183,
+   "line_end": 187,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 189,
+   "line_end": 221,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 189,
+     "line_end": 193,
+     "label": "signal_topology"
+    },
+    {
+     "line_start": 195,
+     "line_end": 195,
+     "label": "photon_reconstruction"
+    },
+    {
+     "line_start": 197,
+     "line_end": 197,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 199,
+     "line_end": 202,
+     "label": "mass_distribution"
+    },
+    {
+     "line_start": 204,
+     "line_end": 206,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 208,
+     "line_end": 216,
+     "label": "qed_background"
+    },
+    {
+     "line_start": 218,
+     "line_end": 221,
+     "label": "signal_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 223,
+   "line_end": 225,
+   "type": "results",
+   "title": "TABLE I. The branching fractions and comparison with previous results.",
+   "units": [
+    {
+     "line_start": 223,
+     "line_end": 225,
+     "label": "branching_fraction_table"
+    }
+   ]
+  },
+  {
+   "line_start": 227,
+   "line_end": 267,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 227,
+     "line_end": 229,
+     "label": "overview"
+    },
+    {
+     "line_start": 231,
+     "line_end": 233,
+     "label": "fit_method"
+    },
+    {
+     "line_start": 235,
+     "line_end": 237,
+     "label": "signal_shape"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "background_jpsi_pi0pi0"
+    },
+    {
+     "line_start": 241,
+     "line_end": 245,
+     "label": "qed_background"
+    },
+    {
+     "line_start": 247,
+     "line_end": 249,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 251,
+     "line_end": 253,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 255,
+     "line_end": 257,
+     "label": "intermediate_branching_fractions"
+    },
+    {
+     "line_start": 259,
+     "line_end": 261,
+     "label": "number_of_jpsi_events"
+    },
+    {
+     "line_start": 263,
+     "line_end": 267,
+     "label": "summary_table"
+    }
+   ]
+  },
+  {
+   "line_start": 269,
+   "line_end": 303,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 269,
+     "line_end": 277,
+     "label": "branching_fraction_formula"
+    },
+    {
+     "line_start": 279,
+     "line_end": 285,
+     "label": "mixing_angle_su3"
+    },
+    {
+     "line_start": 287,
+     "line_end": 299,
+     "label": "mixing_angle_generalized"
+    },
+    {
+     "line_start": 301,
+     "line_end": 303,
+     "label": "amplitude_table"
+    }
+   ]
+  },
+  {
+   "line_start": 305,
+   "line_end": 307,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 309,
+   "line_end": 315,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 317,
+   "line_end": 391,
+   "type": "other",
+   "title": "APPENDIX: CALCULATION OF theta_P"
+  },
+  {
+   "line_start": 393,
+   "line_end": 397,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 225,
+   "title": "Branching fractions and comparison with previous results",
+   "section_type": "results"
+  },
+  {
+   "line": 267,
+   "title": "Systematic sources and corresponding contributions",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 303,
+   "title": "Amplitudes for the decays of J/psi -> gamma P",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

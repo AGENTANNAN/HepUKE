@@ -1,0 +1,217 @@
+{
+ "paper_id": "2012.02682v2",
+ "source_path": "arxiv_papers/2012.02682v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 221,
+ "n_lines_sent": 95,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 182,
+   "to": 221,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 16,
+   "line_end": 16,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 18,
+   "line_end": 18,
+   "type": "front_matter",
+   "title": "PACS numbers"
+  },
+  {
+   "line_start": 20,
+   "line_end": 26,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 28,
+   "line_end": 44,
+   "type": "detector",
+   "title": "II. EXPERIMENTAL DATA AND MONTE CARLO SAMPLES"
+  },
+  {
+   "line_start": 46,
+   "line_end": 54,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 46,
+     "line_end": 48,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "kinematic_fit_and_candidate_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 56,
+   "line_end": 75,
+   "type": "background",
+   "title": "IV. BACKGROUND STUDIES"
+  },
+  {
+   "line_start": 77,
+   "line_end": 95,
+   "type": "fit",
+   "title": "V. CROSS-SECTION DETERMINATION"
+  },
+  {
+   "line_start": 97,
+   "line_end": 112,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC-UNCERTAINTY ESTIMATION",
+   "units": [
+    {
+     "line_start": 97,
+     "line_end": 99,
+     "label": "luminosity_and_reconstruction_efficiency"
+    },
+    {
+     "line_start": 101,
+     "line_end": 101,
+     "label": "kinematic_fit_selection"
+    },
+    {
+     "line_start": 103,
+     "line_end": 104,
+     "label": "figure_caption"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 108,
+     "line_end": 112,
+     "label": "summary_and_table"
+    }
+   ]
+  },
+  {
+   "line_start": 114,
+   "line_end": 142,
+   "type": "fit",
+   "title": "VII. ISR CORRECTION"
+  },
+  {
+   "line_start": 144,
+   "line_end": 169,
+   "type": "results",
+   "title": "VIII. UPPER-LIMIT DETERMINATION",
+   "units": [
+    {
+     "line_start": 144,
+     "line_end": 155,
+     "label": "upper_limit_method"
+    },
+    {
+     "line_start": 157,
+     "line_end": 157,
+     "label": "cross_section_results"
+    },
+    {
+     "line_start": 159,
+     "line_end": 169,
+     "label": "tables_III_to_V"
+    }
+   ]
+  },
+  {
+   "line_start": 171,
+   "line_end": 173,
+   "type": "conclusion",
+   "title": "IX. SUMMARY"
+  },
+  {
+   "line_start": 175,
+   "line_end": 180,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 44,
+   "title": "Data samples used in this analysis with the corresponding integrated luminosity",
+   "section_type": "detector"
+  },
+  {
+   "line": 112,
+   "title": "Systematic uncertainties separated for the different reaction channels",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 161,
+   "title": "Measured cross sections and associated information for e+e- -> chi_c0 pi+ pi-",
+   "section_type": "results"
+  },
+  {
+   "line": 165,
+   "title": "Measured cross-sections and associated information for e+e- -> chi_c1 pi+ pi-",
+   "section_type": "results"
+  },
+  {
+   "line": 169,
+   "title": "Measured cross-sections and associated information for e+e- -> chi_c2 pi+ pi-",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 17.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

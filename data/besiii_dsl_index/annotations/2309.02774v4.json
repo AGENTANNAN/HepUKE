@@ -1,0 +1,145 @@
+{
+ "paper_id": "2309.02774v4",
+ "source_path": "arxiv_papers/2309.02774v4.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 364,
+ "n_lines_sent": 187,
+ "skipped_ranges": [
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 325,
+   "to": 364,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 222,
+   "type": "front_matter",
+   "title": "Authors, Affiliations, and Date"
+  },
+  {
+   "line_start": 224,
+   "line_end": 224,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 226,
+   "line_end": 241,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 243,
+   "line_end": 249,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 251,
+   "line_end": 258,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "track_and_pi0_selection"
+    },
+    {
+     "line_start": 253,
+     "line_end": 253,
+     "label": "kinematic_variables"
+    },
+    {
+     "line_start": 255,
+     "line_end": 258,
+     "label": "mbc_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 260,
+   "line_end": 303,
+   "type": "fit",
+   "title": "Angular Analysis and Fit"
+  },
+  {
+   "line_start": 305,
+   "line_end": 305,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 305,
+     "line_end": 305,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 307,
+   "line_end": 317,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 307,
+     "line_end": 308,
+     "label": "fit_projections"
+    },
+    {
+     "line_start": 310,
+     "line_end": 317,
+     "label": "decay_parameters"
+    }
+   ]
+  },
+  {
+   "line_start": 319,
+   "line_end": 321,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 323,
+   "line_end": 323,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 247,
+   "title": "Theoretical calculations and experimental measurements of BF, alpha, |A|, |B|, and delta_p - delta_s",
+   "section_type": "introduction"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 7.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:17",
+ "failed_aspects": []
+}

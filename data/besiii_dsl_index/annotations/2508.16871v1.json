@@ -1,0 +1,218 @@
+{
+ "paper_id": "2508.16871v1",
+ "source_path": "arxiv_papers/2508.16871v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 322,
+ "n_lines_sent": 146,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 50,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 59,
+   "to": 59,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 265,
+   "to": 322,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 12,
+   "line_end": 12,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 19,
+   "line_end": 19,
+   "type": "front_matter",
+   "title": "Collaboration"
+  },
+  {
+   "line_start": 21,
+   "line_end": 57,
+   "type": "front_matter",
+   "title": "Affiliations"
+  },
+  {
+   "line_start": 61,
+   "line_end": 61,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 63,
+   "line_end": 85,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 87,
+   "line_end": 95,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLE"
+  },
+  {
+   "line_start": 97,
+   "line_end": 119,
+   "type": "event_selection",
+   "title": "IV. MEASUREMENTS OF e+e- -> Sigma_c Sigma_c CROSS SECTION",
+   "units": [
+    {
+     "line_start": 97,
+     "line_end": 109,
+     "label": "lambda_c_reconstruction"
+    },
+    {
+     "line_start": 111,
+     "line_end": 113,
+     "label": "tag_lambda_c_sample"
+    },
+    {
+     "line_start": 115,
+     "line_end": 115,
+     "label": "tag_lambda_c_pi_sample"
+    },
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "tag_lambda_c_pi_selection"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "tag_lambda_c_pi_pi_sample"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 173,
+   "type": "fit",
+   "title": "B. Simultaneous fit"
+  },
+  {
+   "line_start": 174,
+   "line_end": 205,
+   "type": "systematic_uncertainty",
+   "title": "C. Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 174,
+     "line_end": 181,
+     "label": "multiplicative_items"
+    },
+    {
+     "line_start": 182,
+     "line_end": 205,
+     "label": "additive_items"
+    }
+   ]
+  },
+  {
+   "line_start": 206,
+   "line_end": 215,
+   "type": "results",
+   "title": "D. Final results",
+   "units": [
+    {
+     "line_start": 206,
+     "line_end": 215,
+     "label": "born_cross_section_upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 216,
+   "line_end": 234,
+   "type": "fit",
+   "title": "V. MEASUREMENTS OF e+e- -> Lambda_c+ Sigma_c- CROSS SECTION"
+  },
+  {
+   "line_start": 235,
+   "line_end": 258,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 259,
+   "line_end": 263,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 83,
+   "title": "Summary of CM energy and integrated luminosities",
+   "section_type": "introduction"
+  },
+  {
+   "line": 195,
+   "title": "Summary of multiplicative uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 222,
+   "title": "Summary of f_VP, f_ISR and Born cross section under line shape hypotheses",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 246,
+   "title": "Summary of upper limits on Born cross sections of e+e- -> Lambda_c+ Sigma_c-",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 9.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:20",
+ "failed_aspects": []
+}

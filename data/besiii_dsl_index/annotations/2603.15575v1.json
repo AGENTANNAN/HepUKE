@@ -1,0 +1,295 @@
+{
+ "paper_id": "2603.15575v1",
+ "source_path": "arxiv_papers/2603.15575v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 411,
+ "n_lines_sent": 173,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 173,
+   "to": 173,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 343,
+   "to": 411,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 9,
+   "type": "front_matter",
+   "title": "Author list and collaboration"
+  },
+  {
+   "line_start": 13,
+   "line_end": 171,
+   "type": "front_matter",
+   "title": "Affiliation list"
+  },
+  {
+   "line_start": 175,
+   "line_end": 175,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 177,
+   "line_end": 187,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 189,
+   "line_end": 193,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 195,
+   "line_end": 205,
+   "type": "other",
+   "title": "III. METHOD"
+  },
+  {
+   "line_start": 207,
+   "line_end": 229,
+   "type": "event_selection",
+   "title": "IV. SINGLE TAG SELECTION",
+   "units": [
+    {
+     "line_start": 207,
+     "line_end": 213,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 215,
+     "line_end": 219,
+     "label": "st_yields_and_efficiencies"
+    },
+    {
+     "line_start": 221,
+     "line_end": 225,
+     "label": "st_background_suppression"
+    },
+    {
+     "line_start": 227,
+     "line_end": 229,
+     "label": "signal_region_definition"
+    }
+   ]
+  },
+  {
+   "line_start": 231,
+   "line_end": 252,
+   "type": "event_selection",
+   "title": "V. SIGNAL SELECTION",
+   "units": [
+    {
+     "line_start": 231,
+     "line_end": 239,
+     "label": "signal_candidate_reconstruction"
+    },
+    {
+     "line_start": 241,
+     "line_end": 252,
+     "label": "background_estimation"
+    }
+   ]
+  },
+  {
+   "line_start": 254,
+   "line_end": 271,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 254,
+     "line_end": 261,
+     "label": "st_yield_uncertainty"
+    },
+    {
+     "line_start": 263,
+     "line_end": 263,
+     "label": "tracking_pid_electron"
+    },
+    {
+     "line_start": 265,
+     "line_end": 267,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "gamma_conversion_veto"
+    },
+    {
+     "line_start": 271,
+     "line_end": 271,
+     "label": "mc_modeling_and_intermediate_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 273,
+   "line_end": 283,
+   "type": "results",
+   "title": "VII. RESULTS",
+   "units": [
+    {
+     "line_start": 273,
+     "line_end": 281,
+     "label": "likelihood_fit"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "upper_limits"
+    }
+   ]
+  },
+  {
+   "line_start": 285,
+   "line_end": 285,
+   "type": "conclusion",
+   "title": "VIII. SUMMARY"
+  },
+  {
+   "line_start": 287,
+   "line_end": 289,
+   "type": "results",
+   "title": "Table 4",
+   "units": [
+    {
+     "line_start": 287,
+     "line_end": 289,
+     "label": "dt_efficiencies_dplus"
+    }
+   ]
+  },
+  {
+   "line_start": 291,
+   "line_end": 293,
+   "type": "systematic_uncertainty",
+   "title": "Table 5",
+   "units": [
+    {
+     "line_start": 291,
+     "line_end": 293,
+     "label": "systematic_uncertainties_d0"
+    }
+   ]
+  },
+  {
+   "line_start": 295,
+   "line_end": 299,
+   "type": "acknowledgements",
+   "title": "IX. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 301,
+   "line_end": 303,
+   "type": "systematic_uncertainty",
+   "title": "Table 6",
+   "units": [
+    {
+     "line_start": 301,
+     "line_end": 303,
+     "label": "systematic_uncertainties_dplus"
+    }
+   ]
+  },
+  {
+   "line_start": 305,
+   "line_end": 307,
+   "type": "results",
+   "title": "Table 7",
+   "units": [
+    {
+     "line_start": 305,
+     "line_end": 307,
+     "label": "upper_limits_table"
+    }
+   ]
+  },
+  {
+   "line_start": 309,
+   "line_end": 339,
+   "type": "results",
+   "title": "Fig. 3",
+   "units": [
+    {
+     "line_start": 309,
+     "line_end": 339,
+     "label": "likelihood_curves"
+    }
+   ]
+  },
+  {
+   "line_start": 341,
+   "line_end": 341,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 217,
+   "title": "ST yields and efficiencies",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 229,
+   "title": "Signal region and background yields",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 267,
+   "title": "DT detection efficiencies for D0 modes",
+   "section_type": "results"
+  },
+  {
+   "line": 289,
+   "title": "DT detection efficiencies for D+ modes",
+   "section_type": "results"
+  },
+  {
+   "line": 293,
+   "title": "Systematic uncertainties for D0 modes",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 303,
+   "title": "Systematic uncertainties for D+ modes",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 307,
+   "title": "Upper limits on branching fractions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 14.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

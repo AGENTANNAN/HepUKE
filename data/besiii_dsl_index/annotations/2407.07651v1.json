@@ -1,0 +1,327 @@
+{
+ "paper_id": "2407.07651v1",
+ "source_path": "arxiv_papers/2407.07651v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 502,
+ "n_lines_sent": 164,
+ "skipped_ranges": [
+  {
+   "from": 2,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 50,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 55,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 70,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 102,
+   "to": 102,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 186,
+   "to": 187,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 191,
+   "to": 191,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 293,
+   "to": 293,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 305,
+   "to": 502,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 199,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 201,
+   "line_end": 207,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 209,
+   "line_end": 211,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 213,
+   "line_end": 215,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "inclusive_ds_reconstruction"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 217,
+   "line_end": 223,
+   "type": "fit",
+   "title": "Inclusive analysis fit"
+  },
+  {
+   "line_start": 225,
+   "line_end": 226,
+   "type": "fit",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 228,
+   "line_end": 230,
+   "type": "event_selection",
+   "title": "Exclusive event selection",
+   "units": [
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "exclusive_ds_reconstruction"
+    },
+    {
+     "line_start": 230,
+     "line_end": 230,
+     "label": "mass_windows"
+    }
+   ]
+  },
+  {
+   "line_start": 232,
+   "line_end": 238,
+   "type": "fit",
+   "title": "Exclusive analysis fit"
+  },
+  {
+   "line_start": 240,
+   "line_end": 248,
+   "type": "results",
+   "title": "Cross section results",
+   "units": [
+    {
+     "line_start": 240,
+     "line_end": 243,
+     "label": "figure_2"
+    },
+    {
+     "line_start": 245,
+     "line_end": 248,
+     "label": "figure_3"
+    }
+   ]
+  },
+  {
+   "line_start": 250,
+   "line_end": 256,
+   "type": "fit",
+   "title": "Absolute branching fraction fit"
+  },
+  {
+   "line_start": 258,
+   "line_end": 265,
+   "type": "fit",
+   "title": "Resonance structure fit"
+  },
+  {
+   "line_start": 267,
+   "line_end": 285,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 267,
+     "line_end": 267,
+     "label": "fit_related"
+    },
+    {
+     "line_start": 269,
+     "line_end": 269,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 271,
+     "line_end": 273,
+     "label": "tracking_pid_ks0"
+    },
+    {
+     "line_start": 275,
+     "line_end": 275,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "s_d_wave_fraction"
+    },
+    {
+     "line_start": 279,
+     "line_end": 279,
+     "label": "total"
+    },
+    {
+     "line_start": 281,
+     "line_end": 281,
+     "label": "exclusive_common"
+    },
+    {
+     "line_start": 283,
+     "line_end": 283,
+     "label": "angular_distribution_isr_luminosity"
+    },
+    {
+     "line_start": 285,
+     "line_end": 285,
+     "label": "summary_tables"
+    }
+   ]
+  },
+  {
+   "line_start": 287,
+   "line_end": 289,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 291,
+   "line_end": 291,
+   "type": "acknowledgements",
+   "title": "Acknowledgment"
+  },
+  {
+   "line_start": 295,
+   "line_end": 303,
+   "type": "other",
+   "title": "Tables and funding"
+  }
+ ],
+ "tables": [
+  {
+   "line": 297,
+   "title": "Systematic uncertainties in cross sections for Ds+ Ds1(2536)-",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 301,
+   "title": "Relative systematic uncertainties for Ds+ Ds2*(2573)-",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 354,
+   "title": "Nominal and measured sqrt(s) and integrated luminosity",
+   "section_type": "dataset"
+  },
+  {
+   "line": 391,
+   "title": "Measured cross sections for Ds+ Ds1(2536)-",
+   "section_type": "results"
+  },
+  {
+   "line": 395,
+   "title": "Measured cross sections for Ds+ Ds2*(2573)-",
+   "section_type": "results"
+  },
+  {
+   "line": 461,
+   "title": "Relative systematic uncertainty in exclusive cross section for Ds+ Ds1(2536)-",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 465,
+   "title": "Relative systematic uncertainty in exclusive cross section for Ds+ Ds2*(2573)-",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 469,
+   "title": "Measured cross sections for Ds+ Ds1(2536)- by counting method",
+   "section_type": "results"
+  },
+  {
+   "line": 481,
+   "title": "Measured cross sections for Ds+ Ds1(2536)- in exclusive analysis",
+   "section_type": "results"
+  },
+  {
+   "line": 485,
+   "title": "Measured cross sections for Ds+ Ds2*(2573)- by counting method",
+   "section_type": "results"
+  },
+  {
+   "line": 494,
+   "title": "Measured cross sections for Ds+ Ds2*(2573)- in exclusive analysis",
+   "section_type": "results"
+  },
+  {
+   "line": 498,
+   "title": "Systematic uncertainties in resonance parameters for Ds+ Ds1(2536)-",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 502,
+   "title": "Systematic uncertainties in resonance parameters for Ds+ Ds2*(2573)-",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

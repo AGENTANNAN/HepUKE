@@ -1,0 +1,267 @@
+{
+ "paper_id": "2411.07730v2",
+ "source_path": "arxiv_papers/2411.07730v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 440,
+ "n_lines_sent": 209,
+ "skipped_ranges": [
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 35,
+   "to": 35,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 360,
+   "to": 440,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 240,
+   "type": "front_matter",
+   "title": "Study of the light scalar a0(980) through the decay D0 -> a0(980)- e+ nu_e with a0(980)- -> eta pi-"
+  },
+  {
+   "line_start": 242,
+   "line_end": 242,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 244,
+   "line_end": 256,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 258,
+   "line_end": 260,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 262,
+   "line_end": 272,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 264,
+     "line_end": 270,
+     "label": "bf_formula"
+    },
+    {
+     "line_start": 272,
+     "line_end": 272,
+     "label": "st_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 274,
+   "line_end": 291,
+   "type": "event_selection",
+   "title": "Signal Selection and Background Suppression",
+   "units": [
+    {
+     "line_start": 274,
+     "line_end": 274,
+     "label": "signal_candidate_selection"
+    },
+    {
+     "line_start": 276,
+     "line_end": 278,
+     "label": "table_i"
+    },
+    {
+     "line_start": 280,
+     "line_end": 280,
+     "label": "kinematic_fit_and_vetoes"
+    },
+    {
+     "line_start": 282,
+     "line_end": 282,
+     "label": "missing_momentum"
+    },
+    {
+     "line_start": 284,
+     "line_end": 286,
+     "label": "fit_setup"
+    },
+    {
+     "line_start": 288,
+     "line_end": 291,
+     "label": "figure_1"
+    }
+   ]
+  },
+  {
+   "line_start": 293,
+   "line_end": 295,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 293,
+     "line_end": 293,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 293,
+     "line_end": 293,
+     "label": "tracking"
+    },
+    {
+     "line_start": 293,
+     "line_end": 293,
+     "label": "pid"
+    },
+    {
+     "line_start": 293,
+     "line_end": 293,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 293,
+     "line_end": 293,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 295,
+     "line_end": 295,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 295,
+     "line_end": 295,
+     "label": "resolution"
+    },
+    {
+     "line_start": 295,
+     "line_end": 295,
+     "label": "eta_bf"
+    },
+    {
+     "line_start": 295,
+     "line_end": 295,
+     "label": "mc_statistics"
+    }
+   ]
+  },
+  {
+   "line_start": 297,
+   "line_end": 339,
+   "type": "fit",
+   "title": "Form Factor Extraction"
+  },
+  {
+   "line_start": 341,
+   "line_end": 346,
+   "type": "results",
+   "title": "Fit Results",
+   "units": [
+    {
+     "line_start": 341,
+     "line_end": 341,
+     "label": "fit_result"
+    },
+    {
+     "line_start": 343,
+     "line_end": 346,
+     "label": "figure_2"
+    }
+   ]
+  },
+  {
+   "line_start": 348,
+   "line_end": 354,
+   "type": "conclusion",
+   "title": "Summary and Discussion"
+  },
+  {
+   "line_start": 356,
+   "line_end": 358,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 278,
+   "title": "ST yields, efficiencies and Delta E windows",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 333,
+   "title": "Partial decay rates in q2 intervals",
+   "section_type": "fit"
+  },
+  {
+   "line": 387,
+   "title": "Comparison of f+(0) and branching fraction with theory",
+   "section_type": "results"
+  },
+  {
+   "line": 432,
+   "title": "Relative systematic uncertainties in BF measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 436,
+   "title": "Statistical covariance matrix",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 438,
+   "title": "Systematic covariance matrix",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 440,
+   "title": "Total covariance matrix",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.8,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 293-295 share boundary line 293",
+  "units of 293-295 share boundary line 293",
+  "units of 293-295 share boundary line 293",
+  "units of 293-295 share boundary line 293",
+  "units of 293-295 share boundary line 295",
+  "units of 293-295 share boundary line 295",
+  "units of 293-295 share boundary line 295"
+ ],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": [],
+ "tables_repaired": true,
+ "units_repaired": true
+}

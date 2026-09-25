@@ -1,0 +1,188 @@
+{
+ "paper_id": "2110.04510v2",
+ "source_path": "arxiv_papers/2110.04510v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 304,
+ "n_lines_sent": 204,
+ "skipped_ranges": [
+  {
+   "from": 266,
+   "to": 304,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 1,
+   "type": "front_matter",
+   "title": "Title"
+  },
+  {
+   "line_start": 3,
+   "line_end": 143,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 145,
+   "line_end": 149,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 151,
+   "line_end": 159,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 161,
+   "line_end": 165,
+   "type": "detector",
+   "title": "2. Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 167,
+   "line_end": 197,
+   "type": "other",
+   "title": "3. Formalism"
+  },
+  {
+   "line_start": 199,
+   "line_end": 218,
+   "type": "event_selection",
+   "title": "4. Data analysis at sqrt(s) = 2.3864 and 2.3960 GeV",
+   "units": [
+    {
+     "line_start": 199,
+     "line_end": 201,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 203,
+     "line_end": 203,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 205,
+     "line_end": 205,
+     "label": "antiproton_secondary_vertex"
+    },
+    {
+     "line_start": 207,
+     "line_end": 207,
+     "label": "background_study"
+    },
+    {
+     "line_start": 209,
+     "line_end": 210,
+     "label": "figure_momentum_distribution"
+    },
+    {
+     "line_start": 212,
+     "line_end": 212,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 214,
+     "line_end": 214,
+     "label": "upper_limit"
+    },
+    {
+     "line_start": 216,
+     "line_end": 216,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 218,
+     "line_end": 218,
+     "label": "selection_bias_and_luminosity"
+    }
+   ]
+  },
+  {
+   "line_start": 220,
+   "line_end": 239,
+   "type": "event_selection",
+   "title": "5. Data analysis from sqrt(s) = 2.5000 to 3.0200 GeV",
+   "units": [
+    {
+     "line_start": 220,
+     "line_end": 222,
+     "label": "single_tag_overview"
+    },
+    {
+     "line_start": 224,
+     "line_end": 224,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 226,
+     "line_end": 226,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 228,
+     "line_end": 228,
+     "label": "peaking_background"
+    },
+    {
+     "line_start": 230,
+     "line_end": 232,
+     "label": "signal_yield_fit"
+    },
+    {
+     "line_start": 234,
+     "line_end": 235,
+     "label": "figure_mass_spectra"
+    },
+    {
+     "line_start": 237,
+     "line_end": 237,
+     "label": "systematic_uncertainties"
+    },
+    {
+     "line_start": 239,
+     "line_end": 239,
+     "label": "cross_check"
+    }
+   ]
+  },
+  {
+   "line_start": 241,
+   "line_end": 256,
+   "type": "fit",
+   "title": "6. Lineshape analysis"
+  },
+  {
+   "line_start": 258,
+   "line_end": 260,
+   "type": "conclusion",
+   "title": "7. Summary"
+  },
+  {
+   "line_start": 262,
+   "line_end": 264,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 253,
+   "title": "Born cross sections and effective form factors at each c.m. energy",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

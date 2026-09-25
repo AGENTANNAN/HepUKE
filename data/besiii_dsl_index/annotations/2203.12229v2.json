@@ -1,0 +1,204 @@
+{
+ "paper_id": "2203.12229v2",
+ "source_path": "arxiv_papers/2203.12229v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 115,
+ "n_lines_sent": 43,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 94,
+   "to": 115,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 13,
+   "line_end": 13,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 15,
+   "line_end": 23,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 25,
+   "line_end": 29,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 31,
+   "line_end": 62,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 31,
+     "line_end": 33,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 35,
+     "line_end": 35,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 37,
+     "line_end": 37,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 39,
+     "line_end": 40,
+     "label": "chi2_distribution_figure"
+    },
+    {
+     "line_start": 42,
+     "line_end": 43,
+     "label": "delta_xy_figure"
+    },
+    {
+     "line_start": 45,
+     "line_end": 45,
+     "label": "gamma_conversion_veto"
+    },
+    {
+     "line_start": 47,
+     "line_end": 47,
+     "label": "peaking_background_estimate"
+    },
+    {
+     "line_start": 49,
+     "line_end": 49,
+     "label": "mass_fit"
+    },
+    {
+     "line_start": 51,
+     "line_end": 51,
+     "label": "bf_formula_intro"
+    },
+    {
+     "line_start": 53,
+     "line_end": 53,
+     "label": "signal_region_efficiency"
+    },
+    {
+     "line_start": 55,
+     "line_end": 57,
+     "label": "bf_calculation"
+    },
+    {
+     "line_start": 59,
+     "line_end": 59,
+     "label": "background_studies_significance"
+    },
+    {
+     "line_start": 61,
+     "line_end": 62,
+     "label": "mass_fit_figure"
+    }
+   ]
+  },
+  {
+   "line_start": 64,
+   "line_end": 82,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 64,
+     "line_end": 66,
+     "label": "intro"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "pid_tracking_photon"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "kinematic_fit_gamma_conversion"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "signal_model"
+    },
+    {
+     "line_start": 74,
+     "line_end": 74,
+     "label": "fit_range_background_shape"
+    },
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "quoted_bf_jpsi_number"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "total_systematic"
+    },
+    {
+     "line_start": 80,
+     "line_end": 82,
+     "label": "table_caption"
+    }
+   ]
+  },
+  {
+   "line_start": 84,
+   "line_end": 86,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 88,
+   "line_end": 92,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 82,
+   "title": "Sources of systematic uncertainties and their estimated magnitudes",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

@@ -1,0 +1,242 @@
+{
+ "paper_id": "1402.4025v2",
+ "source_path": "arxiv_papers/1402.4025v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 188,
+ "n_lines_sent": 98,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 12,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 14,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 166,
+   "to": 188,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 13,
+   "line_end": 61,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, PACS"
+  },
+  {
+   "line_start": 63,
+   "line_end": 74,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 76,
+   "line_end": 78,
+   "type": "event_selection",
+   "title": "Event selection criteria",
+   "units": [
+    {
+     "line_start": 76,
+     "line_end": 76,
+     "label": "recoil_mass_identification"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "pid"
+    }
+   ]
+  },
+  {
+   "line_start": 80,
+   "line_end": 84,
+   "type": "detector",
+   "title": "II. THE BESIII EXPERIMENT AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 86,
+   "line_end": 111,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 90,
+     "line_end": 90,
+     "label": "ds_rho_selection"
+    },
+    {
+     "line_start": 92,
+     "line_end": 92,
+     "label": "semileptonic_tagging"
+    },
+    {
+     "line_start": 94,
+     "line_end": 94,
+     "label": "missing_momentum"
+    },
+    {
+     "line_start": 102,
+     "line_end": 102,
+     "label": "d0_kstar_selection"
+    },
+    {
+     "line_start": 104,
+     "line_end": 104,
+     "label": "kstar_mass_window"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "mc_studies"
+    },
+    {
+     "line_start": 111,
+     "line_end": 111,
+     "label": "sideband_background"
+    }
+   ]
+  },
+  {
+   "line_start": 113,
+   "line_end": 138,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC ERRORS",
+   "units": [
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "tracking"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "pid"
+    },
+    {
+     "line_start": 123,
+     "line_end": 127,
+     "label": "pi0_kinematic_fit"
+    },
+    {
+     "line_start": 132,
+     "line_end": 132,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "umiss_requirement"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "intermediate_decays"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 140,
+   "line_end": 142,
+   "type": "systematic_uncertainty",
+   "title": "TABLE I. Summary of systematic errors",
+   "units": [
+    {
+     "line_start": 140,
+     "line_end": 142,
+     "label": "systematic_error_table"
+    }
+   ]
+  },
+  {
+   "line_start": 144,
+   "line_end": 158,
+   "type": "results",
+   "title": "V. RESULTS",
+   "units": [
+    {
+     "line_start": 146,
+     "line_end": 152,
+     "label": "upper_limit_formula"
+    },
+    {
+     "line_start": 154,
+     "line_end": 154,
+     "label": "upper_limits"
+    },
+    {
+     "line_start": 156,
+     "line_end": 158,
+     "label": "results_table"
+    }
+   ]
+  },
+  {
+   "line_start": 160,
+   "line_end": 160,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 162,
+   "line_end": 164,
+   "type": "acknowledgements",
+   "title": "VI. ACKNOWLEDGEMENT"
+  }
+ ],
+ "tables": [
+  {
+   "line": 142,
+   "title": "Summary of systematic errors",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 158,
+   "title": "Numbers used in the calculation of upper limits on the branching fractions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 3.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 76-78 share boundary line 78",
+  "gap in 86-111 before line 88",
+  "gap in 86-111 before line 102",
+  "gap in 86-111 before line 111",
+  "gap in 113-138 before line 117",
+  "gap in 113-138 before line 132",
+  "gap in 144-158 before line 146"
+ ],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": [],
+ "units_repaired": true
+}

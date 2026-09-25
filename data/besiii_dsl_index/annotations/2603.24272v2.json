@@ -1,0 +1,171 @@
+{
+ "paper_id": "2603.24272v2",
+ "source_path": "arxiv_papers/2603.24272v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 331,
+ "n_lines_sent": 125,
+ "skipped_ranges": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 131,
+   "to": 131,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 135,
+   "to": 135,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 137,
+   "to": 137,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 141,
+   "to": 141,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 145,
+   "to": 145,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 147,
+   "to": 147,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 149,
+   "to": 149,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 151,
+   "to": 151,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 255,
+   "to": 331,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 153,
+   "type": "front_matter",
+   "title": "Cross Section Measurements of $\\bar{n}p \\to K^+K^-\\pi^+(\\pi^0)$ via Antineutrons Produced by $J/\\psi \\to p\\pi^-\\bar{n}$ Decays"
+  },
+  {
+   "line_start": 155,
+   "line_end": 163,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 165,
+   "line_end": 171,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 173,
+   "line_end": 203,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 173,
+     "line_end": 177,
+     "label": "antineutron_tagging"
+    },
+    {
+     "line_start": 179,
+     "line_end": 180,
+     "label": "rm_fit_figure"
+    },
+    {
+     "line_start": 182,
+     "line_end": 182,
+     "label": "signal_reconstruction"
+    },
+    {
+     "line_start": 184,
+     "line_end": 185,
+     "label": "momentum_distribution_figure"
+    },
+    {
+     "line_start": 187,
+     "line_end": 190,
+     "label": "vertex_distribution_figure"
+    },
+    {
+     "line_start": 192,
+     "line_end": 203,
+     "label": "proton_momentum_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 205,
+   "line_end": 239,
+   "type": "fit",
+   "title": "IV. CROSS SECTION MEASUREMENT"
+  },
+  {
+   "line_start": 241,
+   "line_end": 243,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 241,
+     "line_end": 243,
+     "label": "systematic_uncertainties"
+    }
+   ]
+  },
+  {
+   "line_start": 245,
+   "line_end": 249,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 251,
+   "line_end": 251,
+   "type": "other",
+   "title": "Table I"
+  },
+  {
+   "line_start": 253,
+   "line_end": 253,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 251,
+   "title": "Systematic uncertainties in the cross section measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

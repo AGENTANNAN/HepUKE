@@ -1,0 +1,231 @@
+{
+ "paper_id": "2104.07311v3",
+ "source_path": "arxiv_papers/2104.07311v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 560,
+ "n_lines_sent": 245,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 21,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 115,
+   "to": 115,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 391,
+   "to": 560,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 22,
+   "line_end": 117,
+   "type": "front_matter",
+   "title": "BESIII Collaboration and affiliations"
+  },
+  {
+   "line_start": 119,
+   "line_end": 121,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 123,
+   "line_end": 129,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 131,
+   "line_end": 135,
+   "type": "detector",
+   "title": "II. DETECTOR AND DATA SAMPLES"
+  },
+  {
+   "line_start": 137,
+   "line_end": 145,
+   "type": "dataset",
+   "title": "Data samples and Monte Carlo simulation"
+  },
+  {
+   "line_start": 147,
+   "line_end": 197,
+   "type": "fit",
+   "title": "III. MEASUREMENT TECHNIQUE"
+  },
+  {
+   "line_start": 199,
+   "line_end": 220,
+   "type": "event_selection",
+   "title": "IV. SINGLE-TAG EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 199,
+     "line_end": 207,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 209,
+     "line_end": 220,
+     "label": "single_tag_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 222,
+   "line_end": 268,
+   "type": "event_selection",
+   "title": "V. DOUBLE-TAG SELECTION AND ANALYSIS",
+   "units": [
+    {
+     "line_start": 222,
+     "line_end": 228,
+     "label": "double_tag_selection"
+    },
+    {
+     "line_start": 230,
+     "line_end": 240,
+     "label": "pid_unfolding"
+    },
+    {
+     "line_start": 242,
+     "line_end": 252,
+     "label": "tracking_unfolding"
+    },
+    {
+     "line_start": 254,
+     "line_end": 268,
+     "label": "momentum_extrapolation"
+    }
+   ]
+  },
+  {
+   "line_start": 270,
+   "line_end": 351,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTY",
+   "units": [
+    {
+     "line_start": 270,
+     "line_end": 295,
+     "label": "mc_statistics_matrix_inversion"
+    },
+    {
+     "line_start": 297,
+     "line_end": 303,
+     "label": "tracking_matrix_entries"
+    },
+    {
+     "line_start": 305,
+     "line_end": 311,
+     "label": "pid"
+    },
+    {
+     "line_start": 313,
+     "line_end": 317,
+     "label": "tracking"
+    },
+    {
+     "line_start": 319,
+     "line_end": 321,
+     "label": "tag_bias"
+    },
+    {
+     "line_start": 323,
+     "line_end": 325,
+     "label": "number_of_single_tags"
+    },
+    {
+     "line_start": 327,
+     "line_end": 331,
+     "label": "background_shapes"
+    },
+    {
+     "line_start": 333,
+     "line_end": 343,
+     "label": "spectrum_extrapolation"
+    },
+    {
+     "line_start": 345,
+     "line_end": 351,
+     "label": "summary_of_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 353,
+   "line_end": 385,
+   "type": "conclusion",
+   "title": "VII. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 387,
+   "line_end": 389,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 137,
+   "title": "Branching fractions for observed Ds+ semielectronic decays",
+   "section_type": "introduction"
+  },
+  {
+   "line": 145,
+   "title": "Ecm, integrated luminosities, and estimated number of Ds mesons",
+   "section_type": "dataset"
+  },
+  {
+   "line": 220,
+   "title": "Fitted single-tag yields from each data set",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 235,
+   "title": "Single-tag efficiencies and tag bias",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 266,
+   "title": "Yields in data before and after momentum-extrapolation correction",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 293,
+   "title": "B(Ds+ -> X e+ nu_e) determined from data",
+   "section_type": "results"
+  },
+  {
+   "line": 351,
+   "title": "Systematic uncertainties in B(Ds+ -> X e+ nu_e)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 434,
+   "title": "Efficiency-corrected and background subtracted yields vs e+ momentum",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 11.3,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

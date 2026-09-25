@@ -1,0 +1,228 @@
+{
+ "paper_id": "2302.14488v1",
+ "source_path": "arxiv_papers/2302.14488v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 344,
+ "n_lines_sent": 195,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 301,
+   "to": 344,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 133,
+   "type": "front_matter",
+   "title": "Improved measurement of the branching fractions of the inclusive decays D+ -> KS0 X and D0 -> KS0 X"
+  },
+  {
+   "line_start": 131,
+   "line_end": 133,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 135,
+   "line_end": 139,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 141,
+   "line_end": 149,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 151,
+   "line_end": 179,
+   "type": "fit",
+   "title": "III. ANALYSIS METHOD"
+  },
+  {
+   "line_start": 181,
+   "line_end": 215,
+   "type": "event_selection",
+   "title": "IV. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 181,
+     "line_end": 191,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 193,
+     "line_end": 207,
+     "label": "cp_even_fraction"
+    },
+    {
+     "line_start": 209,
+     "line_end": 209,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 211,
+     "line_end": 211,
+     "label": "cosmic_bhabha_suppression"
+    },
+    {
+     "line_start": 213,
+     "line_end": 213,
+     "label": "tag_selection"
+    },
+    {
+     "line_start": 215,
+     "line_end": 215,
+     "label": "single_tag_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 217,
+   "line_end": 245,
+   "type": "results",
+   "title": "V. YIELDS OF DOUBLE-TAG D+(0) MESONS",
+   "units": [
+    {
+     "line_start": 217,
+     "line_end": 219,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 221,
+     "line_end": 227,
+     "label": "figures"
+    },
+    {
+     "line_start": 229,
+     "line_end": 237,
+     "label": "double_tag_yields"
+    },
+    {
+     "line_start": 239,
+     "line_end": 245,
+     "label": "quantum_correlation_correction"
+    }
+   ]
+  },
+  {
+   "line_start": 247,
+   "line_end": 272,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 247,
+     "line_end": 251,
+     "label": "single_tag_yield"
+    },
+    {
+     "line_start": 253,
+     "line_end": 253,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 255,
+     "line_end": 255,
+     "label": "ks0_multiplicity"
+    },
+    {
+     "line_start": 257,
+     "line_end": 257,
+     "label": "ks0_sideband"
+    },
+    {
+     "line_start": 259,
+     "line_end": 259,
+     "label": "quantum_correlation_mc_statistics_bf"
+    },
+    {
+     "line_start": 261,
+     "line_end": 261,
+     "label": "scale_factor_fco"
+    },
+    {
+     "line_start": 263,
+     "line_end": 272,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 274,
+   "line_end": 287,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 289,
+   "line_end": 291,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 293,
+   "line_end": 299,
+   "type": "other",
+   "title": "Appendix A: Branching fractions of the known exclusive D+(0) decays involving KS0"
+  }
+ ],
+ "tables": [
+  {
+   "line": 243,
+   "title": "Measurements of S±me D0→KS0X and correction factor",
+   "section_type": "results"
+  },
+  {
+   "line": 270,
+   "title": "Numbers of single-tag D mesons, fitted double-tag yields, efficiencies and branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 280,
+   "title": "Relative systematic uncertainties in the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 284,
+   "title": "Comparisons of branching fractions of D+(0)→KS0X with Mark-III, BES, and PDG",
+   "section_type": "conclusion"
+  },
+  {
+   "line": 299,
+   "title": "Initial and final states contributing to inclusive decay D+→KS0X",
+   "section_type": "other"
+  },
+  {
+   "line": 344,
+   "title": "Initial and final states contributing to inclusive decay D0→KS0X",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "nested spans 1-133 / 131-133"
+ ],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

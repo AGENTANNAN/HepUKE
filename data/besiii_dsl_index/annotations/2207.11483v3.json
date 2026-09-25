@@ -1,0 +1,201 @@
+{
+ "paper_id": "2207.11483v3",
+ "source_path": "arxiv_papers/2207.11483v3.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 194,
+ "n_lines_sent": 74,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 4,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 126,
+   "to": 126,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 130,
+   "to": 194,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 3,
+   "line_end": 44,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 49,
+   "line_end": 49,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 51,
+   "line_end": 57,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 59,
+   "line_end": 59,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 61,
+   "line_end": 73,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 61,
+     "line_end": 61,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 63,
+     "line_end": 73,
+     "label": "st_dt_yields_and_bf_formula"
+    }
+   ]
+  },
+  {
+   "line_start": 75,
+   "line_end": 86,
+   "type": "event_selection",
+   "title": "Selection criteria and ST reconstruction",
+   "units": [
+    {
+     "line_start": 75,
+     "line_end": 75,
+     "label": "particle_selection_criteria"
+    },
+    {
+     "line_start": 77,
+     "line_end": 78,
+     "label": "figure1_st_fits"
+    },
+    {
+     "line_start": 80,
+     "line_end": 86,
+     "label": "mbc_and_delta_e_st_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 88,
+   "line_end": 96,
+   "type": "event_selection",
+   "title": "SL candidate selection and Umiss",
+   "units": [
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "sl_candidate_selection"
+    },
+    {
+     "line_start": 90,
+     "line_end": 96,
+     "label": "umiss_variable"
+    }
+   ]
+  },
+  {
+   "line_start": 98,
+   "line_end": 114,
+   "type": "fit",
+   "title": "Fit to Umiss and 2D fit"
+  },
+  {
+   "line_start": 116,
+   "line_end": 116,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "tracking_pid_fit_rb_mc_interference"
+    }
+   ]
+  },
+  {
+   "line_start": 118,
+   "line_end": 120,
+   "type": "results",
+   "title": "Comparison with theory",
+   "units": [
+    {
+     "line_start": 118,
+     "line_end": 120,
+     "label": "bf_comparison_table"
+    }
+   ]
+  },
+  {
+   "line_start": 122,
+   "line_end": 124,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 128,
+   "line_end": 128,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 120,
+   "title": "Comparison of branching fractions with theory",
+   "section_type": "results"
+  },
+  {
+   "line": 185,
+   "title": "Delta E requirements and ST yields",
+   "section_type": "event_selection"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

@@ -1,0 +1,235 @@
+{
+ "paper_id": "1905.04707v1",
+ "source_path": "arxiv_papers/1905.04707v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 354,
+ "n_lines_sent": 77,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 29,
+   "to": 31,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 152,
+   "to": 152,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 155,
+   "to": 354,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 31,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and PACS"
+  },
+  {
+   "line_start": 33,
+   "line_end": 33,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 35,
+   "line_end": 45,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 47,
+   "line_end": 56,
+   "type": "event_selection",
+   "title": "Event selection and background",
+   "units": [
+    {
+     "line_start": 47,
+     "line_end": 48,
+     "label": "mbc_fit_figure"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "partial_reconstruction"
+    },
+    {
+     "line_start": 52,
+     "line_end": 52,
+     "label": "event_selection_criteria"
+    },
+    {
+     "line_start": 54,
+     "line_end": 54,
+     "label": "mbc_and_delta_e"
+    },
+    {
+     "line_start": 56,
+     "line_end": 56,
+     "label": "background_modeling"
+    }
+   ]
+  },
+  {
+   "line_start": 58,
+   "line_end": 97,
+   "type": "fit",
+   "title": "Angular analysis and fit"
+  },
+  {
+   "line_start": 99,
+   "line_end": 111,
+   "type": "results",
+   "title": "Results",
+   "units": [
+    {
+     "line_start": 99,
+     "line_end": 99,
+     "label": "fit_projection"
+    },
+    {
+     "line_start": 101,
+     "line_end": 107,
+     "label": "lambda_pi_and_sigma_pi_decay_rate"
+    },
+    {
+     "line_start": 109,
+     "line_end": 111,
+     "label": "sigma0_pi_correlations"
+    }
+   ]
+  },
+  {
+   "line_start": 113,
+   "line_end": 113,
+   "type": "results",
+   "title": "Table I"
+  },
+  {
+   "line_start": 115,
+   "line_end": 142,
+   "type": "results",
+   "title": "Angular distributions and transverse polarization",
+   "units": [
+    {
+     "line_start": 115,
+     "line_end": 116,
+     "label": "angular_distribution_figure"
+    },
+    {
+     "line_start": 118,
+     "line_end": 124,
+     "label": "cos_theta_correlation"
+    },
+    {
+     "line_start": 126,
+     "line_end": 142,
+     "label": "transverse_polarization_observable"
+    }
+   ]
+  },
+  {
+   "line_start": 144,
+   "line_end": 146,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 144,
+     "line_end": 144,
+     "label": "overview"
+    },
+    {
+     "line_start": 146,
+     "line_end": 146,
+     "label": "reconstruction_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 148,
+   "line_end": 150,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 154,
+   "line_end": 154,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 113,
+   "title": "Comparisons between theoretical calculations and experimental measurements",
+   "section_type": "results"
+  },
+  {
+   "line": 134,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 236,
+   "title": "Definition of decays, helicity angles and amplitudes for Lambda_c+ -> p K_S0",
+   "section_type": "fit"
+  },
+  {
+   "line": 247,
+   "title": "Definition of decays, helicity angles and amplitudes in Lambda_c+ -> Lambda pi+",
+   "section_type": "fit"
+  },
+  {
+   "line": 309,
+   "title": "Definition of decays, helicity angles and amplitudes in Lambda_c+ -> Sigma+ pi0",
+   "section_type": "fit"
+  },
+  {
+   "line": 329,
+   "title": "Definition of decays, helicity angles and amplitudes in Lambda_c+ -> Sigma0 pi+",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 8.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 113-113 typed results has no units"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

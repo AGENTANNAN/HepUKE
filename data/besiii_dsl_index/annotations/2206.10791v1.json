@@ -1,0 +1,230 @@
+{
+ "paper_id": "2206.10791v1",
+ "source_path": "arxiv_papers/2206.10791v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 203,
+ "n_lines_sent": 103,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 7,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 9,
+   "to": 10,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 12,
+   "to": 13,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 15,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 53,
+   "to": 54,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 165,
+   "to": 203,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 4,
+   "line_end": 82,
+   "type": "front_matter",
+   "title": "Author list and affiliations"
+  },
+  {
+   "line_start": 84,
+   "line_end": 84,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 86,
+   "line_end": 108,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 110,
+   "line_end": 112,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 110,
+     "line_end": 110,
+     "label": "single_tag_selection"
+    },
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "recoil_mass_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 114,
+   "line_end": 115,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 117,
+   "line_end": 123,
+   "type": "event_selection",
+   "title": "Signal selection and background suppression",
+   "units": [
+    {
+     "line_start": 117,
+     "line_end": 117,
+     "label": "neutral_particle_selection"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 121,
+     "line_end": 121,
+     "label": "background_suppression"
+    },
+    {
+     "line_start": 123,
+     "line_end": 123,
+     "label": "signal_yield_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 125,
+   "line_end": 125,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on BF",
+   "units": [
+    {
+     "line_start": 125,
+     "line_end": 125,
+     "label": "systematic_sources_intro"
+    }
+   ]
+  },
+  {
+   "line_start": 127,
+   "line_end": 128,
+   "type": "other",
+   "title": "Figure 2"
+  },
+  {
+   "line_start": 130,
+   "line_end": 132,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 130,
+     "line_end": 132,
+     "label": "table_i_results"
+    }
+   ]
+  },
+  {
+   "line_start": 134,
+   "line_end": 134,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on BF (continued)",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 134,
+     "label": "systematic_uncertainties_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 136,
+   "line_end": 148,
+   "type": "fit",
+   "title": "Decay asymmetry fit"
+  },
+  {
+   "line_start": 150,
+   "line_end": 151,
+   "type": "other",
+   "title": "Figure 3"
+  },
+  {
+   "line_start": 153,
+   "line_end": 153,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties on alpha_gamma",
+   "units": [
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "systematic_uncertainties_alpha_gamma"
+    }
+   ]
+  },
+  {
+   "line_start": 155,
+   "line_end": 157,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 159,
+   "line_end": 163,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 132,
+   "title": "Results for the decays Lambda -> n gamma and Lambda -> nbar gamma",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 10.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:15",
+ "failed_aspects": []
+}

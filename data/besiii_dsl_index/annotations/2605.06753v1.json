@@ -1,0 +1,220 @@
+{
+ "paper_id": "2605.06753v1",
+ "source_path": "arxiv_papers/2605.06753v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 462,
+ "n_lines_sent": 193,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 141,
+   "to": 141,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 169,
+   "to": 169,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 171,
+   "to": 171,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 173,
+   "to": 173,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 179,
+   "to": 179,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 181,
+   "to": 181,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 382,
+   "to": 462,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 183,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and abstract"
+  },
+  {
+   "line_start": 185,
+   "line_end": 191,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 193,
+   "line_end": 197,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATIONS"
+  },
+  {
+   "line_start": 199,
+   "line_end": 317,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 199,
+     "line_end": 215,
+     "label": "analysis_strategy"
+    },
+    {
+     "line_start": 217,
+     "line_end": 261,
+     "label": "st_analysis"
+    },
+    {
+     "line_start": 262,
+     "line_end": 317,
+     "label": "dt_analysis"
+    }
+   ]
+  },
+  {
+   "line_start": 319,
+   "line_end": 365,
+   "type": "systematic_uncertainty",
+   "title": "IV. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 319,
+     "line_end": 321,
+     "label": "overview"
+    },
+    {
+     "line_start": 323,
+     "line_end": 323,
+     "label": "xi_reconstruction"
+    },
+    {
+     "line_start": 325,
+     "line_end": 325,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 327,
+     "line_end": 339,
+     "label": "figures_and_table"
+    },
+    {
+     "line_start": 340,
+     "line_end": 340,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 342,
+     "line_end": 342,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 344,
+     "line_end": 344,
+     "label": "mass_windows"
+    },
+    {
+     "line_start": 346,
+     "line_end": 346,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 348,
+     "line_end": 348,
+     "label": "chi2_requirement"
+    },
+    {
+     "line_start": 350,
+     "line_end": 350,
+     "label": "mass_window_veto"
+    },
+    {
+     "line_start": 352,
+     "line_end": 352,
+     "label": "st_fit_model"
+    },
+    {
+     "line_start": 354,
+     "line_end": 354,
+     "label": "dt_fit_model"
+    },
+    {
+     "line_start": 356,
+     "line_end": 356,
+     "label": "bfs_mc_statistics"
+    },
+    {
+     "line_start": 358,
+     "line_end": 365,
+     "label": "interference"
+    }
+   ]
+  },
+  {
+   "line_start": 366,
+   "line_end": 369,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 370,
+   "line_end": 379,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  },
+  {
+   "line_start": 380,
+   "line_end": 380,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 338,
+   "title": "Summary of signal yields and measured branching fractions",
+   "section_type": "results"
+  },
+  {
+   "line": 376,
+   "title": "Relative systematic uncertainties in the branching fraction measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 9.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": []
+}

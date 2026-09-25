@@ -1,0 +1,224 @@
+{
+ "paper_id": "1605.03256v1",
+ "source_path": "arxiv_papers/1605.03256v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 301,
+ "n_lines_sent": 166,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 273,
+   "to": 301,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 15,
+   "line_end": 115,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations"
+  },
+  {
+   "line_start": 117,
+   "line_end": 119,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 121,
+   "line_end": 131,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 133,
+   "line_end": 139,
+   "type": "detector",
+   "title": "II. DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 141,
+   "line_end": 153,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND STUDY OF BACKGROUND SHAPE",
+   "units": [
+    {
+     "line_start": 141,
+     "line_end": 143,
+     "label": "track_and_pid_selection"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 147,
+     "line_end": 147,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 149,
+     "line_end": 151,
+     "label": "background_veto"
+    },
+    {
+     "line_start": 153,
+     "line_end": 153,
+     "label": "mass_windows_and_background"
+    }
+   ]
+  },
+  {
+   "line_start": 155,
+   "line_end": 182,
+   "type": "fit",
+   "title": "IV. SIGNAL DETERMINATION"
+  },
+  {
+   "line_start": 184,
+   "line_end": 232,
+   "type": "results",
+   "title": "V. CROSS SECTION RESULTS",
+   "units": [
+    {
+     "line_start": 184,
+     "line_end": 209,
+     "label": "born_cross_section_calculation"
+    },
+    {
+     "line_start": 211,
+     "line_end": 232,
+     "label": "cross_section_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 234,
+   "line_end": 253,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 234,
+     "line_end": 238,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 240,
+     "line_end": 240,
+     "label": "background_shape"
+    },
+    {
+     "line_start": 241,
+     "line_end": 241,
+     "label": "fit_range"
+    },
+    {
+     "line_start": 242,
+     "line_end": 242,
+     "label": "efficiency_and_branching_fraction"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 244,
+     "line_end": 246,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "tracking_efficiency"
+    },
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "lepton_pair_mass_resolution"
+    },
+    {
+     "line_start": 250,
+     "line_end": 250,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 252,
+     "line_end": 253,
+     "label": "fsr_and_other_sources"
+    }
+   ]
+  },
+  {
+   "line_start": 255,
+   "line_end": 259,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 261,
+   "line_end": 271,
+   "type": "acknowledgements",
+   "title": "Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 227,
+   "title": "Summary of the values used to calculate the Born cross section of e+e- -> eta' J/psi",
+   "section_type": "results"
+  },
+  {
+   "line": 267,
+   "title": "Summary of systematic uncertainties (%)",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 5.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:10",
+ "failed_aspects": []
+}

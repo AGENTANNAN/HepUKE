@@ -1,0 +1,182 @@
+{
+ "paper_id": "2403.13437v2",
+ "source_path": "arxiv_papers/2403.13437v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 357,
+ "n_lines_sent": 248,
+ "skipped_ranges": [
+  {
+   "from": 125,
+   "to": 126,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 160,
+   "to": 160,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 186,
+   "to": 188,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 190,
+   "to": 190,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 320,
+   "to": 357,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 196,
+   "type": "front_matter",
+   "title": "Search for ΔS = 2 nonleptonic hyperon decays Ω− → Σ0π− and Ω− → nK−"
+  },
+  {
+   "line_start": 198,
+   "line_end": 200,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 202,
+   "line_end": 209,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 211,
+   "line_end": 231,
+   "type": "introduction",
+   "title": "1 Introduction"
+  },
+  {
+   "line_start": 233,
+   "line_end": 241,
+   "type": "detector",
+   "title": "2 BESIII detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 243,
+   "line_end": 267,
+   "type": "event_selection",
+   "title": "3 Data analysis",
+   "units": [
+    {
+     "line_start": 243,
+     "line_end": 245,
+     "label": "decay_chains_and_track_selection"
+    },
+    {
+     "line_start": 247,
+     "line_end": 247,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 249,
+     "line_end": 251,
+     "label": "st_yield_fit"
+    },
+    {
+     "line_start": 253,
+     "line_end": 254,
+     "label": "figure_rm_omega"
+    },
+    {
+     "line_start": 256,
+     "line_end": 256,
+     "label": "sigma0_pi_selection"
+    },
+    {
+     "line_start": 258,
+     "line_end": 258,
+     "label": "nK_selection"
+    },
+    {
+     "line_start": 260,
+     "line_end": 262,
+     "label": "dt_yield_fit"
+    },
+    {
+     "line_start": 264,
+     "line_end": 267,
+     "label": "figure_rm_omega_h"
+    }
+   ]
+  },
+  {
+   "line_start": 269,
+   "line_end": 281,
+   "type": "systematic_uncertainty",
+   "title": "4 Systematic uncertainty",
+   "units": [
+    {
+     "line_start": 269,
+     "line_end": 271,
+     "label": "overview"
+    },
+    {
+     "line_start": 273,
+     "line_end": 275,
+     "label": "multiplicative_sources"
+    },
+    {
+     "line_start": 277,
+     "line_end": 277,
+     "label": "additive_sources"
+    },
+    {
+     "line_start": 279,
+     "line_end": 281,
+     "label": "table_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 283,
+   "line_end": 304,
+   "type": "fit",
+   "title": "5 The upper limits on the BFs"
+  },
+  {
+   "line_start": 306,
+   "line_end": 314,
+   "type": "conclusion",
+   "title": "6 Summary"
+  },
+  {
+   "line_start": 316,
+   "line_end": 318,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  }
+ ],
+ "tables": [
+  {
+   "line": 281,
+   "title": "Multiplicative systematic uncertainties (%)",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 312,
+   "title": "ST yield, ST efficiency, DT yields, DT efficiencies and upper limits on the BFs",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": []
+}

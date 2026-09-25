@@ -1,0 +1,277 @@
+{
+ "paper_id": "2403.16811v2",
+ "source_path": "arxiv_papers/2403.16811v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 426,
+ "n_lines_sent": 204,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 52,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 83,
+   "to": 83,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 130,
+   "to": 131,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 133,
+   "to": 133,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 361,
+   "to": 426,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 133,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 135,
+   "line_end": 135,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 137,
+   "line_end": 149,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 151,
+   "line_end": 159,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 161,
+   "line_end": 249,
+   "type": "event_selection",
+   "title": "III. ANALYSIS OF e+e- -> eta psi(2S)",
+   "units": [
+    {
+     "line_start": 161,
+     "line_end": 163,
+     "label": "section_heading"
+    },
+    {
+     "line_start": 165,
+     "line_end": 171,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 173,
+     "line_end": 215,
+     "label": "background_analysis"
+    },
+    {
+     "line_start": 217,
+     "line_end": 249,
+     "label": "cross_section_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 252,
+   "line_end": 313,
+   "type": "event_selection",
+   "title": "IV. ANALYSIS OF e+e- -> eta Xtilde(3872)",
+   "units": [
+    {
+     "line_start": 252,
+     "line_end": 254,
+     "label": "section_heading"
+    },
+    {
+     "line_start": 256,
+     "line_end": 264,
+     "label": "event_selection"
+    },
+    {
+     "line_start": 266,
+     "line_end": 288,
+     "label": "background_analysis"
+    },
+    {
+     "line_start": 290,
+     "line_end": 313,
+     "label": "cross_section_measurement"
+    }
+   ]
+  },
+  {
+   "line_start": 315,
+   "line_end": 348,
+   "type": "systematic_uncertainty",
+   "title": "V. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 315,
+     "line_end": 317,
+     "label": "overview"
+    },
+    {
+     "line_start": 319,
+     "line_end": 319,
+     "label": "luminosity"
+    },
+    {
+     "line_start": 328,
+     "line_end": 328,
+     "label": "tracking"
+    },
+    {
+     "line_start": 330,
+     "line_end": 330,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 332,
+     "line_end": 332,
+     "label": "branching_fraction"
+    },
+    {
+     "line_start": 334,
+     "line_end": 334,
+     "label": "isr_correction"
+    },
+    {
+     "line_start": 336,
+     "line_end": 336,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 338,
+     "line_end": 344,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 346,
+     "line_end": 346,
+     "label": "mass_window"
+    },
+    {
+     "line_start": 348,
+     "line_end": 348,
+     "label": "sideband_region"
+    }
+   ]
+  },
+  {
+   "line_start": 350,
+   "line_end": 354,
+   "type": "conclusion",
+   "title": "VI. SUMMARY"
+  },
+  {
+   "line_start": 356,
+   "line_end": 358,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 360,
+   "line_end": 360,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 231,
+   "title": "Possible background processes in the eta psi(2S) signal region",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 235,
+   "title": "Numbers of gamma gamma psi(2S) events outside and inside regions",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 260,
+   "title": "Total background events in signal region at different energy points",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 283,
+   "title": "Cross sections and confidence intervals at energy points",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 294,
+   "title": "List of peaking background processes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 302,
+   "title": "Expected peaking background events for setting I",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 323,
+   "title": "Expected peaking background events for setting II",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 342,
+   "title": "Cross sections and confidence intervals for eta X(3872)",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 422,
+   "title": "Systematic uncertainties of eta psi(2S) cross section measurement",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 426,
+   "title": "Systematic uncertainties of eta X(3872) cross section measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 5.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "gap in 315-348 before line 328"
+ ],
+ "revalidated_at": "2026-09-19T03:21:18",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

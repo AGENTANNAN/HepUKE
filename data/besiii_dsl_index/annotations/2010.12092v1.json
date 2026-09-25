@@ -1,0 +1,181 @@
+{
+ "paper_id": "2010.12092v1",
+ "source_path": "arxiv_papers/2010.12092v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 241,
+ "n_lines_sent": 144,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 210,
+   "to": 241,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 18,
+   "line_end": 112,
+   "type": "front_matter",
+   "title": "BESIII Collaboration author list and affiliations"
+  },
+  {
+   "line_start": 114,
+   "line_end": 114,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 116,
+   "line_end": 124,
+   "type": "introduction",
+   "title": "I. Introduction"
+  },
+  {
+   "line_start": 126,
+   "line_end": 130,
+   "type": "detector",
+   "title": "II. BESIII Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 132,
+   "line_end": 149,
+   "type": "event_selection",
+   "title": "III. Data Analysis",
+   "units": [
+    {
+     "line_start": 132,
+     "line_end": 134,
+     "label": "tracking_and_pid"
+    },
+    {
+     "line_start": 136,
+     "line_end": 136,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 138,
+     "line_end": 138,
+     "label": "kinematic_fit_and_ks0"
+    },
+    {
+     "line_start": 140,
+     "line_end": 141,
+     "label": "figure1_mass_fits"
+    },
+    {
+     "line_start": 143,
+     "line_end": 143,
+     "label": "pi0_eta_reconstruction"
+    },
+    {
+     "line_start": 145,
+     "line_end": 145,
+     "label": "background_vetoes"
+    },
+    {
+     "line_start": 147,
+     "line_end": 149,
+     "label": "table1_selection_criteria"
+    }
+   ]
+  },
+  {
+   "line_start": 151,
+   "line_end": 177,
+   "type": "fit",
+   "title": "IV. Determination of Branching Fractions"
+  },
+  {
+   "line_start": 179,
+   "line_end": 192,
+   "type": "systematic_uncertainty",
+   "title": "V. Systematic Uncertainties",
+   "units": [
+    {
+     "line_start": 179,
+     "line_end": 181,
+     "label": "overview_and_external_uncertainty"
+    },
+    {
+     "line_start": 183,
+     "line_end": 183,
+     "label": "tracking_pid_photon_pi0_eta_ks0_reconstruction"
+    },
+    {
+     "line_start": 185,
+     "line_end": 186,
+     "label": "figure2_intermediate_resonances"
+    },
+    {
+     "line_start": 188,
+     "line_end": 188,
+     "label": "selection_criteria"
+    },
+    {
+     "line_start": 190,
+     "line_end": 190,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 192,
+     "line_end": 192,
+     "label": "efficiency_fit_model_and_normalization"
+    }
+   ]
+  },
+  {
+   "line_start": 194,
+   "line_end": 204,
+   "type": "conclusion",
+   "title": "VI. Summary"
+  },
+  {
+   "line_start": 206,
+   "line_end": 208,
+   "type": "acknowledgements",
+   "title": "VII. Acknowledgments"
+  }
+ ],
+ "tables": [
+  {
+   "line": 149,
+   "title": "Table I. Applied requirements on the chi^2_(4+N)C and mass windows used as vetoes in each exclusive mode.",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 165,
+   "title": "Table II. Overview of the branching fractions and upper limits obtained in this analysis for decay processes of the h_c meson.",
+   "section_type": "fit"
+  },
+  {
+   "line": 202,
+   "title": "Table III. Summary of systematic uncertainties.",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 8.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

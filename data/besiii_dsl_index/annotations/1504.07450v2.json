@@ -1,0 +1,303 @@
+{
+ "paper_id": "1504.07450v2",
+ "source_path": "arxiv_papers/1504.07450v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 291,
+ "n_lines_sent": 156,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 260,
+   "to": 291,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 12,
+   "line_end": 72,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations and date"
+  },
+  {
+   "line_start": 74,
+   "line_end": 82,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 84,
+   "line_end": 88,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR"
+  },
+  {
+   "line_start": 90,
+   "line_end": 92,
+   "type": "event_selection",
+   "title": "III. ANALYSIS",
+   "units": [
+    {
+     "line_start": 90,
+     "line_end": 92,
+     "label": "decay_chain_reconstruction"
+    }
+   ]
+  },
+  {
+   "line_start": 94,
+   "line_end": 100,
+   "type": "event_selection",
+   "title": "A. Event selection",
+   "units": [
+    {
+     "line_start": 94,
+     "line_end": 96,
+     "label": "charged_tracks"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "pid"
+    },
+    {
+     "line_start": 96,
+     "line_end": 96,
+     "label": "jpsi_momentum"
+    },
+    {
+     "line_start": 98,
+     "line_end": 98,
+     "label": "cos_theta_e_cut"
+    },
+    {
+     "line_start": 100,
+     "line_end": 100,
+     "label": "pi0_eta_veto"
+    }
+   ]
+  },
+  {
+   "line_start": 102,
+   "line_end": 114,
+   "type": "fit",
+   "title": "B. Kinematic fit and mass spectrum of γJ/ψ"
+  },
+  {
+   "line_start": 116,
+   "line_end": 146,
+   "type": "background",
+   "title": "C. Background studies"
+  },
+  {
+   "line_start": 148,
+   "line_end": 152,
+   "type": "fit",
+   "title": "D. Signal events for ψ(3770) → γχcJ"
+  },
+  {
+   "line_start": 154,
+   "line_end": 156,
+   "type": "results",
+   "title": "IV. RESULT",
+   "units": [
+    {
+     "line_start": 154,
+     "line_end": 156,
+     "label": "total_number_psi3770"
+    }
+   ]
+  },
+  {
+   "line_start": 158,
+   "line_end": 170,
+   "type": "results",
+   "title": "A. Total number of ψ(3770)",
+   "units": [
+    {
+     "line_start": 158,
+     "line_end": 170,
+     "label": "total_number_psi3770"
+    }
+   ]
+  },
+  {
+   "line_start": 172,
+   "line_end": 196,
+   "type": "results",
+   "title": "B. Branching fraction",
+   "units": [
+    {
+     "line_start": 172,
+     "line_end": 196,
+     "label": "branching_fraction"
+    }
+   ]
+  },
+  {
+   "line_start": 198,
+   "line_end": 212,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties and upper limit",
+   "units": [
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "total_number_psi3770"
+    },
+    {
+     "line_start": 198,
+     "line_end": 198,
+     "label": "pid"
+    },
+    {
+     "line_start": 198,
+     "line_end": 200,
+     "label": "cos_theta_e_cut"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "efficiency"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "branching_fractions"
+    },
+    {
+     "line_start": 200,
+     "line_end": 200,
+     "label": "fit_to_mass_spectrum"
+    },
+    {
+     "line_start": 206,
+     "line_end": 212,
+     "label": "upper_limit"
+    }
+   ]
+  },
+  {
+   "line_start": 214,
+   "line_end": 234,
+   "type": "results",
+   "title": "C. Partial width",
+   "units": [
+    {
+     "line_start": 214,
+     "line_end": 234,
+     "label": "partial_width"
+    }
+   ]
+  },
+  {
+   "line_start": 236,
+   "line_end": 248,
+   "type": "results",
+   "title": "D. Partial cross section",
+   "units": [
+    {
+     "line_start": 236,
+     "line_end": 248,
+     "label": "partial_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 250,
+   "line_end": 252,
+   "type": "conclusion",
+   "title": "V. SUMMARY"
+  },
+  {
+   "line_start": 254,
+   "line_end": 258,
+   "type": "acknowledgements",
+   "title": "ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 204,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 220,
+   "title": "Comparison of measured partial widths with theoretical predictions",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.0,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 94-100 share boundary line 96",
+  "units of 94-100 share boundary line 96",
+  "units of 94-100 share boundary line 96",
+  "units of 198-212 share boundary line 198",
+  "units of 198-212 share boundary line 198",
+  "units of 198-212 share boundary line 200",
+  "units of 198-212 share boundary line 200",
+  "units of 198-212 share boundary line 200",
+  "units of 198-212 share boundary line 200",
+  "units of 198-212 share boundary line 200",
+  "gap in 198-212 before line 206"
+ ],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": [],
+ "units_repaired": true
+}

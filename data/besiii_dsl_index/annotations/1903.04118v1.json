@@ -1,0 +1,212 @@
+{
+ "paper_id": "1903.04118v1",
+ "source_path": "arxiv_papers/1903.04118v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 153,
+ "n_lines_sent": 72,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 18,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 52,
+   "to": 53,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 57,
+   "to": 58,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 129,
+   "to": 153,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 68,
+   "type": "front_matter",
+   "title": "Title, author affiliations, and date"
+  },
+  {
+   "line_start": 70,
+   "line_end": 72,
+   "type": "abstract",
+   "title": "Abstract and PACS numbers"
+  },
+  {
+   "line_start": 74,
+   "line_end": 83,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 85,
+   "line_end": 91,
+   "type": "detector",
+   "title": "Detector and Monte Carlo simulation"
+  },
+  {
+   "line_start": 93,
+   "line_end": 100,
+   "type": "fit",
+   "title": "Amplitude analysis"
+  },
+  {
+   "line_start": 102,
+   "line_end": 104,
+   "type": "results",
+   "title": "Fit results",
+   "units": [
+    {
+     "line_start": 102,
+     "line_end": 104,
+     "label": "fit_fractions_and_phases"
+    }
+   ]
+  },
+  {
+   "line_start": 106,
+   "line_end": 110,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "resonance_line_shape"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "fixed_parameters"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "background_level_and_shape"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "experimental_effects"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "fitter_performance"
+    },
+    {
+     "line_start": 108,
+     "line_end": 110,
+     "label": "systematic_uncertainty_table"
+    }
+   ]
+  },
+  {
+   "line_start": 112,
+   "line_end": 114,
+   "type": "results",
+   "title": "Branching fraction measurement",
+   "units": [
+    {
+     "line_start": 112,
+     "line_end": 112,
+     "label": "total_branching_fraction"
+    },
+    {
+     "line_start": 114,
+     "line_end": 114,
+     "label": "systematic_uncertainties_for_bf"
+    }
+   ]
+  },
+  {
+   "line_start": 116,
+   "line_end": 119,
+   "type": "results",
+   "title": "Branching fractions of intermediate processes",
+   "units": [
+    {
+     "line_start": 116,
+     "line_end": 117,
+     "label": "fit_to_mass_distributions"
+    },
+    {
+     "line_start": 119,
+     "line_end": 119,
+     "label": "branching_fractions_of_intermediate_processes"
+    }
+   ]
+  },
+  {
+   "line_start": 121,
+   "line_end": 123,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 125,
+   "line_end": 127,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 104,
+   "title": "Significance, phases, and fit fractions for intermediate processes",
+   "section_type": "results"
+  },
+  {
+   "line": 110,
+   "title": "Systematic uncertainties on phases and fit fractions",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 106-110 share boundary line 106",
+  "units of 106-110 share boundary line 106",
+  "units of 106-110 share boundary line 106",
+  "units of 106-110 share boundary line 106"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

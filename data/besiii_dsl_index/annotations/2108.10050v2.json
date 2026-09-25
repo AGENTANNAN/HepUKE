@@ -1,0 +1,280 @@
+{
+ "paper_id": "2108.10050v2",
+ "source_path": "arxiv_papers/2108.10050v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 328,
+ "n_lines_sent": 164,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 25,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 30,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 300,
+   "to": 328,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 54,
+   "type": "front_matter",
+   "title": "Title, authors, affiliations, and date"
+  },
+  {
+   "line_start": 56,
+   "line_end": 56,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 58,
+   "line_end": 66,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 68,
+   "line_end": 74,
+   "type": "detector",
+   "title": "II. DETECTION AND DATASETS"
+  },
+  {
+   "line_start": 76,
+   "line_end": 118,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION",
+   "units": [
+    {
+     "line_start": 76,
+     "line_end": 78,
+     "label": "selection_overview"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "pid"
+    },
+    {
+     "line_start": 84,
+     "line_end": 84,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 86,
+     "line_end": 86,
+     "label": "pi0_reconstruction"
+    },
+    {
+     "line_start": 88,
+     "line_end": 88,
+     "label": "ks0_reconstruction"
+    },
+    {
+     "line_start": 90,
+     "line_end": 96,
+     "label": "recoil_mass"
+    },
+    {
+     "line_start": 98,
+     "line_end": 114,
+     "label": "neural_network"
+    },
+    {
+     "line_start": 116,
+     "line_end": 116,
+     "label": "mass_fit_purity"
+    },
+    {
+     "line_start": 118,
+     "line_end": 118,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 120,
+   "line_end": 213,
+   "type": "fit",
+   "title": "IV. AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 215,
+   "line_end": 223,
+   "type": "results",
+   "title": "V. RESULTS OF THE MIPWA",
+   "units": [
+    {
+     "line_start": 215,
+     "line_end": 219,
+     "label": "baseline_fit_results"
+    },
+    {
+     "line_start": 221,
+     "line_end": 223,
+     "label": "goodness_of_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 225,
+   "line_end": 262,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 225,
+     "line_end": 229,
+     "label": "barrier_radii"
+    },
+    {
+     "line_start": 231,
+     "line_end": 238,
+     "label": "resonance_parameters"
+    },
+    {
+     "line_start": 240,
+     "line_end": 240,
+     "label": "efficiency_parameters"
+    },
+    {
+     "line_start": 242,
+     "line_end": 244,
+     "label": "background_modeling"
+    },
+    {
+     "line_start": 246,
+     "line_end": 246,
+     "label": "rho_modeling"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "omega_contribution"
+    },
+    {
+     "line_start": 250,
+     "line_end": 250,
+     "label": "signal_purity"
+    },
+    {
+     "line_start": 252,
+     "line_end": 252,
+     "label": "signal_region"
+    },
+    {
+     "line_start": 254,
+     "line_end": 254,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 256,
+     "line_end": 260,
+     "label": "control_points"
+    },
+    {
+     "line_start": 262,
+     "line_end": 262,
+     "label": "summary"
+    }
+   ]
+  },
+  {
+   "line_start": 264,
+   "line_end": 268,
+   "type": "conclusion",
+   "title": "VII. CONCLUSION"
+  },
+  {
+   "line_start": 270,
+   "line_end": 286,
+   "type": "other",
+   "title": "Figures and tables"
+  },
+  {
+   "line_start": 288,
+   "line_end": 298,
+   "type": "other",
+   "title": "Appendix A: Correlation matrices for the fit fractions"
+  }
+ ],
+ "tables": [
+  {
+   "line": 199,
+   "title": "Fit results of the efficiency function eta(x,y)",
+   "section_type": "fit"
+  },
+  {
+   "line": 236,
+   "title": "Fit fractions, magnitudes, and phases from baseline fit",
+   "section_type": "results"
+  },
+  {
+   "line": 258,
+   "title": "Magnitudes and phases of S-wave control points",
+   "section_type": "results"
+  },
+  {
+   "line": 275,
+   "title": "Systematic uncertainties for fit fractions and rho mesons' coefficients",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 283,
+   "title": "Systematic uncertainties for S-wave control point parameters",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 292,
+   "title": "Statistical correlation matrix for fit fractions",
+   "section_type": "other"
+  },
+  {
+   "line": 298,
+   "title": "Systematic correlation matrix for fit fractions",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 11.5,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:14",
+ "failed_aspects": []
+}

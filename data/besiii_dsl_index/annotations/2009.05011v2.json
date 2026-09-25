@@ -1,0 +1,152 @@
+{
+ "paper_id": "2009.05011v2",
+ "source_path": "arxiv_papers/2009.05011v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 259,
+ "n_lines_sent": 131,
+ "skipped_ranges": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 39,
+   "to": 39,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 90,
+   "to": 90,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 114,
+   "to": 115,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 118,
+   "to": 118,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 120,
+   "to": 120,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 235,
+   "to": 259,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 120,
+   "type": "front_matter",
+   "title": "Erratum to \"Measurement of the e+e- -> pi+pi- cross section between 600 and 900 MeV using initial state radiation\""
+  },
+  {
+   "line_start": 122,
+   "line_end": 126,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 128,
+   "line_end": 134,
+   "type": "introduction",
+   "title": "1. Introduction"
+  },
+  {
+   "line_start": 136,
+   "line_end": 183,
+   "type": "fit",
+   "title": "2. Reevaluation of the Statistical Covariance Matrix"
+  },
+  {
+   "line_start": 185,
+   "line_end": 210,
+   "type": "fit",
+   "title": "3. Gounaris-Sakurai Fit of the Pion Form Factor"
+  },
+  {
+   "line_start": 212,
+   "line_end": 224,
+   "type": "results",
+   "title": "4. Reevaluation of a_mu^{pi pi, LO}(600-900 MeV)",
+   "units": [
+    {
+     "line_start": 212,
+     "line_end": 220,
+     "label": "hvp_formula"
+    },
+    {
+     "line_start": 222,
+     "line_end": 224,
+     "label": "updated_result"
+    }
+   ]
+  },
+  {
+   "line_start": 226,
+   "line_end": 233,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 183,
+   "title": "Results for the bare cross section and pion form factor with statistical uncertainties",
+   "section_type": "fit"
+  },
+  {
+   "line": 208,
+   "title": "Fit results for Gounaris-Sakurai parameters",
+   "section_type": "fit"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 6.7,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:13",
+ "failed_aspects": []
+}

@@ -1,0 +1,179 @@
+{
+ "paper_id": "2003.05594v2",
+ "source_path": "arxiv_papers/2003.05594v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 172,
+ "n_lines_sent": 61,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 5,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 18,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 28,
+   "to": 30,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 138,
+   "to": 172,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 2,
+   "line_end": 34,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 32,
+   "line_end": 32,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 36,
+   "line_end": 50,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 52,
+   "line_end": 56,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 56,
+   "line_end": 56,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 58,
+   "line_end": 98,
+   "type": "event_selection",
+   "title": "III. DATA ANALYSIS",
+   "units": [
+    {
+     "line_start": 58,
+     "line_end": 68,
+     "label": "analysis_method"
+    },
+    {
+     "line_start": 70,
+     "line_end": 74,
+     "label": "jpsi_tag_procedure"
+    },
+    {
+     "line_start": 76,
+     "line_end": 98,
+     "label": "signal_search_procedure"
+    }
+   ]
+  },
+  {
+   "line_start": 100,
+   "line_end": 112,
+   "type": "systematic_uncertainty",
+   "title": "D. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 100,
+     "line_end": 104,
+     "label": "tagged_jpsi_number"
+    },
+    {
+     "line_start": 106,
+     "line_end": 106,
+     "label": "signal_efficiency"
+    },
+    {
+     "line_start": 108,
+     "line_end": 108,
+     "label": "peaking_backgrounds"
+    },
+    {
+     "line_start": 110,
+     "line_end": 112,
+     "label": "continuum_background"
+    }
+   ]
+  },
+  {
+   "line_start": 114,
+   "line_end": 116,
+   "type": "systematic_uncertainty",
+   "title": "TABLE I: Summary of systematic uncertainty"
+  },
+  {
+   "line_start": 118,
+   "line_end": 120,
+   "type": "results",
+   "title": "E. UPPER LIMIT RESULT",
+   "units": [
+    {
+     "line_start": 118,
+     "line_end": 120,
+     "label": "upper_limit_result"
+    }
+   ]
+  },
+  {
+   "line_start": 122,
+   "line_end": 132,
+   "type": "conclusion",
+   "title": "IV. SUMMARY AND DISCUSSION"
+  },
+  {
+   "line_start": 134,
+   "line_end": 136,
+   "type": "acknowledgements",
+   "title": "V. ACKNOWLEDGMENTS"
+  }
+ ],
+ "tables": [
+  {
+   "line": 116,
+   "title": "Summary of systematic uncertainty",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 4.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "short section 114-116 typed systematic_uncertainty has no units",
+  "nested spans 2-34 / 32-32",
+  "nested spans 52-56 / 56-56"
+ ],
+ "revalidated_at": "2026-09-19T03:21:12",
+ "failed_aspects": []
+}

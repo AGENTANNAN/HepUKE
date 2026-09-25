@@ -1,0 +1,242 @@
+{
+ "paper_id": "2301.12922v2",
+ "source_path": "arxiv_papers/2301.12922v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 488,
+ "n_lines_sent": 185,
+ "skipped_ranges": [
+  {
+   "from": 308,
+   "to": 488,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "Title and collaboration"
+  },
+  {
+   "line_start": 8,
+   "line_end": 8,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 9,
+   "line_end": 29,
+   "type": "other",
+   "title": "Contents"
+  },
+  {
+   "line_start": 31,
+   "line_end": 51,
+   "type": "introduction",
+   "title": "1 INTRODUCTION"
+  },
+  {
+   "line_start": 53,
+   "line_end": 57,
+   "type": "detector",
+   "title": "2 DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 59,
+   "line_end": 70,
+   "type": "event_selection",
+   "title": "3 EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 59,
+     "line_end": 61,
+     "label": "event_selection_overview"
+    },
+    {
+     "line_start": 62,
+     "line_end": 63,
+     "label": "kinematic_fit_and_phi_reconstruction"
+    },
+    {
+     "line_start": 64,
+     "line_end": 66,
+     "label": "sideband_regions"
+    },
+    {
+     "line_start": 67,
+     "line_end": 68,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 69,
+     "line_end": 70,
+     "label": "continuum_background"
+    }
+   ]
+  },
+  {
+   "line_start": 72,
+   "line_end": 137,
+   "type": "fit",
+   "title": "4 AMPLITUDE ANALYSIS"
+  },
+  {
+   "line_start": 139,
+   "line_end": 154,
+   "type": "fit",
+   "title": "4.3 chi_cJ Mass Resolution"
+  },
+  {
+   "line_start": 156,
+   "line_end": 196,
+   "type": "fit",
+   "title": "4.4 Fit Method"
+  },
+  {
+   "line_start": 198,
+   "line_end": 242,
+   "type": "results",
+   "title": "4.5 Fit Results",
+   "units": [
+    {
+     "line_start": 198,
+     "line_end": 202,
+     "label": "fit_setup_and_mass_width"
+    },
+    {
+     "line_start": 203,
+     "line_end": 207,
+     "label": "signal_yield_fractions"
+    },
+    {
+     "line_start": 208,
+     "line_end": 211,
+     "label": "chi_c0_amplitude_ratio"
+    },
+    {
+     "line_start": 212,
+     "line_end": 219,
+     "label": "chi_c1_amplitude_ratios"
+    },
+    {
+     "line_start": 220,
+     "line_end": 230,
+     "label": "chi_c2_amplitude_ratios"
+    },
+    {
+     "line_start": 231,
+     "line_end": 242,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 244,
+   "line_end": 269,
+   "type": "systematic_uncertainty",
+   "title": "5 SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 244,
+     "line_end": 246,
+     "label": "intermediate_branching_fractions"
+    },
+    {
+     "line_start": 247,
+     "line_end": 247,
+     "label": "blatt_weisskopf_barrier_factor"
+    },
+    {
+     "line_start": 248,
+     "line_end": 248,
+     "label": "tracking_and_photon_reconstruction"
+    },
+    {
+     "line_start": 249,
+     "line_end": 249,
+     "label": "kinematic_fit"
+    },
+    {
+     "line_start": 250,
+     "line_end": 250,
+     "label": "chi_c1_chi_c2_masses_widths"
+    },
+    {
+     "line_start": 251,
+     "line_end": 251,
+     "label": "mass_resolution"
+    },
+    {
+     "line_start": 252,
+     "line_end": 255,
+     "label": "background_estimation"
+    },
+    {
+     "line_start": 256,
+     "line_end": 257,
+     "label": "number_of_psi_3686_events"
+    },
+    {
+     "line_start": 258,
+     "line_end": 269,
+     "label": "correlated_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 271,
+   "line_end": 304,
+   "type": "conclusion",
+   "title": "6 CONCLUSION AND DISCUSSION"
+  },
+  {
+   "line_start": 306,
+   "line_end": 306,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 49,
+   "title": "Theoretical predictions of helicity amplitude ratios",
+   "section_type": "introduction"
+  },
+  {
+   "line": 111,
+   "title": "Definitions of helicity angles and amplitudes",
+   "section_type": "fit"
+  },
+  {
+   "line": 129,
+   "title": "Involved partial waves in the joint angular distribution",
+   "section_type": "fit"
+  },
+  {
+   "line": 242,
+   "title": "Summary of branching fractions and parameters",
+   "section_type": "results"
+  },
+  {
+   "line": 269,
+   "title": "Summary of systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 285,
+   "title": "Comparison of measured branching fractions",
+   "section_type": "conclusion"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 5.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": []
+}

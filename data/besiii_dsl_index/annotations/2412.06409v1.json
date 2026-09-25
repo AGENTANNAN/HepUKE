@@ -1,0 +1,299 @@
+{
+ "paper_id": "2412.06409v1",
+ "source_path": "arxiv_papers/2412.06409v1.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 255,
+ "n_lines_sent": 105,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 4,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 6,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 11,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 24,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 26,
+   "to": 34,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 37,
+   "to": 38,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 40,
+   "to": 40,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 224,
+   "to": 255,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 5,
+   "line_end": 5,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 9,
+   "line_end": 10,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 16,
+   "line_end": 16,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 25,
+   "line_end": 25,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 35,
+   "line_end": 36,
+   "type": "front_matter",
+   "title": "Author list"
+  },
+  {
+   "line_start": 44,
+   "line_end": 44,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 46,
+   "line_end": 54,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 56,
+   "line_end": 60,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 62,
+   "line_end": 82,
+   "type": "event_selection",
+   "title": "III. EVENT SELECTION AND BACKGROUND ANALYSIS",
+   "units": [
+    {
+     "line_start": 62,
+     "line_end": 64,
+     "label": "reconstruction_strategy"
+    },
+    {
+     "line_start": 66,
+     "line_end": 66,
+     "label": "charged_track_selection"
+    },
+    {
+     "line_start": 68,
+     "line_end": 68,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 70,
+     "line_end": 70,
+     "label": "pid"
+    },
+    {
+     "line_start": 72,
+     "line_end": 72,
+     "label": "vertex_fit"
+    },
+    {
+     "line_start": 74,
+     "line_end": 76,
+     "label": "mc_background_table"
+    },
+    {
+     "line_start": 78,
+     "line_end": 78,
+     "label": "photon_selection"
+    },
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "background_study"
+    },
+    {
+     "line_start": 82,
+     "line_end": 82,
+     "label": "continuum_background"
+    }
+   ]
+  },
+  {
+   "line_start": 84,
+   "line_end": 128,
+   "type": "fit",
+   "title": "IV. BRANCHING FRACTION MEASUREMENT"
+  },
+  {
+   "line_start": 130,
+   "line_end": 132,
+   "type": "results",
+   "title": "V. STUDY OF INTERMEDIATE STATES",
+   "units": [
+    {
+     "line_start": 130,
+     "line_end": 132,
+     "label": "intermediate_states"
+    }
+   ]
+  },
+  {
+   "line_start": 134,
+   "line_end": 207,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 134,
+     "line_end": 136,
+     "label": "introduction"
+    },
+    {
+     "line_start": 138,
+     "line_end": 140,
+     "label": "kaon_tracking"
+    },
+    {
+     "line_start": 142,
+     "line_end": 144,
+     "label": "photon_detection"
+    },
+    {
+     "line_start": 146,
+     "line_end": 148,
+     "label": "lambda_reconstruction"
+    },
+    {
+     "line_start": 150,
+     "line_end": 152,
+     "label": "lambda_mass_window"
+    },
+    {
+     "line_start": 154,
+     "line_end": 159,
+     "label": "wrong_combination_ratio"
+    },
+    {
+     "line_start": 161,
+     "line_end": 163,
+     "label": "mc_sample_size"
+    },
+    {
+     "line_start": 165,
+     "line_end": 173,
+     "label": "fit_procedure"
+    },
+    {
+     "line_start": 175,
+     "line_end": 177,
+     "label": "systematic_table"
+    },
+    {
+     "line_start": 179,
+     "line_end": 181,
+     "label": "quoted_branching_fractions"
+    },
+    {
+     "line_start": 183,
+     "line_end": 185,
+     "label": "number_of_psi3686_events"
+    },
+    {
+     "line_start": 187,
+     "line_end": 207,
+     "label": "correlation_and_average"
+    }
+   ]
+  },
+  {
+   "line_start": 209,
+   "line_end": 211,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 213,
+   "line_end": 219,
+   "type": "acknowledgements",
+   "title": "Acknowledgement"
+  },
+  {
+   "line_start": 221,
+   "line_end": 223,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 76,
+   "title": "Numbers of surviving events in the psi(3686) inclusive MC sample after selections",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 93,
+   "title": "PDF models used in the simultaneous fit",
+   "section_type": "fit"
+  },
+  {
+   "line": 105,
+   "title": "Signal yield, significance, efficiency and branching fraction",
+   "section_type": "fit"
+  },
+  {
+   "line": 128,
+   "title": "Signal regions of tag A and tag B",
+   "section_type": "fit"
+  },
+  {
+   "line": 177,
+   "title": "Systematic uncertainties of the branching fraction measurement",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 1,
+ "max_tokens": 8192,
+ "latency_s": 5.6,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:19",
+ "failed_aspects": []
+}

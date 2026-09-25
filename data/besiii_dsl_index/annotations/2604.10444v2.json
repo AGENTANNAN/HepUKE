@@ -1,0 +1,352 @@
+{
+ "paper_id": "2604.10444v2",
+ "source_path": "arxiv_papers/2604.10444v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 472,
+ "n_lines_sent": 166,
+ "skipped_ranges": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 141,
+   "to": 141,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 169,
+   "to": 169,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 171,
+   "to": 171,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 173,
+   "to": 173,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 183,
+   "to": 183,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 185,
+   "to": 185,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 255,
+   "to": 255,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 340,
+   "to": 472,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 1,
+   "line_end": 7,
+   "type": "front_matter",
+   "title": "First Observation of D+ -> a0(980)+ rho and D+ -> a0(980)+ f0(500) in D+ -> pi+ pi+ pi- eta and D+ -> pi+ pi0 pi0 eta Decays"
+  },
+  {
+   "line_start": 11,
+   "line_end": 187,
+   "type": "front_matter",
+   "title": "Author affiliations and notes"
+  },
+  {
+   "line_start": 187,
+   "line_end": 187,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 189,
+   "line_end": 200,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 202,
+   "line_end": 202,
+   "type": "detector",
+   "title": "Detector and Monte Carlo Simulation"
+  },
+  {
+   "line_start": 204,
+   "line_end": 208,
+   "type": "event_selection",
+   "title": "Event Selection",
+   "units": [
+    {
+     "line_start": 204,
+     "line_end": 204,
+     "label": "double_tag_method"
+    },
+    {
+     "line_start": 206,
+     "line_end": 206,
+     "label": "d_meson_identification"
+    },
+    {
+     "line_start": 208,
+     "line_end": 208,
+     "label": "signal_candidate_selection"
+    }
+   ]
+  },
+  {
+   "line_start": 210,
+   "line_end": 222,
+   "type": "fit",
+   "title": "Amplitude Analysis"
+  },
+  {
+   "line_start": 224,
+   "line_end": 231,
+   "type": "results",
+   "title": "Fit Results",
+   "units": [
+    {
+     "line_start": 224,
+     "line_end": 231,
+     "label": "mass_projections"
+    }
+   ]
+  },
+  {
+   "line_start": 233,
+   "line_end": 233,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties in Amplitude Analysis",
+   "units": [
+    {
+     "line_start": 233,
+     "line_end": 233,
+     "label": "amplitude_model"
+    }
+   ]
+  },
+  {
+   "line_start": 235,
+   "line_end": 241,
+   "type": "fit",
+   "title": "Branching Fraction Measurement"
+  },
+  {
+   "line_start": 243,
+   "line_end": 243,
+   "type": "systematic_uncertainty",
+   "title": "Systematic Uncertainties in Branching Fraction Measurement",
+   "units": [
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "st_yield"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "eta_pi0_reconstruction"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "delta_e_cut"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "amplitude_model"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "2d_fit"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "bf_pi0_eta"
+    },
+    {
+     "line_start": 243,
+     "line_end": 243,
+     "label": "mc_sample_size"
+    }
+   ]
+  },
+  {
+   "line_start": 245,
+   "line_end": 247,
+   "type": "results",
+   "title": "Table I",
+   "units": [
+    {
+     "line_start": 245,
+     "line_end": 247,
+     "label": "table_i"
+    }
+   ]
+  },
+  {
+   "line_start": 249,
+   "line_end": 253,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 257,
+   "line_end": 285,
+   "type": "other",
+   "title": "Supplemental Material: 2D Fit"
+  },
+  {
+   "line_start": 287,
+   "line_end": 291,
+   "type": "other",
+   "title": "Supplemental Material: Background PDF Modeling"
+  },
+  {
+   "line_start": 293,
+   "line_end": 320,
+   "type": "other",
+   "title": "Supplemental Material: Figures"
+  },
+  {
+   "line_start": 322,
+   "line_end": 324,
+   "type": "other",
+   "title": "Supplemental Material: Tag-side Information"
+  },
+  {
+   "line_start": 326,
+   "line_end": 332,
+   "type": "systematic_uncertainty",
+   "title": "Supplemental Material: Systematic Uncertainties of Amplitude Analysis",
+   "units": [
+    {
+     "line_start": 326,
+     "line_end": 326,
+     "label": "table_iii_caption"
+    },
+    {
+     "line_start": 328,
+     "line_end": 328,
+     "label": "table_iii"
+    },
+    {
+     "line_start": 330,
+     "line_end": 330,
+     "label": "table_iv_caption"
+    },
+    {
+     "line_start": 332,
+     "line_end": 332,
+     "label": "table_iv"
+    }
+   ]
+  },
+  {
+   "line_start": 334,
+   "line_end": 336,
+   "type": "systematic_uncertainty",
+   "title": "Supplemental Material: Systematic Uncertainties of Branching Fraction Measurements",
+   "units": [
+    {
+     "line_start": 334,
+     "line_end": 336,
+     "label": "bf_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 338,
+   "line_end": 338,
+   "type": "references",
+   "title": "References"
+  }
+ ],
+ "tables": [
+  {
+   "line": 247,
+   "title": "Fit results for amplitudes in D+ -> pi+pi+pi-eta and D+ -> pi+pi0pi0eta",
+   "section_type": "results"
+  },
+  {
+   "line": 306,
+   "title": "Isospin relations and amplitude combinations for D+ -> X pi+",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 328,
+   "title": "Relative systematic uncertainties on phi and FF for D+ -> pi+pi+pi-eta",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 332,
+   "title": "Relative systematic uncertainties on phi and FF for D+ -> pi+pi0pi0eta",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 360,
+   "title": "Delta E windows, ST yields and efficiencies for tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 364,
+   "title": "Delta E windows, ST yields and efficiencies for tag modes",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 444,
+   "title": "Relative systematic uncertainties for BF measurements",
+   "section_type": "systematic_uncertainty"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 13.1,
+ "status": "ok",
+ "errors": [],
+ "warnings": [
+  "units of 243-243 share boundary line 243",
+  "units of 243-243 share boundary line 243",
+  "units of 243-243 share boundary line 243",
+  "units of 243-243 share boundary line 243",
+  "units of 243-243 share boundary line 243",
+  "units of 243-243 share boundary line 243",
+  "units of 243-243 share boundary line 243",
+  "nested spans 11-187 / 187-187"
+ ],
+ "revalidated_at": "2026-09-19T03:21:22",
+ "failed_aspects": [],
+ "tables_repaired": true
+}

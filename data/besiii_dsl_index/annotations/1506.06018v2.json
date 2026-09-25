@@ -1,0 +1,211 @@
+{
+ "paper_id": "1506.06018v2",
+ "source_path": "arxiv_papers/1506.06018v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 118,
+ "n_lines_sent": 45,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 8,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 10,
+   "to": 11,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 13,
+   "to": 14,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 16,
+   "to": 16,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 97,
+   "to": 118,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 9,
+   "line_end": 24,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 26,
+   "line_end": 30,
+   "type": "introduction",
+   "title": "Introduction"
+  },
+  {
+   "line_start": 32,
+   "line_end": 32,
+   "type": "detector",
+   "title": "Detector"
+  },
+  {
+   "line_start": 34,
+   "line_end": 42,
+   "type": "dataset",
+   "title": "Monte Carlo simulation"
+  },
+  {
+   "line_start": 44,
+   "line_end": 50,
+   "type": "event_selection",
+   "title": "Event selection",
+   "units": [
+    {
+     "line_start": 44,
+     "line_end": 44,
+     "label": "track_and_photon_selection"
+    },
+    {
+     "line_start": 46,
+     "line_end": 46,
+     "label": "jpsi_reconstruction"
+    },
+    {
+     "line_start": 48,
+     "line_end": 48,
+     "label": "pi0_selection"
+    },
+    {
+     "line_start": 50,
+     "line_end": 50,
+     "label": "kinematic_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 52,
+   "line_end": 53,
+   "type": "other",
+   "title": "Figure 1"
+  },
+  {
+   "line_start": 55,
+   "line_end": 57,
+   "type": "fit",
+   "title": "Fit to the pi0 J/psi mass spectrum"
+  },
+  {
+   "line_start": 59,
+   "line_end": 60,
+   "type": "other",
+   "title": "Figure 2"
+  },
+  {
+   "line_start": 62,
+   "line_end": 78,
+   "type": "results",
+   "title": "Cross section and ratio measurements",
+   "units": [
+    {
+     "line_start": 62,
+     "line_end": 62,
+     "label": "zc_yield_fit"
+    },
+    {
+     "line_start": 64,
+     "line_end": 64,
+     "label": "pi0pi0jpsi_yield_fit"
+    },
+    {
+     "line_start": 66,
+     "line_end": 70,
+     "label": "ratio_R"
+    },
+    {
+     "line_start": 72,
+     "line_end": 78,
+     "label": "born_cross_section"
+    }
+   ]
+  },
+  {
+   "line_start": 80,
+   "line_end": 80,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties",
+   "units": [
+    {
+     "line_start": 80,
+     "line_end": 80,
+     "label": "mass_width_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 82,
+   "line_end": 83,
+   "type": "other",
+   "title": "Figure 3"
+  },
+  {
+   "line_start": 85,
+   "line_end": 87,
+   "type": "other",
+   "title": "Table I"
+  },
+  {
+   "line_start": 89,
+   "line_end": 89,
+   "type": "systematic_uncertainty",
+   "title": "Systematic uncertainties for R and Born cross section",
+   "units": [
+    {
+     "line_start": 89,
+     "line_end": 89,
+     "label": "R_born_systematics"
+    }
+   ]
+  },
+  {
+   "line_start": 91,
+   "line_end": 91,
+   "type": "conclusion",
+   "title": "Summary"
+  },
+  {
+   "line_start": 93,
+   "line_end": 95,
+   "type": "acknowledgements",
+   "title": "Acknowledgements"
+  }
+ ],
+ "tables": [
+  {
+   "line": 87,
+   "title": "Efficiencies, yields, R, and Born cross sections at each energy point",
+   "section_type": "results"
+  }
+ ],
+ "attempt": 0,
+ "max_tokens": 8192,
+ "latency_s": 4.4,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:09",
+ "failed_aspects": []
+}

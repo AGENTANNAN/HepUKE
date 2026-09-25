@@ -1,0 +1,282 @@
+{
+ "paper_id": "2301.03214v2",
+ "source_path": "arxiv_papers/2301.03214v2.md",
+ "annotator_version": "besiii-annot-1",
+ "prompt_sha1": "4482d30dc6f7",
+ "model": "deepseek-ai/deepseek-v4.1-flash",
+ "n_lines": 366,
+ "n_lines_sent": 186,
+ "skipped_ranges": [
+  {
+   "from": 1,
+   "to": 6,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 8,
+   "to": 15,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 19,
+   "to": 19,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 21,
+   "to": 28,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 60,
+   "to": 63,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 65,
+   "to": 65,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 67,
+   "to": 67,
+   "reason": "author_affiliation"
+  },
+  {
+   "from": 334,
+   "to": 366,
+   "reason": "bibliography"
+  }
+ ],
+ "sections": [
+  {
+   "line_start": 7,
+   "line_end": 69,
+   "type": "front_matter",
+   "title": "Front matter"
+  },
+  {
+   "line_start": 71,
+   "line_end": 71,
+   "type": "abstract",
+   "title": "Abstract"
+  },
+  {
+   "line_start": 73,
+   "line_end": 81,
+   "type": "introduction",
+   "title": "I. INTRODUCTION"
+  },
+  {
+   "line_start": 83,
+   "line_end": 87,
+   "type": "detector",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 89,
+   "line_end": 117,
+   "type": "dataset",
+   "title": "II. BESIII DETECTOR AND MONTE CARLO SIMULATION"
+  },
+  {
+   "line_start": 119,
+   "line_end": 163,
+   "type": "fit",
+   "title": "III. METHOD"
+  },
+  {
+   "line_start": 165,
+   "line_end": 186,
+   "type": "event_selection",
+   "title": "IV. THE ST ANALYSIS",
+   "units": [
+    {
+     "line_start": 165,
+     "line_end": 167,
+     "label": "track_selection"
+    },
+    {
+     "line_start": 169,
+     "line_end": 183,
+     "label": "kinematic_variables"
+    },
+    {
+     "line_start": 185,
+     "line_end": 186,
+     "label": "st_fit"
+    }
+   ]
+  },
+  {
+   "line_start": 188,
+   "line_end": 229,
+   "type": "event_selection",
+   "title": "V. THE DT ANALYSIS",
+   "units": [
+    {
+     "line_start": 188,
+     "line_end": 212,
+     "label": "dt_selection"
+    },
+    {
+     "line_start": 214,
+     "line_end": 221,
+     "label": "dt_signal_yields"
+    },
+    {
+     "line_start": 223,
+     "line_end": 229,
+     "label": "branching_fractions"
+    }
+   ]
+  },
+  {
+   "line_start": 231,
+   "line_end": 298,
+   "type": "systematic_uncertainty",
+   "title": "VI. SYSTEMATIC UNCERTAINTIES",
+   "units": [
+    {
+     "line_start": 231,
+     "line_end": 244,
+     "label": "st_yield_cancellation"
+    },
+    {
+     "line_start": 246,
+     "line_end": 246,
+     "label": "tracking_pid"
+    },
+    {
+     "line_start": 248,
+     "line_end": 260,
+     "label": "efficiency_estimate"
+    },
+    {
+     "line_start": 262,
+     "line_end": 274,
+     "label": "mc_statistics"
+    },
+    {
+     "line_start": 276,
+     "line_end": 276,
+     "label": "misidentification"
+    },
+    {
+     "line_start": 278,
+     "line_end": 290,
+     "label": "background_estimate"
+    },
+    {
+     "line_start": 292,
+     "line_end": 292,
+     "label": "ks0_veto"
+    },
+    {
+     "line_start": 294,
+     "line_end": 294,
+     "label": "binning_scheme"
+    },
+    {
+     "line_start": 296,
+     "line_end": 296,
+     "label": "qc_correction"
+    },
+    {
+     "line_start": 298,
+     "line_end": 298,
+     "label": "total"
+    }
+   ]
+  },
+  {
+   "line_start": 300,
+   "line_end": 314,
+   "type": "conclusion",
+   "title": "VII. SUMMARY"
+  },
+  {
+   "line_start": 316,
+   "line_end": 320,
+   "type": "acknowledgements",
+   "title": "VIII. ACKNOWLEDGEMENT"
+  },
+  {
+   "line_start": 322,
+   "line_end": 332,
+   "type": "other",
+   "title": "Appendix A: Branching fractions of the known exclusive D0(D+) decays involving pi+pi+pi-"
+  }
+ ],
+ "tables": [
+  {
+   "line": 145,
+   "title": "Input parameters for the QC correction",
+   "section_type": "fit"
+  },
+  {
+   "line": 240,
+   "title": "Signal yields of D0 to pi+pi+pi-X in M3pi intervals",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 250,
+   "title": "Signal yields of D+ to pi+pi+pi-X in M3pi intervals",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 254,
+   "title": "Efficiency matrix for D0 to pi+pi+pi-X",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 258,
+   "title": "Efficiency matrix for D+ to pi+pi+pi-X",
+   "section_type": "event_selection"
+  },
+  {
+   "line": 280,
+   "title": "Measured quantities S, M, Cf, fCP+, fQC",
+   "section_type": "fit"
+  },
+  {
+   "line": 284,
+   "title": "Produced signal yields and partial branching fractions for D0",
+   "section_type": "results"
+  },
+  {
+   "line": 288,
+   "title": "Produced signal yields and partial branching fractions for D+",
+   "section_type": "results"
+  },
+  {
+   "line": 328,
+   "title": "Relative systematic uncertainties",
+   "section_type": "systematic_uncertainty"
+  },
+  {
+   "line": 332,
+   "title": "Initial and final states for D0 inclusive decay",
+   "section_type": "other"
+  },
+  {
+   "line": 366,
+   "title": "Initial and final states for D+ inclusive decay",
+   "section_type": "other"
+  }
+ ],
+ "attempt": 2,
+ "max_tokens": 8192,
+ "latency_s": 6.2,
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "revalidated_at": "2026-09-19T03:21:16",
+ "failed_aspects": [],
+ "tables_repaired": true
+}
