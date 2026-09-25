@@ -1,22 +1,17 @@
-# HepUKE — a retrieval agent that knows when to stop
+# HepUKE — uncertainty-aware knowledge evolution for HEP analysis agents
 
-An agentic RAG system for technical corpora. Three things it does that a
-standard retrieve-then-generate pipeline does not:
+![HepUKE framework](figures/HEPUKE_structure_update.png)
 
-- **Scores evidence by confidence, not just relevance.** Each candidate is
-  judged by how much it reduces the entropy of the generated answer, which on
-  a redundant technical corpus ranks precedents better than a cross-encoder.
-- **Stops retrieving when more retrieval stops helping.** A controller fuses a
-  change-point test on the answer posterior with a predicted next-round
-  information gain, and ends the loop early. On HotpotQA that cuts rounds
-  ~30% at unchanged evidence F1.
-- **Writes back what it learns.** High-confidence generations pass a parse +
-  structure gate and an entropy gate, then enter the knowledge base, which is
-  ranked by similarity × stored confidence.
+An uncertainty-aware RAG system for technical analysis corpora. Three things it does beyond a standard retrieve-then-generate pipeline:
 
-It ships with a BESIII high-energy-physics corpus and a 1,000-question
-benchmark, but nothing in the retrieval loop is physics-specific — point it at
-your own documents and it works the same way.
+- **Scores precedents by generation uncertainty, not relevance alone.** Each candidate is evaluated by the reduction in token-level uncertainty when generating a BESIII DSL program. Selection-focused entropy provides a stronger signal than full-code entropy for identifying useful precedents.
+
+- **Stops retrieval when additional rounds provide little information.** A controller combines backward stationarity detection with a forward estimate of marginal information gain. On BESIII PhysicsQA, it reduces retrieval rounds by 43.0% and prompt tokens by 44.9%, with a 2.27-point accuracy decrease; on HotpotQA, it reduces runtime by 18.2% with a 0.76-point F1 decrease.
+
+- **Evolves the knowledge base through confidence-gated write-back.** Generated DSL programs are admitted only after structural validation and uncertainty-based gating. An interval gate rejects both conflicting generations and overconfident transcription of unsuitable precedent-specific details.
+
+The repository includes the BESIII DSL corpus and a 1,000-question BESIII PhysicsQA benchmark. The retrieval controller is also evaluated on HotpotQA, while the confidence estimator and knowledge-evolution components are designed for structured HEP analysis specifications.
+
 
 **You supply:** a Milvus 2.x instance and an OpenAI-compatible chat endpoint.
 No keys, endpoints, model weights or hosted indexes are included.
