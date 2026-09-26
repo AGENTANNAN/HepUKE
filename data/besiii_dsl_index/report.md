@@ -1,9 +1,9 @@
 # Fact index build report
 
-- papers: 862
+- papers: 700
 - chunks: 66360
 - facts: 219289
-- annotation status: {'ok': 853, 'invalid': 8, 'partial': 1}
+- annotation status: {'ok': 700, 'invalid': 8, 'partial': 1}
 - papers with zero facts: 0
 - DSL parse failures: 0
 
